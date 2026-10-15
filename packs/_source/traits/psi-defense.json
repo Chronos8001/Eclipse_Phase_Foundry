@@ -1,0 +1,22 @@
+{
+  "_id": "62e2ed628a43f027",
+  "_key": "!items!62e2ed628a43f027",
+  "name": "Psi Defense",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "both",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
+    "description": "<p>The character's mind is inherently resistant to mental attacks. At Level 1, apply a +10 modifier to all defense tests made against psi attacks. At Level 2, apply a +20 modifier.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  }
+}

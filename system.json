@@ -1,0 +1,92 @@
+{
+  "id": "ep1e",
+  "title": "Eclipse Phase (1st Edition)",
+  "description": "Système non officiel pour Eclipse Phase, 1re édition : fiches de personnage, morphs, tests d100, combat, dégâts, stress et Moxie. Eclipse Phase est une marque de Posthuman Studios ; le contenu de jeu est publié sous licence Creative Commons BY-NC-SA 3.0.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Chronos8001",
+      "url": "https://github.com/Chronos8001"
+    }
+  ],
+  "esmodules": ["module/ep1e.mjs"],
+  "styles": ["styles/ep1e.css"],
+  "languages": [
+    { "lang": "fr", "name": "Français", "path": "lang/fr.json" },
+    { "lang": "en", "name": "English", "path": "lang/en.json" }
+  ],
+  "packs": [
+    {
+      "name": "morphs",
+      "label": "Morphs (Core)",
+      "path": "packs/morphs",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "traits",
+      "label": "Traits (Core)",
+      "path": "packs/traits",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "weapons",
+      "label": "Weapons (Core)",
+      "path": "packs/weapons",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "armor",
+      "label": "Armor (Core)",
+      "path": "packs/armor",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Eclipse Phase",
+      "sorting": "m",
+      "packs": ["morphs", "traits", "weapons", "armor"]
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": { "htmlFields": ["biography", "notes"] },
+      "npc": { "htmlFields": ["biography", "notes"] }
+    },
+    "Item": {
+      "skill": { "htmlFields": ["description"] },
+      "morph": { "htmlFields": ["description"] },
+      "trait": { "htmlFields": ["description"] },
+      "weapon": { "htmlFields": ["description"] },
+      "armor": { "htmlFields": ["description"] },
+      "gear": { "htmlFields": ["description"] },
+      "augmentation": { "htmlFields": ["description"] },
+      "sleight": { "htmlFields": ["description"] }
+    }
+  },
+  "socket": true,
+  "initiative": "1d100 - 1 + @initiative",
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "damage",
+  "secondaryTokenAttribute": "stress",
+  "url": "https://github.com/Chronos8001/Eclipse_Phase_Foundry",
+  "manifest": "https://github.com/Chronos8001/Eclipse_Phase_Foundry/releases/latest/download/system.json",
+  "download": "https://github.com/Chronos8001/Eclipse_Phase_Foundry/releases/latest/download/ep1e.zip",
+  "license": "LICENSE",
+  "readme": "README.md"
+}

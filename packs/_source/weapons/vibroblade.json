@@ -1,0 +1,30 @@
+{
+  "_id": "ef4330210b307a1b",
+  "_key": "!items!ef4330210b307a1b",
+  "name": "Vibroblade",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "melee",
+    "skill": "blades",
+    "ap": -2,
+    "dv": "2d10",
+    "damageType": "kinetic",
+    "addDB": true,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

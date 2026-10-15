@@ -1,0 +1,30 @@
+{
+  "_id": "2dcb762999664d21",
+  "_key": "!items!2dcb762999664d21",
+  "name": "Sniper Rifle (Railgun)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "kineticWeapons",
+    "ap": -15,
+    "dv": "2d10 + 12",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SA",
+    "ammo": {
+      "value": 40,
+      "max": 40
+    },
+    "range": "270 / 600 / 1650 / 3450",
+    "equipped": false,
+    "description": "<p>Batterie : 200 tirs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 28000,
+  "ownership": {
+    "default": 0
+  }
+}

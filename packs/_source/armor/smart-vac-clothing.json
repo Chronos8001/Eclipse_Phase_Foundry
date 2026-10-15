@@ -1,0 +1,20 @@
+{
+  "_id": "cf070eca09a21a29",
+  "_key": "!items!cf070eca09a21a29",
+  "name": "Smart Vac Clothing",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "energy": 2,
+    "kinetic": 4,
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

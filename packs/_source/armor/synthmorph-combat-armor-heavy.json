@@ -1,0 +1,20 @@
+{
+  "_id": "0cb2d4a54ce138b4",
+  "_key": "!items!0cb2d4a54ce138b4",
+  "name": "Synthmorph Combat Armor (Heavy)",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "energy": 16,
+    "kinetic": 16,
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

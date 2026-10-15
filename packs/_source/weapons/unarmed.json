@@ -1,0 +1,30 @@
+{
+  "_id": "6dfa18ccc8251ea1",
+  "_key": "!items!6dfa18ccc8251ea1",
+  "name": "Unarmed",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "melee",
+    "skill": "unarmedCombat",
+    "ap": 0,
+    "dv": "1d10",
+    "damageType": "kinetic",
+    "addDB": true,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "description": "<p>Synthmorphs de taille humaine : +2 DV.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  }
+}

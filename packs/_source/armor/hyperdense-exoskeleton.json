@@ -1,0 +1,20 @@
+{
+  "_id": "2e4ee77375a96a34",
+  "_key": "!items!2e4ee77375a96a34",
+  "name": "Hyperdense Exoskeleton",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "energy": 6,
+    "kinetic": 12,
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

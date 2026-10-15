@@ -1,0 +1,30 @@
+{
+  "_id": "1609aff6c4b99753",
+  "_key": "!items!1609aff6c4b99753",
+  "name": "Cyberclaws",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "melee",
+    "skill": "unarmedCombat",
+    "ap": -2,
+    "dv": "1d10 + 3",
+    "damageType": "kinetic",
+    "addDB": true,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "description": "<p>Voir p. 307.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

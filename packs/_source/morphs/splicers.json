@@ -1,0 +1,51 @@
+{
+  "_id": "e29dced24e6445aa",
+  "_key": "!items!e29dced24e6445aa",
+  "name": "Splicers",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack",
+    "advantages": "+5 to one aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 10,
+    "creditCost": "High",
+    "active": false,
+    "description": "<p>Splicers are genefixed humans. Their genome has been cleansed of hereditary diseases and optimized for looks and health, but has not otherwise been substantially upgraded. Splicers make up the majority of transhumanity.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

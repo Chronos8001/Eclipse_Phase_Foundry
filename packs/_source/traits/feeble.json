@@ -1,0 +1,22 @@
+{
+  "_id": "97583d299e8bd95d",
+  "_key": "!items!97583d299e8bd95d",
+  "name": "Feeble",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 20,
+    "costText": "Bonus: 20 CP",
+    "description": "<p>The character is particularly weak with one aptitude. That aptitude must be purchased at a rating lower than 5, and may never be upgraded during character advancement. The aptitude maximum is 10, no matter what morph the character is wearing.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 40000,
+  "ownership": {
+    "default": 0
+  }
+}

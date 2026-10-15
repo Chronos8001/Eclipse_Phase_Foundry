@@ -1,0 +1,30 @@
+{
+  "_id": "e764a5d6e7a2f2aa",
+  "_key": "!items!e764a5d6e7a2f2aa",
+  "name": "Flex Cutter",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "melee",
+    "skill": "blades",
+    "ap": -1,
+    "dv": "1d10 + 3",
+    "damageType": "kinetic",
+    "addDB": true,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

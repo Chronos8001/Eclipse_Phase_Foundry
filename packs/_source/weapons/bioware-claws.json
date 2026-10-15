@@ -1,0 +1,30 @@
+{
+  "_id": "04b5391183156271",
+  "_key": "!items!04b5391183156271",
+  "name": "Bioware Claws",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "melee",
+    "skill": "unarmedCombat",
+    "ap": -1,
+    "dv": "1d10 + 1",
+    "damageType": "kinetic",
+    "addDB": true,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "description": "<p>Voir p. 304.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  }
+}

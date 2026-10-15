@@ -1,0 +1,22 @@
+{
+  "_id": "f9992f77262bc198",
+  "_key": "!items!f9992f77262bc198",
+  "name": "Right At Home",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>The character chooses one type of morph (splicer, neo-hominid, case, etc.). The character always feels right at home in morphs of this type. When resleeving into this type of morph, the character automatically adjusts to the new body, no Integration or Alienation Test needed, suffering no penalties and no mental stress.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 26000,
+  "ownership": {
+    "default": 0
+  }
+}

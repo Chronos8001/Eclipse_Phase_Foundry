@@ -1,0 +1,22 @@
+{
+  "_id": "395db6b521dbaa1f",
+  "_key": "!items!395db6b521dbaa1f",
+  "name": "Immortality Blues",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>The character has lived so long—over 100 years-they're bored with life and now have difficulty motivating themselves. They were old when longevity treatments first became available, survived the Fall, and continue to soldier onward—though they find it increasingly harder to care, take interest in things around them, or fear final death. The character only receives half the Moxie and Rez Points award for completing motivational goals. This trait may not be purchased by characters with the infolife or uplift backgrounds.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 45000,
+  "ownership": {
+    "default": 0
+  }
+}

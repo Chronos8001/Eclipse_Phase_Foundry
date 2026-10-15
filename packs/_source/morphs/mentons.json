@@ -1,0 +1,51 @@
+{
+  "_id": "686402a7531ba45a",
+  "_key": "!items!686402a7531ba45a",
+  "name": "Mentons",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 10,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 5
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Eidetic Memory, Hyper Linguist, Math Boost",
+    "advantages": "+10 COG, +5 INT, +5 WIL, +5 to one aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 40,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Mentons are genetically modified to increase cognitive abilities, particularly learning ability, creativity, attentiveness, and memory. Rumors exist of superenhanced mentons with more extreme intelligence mods, but brain-hacking is notoriously difficult, and many attempts to redesign mental faculties result in impaired functioning, instability, or insanity.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

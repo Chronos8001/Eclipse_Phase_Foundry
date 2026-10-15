@@ -1,0 +1,20 @@
+{
+  "_id": "e27ac3116c953b6a",
+  "_key": "!items!e27ac3116c953b6a",
+  "name": "Hard Suit",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "energy": 15,
+    "kinetic": 15,
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

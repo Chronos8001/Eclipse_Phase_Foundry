@@ -1,0 +1,22 @@
+{
+  "_id": "7bb00466a7da23ac",
+  "_key": "!items!7bb00466a7da23ac",
+  "name": "Danger Sense",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>The character has an intuitive sixth sense that warns them of imminent threats. They receive a +10 modifier on Surprise Tests (p. 204).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

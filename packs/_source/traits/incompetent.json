@@ -1,0 +1,22 @@
+{
+  "_id": "d1d47199bb2a4ec1",
+  "_key": "!items!d1d47199bb2a4ec1",
+  "name": "Incompetent",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>The character is completely incapable of performing a particular chosen active skill, no matter any training they may receive. They may not buy this skill during character creation or later advancement, and the modifier for defaulting to the linked aptitude of this particular skill is -10. This may not be used for exotic weapon skills, and should be used for a skill that could be of use to the character.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 47000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "433dedf87ef175c5",
+  "_key": "!items!433dedf87ef175c5",
+  "name": "Laser Pulser",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "beamWeapons",
+    "ap": 0,
+    "dv": "2d10",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "SA",
+    "ammo": {
+      "value": 100,
+      "max": 100
+    },
+    "range": "30 / 100 / 150 / 250",
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 31000,
+  "ownership": {
+    "default": 0
+  }
+}

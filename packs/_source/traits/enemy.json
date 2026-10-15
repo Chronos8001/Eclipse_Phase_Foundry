@@ -1,0 +1,22 @@
+{
+  "_id": "fca5b2382a87d7b9",
+  "_key": "!items!fca5b2382a87d7b9",
+  "name": "Enemy",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>At some point in their past, the character made an enemy for life who continues to haunt them. The gamemaster and player should work out the details on this enmity, and the gamemaster should use the enemy as an occasional threat, surprise, and hindrance.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 39000,
+  "ownership": {
+    "default": 0
+  }
+}

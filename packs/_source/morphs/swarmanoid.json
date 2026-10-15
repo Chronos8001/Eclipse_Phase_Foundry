@@ -1,0 +1,51 @@
+{
+  "_id": "98d14d28dc3062dd",
+  "_key": "!items!98d14d28dc3062dd",
+  "name": "Swarmanoid",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "Walker (2/8), Hopper (4/20), Rotor (4/32)",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Swarm Composition",
+    "advantages": "See Swarm Composition (p. 311)",
+    "disadvantages": "See Swarm Composition (p. 311)",
+    "skillBonuses": [],
+    "cpCost": 25,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>The swarmanoid is not a single shell per se, but rather a swarm of hundreds of insect-sized robotic microdrones. Each individual \"bug\" is capable of crawling, rolling, hopping several meters, or using nanocopter fan blades for airlift. The controlling computer and sensor systems are distributed throughout the swarm. Though the swarm can \"meld\" together into a roughly child-sized shape, the swarm is incapable of tackling physical tasks like grabbing, lifting, or holding as a unit. Individual bugs are quite capable of interfacing with electronics.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 28000,
+  "ownership": {
+    "default": 0
+  }
+}

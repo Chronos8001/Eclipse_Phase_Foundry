@@ -1,0 +1,22 @@
+{
+  "_id": "06e66b7fa5a1bff5",
+  "_key": "!items!06e66b7fa5a1bff5",
+  "name": "Mild Allergy",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 5,
+    "costText": "Bonus: 5 CP",
+    "description": "<p>The morph is allergic to a specific chosen allergen (dust, dander, plant pollen, certain chemicals) and suffers mild discomfort when exposed to it (eye irritation, sneezing, difficult breathing). Apply a -10 modifier to all tests while the character remains exposed. This trait is only available for biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 51000,
+  "ownership": {
+    "default": 0
+  }
+}

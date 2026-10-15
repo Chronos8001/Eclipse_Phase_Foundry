@@ -1,0 +1,22 @@
+{
+  "_id": "ba4fc97152b32ffa",
+  "_key": "!items!ba4fc97152b32ffa",
+  "name": "Ambidextrous",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>The character can use and manipulate objects equally well with both hands (they do not suffer the off-hand modifier, as noted on p. 193). If the character has other prehensile limbs (feet, tail, tentacles, etc), this trait may be applied to a limb other than the hand. This trait may be taken multiple times for multiple limbs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

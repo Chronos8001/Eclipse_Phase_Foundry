@@ -1,0 +1,51 @@
+{
+  "_id": "4f573fd1837d2234",
+  "_key": "!items!4f573fd1837d2234",
+  "name": "Worker Pods",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Puppet Sock",
+    "advantages": "+10 SOM, +5 to one aptitude of the player's choice",
+    "disadvantages": "Social Stigma (Pod) trait",
+    "skillBonuses": [],
+    "cpCost": 20,
+    "creditCost": "High",
+    "active": false,
+    "description": "<p>Part exalt human, part machine, these basic pods are virtually indistinguishable from humans. Worker pods are often used in menial labor jobs where interaction with humans is necessary.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

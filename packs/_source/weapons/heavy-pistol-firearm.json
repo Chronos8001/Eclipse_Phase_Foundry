@@ -1,0 +1,30 @@
+{
+  "_id": "9ecbb551c460a685",
+  "_key": "!items!9ecbb551c460a685",
+  "name": "Heavy Pistol (Firearm)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "kineticWeapons",
+    "ap": -4,
+    "dv": "2d10 + 4",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SA, BF, FA",
+    "ammo": {
+      "value": 16,
+      "max": 16
+    },
+    "range": "10 / 35 / 60 / 80",
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

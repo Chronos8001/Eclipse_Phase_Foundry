@@ -1,0 +1,22 @@
+{
+  "_id": "4a1617f5497286c2",
+  "_key": "!items!4a1617f5497286c2",
+  "name": "Limber",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
+    "description": "<p>The morph is especially flexible and supple, capable of graceful contortions and interesting positions. At Level 1, the character can smoke with their toes, do the splits, and squeeze into small, cramped spaces. At Level 2, they are double-jointed escape artists. Each level provides a +10 modifier to escaping from bonds, fitting into narrow confines, and other acts relying on contortion or flexibility. This trait is only available to biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

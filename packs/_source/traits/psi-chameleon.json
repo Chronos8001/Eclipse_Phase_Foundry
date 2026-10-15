@@ -1,0 +1,22 @@
+{
+  "_id": "1dbdfba2a17bf708",
+  "_key": "!items!1dbdfba2a17bf708",
+  "name": "Psi Chameleon",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "both",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>The character's mental state is naturally resistant to psi sensing. Apply a -10 modifier to any attempts to locate or detect the character via psi sleights.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "3539f69a2a7d28fa",
+  "_key": "!items!3539f69a2a7d28fa",
+  "name": "Math Wiz",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>The character can perform any feat of calculation, including the most complex and advanced mathematics, instantly and with great precision, with the same ease an unmodified human can add 2 + 3. The character can calculate odds with great precision, find correlations in numerical data, and perform similar tasks with great ease. Apply a +30 modifier on tests involving math calculations.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

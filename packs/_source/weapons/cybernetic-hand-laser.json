@@ -1,0 +1,30 @@
+{
+  "_id": "58dc394b3283ad66",
+  "_key": "!items!58dc394b3283ad66",
+  "name": "Cybernetic Hand Laser",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "beamWeapons",
+    "ap": 0,
+    "dv": "2d10",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "SA",
+    "ammo": {
+      "value": 50,
+      "max": 50
+    },
+    "range": "30 / 80 / 125 / 230",
+    "equipped": false,
+    "description": "<p>Voir p. 308.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 30000,
+  "ownership": {
+    "default": 0
+  }
+}

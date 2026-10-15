@@ -1,0 +1,30 @@
+{
+  "_id": "cbb1016d55c03271",
+  "_key": "!items!cbb1016d55c03271",
+  "name": "Machine Gun (Railgun)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "kineticWeapons",
+    "ap": -9,
+    "dv": "2d10 + 8",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "BF, FA",
+    "ammo": {
+      "value": 50,
+      "max": 50
+    },
+    "range": "150 / 600 / 1500 / 3000",
+    "equipped": false,
+    "description": "<p>Batterie : 200 tirs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 29000,
+  "ownership": {
+    "default": 0
+  }
+}

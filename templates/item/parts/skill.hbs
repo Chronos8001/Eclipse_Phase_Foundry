@@ -1,0 +1,41 @@
+<div class="form-grid">
+  <div class="form-group">
+    <label>{{localize "EP1E.Skill.key"}}</label>
+    <select name="system.key">{{selectOptions skillChoices selected=system.key}}</select>
+    <p class="hint">{{localize "EP1E.Skill.keyHint"}}</p>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Skill.field"}}</label>
+    <input type="text" name="system.field" value="{{system.field}}">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Skill.aptitude"}}</label>
+    <select name="system.aptitude">{{selectOptions aptitudeChoices selected=system.aptitude localize=true}}</select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Skill.category"}}</label>
+    <select name="system.category">{{selectOptions config.skillCategories selected=system.category localize=true}}</select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Skill.ranks"}}</label>
+    <input type="number" name="system.ranks" value="{{system.ranks}}" min="0">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Skill.mod"}}</label>
+    <input type="number" name="system.mod" value="{{system.mod}}">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Skill.specialization"}}</label>
+    <input type="text" name="system.specialization" value="{{system.specialization}}">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Skill.noDefault"}}</label>
+    <input type="checkbox" name="system.noDefault" {{checked system.noDefault}}>
+  </div>
+  {{#if item.actor}}
+  <div class="form-group total-line">
+    <label>{{localize "EP1E.Skill.total"}}</label>
+    <span>{{system.aptitudeValue}} + {{system.ranks}}{{#if system.morphBonus}} {{ep1eSigned system.morphBonus}}{{/if}}{{#if system.mod}} {{ep1eSigned system.mod}}{{/if}} = <strong>{{system.total}}</strong></span>
+  </div>
+  {{/if}}
+</div>

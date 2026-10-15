@@ -1,0 +1,30 @@
+{
+  "_id": "51ba2318b7a07642",
+  "_key": "!items!51ba2318b7a07642",
+  "name": "Torch",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "sprayWeapons",
+    "ap": -4,
+    "dv": "3d10",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "SS",
+    "ammo": {
+      "value": 20,
+      "max": 20
+    },
+    "range": "5 / 15 / 30 / ‒",
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 38000,
+  "ownership": {
+    "default": 0
+  }
+}

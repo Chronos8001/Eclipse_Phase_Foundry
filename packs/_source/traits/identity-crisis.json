@@ -1,0 +1,22 @@
+{
+  "_id": "5bc136271657e7b5",
+  "_key": "!items!5bc136271657e7b5",
+  "name": "Identity Crisis",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>The character's ego has trouble adapting itself to the changed look of a new morph—they are stuck with the mental image of their original body, and simply do not grow accustomed to their new face(s). As a result, the character has difficulty identifying themselves in the mirror, photos, surveillance feeds, etc. They frequently forget the look and shape of their current morph, acting inappropriately, describing themselves by their original body, forgetting to duck when walking through doorways, etc. This is primarily a roleplaying trait, but the gamemaster may apply appropriate modifiers (usually -10) to tests affected by this inability to adapt.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 43000,
+  "ownership": {
+    "default": 0
+  }
+}

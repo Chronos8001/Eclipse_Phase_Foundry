@@ -1,0 +1,51 @@
+{
+  "_id": "0825d4a81a13bbab",
+  "_key": "!items!0825d4a81a13bbab",
+  "name": "Novacrab",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 11,
+      "kinetic": 11
+    },
+    "movement": "",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Carapace Armor, Cortical Stack, Cyberbrain, Enhanced Respiration, Gills, Mnemonic Augmentation, Oxygen Reserve, Puppet Sock, Temperature Tolerance, Vacuum Sealing",
+    "advantages": "10 legs, Carapace Armor (11/11), Claw Attack (DV 2d10), +10 SOM, +5 to two other aptitudes of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 60,
+    "creditCost": "Expensive (minimum 30,000+)",
+    "active": false,
+    "description": "<p>Novacrabs are a pod design bio-engineered from coconut crab and spider crab stock and grown to a larger (human) size. Novacrabs are ideal for hazardous work environments as well as vacworker, police, or bodyguard duties, given their ten 2-meter long legs, massive claws, and chitinous armor. They climb and handle microgravity well and can withstand a wide range of atmospheric pressure (and sudden pressure changes) from vacuum to deep sea. Novacrabs feature compound eyes (with human-equivalent image resolution), gills, dexterous manipulatory digits on their fifth set of limbs, and transgenic vocal cords.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  }
+}

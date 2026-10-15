@@ -1,0 +1,40 @@
+<section class="tab {{tab.cssClass}}" data-group="primary" data-tab="ego">
+
+  <section class="panel details">
+    <h3>{{localize "EP1E.Section.ego"}}</h3>
+    <div class="detail-grid">
+      <label>{{localize "EP1E.Details.background"}}<input type="text" name="system.details.background" value="{{system.details.background}}"></label>
+      <label>{{localize "EP1E.Details.faction"}}<input type="text" name="system.details.faction" value="{{system.details.faction}}"></label>
+      <label>{{localize "EP1E.Details.gender"}}<input type="text" name="system.details.gender" value="{{system.details.gender}}"></label>
+      <label>{{localize "EP1E.Details.age"}}<input type="text" name="system.details.age" value="{{system.details.age}}"></label>
+      <label>{{localize "EP1E.Details.muse"}}<input type="text" name="system.details.muse" value="{{system.details.muse}}"></label>
+      <label>{{localize "EP1E.Details.credits"}}<input type="number" name="system.details.credits" value="{{system.details.credits}}"></label>
+      <label>{{localize "EP1E.Details.rez"}}
+        <span class="pair"><input type="number" name="system.details.rez.value" value="{{system.details.rez.value}}" min="0" data-tooltip="EP1E.Details.rezCurrent">
+        / <input type="number" name="system.details.rez.total" value="{{system.details.rez.total}}" min="0" data-tooltip="EP1E.Details.rezTotal"></span></label>
+      <label>{{localize "EP1E.Details.cp"}}<input type="number" name="system.details.cp" value="{{system.details.cp}}"></label>
+    </div>
+    <label class="wide">{{localize "EP1E.Details.motivations"}}
+      <input type="text" name="system.details.motivations" value="{{system.details.motivations}}" placeholder="+Exploration, −Hypercapitalism, +Open Source">
+    </label>
+  </section>
+
+  <section class="panel rep">
+    <h3>{{localize "EP1E.Section.rep"}}</h3>
+    <div class="rep-grid">
+      {{#each rep as |r|}}
+      <label data-tooltip="{{localize (concat 'EP1E.RepNetwork.' r.key)}}">{{localize r.label}}<input type="number" name="system.rep.{{r.key}}" value="{{r.value}}" min="0"></label>
+      {{/each}}
+    </div>
+  </section>
+
+  <section class="panel biography">
+    <h3>{{localize "EP1E.Section.biography"}}</h3>
+    {{formInput systemFields.biography enriched=enriched.biography value=source.system.biography name="system.biography" toggled=true}}
+  </section>
+
+  <section class="panel notes">
+    <h3>{{localize "EP1E.Section.notes"}}</h3>
+    {{formInput systemFields.notes enriched=enriched.notes value=source.system.notes name="system.notes" toggled=true}}
+  </section>
+</section>

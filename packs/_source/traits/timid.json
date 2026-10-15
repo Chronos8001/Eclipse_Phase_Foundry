@@ -1,0 +1,22 @@
+{
+  "_id": "d161b9fb979acab6",
+  "_key": "!items!d161b9fb979acab6",
+  "name": "Timid",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>This character frightens easily. They suffer a -10 modifier when resisting fear or intimidation.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 63000,
+  "ownership": {
+    "default": 0
+  }
+}

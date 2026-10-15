@@ -1,0 +1,30 @@
+{
+  "_id": "bb7eb5804e2c72aa",
+  "_key": "!items!bb7eb5804e2c72aa",
+  "name": "Particle Beam Bolter",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "beamWeapons",
+    "ap": -2,
+    "dv": "2d10 + 4",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "SA",
+    "ammo": {
+      "value": 50,
+      "max": 50
+    },
+    "range": "30 / 100 / 150 / 300",
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 33000,
+  "ownership": {
+    "default": 0
+  }
+}

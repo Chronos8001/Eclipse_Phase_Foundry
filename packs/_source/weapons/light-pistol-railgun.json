@@ -1,0 +1,30 @@
+{
+  "_id": "2fb9479241c8b89a",
+  "_key": "!items!2fb9479241c8b89a",
+  "name": "Light Pistol (Railgun)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "kineticWeapons",
+    "ap": -3,
+    "dv": "2d10 + 2",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SA, BF, FA",
+    "ammo": {
+      "value": 10,
+      "max": 10
+    },
+    "range": "15 / 37 / 60 / 90",
+    "equipped": false,
+    "description": "<p>Batterie : 200 tirs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  }
+}

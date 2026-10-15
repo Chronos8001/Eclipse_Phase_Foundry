@@ -1,0 +1,51 @@
+{
+  "_id": "564be2aa9b806174",
+  "_key": "!items!564be2aa9b806174",
+  "name": "Sylphs",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 10,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Clean Metabolism, Cortical Stack, Enhanced Pheromones",
+    "advantages": "Striking Looks (Level 1) trait, +5 COO, +10 SAV, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 40,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Sylph morphs are tailor-made for media icons, elite socialites, XP stars, models, and narcissists. Sylph gene sequences are specifically designed for distinctive good looks. Ethereal and elfin features are common, with slim and lithe bodies. Their metabolism has also been sanitized to eliminate unpleasant bodily odors and their pheromones adjusted for universal appeal.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

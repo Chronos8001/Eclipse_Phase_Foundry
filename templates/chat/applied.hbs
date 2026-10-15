@@ -1,0 +1,30 @@
+<div class="ep1e chat-card applied-card {{#if stress}}stress{{/if}}">
+  <header class="card-header">
+    <h3>{{actor.name}}</h3>
+  </header>
+  {{#if stress}}
+  <p>{{localize "EP1E.Applied.stress" amount=result.damage total=result.total max=max}}</p>
+  {{#if result.wounds}}<p class="danger">{{localize "EP1E.Applied.traumas" count=result.wounds}}</p>{{/if}}
+  {{else}}
+  <p>{{localize "EP1E.Applied.damage" dv=result.dv armor=result.armor amount=result.damage total=result.total max=max}}</p>
+  {{#if result.wounds}}<p class="danger">{{localize "EP1E.Applied.wounds" count=result.wounds}}</p>{{/if}}
+  {{/if}}
+
+  {{#if knockdown}}
+  <div class="followups">
+    <button type="button" data-ep-action="aptitudeTest" data-actor-uuid="{{actorUuid}}" data-aptitude="som" data-multiplier="3">
+      <i class="fa-solid fa-person-falling"></i> {{localize "EP1E.Applied.knockdown"}} (SOM × 3)</button>
+    {{#if unconscious}}
+    <button type="button" data-ep-action="aptitudeTest" data-actor-uuid="{{actorUuid}}" data-aptitude="som" data-multiplier="3">
+      <i class="fa-solid fa-bed"></i> {{localize "EP1E.Applied.unconscious"}} (SOM × 3)</button>
+    {{/if}}
+  </div>
+  {{/if}}
+
+  {{#if status.dead}}<p class="status danger">{{localize "EP1E.Status.dead"}}</p>
+  {{else if status.incapacitated}}<p class="status warning">{{localize "EP1E.Status.incapacitated"}}</p>{{/if}}
+  {{#if stress}}
+  {{#if status.insane}}<p class="status danger">{{localize "EP1E.Status.insane"}}</p>
+  {{else if status.unstable}}<p class="status warning">{{localize "EP1E.Status.unstable"}}</p>{{/if}}
+  {{/if}}
+</div>

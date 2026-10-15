@@ -1,0 +1,20 @@
+{
+  "_id": "aecb0d10a06f1fc3",
+  "_key": "!items!aecb0d10a06f1fc3",
+  "name": "Spray Armor",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "energy": 2,
+    "kinetic": 2,
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

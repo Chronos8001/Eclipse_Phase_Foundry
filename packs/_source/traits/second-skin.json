@@ -1,0 +1,22 @@
+{
+  "_id": "201c59fd2303b784",
+  "_key": "!items!201c59fd2303b784",
+  "name": "Second Skin",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 15,
+    "costText": "Cost: 15 CP",
+    "description": "<p>If your character background or faction enforces a restriction on your starting morph (for example, uplifts must start with an uplift morph), this trait allows you to ignore that restriction and purchase a starting morph of your choice.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

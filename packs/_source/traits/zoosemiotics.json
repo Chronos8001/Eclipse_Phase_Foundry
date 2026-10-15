@@ -1,0 +1,22 @@
+{
+  "_id": "2a4b13c1942993f3",
+  "_key": "!items!2a4b13c1942993f3",
+  "name": "Zoosemiotics",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 5,
+    "costText": "Cost: 5",
+    "description": "<p>A character with this trait and the Psi trait does not suffer a modifier when using psi sleights on nonsentient or partly-sentient animal species. Negative Traits Negative traits generally hinder the character and apply negative modifiers in certain circumstances.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 31000,
+  "ownership": {
+    "default": 0
+  }
+}

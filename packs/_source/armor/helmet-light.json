@@ -1,0 +1,20 @@
+{
+  "_id": "8c02c1734e5b558d",
+  "_key": "!items!8c02c1734e5b558d",
+  "name": "Helmet (Light)",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "energy": 2,
+    "kinetic": 2,
+    "equipped": false,
+    "description": "<p>Accessoire : s'ajoute à l'armure portée (+E/+K).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

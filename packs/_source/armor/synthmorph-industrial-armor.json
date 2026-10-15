@@ -1,0 +1,20 @@
+{
+  "_id": "2c8c01e06e03838f",
+  "_key": "!items!2c8c01e06e03838f",
+  "name": "Synthmorph Industrial Armor",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "energy": 10,
+    "kinetic": 10,
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

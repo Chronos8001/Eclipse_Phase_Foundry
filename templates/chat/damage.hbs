@@ -1,0 +1,18 @@
+<div class="ep1e chat-card damage-card {{#if damage.stress}}stress{{/if}}">
+  <header class="card-header">
+    <h3>{{damage.label}} — {{#if damage.stress}}{{localize "EP1E.Damage.sv"}}{{else}}{{localize "EP1E.Damage.dv"}}{{/if}}</h3>
+  </header>
+  <div class="damage-total">{{damage.total}}</div>
+  <p class="formula">{{damage.formula}}</p>
+  {{{tooltip}}}
+  {{#unless damage.stress}}
+  <p class="damage-tags">
+    <span>{{localize damageTypeLabel}}</span>
+    {{#if damage.ap}}<span>{{localize "EP1E.Weapon.ap"}} {{damage.ap}}</span>{{/if}}
+    {{#if damage.armorDefeating}}<span class="danger">{{localize "EP1E.Attack.armorDefeating"}}</span>{{/if}}
+  </p>
+  {{/unless}}
+  <button type="button" data-ep-action="apply"><i class="fa-solid fa-user-injured"></i>
+    {{#if damage.stress}}{{localize "EP1E.Damage.applyStressTargets"}}{{else}}{{localize "EP1E.Damage.applyTargets"}}{{/if}}</button>
+  <p class="hint">{{localize "EP1E.Damage.applyHint"}}</p>
+</div>

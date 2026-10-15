@@ -1,0 +1,22 @@
+{
+  "_id": "02f7e1ea9448022a",
+  "_key": "!items!02f7e1ea9448022a",
+  "name": "First Impression",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>The character has a way of charming or otherwise making a good impression the first time they interact with someone. This innate social lubricant allows them to more readily deal with new contacts and slip right into new social environments. Apply a +10 modifier on social skill tests when the character is interacting with another character for the first time only.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

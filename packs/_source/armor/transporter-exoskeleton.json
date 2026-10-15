@@ -1,0 +1,20 @@
+{
+  "_id": "85807724d63bc2d6",
+  "_key": "!items!85807724d63bc2d6",
+  "name": "Transporter Exoskeleton",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "energy": 2,
+    "kinetic": 4,
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  }
+}

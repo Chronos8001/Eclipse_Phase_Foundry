@@ -1,0 +1,20 @@
+{
+  "_id": "53d852c1eef6b8a5",
+  "_key": "!items!53d852c1eef6b8a5",
+  "name": "Crash Suit (Inactive)",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "energy": 3,
+    "kinetic": 4,
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

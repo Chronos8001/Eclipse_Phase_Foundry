@@ -1,0 +1,22 @@
+{
+  "_id": "7112df4b9f767785",
+  "_key": "!items!7112df4b9f767785",
+  "name": "On the Run",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>The character is wanted by the authorities of a particular habitat/station or faction, who continue to actively search for the character. They either committed a crime or somehow displeased someone in power. The character deals with that faction in question at their own risk, and may occasionally be forced to deal with bounty hunters.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 57000,
+  "ownership": {
+    "default": 0
+  }
+}

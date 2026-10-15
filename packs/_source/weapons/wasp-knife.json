@@ -1,0 +1,30 @@
+{
+  "_id": "719a58c369500e08",
+  "_key": "!items!719a58c369500e08",
+  "name": "Wasp Knife",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "melee",
+    "skill": "blades",
+    "ap": -1,
+    "dv": "1d10 + 2",
+    "damageType": "kinetic",
+    "addDB": true,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "description": "<p>Injection de gaz/drogue (voir p. 335).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

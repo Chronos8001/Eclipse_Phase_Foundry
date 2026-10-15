@@ -1,0 +1,30 @@
+{
+  "_id": "b741c7c8b909fd77",
+  "_key": "!items!b741c7c8b909fd77",
+  "name": "Medium Pistol (Firearm)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "kineticWeapons",
+    "ap": -2,
+    "dv": "2d10 + 2",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SA, BF, FA",
+    "ammo": {
+      "value": 12,
+      "max": 12
+    },
+    "range": "10 / 30 / 50 / 70",
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "d089b0f34d23cf61",
+  "_key": "!items!d089b0f34d23cf61",
+  "name": "Neo-Avians",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 20,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 5,
+      "ref": 10,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 20,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack",
+    "advantages": "Beak/Claw Attack (1d10 DV, use Unarmed Combat skill), Flight, +5 INT, +10 REF, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 25,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Neo-avians include ravens, crows, and gray parrots uplifted to human-level intelligence. Their physical sizes are much larger than their non-uplifted cousins (to the size of a human child), with larger heads for their increased brain size. Numerous transgenic modifications have been made to their wings, allowing them to retain limited flight capabilities at 1 g, but giving them a more bat-like physiology so they can bend and fold better, and adding primitive digits for basic tool manipulation. Their toes are also more articulated and now accompanied with an opposable thumb. Neo-avians have adapted well to microgravity environments, and are favored for their small size and reduced resource use.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  }
+}

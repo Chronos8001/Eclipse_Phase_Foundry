@@ -1,0 +1,20 @@
+{
+  "_id": "35042765dad00be7",
+  "_key": "!items!35042765dad00be7",
+  "name": "Exowalker",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "energy": 2,
+    "kinetic": 4,
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 21000,
+  "ownership": {
+    "default": 0
+  }
+}

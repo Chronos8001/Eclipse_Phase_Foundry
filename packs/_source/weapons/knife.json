@@ -1,0 +1,30 @@
+{
+  "_id": "b04783054ecc297c",
+  "_key": "!items!b04783054ecc297c",
+  "name": "Knife",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "melee",
+    "skill": "blades",
+    "ap": -1,
+    "dv": "1d10 + 2",
+    "damageType": "kinetic",
+    "addDB": true,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "description": "<p>Peut être lancé (Throwing Weapons).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

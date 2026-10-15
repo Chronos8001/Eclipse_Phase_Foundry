@@ -1,0 +1,22 @@
+{
+  "_id": "7243d3d2dfe3c36b",
+  "_key": "!items!7243d3d2dfe3c36b",
+  "name": "Psi",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 20,
+    "costText": "Cost: 20 CP (Level 1), 25 CP (Level 2)",
+    "description": "<p>The character has been infected with the WattsMacLeod strain of the Exsurgent virus, which altered their brain structure and opened the potential for their mind to enhance their cognitive abilities and read and manipulate the biological minds of others (see Psi, p. 220). The character may purchase and learn psi sleights (p. 223). At Level 1, the character may only use psi-chi sleights. At Level 2, the character may use both psi-chi and psi-gamma sleights. Though this trait is not very expensive, gamemasters should not allow it to be abused. There are a number of negative side effects to Watts-MacLeod infection, noted under Psi Drawbacks, p. 220.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

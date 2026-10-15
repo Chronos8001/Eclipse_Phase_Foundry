@@ -1,0 +1,30 @@
+{
+  "_id": "9ae37772b3b521e0",
+  "_key": "!items!9ae37772b3b521e0",
+  "name": "Machine Gun (Firearm)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "kineticWeapons",
+    "ap": -6,
+    "dv": "2d10 + 6",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "BF, FA",
+    "ammo": {
+      "value": 50,
+      "max": 50
+    },
+    "range": "100 / 400 / 1000 / 2000",
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "16453e4ff3da16cc",
+  "_key": "!items!16453e4ff3da16cc",
+  "name": "Plasma Rifle",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "beamWeapons",
+    "ap": -8,
+    "dv": "3d10 + 12",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "SS",
+    "ammo": {
+      "value": 10,
+      "max": 10
+    },
+    "range": "20 / 50 / 100 / 300",
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 34000,
+  "ownership": {
+    "default": 0
+  }
+}

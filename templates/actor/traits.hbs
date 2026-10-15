@@ -1,0 +1,41 @@
+<section class="tab {{tab.cssClass}}" data-group="primary" data-tab="traits">
+
+  <section class="panel traits">
+    <header class="list-header">
+      <h3>{{localize "EP1E.Section.traits"}}</h3>
+      {{#if editable}}<a class="add" data-action="createItem" data-type="trait" data-tooltip="EP1E.Item.create"><i class="fa-solid fa-plus"></i></a>{{/if}}
+    </header>
+    <ol class="item-list">
+      {{#each traits as |item|}}
+      <li class="item-row draggable trait-{{item.system.traitType}}" data-item-id="{{item.id}}">
+        <img src="{{item.img}}" alt="">
+        <span class="name"><a data-action="itemToChat">{{item.name}}</a>{{#if (gt item.system.level 1)}} ({{localize "EP1E.Trait.level"}} {{item.system.level}}){{/if}}
+          <small>{{localize (lookup @root.config.traitTypes item.system.traitType)}} · {{localize (lookup @root.config.traitScopes item.system.scope)}}</small></span>
+        <span class="value">{{item.system.cost}} CP</span>
+        {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "EP1E.Trait.none"}}</li>
+      {{/each}}
+    </ol>
+  </section>
+
+  <section class="panel sleights">
+    <header class="list-header">
+      <h3>{{localize "EP1E.Section.sleights"}}</h3>
+      {{#if editable}}<a class="add" data-action="createItem" data-type="sleight" data-tooltip="EP1E.Item.create"><i class="fa-solid fa-plus"></i></a>{{/if}}
+    </header>
+    <ol class="item-list">
+      {{#each sleights as |item|}}
+      <li class="item-row draggable" data-item-id="{{item.id}}">
+        <img src="{{item.img}}" alt="">
+        <span class="name"><a class="rollable" data-action="rollItem" data-tooltip="EP1E.Sleight.useHint">{{item.name}}</a>
+          <small>{{localize (lookup @root.config.psiTypes item.system.psiType)}} · {{localize (lookup @root.config.actionTypes item.system.action)}}{{#if item.system.strainMod}} · {{localize "EP1E.Sleight.strain"}} {{item.system.strainMod}}{{/if}}</small></span>
+        {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "EP1E.Sleight.none"}}</li>
+      {{/each}}
+    </ol>
+  </section>
+</section>

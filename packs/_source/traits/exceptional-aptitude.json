@@ -1,0 +1,22 @@
+{
+  "_id": "73dd3e3147feac69",
+  "_key": "!items!73dd3e3147feac69",
+  "name": "Exceptional Aptitude",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "both",
+    "level": 1,
+    "cost": 20,
+    "costText": "Cost: 20 CP",
+    "description": "<p>As an ego trait, the character may raise the maximum for a particular chosen aptitude to 40 rather than 30 (p. 122). As a morph trait, it raises the morph aptitude maximum (p. 124) for a particular chosen aptitude by 10 (30 for flats, 35 for splicers, 40 for all others). Note that this trait just raises the maximum, it does not give the character 10 more aptitude points. This trait may only be taken by a morph or ego once.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

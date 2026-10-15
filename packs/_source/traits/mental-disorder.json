@@ -1,0 +1,22 @@
+{
+  "_id": "2a9041410ab88579",
+  "_key": "!items!2a9041410ab88579",
+  "name": "Mental Disorder",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>You have a psychological disorder from a previous traumatic experience in your life. Choose one of the disorders listed on p. 211.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 50000,
+  "ownership": {
+    "default": 0
+  }
+}

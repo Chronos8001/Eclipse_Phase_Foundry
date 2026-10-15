@@ -1,0 +1,22 @@
+{
+  "_id": "dd767fc7e0c8a431",
+  "_key": "!items!dd767fc7e0c8a431",
+  "name": "Slow Learner",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>New skills are not easy for this character to pick up. The character takes twice as long as normal to improve skills or learn new ones (p. 152).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 61000,
+  "ownership": {
+    "default": 0
+  }
+}

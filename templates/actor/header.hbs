@@ -1,0 +1,26 @@
+<header class="sheet-header">
+  <img class="portrait" src="{{actor.img}}" alt="{{actor.name}}" data-action="editImage" data-edit="img" data-tooltip="{{actor.name}}">
+  <div class="header-main">
+    <input class="actor-name" type="text" name="name" value="{{actor.name}}" placeholder="{{localize 'EP1E.Actor.name'}}">
+    <div class="header-line">
+      <span class="morph-badge {{#if system.morph}}{{system.morph.type}}{{else}}none{{/if}}">
+        <i class="fa-solid fa-dna"></i>
+        {{#if system.morph}}{{system.morph.name}} · {{localize (lookup config.morphTypes system.morph.type)}}{{else}}{{localize "EP1E.Morph.none"}}{{/if}}
+      </span>
+      {{#if system.status.dead}}<span class="status-badge danger">{{localize "EP1E.Status.dead"}}</span>
+      {{else if system.status.incapacitated}}<span class="status-badge warning">{{localize "EP1E.Status.incapacitated"}}</span>{{/if}}
+      {{#if system.status.insane}}<span class="status-badge danger">{{localize "EP1E.Status.insane"}}</span>
+      {{else if system.status.unstable}}<span class="status-badge warning">{{localize "EP1E.Status.unstable"}}</span>{{/if}}
+      {{#if system.penalty.total}}<span class="status-badge penalty" data-tooltip="EP1E.Status.penaltyHint">{{localize "EP1E.Status.penalty"}} −{{system.penalty.total}}</span>{{/if}}
+    </div>
+  </div>
+  <div class="header-moxie">
+    <label>{{localize "EP1E.Stat.moxie"}}</label>
+    <div class="pair">
+      <input type="number" name="system.moxie.value" value="{{system.moxie.value}}" min="0">
+      <span class="sep">/</span>
+      <input type="number" name="system.moxie.max" value="{{system.moxie.max}}" min="0">
+    </div>
+    {{#if editable}}<a class="mini-button" data-action="resetMoxie" data-tooltip="EP1E.Moxie.reset"><i class="fa-solid fa-rotate"></i></a>{{/if}}
+  </div>
+</header>

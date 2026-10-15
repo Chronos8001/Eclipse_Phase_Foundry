@@ -1,0 +1,24 @@
+<section class="effects-list">
+  <header class="list-header">
+    <h3>{{localize "EP1E.Tab.effects"}}</h3>
+    {{#if editable}}<a class="add" data-action="createEffect" data-tooltip="EP1E.Effect.create"><i class="fa-solid fa-plus"></i></a>{{/if}}
+  </header>
+  <p class="hint">{{localize "EP1E.Effect.hint"}}</p>
+  <ol class="item-list">
+    {{#each effects as |effect|}}
+    <li class="item-row {{#if effect.disabled}}disabled{{/if}}" data-effect-id="{{effect.id}}" {{#if effect.parent.isEmbedded}}data-parent-id="{{effect.parent.id}}"{{/if}}>
+      <img src="{{effect.img}}" alt="">
+      <span class="name">{{effect.name}}{{#if effect.parent.isEmbedded}} <small>({{effect.parent.name}})</small>{{/if}}</span>
+      <div class="item-controls">
+        {{#if @root.editable}}
+        <a data-action="toggleEffect" data-tooltip="EP1E.Effect.toggle"><i class="fa-solid {{#if effect.disabled}}fa-toggle-off{{else}}fa-toggle-on{{/if}}"></i></a>
+        <a data-action="editEffect" data-tooltip="EP1E.Item.edit"><i class="fa-solid fa-pen-to-square"></i></a>
+        <a data-action="deleteEffect" data-tooltip="EP1E.Item.delete"><i class="fa-solid fa-trash"></i></a>
+        {{/if}}
+      </div>
+    </li>
+    {{else}}
+    <li class="empty">{{localize "EP1E.Effect.none"}}</li>
+    {{/each}}
+  </ol>
+</section>

@@ -1,0 +1,44 @@
+<div class="ep1e chat-card test-card outcome-{{result.outcome}}">
+  <header class="card-header">
+    <h3>{{test.label}}</h3>
+  </header>
+  <div class="test-numbers">
+    <div class="roll-value {{#if result.doubles}}doubles{{/if}}">{{ep1ePad test.value}}</div>
+    <div class="vs">≤</div>
+    <div class="target" data-tooltip="{{test.base}} {{ep1eSigned test.modifier}}">{{test.target}}</div>
+  </div>
+  {{#if test.modifier}}
+  <p class="modifiers">{{localize "EP1E.Test.base"}} {{test.base}} · {{localize "EP1E.Test.modifiers"}} {{ep1eSigned test.modifier}}{{#if test.penalty}} <small>({{localize "EP1E.Test.penaltyShort"}} −{{test.penalty}})</small>{{/if}}</p>
+  {{/if}}
+  <div class="outcome">
+    <strong>{{localize outcomeLabel}}</strong>
+    <span class="margin">{{#if result.success}}{{localize "EP1E.Test.mos"}}{{else}}{{localize "EP1E.Test.mof"}}{{/if}} {{result.margin}}</span>
+  </div>
+  {{#if test.moxie}}
+  <p class="moxie-used"><i class="fa-solid fa-star"></i> {{localize (concat "EP1E.Moxie.used." test.moxie)}}</p>
+  {{/if}}
+
+  {{#if test.attack}}
+  <div class="attack-info">
+    {{#if showDamage}}
+    <p>{{localize "EP1E.Attack.hitIf"}}</p>
+    {{#if damageBonus}}<p class="bonus">{{localize "EP1E.Attack.excellent"}} : +{{damageBonus}} DV</p>{{/if}}
+    {{#if armorDefeating}}<p class="bonus">{{localize "EP1E.Attack.armorDefeating"}}</p>{{/if}}
+    <button type="button" data-ep-action="damage"><i class="fa-solid fa-burst"></i> {{localize "EP1E.Attack.rollDamage"}} ({{test.attack.dv}}{{#if test.attack.db}} {{ep1eSigned test.attack.db}}{{/if}}{{#if damageBonus}} +{{damageBonus}}{{/if}})</button>
+    {{else if result.success}}
+    <p>{{localize "EP1E.Attack.noDamage"}}</p>
+    {{else}}
+    <p>{{localize "EP1E.Attack.miss"}}</p>
+    {{/if}}
+  </div>
+  {{/if}}
+
+  {{#if canMoxie}}
+  <div class="moxie-actions">
+    <span><i class="fa-solid fa-star"></i> {{localize "EP1E.Moxie.spend"}}</span>
+    <button type="button" data-ep-action="moxie" data-mode="flip" data-tooltip="EP1E.Moxie.flipHint">{{localize "EP1E.Moxie.flip"}} ({{ep1ePad test.value}} → {{ep1ePad (ep1eFlip test.value)}})</button>
+    {{#if canUpgrade}}<button type="button" data-ep-action="moxie" data-mode="crit" data-tooltip="EP1E.Moxie.critHint">{{localize "EP1E.Moxie.crit"}}</button>{{/if}}
+    {{#if canIgnoreCrit}}<button type="button" data-ep-action="moxie" data-mode="ignoreCritFail" data-tooltip="EP1E.Moxie.ignoreCritHint">{{localize "EP1E.Moxie.ignoreCrit"}}</button>{{/if}}
+  </div>
+  {{/if}}
+</div>

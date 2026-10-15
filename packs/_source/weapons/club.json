@@ -1,0 +1,30 @@
+{
+  "_id": "1519187ef1f2e441",
+  "_key": "!items!1519187ef1f2e441",
+  "name": "Club",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "melee",
+    "skill": "clubs",
+    "ap": 0,
+    "dv": "1d10 + 2",
+    "damageType": "kinetic",
+    "addDB": true,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

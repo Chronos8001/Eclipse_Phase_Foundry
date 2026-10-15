@@ -1,0 +1,22 @@
+{
+  "_id": "7b6dcb617ed6fc5d",
+  "_key": "!items!7b6dcb617ed6fc5d",
+  "name": "Illiterate",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>The character knows how to speak, but has difficulty reading or writing. Due to the entoptic-saturated and icon-driven nature of transhuman society, they are able to get by quite comfortably with this handicap. Reduce the character's Language skills by half (round down) whenever reading or writing.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 44000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "57b380f47fe6c7be",
+  "_key": "!items!57b380f47fe6c7be",
+  "name": "Weak Immune System",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 (Level 1) or 20 (Level 2) CP",
+    "description": "<p>The morph's immune system is susceptible to diseases, drugs, and toxins. At Level 1, apply a -10 modifier whenever making a test to resist infection or the effects of a toxin or drug. At Level 2, increase this modifier to -20. This trait is only available to biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 68000,
+  "ownership": {
+    "default": 0
+  }
+}

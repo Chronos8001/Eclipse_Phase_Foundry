@@ -1,0 +1,22 @@
+{
+  "_id": "0190d7ecda895093",
+  "_key": "!items!0190d7ecda895093",
+  "name": "Oblivious",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>The character is particularly oblivious to events around them or anything other than what their attention is focused on. They suffer a -10 modifier to Surprise Tests and their modifier for being Distracted is -30 rather than the usual -20 (see Basic Perception, p. 190).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 56000,
+  "ownership": {
+    "default": 0
+  }
+}

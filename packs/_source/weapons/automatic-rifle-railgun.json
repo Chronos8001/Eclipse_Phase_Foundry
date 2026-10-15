@@ -1,0 +1,30 @@
+{
+  "_id": "1653c2ae67b4a3c3",
+  "_key": "!items!1653c2ae67b4a3c3",
+  "name": "Automatic Rifle (Railgun)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "kineticWeapons",
+    "ap": -9,
+    "dv": "2d10 + 8",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SA, BF, FA",
+    "ammo": {
+      "value": 30,
+      "max": 30
+    },
+    "range": "225 / 375 / 750 / 1350",
+    "equipped": false,
+    "description": "<p>Batterie : 200 tirs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

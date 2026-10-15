@@ -1,0 +1,8 @@
+<div class="item-controls">
+  {{#if @root.editable}}
+  <a data-action="editItem" data-tooltip="EP1E.Item.edit"><i class="fa-solid fa-pen-to-square"></i></a>
+  <a data-action="deleteItem" data-tooltip="EP1E.Item.delete"><i class="fa-solid fa-trash"></i></a>
+  {{else}}
+  <a data-action="editItem" data-tooltip="EP1E.Item.view"><i class="fa-solid fa-eye"></i></a>
+  {{/if}}
+</div>

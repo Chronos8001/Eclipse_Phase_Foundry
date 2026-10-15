@@ -1,0 +1,51 @@
+{
+  "_id": "4d9f34b63998b090",
+  "_key": "!items!4d9f34b63998b090",
+  "name": "Synth",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 6,
+      "kinetic": 6
+    },
+    "movement": "Walker (4/20)",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation",
+    "advantages": "+5 SOM, +5 to one other aptitude of the player's choice, Armor 6/6",
+    "disadvantages": "Social Stigma (Clanking Masses) trait, Uncanny Valley trait",
+    "skillBonuses": [],
+    "cpCost": 30,
+    "creditCost": "High",
+    "active": false,
+    "description": "<p>Synths are anthromorphic robotic shells (androids and gynoids). They are typically used for menial labor jobs where pods are not as good of an option. Cheaper than many other morphs, they are commonly used for people who need a morph quickly and cheaply or simply on a transient basis. Though they look humanoid, synths are easily recognizable as non-biological unless they have the synthetic mask option (p. 311).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

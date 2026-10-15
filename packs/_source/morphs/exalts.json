@@ -1,0 +1,51 @@
+{
+  "_id": "0fdf7b729dff297a",
+  "_key": "!items!0fdf7b729dff297a",
+  "name": "Exalts",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack",
+    "advantages": "+5 COG, +5 to three other aptitudes of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 30,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Exalt morphs are genetically-enhanced humans, designed to emphasize specific traits. Their genetic code has been tweaked to make them healthier, smarter, and more attractive. Their metabolism is modified to predispose them towards staying fit and athletic for the duration of an extended lifespan.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

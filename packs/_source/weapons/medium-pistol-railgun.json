@@ -1,0 +1,30 @@
+{
+  "_id": "c92582599c466eb6",
+  "_key": "!items!c92582599c466eb6",
+  "name": "Medium Pistol (Railgun)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "kineticWeapons",
+    "ap": -5,
+    "dv": "2d10 + 4",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SA, BF, FA",
+    "ammo": {
+      "value": 12,
+      "max": 12
+    },
+    "range": "15 / 45 / 75 / 105",
+    "equipped": false,
+    "description": "<p>Batterie : 200 tirs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  }
+}

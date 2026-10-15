@@ -1,0 +1,124 @@
+/**
+ * Static configuration for the Eclipse Phase 1st Edition system.
+ * Exposed as CONFIG.EP1E.
+ */
+export const SYSTEM_ID = "ep1e";
+
+export const APTITUDES = ["cog", "coo", "int", "ref", "sav", "som", "wil"];
+
+export const REP_NETWORKS = ["at", "c", "e", "f", "g", "i", "r"];
+
+/**
+ * Learned skills from the Complete Skill List (Core p. 176).
+ * field: the skill requires a field (Hardware: X, Networking: Y...)
+ * noDefault: the skill may not be defaulted to its linked aptitude
+ * starter: created automatically on new characters
+ */
+export const SKILLS = {
+  animalHandling: { aptitude: "sav", category: "active", starter: true },
+  beamWeapons: { aptitude: "coo", category: "active", starter: true, combat: true },
+  blades: { aptitude: "som", category: "active", starter: true, combat: true },
+  climbing: { aptitude: "som", category: "active", starter: true },
+  clubs: { aptitude: "som", category: "active", starter: true, combat: true },
+  control: { aptitude: "wil", category: "active", noDefault: true, psi: true },
+  deception: { aptitude: "sav", category: "active", starter: true },
+  demolitions: { aptitude: "cog", category: "active", noDefault: true, starter: true },
+  disguise: { aptitude: "int", category: "active", starter: true },
+  exoticMelee: { aptitude: "som", category: "active", field: true, combat: true },
+  exoticRanged: { aptitude: "coo", category: "active", field: true, combat: true },
+  flight: { aptitude: "som", category: "active", starter: true },
+  fray: { aptitude: "ref", category: "active", starter: true, combat: true },
+  freeFall: { aptitude: "ref", category: "active", starter: true },
+  freerunning: { aptitude: "som", category: "active", starter: true },
+  gunnery: { aptitude: "int", category: "active", starter: true, combat: true },
+  hardware: { aptitude: "cog", category: "active", field: true, starter: true },
+  impersonation: { aptitude: "sav", category: "active", starter: true },
+  infiltration: { aptitude: "coo", category: "active", starter: true },
+  infosec: { aptitude: "cog", category: "active", noDefault: true, starter: true },
+  interfacing: { aptitude: "cog", category: "active", starter: true },
+  intimidation: { aptitude: "sav", category: "active", starter: true },
+  investigation: { aptitude: "int", category: "active", starter: true },
+  kinesics: { aptitude: "sav", category: "active", starter: true },
+  kineticWeapons: { aptitude: "coo", category: "active", starter: true, combat: true },
+  medicine: { aptitude: "cog", category: "active", field: true, starter: true },
+  navigation: { aptitude: "int", category: "active", starter: true },
+  networking: { aptitude: "sav", category: "active", field: true, starter: true },
+  palming: { aptitude: "coo", category: "active", starter: true },
+  perception: { aptitude: "int", category: "active", starter: true },
+  persuasion: { aptitude: "sav", category: "active", starter: true },
+  pilot: { aptitude: "ref", category: "active", field: true, starter: true },
+  programming: { aptitude: "cog", category: "active", noDefault: true, starter: true },
+  protocol: { aptitude: "sav", category: "active", starter: true },
+  psiAssault: { aptitude: "wil", category: "active", noDefault: true, psi: true, combat: true },
+  psychosurgery: { aptitude: "int", category: "active", starter: true },
+  research: { aptitude: "cog", category: "active", starter: true },
+  scrounging: { aptitude: "int", category: "active", starter: true },
+  seekerWeapons: { aptitude: "coo", category: "active", starter: true, combat: true },
+  sense: { aptitude: "int", category: "active", noDefault: true, psi: true },
+  sprayWeapons: { aptitude: "coo", category: "active", starter: true, combat: true },
+  swimming: { aptitude: "som", category: "active", starter: true },
+  throwingWeapons: { aptitude: "coo", category: "active", starter: true, combat: true },
+  unarmedCombat: { aptitude: "som", category: "active", starter: true, combat: true },
+  academics: { aptitude: "cog", category: "knowledge", field: true },
+  art: { aptitude: "int", category: "knowledge", field: true },
+  interest: { aptitude: "cog", category: "knowledge", field: true },
+  language: { aptitude: "int", category: "knowledge", field: true, starter: true },
+  profession: { aptitude: "cog", category: "knowledge", field: true }
+};
+
+/** Test difficulty modifiers (Core p. 115). */
+export const DIFFICULTIES = [
+  { value: 30, label: "EP1E.Difficulty.effortless" },
+  { value: 20, label: "EP1E.Difficulty.simple" },
+  { value: 10, label: "EP1E.Difficulty.easy" },
+  { value: 0, label: "EP1E.Difficulty.average" },
+  { value: -10, label: "EP1E.Difficulty.difficult" },
+  { value: -20, label: "EP1E.Difficulty.challenging" },
+  { value: -30, label: "EP1E.Difficulty.hard" }
+];
+
+export const EP1E = {
+  aptitudes: Object.fromEntries(APTITUDES.map(k => [k, `EP1E.Aptitude.${k}`])),
+  aptitudeAbbr: Object.fromEntries(APTITUDES.map(k => [k, `EP1E.AptitudeAbbr.${k}`])),
+  rep: Object.fromEntries(REP_NETWORKS.map(k => [k, `EP1E.Rep.${k}`])),
+  skills: SKILLS,
+  skillCategories: { active: "EP1E.SkillCategory.active", knowledge: "EP1E.SkillCategory.knowledge" },
+  morphTypes: {
+    biomorph: "EP1E.MorphType.biomorph",
+    pod: "EP1E.MorphType.pod",
+    synthmorph: "EP1E.MorphType.synthmorph",
+    infomorph: "EP1E.MorphType.infomorph"
+  },
+  traitTypes: { positive: "EP1E.TraitType.positive", negative: "EP1E.TraitType.negative" },
+  traitScopes: { ego: "EP1E.TraitScope.ego", morph: "EP1E.TraitScope.morph", both: "EP1E.TraitScope.both" },
+  weaponTypes: { melee: "EP1E.WeaponType.melee", ranged: "EP1E.WeaponType.ranged" },
+  damageTypes: {
+    kinetic: "EP1E.DamageType.kinetic",
+    energy: "EP1E.DamageType.energy",
+    none: "EP1E.DamageType.none"
+  },
+  augmentationTypes: {
+    bioware: "EP1E.AugType.bioware",
+    cyberware: "EP1E.AugType.cyberware",
+    nanoware: "EP1E.AugType.nanoware",
+    meshware: "EP1E.AugType.meshware",
+    other: "EP1E.AugType.other"
+  },
+  psiTypes: { chi: "EP1E.PsiType.chi", gamma: "EP1E.PsiType.gamma", epsilon: "EP1E.PsiType.epsilon" },
+  actionTypes: {
+    automatic: "EP1E.Action.automatic",
+    quick: "EP1E.Action.quick",
+    complex: "EP1E.Action.complex",
+    task: "EP1E.Action.task"
+  },
+  difficulties: DIFFICULTIES
+};
+
+/** Localized choices for skill keys, sorted by label. */
+export function skillChoices({ blank = true } = {}) {
+  const entries = Object.keys(SKILLS)
+    .map(k => [k, game.i18n.localize(`EP1E.Skill.${k}`)])
+    .sort((a, b) => a[1].localeCompare(b[1], game.i18n.lang));
+  const choices = Object.fromEntries(entries);
+  return blank ? { "": game.i18n.localize("EP1E.Skill.custom"), ...choices } : choices;
+}

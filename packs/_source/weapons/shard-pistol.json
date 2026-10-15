@@ -1,0 +1,30 @@
+{
+  "_id": "04df86782ca24dd7",
+  "_key": "!items!04df86782ca24dd7",
+  "name": "Shard Pistol",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "sprayWeapons",
+    "ap": -10,
+    "dv": "1d10 + 6",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SA, BF, FA",
+    "ammo": {
+      "value": 100,
+      "max": 100
+    },
+    "range": "10 / 30 / 50 / 70",
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 36000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "223a87905e53be6b",
+  "_key": "!items!223a87905e53be6b",
+  "name": "Adaptability",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
+    "description": "<p>Resleeving is a breeze for this character. They adjust to new morphs much more quickly than most other people. Apply a +10 modifier per level for Integration Tests and Alienation Tests (p. 272).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

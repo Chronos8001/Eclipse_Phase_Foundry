@@ -1,0 +1,42 @@
+<div class="ep1e test-dialog">
+  <p class="test-base">{{label}} : <strong>{{target}}</strong></p>
+  <div class="form-group">
+    <label>{{localize "EP1E.Test.difficulty"}}</label>
+    <select name="difficulty">
+      {{#each difficulties as |d|}}
+      <option value="{{d.value}}" {{#if (eq d.value 0)}}selected{{/if}}>{{localize d.label}} ({{ep1eSigned d.value}})</option>
+      {{/each}}
+    </select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Test.modifier"}}</label>
+    <input type="number" name="modifier" value="0" step="5" autofocus>
+  </div>
+  {{#if aptitude}}
+  <div class="form-group">
+    <label>{{localize "EP1E.Test.multiplier"}}</label>
+    <select name="multiplier">
+      {{#each multipliers as |m|}}<option value="{{m}}" {{#if (eq m ../multiplier)}}selected{{/if}}>× {{m}}</option>{{/each}}
+    </select>
+  </div>
+  {{/if}}
+  {{#if specialization}}
+  <div class="form-group">
+    <label>{{localize "EP1E.Test.specialization"}} ({{specialization}}, +10)</label>
+    <input type="checkbox" name="specialized">
+  </div>
+  {{/if}}
+  {{#if penalty}}
+  <p class="hint penalty">{{localize "EP1E.Test.penalty"}} : −{{penalty}}</p>
+  {{/if}}
+  {{#if moxie}}
+  <div class="form-group">
+    <label data-tooltip="EP1E.Moxie.ignoreModsHint">{{localize "EP1E.Moxie.ignoreMods"}} ({{moxie}})</label>
+    <input type="checkbox" name="ignoreMods">
+  </div>
+  {{/if}}
+  <div class="form-group">
+    <label>{{localize "EP1E.Test.rollMode"}}</label>
+    <select name="rollMode">{{selectOptions rollModes selected=rollMode valueAttr="value" labelAttr="label" localize=true}}</select>
+  </div>
+</div>

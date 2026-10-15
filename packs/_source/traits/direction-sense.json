@@ -1,0 +1,22 @@
+{
+  "_id": "f1f87d99aaa17bb0",
+  "_key": "!items!f1f87d99aaa17bb0",
+  "name": "Direction Sense",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 5,
+    "costText": "Cost: 5 CP",
+    "description": "<p>Somehow the character always knows which way is up, north, etc., even when blinded. The character receives a +10 modifier for figuring out complex directions, reading maps, and remembering or retracing a path they have taken.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

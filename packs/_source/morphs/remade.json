@@ -1,0 +1,51 @@
+{
+  "_id": "bbe03e02418d2751",
+  "_key": "!items!bbe03e02418d2751",
+  "name": "Remade",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 40,
+      "coo": 40,
+      "int": 40,
+      "ref": 40,
+      "sav": 40,
+      "som": 40,
+      "wil": 40
+    },
+    "aptitudeBonus": {
+      "cog": 10,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 5,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Clean Metabolism, Cortical Stack, Eidetic Memory, Enhanced Respiration, Temperature Tolerance, Toxin Filters",
+    "advantages": "+10 COG, +5 SAV, +10 SOM, +5 to two other aptitudes of the player's choice",
+    "disadvantages": "Uncanny Valley trait",
+    "skillBonuses": [],
+    "cpCost": 60,
+    "creditCost": "Expensive (minimum 40,000+)",
+    "active": false,
+    "description": "<p>The remade are completely redesigned humans: humans 2.0. Their cardiovascular systems are stronger, the digestive tract has been sanitized and restructured to eliminate flaws, and they have otherwise been optimized for good health, smarts, and longevity with numerous transgenic mods. The remade are popular with the ultimates faction. The remade look close to human, but are different in very noticeable and sometimes eerie ways: taller, lack of hair, slightly larger craniums, wider eyes, smaller noses, smaller teeth, and elongated digits.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

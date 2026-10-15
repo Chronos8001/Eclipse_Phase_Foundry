@@ -1,0 +1,51 @@
+{
+  "_id": "23d02d83ca6e006b",
+  "_key": "!items!23d02d83ca6e006b",
+  "name": "Dragonfly",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 20,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 25,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 2,
+      "kinetic": 2
+    },
+    "movement": "Winged (8/32)",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation",
+    "advantages": "Flight, +5 REF, Armor (2/2)",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 20,
+    "creditCost": "High",
+    "active": false,
+    "description": "<p>The dragonfly robotic morph takes the shape of a meter-long flexible shell with multiple wings and manipulator arms. Capable of near-silent turbofan-aided flight in Earth gravity, dragonfly bots fare even better in microgravity.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  }
+}

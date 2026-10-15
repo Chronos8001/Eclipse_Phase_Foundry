@@ -1,0 +1,145 @@
+<section class="tab {{tab.cssClass}}" data-group="primary" data-tab="main">
+
+  <section class="panel aptitudes">
+    <h3>{{localize "EP1E.Section.aptitudes"}}</h3>
+    <table class="aptitude-table">
+      <thead>
+        <tr>
+          <th></th>
+          {{#each aptitudes as |apt|}}
+          <th><a class="rollable" data-action="rollAptitude" data-aptitude="{{apt.key}}" data-tooltip="{{localize apt.label}}">{{localize apt.abbr}}</a></th>
+          {{/each}}
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>{{localize "EP1E.Aptitude.base"}}</th>
+          {{#each aptitudes as |apt|}}
+          <td><input type="number" name="system.aptitudes.{{apt.key}}.base" value="{{apt.base}}" min="0"></td>
+          {{/each}}
+        </tr>
+        <tr class="derived">
+          <th>{{localize "EP1E.Aptitude.morph"}}</th>
+          {{#each aptitudes as |apt|}}<td>{{ep1eSigned apt.morph}}</td>{{/each}}
+        </tr>
+        <tr>
+          <th data-tooltip="EP1E.Aptitude.modHint">{{localize "EP1E.Aptitude.mod"}}</th>
+          {{#each aptitudes as |apt|}}
+          <td><input type="number" name="system.aptitudes.{{apt.key}}.mod" value="{{apt.mod}}"></td>
+          {{/each}}
+        </tr>
+        <tr class="derived">
+          <th>{{localize "EP1E.Aptitude.max"}}</th>
+          {{#each aptitudes as |apt|}}<td>{{apt.max}}</td>{{/each}}
+        </tr>
+        <tr class="total">
+          <th>{{localize "EP1E.Aptitude.total"}}</th>
+          {{#each aptitudes as |apt|}}
+          <td><a class="rollable total-value {{#if apt.capped}}capped{{/if}}" data-action="rollAptitude" data-aptitude="{{apt.key}}"
+                 data-tooltip="{{#if apt.capped}}EP1E.Aptitude.cappedHint{{else}}EP1E.Test.rollHint{{/if}}">{{apt.value}}</a></td>
+          {{/each}}
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="panel stats">
+    <h3>{{localize "EP1E.Section.stats"}}</h3>
+    <div class="stat-grid">
+      <div class="stat" data-tooltip="EP1E.Stat.durHint"><label>{{localize "EP1E.Stat.dur"}}</label><span>{{system.stats.dur}}</span></div>
+      <div class="stat" data-tooltip="EP1E.Stat.wtHint"><label>{{localize "EP1E.Stat.wt"}}</label><span>{{system.stats.wt}}</span></div>
+      <div class="stat" data-tooltip="EP1E.Stat.drHint"><label>{{localize "EP1E.Stat.dr"}}</label><span>{{system.stats.dr}}</span></div>
+      <div class="stat rollable" data-action="rollStat" data-stat="lucidity" data-tooltip="EP1E.Stat.lucHint"><label>{{localize "EP1E.Stat.luc"}}</label><span>{{system.stats.luc}}</span></div>
+      <div class="stat" data-tooltip="EP1E.Stat.ttHint"><label>{{localize "EP1E.Stat.tt"}}</label><span>{{system.stats.tt}}</span></div>
+      <div class="stat" data-tooltip="EP1E.Stat.irHint"><label>{{localize "EP1E.Stat.ir"}}</label><span>{{system.stats.ir}}</span></div>
+      <div class="stat" data-tooltip="EP1E.Stat.initHint"><label>{{localize "EP1E.Stat.init"}}</label><span>{{system.stats.init}}</span></div>
+      <div class="stat" data-tooltip="EP1E.Stat.spdHint"><label>{{localize "EP1E.Stat.spd"}}</label><span>{{system.stats.spd}}</span></div>
+      <div class="stat" data-tooltip="EP1E.Stat.dbHint"><label>{{localize "EP1E.Stat.db"}}</label><span>{{ep1eSigned system.stats.db}}</span></div>
+      <div class="stat armor" data-tooltip="EP1E.Stat.armorHint"><label>{{localize "EP1E.Stat.armor"}}</label><span>{{system.armor.energy}} / {{system.armor.kinetic}}</span></div>
+    </div>
+    <details class="mods">
+      <summary>{{localize "EP1E.Section.mods"}}</summary>
+      <p class="hint">{{localize "EP1E.Mods.hint"}}</p>
+      <div class="mod-grid">
+        <label>{{localize "EP1E.Stat.dur"}}<input type="number" name="system.mods.dur" value="{{system.mods.dur}}"></label>
+        <label>{{localize "EP1E.Stat.wt"}}<input type="number" name="system.mods.wt" value="{{system.mods.wt}}"></label>
+        <label>{{localize "EP1E.Stat.luc"}}<input type="number" name="system.mods.luc" value="{{system.mods.luc}}"></label>
+        <label>{{localize "EP1E.Stat.tt"}}<input type="number" name="system.mods.tt" value="{{system.mods.tt}}"></label>
+        <label>{{localize "EP1E.Stat.init"}}<input type="number" name="system.mods.init" value="{{system.mods.init}}"></label>
+        <label>{{localize "EP1E.Stat.spd"}}<input type="number" name="system.mods.spd" value="{{system.mods.spd}}"></label>
+        <label>{{localize "EP1E.Stat.db"}}<input type="number" name="system.mods.db" value="{{system.mods.db}}"></label>
+        <label>{{localize "EP1E.Mods.energyArmor"}}<input type="number" name="system.mods.energyArmor" value="{{system.mods.energyArmor}}"></label>
+        <label>{{localize "EP1E.Mods.kineticArmor"}}<input type="number" name="system.mods.kineticArmor" value="{{system.mods.kineticArmor}}"></label>
+        <label>{{localize "EP1E.Mods.woundsIgnored"}}<input type="number" name="system.mods.woundsIgnored" value="{{system.mods.woundsIgnored}}" min="0"></label>
+        <label>{{localize "EP1E.Mods.traumasIgnored"}}<input type="number" name="system.mods.traumasIgnored" value="{{system.mods.traumasIgnored}}" min="0"></label>
+      </div>
+    </details>
+  </section>
+
+  <div class="two-columns">
+    <section class="panel health">
+      <h3>{{localize "EP1E.Section.health"}}</h3>
+      <div class="track">
+        <label>{{localize "EP1E.Stat.damage"}}</label>
+        <input type="number" name="system.damage.value" value="{{system.damage.value}}" min="0">
+        <span class="sep">/ {{system.stats.dur}}</span>
+        <meter min="0" max="{{system.stats.dr}}" low="{{system.stats.dur}}" high="{{system.stats.dur}}" optimum="0" value="{{system.damage.value}}"></meter>
+      </div>
+      <div class="track">
+        <label>{{localize "EP1E.Stat.wounds"}}</label>
+        <input type="number" name="system.wounds.value" value="{{system.wounds.value}}" min="0">
+        <span class="sep">{{#if system.penalty.wounds}}−{{system.penalty.wounds}}{{/if}}</span>
+      </div>
+      {{#if editable}}
+      <div class="buttons">
+        <button type="button" data-action="applyHarm" data-kind="damage"><i class="fa-solid fa-heart-crack"></i> {{localize "EP1E.Damage.applyDamage"}}</button>
+        <button type="button" data-action="rollStat" data-stat="shock"><i class="fa-solid fa-bolt"></i> {{localize "EP1E.Combat.shockTest"}}</button>
+      </div>
+      {{/if}}
+    </section>
+
+    <section class="panel mental">
+      <h3>{{localize "EP1E.Section.mental"}}</h3>
+      <div class="track">
+        <label>{{localize "EP1E.Stat.stress"}}</label>
+        <input type="number" name="system.stress.value" value="{{system.stress.value}}" min="0">
+        <span class="sep">/ {{system.stats.luc}}</span>
+        <meter min="0" max="{{system.stats.ir}}" low="{{system.stats.luc}}" high="{{system.stats.luc}}" optimum="0" value="{{system.stress.value}}"></meter>
+      </div>
+      <div class="track">
+        <label>{{localize "EP1E.Stat.trauma"}}</label>
+        <input type="number" name="system.trauma.value" value="{{system.trauma.value}}" min="0">
+        <span class="sep">{{#if system.penalty.trauma}}−{{system.penalty.trauma}}{{/if}}</span>
+      </div>
+      {{#if editable}}
+      <div class="buttons">
+        <button type="button" data-action="applyHarm" data-kind="stress"><i class="fa-solid fa-brain"></i> {{localize "EP1E.Damage.applyStress"}}</button>
+        <button type="button" data-action="rollStat" data-stat="willpower"><i class="fa-solid fa-shield-halved"></i> {{localize "EP1E.Aptitude.wil"}} × 2</button>
+      </div>
+      {{/if}}
+    </section>
+  </div>
+
+  <section class="panel morphs">
+    <header class="list-header">
+      <h3>{{localize "EP1E.Section.morphs"}}</h3>
+      {{#if editable}}<a class="add" data-action="createItem" data-type="morph" data-tooltip="EP1E.Item.create"><i class="fa-solid fa-plus"></i></a>{{/if}}
+    </header>
+    <p class="hint">{{localize "EP1E.Morph.dropHint"}}</p>
+    <ol class="item-list">
+      {{#each morphs as |item|}}
+      <li class="item-row draggable {{#if item.system.active}}active{{/if}}" data-item-id="{{item.id}}">
+        <img src="{{item.img}}" alt="">
+        <span class="name"><a data-action="editItem">{{item.name}}</a> <small>{{localize (lookup @root.config.morphTypes item.system.morphType)}} · DUR {{item.system.durability}}</small></span>
+        <a class="sleeve-toggle" data-action="sleeve" data-tooltip="EP1E.Morph.sleeveHint">
+          <i class="fa-solid {{#if item.system.active}}fa-circle-dot{{else}}fa-circle{{/if}}"></i>
+          {{#if item.system.active}}{{localize "EP1E.Morph.sleeved"}}{{else}}{{localize "EP1E.Morph.sleeve"}}{{/if}}
+        </a>
+        {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "EP1E.Morph.none"}}</li>
+      {{/each}}
+    </ol>
+  </section>
+</section>

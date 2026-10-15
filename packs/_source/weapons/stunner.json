@@ -1,0 +1,30 @@
+{
+  "_id": "cb1203a0fe1c75ba",
+  "_key": "!items!cb1203a0fe1c75ba",
+  "name": "Stunner",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "beamWeapons",
+    "ap": 0,
+    "dv": "ceil(1d10 / 2)",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "SA",
+    "ammo": {
+      "value": 200,
+      "max": 200
+    },
+    "range": "10 / 25 / 40 / 60",
+    "equipped": false,
+    "description": "<p>+ choc (p. 204).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 35000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "a6e8c0a2501427c4",
+  "_key": "!items!a6e8c0a2501427c4",
+  "name": "Body Armor (Heavy)",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "energy": 13,
+    "kinetic": 13,
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

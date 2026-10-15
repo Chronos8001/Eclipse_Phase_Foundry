@@ -1,0 +1,30 @@
+{
+  "_id": "61cfe1a219b6958a",
+  "_key": "!items!61cfe1a219b6958a",
+  "name": "Shredder",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "sprayWeapons",
+    "ap": -10,
+    "dv": "2d10 + 5",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SA, BF, FA",
+    "ammo": {
+      "value": 100,
+      "max": 100
+    },
+    "range": "10 / 40 / 70 / 100",
+    "equipped": false,
+    "description": "<p>Effet de cône (voir p. 340).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 37000,
+  "ownership": {
+    "default": 0
+  }
+}

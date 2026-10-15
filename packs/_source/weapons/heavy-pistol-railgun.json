@@ -1,0 +1,30 @@
+{
+  "_id": "e223a2b5b81d6ff2",
+  "_key": "!items!e223a2b5b81d6ff2",
+  "name": "Heavy Pistol (Railgun)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "kineticWeapons",
+    "ap": -7,
+    "dv": "2d10 + 6",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SA, BF, FA",
+    "ammo": {
+      "value": 16,
+      "max": 16
+    },
+    "range": "15 / 52 / 90 / 120",
+    "equipped": false,
+    "description": "<p>Batterie : 200 tirs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 25000,
+  "ownership": {
+    "default": 0
+  }
+}

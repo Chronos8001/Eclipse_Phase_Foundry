@@ -1,0 +1,22 @@
+{
+  "_id": "c2bb6cb974309e2c",
+  "_key": "!items!c2bb6cb974309e2c",
+  "name": "Black Mark",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 (Level 1), 20 (Level 2), or 30 (Level 3) CP",
+    "description": "<p>At some point in the character's past, they managed to do something that earned a black mark on their reputation. For some reason, no matter what they do, this black mark cannot be shaken off and continues to haunt their interactions. In game terms, the character picks one faction. Every time they interact with this faction (such as a Networking Test) or with an NPC from this faction (Social Skill Tests) who knows who the character is, they suffer a -10 modifier per level.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 36000,
+  "ownership": {
+    "default": 0
+  }
+}

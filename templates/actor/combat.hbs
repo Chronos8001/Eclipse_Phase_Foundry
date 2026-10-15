@@ -1,0 +1,81 @@
+<section class="tab {{tab.cssClass}}" data-group="primary" data-tab="combat">
+
+  <section class="panel defense">
+    <h3>{{localize "EP1E.Section.defense"}}</h3>
+    <div class="defense-row">
+      <button type="button" data-action="rollFray" data-ranged="false"><i class="fa-solid fa-person-running"></i> {{localize "EP1E.Combat.frayMelee"}} <strong>{{fray}}</strong></button>
+      <button type="button" data-action="rollFray" data-ranged="true"><i class="fa-solid fa-person-falling-burst"></i> {{localize "EP1E.Combat.frayRangedShort"}} <strong>{{ep1eHalf fray}}</strong></button>
+      <div class="stat armor"><label>{{localize "EP1E.Stat.armor"}}</label><span>{{system.armor.energy}} / {{system.armor.kinetic}}</span></div>
+      <div class="stat"><label>{{localize "EP1E.Stat.db"}}</label><span>{{ep1eSigned system.stats.db}}</span></div>
+      <div class="stat"><label>{{localize "EP1E.Stat.spd"}}</label><span>{{system.stats.spd}}</span></div>
+    </div>
+    <p class="hint">{{localize "EP1E.Combat.hint"}}</p>
+  </section>
+
+  <section class="panel weapons">
+    <header class="list-header">
+      <h3>{{localize "EP1E.Section.weapons"}}</h3>
+      {{#if editable}}<a class="add" data-action="createItem" data-type="weapon" data-tooltip="EP1E.Item.create"><i class="fa-solid fa-plus"></i></a>{{/if}}
+    </header>
+    <table class="item-table">
+      <thead>
+        <tr>
+          <th class="name">{{localize "EP1E.Weapon.name"}}</th>
+          <th>{{localize "EP1E.Weapon.skill"}}</th>
+          <th>{{localize "EP1E.Weapon.ap"}}</th>
+          <th>{{localize "EP1E.Weapon.dv"}}</th>
+          <th>{{localize "EP1E.Weapon.modes"}}</th>
+          <th>{{localize "EP1E.Weapon.ammo"}}</th>
+          <th>{{localize "EP1E.Weapon.range"}}</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each weaponRows as |row|}}
+        <tr class="draggable {{#if row.item.system.equipped}}equipped{{/if}}" data-item-id="{{row.item.id}}">
+          <td class="name">
+            <a data-action="toggleEquipped" data-tooltip="EP1E.Item.equip"><i class="fa-solid {{#if row.item.system.equipped}}fa-hand-fist{{else}}fa-hand{{/if}}"></i></a>
+            <img src="{{row.item.img}}" alt="">
+            <a class="rollable" data-action="rollItem" data-tooltip="EP1E.Weapon.attackHint">{{row.item.name}}</a>
+          </td>
+          <td>{{row.skillLabel}} <strong>{{row.target}}</strong></td>
+          <td>{{#if row.item.system.ap}}{{row.item.system.ap}}{{else}}—{{/if}}</td>
+          <td>{{row.item.system.dv}}{{#if row.item.system.addDB}} {{ep1eSigned @root.system.stats.db}}{{/if}} <small>{{localize (lookup @root.config.damageTypes row.item.system.damageType)}}</small></td>
+          <td>{{row.item.system.modes}}</td>
+          <td>
+            {{#if row.item.system.ammo.max}}
+            <input type="number" value="{{row.item.system.ammo.value}}" min="0" data-item-field="system.ammo.value" {{#unless @root.editable}}disabled{{/unless}}> / {{row.item.system.ammo.max}}
+            {{/if}}
+          </td>
+          <td><small>{{row.item.system.range}}</small></td>
+          <td>{{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}</td>
+        </tr>
+        {{else}}
+        <tr><td colspan="8" class="empty">{{localize "EP1E.Weapon.none"}}</td></tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="panel armor">
+    <header class="list-header">
+      <h3>{{localize "EP1E.Section.armor"}}</h3>
+      {{#if editable}}<a class="add" data-action="createItem" data-type="armor" data-tooltip="EP1E.Item.create"><i class="fa-solid fa-plus"></i></a>{{/if}}
+    </header>
+    <ol class="item-list">
+      {{#each armor as |item|}}
+      <li class="item-row draggable {{#if item.system.equipped}}equipped{{/if}}" data-item-id="{{item.id}}">
+        <a data-action="toggleEquipped" data-tooltip="EP1E.Item.equip"><i class="fa-solid {{#if item.system.equipped}}fa-shield-halved{{else}}fa-shield{{/if}}"></i></a>
+        <img src="{{item.img}}" alt="">
+        <span class="name"><a data-action="itemToChat">{{item.name}}</a></span>
+        <span class="value">{{item.system.energy}} / {{item.system.kinetic}}</span>
+        {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "EP1E.Armor.none"}}</li>
+      {{/each}}
+    </ol>
+    {{#if activeMorph.system.armor.energy}}<p class="hint">{{localize "EP1E.Armor.morph"}} : {{activeMorph.system.armor.energy}} / {{activeMorph.system.armor.kinetic}}</p>
+    {{else if activeMorph.system.armor.kinetic}}<p class="hint">{{localize "EP1E.Armor.morph"}} : {{activeMorph.system.armor.energy}} / {{activeMorph.system.armor.kinetic}}</p>{{/if}}
+  </section>
+</section>

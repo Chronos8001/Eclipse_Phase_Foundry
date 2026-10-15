@@ -1,0 +1,30 @@
+{
+  "_id": "3a69cfa379333e97",
+  "_key": "!items!3a69cfa379333e97",
+  "name": "Microwave Agonizer",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "beamWeapons",
+    "ap": 0,
+    "dv": "",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "SA",
+    "ammo": {
+      "value": 50,
+      "max": 50
+    },
+    "range": "5 / 15 / 30 / 50",
+    "equipped": false,
+    "description": "<p>Mode douleur ou mode « roast » (AP -5, 2d10). Voir description p. 339.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 32000,
+  "ownership": {
+    "default": 0
+  }
+}

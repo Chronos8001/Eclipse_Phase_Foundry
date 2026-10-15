@@ -1,0 +1,51 @@
+{
+  "_id": "8e92bc5cac5cb078",
+  "_key": "!items!8e92bc5cac5cb078",
+  "name": "Case",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 20,
+      "coo": 20,
+      "int": 20,
+      "ref": 20,
+      "sav": 20,
+      "som": 20,
+      "wil": 20
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 20,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "movement": "Walker (4/16)",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation",
+    "advantages": "Armor (4/4)",
+    "disadvantages": "-5 to one chosen aptitude, Lemon trait, Social Stigma (Clanking Masses) trait",
+    "skillBonuses": [],
+    "cpCost": 5,
+    "creditCost": "Moderate",
+    "active": false,
+    "description": "<p>Cases are extremely cheap, mass-produced robotic shells intended to provide an affordable remorphing option for the millions of infugees created by the Fall. Though many varieties of case bot models exist, they are uniformly regarded as shoddy and inferior. Most case morphs are vaguely anthromorphic, with a thin framework body, standing just shorter than an average human, and suffer from frequent malfunctions.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 21000,
+  "ownership": {
+    "default": 0
+  }
+}

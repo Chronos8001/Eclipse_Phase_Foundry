@@ -1,0 +1,81 @@
+<div class="form-grid">
+  <div class="form-group">
+    <label>{{localize "EP1E.Morph.type"}}</label>
+    <select name="system.morphType">{{selectOptions config.morphTypes selected=system.morphType localize=true}}</select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Stat.dur"}}</label>
+    <input type="number" name="system.durability" value="{{system.durability}}" min="0">
+    <p class="hint">{{localize "EP1E.Stat.wt"}} {{system.woundThreshold}}</p>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Morph.speedMod"}}</label>
+    <input type="number" name="system.speedMod" value="{{system.speedMod}}">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Morph.initMod"}}</label>
+    <input type="number" name="system.initMod" value="{{system.initMod}}">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Morph.armor"}}</label>
+    <span class="pair">
+      <input type="number" name="system.armor.energy" value="{{system.armor.energy}}" min="0" data-tooltip="EP1E.DamageType.energy">
+      / <input type="number" name="system.armor.kinetic" value="{{system.armor.kinetic}}" min="0" data-tooltip="EP1E.DamageType.kinetic">
+    </span>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Morph.cpCost"}}</label>
+    <input type="number" name="system.cpCost" value="{{system.cpCost}}" min="0">
+  </div>
+</div>
+
+<table class="aptitude-table">
+  <thead>
+    <tr><th></th>{{#each aptitudes as |apt|}}<th>{{localize apt.abbr}}</th>{{/each}}</tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>{{localize "EP1E.Morph.aptitudeBonus"}}</th>
+      {{#each aptitudes as |apt|}}<td><input type="number" name="system.aptitudeBonus.{{apt.key}}" value="{{apt.bonus}}"></td>{{/each}}
+    </tr>
+    <tr>
+      <th>{{localize "EP1E.Morph.aptitudeMax"}}</th>
+      {{#each aptitudes as |apt|}}<td><input type="number" name="system.aptitudeMax.{{apt.key}}" value="{{apt.max}}" min="0"></td>{{/each}}
+    </tr>
+  </tbody>
+</table>
+
+<section class="skill-bonuses">
+  <header class="list-header">
+    <h4>{{localize "EP1E.Morph.skillBonuses"}}</h4>
+    {{#if editable}}<a class="add" data-action="addSkillBonus"><i class="fa-solid fa-plus"></i></a>{{/if}}
+  </header>
+  {{#each system.skillBonuses as |bonus|}}
+  <div class="bonus-row">
+    <select data-bonus-index="{{@index}}" data-bonus-field="key">{{selectOptions @root.skillChoices selected=bonus.key}}</select>
+    <input type="number" value="{{bonus.value}}" data-bonus-index="{{@index}}" data-bonus-field="value">
+    {{#if @root.editable}}<a data-action="removeSkillBonus" data-index="{{@index}}"><i class="fa-solid fa-trash"></i></a>{{/if}}
+  </div>
+  {{/each}}
+</section>
+
+<div class="form-group stacked">
+  <label>{{localize "EP1E.Morph.implants"}}</label>
+  <textarea name="system.implants" rows="2">{{system.implants}}</textarea>
+</div>
+<div class="form-group stacked">
+  <label>{{localize "EP1E.Morph.movement"}}</label>
+  <input type="text" name="system.movement" value="{{system.movement}}">
+</div>
+<div class="form-group stacked">
+  <label>{{localize "EP1E.Morph.advantages"}}</label>
+  <textarea name="system.advantages" rows="3">{{system.advantages}}</textarea>
+</div>
+<div class="form-group stacked">
+  <label>{{localize "EP1E.Morph.disadvantages"}}</label>
+  <textarea name="system.disadvantages" rows="2">{{system.disadvantages}}</textarea>
+</div>
+<div class="form-group">
+  <label>{{localize "EP1E.Morph.creditCost"}}</label>
+  <input type="text" name="system.creditCost" value="{{system.creditCost}}">
+</div>

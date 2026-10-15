@@ -1,0 +1,51 @@
+{
+  "_id": "120dacf31532de38",
+  "_key": "!items!120dacf31532de38",
+  "name": "Bouncers",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Grip Pads, Oxygen Reserve, Prehensile Feet",
+    "advantages": "Limber (Level 1) trait, +5 COO, +5 SOM, +5 to one aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 40,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Bouncers are humans genetically adapted for zero-G and microgravity environments. Their legs are more limber, and their feet can grasp as well as their hands.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "1072ce09ae4cdbe5",
+  "_key": "!items!1072ce09ae4cdbe5",
+  "name": "Submachine Gun (Firearm)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "kineticWeapons",
+    "ap": -2,
+    "dv": "2d10 + 3",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SA, BF, FA",
+    "ammo": {
+      "value": 20,
+      "max": 20
+    },
+    "range": "30 / 80 / 125 / 230",
+    "equipped": false,
+    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

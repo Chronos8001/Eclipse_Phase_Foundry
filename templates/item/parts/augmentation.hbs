@@ -1,0 +1,11 @@
+<div class="form-grid">
+  <div class="form-group">
+    <label>{{localize "EP1E.Augmentation.type"}}</label>
+    <select name="system.augType">{{selectOptions config.augmentationTypes selected=system.augType localize=true}}</select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Gear.cost"}}</label>
+    <input type="text" name="system.cost" value="{{system.cost}}">
+  </div>
+</div>
+<p class="hint">{{localize "EP1E.Augmentation.hint"}}</p>
