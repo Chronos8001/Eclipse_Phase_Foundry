@@ -18,12 +18,25 @@
     },
     "range": "10 / 40 / 70 / 100",
     "equipped": false,
-    "description": "<p>Effet de cône (voir p. 340).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "shock": false,
+    "area": {
+      "shape": "cone",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "Moderate",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>A heavier version of the shard pistol, the shredder fires a larger cloud of lethal flechettes, enough to shred a portion of the target into a fine mist.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 340.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 37000,
+  "sort": 42000,
   "ownership": {
     "default": 0
   }

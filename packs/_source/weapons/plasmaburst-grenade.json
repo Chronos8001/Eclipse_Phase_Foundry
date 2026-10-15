@@ -1,0 +1,43 @@
+{
+  "_id": "b059190dbe7bb4e0",
+  "_key": "!items!b059190dbe7bb4e0",
+  "name": "Plasmaburst Grenade",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "throwingWeapons",
+    "ap": -6,
+    "dv": "3d10 + 10",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "SS",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "SOM ÷ 5 / SOM ÷ 2 / SOM / SOM × 3",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "blast",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "High",
+    "quantity": 1,
+    "munition": {
+      "kind": "grenade",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>Also called “hellballs,” these munitions release a burst of plasma upon detonation that causes searing heat and fire damage across the area of effect without the devastating shockwaves of explosions that might rebound in an enclosed environment and/or breach a habitat’s infrastructure.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 341.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 63000,
+  "ownership": {
+    "default": 0
+  }
+}

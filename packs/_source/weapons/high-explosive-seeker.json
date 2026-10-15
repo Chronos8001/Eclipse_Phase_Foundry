@@ -1,0 +1,43 @@
+{
+  "_id": "d240260d72ceae67",
+  "_key": "!items!d240260d72ceae67",
+  "name": "High-Explosive Seeker",
+  "type": "weapon",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "seekerWeapons",
+    "ap": 0,
+    "dv": "3d10 + 10",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "blast",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "Moderate",
+    "quantity": 1,
+    "munition": {
+      "kind": "seeker",
+      "size": "mini"
+    },
+    "launcher": "",
+    "description": "<p>High-explosive seekers and grenades are designed to create a very destructive shock and heat wave. This damage is resisted with energy armor.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 341.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 59000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -18,7 +18,20 @@
     },
     "range": "",
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "shock": false,
+    "area": {
+      "shape": "none",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "Moderate",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>This assassin’s weapon features a dangerous monomolecular wire wrapped around a contained spool with two handles. One handle grips the spool, while the other extends the wire so that it may be used to wrap around targets (typically necks or limbs) and slice through them when pulled. Monofilament tensile strength is weak, however, usually breaking after one use.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>"
   },
   "effects": [],
   "flags": {},

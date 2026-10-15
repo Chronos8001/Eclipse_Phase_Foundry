@@ -16,14 +16,27 @@
       "value": 20,
       "max": 20
     },
-    "range": "5 / 15 / 30 / ‒",
+    "range": "5 / 15 / 30 / 50",
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "shock": false,
+    "area": {
+      "shape": "none",
+      "radius": 0
+    },
+    "twoHanded": true,
+    "cost": "Moderate",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>This modern flamethrower uses condensed ammunition capsules rather than fuel tanks, scorching targets and setting them on fire. Any hit that is an Excellent Success (MoS 30+) sets the target on fire, where they will continue to take 2d10 damage per Action Turn. These chemical fires are particularly difficult to put out unless they are deprived of oxygen. Torches are two-handed.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 340.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 38000,
+  "sort": 44000,
   "ownership": {
     "default": 0
   }

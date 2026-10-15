@@ -1,0 +1,43 @@
+{
+  "_id": "c3eb4d90f1a07bc8",
+  "_key": "!items!c3eb4d90f1a07bc8",
+  "name": "Overload Seeker",
+  "type": "weapon",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "seekerWeapons",
+    "ap": 0,
+    "dv": "ceil(1d10 / 2)",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "uniform",
+      "radius": 10
+    },
+    "twoHanded": false,
+    "cost": "Moderate",
+    "quantity": 1,
+    "munition": {
+      "kind": "seeker",
+      "size": "mini"
+    },
+    "launcher": "",
+    "description": "<p>Overload grenades and seekers launch an all-out assault on the target’s sensory spectrum. This attack includes blinding by intense flashing light, a deafening thunderclap followed by intense ultrasonic screaming, nausea-inducing malodorants, and infrasonic frequencies that can trigger unpleasant emotional responses (anxiety, uneasiness, extreme sorrow, nervous feelings of revulsion or fear). For an extra kick, overloads are also packed with “stingballs”—rubber pellets that inflict pain when detonated near an underarmored target. Anyone caught in the base 10-meter blast radius must make a SOM + WIL Test. If they fail, they must immediately leave the area of effect. If they fail with an MoF of 30+, they are incapacitated for 3 Action Turns with disorientation and/or vomiting, after which they must roll again. Overload munitions remain in effect for 1 full minute. Anyone in the area of effect suffers a –30 action modifier, which reduces by 10 per Action Turn after they leave the area. Additionally, anyone facing the direction of the overload round suffers a –10 glare modifier (neutralized by anti-glare systems).</p><p>AP: armor × 2.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 341.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 62000,
+  "ownership": {
+    "default": 0
+  }
+}

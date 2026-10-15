@@ -18,12 +18,25 @@
     },
     "range": "10 / 25 / 40 / 60",
     "equipped": false,
-    "description": "<p>+ choc (p. 204).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "shock": true,
+    "area": {
+      "shape": "none",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "Moderate",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>The stunner is an electrolaser that creates an electrically-conductive plasma channel to the target, down which it transmits a powerful electric current, shocking the target. Stunners do not work in vacuum. Stunners fire in semi-auto mode.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 339.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 35000,
+  "sort": 38000,
   "ownership": {
     "default": 0
   }

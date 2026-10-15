@@ -41,7 +41,7 @@ Copiez ou liez le dossier dans `Data/systems/ep1e` (le dossier doit s'appeler `e
 | `packs/_source/` | Sources JSON des compendiums |
 | `tools/` | Compilation des packs, vérifications, extraction depuis les PDF |
 
-Les sources des compendiums ont été extraites des livres avec `tools/parse_mrg.py` (morphes), `tools/parse_core.py` (traits) et `tools/gear_data.py` (armes, armures). Les scripts d'extraction nécessitent vos PDF et `pdftotext`.
+Les sources des compendiums ont été extraites des livres avec `tools/parse_mrg.py` (morphes), `tools/parse_core.py` (traits) et `tools/parse_core_gear.py` (armes, armures). Les scripts d'extraction nécessitent vos PDF et `pdftotext`.
 
 ## Licence
 

@@ -18,12 +18,25 @@
     },
     "range": "10 / 30 / 50 / 70",
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "shock": false,
+    "area": {
+      "shape": "cone",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "Low",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>The shard pistol is a flechette weapon, firing a stream of of diamondoid monomolecular shards at high velocities. These micro flechettes are very good at penetrating armor, but they do not disperse kinetic energy well and so do not cause as much tissue damage as kinetic weapons. Shard ammunition is often coated with drugs or toxins for extra efficiency.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 340.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 36000,
+  "sort": 41000,
   "ownership": {
     "default": 0
   }

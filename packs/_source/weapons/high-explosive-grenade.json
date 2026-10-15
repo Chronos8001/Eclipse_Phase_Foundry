@@ -1,0 +1,43 @@
+{
+  "_id": "4e8e3e8bd493d441",
+  "_key": "!items!4e8e3e8bd493d441",
+  "name": "High-Explosive Grenade",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "throwingWeapons",
+    "ap": 0,
+    "dv": "3d10 + 10",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "SS",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "SOM ÷ 5 / SOM ÷ 2 / SOM / SOM × 3",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "blast",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "Moderate",
+    "quantity": 1,
+    "munition": {
+      "kind": "grenade",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>High-explosive seekers and grenades are designed to create a very destructive shock and heat wave. This damage is resisted with energy armor.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 341.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 58000,
+  "ownership": {
+    "default": 0
+  }
+}

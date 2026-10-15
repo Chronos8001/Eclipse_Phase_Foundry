@@ -8,12 +8,14 @@
     "energy": 15,
     "kinetic": 15,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "High",
+    "description": "<p>This heavy-duty suit can almost be considered a miniature space ship. Hard Suits look like large metallic ovals with jointed arms and legs. They are quite heavy, but the user can move relatively easily by using servo assist motors in all the major joints of the arms and legs. Unlike other vacsuits, they are solid and can resist both vacuum and up to 100 atmospheres of external pressure. Characters wearing hard suits can safely explore the upper atmosphere of a gas giant. They are well armored against punctures and radiation and possess miniature plasma thrusters capable of delivering 0.01G for 10 hours. A built-in high quality maker produces sufficient food, air, and water that a user can remain in a hard suit indefinitely. Explorers have used them continuously for up to 2 months. Their gloves incorporate smart materials that allow each hand to use the equivalent of a utilitool (p. 326). Hard suits also contain radios and sensors equivalent to those on standard vacsuits. These suits have an Armor rating of 15/15, are maintained by a fixer nanohive (p. 329), and are instantly self-sealing of any breach unless more than 30 points of damage are inflicted at once. They protect the wearer from temperatures of –200 to 180 C.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 334.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 7000,
+  "sort": 12000,
   "ownership": {
     "default": 0
   }

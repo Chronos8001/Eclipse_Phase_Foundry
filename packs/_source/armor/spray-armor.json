@@ -8,12 +8,14 @@
     "energy": 2,
     "kinetic": 2,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "Low",
+    "description": "<p>This fast armor application comes in a spray can and disperses a smart chemical polymer that sticks to bare flesh (but does not adhere to hair and eyes). The polymer solidifies into a form fitting body armor fabric when exposed to body temperature with the look and feel of a latex suit. Spray armor does not work on synthetic morphs or on clothing or other armor. The color and feel of the armor can be adjusted with electric currents and additional polymers, making it popular among some socialite and nightlife scenes. The spray-on armor does not wash off, but degrades 1 point of armor (both energy and kinetic) every 12 hours. It may be removed with a special nanotech solvent. Spray armor has an Armor Value of 2/2.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 312.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 14000,
+  "sort": 20000,
   "ownership": {
     "default": 0
   }

@@ -1,0 +1,43 @@
+{
+  "_id": "82c70fb479145a22",
+  "_key": "!items!82c70fb479145a22",
+  "name": "Gas/Smoke Seeker",
+  "type": "weapon",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "seekerWeapons",
+    "ap": 0,
+    "dv": "",
+    "damageType": "none",
+    "addDB": false,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "blast",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "Low",
+    "quantity": 1,
+    "munition": {
+      "kind": "seeker",
+      "size": "mini"
+    },
+    "launcher": "",
+    "description": "<p>Gas/smoke munitions emit a cloud of their contained substance. Smoke impedes sight by releasing thick fumes upon ignition of the seeker. The smoke can be of any color and is often heated (called thermal smoke) to obfuscate heat signatures moving through the smoke as cover. Note that gases dissipate much more quickly under certain environmental conditions (wind, rain, etc.)</p><p><em>Source: Eclipse Phase Core Rulebook, p. 341.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 57000,
+  "ownership": {
+    "default": 0
+  }
+}

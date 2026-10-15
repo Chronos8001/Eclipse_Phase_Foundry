@@ -13,17 +13,30 @@
     "addDB": false,
     "modes": "SA",
     "ammo": {
-      "value": 50,
-      "max": 50
+      "value": 100,
+      "max": 100
     },
     "range": "5 / 15 / 30 / 50",
     "equipped": false,
-    "description": "<p>Mode douleur ou mode « roast » (AP -5, 2d10). Voir description p. 339.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "shock": false,
+    "area": {
+      "shape": "none",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "Moderate",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>The agonizer fires millimeterwave beams that create an unpleasant burning sensation in skin (even through armor) and to metals. Agonizers have two settings. The first is an active denial setting that causes extreme burning pain in the target, inflicting –20 to the target’s actions and forcing them to move away from the beam on their next action unless they succeed in a WIL Test (targets with Level 1 Pain Tolerance or the equivalent only suffer a –10 modifier and roll WIL x 2). Synthetic morphs and biomorphs with Level 2 Pain Tolerance (or the equivalent) are immune to this weapon. The second setting (colloquially known as the “roast” setting) has the same effect of the first, but also actually burns the target, inflicting the listed damage. Originally developed for crowd control, the agonizer is also useful for repelling animals. The agonizer is small-sized (p. 297) and fires in semi-auto mode.</p><p>Table: pain (see description)</p><p><em>Source: Eclipse Phase Core Rulebook, p. 339.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 32000,
+  "sort": 34000,
   "ownership": {
     "default": 0
   }

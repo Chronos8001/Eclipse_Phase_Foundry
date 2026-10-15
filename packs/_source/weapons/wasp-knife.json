@@ -18,7 +18,20 @@
     },
     "range": "",
     "equipped": false,
-    "description": "<p>Injection de gaz/drogue (voir p. 335).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "shock": false,
+    "area": {
+      "shape": "none",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "Low",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>Wasp knives are equipped with a canister in their handle. The common use is to fill these canisters with pressured air, which inflates inside the target. This is potentially lethal in vacuum or pressurized environments (like underwater), as the gas bursts out of the body cavity to escape (+2d10 damage in such situations). Wasp knives may also be loaded with chemicals, drugs, or nanobots. The target must be damaged for the canister’s contents to affect them.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>"
   },
   "effects": [],
   "flags": {},

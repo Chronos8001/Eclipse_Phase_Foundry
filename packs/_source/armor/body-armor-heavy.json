@@ -8,12 +8,14 @@
     "energy": 13,
     "kinetic": 13,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "Moderate",
+    "description": "<p>Similar to light body armor, but with extra protective layers, often ergonomically manufactured to conform to a specific character’s body, and an environmental seal with climate control to protect the wearer from hostile environments. It provides an Armor Value of 13/13.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 312.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 4000,
+  "sort": 7000,
   "ownership": {
     "default": 0
   }

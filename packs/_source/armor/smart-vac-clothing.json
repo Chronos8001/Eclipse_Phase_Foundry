@@ -8,12 +8,14 @@
     "energy": 2,
     "kinetic": 4,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "Moderate",
+    "description": "<p>Just like regular smart clothing, this outfit can also transform into a light vacsuit (p. 333). It also functions as armor with a rating of 2/4.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 325.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 13000,
+  "sort": 19000,
   "ownership": {
     "default": 0
   }

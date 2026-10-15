@@ -1,0 +1,43 @@
+{
+  "_id": "3d7e70f304fb3794",
+  "_key": "!items!3d7e70f304fb3794",
+  "name": "Eelware",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "melee",
+    "skill": "unarmedCombat",
+    "ap": 0,
+    "dv": "",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "shock": true,
+    "area": {
+      "shape": "none",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>See p. 304.</p><p>Table: shock (p. 204)</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

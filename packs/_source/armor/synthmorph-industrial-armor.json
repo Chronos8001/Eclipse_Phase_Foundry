@@ -8,12 +8,14 @@
     "energy": 10,
     "kinetic": 10,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "Moderate",
+    "description": "<p>The shell is equipped with protection against collisions, extreme weather, industrial accidents, and similar wear-and-tear. Increase the bot’s built-in Armor rating to 10/10.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 17000,
+  "sort": 21000,
   "ownership": {
     "default": 0
   }

@@ -8,12 +8,14 @@
     "energy": 16,
     "kinetic": 16,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "High",
+    "description": "<p>The synthmorph’s frame is loaded with armor that offers protection from heavy weapons for serious combat operations. This modification is bulky and noticeable; the bot frame is encased in a heavy-duty carapace. It increases the bot’s built-in Armor to 16/16. The shell’s mobility systems and power output are also enhanced to deal with the extra load.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 19000,
+  "sort": 23000,
   "ownership": {
     "default": 0
   }

@@ -8,12 +8,14 @@
     "energy": 3,
     "kinetic": 2,
     "equipped": false,
-    "description": "<p>Accessoire : s'ajoute à l'armure portée (+E/+K).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": true,
+    "cost": "Low",
+    "description": "<p>Used for mob suppression, riots shields are light-weight, tough, and may be set to electrify on command, stunning anyone who comes into contact with the outer surface (treat as shock glove effects, p. 334). Riot shields provide an Armor Value bonus of +3/+2.</p><p>Accessory: adds to worn armor without the layering penalty.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 312.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 10000,
+  "sort": 16000,
   "ownership": {
     "default": 0
   }

@@ -1,0 +1,43 @@
+{
+  "_id": "ffd9f1de31a5463a",
+  "_key": "!items!ffd9f1de31a5463a",
+  "name": "Thermobaric Grenade",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "throwingWeapons",
+    "ap": -10,
+    "dv": "3d10 + 5",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "SS",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "SOM ÷ 5 / SOM ÷ 2 / SOM / SOM × 3",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "uniform",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "High",
+    "quantity": 1,
+    "munition": {
+      "kind": "grenade",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>Thermobaric grenades and seekers utilize a more deadly form of explosion. When they detonate, they disperse a cloud of aerosol explosive over an area and then ignite, literally setting the air on fire, generating a devastating pressure wave, and sucking the oxygen out of the area. Thermobarics use the rules for uniform blast (p. 194).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 341.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 67000,
+  "ownership": {
+    "default": 0
+  }
+}

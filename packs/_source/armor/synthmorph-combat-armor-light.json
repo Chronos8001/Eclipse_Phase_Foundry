@@ -8,12 +8,14 @@
     "energy": 14,
     "kinetic": 12,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "Moderate",
+    "description": "<p>The synthmorph’s frame is protected by armor designed for policing and security duties. This increases the bot’s built-in Armor to 14/12.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 18000,
+  "sort": 22000,
   "ownership": {
     "default": 0
   }
