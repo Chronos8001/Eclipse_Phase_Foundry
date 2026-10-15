@@ -1,0 +1,51 @@
+{
+  "_id": "a66cdf39c31842e3",
+  "_key": "!items!a66cdf39c31842e3",
+  "name": "Space Fighter (Rover variant)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 25,
+    "speedMod": 1,
+    "initMod": 0,
+    "armor": {
+      "energy": 10,
+      "kinetic": 10
+    },
+    "movement": "Roller 8/32, Thrust Vector 12/40",
+    "implants": "360-Degree Vision, Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cyberclaws, Cortical Stack, Cyberbrain, Enhanced Vision, Extra Limbs (3 Arms), Gas-Jet System, Hand Laser, Mnemonic Augmentation, Neurachem (Level 1), Puppet Sock, Radar Absorbent, Reduced Signature, T-Ray Emitter, Telescoping Limbs, Weapon Mount (Articulated, Heavy Rail Pistol), Internal Rocket",
+    "advantages": "+5 COO, +5 REF, + 5 INT, +5 to one other aptitude of the player's choice, Armor 10/10",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 60,
+    "creditCost": "Expensive (minimum 60,000+)",
+    "active": false,
+    "description": "<p>This version of the rover is fitted with a miniature metallic-hydrogen rocket with an acceleration up to 0.25 g, so that it is useful in short-range space battles. Several of these morphs can be launched from a spaceship to attack another ship or a habitat.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 82.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 98000,
+  "ownership": {
+    "default": 0
+  }
+}

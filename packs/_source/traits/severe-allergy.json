@@ -10,7 +10,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 (uncommon) or 20 (common) CP",
-    "description": "<p>The morph's biochemistry suffers a severe allergic reaction (anaphylaxis) when it comes into contact (touched, inhaled, or ingested) with a specific allergen. The allergen may be common (dust, dander, plant pollen, certain foods, latex) or uncommon (certain drugs, insect stings). The player and gamemaster should agree on an allergen that fits the game. If exposed to the allergen, the character breaks into hives, has difficulty to breathing (-30 modifier to all actions), and must make a DUR Test or go into anaphylactic shock (dying of respiratory failure in 2d10 minutes unless medical care is applied). This trait is only available to biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The morph's biochemistry suffers a severe allergic reaction (anaphylaxis) when it comes into contact (touched, inhaled, or ingested) with a specific allergen. The allergen may be common (dust, dander, plant pollen, certain foods, latex) or uncommon (certain drugs, insect stings). The player and gamemaster should agree on an allergen that fits the game. If exposed to the allergen, the character breaks into hives, has difficulty to breathing (-30 modifier to all actions), and must make a DUR Test or go into anaphylactic shock (dying of respiratory failure in 2d10 minutes unless medical care is applied). This trait is only available to biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
   },
   "effects": [],
   "flags": {},

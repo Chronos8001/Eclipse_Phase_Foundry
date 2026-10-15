@@ -10,7 +10,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 CP",
-    "description": "<p>The morph lacks the cortical stack that is common to morphs of its type. This means the character cannot be resleeved from the cortical stack if the character dies, they can only be resleeved from a standard backup. This trait is not available for flats.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The morph lacks the cortical stack that is common to morphs of its type. This means the character cannot be resleeved from the cortical stack if the character dies, they can only be resleeved from a standard backup. This trait is not available for flats.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
   },
   "effects": [],
   "flags": {},

@@ -10,7 +10,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
-    "description": "<p>The morph's immune system is robust and more resistant to diseases, drugs, and toxins—even more than basic bio-mods. At Level 1, apply a +10 modifier whenever making a test to resist infection or the effects of a toxin or drug. At Level 2, increase this modifier to +20. This trait is only available to biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The morph's immune system is robust and more resistant to diseases, drugs, and toxins—even more than basic bio-mods. At Level 1, apply a +10 modifier whenever making a test to resist infection or the effects of a toxin or drug. At Level 2, increase this modifier to +20. This trait is only available to biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
   },
   "effects": [],
   "flags": {},

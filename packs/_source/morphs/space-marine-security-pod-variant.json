@@ -1,0 +1,51 @@
+{
+  "_id": "39e326e9055f873d",
+  "_key": "!items!39e326e9055f873d",
+  "name": "Space Marine (Security Pod variant)",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 2,
+      "kinetic": 3
+    },
+    "movement": "4/20",
+    "implants": "Adrenal Boost, Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Claws, Cortical Stack, Cyberbrain, Eelware, Enhanced Vision, Grip Pads, Mnemonic Augmentation, Puppet Sock, T-Ray Emitter, Oxygen Reserve, Prehensile Feet, Vacuum Sealing",
+    "advantages": "+10 SOM, +5 to one other aptitude of the player's choice",
+    "disadvantages": "Social Stigma (Pod) trait",
+    "skillBonuses": [],
+    "cpCost": 30,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>The space marine variant of the security pod was optimized for orbital skirmishes, boarding actions, suppressing asteroid miner revolts, and other space-theater operations.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 88.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 105000,
+  "ownership": {
+    "default": 0
+  }
+}

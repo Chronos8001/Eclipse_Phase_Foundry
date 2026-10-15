@@ -10,7 +10,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Cost: 10 CP",
-    "description": "<p>The character is a legend in the use of one particular skill. The character may raise one learned skill over 80, to a maximum of 90, during character creation. This trait does not actually increase the skill, it just raises the maximum. This trait may only be taken once.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The character is a legend in the use of one particular skill. The character may raise one learned skill over 80, to a maximum of 90, during character creation. This trait does not actually increase the skill, it just raises the maximum. This trait may only be taken once.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
   },
   "effects": [],
   "flags": {},

@@ -1,24 +1,27 @@
 """Parse traits from the EP1e core rulebook into Foundry pack sources.
 
-Usage: pdftotext -f 144 -l 155 "Eclipse Phase - Core Rulebook.pdf" <dir>/traits_raw.txt
-       python -I tools/parse_core.py <dir> packs/_source
+Usage: python -I tools/parse_core.py "<path>/Eclipse Phase - Core Rulebook.pdf" packs/_source
 (Morphs come from the Morph Recognition Guide: see tools/parse_mrg.py.)
 """
-import hashlib, json, re, sys, os, html
+import hashlib, json, re, subprocess, sys, os, html
 
-TXT = sys.argv[1]     # dir with traits_raw.txt
+PDF = sys.argv[1]     # Core Rulebook PDF
 OUT = sys.argv[2]     # packs/_source dir
+FIRST_PAGE, LAST_PAGE = 144, 155  # PDF pages of the Traits section
+OFFSET = 2            # PDF page - printed page
 
 
 JUNK = re.compile(r"^(\.\d)+|^(Synopsis|A Time of Eclipse|Action and Combat|Accelerated Future|Running the Game|character creation|EXAMPLE|\d{3})\b")
 
-def clean_lines(path):
+def clean_lines():
+    """Text lines of the Traits section, each with the printed page it comes from."""
     out = []
-    for line in open(path, encoding="utf-8", errors="replace"):
-        line = line.rstrip("\n").strip()
-        if not line or JUNK.search(line):
-            continue
-        out.append(line)
+    for p in range(FIRST_PAGE, LAST_PAGE + 1):
+        text = subprocess.run(["pdftotext", "-f", str(p), "-l", str(p), PDF, "-"], capture_output=True).stdout
+        for line in text.decode("utf-8", errors="replace").split("\n"):
+            line = line.strip()
+            if line and not JUNK.search(line):
+                out.append((line, p - OFFSET))
     return out
 
 def join(lines):
@@ -55,10 +58,12 @@ def write(pack, docs):
 
 # ---------------------------------------------------------------- Traits
 def parse_traits():
-    lines = clean_lines(os.path.join(TXT, "traits_raw.txt"))
+    tagged = clean_lines()
+    lines = [l for l, _ in tagged]
+    pages = [p for _, p in tagged]
     start = lines.index("Positive Traits")
     end = lines.index("Character Advancement")
-    lines = lines[start:end]
+    lines, pages = lines[start:end], pages[start:end]
     entries, polarity = [], "positive"
     i = 0
     while i < len(lines):
@@ -68,7 +73,7 @@ def parse_traits():
         m = re.match(r"^(Cost|Bonus): (.*)$", l)
         if m:
             name = lines[i - 1]
-            entries.append({"name": name, "polarity": polarity, "first": m.group(2), "body": [], "nameIdx": i - 1})
+            entries.append({"name": name, "polarity": polarity, "first": m.group(2), "body": [], "page": pages[i - 1]})
         elif entries:
             entries[-1]["body"].append(l)
         i += 1
@@ -96,7 +101,8 @@ def parse_traits():
             "level": 1,
             "cost": costs[0] if costs else 0,
             "costText": f"{'Cost' if e['polarity'] == 'positive' else 'Bonus'}: {cost_txt}".replace("�", "-"),
-            "description": f"<p>{html.escape(join([desc_start] + body), quote=False)}</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>",
+            "description": f"<p>{html.escape(join([desc_start] + body), quote=False)}</p>"
+                           f"<p><em>Source: Eclipse Phase Core Rulebook, p. {e['page']}.</em></p>",
         }
         img = "icons/svg/upgrade.svg" if e["polarity"] == "positive" else "icons/svg/downgrade.svg"
         docs.append(doc(name, "trait", img, system, "traits", (n + 1) * 1000))

@@ -10,7 +10,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Cost: 10 (Level 1), 20 (Level 2), or 30 (Level 3) CP",
-    "description": "<p>This morph is resilient than others of its type and can take more physical abuse. Increase their Durability by +5 per level (+5 at Level 1, +10 at Level 2, and +15 at Level 3). This also increases Wound Threshold by +1, +2, and +3 respectively.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>This morph is resilient than others of its type and can take more physical abuse. Increase their Durability by +5 per level (+5 at Level 1, +10 at Level 2, and +15 at Level 3). This also increases Wound Threshold by +1, +2, and +3 respectively.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 148.</em></p>"
   },
   "effects": [],
   "flags": {},

@@ -10,7 +10,7 @@
     "level": 1,
     "cost": 20,
     "costText": "Bonus: 20 CP",
-    "description": "<p>The character is particularly weak with one aptitude. That aptitude must be purchased at a rating lower than 5, and may never be upgraded during character advancement. The aptitude maximum is 10, no matter what morph the character is wearing.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The character is particularly weak with one aptitude. That aptitude must be purchased at a rating lower than 5, and may never be upgraded during character advancement. The aptitude maximum is 10, no matter what morph the character is wearing.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 149.</em></p>"
   },
   "effects": [],
   "flags": {},

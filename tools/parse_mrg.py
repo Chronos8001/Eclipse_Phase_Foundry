@@ -37,7 +37,11 @@ IMG = {"biomorph": "icons/svg/mystery-man.svg", "pod": "icons/svg/mystery-man-bl
 
 def page_text(p):
     out = subprocess.run(["pdftotext", "-f", str(p), "-l", str(p), PDF, "-"], capture_output=True)
-    return out.stdout.decode("utf-8", errors="replace").replace("�", "-")
+    text = out.stdout.decode("utf-8", errors="replace").replace("�", "-")
+    # Jenkin (p. 52) spells the label "Credit Costs"
+    text = text.replace("Credit Costs:", "Credit Cost:")
+    # "ROVER (SPACE FIGHTER VARIANT) This..." -> "SPACE FIGHTER VARIANT This..." (the base is the previous morph)
+    return re.sub(r"^[A-Z][A-Z' -]+ \(([A-Z][A-Z' -]+ VARIANT)\) ", r"\1 ", text, flags=re.M)
 
 
 def page_type(lines, p):

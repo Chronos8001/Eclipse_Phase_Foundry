@@ -10,7 +10,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
-    "description": "<p>The character's mind is inherently resistant to mental attacks. At Level 1, apply a +10 modifier to all defense tests made against psi attacks. At Level 2, apply a +20 modifier.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The character's mind is inherently resistant to mental attacks. At Level 1, apply a +10 modifier to all defense tests made against psi attacks. At Level 2, apply a +20 modifier.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 147.</em></p>"
   },
   "effects": [],
   "flags": {},

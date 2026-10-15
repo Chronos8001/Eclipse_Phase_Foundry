@@ -10,7 +10,7 @@
     "level": 1,
     "cost": 5,
     "costText": "Bonus: 5 or 20 CP",
-    "description": "<p>The character has managed to get themselves blacklisted in certain circles, whether they actually did something to deserve it or not. In game terms, the character is barred from having a Rep score higher than 0 in one particular reputation network. People within that network will refuse to help the character out of fear of reprisals and ruining their own reputation. The bonus for this trait is 20 CP if chosen for the rep network pertaining to the character's own starting faction, and 5 CP if chosen for any other.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The character has managed to get themselves blacklisted in certain circles, whether they actually did something to deserve it or not. In game terms, the character is barred from having a Rep score higher than 0 in one particular reputation network. People within that network will refuse to help the character out of fear of reprisals and ruining their own reputation. The bonus for this trait is 20 CP if chosen for the rep network pertaining to the character's own starting faction, and 5 CP if chosen for any other.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 149.</em></p>"
   },
   "effects": [],
   "flags": {},
