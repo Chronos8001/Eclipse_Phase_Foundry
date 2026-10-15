@@ -1,0 +1,51 @@
+{
+  "_id": "5bb0a4bffec6b731",
+  "_key": "!items!5bb0a4bffec6b731",
+  "name": "Fierce Kite (Fighting Kite variant)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 50,
+    "speedMod": 1,
+    "initMod": 0,
+    "armor": {
+      "energy": 8,
+      "kinetic": 8
+    },
+    "movement": "Ionic 12/40, Thrust Vector 8/40, Walker 2/8, Winged 8/32",
+    "implants": "Access Jacks, Anti-Glare, Basic Mesh Inserts, Chameleon Skin, Chemical Sniffer, Cortical Stack, Cyberbrain, Enhanced Vision, Mnemonic Augmentation, Neurachem (Level 1), Radar, Radar Absorbent, Shape Adjusting, T-Ray Emitter, Weapon Mount (Internal, Articulated, Laser Pulser), Wings",
+    "advantages": "+5 to two aptitudes of the player's choice, Armor (4/4) — Variant: Armor 8/8",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 55,
+    "creditCost": "Expensive (minimum 55,000+)",
+    "active": false,
+    "description": "<p>Fierce kites are larger, humanoid-sized fighting kites.</p><p><strong>Notes:</strong> Does not have the Small size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 30.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

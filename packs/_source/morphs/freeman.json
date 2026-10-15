@@ -1,0 +1,51 @@
+{
+  "_id": "641bb436a0be83ba",
+  "_key": "!items!641bb436a0be83ba",
+  "name": "Freeman",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 5,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Monitor Module, Optogenetics Module, Puppet Sock",
+    "advantages": "+5 SAV, +5 to one other aptitude of the player's choice except WIL",
+    "disadvantages": "-5 WIL",
+    "skillBonuses": [],
+    "cpCost": 10,
+    "creditCost": "High",
+    "active": false,
+    "description": "<p>Many leaders want to ensure loyalty or at least obedience from their citizens, especially recently sleeved infugees. The freeman biomorph offers rulers (some would say tyrants or dictators) a chance to offer citizens a new life without worrying about dissidence. Based on the splicer morph, the freeman is genetically modified to be more obedient, which results in lower Willpower. More insidiously, freeman morphs are genetically modified with a protein that makes their neurons sensitive to light. When combined with an optogenetics module implant, these neurons can be activated and deactivated remotely, enabling a monitoring muse or meshed overseer to control the ego's behavior. (The specific behavior affected is chosen with each optogenetics module implant.) The freeman comes with a specialized monitor AGI installed in a modified ghostrider module. The monitor, usually a modified fork of the tyrant's muse, watches and reports all suspicious actions taken by the primary ego. The purpose of this implant is often concealed. Citizens who sleeve into a freeman morph are told the implant is a security measure that helps prevent infection from TITAN technology or some similar lie. The module is designed to resist tampering and will report to headquarters the instant it detects a hacker's intrusion. The monitor muse can manipulate the ego's behavior or even take control of the morph via its puppet sock, but avoids doing that unless absolutely necessary. Dictators do not want to reveal that their citizens have spies implanted in their skulls, watching them. Surprisingly, some people voluntarily sleeve into freeman morphs, preferring to hand responsibility and decision-making over to other parties, such as the Sendero Luminoso Benevolent Dictatorship habitat in the Neptunian Trojans.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 36.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 42000,
+  "ownership": {
+    "default": 0
+  }
+}

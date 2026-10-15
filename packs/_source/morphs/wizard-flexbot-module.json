@@ -1,0 +1,51 @@
+{
+  "_id": "960f1f51bed8ee30",
+  "_key": "!items!960f1f51bed8ee30",
+  "name": "Wizard (Flexbot module)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 25,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 25,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "movement": "Walker 4/16, Hover 8/40",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mental Speed, Mnemonic Augmentation, Modular Design, Shape Adjusting — Modularized Gear: Radio Booster",
+    "advantages": "Armor 4/4, +5 COG, +5 INT",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 35,
+    "creditCost": "Expensive (minimum 35,000)",
+    "active": false,
+    "description": "<p>Specialized for infosec and communications tasks.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 34.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 40000,
+  "ownership": {
+    "default": 0
+  }
+}

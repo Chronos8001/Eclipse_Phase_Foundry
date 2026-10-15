@@ -1,0 +1,51 @@
+{
+  "_id": "7d3b0ae8e3abdd93",
+  "_key": "!items!7d3b0ae8e3abdd93",
+  "name": "Picklock (Flexbot module)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 25,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 20,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "movement": "Hopper 4/20, Walker 4/16",
+    "implants": "Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Grip Pads, Hidden Compartment, Mnemonic Augmentation, Modular Design, Radar Absorbent (p. 149, Panopticon), Shape Adjusting, Wrist-Mounted Tools",
+    "advantages": "Armor 4/4, INT +5",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 20,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Picklocks are an excellent complement to a rogue module. They are illegal or restricted in many habitats.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 34.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 37000,
+  "ownership": {
+    "default": 0
+  }
+}

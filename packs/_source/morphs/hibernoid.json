@@ -1,0 +1,51 @@
+{
+  "_id": "9c31d86df12ef5af",
+  "_key": "!items!9c31d86df12ef5af",
+  "name": "Hibernoid",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack, Hibernation",
+    "advantages": "+5 INT, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 25,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Hibernoids are transgenic-modified humans with heavily altered sleep patterns and metabolic processes. Hibernoids have a decreased need for sleep, requiring only 1-2 hours a day on average. They also have the ability to trigger a form of voluntary hibernation, effectively stopping their metabolism and need for oxygen. Hibernoids make excellent long-duration space travelers and habtechs, but these morphs are also favored by personal aides and hypercapitalists with non-stop lifestyles.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 46.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 53000,
+  "ownership": {
+    "default": 0
+  }
+}

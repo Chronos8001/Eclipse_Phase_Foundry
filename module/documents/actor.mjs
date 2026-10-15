@@ -29,7 +29,8 @@ export class EPActor extends Actor {
 
   /** @override */
   getRollData() {
-    const data = super.getRollData();
+    // Core returns the system model itself: copy it so derived shortcuts don't leak into the document
+    const data = { ...super.getRollData() };
     const sys = this.system;
     for ( const k of APTITUDES ) data[k] = sys.aptitudes[k].value;
     Object.assign(data, sys.stats ?? {});

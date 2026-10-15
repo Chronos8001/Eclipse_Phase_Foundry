@@ -1,0 +1,51 @@
+{
+  "_id": "3bf29fce4897b2e7",
+  "_key": "!items!3bf29fce4897b2e7",
+  "name": "Rover",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 25,
+    "speedMod": 1,
+    "initMod": 0,
+    "armor": {
+      "energy": 10,
+      "kinetic": 10
+    },
+    "movement": "Roller 8/32, Thrust Vector 12/40",
+    "implants": "360-Degree Vision, Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cyberclaws, Cortical Stack, Cyberbrain, Enhanced Vision, Extra Limbs (3 Arms), Gas-Jet System, Hand Laser, Mnemonic Augmentation, Neurachem (Level 1), Puppet Sock, Radar Absorbent, Reduced Signature, T-Ray Emitter, Telescoping Limbs, Weapon Mount (Articulated, Heavy Rail Pistol)",
+    "advantages": "+5 COO, +5 REF, + 5 INT, +5 to one other aptitude of the player's choice, Armor 10/10",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 60,
+    "creditCost": "Expensive (minimum 60,000+)",
+    "active": false,
+    "description": "<p>Rover morphs are a smaller, defense-oriented version of the sphere morph. Each rover is 0.6 meters in diameter and, with its limbs retracted, has the ominous appearance of a reflective, shiny, black globe. It can extrude three arms, each with a built-in weapon: extendable claws, a small laser, and a heavy rail pistol loaded with 200 rounds of ammunition. Rovers are stealthy and highly maneuverable and so favored for bodyguard and police purposes in some areas. They are often deployed via remote control.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 82.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 96000,
+  "ownership": {
+    "default": 0
+  }
+}

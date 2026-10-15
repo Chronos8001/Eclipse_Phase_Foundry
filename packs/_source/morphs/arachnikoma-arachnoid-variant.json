@@ -1,0 +1,51 @@
+{
+  "_id": "8ad93f2d7b4be2e0",
+  "_key": "!items!8ad93f2d7b4be2e0",
+  "name": "Arachnikoma (Arachnoid variant)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 60,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 12,
+      "kinetic": 12
+    },
+    "movement": "Walker 4/24, Thrust Vector 8/40, Wheeled 8/40",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Enhanced Vision, Extra Limbs (10 Arms/Legs), Lidar, Mnemonic Augmentation, Pneumatic Limbs, Radar",
+    "advantages": "+5 COO, +10 SOM, Armor 8/8 — Variant: Armor 12/12",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 55,
+    "creditCost": "Expensive (minimum 55,000+)",
+    "active": false,
+    "description": "<p>Arachnikomas are larger-sized arachnoids. Their body serves as a capsule/cockpit for one human-sized passenger/pilot (or cargo), with a hinged top. Otherwise they are similar to arachnoids in form and function.</p><p><strong>Notes:</strong> Large Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 7.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "b4c0dd6fe484a694",
+  "_key": "!items!b4c0dd6fe484a694",
+  "name": "Futura",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 5,
+      "som": 0,
+      "wil": 10
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Eidetic Memory, Emotional Dampers",
+    "advantages": "+5 COG, +5 SAV, +10 WIL, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 40,
+    "creditCost": "Expensive (exceptionally rare; 50,000+)",
+    "active": false,
+    "description": "<p>An exalt variant, futura morphs were specially crafted for the \"Lost generation.\" Tailor-made for accelerated growth and adjusted for confidence, self-reliance, and adaptability, futuras were intended to help transhumanity regain its foothold. These programs proved disastrous and the line was discontinued, but some models remain, viewed by some with distaste and others as collectibles or exotic oddities.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 38.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 44000,
+  "ownership": {
+    "default": 0
+  }
+}

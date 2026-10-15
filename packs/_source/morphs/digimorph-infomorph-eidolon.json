@@ -1,0 +1,51 @@
+{
+  "_id": "9f191ee182e6d460",
+  "_key": "!items!9f191ee182e6d460",
+  "name": "Digimorph (Infomorph eidolon)",
+  "type": "morph",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "morphType": "infomorph",
+    "aptitudeMax": {
+      "cog": 40,
+      "coo": 40,
+      "int": 40,
+      "ref": 40,
+      "sav": 40,
+      "som": 40,
+      "wil": 40
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 0,
+    "speedMod": 2,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Mnemonic Augmentation",
+    "advantages": "+5 to one aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 25,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>This budget eidolon is one of the cheapest available. While it has only modest bonuses, it is highly customizable and widely used.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 51.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 59000,
+  "ownership": {
+    "default": 0
+  }
+}

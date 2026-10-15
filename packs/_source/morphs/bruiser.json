@@ -1,0 +1,56 @@
+{
+  "_id": "535161cefd78aed0",
+  "_key": "!items!535161cefd78aed0",
+  "name": "Bruiser",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 15,
+      "wil": 0
+    },
+    "durability": 60,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Adrenal Boost, Basic Biomods, Basic Mesh Inserts, Claws, Cortical Stack, Hardened Skeleton",
+    "advantages": "+10 Intimidation skill, +15 SOM (includes Hardened Skeleton bonus), +5 REF (+15 with Adrenal Booost), +5 to one other aptitude of the player's choice",
+    "disadvantages": "Unattractive (Level 1) trait",
+    "skillBonuses": [
+      {
+        "key": "intimidation",
+        "value": 10
+      }
+    ],
+    "cpCost": 60,
+    "creditCost": "Expensive (minimum 60,000+)",
+    "active": false,
+    "description": "<p>This morph is specifically designed to be large, strong, and physically intimidating. Adopted early on by some sports performers, it quickly became a favorite among criminal cartels and thugs. At 2.5 meters tall, the morph may have difficulty moving comfortably in all but the most open and uncrowded of habitats. This morph's \"claws\" extend from its knuckles and are more like reinforced bone brass knuckles.</p><p><strong>Notes:</strong> Large Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 14.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

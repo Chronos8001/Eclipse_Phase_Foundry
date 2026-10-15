@@ -1,0 +1,51 @@
+{
+  "_id": "626844b735fb30d5",
+  "_key": "!items!626844b735fb30d5",
+  "name": "Ripwing",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 5,
+      "ref": 5,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20, Winged 4/20",
+    "implants": "Access Jacks, Basic Biomods, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Enhanced Vision, Mnemonic Augmentation, Prehensile Feet, Puppet Sock, Wings",
+    "advantages": "Beak/Claw Attack (1d10 DV, use Unarmed Combat skill), +5 COO, +5 INT, +5 REF",
+    "disadvantages": "Social Stigma (Neogenetic), Social Stigma (Pod)",
+    "skillBonuses": [],
+    "cpCost": 40,
+    "creditCost": "Expensive (minimum 30,000)",
+    "active": false,
+    "description": "<p>Developed by the genehackers of Fortean, ripwings are neogenetic avians, incorporating genetics from a range of flying creatures, some of them prehistoric pterosaur genes acquired from Sky Ark researchers, along with some original genetic traits. These transgenic amalgamations are larger and sturdier than standard neo-avian morphs. They are popular among both neo-avian mercurials who want a more robust form and gatecrashers looking for a quick and stealthy flyer for recon missions. The ripwing morph makes more extensive use of the chiroptera genestocks used to give the first avian uplifts functional hands. Instead of feathers, ripwings feature tough leathery skin or even scales. The morphs are usually a uniform matte black in color, though they are able to change color at will due to their chameleon skin enhancements.</p><p><strong>Notes:</strong> Non-Mammalian Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 81.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 95000,
+  "ownership": {
+    "default": 0
+  }
+}

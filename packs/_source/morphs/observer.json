@@ -1,0 +1,51 @@
+{
+  "_id": "8ba0c6efc1198d3e",
+  "_key": "!items!8ba0c6efc1198d3e",
+  "name": "Observer",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 10,
+      "ref": 5,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack",
+    "advantages": "+10 INT, +5 COG, +5 REF, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 40,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Observers have their minds enhanced to bolster intuitive, analytical, and investigative capabilities. They are favored by detectives and others with a mind towards details, puzzles, and thin-slicing.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 72.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 86000,
+  "ownership": {
+    "default": 0
+  }
+}

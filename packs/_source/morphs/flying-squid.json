@@ -1,0 +1,56 @@
+{
+  "_id": "a9d457e74293bd4e",
+  "_key": "!items!a9d457e74293bd4e",
+  "name": "Flying Squid",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "Submarine 4/36, Thrust Vector 4/28",
+    "implants": "360-Degree Vision, Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Extra Limbs (8 arms, 2 tentacles), Grip Pads, Hydrostatic Pressure Adaptation, Mnemonic Augmentation, Polarization Vision, Puppet Sock",
+    "advantages": "8 Arms, 2 Tentacles, +5 COO, +5 SOM, +5 to one other aptitude of the player's choice, +30 Swimming skill, Beak Attack (1d10 + 1 DV, AP -1), Limber (Level 2) trait",
+    "disadvantages": "Social Stigma (Pod) trait Note: Non-Mammalian Biochemistry trait",
+    "skillBonuses": [
+      {
+        "key": "swimming",
+        "value": 30
+      }
+    ],
+    "cpCost": 55,
+    "creditCost": "Expensive (minimum 60,000+)",
+    "active": false,
+    "description": "<p>Given the popularity of octomorphs even among non-mercurials, morph designers have sought out a similar morph that is operable in zero g and also designed for speed. Its streamlined form resembles a stylized squid and this morph can move swiftly in both water and air. It can suck either water or air into a cavity in its mantle and then expel it out a siphon in a chosen direction for fast, jet-like propulsion. While popular with neo-octopi, its speed and overall utility has made it an increasingly favorite option with others seeking an aquatic-adapted morph.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 35.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 41000,
+  "ownership": {
+    "default": 0
+  }
+}

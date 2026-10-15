@@ -1,0 +1,51 @@
+{
+  "_id": "c7526eaa885f949a",
+  "_key": "!items!c7526eaa885f949a",
+  "name": "Specialist Pod",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Access Jacks, Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Puppet Sock",
+    "advantages": "+10 to one aptitude of the player's choice, +5 to one other aptitude of the player's choice",
+    "disadvantages": "Social Stigma (Pod) trait",
+    "skillBonuses": [],
+    "cpCost": 25,
+    "creditCost": "High",
+    "active": false,
+    "description": "<p>Designed specifically to compete with popular mid-range morphs like the menton and olympian, the specialist pod is cheaper and faster to create than a biomorph. It also offers the user a high degree of customization.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 93.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 107000,
+  "ownership": {
+    "default": 0
+  }
+}

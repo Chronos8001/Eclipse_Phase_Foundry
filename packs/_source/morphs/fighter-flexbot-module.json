@@ -1,0 +1,51 @@
+{
+  "_id": "61f0ed2574f333a1",
+  "_key": "!items!61f0ed2574f333a1",
+  "name": "Fighter (Flexbot module)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 35,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 8,
+      "kinetic": 8
+    },
+    "movement": "Walker 4/16, Hover 8/16",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Modular Design, Radar, T-Ray Emitter, 2 Weapon Mounts",
+    "advantages": "Armor (8/8), Exceptional Aptitude (SOM) trait, Tough (Level 2) trait, +5 COO, +5 SOM",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 45,
+    "creditCost": "Expensive (minimum 45,000)",
+    "active": false,
+    "description": "<p>Fighters are combat-oriented modules.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 33.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 34000,
+  "ownership": {
+    "default": 0
+  }
+}

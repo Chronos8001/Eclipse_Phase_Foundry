@@ -1,0 +1,56 @@
+{
+  "_id": "a211034ec94aa664",
+  "_key": "!items!a211034ec94aa664",
+  "name": "Selkie",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "1/4, Swim 4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced Hearing, Enhanced Vision, Enhanced Respiration, Gills, Hydrostatic Pressure Adaptation, Swim Bladder, Temperature Tolerance (Improved Cold), Toxin Filters",
+    "advantages": "+5 COO, +10 SOM, +5 to one other aptitude of the player's choice, +10 Swimming skill",
+    "disadvantages": "",
+    "skillBonuses": [
+      {
+        "key": "swimming",
+        "value": 10
+      }
+    ],
+    "cpCost": 55,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Selkies look like a human-seal hybrid, and in fact their genetics are aquanaut with heavy splices of seal traits. Their arms are standard human-shaped, but their legs are fused into a pair of hind flippers for powerful swimming. On land, they can stand but have difficulty moving, as they must flop, roll, or hop like a seal. They are adapted for the lack of air, deep cold, and crushing pressure of subcrustal seas.</p><p><strong>Notes:</strong> Non-Human Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 89.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 103000,
+  "ownership": {
+    "default": 0
+  }
+}

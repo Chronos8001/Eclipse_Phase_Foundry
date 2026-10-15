@@ -1,0 +1,51 @@
+{
+  "_id": "a40b7a7f932cee0b",
+  "_key": "!items!a40b7a7f932cee0b",
+  "name": "Cloud Skate",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 2,
+      "kinetic": 3
+    },
+    "movement": "Winged 8/40",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Direction Sense, Enhanced Vision, High-G Adaptation, Hydrostatic Pressure Adaptation, Long-Term Life Support, Oxygen Reserve, Radiation Sense, Radar, Swim Bladder, T-Ray Emitter, Temperature Tolerance (Cryonic), Wings",
+    "advantages": "+5 COG, +5 REF, +5 SOM, +5 to one other aptitude of the player's choice",
+    "disadvantages": "Temperature Intolerance (Warm) trait",
+    "skillBonuses": [],
+    "cpCost": 55,
+    "creditCost": "Expensive (minimum 60,000+)",
+    "active": false,
+    "description": "<p>Like the surya and hulder, the cloud skate is another biomorph that pushes the edge of what is possible. It is designed to be able to live in the atmospheres of gas giants, including Jupiter. This morph is shaped roughly like a tailless stingray with a pair of slender arms. The version of the swim bladder used by this morph provides neutral buoyancy in dense atmospheres, preventing it from sinking below a safe depth.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 18.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

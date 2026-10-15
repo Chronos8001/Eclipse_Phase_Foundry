@@ -1,0 +1,51 @@
+{
+  "_id": "af7aa21777184059",
+  "_key": "!items!af7aa21777184059",
+  "name": "Vacuum Pod",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 2,
+      "kinetic": 3
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Cyberbrain, Enhanced Respiration, Grip Pads, Mnemonic Augmentation, Oxygen Reserve, Prehensile Feet, Puppet Sock, Vacuum Sealing",
+    "advantages": "Limber (Level 1) trait, +5 COO, +5 SOM, +5 to one other aptitude of the player's choice",
+    "disadvantages": "Social Stigma (Pod) trait",
+    "skillBonuses": [],
+    "cpCost": 30,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Optimized for vacwork, this pod is preferred in situations where novacrabs or synths don't fare as well socially. The vacuum pod is based on the bouncer morph and looks superficially identical to one.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 107.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 123000,
+  "ownership": {
+    "default": 0
+  }
+}

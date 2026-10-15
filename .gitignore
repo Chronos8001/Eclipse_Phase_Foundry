@@ -1,0 +1,7 @@
+node_modules/
+# Compiled compendiums are built from packs/_source (npm run build:packs)
+packs/*
+!packs/_source/
+*.zip
+.DS_Store
+Thumbs.db

@@ -1,0 +1,60 @@
+{
+  "_id": "ac0b77f891f4d57d",
+  "_key": "!items!ac0b77f891f4d57d",
+  "name": "Takko",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 8,
+      "kinetic": 8
+    },
+    "movement": "Walker 4/24, Thrust Vector 8/40",
+    "implants": "360-Degree Vision, Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Enhanced Vision, Extra Limbs (8 Arms), Grip Pads, Mnemonic Augmentation, Polarization Vision",
+    "advantages": "Beak Attack (1d10 + 2 DV, use Unarmed Combat skill), +10 Free Fall skill, +10 Climbing skill, +5 COO, +5 INT, +5 SOM, Armor 8/8",
+    "disadvantages": "",
+    "skillBonuses": [
+      {
+        "key": "freeFall",
+        "value": 10
+      },
+      {
+        "key": "climbing",
+        "value": 10
+      }
+    ],
+    "cpCost": 60,
+    "creditCost": "Expensive (minimum 45,000+)",
+    "active": false,
+    "description": "<p>The first synthetic octopus design from the engineers at Feral Robot is a hardy shell custom-designed to make octopi uplifts feel more at home in a synthetic body with eight functioning appendages. Though it lacks ink sacs, the takko features vectored-thrust jets for microgravity propulsion.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 105.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 121000,
+  "ownership": {
+    "default": 0
+  }
+}

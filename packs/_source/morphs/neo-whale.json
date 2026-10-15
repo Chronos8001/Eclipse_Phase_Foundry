@@ -1,0 +1,56 @@
+{
+  "_id": "fad1c29778d55ed9",
+  "_key": "!items!fad1c29778d55ed9",
+  "name": "Neo-Whale",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 100,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "Swim 16/40",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced Hearing, Oxygen Reserve",
+    "advantages": "+5 COO, +5 INT, +5 SOM, +5 to one other aptitude of the player's choice, +40 Swimming skill, Ramming Attack (2d10 DV, use Unarmed Combat skill), Bite Attack (4d10 DV, sperm whales only, use Unarmed Combat skill)",
+    "disadvantages": "Neo-whales lack a sense of smell",
+    "skillBonuses": [
+      {
+        "key": "swimming",
+        "value": 40
+      }
+    ],
+    "cpCost": 75,
+    "creditCost": "Expensive (exceptionally rare; minimum 75,000)",
+    "active": false,
+    "description": "<p>Less than several hundred neo-whale morphs exist, and the majority remain occupied by their original egos. They are primarily found in Ceres and Atlantica. They are derived from humpback, blue, and sperm whale genetic stock. Humpbacks and blues are baleen whales and require large amounts of krill to survive. Sperm whales are toothed, feeding on fish and squid.</p><p><strong>Notes:</strong> Non-Human Biochemistry trait, Very Large Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 69.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 83000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "b4bb1e140ced7eab",
+  "_key": "!items!b4bb1e140ced7eab",
+  "name": "Theseus",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 5
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 2,
+      "kinetic": 3
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Direction Sense, Emergency Farcaster, Enhanced Vision, Low Pressure Tolerance, Medichines, Nanophages, Oxygen Reserve, Radiation Sense, T-Ray Emitter, Temperature Tolerance (Cold), Toxin Filters",
+    "advantages": "+5 SOM, +5 WIL, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 30,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>While there are no sanctioned explorations of Earth, a few daring or greedy transhumans defy the laws to salvage there. Some scavengers and explorers still scour the ruins of habitats that were destroyed during the Fall. Others look for wealth and secrets in the quarantined zones on Luna and Mars. Some simply seek out remaining TITAN machines to destroy, wherever they may be found. The theseus is a popular biomorph for this type of work. Its medichines and nanophages keep the morph protected from most attacks by exsurgent nanotech, and the lack of a cyberbrain makes it less vulnerable to mind hacking. An emergency farcaster allows the user to safely return from situations where both their morph and their cortical stack might be destroyed or corrupted.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 106.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 122000,
+  "ownership": {
+    "default": 0
+  }
+}

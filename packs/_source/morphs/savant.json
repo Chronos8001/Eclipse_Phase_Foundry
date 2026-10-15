@@ -1,0 +1,51 @@
+{
+  "_id": "69d5cb2e5ba7501e",
+  "_key": "!items!69d5cb2e5ba7501e",
+  "name": "Savant",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 40,
+      "coo": 40,
+      "int": 40,
+      "ref": 40,
+      "sav": 40,
+      "som": 40,
+      "wil": 40
+    },
+    "aptitudeBonus": {
+      "cog": 10,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 5,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 8,
+      "kinetic": 8
+    },
+    "movement": "Walker 4/20",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Eidetic Memory, HyperLinguist, Math Boost, Mnemonic Augmentation",
+    "advantages": "+10 COG, +5 INT, +5 SAV, +5 SOM, +5 to one other aptitude of the player's choice, Armor 8/8",
+    "disadvantages": "Social Stigma (Clanking Masses) trait",
+    "skillBonuses": [],
+    "cpCost": 65,
+    "creditCost": "Expensive (minimum 40,000+)",
+    "active": false,
+    "description": "<p>This morph was developed on Ilmarinen as proof that synthmorphs can also be useful to scientists and engineers. This strangely elegant morph lacks the disturbing mimicry of humanity found in synth and steel morphs. Instead, the ovoid head with its elegantly minimalist face looks more like an artistic sculpture than a metal version of a real human head.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 86.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  }
+}

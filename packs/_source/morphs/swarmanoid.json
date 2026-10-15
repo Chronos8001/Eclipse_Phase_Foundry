@@ -31,20 +31,20 @@
       "energy": 0,
       "kinetic": 0
     },
-    "movement": "Walker (2/8), Hopper (4/20), Rotor (4/32)",
-    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Swarm Composition",
-    "advantages": "See Swarm Composition (p. 311)",
-    "disadvantages": "See Swarm Composition (p. 311)",
+    "movement": "Walker 2/8, Hopper 4/20, Rotor 4/32",
+    "implants": "360-Degree Vision, Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Swarm Composition",
+    "advantages": "",
+    "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 25,
     "creditCost": "Expensive",
     "active": false,
-    "description": "<p>The swarmanoid is not a single shell per se, but rather a swarm of hundreds of insect-sized robotic microdrones. Each individual \"bug\" is capable of crawling, rolling, hopping several meters, or using nanocopter fan blades for airlift. The controlling computer and sensor systems are distributed throughout the swarm. Though the swarm can \"meld\" together into a roughly child-sized shape, the swarm is incapable of tackling physical tasks like grabbing, lifting, or holding as a unit. Individual bugs are quite capable of interfacing with electronics.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The swarmanoid is not a single shell per se, but rather a swarm of hundreds of insect-sized robotic microdrones. Each individual \"bug\" is capable of crawling, rolling, hopping several meters, or using nanocopter fan blades for airlift. The controlling computer, cortical stack, and sensor systems are distributed throughout the swarm. Though the swarm can \"meld\" together into a roughly child-sized shape, the swarm is incapable of tackling physical tasks like grabbing, lifting, or holding as a unit. Individual bugs are quite capable of interfacing with electronics. For additional rules on swarmanoids, see p. 311, EP, and p. 211, Transhuman.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 100.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 28000,
+  "sort": 115000,
   "ownership": {
     "default": 0
   }

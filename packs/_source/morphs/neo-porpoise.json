@@ -1,0 +1,56 @@
+{
+  "_id": "dce601b155232f29",
+  "_key": "!items!dce601b155232f29",
+  "name": "Neo-Porpoise",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 25,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "Swim 16/56",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced Hearing, Oxygen Reserve",
+    "advantages": "+5 INT, +5 SOM, +5 to one other aptitude of the player's choice, +50 Swimming skill, Ramming Attack (1d10 DV),",
+    "disadvantages": "Neo-porpoises lack a sense of smell",
+    "skillBonuses": [
+      {
+        "key": "swimming",
+        "value": 50
+      }
+    ],
+    "cpCost": 35,
+    "creditCost": "Expensive (minimum 30,000)",
+    "active": false,
+    "description": "<p>Neo-porpoises are smaller but very similar to neo-dolphins and are much like their baseline relatives. They average 2.5 meters in length.</p><p><strong>Notes:</strong> Non-Human Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 67.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 81000,
+  "ownership": {
+    "default": 0
+  }
+}

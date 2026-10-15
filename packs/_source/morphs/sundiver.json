@@ -1,0 +1,51 @@
+{
+  "_id": "8d4cb24a4611e639",
+  "_key": "!items!8d4cb24a4611e639",
+  "name": "Sundiver",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 10,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 120,
+    "speedMod": 1,
+    "initMod": 0,
+    "armor": {
+      "energy": 16,
+      "kinetic": 16
+    },
+    "movement": "Thrust Vector 12/60",
+    "implants": "360-Degree Vision, Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Enhanced Vision, Heavy Combat Armor, Internal Rocket, Mnemonic Augmentation, Radar, Reflex Booster",
+    "advantages": "Coronal Adaptation, +5 COO, +10 REF (+20 with Reflex Booster), Armor 16/16",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 70,
+    "creditCost": "Expensive (minimum 40,000+)",
+    "active": false,
+    "description": "<p>The sundiver is a synthetic morph designed for solar research and emergency rescue operations. Sundivers are sleek mechanisms, about six meters long. They look a little like ramjets, except for a pair of articulated arms that extend forward from the morph's pointed nose, allowing it to reach for and grasp objects. Because sundivers operate in the coronal environment, they are built to survive superheated plasma and shielded against radiation. Sundivers are equipped with a powerful electromagnetic propulsion system that allows them to skate along solar magnetic lines of force much like the surya do.</p><p><strong>Notes:</strong> Large Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 98.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 113000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "1fe7513aa8d207b7",
+  "_key": "!items!1fe7513aa8d207b7",
+  "name": "Infomorph",
+  "type": "morph",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "morphType": "infomorph",
+    "aptitudeMax": {
+      "cog": 40,
+      "coo": 40,
+      "int": 40,
+      "ref": 40,
+      "sav": 40,
+      "som": 40,
+      "wil": 40
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 0,
+    "speedMod": 2,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Mnemonic Augmentation",
+    "advantages": "",
+    "disadvantages": "No physical form",
+    "skillBonuses": [],
+    "cpCost": 0,
+    "creditCost": "0",
+    "active": false,
+    "description": "<p>Infomorphs are digital-only forms--they lack a physical body. Infomorphs are sometimes carried by other characters instead of (or in addition to) a muse in a ghostrider module. Full rules for infomorphs can be found on p. 265, EP, and p. 138, Transhuman.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 50.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 57000,
+  "ownership": {
+    "default": 0
+  }
+}

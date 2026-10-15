@@ -1,0 +1,51 @@
+{
+  "_id": "0e6517c981a8d8e2",
+  "_key": "!items!0e6517c981a8d8e2",
+  "name": "Ayah",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 10,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Enhanced Smell, Mnemonic Augmentation, Oxygen Reserve, Puppet Sock, Temperature Tolerance, Wrist-Mounted Tools",
+    "advantages": "+10 SAV, +5 to one other aptitude of the player's choice",
+    "disadvantages": "Social Stigma (Pod) trait",
+    "skillBonuses": [],
+    "cpCost": 25,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>The ayah pod morph is designed to fulfill nurse and caretaker functions. Many hyperelites prefer AGI servants sleeved into ayah morphs, especially in polities where AGIs have few, if any, legal rights. Ayahs are almost always female with pleasant but not stunningly beautiful features. Most of the enhanced features of an ayah are built under the hood, so to speak. Their enhanced olfactory capabilities help them monitor the health and emotional state of their wards, as well as alert them to potential environmental dangers. Their ability to withstand temperature extremes and survive without air for short periods helps them protect and rescue their charges in an emergency, such as a hull breach or a fire. Ayahs are often modified with bioweave armor and implanted weapons so they can act as a last line of defense against potential attackers.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 9.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

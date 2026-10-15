@@ -1,0 +1,51 @@
+{
+  "_id": "24e9c4bbc20e5def",
+  "_key": "!items!24e9c4bbc20e5def",
+  "name": "Elite (Infomorph eidolon)",
+  "type": "morph",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "morphType": "infomorph",
+    "aptitudeMax": {
+      "cog": 40,
+      "coo": 40,
+      "int": 40,
+      "ref": 40,
+      "sav": 40,
+      "som": 40,
+      "wil": 40
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 5,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 0,
+    "speedMod": 2,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Mental Speed, Mnemonic Augmentation",
+    "advantages": "+5 INT, +5 SAV",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 35,
+    "creditCost": "Expensive (minimum 35,000)",
+    "active": false,
+    "description": "<p>Designed for performers, celebrities, and individuals who work with such people, this eidolon allows users to be more charismatic and persuasive, while also providing with them the ability to think on their feet by speeding up their thoughts in order to give themselves more time to consider their responses.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 51.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 60000,
+  "ownership": {
+    "default": 0
+  }
+}

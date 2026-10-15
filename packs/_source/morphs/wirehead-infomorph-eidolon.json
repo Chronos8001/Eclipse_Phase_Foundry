@@ -1,0 +1,51 @@
+{
+  "_id": "a7a8e7898b6568e4",
+  "_key": "!items!a7a8e7898b6568e4",
+  "name": "Wirehead (Infomorph eidolon)",
+  "type": "morph",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "morphType": "infomorph",
+    "aptitudeMax": {
+      "cog": 40,
+      "coo": 40,
+      "int": 40,
+      "ref": 40,
+      "sav": 40,
+      "som": 40,
+      "wil": 40
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 10,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 0,
+    "speedMod": 3,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Increased Speed, Mental Speed, Mnemonic Augmentation, Panopticon",
+    "advantages": "+10 REF, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 60,
+    "creditCost": "Expensive (minimum 60,000)",
+    "active": false,
+    "description": "<p>Regardless of whether an infomorph controls figh- tercraft, tiny surveillance drones, or attack robots, this high-end eidolon is one that almost all people in those professions wish they had access to.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 51.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 65000,
+  "ownership": {
+    "default": 0
+  }
+}

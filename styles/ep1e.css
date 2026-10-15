@@ -1,0 +1,472 @@
+/* Eclipse Phase (1st Edition) — sheets & chat cards */
+
+.ep1e {
+  --ep-bg: #0f1a20;
+  --ep-panel: #16252d;
+  --ep-panel-2: #1c2f39;
+  --ep-border: #2b4652;
+  --ep-text: #d9e7ec;
+  --ep-muted: #8aa4ae;
+  --ep-accent: #4fd1c5;
+  --ep-accent-2: #f6ad55;
+  --ep-danger: #fc6c6c;
+  --ep-warning: #f6c85f;
+  --ep-success: #68d391;
+  --ep-input: #0b1418;
+  --ep-radius: 4px;
+  --ep-font-title: "Signika", "Roboto Condensed", sans-serif;
+}
+
+/* -------------------------------------------- */
+/*  Application frame                           */
+/* -------------------------------------------- */
+
+.application.ep1e.sheet .window-content {
+  background: var(--ep-bg);
+  color: var(--ep-text);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.application.ep1e.sheet .window-content > .tab {
+  padding: 8px 12px 12px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.ep1e.sheet input,
+.ep1e.sheet select,
+.ep1e.sheet textarea,
+.ep1e-dialog input,
+.ep1e-dialog select {
+  background: var(--ep-input);
+  color: var(--ep-text);
+  border: 1px solid var(--ep-border);
+  border-radius: var(--ep-radius);
+}
+
+.ep1e.sheet input[type="number"] {
+  text-align: center;
+  padding: 0 2px;
+}
+
+.ep1e.sheet input:focus,
+.ep1e.sheet select:focus,
+.ep1e.sheet textarea:focus {
+  border-color: var(--ep-accent);
+  box-shadow: 0 0 4px var(--ep-accent);
+  outline: none;
+}
+
+.ep1e.sheet input:disabled { opacity: 0.7; }
+
+.ep1e.sheet a { color: var(--ep-text); }
+.ep1e.sheet a:hover { color: var(--ep-accent); text-shadow: none; }
+.ep1e.sheet .rollable { cursor: pointer; }
+.ep1e.sheet .rollable:hover { color: var(--ep-accent); }
+
+.ep1e.sheet button,
+.ep1e.chat-card button {
+  background: var(--ep-panel-2);
+  color: var(--ep-text);
+  border: 1px solid var(--ep-border);
+  border-radius: var(--ep-radius);
+  cursor: pointer;
+  line-height: 26px;
+}
+
+.ep1e.sheet button:hover,
+.ep1e.chat-card button:hover {
+  border-color: var(--ep-accent);
+  color: var(--ep-accent);
+}
+
+.ep1e .hint {
+  color: var(--ep-muted);
+  font-size: 0.85em;
+  font-style: italic;
+  margin: 4px 0;
+}
+
+/* -------------------------------------------- */
+/*  Header                                      */
+/* -------------------------------------------- */
+
+.ep1e .sheet-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 12px;
+  background: linear-gradient(90deg, #13303a 0%, var(--ep-bg) 100%);
+  border-bottom: 1px solid var(--ep-border);
+  flex: 0 0 auto;
+}
+
+.ep1e .sheet-header .portrait {
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+  border: 1px solid var(--ep-accent);
+  border-radius: var(--ep-radius);
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.ep1e.item .sheet-header .portrait { width: 56px; height: 56px; }
+
+.ep1e .header-main { flex: 1; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+
+.ep1e .header-main .actor-name,
+.ep1e .header-main .item-name {
+  font-family: var(--ep-font-title);
+  font-size: 1.8em;
+  height: 1.6em;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--ep-border);
+  border-radius: 0;
+}
+
+.ep1e .header-main .item-type { color: var(--ep-muted); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.8em; }
+
+.ep1e .header-line { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+
+.ep1e .morph-badge,
+.ep1e .status-badge {
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.85em;
+  border: 1px solid var(--ep-border);
+  background: var(--ep-panel);
+}
+
+.ep1e .morph-badge.synthmorph { border-color: #7f9cf5; }
+.ep1e .morph-badge.infomorph { border-color: #b794f4; }
+.ep1e .morph-badge.pod { border-color: var(--ep-accent-2); }
+.ep1e .morph-badge.biomorph { border-color: var(--ep-success); }
+.ep1e .morph-badge.none { color: var(--ep-muted); }
+.ep1e .status-badge.danger { border-color: var(--ep-danger); color: var(--ep-danger); }
+.ep1e .status-badge.warning,
+.ep1e .status-badge.penalty { border-color: var(--ep-warning); color: var(--ep-warning); }
+
+.ep1e .header-moxie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 10px;
+  border: 1px solid var(--ep-accent-2);
+  border-radius: var(--ep-radius);
+  background: rgba(246, 173, 85, 0.08);
+}
+
+.ep1e .header-moxie label { color: var(--ep-accent-2); font-weight: bold; text-transform: uppercase; font-size: 0.8em; }
+.ep1e .header-moxie input { width: 36px; font-size: 1.2em; }
+.ep1e .pair { display: inline-flex; align-items: center; gap: 4px; }
+.ep1e .pair input { width: 48px; }
+.ep1e .mini-button { font-size: 0.8em; }
+
+/* -------------------------------------------- */
+/*  Tabs                                        */
+/* -------------------------------------------- */
+
+.ep1e.sheet nav.tabs {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-around;
+  background: var(--ep-panel);
+  border-bottom: 1px solid var(--ep-border);
+  margin: 0;
+  padding: 0 4px;
+}
+
+.ep1e.sheet nav.tabs a {
+  padding: 6px 4px;
+  color: var(--ep-muted);
+  border-bottom: 2px solid transparent;
+  font-size: 0.9em;
+}
+
+.ep1e.sheet nav.tabs a.active {
+  color: var(--ep-accent);
+  border-bottom-color: var(--ep-accent);
+  text-shadow: none;
+}
+
+/* -------------------------------------------- */
+/*  Panels & lists                              */
+/* -------------------------------------------- */
+
+.ep1e .panel {
+  background: var(--ep-panel);
+  border: 1px solid var(--ep-border);
+  border-radius: var(--ep-radius);
+  padding: 6px 10px 8px;
+  margin-bottom: 10px;
+}
+
+.ep1e .panel h3,
+.ep1e .list-header h3,
+.ep1e .list-header h4 {
+  font-family: var(--ep-font-title);
+  color: var(--ep-accent);
+  border: none;
+  margin: 0 0 6px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.ep1e .list-header { display: flex; justify-content: space-between; align-items: center; }
+.ep1e .list-header .add { color: var(--ep-accent); }
+
+.ep1e .two-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.ep1e .two-columns .panel { margin-bottom: 10px; }
+
+.ep1e ol.item-list { list-style: none; margin: 0; padding: 0; }
+
+.ep1e .item-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 4px;
+  border-bottom: 1px solid rgba(43, 70, 82, 0.6);
+}
+
+.ep1e .item-row:last-child { border-bottom: none; }
+.ep1e .item-row img { width: 28px; height: 28px; border: none; border-radius: 3px; flex: 0 0 auto; }
+.ep1e .item-row .name { flex: 1; min-width: 0; }
+.ep1e .item-row .name small { color: var(--ep-muted); margin-left: 4px; }
+.ep1e .item-row .value { color: var(--ep-accent-2); font-weight: bold; min-width: 60px; text-align: right; }
+.ep1e .item-row .qty { width: 48px; flex: 0 0 auto; }
+.ep1e .item-row.active { background: rgba(79, 209, 197, 0.1); }
+.ep1e .item-row.disabled { opacity: 0.5; }
+.ep1e .item-row.trait-negative .value { color: var(--ep-danger); }
+.ep1e .empty { color: var(--ep-muted); font-style: italic; padding: 4px; }
+
+.ep1e .item-controls { display: flex; gap: 8px; flex: 0 0 auto; color: var(--ep-muted); }
+.ep1e .sleeve-toggle { white-space: nowrap; font-size: 0.85em; }
+.ep1e .item-row.active .sleeve-toggle { color: var(--ep-accent); }
+
+/* -------------------------------------------- */
+/*  Aptitudes & stats                           */
+/* -------------------------------------------- */
+
+.ep1e table { width: 100%; border-collapse: collapse; background: transparent; border: none; margin: 0; }
+.ep1e table thead { background: transparent; text-shadow: none; }
+.ep1e table th,
+.ep1e table td { padding: 2px 3px; text-align: center; border: none; }
+.ep1e table tr:nth-child(even) { background: rgba(255, 255, 255, 0.02); }
+.ep1e table thead th { color: var(--ep-muted); font-size: 0.8em; text-transform: uppercase; }
+.ep1e table tbody th { text-align: left; color: var(--ep-muted); font-weight: normal; font-size: 0.85em; }
+
+.ep1e .aptitude-table thead th a { color: var(--ep-accent); font-weight: bold; font-size: 1.1em; }
+.ep1e .aptitude-table input { width: 100%; max-width: 56px; }
+.ep1e .aptitude-table tr.derived td { color: var(--ep-muted); }
+.ep1e .aptitude-table tr.total td a {
+  display: inline-block;
+  min-width: 40px;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: var(--ep-text);
+  border: 1px solid var(--ep-accent);
+  border-radius: var(--ep-radius);
+  background: rgba(79, 209, 197, 0.08);
+}
+.ep1e .aptitude-table tr.total td a.capped { border-color: var(--ep-warning); color: var(--ep-warning); }
+
+.ep1e .stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 6px; }
+
+.ep1e .stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  border: 1px solid var(--ep-border);
+  border-radius: var(--ep-radius);
+  background: var(--ep-panel-2);
+}
+
+.ep1e .stat label { color: var(--ep-muted); font-size: 0.75em; text-transform: uppercase; }
+.ep1e .stat span { font-size: 1.3em; font-weight: bold; }
+.ep1e .stat.rollable:hover { border-color: var(--ep-accent); }
+.ep1e .stat.armor span { color: var(--ep-accent-2); }
+
+.ep1e details.mods { margin-top: 8px; }
+.ep1e details.mods summary { cursor: pointer; color: var(--ep-muted); }
+.ep1e .mod-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 4px 10px; }
+.ep1e .mod-grid label { display: flex; justify-content: space-between; align-items: center; gap: 6px; font-size: 0.85em; }
+.ep1e .mod-grid input { width: 50px; flex: 0 0 auto; }
+
+.ep1e .track { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.ep1e .track label { width: 90px; color: var(--ep-muted); }
+.ep1e .track input { width: 56px; }
+.ep1e .track .sep { min-width: 40px; color: var(--ep-muted); }
+.ep1e .track meter { flex: 1; height: 10px; }
+.ep1e .panel .buttons { display: flex; gap: 6px; margin-top: 6px; }
+.ep1e .panel .buttons button { flex: 1; font-size: 0.85em; }
+
+/* -------------------------------------------- */
+/*  Skills & combat tables                      */
+/* -------------------------------------------- */
+
+.ep1e .skill-table td.name,
+.ep1e .item-table td.name,
+.ep1e .skill-table th.name,
+.ep1e .item-table th.name { text-align: left; }
+
+.ep1e .skill-table input[type="number"] { width: 46px; }
+.ep1e .skill-table td.spec input { width: 100%; }
+.ep1e .skill-table .field-input { width: 110px; height: 22px; margin-left: 4px; }
+.ep1e .skill-table td.apt small { color: var(--ep-muted); }
+.ep1e .skill-table td.total a { font-weight: bold; font-size: 1.15em; color: var(--ep-accent); }
+.ep1e .skill-table tr.defaulting td.name > a { font-style: italic; color: var(--ep-muted); }
+.ep1e .skill-table .no-default { color: var(--ep-danger); margin-left: 2px; }
+.ep1e .skill-table td.derived { color: var(--ep-muted); }
+
+.ep1e .item-table td.name { display: flex; align-items: center; gap: 6px; }
+.ep1e .item-table td.name img { width: 24px; height: 24px; border: none; }
+.ep1e .item-table td small { color: var(--ep-muted); }
+.ep1e .item-table input[type="number"] { width: 42px; }
+.ep1e .item-table tr.equipped td.name > a:first-child { color: var(--ep-accent); }
+.ep1e .item-row.equipped > a:first-child { color: var(--ep-accent); }
+
+.ep1e .defense-row { display: flex; gap: 8px; align-items: stretch; flex-wrap: wrap; }
+.ep1e .defense-row button { flex: 1 1 160px; }
+.ep1e .defense-row button strong { color: var(--ep-accent); margin-left: 4px; }
+.ep1e .defense-row .stat { min-width: 70px; }
+
+/* -------------------------------------------- */
+/*  Ego tab                                     */
+/* -------------------------------------------- */
+
+.ep1e .detail-grid,
+.ep1e .rep-grid { display: grid; gap: 6px 12px; }
+.ep1e .detail-grid { grid-template-columns: repeat(2, 1fr); }
+.ep1e .rep-grid { grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); }
+.ep1e .detail-grid label,
+.ep1e .rep-grid label,
+.ep1e label.wide { display: flex; flex-direction: column; gap: 2px; color: var(--ep-muted); font-size: 0.85em; }
+.ep1e label.wide { margin-top: 6px; }
+.ep1e .detail-grid input,
+.ep1e .rep-grid input,
+.ep1e label.wide input { color: var(--ep-text); font-size: 1.1em; }
+
+.ep1e prose-mirror,
+.ep1e .editor { min-height: 160px; background: var(--ep-input); border-radius: var(--ep-radius); }
+.ep1e .panel prose-mirror .editor-content { padding: 4px 8px; }
+
+/* -------------------------------------------- */
+/*  Item sheets                                 */
+/* -------------------------------------------- */
+
+.ep1e .form-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px 14px; margin-bottom: 8px; }
+.ep1e.item .form-group { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin: 0; }
+.ep1e.item .form-group > label { flex: 0 0 45%; color: var(--ep-muted); font-size: 0.9em; }
+.ep1e.item .form-group > input,
+.ep1e.item .form-group > select,
+.ep1e.item .form-group > .pair { flex: 1; }
+.ep1e.item .form-group > .hint { flex: 0 0 100%; }
+.ep1e.item .form-group.stacked { flex-direction: column; align-items: stretch; margin-bottom: 6px; }
+.ep1e.item .form-group.stacked > label { flex: none; }
+.ep1e.item .form-group.total-line span strong { color: var(--ep-accent); font-size: 1.2em; }
+.ep1e.item textarea { width: 100%; resize: vertical; }
+.ep1e.item .aptitude-table { margin: 8px 0; }
+.ep1e.item .tab.description { display: flex; flex-direction: column; }
+.ep1e.item .tab.description prose-mirror { flex: 1; }
+.ep1e .skill-bonuses { margin: 8px 0; }
+.ep1e .bonus-row { display: flex; gap: 6px; align-items: center; margin-bottom: 4px; }
+.ep1e .bonus-row select { flex: 1; }
+.ep1e .bonus-row input { width: 60px; }
+
+/* -------------------------------------------- */
+/*  Dialogs                                     */
+/* -------------------------------------------- */
+
+.ep1e.test-dialog .test-base { font-size: 1.1em; margin: 0 0 8px; }
+.ep1e.test-dialog .test-base strong { color: var(--ep-accent); font-size: 1.2em; }
+.ep1e.test-dialog .penalty { color: var(--ep-warning); font-style: normal; }
+
+/* -------------------------------------------- */
+/*  Chat cards                                  */
+/* -------------------------------------------- */
+
+.ep1e.chat-card {
+  --card-accent: var(--ep-accent);
+  border-left: 3px solid var(--card-accent);
+  padding: 4px 6px;
+  background: rgba(15, 26, 32, 0.06);
+}
+
+.ep1e.chat-card .card-header h3 {
+  margin: 0 0 4px;
+  border: none;
+  font-family: var(--ep-font-title);
+  font-size: 1.15em;
+}
+
+.ep1e.chat-card .card-header { display: flex; gap: 6px; align-items: center; }
+.ep1e.chat-card .card-header img { width: 32px; height: 32px; border: none; }
+
+.ep1e.test-card .test-numbers { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 4px 0; }
+.ep1e.test-card .roll-value,
+.ep1e.test-card .target {
+  font-size: 1.8em;
+  font-weight: bold;
+  min-width: 56px;
+  text-align: center;
+  border-radius: var(--ep-radius);
+  border: 1px solid currentColor;
+  padding: 0 6px;
+}
+.ep1e.test-card .roll-value { color: var(--card-accent); }
+.ep1e.test-card .roll-value.doubles { box-shadow: 0 0 6px var(--card-accent); }
+.ep1e.test-card .target { opacity: 0.8; font-size: 1.4em; }
+.ep1e.test-card .vs { opacity: 0.6; }
+.ep1e.test-card .modifiers { text-align: center; font-size: 0.85em; opacity: 0.8; margin: 0; }
+.ep1e.test-card .outcome { display: flex; justify-content: space-between; align-items: center; margin: 4px 0; }
+.ep1e.test-card .outcome strong { color: var(--card-accent); font-size: 1.1em; }
+.ep1e.test-card .moxie-used { font-size: 0.85em; color: #c27c0e; margin: 2px 0; }
+
+.ep1e.test-card.outcome-success,
+.ep1e.test-card.outcome-excellentSuccess { --card-accent: #2f9e67; }
+.ep1e.test-card.outcome-criticalSuccess { --card-accent: #1aa3a3; }
+.ep1e.test-card.outcome-failure { --card-accent: #c05621; }
+.ep1e.test-card.outcome-severeFailure,
+.ep1e.test-card.outcome-criticalFailure { --card-accent: #c53030; }
+
+.ep1e.chat-card .attack-info p { margin: 2px 0; font-size: 0.9em; }
+.ep1e.chat-card .attack-info .bonus { color: #c27c0e; font-weight: bold; }
+.ep1e.chat-card .attack-info button,
+.ep1e.chat-card > button { width: 100%; margin-top: 4px; }
+
+.ep1e.chat-card .moxie-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+  margin-top: 6px;
+  padding-top: 4px;
+  border-top: 1px dashed rgba(127, 127, 127, 0.4);
+  font-size: 0.85em;
+}
+.ep1e.chat-card .moxie-actions span { color: #c27c0e; width: 100%; }
+.ep1e.chat-card .moxie-actions button { flex: 1; line-height: 22px; font-size: 0.9em; }
+
+.ep1e.damage-card { --card-accent: #c53030; }
+.ep1e.damage-card.stress { --card-accent: #805ad5; }
+.ep1e.damage-card .damage-total { font-size: 2em; font-weight: bold; text-align: center; color: var(--card-accent); }
+.ep1e.damage-card .formula { text-align: center; opacity: 0.7; margin: 0; font-size: 0.85em; }
+.ep1e.damage-card .damage-tags { display: flex; gap: 4px; flex-wrap: wrap; justify-content: center; margin: 4px 0; }
+.ep1e.damage-card .damage-tags span { border: 1px solid rgba(127, 127, 127, 0.5); border-radius: 10px; padding: 0 6px; font-size: 0.8em; }
+
+.ep1e.applied-card { --card-accent: #c05621; }
+.ep1e.applied-card.stress { --card-accent: #805ad5; }
+.ep1e.applied-card p { margin: 2px 0; }
+.ep1e.applied-card .followups { display: flex; flex-direction: column; gap: 4px; margin-top: 4px; }
+
+.ep1e.chat-card .danger { color: #c53030; font-weight: bold; }
+.ep1e.chat-card .warning { color: #c27c0e; font-weight: bold; }
+.ep1e.chat-card .status { text-transform: uppercase; text-align: center; letter-spacing: 0.05em; }

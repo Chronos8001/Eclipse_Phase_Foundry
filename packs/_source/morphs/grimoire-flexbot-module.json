@@ -1,0 +1,51 @@
+{
+  "_id": "5894fd731415dd0e",
+  "_key": "!items!5894fd731415dd0e",
+  "name": "Grimoire (Flexbot module)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 25,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 5
+    },
+    "durability": 20,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 6,
+      "kinetic": 6
+    },
+    "movement": "Walker 4/16, Hover 8/40",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Electrical Sense, Ghostrider Module, Mnemonic Augmentation, Modular Design, Multitasking, Shape Adjusting, Skinlink — Modularized Gear: Laser Link, Microwave Link",
+    "advantages": "Armor 6/6, +5 WIL",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 20,
+    "creditCost": "Expensive (minimum 25,000)",
+    "active": false,
+    "description": "<p>Grimoires are an excellent complement to a wizard module.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 34.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 35000,
+  "ownership": {
+    "default": 0
+  }
+}

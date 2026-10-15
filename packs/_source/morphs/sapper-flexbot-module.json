@@ -1,0 +1,51 @@
+{
+  "_id": "d9119f2dad83792d",
+  "_key": "!items!d9119f2dad83792d",
+  "name": "Sapper (Flexbot module)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 35,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 20,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "movement": "Walker 4/16, Hover 8/40",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Modular Design, Pneumatic Limbs, Shape Adjusting — Modularized Gear: Disassembly Tools, Specialized Hive (Disassembler Nanoswarm)",
+    "advantages": "Armor 4/4, Exceptional Aptitude (SOM)",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 15,
+    "creditCost": "High (minimum 10,000)",
+    "active": false,
+    "description": "<p>Sappers are an engineering module specializing in deconstruction; they are often combined with crafter modules.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 34.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 39000,
+  "ownership": {
+    "default": 0
+  }
+}

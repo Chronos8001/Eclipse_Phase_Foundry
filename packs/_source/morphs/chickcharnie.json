@@ -1,0 +1,51 @@
+{
+  "_id": "49321b93fd89ef96",
+  "_key": "!items!49321b93fd89ef96",
+  "name": "Chickcharnie",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 5,
+      "ref": 10,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20, Winged 4/20 (low/microgravity only)",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Prehensile Feet, Puppet Sock, Wings",
+    "advantages": "Beak/Claw Attack (1d10 DV, AP -1, use Unarmed Combat skill), +5 COO, +5 INT, +10 REF",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 35,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>The extinct Tyto Pollens was a large pre-Columbian flightless ground owl species in the Caribbean. The chickcharnie was rumored to be a supernatural variant of this bird that haunted the forests bestowing boons or curses upon travelers depending on how they treated it. The Fortean version of the chickcharnie is best described as a humanoid owl. Over one meter in height, it is bipedal but stands shorter than humans. Though winged, it is flightless except in very low grav environments and microgravity. Its wing design, however, incorporates a functional set of clawed hands. The chickcharnie is growing in popularity among neo-avians who don't mind sacrificing flight for physical resilience, more functional hands, and a stature closely approximating transhuman standards.</p><p><strong>Notes:</strong> Non-Mammalian Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 17.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

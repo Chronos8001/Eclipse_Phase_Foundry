@@ -1,0 +1,51 @@
+{
+  "_id": "d1c1883828a7eff9",
+  "_key": "!items!d1c1883828a7eff9",
+  "name": "Xu Fu",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 8,
+      "kinetic": 8
+    },
+    "movement": "Walker 4/20, Wheeled 4/32",
+    "implants": "360- Vision, Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Direction Sense, Echolocation, Electrical Sense, Enhanced Hearing, Enhanced Vision, Extra Limbs (3 Arms/6 Legs), Grip Pads, Lidar, Mnemonic Augmentation, Pneumatic Limbs, Radar, Puppet Sock, Radiation Sense, Telescoping Limbs (Legs, 1 Arm), T-Ray Emitter",
+    "advantages": "+5 COO, + 5 SOM, Armor (8/8)",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 60,
+    "creditCost": "Expensive (minimum 50,000+)",
+    "active": false,
+    "description": "<p>Named after a historical Chinese explorer, many gatecrashers consider xu fus the ideal exoplanet exploration synthmorph. Its main body sits atop 6 legs (up to 2 meters long, though retractable) that end in multidirectional smart wheels for quick travel, capable of rolling in any direction and over rough terrain. For exceptionally difficult terrain, the wheels can be retracted and the xu fu can maneuver as a walker. In addition to two standard arms, it features a third 2-meter long sensor-equipped limb for reaching far distances, overseeing obstacles, etc. Xu fus have an impressive sensor package and are ideal for surface-based scouting as well as investigating tunnels, collecting samples, and so on.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 111.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 127000,
+  "ownership": {
+    "default": 0
+  }
+}

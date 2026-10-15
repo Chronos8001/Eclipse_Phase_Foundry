@@ -1,0 +1,51 @@
+{
+  "_id": "7836b38087fad3bb",
+  "_key": "!items!7836b38087fad3bb",
+  "name": "Longbow (Flexbot module)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 25,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 25,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "movement": "Walker 4/16, Hover 8/40",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Heavy Combat Armor, Mnemonic Augmentation, Modular Design, 2 Weapon Mounts (Articulated) — Modularized Gear: Laser Link",
+    "advantages": "Armor 4/4 (20/20 with Heavy Combat Armor), REF +5",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 20,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Longbows provide a weapons platform.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 34.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 36000,
+  "ownership": {
+    "default": 0
+  }
+}

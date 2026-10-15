@@ -1,0 +1,51 @@
+{
+  "_id": "3b86fd170e84c728",
+  "_key": "!items!3b86fd170e84c728",
+  "name": "Mimic",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 20,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 25,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "movement": "Walker 5/24 (2/8 with limbs mostly retracted)",
+    "implants": "Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Enhanced Vision, Extra Limbs (4 Legs, 2 Arms), Grip Pads, Mnemonic Augmentation, Puppet Sock, Shape Adjusting, Skinflex, Telescoping Limbs",
+    "advantages": "+5 COO, +5 to one other aptitude of the player's choice, Armor 4/4",
+    "disadvantages": "Social Stigma (Clanking Masses) trait",
+    "skillBonuses": [],
+    "cpCost": 25,
+    "creditCost": "Expensive (minimum 30,000)",
+    "active": false,
+    "description": "<p>In its basic form, with its limbs retracted, a mimic morph resembles a spare (p. 92) and is only a bit larger than a human head. With its four pencil-thin telescoping legs fully extended, it can stand up to two meters tall, and its arms can also each reach up to two meters from the morph. These limbs can all be fully retracted and the user can also alter the morph's shape and appearance, causing it to look like almost any small object such as a briefcase, cleaning robot, or household appliance. This morph can easily fit through small spaces and hide itself with great ease and is ideal for infiltration and sabotage missions.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 57.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 71000,
+  "ownership": {
+    "default": 0
+  }
+}

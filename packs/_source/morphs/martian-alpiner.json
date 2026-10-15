@@ -1,0 +1,56 @@
+{
+  "_id": "36c64c9fa60562ba",
+  "_key": "!items!36c64c9fa60562ba",
+  "name": "Martian Alpiner",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Direction Sense, Grip Pads, Low Pressure Tolerance, Oxygen Reserve, Respirocytes, Temperature Tolerance (Improved Cold)",
+    "advantages": "+5 SOM, +10 Climbing skill",
+    "disadvantages": "Fast Metabolism trait, Planned Obsolescence trait",
+    "skillBonuses": [
+      {
+        "key": "climbing",
+        "value": 10
+      }
+    ],
+    "cpCost": 30,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Alpiners were a relatively common biomorph design on early frontier Mars, when temperatures and atmospheric pressure had not yet risen to present levels. Now they are found predominantly in the city of Olympus, where environmental conditions will always be incredibly harsh. Avid rock climbers and outdoor types also favor this morph, and in recent years it has enjoyed an unusual vogue among chic urbanites going for a rough-andready look without sleeving in the more de classe ruster morph.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 55.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 69000,
+  "ownership": {
+    "default": 0
+  }
+}

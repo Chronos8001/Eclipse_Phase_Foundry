@@ -1,0 +1,51 @@
+{
+  "_id": "cc8ab4157957c185",
+  "_key": "!items!cc8ab4157957c185",
+  "name": "Rogue (Flexbot module)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 25,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 6,
+      "kinetic": 6
+    },
+    "movement": "Hopper 4/20, Walker 4/16",
+    "implants": "Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Enhanced Vision, Fractal Digits, Mnemonic Augmentation, Modular Design, Nanoscopic Vision, Radar Absorbent (p. 149, Panopticon), Shape Adjusting, T-Ray Emitter, Weapon Mount",
+    "advantages": "Armor (6/6), +5 COO, +5 REF, Tough (Level 1) trait",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 35,
+    "creditCost": "Expensive (minimum 35,000)",
+    "active": false,
+    "description": "<p>Rogue modules are optimized for stealth and infiltration. They are illegal or restricted in many habitats.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 34.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 38000,
+  "ownership": {
+    "default": 0
+  }
+}

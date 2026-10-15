@@ -1,0 +1,51 @@
+{
+  "_id": "0d73ad9d3e32563e",
+  "_key": "!items!0d73ad9d3e32563e",
+  "name": "Basic Pod",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Puppet Sock",
+    "advantages": "+5 to one aptitude of the player's choice",
+    "disadvantages": "Social Stigma (Pod) trait",
+    "skillBonuses": [],
+    "cpCost": 5,
+    "creditCost": "Moderate",
+    "active": false,
+    "description": "<p>Basic pods are essentially lowercost pod versions of a splicer morph. To keep expenses down, this pod has slightly more mechanical parts than most other pods. As a result, it has more obvious cybernetic components.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 10.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

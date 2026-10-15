@@ -1,0 +1,51 @@
+{
+  "_id": "a854bdc5d2e7c89f",
+  "_key": "!items!a854bdc5d2e7c89f",
+  "name": "Skulker (Swarmanoid variant)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "Walker 2/8, Hopper 4/20, Rotor 4/32",
+    "implants": "360-Degree Vision, Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Swarm Composition, Chameleon Skin, Radar Invisibility",
+    "advantages": "",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 35,
+    "creditCost": "Expensive (minimum 30,000)",
+    "active": false,
+    "description": "<p>Skulkers are a stealth swarmanoid designed to infiltrate sensitive areas and avoid detection by sensors.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 101.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 116000,
+  "ownership": {
+    "default": 0
+  }
+}

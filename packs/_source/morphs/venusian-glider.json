@@ -1,0 +1,51 @@
+{
+  "_id": "c17e912d0b6bdd48",
+  "_key": "!items!c17e912d0b6bdd48",
+  "name": "Venusian Glider",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20, gliding",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Enhanced Respiration, Enhanced Vision, Gliding Membranes, Grip Pads, Prehensile Feet, Respirocytes",
+    "advantages": "Limber (Level 1) trait, +5 REF, +5 SOM, +5 to two other aptitudes of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 40,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>The glider is designed to survive for many hours in Venus's unbreathable atmosphere. Tall and thin, with long, strong limbs and a lightweight build, this morph also features gliding membranes (p. 166, Sunward) that allow it to soar through the upper Venusian atmosphere. It can even gain altitude by riding thermals (which it can see using its enhanced vision). Once Venusian terraforming efforts are complete, an upgraded version of this morph will be able to breathe normally.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 108.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 124000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "e98f82b0520888cc",
+  "_key": "!items!e98f82b0520888cc",
+  "name": "Samsa",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 50,
+    "speedMod": 1,
+    "initMod": 0,
+    "armor": {
+      "energy": 11,
+      "kinetic": 11
+    },
+    "movement": "4/20",
+    "implants": "360-Degree Vision, Basic Biomods, Basic Mesh Inserts, Carapace Armor, Chameleon Skin, Cortical Stack, Cyberbrain, Cyberclaws, Enhanced Vision, Extra Limbs (4 Arms, 4 Legs), Grip Pads, Hardened Skeleton, Mnemonic Augmentation, Neurachem (Level 1), Puppet Sock, Temperature Tolerance",
+    "advantages": "+20 Intimidation skill, 4 arms, +10 SOM (includes Hardened Skeleton), +5 REF, +5 COO, +5 to one other aptitude of the player's choice, Carapace Armor (11/11)",
+    "disadvantages": "Social Stigma (Pod) trait, Unattractive (Level 2) trait",
+    "skillBonuses": [
+      {
+        "key": "intimidation",
+        "value": 20
+      }
+    ],
+    "cpCost": 60,
+    "creditCost": "Expensive (minimum 60,000+)",
+    "active": false,
+    "description": "<p>The samsa was the first attempt to create a combat pod model with a terrifying appearance. The samsa is an intimidating, two-meter-tall, four-armed, four-legged, humanoid insect. Samsas are an unsettling sight to many transhumans. They are most commonly used by mercenaries and enforcers in the rim. Their armored carapace provides protection and the extra limbs allow a character to dual wield rifles or other two-handed weapons.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 85.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 99000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "17acb9e1f3b414ca",
+  "_key": "!items!17acb9e1f3b414ca",
+  "name": "Security Pod",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 2,
+      "kinetic": 3
+    },
+    "movement": "4/20",
+    "implants": "Adrenal Boost, Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Claws, Cortical Stack, Cyberbrain, Eelware, Enhanced Vision, Grip Pads, Mnemonic Augmentation, Puppet Sock, T-Ray Emitter",
+    "advantages": "+10 SOM, +5 to one other aptitude of the player's choice",
+    "disadvantages": "Social Stigma (Pod) trait",
+    "skillBonuses": [],
+    "cpCost": 30,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Originally developed for joint-nation peace-keeping missions and border/enclave security roles, security pods were essentially mass-produced AI-operated soldiers. For obvious reasons, they fell out of favor during the Fall, but they are slowly regaining acceptance. They are a favored morph by mercenaries for infiltration and guerrilla warfare purposes.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 88.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 102000,
+  "ownership": {
+    "default": 0
+  }
+}

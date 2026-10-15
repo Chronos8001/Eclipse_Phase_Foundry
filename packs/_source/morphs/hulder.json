@@ -1,0 +1,51 @@
+{
+  "_id": "859622f75786b0f0",
+  "_key": "!items!859622f75786b0f0",
+  "name": "Hulder",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 10
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 2,
+      "kinetic": 3
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Digging Claws, Direction Sense, Enhanced Vision, Long-Term Life Support, Oxygen Reserve, Radiation Sense, Swim Bladder, T-Ray Emitter, Temperature Tolerance (Cryonic)",
+    "advantages": "+5 SOM, +10 WIL, +5 to one other aptitude of player's choice",
+    "disadvantages": "Temperature Intolerance (Warm)",
+    "skillBonuses": [],
+    "cpCost": 50,
+    "creditCost": "Expensive (Minimum 40,000+)",
+    "active": false,
+    "description": "<p>Hulder are engineered for survival in the Titanian wilds. In silhouette, their bodies resemble a long-legged great auk, though viewed up close, the resemblance to a bird ends. Hulder have no feathers, but rather smooth, rubbery charcoal or black skin covering a thick layer of nano-augmented blubber. What resembles a thick bill from a distance is actually a seamless protrusion of the face, packed with sensory augmentations. Hulder stand 2 meters tall and weigh on average 135 kilograms. Their sensory organs, webbed feet, and fingers are all cybernetic. Hulder can only tolerate temperatures hospitable to baseline transhumans for short periods of time. In the open, they must balance their bodies' chemical reservoirs with other hulder and caribou once per month or with a chemical reserve pack. A typical band of 2-6 hulder and 10-20 caribou can go about a year before having to visit a hab or a station like Huvudsk-r to replenish chemical reserves.</p><p><strong>Notes:</strong> Non-Mammalian Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 47.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 54000,
+  "ownership": {
+    "default": 0
+  }
+}

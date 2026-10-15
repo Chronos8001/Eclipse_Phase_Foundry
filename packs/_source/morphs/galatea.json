@@ -1,0 +1,51 @@
+{
+  "_id": "1bdd499266a62202",
+  "_key": "!items!1bdd499266a62202",
+  "name": "Galatea",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 5,
+      "ref": 0,
+      "sav": 10,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 6,
+      "kinetic": 6
+    },
+    "movement": "Walker 4/20",
+    "implants": "Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Enhanced Hearing, Mnemonic Augmentation",
+    "advantages": "+10 SAV, +5 COO, +5 INT, +5 to one other aptitude of the player's choice, Armor 6/6",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 65,
+    "creditCost": "Expensive (minimum 70,000+)",
+    "active": false,
+    "description": "<p>A group of Lunar morph designers created this high-end synthmorph in an attempt to increase the social acceptance of synthmorphs by showcasing how attractive and versatile they can be. This elegant morph looks expensive and is designed to allow the user to master any social situation. A few media icons and socialites have already found that this morph's mixture of utility and novelty value has helped enhance their fame and reputation.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 39.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 45000,
+  "ownership": {
+    "default": 0
+  }
+}

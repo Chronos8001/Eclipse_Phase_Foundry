@@ -1,0 +1,51 @@
+{
+  "_id": "224563973a63bf6b",
+  "_key": "!items!224563973a63bf6b",
+  "name": "Beekeeper (Flexbot module)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 25,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "movement": "Walker 4/16, Hover 8/16",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Medichines, Mnemonic Augmentation, Modular Design, Nanophages, Skinlink — Modularized Gear: 4 Specialized Hives of the player's choice",
+    "advantages": "Armor 4/4, +5 COG, +5 INT, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 55,
+    "creditCost": "Expensive (minimum 55,000)",
+    "active": false,
+    "description": "<p>Beekeepers are modules used to deploy nanoswarms.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 33.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 31000,
+  "ownership": {
+    "default": 0
+  }
+}

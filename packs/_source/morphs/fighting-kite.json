@@ -1,0 +1,51 @@
+{
+  "_id": "95eeffdaa2b60a73",
+  "_key": "!items!95eeffdaa2b60a73",
+  "name": "Fighting Kite",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 25,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 1,
+    "initMod": 0,
+    "armor": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "movement": "Ionic 12/40, Thrust Vector 8/40, Walker 2/8, Winged 8/32",
+    "implants": "Access Jacks, Anti-Glare, Basic Mesh Inserts, Chameleon Skin, Chemical Sniffer, Cortical Stack, Cyberbrain, Enhanced Vision, Mnemonic Augmentation, Neurachem (Level 1), Radar, Radar Absorbent, Shape Adjusting, T-Ray Emitter, Weapon Mount (Internal, Articulated, Laser Pulser), Wings",
+    "advantages": "+5 to two aptitudes of the player's choice, Armor (4/4)",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 35,
+    "creditCost": "Expensive (minimum 40,000+)",
+    "active": false,
+    "description": "<p>Based on the kite morph (p. 53) popular with gatecrashers, this morph is somewhat more durable and better armored. It also includes a built-in laser as well as anti-detection measures. Its default mode is turbofan-driven rotorcraft; its light weight allows it to fly and hover, even in thin atmospheres and heavy gravities. In streamlined ionic mode, it can travel at high speeds and maneuver in hurricane-force winds. In vacuum, it can drive itself with thrust-vector nozzles. It is occasionally used for aerial reconnaissance, but is most popular with spies, thieves, and discrete bodyguards.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 30.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 26000,
+  "ownership": {
+    "default": 0
+  }
+}

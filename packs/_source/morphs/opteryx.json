@@ -1,0 +1,60 @@
+{
+  "_id": "6e48bc1a09aeaa0c",
+  "_key": "!items!6e48bc1a09aeaa0c",
+  "name": "Opteryx",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 25,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 5,
+      "ref": 5,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 25,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 2,
+      "kinetic": 2
+    },
+    "movement": "Walker 8/40, Winged 8/40",
+    "implants": "Access Jacks, Basic Mesh Inserts, Claws, Cortical Stack, Cyberbrain, Enhanced Vision, Grip Pads, Mnemonic Augmentation, Pneumatic Limbs (Legs), Prehensile Tail, Wings",
+    "advantages": "+5 COO, +5 INT, +5 REF, +10 Climbing skill, +10 Flight skill, Armor 2/2",
+    "disadvantages": "",
+    "skillBonuses": [
+      {
+        "key": "climbing",
+        "value": 10
+      },
+      {
+        "key": "flight",
+        "value": 10
+      }
+    ],
+    "cpCost": 40,
+    "creditCost": "Expensive (Minimum 40,000+)",
+    "active": false,
+    "description": "<p>This recon morph is designed to be a fast, lightweight runner, climber, and flyer. The opteryx looks like a one-meter-tall winged, synthetic dinosaur and adopts an almost horizontal body posture when running, its tail held out for balance. Its wings are fully functional arms equipped with claws. This morph is a favorite for gatecrashers and neo-avians in the dinosaur identity subculture. It comes equipped with cartography package (p. 199, Transhuman) software.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 75.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 89000,
+  "ownership": {
+    "default": 0
+  }
+}

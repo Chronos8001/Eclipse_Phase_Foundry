@@ -1,0 +1,51 @@
+{
+  "_id": "43ec8c2c09e48240",
+  "_key": "!items!43ec8c2c09e48240",
+  "name": "Flat",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 20,
+      "coo": 20,
+      "int": 20,
+      "ref": 20,
+      "sav": 20,
+      "som": 20,
+      "wil": 20
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "None",
+    "advantages": "",
+    "disadvantages": "None (Genetic Defects trait common)",
+    "skillBonuses": [],
+    "cpCost": 0,
+    "creditCost": "High",
+    "active": false,
+    "description": "<p>Flats are baseline unmodified humans, born with all of the natural defects, hereditary diseases, and other genetic mutations that evolution so lovingly applies. Flats are increasingly rare--most died off with the rest of humanity during the Fall. Most new children are splicers--screened and genefixed at the least--except in habitats where flats are treated as second-class citizens and indentured labor.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 31.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 28000,
+  "ownership": {
+    "default": 0
+  }
+}

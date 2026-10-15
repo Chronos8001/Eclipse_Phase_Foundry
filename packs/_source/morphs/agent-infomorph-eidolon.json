@@ -1,0 +1,51 @@
+{
+  "_id": "e7728925a1989def",
+  "_key": "!items!e7728925a1989def",
+  "name": "Agent (Infomorph eidolon)",
+  "type": "morph",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "morphType": "infomorph",
+    "aptitudeMax": {
+      "cog": 40,
+      "coo": 40,
+      "int": 40,
+      "ref": 40,
+      "sav": 40,
+      "som": 40,
+      "wil": 40
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 0,
+    "speedMod": 2,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Eidetic Memory, Hacking Alert, Mental Speed, Mnemonic Augmentation",
+    "advantages": "+5 COG, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 35,
+    "creditCost": "Expensive (minimum 35,000)",
+    "active": false,
+    "description": "<p>While some infomorphs who work in network security and penetration testing use this eidolon, it is most popular with hackers and criminals. Many users also purchase the digital veil plug-in.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 51.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 58000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "74c6c1c81a41633d",
+  "_key": "!items!74c6c1c81a41633d",
+  "name": "Fury",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 10,
+      "wil": 5
+    },
+    "durability": 50,
+    "speedMod": 1,
+    "initMod": 0,
+    "armor": {
+      "energy": 2,
+      "kinetic": 3
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Enhanced Vision, Neurachem (Level 1), Toxin Filters",
+    "advantages": "+5 COO, +5 REF, +10 SOM, +5 WIL, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 75,
+    "creditCost": "Expensive (minimum 40,000)",
+    "active": false,
+    "description": "<p>Furies are combat morphs. These transgenic human upgrades feature genetics tailored for endurance, strength, and reflexes, as well as behavioral modifications for aggressiveness and cunning. To offset tendencies for unruliness and macho behavior patterns, furies feature gene sequences promoting pack mentalities and cooperation, and they tend to be biologically female.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 37.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 43000,
+  "ownership": {
+    "default": 0
+  }
+}

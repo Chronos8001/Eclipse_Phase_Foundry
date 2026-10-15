@@ -1,0 +1,51 @@
+{
+  "_id": "ca3e966baa1b2eb7",
+  "_key": "!items!ca3e966baa1b2eb7",
+  "name": "Ultra Kite (Kite variant)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 50,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 6,
+      "kinetic": 6
+    },
+    "movement": "Ionic 12/40, Thrust Vector 8/40, Walker 2/8, Winged 8/32",
+    "implants": "Access Jacks, Anti- Glare, Basic Mesh Inserts, Chemical Sniffer, Cortical Stack, Cyberbrain, Direction Sense, Enhanced Hearing, Enhanced Vision, Lidar, Mnemonic Augmentation, Radar, Shape Adjusting, T-Ray Emitter, Wings",
+    "advantages": "+5 to one aptitude of the player's choice, Armor (2/2) — Variant: Armor 6/6",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 55,
+    "creditCost": "Expensive (minimum 55,000+)",
+    "active": false,
+    "description": "<p>Ultra kites are humanoid-sized versions of kite morphs.</p><p><strong>Notes:</strong> Does not have the Small size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 53.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 67000,
+  "ownership": {
+    "default": 0
+  }
+}

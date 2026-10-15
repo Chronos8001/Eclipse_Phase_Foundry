@@ -1,0 +1,56 @@
+{
+  "_id": "012a378ff8116428",
+  "_key": "!items!012a378ff8116428",
+  "name": "Neo-Beluga",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "Swim 16/40",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced Hearing, Oxygen Reserve",
+    "advantages": "+5 COO, +5 INT, +5 SOM, +5 to one other aptitude of the player's choice, +40 Swimming skill, Ramming Attack (1d10 DV)",
+    "disadvantages": "Neo-belugas lack a sense of smell",
+    "skillBonuses": [
+      {
+        "key": "swimming",
+        "value": 40
+      }
+    ],
+    "cpCost": 45,
+    "creditCost": "Expensive (minimum 40,000)",
+    "active": false,
+    "description": "<p>Neo-belugas are the smallest and most numerous of the surviving whale uplifts, ranging 5.5 meters in length on average. They are white-skinned with no dorsal ridge, toothed, and have the distinction of being the only whale that can swim backwards.</p><p><strong>Notes:</strong> Large Size trait, Non-Human Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 60.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 74000,
+  "ownership": {
+    "default": 0
+  }
+}

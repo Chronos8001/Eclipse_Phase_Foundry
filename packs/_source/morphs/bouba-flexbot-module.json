@@ -1,0 +1,51 @@
+{
+  "_id": "65af184a4814d810",
+  "_key": "!items!65af184a4814d810",
+  "name": "Bouba (Flexbot module)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 25,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 15,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 2,
+      "kinetic": 3
+    },
+    "movement": "Hover 8/40, Snake 4/16",
+    "implants": "Access Jacks, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Chameleon Skin, Cyberbrain, Mnemonic Augmentation, Modular Design, Skinflex, Skinlink, Squishbot (p. 211, Transhuman)",
+    "advantages": "Armor 2/3",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 10,
+    "creditCost": "High (minimum 10,000)",
+    "active": false,
+    "description": "<p>This soft, amorphous module consists of hard parts in a fluid matrix surrounded by a tough but flexible skin. Its design doesn't allow for reshaping into new mobility systems, but it can slither along the ground or hover.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 33.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 32000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "d6a0a76cf8664a9c",
+  "_key": "!items!d6a0a76cf8664a9c",
+  "name": "Synthtaur",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 40,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 60,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 8,
+      "kinetic": 8
+    },
+    "movement": "Walker 6/40 quadruped, 4/20 biped",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Extra Limbs (6 Arms/Legs), Grip Pads, Mnemonic Augmentation, Pneumatic Limbs (2 Hind Legs), Prehensile Feet, Shape Adjusting, Telescoping Limbs (4 Lower Arms/Legs)",
+    "advantages": "6 Arms/Legs, +10 SOM, +5 to two other aptitudes of the player's choice, Armor 8/8",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 70,
+    "creditCost": "Expensive (minimum 80,000+)",
+    "active": false,
+    "description": "<p>The synthtaur resembles an elegant mechanical centaur, but is a versatile and extremely durable synthmorph. The shape adjusting enhancement allows it to switch between being a two-armed quadruped standing 1.7 meters tall or a four-armed biped standing 2.4 meters high, as well as allowing it to fit into small spaces. Its telescoping legs even allow it to reduce its height to become a 2-meter-tall bipedal humanoid. This morph is popular with gatecrashers, people exploring ruined habitats, and anyone going into dangerous and remote situations.</p><p><strong>Notes:</strong> Large Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 104.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 120000,
+  "ownership": {
+    "default": 0
+  }
+}

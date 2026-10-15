@@ -1,0 +1,56 @@
+{
+  "_id": "591cead8a79a5683",
+  "_key": "!items!591cead8a79a5683",
+  "name": "Aquanaut",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20, Swimming 2/10",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Enhanced Respiration, Gills, Sonar, Swim Bladder, Temperature Tolerance (Improved Cold), Toxin Filters",
+    "advantages": "+5 COO, +10 SOM, +5 to one other aptitude of the player's choice, +10 Swimming skill",
+    "disadvantages": "",
+    "skillBonuses": [
+      {
+        "key": "swimming",
+        "value": 10
+      }
+    ],
+    "cpCost": 50,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Aquanauts are environmentally adapted for underwater activities. Their heart rate slows while underwater, their skin includes a layer of blubber that retains heat, they store oxygen in their muscle tissue, and they do not suffer negative health effects from pressure changes. Additionally, their eyes have nictitating membranes and their corneas adjust to counter underwater refraction. Their hands and feet are webbed and they possess a transgenic swim bladder for controlling buoyancy. Aquanauts can safely descend to about 200 meters depth (roughly 21 atmospheres of pressure at 1 g) without suffering narcotic effects or other diving problems.</p><p><strong>Notes:</strong> Non-Human Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 6.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

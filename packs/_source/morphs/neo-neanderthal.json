@@ -1,0 +1,51 @@
+{
+  "_id": "720d9747f1af9aab",
+  "_key": "!items!720d9747f1af9aab",
+  "name": "Neo-Neanderthal",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack",
+    "advantages": "+5 COG, +5 INT, +10 SOM, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 40,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>This morph is based on fossilized Neanderthal DNA, uplifted and enhanced to transhuman equivalence. Neanderthal morphs look like muscular humans with a heavy bone structure, distinctively long skulls, heavy brow ridges, and weak chins. Pale complexions and red hair are common features.</p><p><strong>Notes:</strong> Non-Human Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 64.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 78000,
+  "ownership": {
+    "default": 0
+  }
+}

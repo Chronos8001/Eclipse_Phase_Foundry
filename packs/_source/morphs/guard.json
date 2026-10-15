@@ -1,0 +1,51 @@
+{
+  "_id": "c4c2022f991965d0",
+  "_key": "!items!c4c2022f991965d0",
+  "name": "Guard",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 1,
+    "initMod": 0,
+    "armor": {
+      "energy": 12,
+      "kinetic": 12
+    },
+    "movement": "Walker 4/20",
+    "implants": "Access Jacks, Basic Mesh Inserts, Chemical Sniffer, Cortical Stack, Cyberbrain, Cyberclaws, Enhanced Vision, Hand Laser, Lidar, Mnemonic Augmentation, Neurachem (Level 1), Puppet Sock, Synthetic Mask, T-Ray Emitter",
+    "advantages": "+10 SOM, +5 COO, +5 to one other aptitude of the player's choice, Armor 12/12",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 60,
+    "creditCost": "Expensive (minimum 60,000+)",
+    "active": false,
+    "description": "<p>Everyone knows that synthmorphs are tougher and better equipped for serious combat than biomorphs. However, many people in the inner system are not comfortable with using hulking synthmorphs as bodyguards or security personnel. Instead, some choose this subtle and extremely deadly alternative. This morph's enhanced senses allow it to more easily detect any threats to the person the user is guarding, and the built-in weaponry and moderate armor make it highly resistant to damage. The synthetic mask disguises it quite effectively as an olympian or fury morph.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 44.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 50000,
+  "ownership": {
+    "default": 0
+  }
+}

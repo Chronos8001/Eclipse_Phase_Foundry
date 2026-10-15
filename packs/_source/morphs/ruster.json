@@ -1,0 +1,51 @@
+{
+  "_id": "50d59e894b7c11bc",
+  "_key": "!items!50d59e894b7c11bc",
+  "name": "Ruster",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Enhanced Respiration, Temperature Tolerance",
+    "advantages": "+5 SOM, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 25,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Adapted for survival with minimum gear in the not-yet-terraformed Martian environment, these transgenic morphs feature insulated skin for more effective thermoregulation and respiratory system improvements to require less oxygen and filter carbon dioxyde, among other mods. Many rusters come with the Planned Obsolescence trait, as noted on p. 166, Sunward.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 83.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 97000,
+  "ownership": {
+    "default": 0
+  }
+}

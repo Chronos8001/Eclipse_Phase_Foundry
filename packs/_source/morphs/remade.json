@@ -31,7 +31,7 @@
       "energy": 0,
       "kinetic": 0
     },
-    "movement": "",
+    "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Clean Metabolism, Cortical Stack, Eidetic Memory, Enhanced Respiration, Temperature Tolerance, Toxin Filters",
     "advantages": "+10 COG, +5 SAV, +10 SOM, +5 to two other aptitudes of the player's choice",
     "disadvantages": "Uncanny Valley trait",
@@ -39,12 +39,12 @@
     "cpCost": 60,
     "creditCost": "Expensive (minimum 40,000+)",
     "active": false,
-    "description": "<p>The remade are completely redesigned humans: humans 2.0. Their cardiovascular systems are stronger, the digestive tract has been sanitized and restructured to eliminate flaws, and they have otherwise been optimized for good health, smarts, and longevity with numerous transgenic mods. The remade are popular with the ultimates faction. The remade look close to human, but are different in very noticeable and sometimes eerie ways: taller, lack of hair, slightly larger craniums, wider eyes, smaller noses, smaller teeth, and elongated digits.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The remade are completely redesigned humans: humans 2.0. Their cardiovascular systems are stronger, the digestive tract has been sanitized and restructured to eliminate flaws, and they have otherwise been optimized for good health, smarts, and longevity with numerous transgenic mods. The remade are popular with the ultimates faction. The remade look close to human, but are different in very noticeable and sometimes eerie ways: taller, lack of hair, slightly larger craniums, wider eyes, smaller noses, smaller teeth, and elongated digits.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 79.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 13000,
+  "sort": 93000,
   "ownership": {
     "default": 0
   }

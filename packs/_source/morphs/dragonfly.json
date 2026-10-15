@@ -31,20 +31,20 @@
       "energy": 2,
       "kinetic": 2
     },
-    "movement": "Winged (8/32)",
-    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation",
-    "advantages": "Flight, +5 REF, Armor (2/2)",
+    "movement": "Winged 8/32, Walker 2/16",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Wings",
+    "advantages": "+5 REF, Armor (2/2)",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 20,
     "creditCost": "High",
     "active": false,
-    "description": "<p>The dragonfly robotic morph takes the shape of a meter-long flexible shell with multiple wings and manipulator arms. Capable of near-silent turbofan-aided flight in Earth gravity, dragonfly bots fare even better in microgravity.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The dragonfly robotic morph takes the shape of a meter-long flexible shell with multiple wings and manipulator arms. Capable of near-silent turbofan-aided flight in Earth gravity, dragonfly bots fare even better in microgravity.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 25.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 24000,
+  "sort": 21000,
   "ownership": {
     "default": 0
   }

@@ -1,0 +1,51 @@
+{
+  "_id": "6a8b68e75c293a19",
+  "_key": "!items!6a8b68e75c293a19",
+  "name": "Griefer",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 20,
+      "coo": 20,
+      "int": 20,
+      "ref": 20,
+      "sav": 20,
+      "som": 20,
+      "wil": 20
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 20,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "movement": "Walker 4/16",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cyberbrain, Holographic Projector, Loudspeakers, Mnemonic Augmentation, Puppet Sock",
+    "advantages": "Armor (4/4)",
+    "disadvantages": "-5 to two aptitudes of the player's choice, Lemon trait, No Cortical Stack trait, Social Stigma (Griefer) trait",
+    "skillBonuses": [],
+    "cpCost": 5,
+    "creditCost": "Moderate",
+    "active": false,
+    "description": "<p>Based on the case synthmorph design, griefers are used by vandals, terrorists, and dedicated trolls to harass enemies and antagonize the masses. Griefers have embedded sound and holographic display systems so they can easily harass an individual or an entire crowd. They are also typically equipped with numerous hacking tools and software aids, though they do not come with these by default. Most importantly, they are built without cortical stacks, so if they are destroyed, the ego cannot be interrogated through psychosurgery. Griefers are illegal in many habitats, especially in the Planetary Consortium, but DRM-free blueprints are easy to find in many darknets, thus making them a persistent annoyance in some systems. A few habitats have passed laws mandating that killing a griefer is not considered murder, assault, or even destruction of property.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 43.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 49000,
+  "ownership": {
+    "default": 0
+  }
+}

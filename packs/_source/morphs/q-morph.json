@@ -1,0 +1,51 @@
+{
+  "_id": "418135f4364bc1f3",
+  "_key": "!items!418135f4364bc1f3",
+  "name": "Q-Morph",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": -5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 120,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 18,
+      "kinetic": 18
+    },
+    "movement": "Walker 2/4",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Direction Sense, Echolocation, Enhanced Vision, Extreme Heat Shielding, Extreme Pressure Adaptation, Mnemonic Augmentation, Radar, T-Ray Emitter, Wrist-Mounted Tools",
+    "advantages": "High Temperature Operation trait, 8 limbs, Claw Attack (DV 2d10), -5 COO, +10 SOM, +5 to one other aptitude of the player's choice, Armor 18/18",
+    "disadvantages": "Only works on the Venusian surface or in similar hot and high pressure environments",
+    "skillBonuses": [],
+    "cpCost": 100,
+    "creditCost": "Expensive (minimum 60,000+)",
+    "active": false,
+    "description": "<p>Quartz morphs, commonly called Q-morphs, are the primary shell design used for Venusian surface mining. Constructed from quartz and extremely durable alloys, Q-morphs look like four-legged crabs with two pairs of arms. The lower pair of arms is designed for strength, the upper pair for precision and dexterity. This morph is squat, exceptionally tough, and completely unable to function in temperatures below 250 C.</p><p><strong>Notes:</strong> Large Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 77.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 91000,
+  "ownership": {
+    "default": 0
+  }
+}

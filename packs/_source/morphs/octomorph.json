@@ -1,0 +1,60 @@
+{
+  "_id": "355ea8350412d799",
+  "_key": "!items!355ea8350412d799",
+  "name": "Octomorph",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "2/12, Swim 4/24, Thrust Vector 2/12",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Chameleon Skin, Polarization Vision",
+    "advantages": "8 Arms, Beak Attack (1d10 DV, AP -1, use Unarmed Combat skill), Ink Attack (blinding, use Exotic Ranged: Ink Attack skill), Limber (Level 2) trait, 360-degree Vision, +30 Swimming skill, +10 Climbing skill, +5 COO, +5 INT, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [
+      {
+        "key": "swimming",
+        "value": 30
+      },
+      {
+        "key": "climbing",
+        "value": 10
+      }
+    ],
+    "cpCost": 50,
+    "creditCost": "Expensive (minimum 30,000+)",
+    "active": false,
+    "description": "<p>These uplifted octopi sleeves have proven quite useful in zero-gravity environments. They retain eight arms, their chameleon ability to change skin color, ink sacs, and a sharp beak. They also have increased brain mass and longevity, can breathe both air and water, and lack a skeletal structure so they can squeeze through tight spaces. Octomorphs typically crawl along in zero gravity using their arm suckers and expelling air for propulsion and can even walk on two of their arms in low gravity. Their eyes have been enhanced with color vision, provide a 360-degree field of vision, and rotationally adjust to keep the slit-shaped pupil aligned with \"up.\" A transgenic vocal system allows them to speak.</p><p><strong>Notes:</strong> Non-Mammalian Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 73.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 87000,
+  "ownership": {
+    "default": 0
+  }
+}

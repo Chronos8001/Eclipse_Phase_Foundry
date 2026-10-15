@@ -1,0 +1,16 @@
+{
+  "name": "ep1e",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Eclipse Phase (1st Edition) system for Foundry VTT v13/v14",
+  "type": "module",
+  "scripts": {
+    "build:packs": "node tools/build-packs.mjs pack",
+    "unpack": "node tools/build-packs.mjs unpack",
+    "check": "node tools/check.mjs",
+    "build": "npm run check && npm run build:packs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.4"
+  }
+}

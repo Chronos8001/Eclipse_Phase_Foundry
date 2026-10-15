@@ -1,0 +1,51 @@
+{
+  "_id": "c1d26f3263a9b5f0",
+  "_key": "!items!c1d26f3263a9b5f0",
+  "name": "Sage (Infomorph eidolon)",
+  "type": "morph",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "morphType": "infomorph",
+    "aptitudeMax": {
+      "cog": 40,
+      "coo": 40,
+      "int": 40,
+      "ref": 40,
+      "sav": 40,
+      "som": 40,
+      "wil": 40
+    },
+    "aptitudeBonus": {
+      "cog": 10,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 0,
+    "speedMod": 2,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Eidetic Memory, Hyper Linguist, Math Boost, Mnemonic Augmentation",
+    "advantages": "+10 COG, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 40,
+    "creditCost": "Expensive (minimum 40,000)",
+    "active": false,
+    "description": "<p>This cutting-edge eidolon is too new to have seen widespread adoption by scientists and academics, but its popularity is spreading among intellectuals, researchers, and others who can afford it.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 51.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 62000,
+  "ownership": {
+    "default": 0
+  }
+}

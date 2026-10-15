@@ -1,0 +1,51 @@
+{
+  "_id": "6b49b8b2120ba5a0",
+  "_key": "!items!6b49b8b2120ba5a0",
+  "name": "Crafter (Flexbot module)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 25,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 6,
+      "kinetic": 6
+    },
+    "movement": "Walker 4/16, Hover 8/40",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Fractal Digits, Mnemonic Augmentation, Modular Design, Nanoscopic Vision, Pneumatic Limbs, Shape Adjusting, T-Ray Emitter — Modularized Gear: Tool Kit, Specialized Hive (Engineer Swarm)",
+    "advantages": "Armor 6/6, +5 COG, +5 SOM",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 40,
+    "creditCost": "Expensive (minimum 40,000)",
+    "active": false,
+    "description": "<p>The crafter module is specialized for construction and fabrication.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 33.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 33000,
+  "ownership": {
+    "default": 0
+  }
+}

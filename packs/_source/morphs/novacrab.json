@@ -31,7 +31,7 @@
       "energy": 11,
       "kinetic": 11
     },
-    "movement": "",
+    "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Carapace Armor, Cortical Stack, Cyberbrain, Enhanced Respiration, Gills, Mnemonic Augmentation, Oxygen Reserve, Puppet Sock, Temperature Tolerance, Vacuum Sealing",
     "advantages": "10 legs, Carapace Armor (11/11), Claw Attack (DV 2d10), +10 SOM, +5 to two other aptitudes of the player's choice",
     "disadvantages": "",
@@ -39,12 +39,12 @@
     "cpCost": 60,
     "creditCost": "Expensive (minimum 30,000+)",
     "active": false,
-    "description": "<p>Novacrabs are a pod design bio-engineered from coconut crab and spider crab stock and grown to a larger (human) size. Novacrabs are ideal for hazardous work environments as well as vacworker, police, or bodyguard duties, given their ten 2-meter long legs, massive claws, and chitinous armor. They climb and handle microgravity well and can withstand a wide range of atmospheric pressure (and sudden pressure changes) from vacuum to deep sea. Novacrabs feature compound eyes (with human-equivalent image resolution), gills, dexterous manipulatory digits on their fifth set of limbs, and transgenic vocal cords.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>Novacrabs are a pod design bioengineered from coconut crab and spider crab stock and grown to a larger (human) size. Novacrabs are ideal for hazardous work environments as well as vacworker, police, or bodyguard duties, given their ten 2-meter long legs, massive claws, and chitinous armor. They climb and handle microgravity well and can withstand a wide range of atmospheric pressure (and sudden pressure changes) from vacuum to deep sea. Novacrabs feature compound eyes (with human-equivalent image resolution), gills, dexterous manipulatory digits on their fifth set of limbs, and transgenic vocal cords.</p><p><strong>Notes:</strong> Non-Mammalian Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 71.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 20000,
+  "sort": 85000,
   "ownership": {
     "default": 0
   }

@@ -1,0 +1,51 @@
+{
+  "_id": "3ec6ddefeecccd6a",
+  "_key": "!items!3ec6ddefeecccd6a",
+  "name": "Apiary (Flexbot module)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 25,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 20,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "Walker 2/8, Hopper 4/20, Rotor 4/32",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Modular Design, Skinlink, Swarm Composition — Modularized Gear: Laser Link, Nanodetector, Radio Booster",
+    "advantages": "",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 10,
+    "creditCost": "High (minimum 10,000)",
+    "active": false,
+    "description": "<p>The apiary is a mini-swarmanoid that attaches to a flexbot.</p><p><strong>Notes:</strong> Small Size trait , Swarm Composition (p. 211 and p. 311, EP), apiaries can only hold 2 egos</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 33.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 30000,
+  "ownership": {
+    "default": 0
+  }
+}

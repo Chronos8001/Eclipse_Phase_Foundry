@@ -1,0 +1,51 @@
+{
+  "_id": "f28a92a0b145aec5",
+  "_key": "!items!f28a92a0b145aec5",
+  "name": "Hazer",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 5
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Enhanced Vision, Radiation Sense, Respirocytes, Temperature Tolerance (Improved Cold)",
+    "advantages": "+5 COO, +5 WIL, +5 to two other aptitudes of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 35,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Hazers are tall, fine-boned morphs, lightly muscled but heavily insulated against loss of body heat. Even with all of their augmentations, hazers can't survive exposure to the frigid atmosphere of Titan--but they can handle it slightly longer than other morphs. Hazers tend to be fair and slender, with chiseled features. Some have features so angular or elfin that their beauty is alien and unsettling to other human phenotypes. Striking Looks and Uncanny Valley are both common morph traits.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 45.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 52000,
+  "ownership": {
+    "default": 0
+  }
+}

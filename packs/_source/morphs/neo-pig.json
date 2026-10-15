@@ -1,0 +1,51 @@
+{
+  "_id": "eb2a09a919569ff6",
+  "_key": "!items!eb2a09a919569ff6",
+  "name": "Neo-Pig",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack",
+    "advantages": "+5 SOM, +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 20,
+    "creditCost": "High",
+    "active": false,
+    "description": "<p>Uplifted pig morphs are bipedal and feature transgenic hands, feet, and vocal systems. They tend to be slightly shorter than the average transhuman but much stockier. Males grow tusks from their lower jaws.</p><p><strong>Notes:</strong> Non-Human Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 66.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 80000,
+  "ownership": {
+    "default": 0
+  }
+}

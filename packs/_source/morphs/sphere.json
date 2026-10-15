@@ -1,0 +1,51 @@
+{
+  "_id": "12c70d69cc751eda",
+  "_key": "!items!12c70d69cc751eda",
+  "name": "Sphere",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 10,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 6,
+      "kinetic": 6
+    },
+    "movement": "Roller 8/32, Thrust Vector 4/20",
+    "implants": "360-Degree Vision, Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Enhanced Vision, Extra Limbs (4 Arms), Gas-Jet System, Mnemonic Augmentation, Puppet Sock, Telescoping Limbs",
+    "advantages": "4 arms, +10 COG, +5 to three other aptitudes of the player's choice, Armor 6/6",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 65,
+    "creditCost": "Expensive (minimum 70,000+)",
+    "active": false,
+    "description": "<p>Popular with AGIs and synthmorph activists, this morph is a sphere approximately one meter in diameter. It can extend up to four flexible limbs as required, and typically hovers at approximately human eye level. The first tests of this morph revealed that the chameleon surface was necessary because it allows the user to display the image of a face, which made most transhumans both more comfortable talking with this morph and less likely to assume that it is a robot.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 94.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 108000,
+  "ownership": {
+    "default": 0
+  }
+}

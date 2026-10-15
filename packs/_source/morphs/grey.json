@@ -1,0 +1,51 @@
+{
+  "_id": "ab0b3314bf08e184",
+  "_key": "!items!ab0b3314bf08e184",
+  "name": "Grey",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 20,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 5
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Clean Metabolism, Cortical Stack, Eidetic Memory, Emotional Dampers, Enhanced Vision, Math Boost",
+    "advantages": "+5 COG, +5 WIL, +5 to one other aptitude of the player's choice",
+    "disadvantages": "Uncanny Valley trait",
+    "skillBonuses": [],
+    "cpCost": 25,
+    "creditCost": "Expensive (minimum 30,000+)",
+    "active": false,
+    "description": "<p>Originally created as part of a fad based on 20th-century images of aliens, the grey morph soon became popular with eccentric scientists and engineers. This morph's slender and weak-looking body stands only 1.5 meters tall, short compared to modern transhumans. Its distinctive large head and eyes strike many transhumans as disturbing.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 42.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 48000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_id": "f7b01863cef408e9",
+  "_key": "!items!f7b01863cef408e9",
+  "name": "Blackbird",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 20,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 25,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 2,
+      "kinetic": 2
+    },
+    "movement": "Walker 2/16, Hopper 4/20, Winged 8/40",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Enhanced Hearing, Enhanced Vision, Invisibility, Mnemonic Augmentation, Puppet Sock, Reduced Signature, Wings",
+    "advantages": "+5 COO, +5 REF, +5 to one other aptitude of the player's choice, +10 Flight skill, +10 Infiltration skill, Armor 2/2, Beak/Claw Attack (1d10 + 1 DV, AP -1)",
+    "disadvantages": "",
+    "skillBonuses": [
+      {
+        "key": "flight",
+        "value": 10
+      },
+      {
+        "key": "infiltration",
+        "value": 10
+      }
+    ],
+    "cpCost": 45,
+    "creditCost": "Expensive (Minimum 45,000)",
+    "active": false,
+    "description": "<p>When they're seen at all, these morphs resemble a matte gray neo-corvid with many odd, sharp angles. Blackbirds are consummate stealth morphs, designed to evade visual observation and radar during recon or infiltration. In part due to aesthetics, they're a favorite of neo-ravens.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 12.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

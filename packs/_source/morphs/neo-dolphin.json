@@ -1,0 +1,56 @@
+{
+  "_id": "5110891e27d1a84b",
+  "_key": "!items!5110891e27d1a84b",
+  "name": "Neo-Dolphin",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "Swim 16/48",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced Hearing, Oxygen Reserve",
+    "advantages": "+5 COO, +5 INT, +5 SOM, +5 to one other aptitude of the player's choice, +40 Swimming skill, Ramming Attack (1d10 DV, use Unarmed Combat skill)",
+    "disadvantages": "Neo-dolphins lack a sense of smell",
+    "skillBonuses": [
+      {
+        "key": "swimming",
+        "value": 40
+      }
+    ],
+    "cpCost": 40,
+    "creditCost": "Expensive (minimum 35,000)",
+    "active": false,
+    "description": "<p>The uplifted versions of various dolphin species are very similar to baseline dolphins physiologically. Thanks to the oxygen reserve implant, neo-dolphins can stay underwater for longer (Cerean dolphins have gills installed, as the subcrustal sea has no breathable atmosphere above it). Common neo-dolphin germlines lack hands or other limbs, though cybernetic arms or even bioware enhancements are not uncommon. Neo-dolphin morphs are very rare, since there are few habitats that can support them, and they are almost never found apart from aquatic environments.</p><p><strong>Notes:</strong> Non-Human Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 61.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 75000,
+  "ownership": {
+    "default": 0
+  }
+}

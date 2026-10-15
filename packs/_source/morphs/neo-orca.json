@@ -1,0 +1,60 @@
+{
+  "_id": "61a041f7ef5ba38a",
+  "_key": "!items!61a041f7ef5ba38a",
+  "name": "Neo-Orca",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "Swim 16/60",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced Hearing, Oxygen Reserve",
+    "advantages": "+5 COO, +5 INT, +10 SOM, +5 to one other aptitude of the player's choice, +40 Swimming skill, +20 Unarmed Combat skill, Bite Attack (2d10 DV, use Unarmed Combat skill)",
+    "disadvantages": "Neo-orcas lack a sense of smell",
+    "skillBonuses": [
+      {
+        "key": "swimming",
+        "value": 40
+      },
+      {
+        "key": "unarmedCombat",
+        "value": 20
+      }
+    ],
+    "cpCost": 60,
+    "creditCost": "Expensive (minimum 50,000)",
+    "active": false,
+    "description": "<p>Though colloquially referred to as killer whales, orcas are actually members of the dolphin family. The average neo-orca length is 7 meters for males, 6 meters for females. Males also have larger and more triangular pectoral fins.</p><p><strong>Notes:</strong> Large Size trait, Non-Human Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 65.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 79000,
+  "ownership": {
+    "default": 0
+  }
+}

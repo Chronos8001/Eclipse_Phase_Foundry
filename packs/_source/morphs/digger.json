@@ -1,0 +1,51 @@
+{
+  "_id": "762fc6ab13eb1d91",
+  "_key": "!items!762fc6ab13eb1d91",
+  "name": "Digger",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Access Jacks, Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Digging Claws, Enhanced Vision, Mnemonic Augmentation, Puppet Sock, Wrist-Mounted Tools",
+    "advantages": "+10 SOM, +5 to one other aptitude of the player's choice",
+    "disadvantages": "Social Stigma (Pod)",
+    "skillBonuses": [],
+    "cpCost": 30,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Diggers are worker pods customized for archeological work. They are used for surface surveys, excavation, and general physical labor by xenoarcheological teams. Their hands are modified digging claws, adapted from the genetics of hole-digging creatures like moles and aardvarks, though still flexible and useful for grasping and fine manipulation.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 24.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  }
+}

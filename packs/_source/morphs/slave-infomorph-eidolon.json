@@ -1,0 +1,51 @@
+{
+  "_id": "34b25482f926887d",
+  "_key": "!items!34b25482f926887d",
+  "name": "Slave (Infomorph eidolon)",
+  "type": "morph",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "morphType": "infomorph",
+    "aptitudeMax": {
+      "cog": 40,
+      "coo": 40,
+      "int": 40,
+      "ref": 40,
+      "sav": 40,
+      "som": 40,
+      "wil": 40
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 0,
+    "speedMod": 2,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Copylock, Mnemonic Augmentation",
+    "advantages": "",
+    "disadvantages": "Modified Behavior (Level 2: Blocked disobedience to a particular person/group), -10 WIL",
+    "skillBonuses": [],
+    "cpCost": 5,
+    "creditCost": "Moderate",
+    "active": false,
+    "description": "<p>No one other than a handful of bizarre eccentrics voluntarily uses this eidolon. It is specifically designed as a means to control infomorphs who are being used as slaves. One common use of this eidolon is sending an infomorph on a mission where the sender wishes to insure the infomorphs complete and total obedience.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 51.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 64000,
+  "ownership": {
+    "default": 0
+  }
+}

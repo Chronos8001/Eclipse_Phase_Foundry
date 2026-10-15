@@ -1,0 +1,51 @@
+{
+  "_id": "814a2dd086add0c6",
+  "_key": "!items!814a2dd086add0c6",
+  "name": "Hyperbright",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 40,
+      "coo": 40,
+      "int": 40,
+      "ref": 40,
+      "sav": 40,
+      "som": 40,
+      "wil": 40
+    },
+    "aptitudeBonus": {
+      "cog": 15,
+      "coo": 0,
+      "int": 10,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 5
+    },
+    "durability": 35,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack, Eidetic Memory, Endocrine Control, Grip Pads, Hyper-Linguist, Math Boost, Mental Speed, Prehensile Feet",
+    "advantages": "+15 COG, +10 INT, +5 WIL, +5 to one other aptitude of the player's choice Disadvantage: Addiction (minor, to comfurt), Fast Metabolism, Uncanny Valley",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 70,
+    "creditCost": "Expensive (Minimum 40,000+)",
+    "active": false,
+    "description": "<p>This morph is an attempt by a research team on Bright to create a successor to the menton, making it the most intelligence-enhanced morph ever created. Work on the hyperbright morph has been plagued with difficulties, as the designers attempt to push technical limits, creating a morph that can work at peak efficiency without distraction for long periods of time. In an effort to create a morph that proves their design and earns some positive reputation for their project, the creators took short cuts that caused the morph to have several distinctive and potentially annoying quirks, including an inherent need for drugs to stabilize its exotic neurochemistry. The result is a morph that is instantly recognizable by the brightly colored bony crest along the skull that helps cool its brain. Despite its quirks, the hyperbright has gained a small following among a number of scientists and engineers, especially since it has been optimized for use in the low-g environments of the outer system. When created or used on Bright, this morph is usually also fitted with parallel processor nanoware (p. 189, Rimward).</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 48.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 55000,
+  "ownership": {
+    "default": 0
+  }
+}

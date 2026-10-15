@@ -1,0 +1,51 @@
+{
+  "_id": "0564687d51baeb18",
+  "_key": "!items!0564687d51baeb18",
+  "name": "Crasher",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 2,
+      "kinetic": 3
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Circadian Regulation, Clean Metabolism, Cortical Stack, Direction Sense, Eidetic Memory, Enhanced Respiration, Enhanced Vision, Grip Pads, Hibernation, Medichines, Oxygen Reserve, Toxin Filters, Vacuum Sealing",
+    "advantages": "Bioweave Armor (Light) (2/3), +5 COG, +10 SOM, +5 to three other aptitudes of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 70,
+    "creditCost": "Expensive (Minimum 40,000+)",
+    "active": false,
+    "description": "<p>An enhanced version of ruster morphs, crashers are rugged and durable designs capable of weathering a range of harsh environments. They are the ideal biomorph for gatecrashing assignments and are popular among first-in teams. Though pricey compared to other biomorph options, many gatecrashers traveling to less habitable and dangerous environments have found the investment worth it.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 21.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_id": "4707672aa540f212",
+  "_key": "!items!4707672aa540f212",
+  "name": "Hypergibbon",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 5,
+      "ref": 5,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 25,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Prehensile Feet, Puppet Sock",
+    "advantages": "+5 INT, +5 REF, +10 Climbing skill, +20 Freerunning skill, Limber (Level 2) trait",
+    "disadvantages": "Social Stigma (Pod)",
+    "skillBonuses": [
+      {
+        "key": "climbing",
+        "value": 10
+      },
+      {
+        "key": "freerunning",
+        "value": 20
+      }
+    ],
+    "cpCost": 30,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Built from siamang genestock, the largest of the lesser apes, hypergibbons are often mistaken for uplifts, although this is not the case. The gibbon was never a candidate for uplift due to a brain anatomy considerably more primitive than great apes. With the addition of a cyberbrain, though, they make excellent pods. Many primate uplifts choose hypergibbons in place of other pods or when they need something small like a neotenic. Hypergibbons stand about 1 meter tall, weigh 15 kilograms, and typically have black fur and skin (although bodysculpting permits many variations). They have inflatable throat sacks that allow melodious calls that carry great distances. Their wrists feature a ball-and-socket joint and also naturally dislocate to enable easier swinging by the arms.</p><p><strong>Notes:</strong> Non-Human Biochemistry trait, Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 49.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 56000,
+  "ownership": {
+    "default": 0
+  }
+}

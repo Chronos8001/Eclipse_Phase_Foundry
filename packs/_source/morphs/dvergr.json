@@ -1,0 +1,51 @@
+{
+  "_id": "80d057081bb57d0d",
+  "_key": "!items!80d057081bb57d0d",
+  "name": "Dvergr",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 35,
+      "coo": 35,
+      "int": 35,
+      "ref": 35,
+      "sav": 35,
+      "som": 40,
+      "wil": 35
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 15,
+      "wil": 0
+    },
+    "durability": 45,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, High-G Adaptation",
+    "advantages": "+15 SOM (includes implant bonuses), +5 to one other aptitude of the player's choice",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 50,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Dvergar (plural of dvergr) are biomorphs designed for comfortable operation in highgravity environments. They feature a reinforced skeletal structure and sturdier muscle masses. They are easily identified by their slightly squat, thick-necked, tough appearances.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 26.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

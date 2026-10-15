@@ -1,10 +1,14 @@
-"""Parse morphs and traits from the EP1e core rulebook text extraction into Foundry pack sources."""
+"""Parse traits from the EP1e core rulebook into Foundry pack sources.
+
+Usage: pdftotext -f 144 -l 155 "Eclipse Phase - Core Rulebook.pdf" <dir>/traits_raw.txt
+       python -I tools/parse_core.py <dir> packs/_source
+(Morphs come from the Morph Recognition Guide: see tools/parse_mrg.py.)
+"""
 import hashlib, json, re, sys, os, html
 
-TXT = sys.argv[1]     # dir with morphs_raw.txt / traits_raw.txt
+TXT = sys.argv[1]     # dir with traits_raw.txt
 OUT = sys.argv[2]     # packs/_source dir
 
-APTS = ["cog", "coo", "int", "ref", "sav", "som", "wil"]
 
 JUNK = re.compile(r"^(\.\d)+|^(Synopsis|A Time of Eclipse|Action and Combat|Accelerated Future|Running the Game|character creation|EXAMPLE|\d{3})\b")
 
@@ -48,94 +52,6 @@ def write(pack, docs):
             json.dump(x, fh, indent=2, ensure_ascii=False)
             fh.write("\n")
     print(pack, len(docs))
-
-# ---------------------------------------------------------------- Morphs
-MORPHS = [
-    ("Flats", "biomorph"), ("Splicers", "biomorph"), ("Exalts", "biomorph"), ("Mentons", "biomorph"),
-    ("Olympians", "biomorph"), ("Sylphs", "biomorph"), ("Bouncers", "biomorph"), ("Furies", "biomorph"),
-    ("Futuras", "biomorph"), ("Ghosts", "biomorph"), ("Hibernoids", "biomorph"), ("Neotenics", "biomorph"),
-    ("Remade", "biomorph"), ("Rusters", "biomorph"), ("Neo-Avians", "biomorph"), ("Neo-Hominids", "biomorph"),
-    ("Octomorphs", "biomorph"), ("Pleasure Pods", "pod"), ("Worker Pods", "pod"), ("Novacrab", "pod"),
-    ("Case", "synthmorph"), ("Synth", "synthmorph"), ("Arachnoids", "synthmorph"), ("Dragonfly", "synthmorph"),
-    ("FlexBots", "synthmorph"), ("Reaper", "synthmorph"), ("Slitheroids", "synthmorph"), ("Swarmanoid", "synthmorph"),
-    ("Infomorphs", "infomorph"),
-]
-SECTION_BREAKS = {"Pods", "Synthetic Morphs", "Traits", "Biomorphs"}
-LABELS = ["Implants", "Enhancements", "Mobility System (Movement Rate)", "Mobility System", "Aptitude Maximum",
-          "Speed Modifier", "Durability", "Wound Threshold", "Advantages", "Disadvantages", "CP Cost", "Credit Cost"]
-SKILL_KEYS = {"climbing": "climbing", "swimming": "swimming", "flight": "flight"}
-IMG = {"biomorph": "icons/svg/mystery-man.svg", "pod": "icons/svg/mystery-man-black.svg",
-       "synthmorph": "icons/svg/cog.svg", "infomorph": "icons/svg/daze.svg"}
-
-def parse_morphs():
-    lines = clean_lines(os.path.join(TXT, "morphs_raw.txt"))
-    names = [m[0] for m in MORPHS]
-    blocks, cur = {}, None
-    for l in lines:
-        if l in names:
-            cur = l; blocks[cur] = []; continue
-        if l in SECTION_BREAKS or l.startswith("All synthmorphs have"):
-            cur = None
-            continue
-        if cur:
-            blocks[cur].append(l)
-    docs = []
-    label_re = "|".join(re.escape(x) for x in LABELS)
-    for i, (name, mtype) in enumerate(MORPHS):
-        text = join(blocks[name])
-        # Strip the trailing general section intros that sneak into a block
-        text = re.split(r" (?:Synthetic morphs are completely|Pods \(from|Positive traits provide|Unless otherwise noted)", text)[0]
-        parts = re.split(rf"\b({label_re}):", text)
-        desc = parts[0].strip()
-        fields = {}
-        for k in range(1, len(parts), 2):
-            fields.setdefault(parts[k].replace(" (Movement Rate)", ""), parts[k + 1].strip())
-        adv = fields.get("Advantages", "")
-        bonus = {a: 0 for a in APTS}
-        for val, apt in re.findall(r"([+-]\d+) (COG|COO|INT|REF|SAV|SOM|WIL)\b", adv):
-            bonus[apt.lower()] += int(val)
-        dis = fields.get("Disadvantages", "")
-        amax_txt = fields.get("Aptitude Maximum", "30")
-        nums = [int(n) for n in re.findall(r"\d+", amax_txt)]
-        amax = {a: nums[0] if nums else 30 for a in APTS}
-        m = re.search(r"(\d+) \(SOM\), (\d+)", amax_txt)
-        if m:
-            amax = {a: int(m.group(2)) for a in APTS}; amax["som"] = int(m.group(1))
-        m = re.search(r"(\d+) \((\d+) SOM\)", amax_txt)
-        if m:
-            amax = {a: int(m.group(1)) for a in APTS}; amax["som"] = int(m.group(2))
-        dur = re.match(r"\d+", fields.get("Durability", "0"))
-        armor = {"energy": 0, "kinetic": 0}
-        am = re.search(r"Armor \(?(\d+)/(\d+)\)?", adv)
-        if am:
-            armor = {"energy": int(am.group(1)), "kinetic": int(am.group(2))}
-        if "Bioweave Armor (Light)" in fields.get("Implants", ""):
-            armor = {"energy": 2, "kinetic": 3}
-        spd = re.match(r"[+-]?\d+", fields.get("Speed Modifier", "0"))
-        skills = [{"key": SKILL_KEYS[s.lower()], "value": int(v)}
-                  for v, s in re.findall(r"\+(\d+) (Climbing|Swimming|Flight) skill", adv)]
-        cp = re.match(r"\d+", fields.get("CP Cost", "0"))
-        system = {
-            "morphType": mtype,
-            "aptitudeMax": amax,
-            "aptitudeBonus": bonus,
-            "durability": int(dur.group()) if dur else 0,
-            "speedMod": int(spd.group()) if spd else 0,
-            "initMod": 0,
-            "armor": armor,
-            "movement": fields.get("Mobility System", ""),
-            "implants": fields.get("Implants") or fields.get("Enhancements", ""),
-            "advantages": adv,
-            "disadvantages": dis,
-            "skillBonuses": skills,
-            "cpCost": int(cp.group()) if cp else 0,
-            "creditCost": fields.get("Credit Cost", ""),
-            "active": False,
-            "description": f"<p>{html.escape(desc, quote=False)}</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>",
-        }
-        docs.append(doc(name, "morph", IMG[mtype], system, "morphs", (i + 1) * 1000))
-    write("morphs", docs)
-    return docs
 
 # ---------------------------------------------------------------- Traits
 def parse_traits():
@@ -186,5 +102,4 @@ def parse_traits():
         docs.append(doc(name, "trait", img, system, "traits", (n + 1) * 1000))
     write("traits", docs)
 
-parse_morphs()
 parse_traits()

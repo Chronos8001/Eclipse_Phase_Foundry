@@ -1,0 +1,51 @@
+{
+  "_id": "c0f3bdeee382a3bb",
+  "_key": "!items!c0f3bdeee382a3bb",
+  "name": "Deluxe (Guard variant)",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 50,
+    "speedMod": 1,
+    "initMod": 0,
+    "armor": {
+      "energy": 12,
+      "kinetic": 12
+    },
+    "movement": "Walker 4/20",
+    "implants": "Access Jacks, Basic Mesh Inserts, Chemical Sniffer, Cortical Stack, Cyberbrain, Cyberclaws, Enhanced Vision, Hand Laser, Lidar, Mnemonic Augmentation, Neurachem (Level 1), Puppet Sock, Synthetic Mask, T-Ray Emitter, Nanophages, Weapon Mount (Microwave Agonizer, Concealed)",
+    "advantages": "+10 SOM, +5 COO, +5 to one other aptitude of the player's choice, Armor 12/12 — Variant: Add +5 REF",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 75,
+    "creditCost": "Expensive (minimum 80,000+)",
+    "active": false,
+    "description": "<p>This morph is used by both top-of-the-line security personnel and wealthy and powerful people who worry about kidnapping and similar threats and wish to be able to personally respond to any problems.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 44.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 51000,
+  "ownership": {
+    "default": 0
+  }
+}

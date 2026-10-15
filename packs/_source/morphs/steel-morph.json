@@ -1,0 +1,51 @@
+{
+  "_id": "6db57ac4ceac8fec",
+  "_key": "!items!6db57ac4ceac8fec",
+  "name": "Steel Morph",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 40,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 8,
+      "kinetic": 8
+    },
+    "movement": "Walker 4/20",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Eidetic Memory, Mnemonic Augmentation",
+    "advantages": "+10 SOM, +5 COG, +5 to two other aptitudes of the player's choice, Armor 8/8",
+    "disadvantages": "Social Stigma (Clanking Masses) trait, Uncanny Valley trait",
+    "skillBonuses": [],
+    "cpCost": 50,
+    "creditCost": "Expensive (minimum 30,000+)",
+    "active": false,
+    "description": "<p>This morph was developed by technicians and designers who are members of the Lunar synthmorph rights movement, the Steel Liberators. Middle-class Lunars who came out of poverty and continue to actively support the Steel Liberators sometimes choose this morph, despite the fact that this choice often results in them experiencing significant prejudice from biochauvinists.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 96.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 110000,
+  "ownership": {
+    "default": 0
+  }
+}

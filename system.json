@@ -22,7 +22,7 @@
   "packs": [
     {
       "name": "morphs",
-      "label": "Morphs (Core)",
+      "label": "Morphs (Morph Recognition Guide)",
       "path": "packs/morphs",
       "type": "Item",
       "system": "ep1e",

@@ -1,0 +1,51 @@
+{
+  "_id": "4df8cdd88b496088",
+  "_key": "!items!4df8cdd88b496088",
+  "name": "Nomad",
+  "type": "morph",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "morphType": "biomorph",
+    "aptitudeMax": {
+      "cog": 30,
+      "coo": 30,
+      "int": 30,
+      "ref": 30,
+      "sav": 30,
+      "som": 30,
+      "wil": 30
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "durability": 45,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20",
+    "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Efficient Digestion, Enhanced Respiration, Fat Storage, Medichines, Respirocytes, Temperature Tolerance (Improved Cold), Toxin Filters",
+    "advantages": "+5 REF, +5 SOM, +5 to one other aptitude of the player's choice (includes penalties for Efficient Digestion)",
+    "disadvantages": "Uncanny Valley trait",
+    "skillBonuses": [],
+    "cpCost": 30,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>While synthmorphs are the first choice for many gatecrashers, morph designers have made great headway in creating biomorphs suitable for hazardous exoplanets. The nomad biomorph is optimized for operating in desert environments and takes many of its traits from the camel, prompting some observers to mistake the nomad for a pod morph. With an elongated face designed like a camel to trap water vapor in the nostrils as the morph exhales, nomads are clearly off-putting to many bioconservatives. Some models also have camel feet for better travels in sandy dune environments. Nomads are actually quite hefty under normal circumstances, as they are designed to be able to carry large amounts of fat tissue. Their fat tissue can be moved around their body to adapt to high or low temperatures. When nomads are in the field, however, they can become quite skinny, as they survive for months on their fat tissue alone.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 70.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 84000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "2ca5278bf2722d1b",
+  "_key": "!items!2ca5278bf2722d1b",
+  "name": "Scholar (Infomorph eidolon)",
+  "type": "morph",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "morphType": "infomorph",
+    "aptitudeMax": {
+      "cog": 40,
+      "coo": 40,
+      "int": 40,
+      "ref": 40,
+      "sav": 40,
+      "som": 40,
+      "wil": 40
+    },
+    "aptitudeBonus": {
+      "cog": 5,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 0,
+    "speedMod": 2,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "",
+    "implants": "Eidetic Memory, Mnemonic Augmentation",
+    "advantages": "+5 COG, +5 INT",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 35,
+    "creditCost": "Expensive (minimum 35,000)",
+    "active": false,
+    "description": "<p>Most voluntary infomorphs value intelligence above physical prowess and so this is one of the most popular eidolons. It is a simple and relatively powerful eidolon which has no frills and is affordable by most well-off infomorphs.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 51.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 63000,
+  "ownership": {
+    "default": 0
+  }
+}

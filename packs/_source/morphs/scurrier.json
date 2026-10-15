@@ -1,0 +1,60 @@
+{
+  "_id": "ded7aa41efecec81",
+  "_key": "!items!ded7aa41efecec81",
+  "name": "Scurrier",
+  "type": "morph",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "morphType": "pod",
+    "aptitudeMax": {
+      "cog": 25,
+      "coo": 25,
+      "int": 25,
+      "ref": 25,
+      "sav": 25,
+      "som": 25,
+      "wil": 25
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 10,
+      "int": 0,
+      "ref": 0,
+      "sav": 5,
+      "som": 0,
+      "wil": 0
+    },
+    "durability": 30,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "movement": "4/20, Gliding",
+    "implants": "Access Jacks, Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Gliding Membrane, Mnemonic Augmentation, Prehensile Tail, Puppet Sock",
+    "advantages": "+5 SAV, +10 COO, 6 Limbs, Limber (Level 1) Trait, +10 Climbing skill, +10 Freerunning skill",
+    "disadvantages": "Alien Biochemistry, Social Stigma (Alien), Social Stigma (Pod)",
+    "skillBonuses": [
+      {
+        "key": "climbing",
+        "value": 10
+      },
+      {
+        "key": "freerunning",
+        "value": 10
+      }
+    ],
+    "cpCost": 40,
+    "creditCost": "Expensive",
+    "active": false,
+    "description": "<p>Scurriers are pods developed from the non-sapient extraterrestrials known as sciurids (p. 172, Gatecrashing). In appearance, scurrier pods are similar to raccoonsized flying squirrels with a lash-like manipulator rather than a fluffy tail, though still regarded as highly cute. They make excellent climbers and are capable of gliding due to the membrane between their limbs. Scurriers are gaining popularity for their usefulness in exploring tunnels and small areas as well as high areas reached by climbing. They have also been used for maintenance and tech works tasks due to their nimbleness and manual dexterity.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 87.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 101000,
+  "ownership": {
+    "default": 0
+  }
+}

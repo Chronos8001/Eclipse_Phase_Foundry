@@ -1,0 +1,51 @@
+{
+  "_id": "79bd12e99a44ec96",
+  "_key": "!items!79bd12e99a44ec96",
+  "name": "Fenrir",
+  "type": "morph",
+  "img": "icons/svg/cog.svg",
+  "system": {
+    "morphType": "synthmorph",
+    "aptitudeMax": {
+      "cog": 35,
+      "coo": 35,
+      "int": 35,
+      "ref": 35,
+      "sav": 35,
+      "som": 35,
+      "wil": 35
+    },
+    "aptitudeBonus": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 10,
+      "wil": 0
+    },
+    "durability": 70,
+    "speedMod": 0,
+    "initMod": 0,
+    "armor": {
+      "energy": 16,
+      "kinetic": 16
+    },
+    "movement": "Walker 4/20, Thrust Vector 4/12",
+    "implants": "360-Degree Vision, Access Jacks, Anti-Glare, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Direction Sense, Ego Sharing (1), Enhanced Hearing, Enhanced Vision, Extra Limbs (4), Heavy Combat Armor,Lidar, Mnemonic Augmentation, Pneumatic Limbs, Radar, Structural Enhancement, T-Ray Emitter, Weapon Mount (External, Articulated, 8)",
+    "advantages": "4 Limbs, +5 REF, +5 COO, +10 SOM, +5 to one other aptitude of the player's choice, Armor 16/16 (32/32 with Heavy Combat Armor)",
+    "disadvantages": "",
+    "skillBonuses": [],
+    "cpCost": 0,
+    "creditCost": "Expensive (rare and restricted; minimum 100,000+)",
+    "active": false,
+    "description": "<p>Named for the monstrous wolf of Norse legend, the fenrir is one of the most imposing combat morphs ever developed. It is found only in the armed forces of the Hyoden city-state on Callisto (though black-market blueprints/copies are rumored to be available elsewhere). A massive, squat quadrupedal morph designed to be operated by up to six egos simultaneously, the fenrir is more akin to a super-heavy tank than a regular morph. It is possible that a single ego could fill all six ego slots at once through the use of alpha forks, but this has never been tested. The most common weapons mounted are linked HEAP and/or plasmaburst seeker launchers, exoatmospheric plasma beam bolters, and machine railguns loaded with AP rounds. Note: This morph is unique in that it allows more than one ego to use it at the same time. Ego Sharing may be purchased for this morph an additional four times, for a total of five additional egos.</p><p><strong>Notes:</strong> Large Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 29.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 25000,
+  "ownership": {
+    "default": 0
+  }
+}
