@@ -1,4 +1,5 @@
 import { DIFFICULTIES, SYSTEM_ID } from "../config.mjs";
+import { createMessage, defaultMessageMode, messageModeChoices } from "../helpers/chat.mjs";
 
 const TEMPLATES = {
   dialog: `systems/${SYSTEM_ID}/templates/dialog/test.hbs`,
@@ -58,10 +59,8 @@ async function promptTest(actor, { label, target, specialization, aptitude, mult
     moxie: actor.system.moxie.value,
     difficulties: DIFFICULTIES,
     multipliers: [1, 2, 3, 4, 5],
-    rollModes: Object.entries(CONFIG.Dice.rollModes).map(([value, mode]) => ({
-      value, label: (typeof mode === "string") ? mode : mode.label
-    })),
-    rollMode: getDefaultRollMode()
+    messageModes: messageModeChoices(),
+    messageMode: defaultMessageMode()
   });
   return foundry.applications.api.DialogV2.wait({
     window: { title: game.i18n.format("EP1E.Test.title", { label }), icon: "fa-solid fa-dice-d10" },
@@ -129,16 +128,7 @@ export async function rollSkillTest(actor, options = {}) {
     content: await renderTestCard(test),
     flags: { [SYSTEM_ID]: { test } }
   };
-  return ChatMessage.implementation.create(messageData, { rollMode: input.rollMode ?? getDefaultRollMode() });
-}
-
-/** The user's current roll visibility preference. */
-function getDefaultRollMode() {
-  try {
-    return game.settings.get("core", "rollMode");
-  } catch {
-    return CONST.DICE_ROLL_MODES?.PUBLIC ?? "publicroll";
-  }
+  return createMessage(messageData, input.messageMode);
 }
 
 /** Roll a test against a raw aptitude (defaulting, or APT x N tests). */
@@ -227,7 +217,7 @@ export async function postDamageRoll(actor, roll, { label, ap = 0, damageType = 
     damageTypeLabel: CONFIG.EP1E.damageTypes[damageType],
     tooltip: await roll.getTooltip()
   });
-  return ChatMessage.implementation.create({
+  return createMessage({
     speaker: ChatMessage.implementation.getSpeaker({ actor }),
     rolls: [roll],
     content,

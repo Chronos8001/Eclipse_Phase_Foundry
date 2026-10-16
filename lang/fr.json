@@ -425,6 +425,19 @@
       "micro": "Micro",
       "mini": "Mini",
       "standard": "Standard"
+    },
+    "Condition": {
+      "dead": "Mort",
+      "unconscious": "Inconscient",
+      "incapacitated": "Neutralisé",
+      "stunned": "Sonné (−30)",
+      "prone": "Au sol",
+      "bleeding": "Saignement",
+      "burning": "En feu",
+      "fullDefense": "Défense totale (+30)",
+      "subdued": "Maîtrisé",
+      "blinded": "Aveuglé",
+      "invisible": "Invisible"
     }
   }
 }

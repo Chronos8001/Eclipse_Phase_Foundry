@@ -425,6 +425,19 @@
       "micro": "Micro",
       "mini": "Mini",
       "standard": "Standard"
+    },
+    "Condition": {
+      "dead": "Dead",
+      "unconscious": "Unconscious",
+      "incapacitated": "Incapacitated",
+      "stunned": "Stunned (−30)",
+      "prone": "Prone",
+      "bleeding": "Bleeding",
+      "burning": "Burning",
+      "fullDefense": "Full defense (+30)",
+      "subdued": "Subdued",
+      "blinded": "Blinded",
+      "invisible": "Invisible"
     }
   }
 }

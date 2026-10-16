@@ -9,6 +9,7 @@ import { EPItem } from "./documents/item.mjs";
 import { EPActorSheet } from "./sheets/actor-sheet.mjs";
 import { EPItemSheet } from "./sheets/item-sheet.mjs";
 import * as tests from "./dice/tests.mjs";
+import { statusEffects } from "./helpers/effects.mjs";
 
 const ITEM_TYPES = ["skill", "morph", "trait", "weapon", "armor", "gear", "augmentation", "sleight"];
 
@@ -40,6 +41,10 @@ Hooks.once("init", () => {
 
   // Initiative: d100 (00-99) + INIT, reduced by wound/trauma modifiers (Core p. 188)
   CONFIG.Combat.initiative = { formula: "1d100 - 1 + @initiative", decimals: 0 };
+
+  // Token conditions; a blinded token loses its sight
+  CONFIG.statusEffects = statusEffects();
+  CONFIG.specialStatusEffects.BLIND = "blinded";
 
   // Items transfer their effects to the owning actor directly (V14 behaviour)
   if ( "legacyTransferral" in CONFIG.ActiveEffect ) CONFIG.ActiveEffect.legacyTransferral = false;

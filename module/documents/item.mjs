@@ -1,4 +1,5 @@
 import { rollAttack, rollSkillTest } from "../dice/tests.mjs";
+import { createMessage } from "../helpers/chat.mjs";
 
 export class EPItem extends Item {
 
@@ -45,6 +46,6 @@ export class EPItem extends Item {
     const TextEditor = foundry.applications.ux.TextEditor.implementation;
     const content = `<div class="ep1e chat-card item-card"><header><img src="${this.img}" alt=""><h3>${this.name}</h3></header>`
       + `${await TextEditor.enrichHTML(this.system.description ?? "", { relativeTo: this })}</div>`;
-    return ChatMessage.implementation.create({ speaker: ChatMessage.implementation.getSpeaker({ actor: this.actor }), content });
+    return createMessage({ speaker: ChatMessage.implementation.getSpeaker({ actor: this.actor }), content });
   }
 }
