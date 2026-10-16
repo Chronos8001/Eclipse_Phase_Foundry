@@ -38,7 +38,7 @@ Copiez ou liez le dossier dans `Data/systems/ep1e` (le dossier doit s'appeler `e
 - **Stress** et traumatismes, appliqués de la même façon.
 - **Initiative** : d100 + INIT, réduite par les blessures.
 - **Effets actifs** sur acteurs et objets (implants, traits...).
-- **Compendiums** : les 127 morphes du *Morph Recognition Guide* (variantes, modules flexbot et eidolons inclus), les traits, armes et armures du livre de base, les 65 sleights du livre de base, de *Transhuman* et de *X-Risks*, et tout l'équipement du livre de base : 107 augmentations, 129 objets (dont 19 munitions), 44 drogues et toxines, 20 logiciels.
+- **Compendiums** : les 127 morphes du *Morph Recognition Guide* (variantes, modules flexbot et eidolons inclus), les traits, armes et armures du livre de base, les 65 sleights du livre de base, de *Transhuman* et de *X-Risks*, tout l'équipement du livre de base (107 augmentations, 129 objets dont 19 munitions, 44 drogues et toxines, 20 logiciels) et 205 objets nouveaux de *Transhuman*, *Sunward*, *Rimward*, *Gatecrashing*, *Panopticon* et *Firewall* (un dossier par livre).
 - Interface en **français** et **anglais**.
 
 ## Structure
@@ -50,7 +50,7 @@ Copiez ou liez le dossier dans `Data/systems/ep1e` (le dossier doit s'appeler `e
 | `packs/_source/` | Sources JSON des compendiums |
 | `tools/` | Compilation des packs, vérifications, extraction depuis les PDF |
 
-Les sources des compendiums ont été extraites des livres avec `tools/parse_mrg.py` (morphes), `tools/parse_core.py` (traits), `tools/parse_core_gear.py` (armes, armures) `tools/parse_sleights.py` (sleights), `tools/parse_core_software.py` (logiciels) et `tools/parse_core_equipment.py` (augmentations, équipement, substances). Les tableaux illisibles par `pdftotext` (substances, munitions) sont transcrits dans `tools/data/` et vérifiés cellule par cellule contre le texte du tableau. Les scripts d'extraction nécessitent vos PDF et `pdftotext`.
+Les sources des compendiums ont été extraites des livres avec `tools/parse_mrg.py` (morphes), `tools/parse_core.py` (traits), `tools/parse_core_gear.py` (armes, armures) `tools/parse_sleights.py` (sleights), `tools/parse_core_software.py` (logiciels), `tools/parse_core_equipment.py` (augmentations, équipement, substances) et `tools/parse_supplement_gear.py` (équipement des suppléments). Les tableaux illisibles par `pdftotext` (substances, munitions) sont transcrits dans `tools/data/` et vérifiés cellule par cellule contre le texte du tableau. Les scripts d'extraction nécessitent vos PDF et `pdftotext`.
 
 ## Licence
 
