@@ -1,0 +1,20 @@
+{
+  "_id": "f28b2cc8019d4b5d",
+  "_key": "!items!f28b2cc8019d4b5d",
+  "name": "Parallel Processor",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "parallelProcessor",
+    "cost": "High",
+    "description": "<p>A modified derivative of the neo-syngergist hypermesh link, this augmentation allows users to link their minds together together in a manner similar to parallel processing computers, allowing them to borrow processing power from other linked egos to solve intellectual problems. In addition to automatically providing the appropriate teamwork bonus for the problem (to a maximum of +30) without the others needing to take any actions, as long as three or more users are linked together, each user also gains a +5 COG bonus for the duration of the linkage. These bonuses only apply when the users are linked. Users must possess the mental speed augmentation to use this implant. While the implant is active, the character’s Trauma Threshold is reduced by 1. To avoid possible personality bleed-over, users are advised to use this augmentation for no more than six hours per day.</p><p><em>Source: Eclipse Phase Rimward, p. 189.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

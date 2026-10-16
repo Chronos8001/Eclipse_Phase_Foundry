@@ -1,0 +1,20 @@
+{
+  "_id": "76e3c9fe24cf5a0b",
+  "_key": "!items!76e3c9fe24cf5a0b",
+  "name": "Efficient Digestion",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "efficientDigestion",
+    "cost": "High",
+    "description": "<p>The character uses food and water more efficiently, to approximately 20% of normal caloric expenditure. The character functions normally by eating and drinking only once every five days. They can survive forty days without food and twenty-five days without water, though the effects of starvation become noticeable after ten days without food or water. These modifications come at a price, though, as physical strength and coordination are reduced in order to improve caloric usage efficiency: the character takes a −5 penalty to SOM and COO. This augmentation is not compatible with the personal power plant implant.</p><p><em>Source: Eclipse Phase Transhuman, p. 197.</em></p>",
+    "augType": "bioware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  }
+}

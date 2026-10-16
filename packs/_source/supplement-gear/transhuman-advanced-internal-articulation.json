@@ -1,0 +1,20 @@
+{
+  "_id": "e18c924ebcc6779f",
+  "_key": "!items!e18c924ebcc6779f",
+  "name": "Advanced Internal Articulation",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "advancedInternalArticulation",
+    "cost": "High",
+    "description": "<p>The design and arrangement of the flexbot’s rigid superstructure is bleeding edge. The timeframe for shape changing is reduced by half. It also suffers no SOM penalties for hyper-extending its limbs. This modification must be added when the morph is first acquired.</p><p><em>Source: Eclipse Phase Transhuman, p. 210.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 25000,
+  "ownership": {
+    "default": 0
+  }
+}

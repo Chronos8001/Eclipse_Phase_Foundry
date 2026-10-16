@@ -1,0 +1,34 @@
+{
+  "_id": "7848b23fe32d28ed",
+  "_key": "!items!7848b23fe32d28ed",
+  "name": "Infection Scanner",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "infectionScanner",
+    "cost": "Free",
+    "description": "<p>This software, which is developed, maintained, and updated by the argonauts, scans software of all types—including files, system processes, ego backups, and infomorphs—for digital exsurgent virus infection. Scanning takes anywhere from 1 Turn (simple files) to 1 hour (infomorphs and backups), depending on the complexity of the software. See Exsurgent Virus Detection (p. 177), for details on handling scans. Note that encrypted software cannot be analyzed. While the argonaut software is free and open source, various proprietary and forked spin-offs exist with differing costs, detection rates, and specializations.</p><p><em>Source: Eclipse Phase Firewall, p. 178.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

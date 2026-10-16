@@ -1,0 +1,20 @@
+{
+  "_id": "82b90569d9c91f28",
+  "_key": "!items!82b90569d9c91f28",
+  "name": "Long-Term Life Support",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "longTermLifeSupport",
+    "cost": "Expensive",
+    "description": "<p>The biomorph is adapted for harsh environmental conditions and can survive for long periods of time as a closed system thanks to symbiotic bacteria and nanomachines. This augmentation allows any biomorph or pod to recycle air, food, and water for up to one year. This augmentation’s implanted miniature maker allows the morph to process ice and various simple organic chemicals into air, water, and food. The morph need not eat or breathe but must ingest about five kilograms of ice and carbon grit per day. It must also balance out or replenish chemical reserves once a month, either by exchanging with other similarly augmented morphs or applying a Low-cost chemical reserve pack.</p><p><em>Source: Eclipse Phase Rimward, p. 189.</em></p>",
+    "augType": "nanoware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

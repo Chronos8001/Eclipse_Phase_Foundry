@@ -1,0 +1,29 @@
+{
+  "_id": "1154c11f5935e98b",
+  "_key": "!items!1154c11f5935e98b",
+  "name": "Mercury Suit",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "mercurySuit",
+    "cost": "Expensive",
+    "description": "<p>These modified hard suits feature extreme heat and radiation shielding, enabling an occupant to survive on Mercury’s surface under both day and night conditions. They have all of the standard features of hard suits (p. 334, EP) except that they can withstand temperatures of –200 to 500 C. The extra protection hinders the wearer’s movement; reduce Movement rate by half and apply a –10 modifier to all COO-linked tests.</p><p><em>Source: Eclipse Phase Sunward, p. 168.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

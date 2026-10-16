@@ -1,0 +1,29 @@
+{
+  "_id": "1628a2a01e1432bf",
+  "_key": "!items!1628a2a01e1432bf",
+  "name": "Flying Vest",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "flyingVest",
+    "cost": "Moderate",
+    "description": "<p>This garment consists of a thick vest containing a large battery, a miniature electric turbine on the back, and air intakes and exhausts at the shoulders and waist. Thrust from this turbine allows the wearer to fly, but only in low gravity environments in an atmosphere. In a gravity no more than 0.14 g it allows the wearer to fly at speeds of up to 40 kph, and in gravity less than 0.1 g, the wearer can fly at speeds of up to 100 kph. This vest is soft and highly flexible, but is also several centimeters thick and the turbine makes a small but visible hump on the wearer’s back. This vest has a mass of 9 kilograms and can operate for 4 hours before it must be recharged.</p><p><em>Source: Eclipse Phase Rimward, p. 191.</em></p>",
+    "category": "everyday",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

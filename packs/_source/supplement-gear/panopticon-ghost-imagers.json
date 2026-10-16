@@ -1,0 +1,29 @@
+{
+  "_id": "b0d0b8cb16cde59a",
+  "_key": "!items!b0d0b8cb16cde59a",
+  "name": "Ghost Imagers",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "ghostImagers",
+    "cost": "High",
+    "description": "<p>Ghost imagers are special camera systems that rely on a paradoxical effect to construct images of objects that conventional cameras cannot see, such as targets obstructed by smoke, clouds, or other visual effects. Ghost imagers rely on two cameras. The first is pointed at a light source and the second at a target object or location illuminated by that source (but obstructed from the standard camera view). By exploiting a (quantum) correlation effect in the property of light, the ghost imaging system can build an image of the target based on photons that are scattered off of it, even though the view of the target is obstructed. Ghost imaging could thus be used to see targets on a battlefield obscured by heavy fog or smoke or on a planet surface below heavy cloud cover, simply by pointing a camera that way and another at the sun, moon, or other light source. In game terms, ghost imagers ignore all visual modifiers. Ghost imagers can see in infrared as well as standard visual frequencies. Though they are passive sensors that use natural light, they can also be used in conjunction with active light sources.</p><p><em>Source: Eclipse Phase Panopticon, p. 152.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 36000,
+  "ownership": {
+    "default": 0
+  }
+}

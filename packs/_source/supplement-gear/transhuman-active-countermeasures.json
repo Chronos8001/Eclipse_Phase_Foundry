@@ -1,0 +1,34 @@
+{
+  "_id": "9d9e4f70d1c0ab33",
+  "_key": "!items!9d9e4f70d1c0ab33",
+  "name": "Active Countermeasures",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "activeCountermeasures",
+    "cost": "High",
+    "description": "<p>This code helps an infomorph resist brainhacking (p. 148) by installing additional firewalls and layers of security applications within the infomorph’s digital mind. The infomorph (or anything else serve as active security for its mind-state) receives a +10 modifier on attempts to zero in on spotted intruders (p. 257, EP). Defensive Mode: The countermeasures may also be triggered into a more secure defensive mode with a Quick Action. While defensive mode is activated, the infomorph and its active security receive a +10 modifier on attempts to lockout intruders (p. 258, EP) or resist entrapment, puppeteering, or scorching (p. 261, EP). The defenses provided by this mode are sufficiently intensive, however, that they cause minor delays to any mesh actions undertaken by the user. As a result, the infomorph suffers a –1 reduction to Initiative.</p><p><em>Source: Eclipse Phase Transhuman, p. 140.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

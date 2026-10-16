@@ -1,0 +1,20 @@
+{
+  "_id": "4dd769ba9c4521ba",
+  "_key": "!items!4dd769ba9c4521ba",
+  "name": "Monitor Module",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "monitorModule",
+    "cost": "Moderate",
+    "description": "<p>A variant ghostrider module (p. 307, EP), the monitor module houses an observer ego (usually a monitor AI, see below) that keeps tabs on the character’s movements, activities, and mesh traffic. Some monitor modules are installed discreetly, without the bearer being aware of the spy in their head; others are more overt about their presence, purpose, and activity. Monitors can access the mesh without the character’s knowledge. If the morph is equipped with a puppet sock, the monitor ego can seize control of the morph. This implant is designed to be difficult to detect and identify; impose a −10 penalty on appropriate skill tests. Attempts to hack into the Monitor Module suffer a −20 modifier and can be actively countered by the monitor ego.</p><p><em>Source: Eclipse Phase Transhuman, p. 197.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

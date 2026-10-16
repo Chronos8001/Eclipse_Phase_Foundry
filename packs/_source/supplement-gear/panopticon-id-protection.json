@@ -1,0 +1,29 @@
+{
+  "_id": "863647ef6168c483",
+  "_key": "!items!863647ef6168c483",
+  "name": "ID Protection",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "idProtection",
+    "cost": "Low for one year of monitoring; Moderate for one year of active protection services",
+    "description": "<p>Various hypercorps offer ID monitoring services to protect against ID theft and fraud, alerting the user of suspicious events and activity. At a greater expense, the corp offers active protection, alerting local authorities, tracking down potential abusers, and blocking future unauthorized transactions.</p><p><em>Source: Eclipse Phase Panopticon, p. 154.</em></p>",
+    "category": "service",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 51000,
+  "ownership": {
+    "default": 0
+  }
+}

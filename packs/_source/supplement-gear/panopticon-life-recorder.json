@@ -1,0 +1,20 @@
+{
+  "_id": "a6b47229168c5d76",
+  "_key": "!items!a6b47229168c5d76",
+  "name": "Life Recorder",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "lifeRecorder",
+    "cost": "Low",
+    "description": "<p>Not everyone wants to broadcast their lifelog, whether for public viewing or for private storage elsewhere on the mesh. Some people want to retain a lifelog, but prefer to avoid possible interception of the contents online. Certain security, spy, political, and diplomatic professions may mandate this. Others may commonly find themselves in situations where they are cut off from regular mesh access (such as gatecrashers or remote asteroid herders). Most people also don’t want to be bothered with carrying a storage device on their person at all time. In these cases, a life recorder serves the purpose. The life recorder is a micro-sized memory diamond storage device, typically implanted in the head (though occasionally elsewhere in the body). This implant records all sensory input as experienced by the brain to which it is linked. Life recorders are designed as one-way information receivers, simply storing data until they are removed; they are not meant to be accessed, much like cortical stacks.</p><p><em>Source: Eclipse Phase Panopticon, p. 148.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

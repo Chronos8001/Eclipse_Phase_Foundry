@@ -1,0 +1,20 @@
+{
+  "_id": "642e1c4c393d694a",
+  "_key": "!items!642e1c4c393d694a",
+  "name": "Body Mass Converter",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "bodyMassConverter",
+    "cost": "High",
+    "description": "<p>The flexbot is able to convert small bits of its own body mass into ammunition or fabricator feedstock if needed. The bot may convert 1 DUR into 10 rounds of kinetic or spray weapon ammunition or 1 kilogram of inorganic feedstock.</p><p><em>Source: Eclipse Phase Transhuman, p. 210.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

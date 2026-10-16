@@ -1,0 +1,34 @@
+{
+  "_id": "fecd7802d6a795a8",
+  "_key": "!items!fecd7802d6a795a8",
+  "name": "Digital Veil",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "digitalVeil",
+    "cost": "Expensive",
+    "description": "<p>This code masks the presence of any installed plug-ins and upgrades (including itself). The character must choose which are hidden (any installed after the veil is installed are not hidden unless the veil is re-installed). Anyone attempting a standard scan on the infomorph for plug-ins and upgrades (p. 148) will fail to detect the concealed software. At the gamemaster’s discretion, an Excellent Success on the scan may pick up an anomaly to warrant deeper analysis. A more thorough and lengthy scan (an Infosec or Programming Task Action with a –30 modifier and a base time of 60 minutes) will reveal the presence of 1 plug-in or upgrade, plus 1 per 10 points of MoS. This plug-in also applies a –20 modifier to psych scans (p. 148) performed on the infomorph. It is illegal in many habitats and polities.</p><p><em>Source: Eclipse Phase Transhuman, p. 139.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

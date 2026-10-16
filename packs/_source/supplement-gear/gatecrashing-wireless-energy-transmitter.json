@@ -1,0 +1,29 @@
+{
+  "_id": "ffed742f56da0929",
+  "_key": "!items!ffed742f56da0929",
+  "name": "Wireless Energy Transmitter",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "wirelessEnergyTransmitter",
+    "cost": "Trivial",
+    "description": "<p>When attached to a power source like a nuclear battery, nuclear recharger, or solar recharger, the small-sized wireless energy transmitter will transfer power to devices within 20 meters via near field resonant inductive coupling. Though this technology is widespread in transhuman habitats, removing the need for power cords when a nearby power source is readily available, it is a useful device for gatecrashers to keep their gear charged without needing to worry about plugging in.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 155.</em></p>",
+    "category": "everyday",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

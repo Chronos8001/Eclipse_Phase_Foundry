@@ -1,0 +1,29 @@
+{
+  "_id": "b282666a6d0c8497",
+  "_key": "!items!b282666a6d0c8497",
+  "name": "Smart Horse",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartHorse",
+    "cost": "Moderate",
+    "description": "<p>Almost extinct after the Fall, horses were replenished from genetic stock. They are favored for riding and hauling gear and respond well to verbal commands.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 157.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  }
+}

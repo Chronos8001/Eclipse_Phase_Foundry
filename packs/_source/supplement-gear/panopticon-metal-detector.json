@@ -1,0 +1,29 @@
+{
+  "_id": "eb5932ad024badf0",
+  "_key": "!items!eb5932ad024badf0",
+  "name": "Metal Detector",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "metalDetector",
+    "cost": "Low",
+    "description": "<p>Metal detectors use very-low frequency induction to detect metals that are not apparent. They can be used at security checkpoints to locate weapons, cyberware, or contraband. Available as hand-held wands, they are also often used as portal access systems, scanning anyone that passes through. Modern detectors are good enough to identify the type of metal. Gatecrashers and scavengers also use them to locate items buried in the ground or under debris. These devices have a very short range, just 2 meters, though larger masses of metal may be detectable from further away.</p><p><em>Source: Eclipse Phase Panopticon, p. 153.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 40000,
+  "ownership": {
+    "default": 0
+  }
+}

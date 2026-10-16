@@ -1,0 +1,29 @@
+{
+  "_id": "c3916565557aadc3",
+  "_key": "!items!c3916565557aadc3",
+  "name": "Stealthed Landing Pod",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "stealthedLandingPod",
+    "cost": "Expensive; Expensive x 2 with emergency neutrino transceiver",
+    "description": "<p>Sometimes, Firewall teams cannot egocast to a location and must instead physically travel there. If this location is sufficiently dangerous or simply does not welcome visitors, docking a spacecraft may not be possible. In these cases, Firewall teams often use this vehicle. It is designed to be launched from a spacecraft that is passing within 100,000 kilometers of the target. That spacecraft fakes a micrometeor strike or other problem that causes a small explosion and some minor debris. On rare occasions, to insure complete surprise, the spacecraft may actually self-destruct. During this explosion, the landing pod fires a brief burst of its metallic hydrogen rocket to direct it towards its destination, then powers down. The landing pod is heavily stealthed against visual and radar detection, so that it is almost impossible to detect with any sensors if it is not broadcasting or firing its engines (–60 to tests to detect). The landing pod travels toward its destination for between 10 and 100 hours, then approximately 1 minute before it arrives, it fires its engines in a second brief, powerful burst that slows it down to allow it to safely land on its destination. When it fires its engines, sensors on its destination are likely to detect it (+30), but residents of this habitat will hopefully not have time to respond before the operatives can enter the habitat. Landings are often coordinated with mesh intrusions that seek to distract the target’s defenses or temporarily disable the local sensors. The landing pod can carry up to six human-sized morphs and has long-term life support facilities to allow it to transport biomorphs. The landing pod has sufficient fuel to allow it to also take off from a habitat and rendezvous with a nearby spacecraft. It also contains a compact radio, microwave, and laser farcaster that allow operatives to remain in secure contact with others and to egocast off the habitat, as long as the users can remain in radio contact with the landing pod. The most expensive landing pods contain a single-use neutrino farcaster capable of broadcasting backups of up to six egos. Using this farcaster destroys the landing pod. Landing pods are designed to dock with habitats, not planets or large moons, and cannot safely land on or take off from any body with a surface gravity of more than 0.04 g. This landing pod is 3.5 meters tall, 3 meters in diameter, and has a mass of 3 tons. In addition to room for six morphs, it features a cargo hold with room for up to 8 medium-sized pieces of gear and numerous smaller items.</p><p><em>Source: Eclipse Phase Firewall, p. 174.</em></p>",
+    "category": "espionage",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

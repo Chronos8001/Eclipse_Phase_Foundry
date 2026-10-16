@@ -1,0 +1,20 @@
+{
+  "_id": "5a1253793564b872",
+  "_key": "!items!5a1253793564b872",
+  "name": "Internal Rocket",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "internalRocket",
+    "cost": "Moderate",
+    "description": "<p>This miniature metallic hydrogen rocket is specifically designed for low thrust. It provides an acceleration of up to 0.25 g, allowing the morph to take off and land on all moons and other small bodies in the solar system. This engine can operate for a total of one and a half hours before it requires refueling. Both the sundiver (p. 164, Sunward) and courier (p. 185, Rimward) are considered to have this enhancement.</p><p><em>Source: Eclipse Phase Transhuman, p. 198.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  }
+}

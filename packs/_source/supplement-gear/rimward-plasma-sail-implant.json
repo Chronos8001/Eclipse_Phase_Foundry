@@ -1,0 +1,20 @@
+{
+  "_id": "b8830d4879ad2d69",
+  "_key": "!items!b8830d4879ad2d69",
+  "name": "Plasma Sail Implant",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "plasmaSailImplant",
+    "cost": "Expensive",
+    "description": "<p>This augmentation installs a miniature plasma sail in the morph. This implant includes a potent batterypowered superconducting magnet and a tank holding sufficient compressed hydrogen to allow the plasma sail to operate for three months. This implant allows the user to fly through space with an acceleration of up to 0.01 g, though beyond the orbit of Saturn the solar wind becomes too faint to provide any acceleration. In open space, this sail can achieve a maximum velocity of 80 kilometers per second, but can only be used to accelerate away from the sun (tacking can be used to sail toward the sun, but at a maximum of 10 kps). It can be used to maneuver in any direction, however, as long as the user is within a planet’s strong magnetic field. Within 70,000 km of Earth, 3,000,000 km of Jupiter, 1,500,000 km of Saturn, 450,000 km of Uranus, or 500,000 km from Neptune, the plasma sail allows the user to maneuver freely and to land on and take off from any moon with a surface gravity of less than 0.05 g. Using it requires Flight skill. This is a relatively large implant and produces a characteristic humpback shape on almost all morphs.</p><p><em>Source: Eclipse Phase Rimward, p. 189.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

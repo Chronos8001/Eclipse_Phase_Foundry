@@ -1,0 +1,29 @@
+{
+  "_id": "721f1aefeded40d1",
+  "_key": "!items!721f1aefeded40d1",
+  "name": "Dust Repellent",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "dustRepellent",
+    "cost": "Trivial",
+    "description": "<p>This smart material spray prevents electrostatic dust from adhering to surfaces. It is commonly deployed on visors, sensors, windows, joints, moving parts, and other areas that could be covered or jammed up by dust from asteroids, moons, Mars, and so on. One can is enough to cover a single car-sized vehicle or eight human-sized morphs.</p><p><em>Source: Eclipse Phase Rimward, p. 191.</em></p>",
+    "category": "everyday",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  }
+}

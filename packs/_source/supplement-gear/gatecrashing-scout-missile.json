@@ -1,0 +1,29 @@
+{
+  "_id": "e1877919c29030d6",
+  "_key": "!items!e1877919c29030d6",
+  "name": "Scout Missile",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "scoutMissile",
+    "cost": "Moderate",
+    "description": "<p>Scout missiles are sensor-equipped standard missiles that come pre-packaged in a disposable launcher tube. Scout missiles are designed to map out the region in a 5-kilometer radius from the launch point in just 20 minutes. They carry visual and infrared cameras, radar, and lidar. Their primary function is to map terrain, locate structures, and identify other features of interest. Scouts are valued by gatecrashers for their ability to map a small area quickly. Scout missiles are incredibly easy to use; simply point up and launch, and the missile does the rest. The missile transmits a feed of its sensor data, position, and telemetry in real-time, and will transmit a full recording of its findings once its run is completed. Scout missiles may be programmed to search in a specific direction rather than a radius around the launch point, increasing their effective range in the chosen direction out to 10 kilometers. The missiles may also be instructed to search for specific features or signs (such as tracks or a missing explorer); treat the missiles as if they have a Perception of 40. Scout missiles usually travel at a height of 100 meters and can provide high-resolution images of ground-based objects (down to the centimeter scale).</p><p><em>Source: Eclipse Phase Gatecrashing, p. 156.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

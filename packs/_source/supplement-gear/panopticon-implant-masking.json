@@ -1,0 +1,20 @@
+{
+  "_id": "426f2b44d7ab95bf",
+  "_key": "!items!426f2b44d7ab95bf",
+  "name": "Implant Masking",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "implantMasking",
+    "cost": "Increase the masked implant’s cost by one category",
+    "description": "<p>Implant masking is not a separate implant, but a modification to an existing one. Masked cybernetic implants are composed of electromagnetic- and acoustic-absorbent smart materials that are less likely to be detected by surveillance and security systems using radar, x-rays, or ultrasound. Apply a −30 modifier to any attempts to detect the implant.</p><p><em>Source: Eclipse Phase Panopticon, p. 148.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

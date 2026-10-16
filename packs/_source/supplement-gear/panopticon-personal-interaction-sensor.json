@@ -1,0 +1,29 @@
+{
+  "_id": "88c5bb913f229854",
+  "_key": "!items!88c5bb913f229854",
+  "name": "Personal Interaction Sensor",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "personalInteractionSensor",
+    "cost": "Moderate",
+    "description": "<p>These mini-sized combo sensors are worn on the body and use an infrared heat sensor, biolidar pulse rate measurement, pheromone and perspiration identification, and a camera and microphone to scan those with whom the wearer interacts. The sensor’s AI measures the readings and also applies voice analysis (stress factor and response spaces) and kinesics assessments to judge the honesty and forthrightness of a conversational partner. While originally designed for business and political negotiations, PI sensors are growing in popularity as a tool for regular personal interactions. The AI is equipped with Kinesics and Perception skills of 40. They apply a +20 modifier to Kinesics Tests.</p><p><em>Source: Eclipse Phase Panopticon, p. 153.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 42000,
+  "ownership": {
+    "default": 0
+  }
+}

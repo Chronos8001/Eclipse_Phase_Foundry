@@ -1,0 +1,29 @@
+{
+  "_id": "e30894d01a950b81",
+  "_key": "!items!e30894d01a950b81",
+  "name": "Quantum Dot Camera-Displays",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "quantumDotCameraDisplays",
+    "cost": "High",
+    "description": "<p>These fullerene devices acts as both high-resolution display and camera. They can be painted on almost any surface. Because they do not have lenses, they cannot be detected by lens spotter systems. When not displaying images, they are also difficult to spot visually; apply a −20 modifier. They are hyperspectral, sensing from near-infrared to ultraviolet wavelengths.</p><p><em>Source: Eclipse Phase Panopticon, p. 153.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 43000,
+  "ownership": {
+    "default": 0
+  }
+}

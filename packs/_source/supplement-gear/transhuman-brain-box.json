@@ -1,0 +1,20 @@
+{
+  "_id": "71e24b6095627527",
+  "_key": "!items!71e24b6095627527",
+  "name": "Brain Box",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "brainBox",
+    "cost": "Moderate",
+    "description": "<p>Just as some people in the outer system prefer biomorphs with cyberbrains because of the speed and ease of both forking and resleeving, others prefer the durability and utility of synthmorphs, but do not wish to give up having an organic brain. Some have aesthetic objections, while others worry about a cyberbrain’s vulnerability to hacking. Though they are unlikely to discuss this fact in public, asyncs need biological brains to remain sane. Any pod and any synthmorph that does not use either modular design or swarm composition can house a brain box. Choosing this modification removes the following enhancements from the morph: cyberbrain, mnemonic augmentation, and puppet sock. The CP and credit cost of the morph remains unchanged. Users can add mnemonic augmentation and puppet sock augmentations back in, but must purchase them normally. A brain box consists of a living human brain and a sturdy, well-padded, miniature life-support system for this brain. Brain boxes require the addition of a small amount of concentrated nutrients once every month. To avoid the necessity of these nutrients, users can also install a smaller, cheaper, and more limited version of the long-term life support augmentation (p. 189, Rimward) that is designed specifically for use with a brain box. This augmentation has a cost of High and recycles the necessary nutrients as long as the morph has sufficient electricity and can gain access to small amounts of water and carbon twice a year. Brain boxes are normally hidden from standard visual detection, but a few eccentrics show them off with a transparent aluminum casing, allowing observers to see that their morph contains a biological brain. The brains with brain boxes must be specifically customized to the morph (a process requiring 3 days and a healing vat). The morph’s aptitude modifiers do not change.</p><p><em>Source: Eclipse Phase Transhuman, p. 198.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

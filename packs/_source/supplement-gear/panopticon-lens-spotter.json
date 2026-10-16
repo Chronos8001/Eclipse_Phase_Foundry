@@ -1,0 +1,29 @@
+{
+  "_id": "974423015b81c6b7",
+  "_key": "!items!974423015b81c6b7",
+  "name": "Lens Spotter",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "lensSpotter",
+    "cost": "Low",
+    "description": "<p>The lens spotter is a less-intrusive version of the dazzler (p. 316, EP). It simply maps out all of the camera lenses in an area, noting their position and likely area of coverage, without blasting them with dazzling lasers. This system is used to unobtrusively detect the surveillance coverage in a given area so that a route map may be generated to avoid camera fields of view. It is also used by military and security forces to detect snipers or enemy spotters before they attack.</p><p><em>Source: Eclipse Phase Panopticon, p. 151.</em></p>",
+    "category": "espionage",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

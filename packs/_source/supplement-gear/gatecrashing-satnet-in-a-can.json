@@ -1,0 +1,29 @@
+{
+  "_id": "f37433751b9f647c",
+  "_key": "!items!f37433751b9f647c",
+  "name": "Satnet-In-A-Can",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "satnetInACan",
+    "cost": "High",
+    "description": "<p>One of the first steps to establishing an outpost on any exoplanet is to install a a basic satellite network. A satnet-in-a-can is a large metallic hydrogen-fueled missile that carries 32 small satellites. Each of the 32 satellites is a 1-kilogram sphere only 10 centimeters in diameter. The missile itself is 40 centimeters in diameter, 2 meters long, and 300 kilograms in weight. This rocket can be used on any world with a gravity of 1.8 g or less. It includes a smart material launch tube that extends struts and supports to automatically aim the missile in the correct trajectory. To use it, all the owner needs to do is set it up in a roughly vertical position, turn it on, and stand back. The missile will then automatically aim and launch. Once it reaches the proper altitude, it will deploy the satellites into intermediate circular orbit. Between 1 and 2 days later, the satellites will be in position and the satnet will come fully online. The satellites provide GPS data to anyone on the planet’s surface as well as continuous low-resolution observation of the entire surface using the ultraviolet, visual, and infrared spectrums. These satellites provide a top resolution of only 100 meters on 1 g planets; around lower-gravity planets the satellites are closer to the ground and get better resolution, around higher-gravity exoplanets their altitude is higher and so they can only see larger details. This satnet can provide a rough map of the planet in just under a day. It can also provide continuous real-time imagery of the entire surface, allowing anyone linked to the network to instantly learn of volcanic eruptions, large earthquakes, spaceship launches, meteor strikes, the detonation of any atomic weapons or similar large bombs, or any other largescale events. The network’s software can both analyze weather patterns and do limited weather prediction for any location on the planet’s surface (Academics: Meteorology skill of 60). These satellites also provide a network of communications relays so that anyone with a radio booster can communicate with anyone else with a radio booster, anywhere on the planet. This effectively facilitates a global mesh for anyone with a radio booster. The satnet transmissions are also boosted, so anyone with basic mesh inserts or an ecto can receive its broadcasts. Though this is a large and pricey piece of gear, the advantages it provides are great enough to justify the cost and difficulty of transport.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 154.</em></p>",
+    "category": "comms",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

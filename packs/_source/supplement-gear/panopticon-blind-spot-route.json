@@ -1,0 +1,29 @@
+{
+  "_id": "1218bd5d8152bdd6",
+  "_key": "!items!1218bd5d8152bdd6",
+  "name": "Blind Spot/Route",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "blindSpotRoute",
+    "cost": "High or more",
+    "description": "<p>Certain groups intentionally create or maintain “blind spots” in public areas that are free of surveillance coverage. These are then rented out to those who need to conduct a discreet transaction, switch disguises, or otherwise do something without being seen or leaving a record. These blind spots rarely last long; new ones must be created. For a greater expense, a painstakingly mapped route can be purchased that carefully winds its way without crossing through the coverage area of any sensors. These routes are rare and hard to maintain; it is unlikely that you can shop for a route in a specific area, but they are good for setting up a meeting in a location with an unwatched escape route. Alternatively, at even greater expense, it is sometimes possible to pay criminal groups to create a temporary route for you along the path of your choosing.</p><p><em>Source: Eclipse Phase Panopticon, p. 154.</em></p>",
+    "category": "service",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 49000,
+  "ownership": {
+    "default": 0
+  }
+}

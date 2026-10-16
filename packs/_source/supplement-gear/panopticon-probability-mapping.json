@@ -1,0 +1,34 @@
+{
+  "_id": "da9c508c98c91bb6",
+  "_key": "!items!da9c508c98c91bb6",
+  "name": "Probability Mapping",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "probabilityMapping",
+    "cost": "High",
+    "description": "<p>Though most effective with massive data sets and quantum computers, a standard user and their muse can still benefit from using probability mapping software to predict things like traffic, peak travel times, crime rates, and other periodic and habitual events. When supplied with data on a particular person, this software can make a guess as to their likely current whereabouts, activities, and possibly even moods and other factors.</p><p><em>Source: Eclipse Phase Panopticon, p. 156.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 65000,
+  "ownership": {
+    "default": 0
+  }
+}

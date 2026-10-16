@@ -1,0 +1,20 @@
+{
+  "_id": "053ab9226b8ea866",
+  "_key": "!items!053ab9226b8ea866",
+  "name": "Smart Swarm",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "smartSwarm",
+    "cost": "High",
+    "description": "<p>The modular drones in this swarm are capable of forming shapes. A standard swarm can form a 1-meter tall body or base with up to 4 half-meter limbs. These limbs can engage in very limited physical activity and tool use. They are considered to have an aptitude maximum of 5 for COO, REF, and SOM. For strength/size-related options (p. 96), their Durability is halved. Any skill use involving leverage, strength, or fine dexterity suffers a −30 modifier or may not be possible (gamemaster discretion). Shaped swarms can manipulate gear that is small in size (see Gear Sizes, p. 297, EP) or smaller without penalty. They suffer a −30 modifier for manipulating medium-sized gear and cannot use larger gear. Shapes can be targeted in combat, though they usually gain the Small Size advantage (p. 95). A shaped swarm takes normal physical damage rather than following the combat rules for nanoswarms.</p><p><em>Source: Eclipse Phase Transhuman, p. 198.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 21000,
+  "ownership": {
+    "default": 0
+  }
+}

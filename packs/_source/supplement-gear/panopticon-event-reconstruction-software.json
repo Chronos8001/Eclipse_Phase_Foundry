@@ -1,0 +1,34 @@
+{
+  "_id": "d3aa67f95d2fa798",
+  "_key": "!items!d3aa67f95d2fa798",
+  "name": "Event Reconstruction Software",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "eventReconstructionSoftware",
+    "cost": "High",
+    "description": "<p>The latest forensic method used by crime scene investigators, event reconstruction software takes sensor data and applies predictive algorithms to build a reconstruction of a past event. This combined data can be used to run a simulspace scenario of the event and its possible permutations. Apply a +20 modifier to Investigation Tests.</p><p><em>Source: Eclipse Phase Panopticon, p. 156.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 62000,
+  "ownership": {
+    "default": 0
+  }
+}

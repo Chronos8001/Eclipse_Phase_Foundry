@@ -1,0 +1,29 @@
+{
+  "_id": "1cf55a19010c1fa0",
+  "_key": "!items!1cf55a19010c1fa0",
+  "name": "Smart Camel",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartCamel",
+    "cost": "Moderate",
+    "description": "<p>Used as a riding and pack animal, smart camels are both less smelly and less obstinate than their unmodified forebears.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 157.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

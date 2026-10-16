@@ -1,0 +1,27 @@
+{
+  "_id": "ab3e5081913c489f",
+  "_key": "!items!ab3e5081913c489f",
+  "name": "Staste",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "staste",
+    "cost": "Low",
+    "description": "<p>This drug increases an octomorph brain’s ability to process sensory input from the chemoreceptors in their suckers. This gives an octomorph an enhanced ability to “taste” things akin to a bloodhound’s sense of smell, only tactile-based. Apply a +30 modifier to Perception, Investigation, or similar skill tests based on smell.</p><p><em>Source: Eclipse Phase Panopticon, p. 152.</em></p>",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "Inj, O",
+    "onset": "20 minutes",
+    "duration": "3 hours",
+    "addictionMod": "–10",
+    "addictionType": "physical",
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 29000,
+  "ownership": {
+    "default": 0
+  }
+}

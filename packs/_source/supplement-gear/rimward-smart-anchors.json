@@ -1,0 +1,29 @@
+{
+  "_id": "374003c7dd11a82c",
+  "_key": "!items!374003c7dd11a82c",
+  "name": "Smart Anchors",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartAnchors",
+    "cost": "Low",
+    "description": "<p>This harness is worn by a user but operated by a built-in AI. When activated, the harness deploys up to six anchoring cables with a reach of ten meters. These cables are designed to either spike into dirt, rock, or ice or use grip pads to fasten to an appropriate surface, with the intention of keeping them anchored should they accidentally drift off into space or kick off with enough force to reach a terminal velocity. The cables shorten or lengthen as needed to give the wearer slack and the freedom to move around. If the user moves a distance farther than one cable can reach, it will retract that cable and immediately deploy another. The device always keeps at least three cables anchored at a time.</p><p><em>Source: Eclipse Phase Rimward, p. 193.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

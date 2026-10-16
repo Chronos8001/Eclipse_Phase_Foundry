@@ -1,0 +1,20 @@
+{
+  "_id": "e21db6b605dcbcbe",
+  "_key": "!items!e21db6b605dcbcbe",
+  "name": "Injectors",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "injectors",
+    "cost": "One Cost Category Higher Than Drug/Toxin Cost",
+    "description": "<p>These microbots carry tiny needles and a small chemical or toxin payload. The swarmanoid can attack targets, cumulatively causing only 1 DV but injecting the target with a single dose (see Swarmanoid Attacks, next column). A standard-size swarm can carry 5 doses at a time.</p><p><em>Source: Eclipse Phase Transhuman, p. 213.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 33000,
+  "ownership": {
+    "default": 0
+  }
+}

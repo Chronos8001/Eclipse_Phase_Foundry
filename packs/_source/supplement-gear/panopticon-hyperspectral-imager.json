@@ -1,0 +1,29 @@
+{
+  "_id": "25f5d50ca00471c5",
+  "_key": "!items!25f5d50ca00471c5",
+  "name": "Hyperspectral Imager",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "hyperspectralImager",
+    "cost": "Moderate for Passive, High for Active",
+    "description": "<p>A hyperspectral imager views the electromagnetic spectrum much like enhanced vision bioware. The passive model perceives infrared to ultraviolet frequencies, while the active model incorporates terahertz and radar imaging as well. See the rules for hyperspectral sensors, p. 162.</p><p><em>Source: Eclipse Phase Panopticon, p. 153.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 37000,
+  "ownership": {
+    "default": 0
+  }
+}

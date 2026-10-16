@@ -1,0 +1,20 @@
+{
+  "_id": "b8eef5283904cc34",
+  "_key": "!items!b8eef5283904cc34",
+  "name": "Smart Wings",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "smartWings",
+    "cost": "Low",
+    "description": "<p>This augmentation consists of a smart material coating on the morph’s arms. With a Quick Action, the synthmorph can extend or retract smart-material wings with a wingspan of 8 meters. In normal atmospheric pressure, the synthmorph can fly at speeds of up to 100 kph as long as the surface gravity is less than 0.15 g. They may also be used for gliding (see Gliding Membranes, p. 166, Sunward). When retracted, this augmentation is hidden. This mod is very common for synthmorphs on Titan and in various large low gravity habitats throughout the outer system. Large or heavy morphs may not use it.</p><p><em>Source: Eclipse Phase Rimward, p. 190.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

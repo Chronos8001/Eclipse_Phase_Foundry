@@ -1,0 +1,29 @@
+{
+  "_id": "b5f60ba01e05e9b7",
+  "_key": "!items!b5f60ba01e05e9b7",
+  "name": "Dream Shells",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "dreamShells",
+    "cost": "Expensive",
+    "description": "<p>These Iktomi-made devices look vaguely like scallop shells 8 cm across. Their purpose is unknown. Some researchers believing them to be alien sleep or dreaming aids, while others claim that they are some form of data storage and transmission medium. Gatecrashers and xenoarcheologists on both Droplet and Sunrise have found several caches of these devices among the Iktomi ruins (though none yet on Echo V). Over 1,000 dream shells have been discovered to date, and more are expected to be found. Most of these have been claimed by researchers of various stripes, as well as museums, with a few remaining in gatecrashers’ hands or making their way into the galleries of wealthy private collectors. Most recently, Gatekeeper released 300 dream shells for general sale, with the provision that anyone who discovers their function or gains useful data from or about them will report this data to Gatekeeper in return for a reward commensurate with the value of the information gained. Dream shells emit no known forms of electromagnetic radiation and contain nothing resembling standard electronics. Their dense crystalline-lattice structure clearly indicates artificial design and purpose, but provides no clues towards their use. They are known, however, to have a reproducible effect on dreams. Any biomorph that sleeps within 2 meters of a dream shell experiences strange and vivid dreams. Many of these dreams contain unusual characters and exotics bits of scenery, but so far no one has managed to make sense of this information. It is clear that dream shells do not simply produce dreams of alien locations or events and so the nature of their function remains elusive. Rumors that some asyncs have reported detecting or interacting with dream shells using their sleights seem to be just that: rumors.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 164.</em></p>",
+    "category": "other",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 30000,
+  "ownership": {
+    "default": 0
+  }
+}

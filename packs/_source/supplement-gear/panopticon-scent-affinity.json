@@ -1,0 +1,20 @@
+{
+  "_id": "dac729c251b03db6",
+  "_key": "!items!dac729c251b03db6",
+  "name": "Scent Affinity",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "scentAffinity",
+    "cost": "Trivial",
+    "description": "<p>This modification may only be applied to smart animals. This particular animal has been modified to identify and trust a particular scent or pheromonal signature. Anyone giving off this particular olfactory signature receives a +30 modifier to Animal Handling Tests against this creature, assuming the critter can smell them. Trainers, smart animal handlers, and wealthy owners use this bioware to maintain better control over their pets/investments.</p><p><em>Source: Eclipse Phase Panopticon, p. 148.</em></p>",
+    "augType": "bioware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

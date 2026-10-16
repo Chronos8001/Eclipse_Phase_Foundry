@@ -1,0 +1,29 @@
+{
+  "_id": "664c122dc5044fd8",
+  "_key": "!items!664c122dc5044fd8",
+  "name": "Venus Suits",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "venusSuits",
+    "cost": "Expensive",
+    "description": "<p>Venus suits have the same characteristics as Mercury suits, plus they are specially modified to protect a biomorph from the crushing pressure on Venus’s surface.</p><p><em>Source: Eclipse Phase Sunward, p. 168.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  }
+}

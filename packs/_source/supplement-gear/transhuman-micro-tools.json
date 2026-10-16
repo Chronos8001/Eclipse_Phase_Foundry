@@ -1,0 +1,20 @@
+{
+  "_id": "246beb5ae44ed94e",
+  "_key": "!items!246beb5ae44ed94e",
+  "name": "Micro-Tools",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "microTools",
+    "cost": "",
+    "description": "<p>Microbots can be outfitted with specialized tools supporting a particular skill (p. 326, EP). These give a +20 bonus to skills involving modifying devices with mechanical parts, opening locks, disarming alarm systems, or performing first aid. However, they do not permit microbots or swarmanoids to perform any actions or carry objects they could not previously. In some cases, a character may have the tools to finish the job, but lack the physical strength to see it through.</p><p><em>Source: Eclipse Phase Transhuman, p. 214.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 37000,
+  "ownership": {
+    "default": 0
+  }
+}

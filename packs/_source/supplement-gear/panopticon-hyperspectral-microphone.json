@@ -1,0 +1,29 @@
+{
+  "_id": "99bedf5a493a79eb",
+  "_key": "!items!99bedf5a493a79eb",
+  "name": "Hyperspectral Microphone",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "hyperspectralMicrophone",
+    "cost": "Moderate",
+    "description": "<p>A hyperspectral mic hears the entire audio spectrum, from infrasonic to ultrasonic frequencies, much like enhanced hearing bioware. See the rules for hyperspectral sensors, p. 162.</p><p><em>Source: Eclipse Phase Panopticon, p. 153.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 38000,
+  "ownership": {
+    "default": 0
+  }
+}

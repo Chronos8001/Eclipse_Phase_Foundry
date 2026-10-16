@@ -1,0 +1,29 @@
+{
+  "_id": "2c34eefa20b3dbcd",
+  "_key": "!items!2c34eefa20b3dbcd",
+  "name": "Neo-Cetacean Translation Device",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "neoCetaceanTranslationDevice",
+    "cost": "Low",
+    "description": "<p>This dime-sized device is worn behind the left ear. It perceives ultrasonic frequencies and translates the whistles, clicks, and bursts of neo-cetacean into the transhuman language of the user’s choice and transmits it directly through the skull to the inner ear. The device is, of course, waterproof and works out to the range of normal neo-cetacean hearing. A linked ultrasonic emitter, usually worn on the belt, allows for translation in the other direction. Neo-cetacean is a primitive language, and translations are often muddy at best. This device has Exotic Language: Neo-Cetacean at 50.</p><p><em>Source: Eclipse Phase Panopticon, p. 150.</em></p>",
+    "category": "comms",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "34ffb5f014e68d0a",
+  "_key": "!items!34ffb5f014e68d0a",
+  "name": "Gait Masking",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "gaitMasking",
+    "cost": "Expensive",
+    "description": "<p>Gait masking nanosystems alter the bone density, muscle tone, and shape of the user’s feet and legs in minute but effective ways, altering their gait pattern just enough to avoid detection. The process of reconfiguration takes 20 minutes. Gait masking is illegal in many habitats. Gait masking can also be used to mimic an existing gait profile; apply a +30 modifier on Disguise Tests to fool gait biometric scanners.</p><p><em>Source: Eclipse Phase Panopticon, p. 149.</em></p>",
+    "augType": "nanoware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  }
+}

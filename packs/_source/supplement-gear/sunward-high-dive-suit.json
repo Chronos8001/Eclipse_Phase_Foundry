@@ -1,0 +1,23 @@
+{
+  "_id": "16915bf0a791f1d9",
+  "_key": "!items!16915bf0a791f1d9",
+  "name": "High-Dive Suit",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "key": "highDiveSuit",
+    "cost": "High",
+    "description": "<p>High-dive suits are individual spacesuits specifically designed to withstand atmospheric re-entry and allow the occupant to reach a planet’s surface safely. They feature a liquid-cooled thermal regulation system, a closed-loop oxygen system with chemical scrubbers, small gas jets, a drogue chute, and a conventional parachute. High-dive suits are made of fullerene with a refractory metal coating and an opaque sapphire faceplate. A mini-oxygen tank and rebreather provide the wearer with 3 hours worth of breathing air. A high-dive suit compares to light body armor in terms of general protection, though its refractive glazing and heat-transfer systems provide extra protection against energy weapons (AV 13/10). Because of its thermal dampening systems (see p. 313, EP), a high-dive suit also makes its wearer difficult to spot with thermal sensors (–30 modifier to Perception Tests), unless they are entering atmosphere, in which case they are difficult to miss (+30). Note that high-dive suits were designed for (unpowered) descent only—they are not equipped for any sort of powered flight.</p><p><em>Source: Eclipse Phase Sunward, p. 167.</em></p>",
+    "energy": 13,
+    "kinetic": 10,
+    "equipped": false,
+    "accessory": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  }
+}

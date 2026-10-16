@@ -1,0 +1,34 @@
+{
+  "_id": "dfac2656043e114b",
+  "_key": "!items!dfac2656043e114b",
+  "name": "Mental Repair",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "mentalRepair",
+    "cost": "High",
+    "description": "<p>This upgrade continuously monitors and analyzes the user’s mental patterns, then corrects and adjusts the user’s mental processes to counter psychological stress. In effect, the character’s mind benefits from continuous unconscious psychotherapy and heals mental stress far more rapidly and easily than normal. The character automatically makes a Willpower x 3 Test once a day. Every success eliminates one point of stress. If the character has already benefited from psychotherapy (p. 215, EP) that day or any other effect that healed stress, trauma, or disorders, the test is not made. This upgrade has no effect on trauma or disorders.</p><p><em>Source: Eclipse Phase Transhuman, p. 141.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

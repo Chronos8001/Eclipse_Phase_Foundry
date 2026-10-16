@@ -1,0 +1,29 @@
+{
+  "_id": "a3b3879be28a06f6",
+  "_key": "!items!a3b3879be28a06f6",
+  "name": "Gray Box",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "grayBox",
+    "cost": "Moderate",
+    "description": "<p>A gray box is a simple wireless interface with its own power supply. It is micro-sized, about the size of a grape, with a set of smart universal ports and a nondescript, matte-gray housing. When attached to an existing device, it allows that device to be interfaced via a wireless connection. Gray boxes are used by infiltration specialists to add wireless interfaces to air-gapped wired networks or to objects, such as airlocks, that are designed to operate without them. Installing a gray box is a Task Action with a timeframe of 2 minutes (in addition to any Hardware Tests required to gain access to the target object) and requires appropriate tools. Gray boxes normally operate in a passive mode, listening for signals from their operators but not emitting any signal of their own in order to avoid detection. Once a gray box has been activated, however, it will emit active signals until deactivated again. Gray boxes automatically stealth their signals (−30 on Interfacing Tests to detect them). How hard a gray box is to discover is left to the gamemaster’s discretion and possibly the ingenuity of the person who placed it. Normal maintenance routines will usually turn them up over the course of time. Perception or Hardware: Electronics Tests should be given to technicians who regularly check up on a piece of gear in which a gray box has been installed. The size of the gray box, however, makes it difficult to visually spot (−30 modifier). In passive mode, they are not normally subject to detection, but in active mode, they may be found with Interfacing Tests (p. 251, EP). It is also possible that a security AI or hacker who is watching over an object or network may detect a gray box if someone uses it to intrude on the system and triggers an alert or if they happen to be auditing the system and detect an anomalous port connection.</p><p><em>Source: Eclipse Phase Panopticon, p. 150.</em></p>",
+    "category": "espionage",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "00391f59b3379c5f",
+  "_key": "!items!00391f59b3379c5f",
+  "name": "Fixor",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "fixor",
+    "cost": "Expensive",
+    "description": "<p>Fixors were originally discovered in a container found in the buried ruins of an alien truck on Portal (see Alien Visitation, p. 123). Over two thousand of these pale orange ovoids were discovered carefully packed inside. Each is approximately 22 centimeters long and 3 centimeters in diameter. One end of each ovoid is flexible and slightly darker in color than the rest. When the user pinches this end, the ovoid remains fixed in place until this ovoid is pinched again, at which point the ovoid can be moved normally. No one understands how fixors operate. However, once the fixor is activated, it remains fixed in place relative to the local gravitational field. Even if placed in mid air, the fixor remains perfectly stationary. Each fixor can support up to 2,300 kg without moving a fraction of a millimeter. Users can pull or push them, stand on them, or use the fixor to support heavy weights. A fixor will continue to remain stationary indefinitely or until it is deactivated. The only known limitation on this device is if the user attempts to have a single fixor support more than 2,300 kg. At this point, the fixor instantly deactivates. Approximately 80% of fixors that are deactivated in this fashion can be activated again and function normally. The remainder never function again. Both active and apparently broken fixors have been carefully examined and even disassembled. So far, no one has been able to determine how fixors work or what powers them. Fixors operate according to completely unknown principles and seem to violate several physical laws, however they appear to be both safe and reliable. The anarchists who originally discovered and researched the fixors were more than willing to share these objects with other interested (non-commercial) researchers. Once the ovoids were deemed harmless, they released a substantial number to the general public, passing them out to anyone who presented a good case for their interest or intended use, or simply to those who were curious and had high rep. A few fixors are regularly shared among the inhabitants of Locus, some have featured in high-profile art exhibits, a set pins the Titanian flag in mid-air high over the capitol, and some were rewarded to the winners of a contest for new mercurial musical styles. Many habitats have banned these fixors or other alien technology, fearing the unknown aspects of the devices or possible side effects should they be damaged. A few have found their way into hypercorp hands and the black markets of the inner system.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 165.</em></p>",
+    "category": "other",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 31000,
+  "ownership": {
+    "default": 0
+  }
+}

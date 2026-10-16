@@ -1,0 +1,29 @@
+{
+  "_id": "cf5289e0f743a45a",
+  "_key": "!items!cf5289e0f743a45a",
+  "name": "Defense Beacons",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "defenseBeacons",
+    "cost": "Moderate",
+    "description": "<p>Gatecrashers usually have no idea what sort of hostile entities they may face on a new world. When making camp or investigating an area, defense beacons keep gatecrashers from being surprised by dangerous wildlife, rival parties of gatecrashers, or ancient automated defense systems. This set of defense beacons consists of a medium-sized portable pack containing four rods, each half a meter in length and 3 centimeters in diameter. These rods telescope out to 3 meters in height and are designed to be hammered into or attached to any surface. Each rod contains a series of infrared, radar, and ultrasonic sensors as well as powerful miniature speakers, a stunner, and a microwave agonizer capable of firing in both normal and “roast” mode (p. 339, EP). To use this device, the operator places the four rods upright in a square or rectangle around the camp or other area that they wish to protect. Each rod can be as far as 30 meters from the two nearest rods. Additional defense beacon packs may be deployed to cover a larger perimeter. The operator then designates those individuals and devices that are allowed to freely cross the barrier created by these rods and also determines the minimum size of intruders that will be defended against and the level of defense. Once in place, defense beacons warn everyone inside the camp, using either speakers or radio, of any intruders either coming within 30 meters or attempting to cross the invisible fence created by the four rods. Also, defense beacons can be programmed to use the stunners or microwave agonizers against any intruders (they have Beam Weapons skill 40). Meanwhile, the inhabitants of the camp can walk in or out of the protected area without harm or annoyance.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 157.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  }
+}

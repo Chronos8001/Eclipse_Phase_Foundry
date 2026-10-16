@@ -1,0 +1,29 @@
+{
+  "_id": "00431d18bcbc782d",
+  "_key": "!items!00431d18bcbc782d",
+  "name": "Titanian Caribou",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "titanianCaribou",
+    "cost": "Medium",
+    "description": "<p>Companions of the reclusive hulder, Titanian caribou have dark, blubbery skin similar to the hulder themselves. Both males and females have antlers. Their muzzles contain chemical sniffers to detect the carbonaceous compounds upon which they “graze” and fractal fingers for breaking down ice, rock, and carbon grit.</p><p><em>Source: Eclipse Phase Rimward, p. 192.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

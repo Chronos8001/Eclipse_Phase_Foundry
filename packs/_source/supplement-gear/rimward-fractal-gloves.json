@@ -1,0 +1,29 @@
+{
+  "_id": "e85e5ebdccfbd328",
+  "_key": "!items!e85e5ebdccfbd328",
+  "name": "Fractal Gloves",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "fractalGloves",
+    "cost": "Moderate",
+    "description": "<p>These gloves are designed to fit over a humanoid wrist and hand to duplicate the effects of the fractal digits robotic enhancement (p. 31, EP). The gloves also include micro-cameras that allow wearers to clearly see the objects they are manipulating, duplicating the effects of nanoscopic vision (p. 311, EP).</p><p><em>Source: Eclipse Phase Rimward, p. 191.</em></p>",
+    "category": "everyday",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "b80e14971c3ab217",
+  "_key": "!items!b80e14971c3ab217",
+  "name": "Raptor",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "raptor",
+    "cost": "Low",
+    "description": "<p>Raptor is a strength-boosting drug that only affects neo-avians. It increases their wing power and speed, as well as boosting the grip of their talons. Apply a +5 SOM bonus and a +20 modifier to Flight Tests to increase movement (like Sprinting, p. 190, EP).</p><p><em>Source: Eclipse Phase Panopticon, p. 152.</em></p>",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "Inj, O",
+    "onset": "20 minutes",
+    "duration": "1 hour",
+    "addictionMod": "–10",
+    "addictionType": "physical",
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 28000,
+  "ownership": {
+    "default": 0
+  }
+}

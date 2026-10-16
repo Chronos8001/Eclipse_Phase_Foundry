@@ -1,0 +1,20 @@
+{
+  "_id": "3c7abf9e10762cfa",
+  "_key": "!items!3c7abf9e10762cfa",
+  "name": "Nanotat ID Flux",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "nanotatIdFlux",
+    "cost": "Expensive",
+    "description": "<p>This highly illegal system is a programmable version of the nanotat ID. Any new (fake) ID may be programmed in, and the nanotat may be reconfigured in seconds (1 Action Turn) to switch to another ID pattern in storage. This nanoware may not be configured for legal IDs unless they are actually legal or their encryption has been cracked.</p><p><em>Source: Eclipse Phase Panopticon, p. 149.</em></p>",
+    "augType": "nanoware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "e8ee01d605a1ebc7",
+  "_key": "!items!e8ee01d605a1ebc7",
+  "name": "Bees and Gardener Wasps",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "beesAndGardenerWasps",
+    "cost": "Low",
+    "description": "<p>Both bees and pollen wasps have been genetically modified and interbred, creating several new species of insects that provide a valuable pollination service in habitat gardens. These swarms live in large nests/hives, produce honey, and prey on other insects, serving as a biological form of pest control. Some of these breeds are quite large, growing up to 8 centimeters in length. They adapt quite well to microgravity. Many have been trained to assist with other gardening tasks, such as collecting debris or trimming leaves. They are sometimes also used for security, when certain pheromonal cues are released, the entire hive will attack. These insects are smart enough to remember faces, but tales of smart wasps loaded with toxins and sent to assassinate certain morphs are likely rumors. Cost and statistics are for a swarm of 200.</p><p><em>Source: Eclipse Phase Panopticon, p. 154.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 54000,
+  "ownership": {
+    "default": 0
+  }
+}

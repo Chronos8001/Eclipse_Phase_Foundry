@@ -1,0 +1,27 @@
+{
+  "_id": "3c62fb36911d7b26",
+  "_key": "!items!3c62fb36911d7b26",
+  "name": "Grey Ranks",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "greyRanks",
+    "cost": "Moderate",
+    "description": "<p>Grey ranks is a long-term memory suppression drug also available as a narcoalgorithm. It disrupts the user’s memory formation processes without otherwise affecting their mental faculties. The Titanian intelligence services uses it on both field agents and in so-called “zero-retention briefings.”</p><p><em>Source: Eclipse Phase Firewall, p. 175.</em></p>",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "O, Code",
+    "onset": "1 hour",
+    "duration": "12 hours",
+    "addictionMod": "+10",
+    "addictionType": "mental",
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

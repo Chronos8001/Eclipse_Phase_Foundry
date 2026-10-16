@@ -1,0 +1,20 @@
+{
+  "_id": "ebe2871389acaf9b",
+  "_key": "!items!ebe2871389acaf9b",
+  "name": "Skeletal Disguise",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "skeletalDisguise",
+    "cost": "Expensive",
+    "description": "<p>This implanted nanobot system is designed to disguise a subject’s skeletal structure and create false sensor readings, either to avoid identification or to mimic an existing skeletal pattern. An existing pattern can only be mimicked if the character is of equivalent body mass and size. Altering the skeletal signature takes 20 minutes. Apply a −30 modifier to the scanner system’s Perception Test.</p><p><em>Source: Eclipse Phase Panopticon, p. 149.</em></p>",
+    "augType": "nanoware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "b1aa7218fe75b476",
+  "_key": "!items!b1aa7218fe75b476",
+  "name": "Mass Transfer",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "massTransfer",
+    "cost": "Moderate",
+    "description": "<p>The flexbot may transfer up to half of its Durability to another bot that also has the mass transfer enhancement. The donated mass may not cause the recipient bot to exceed its normal maximum Durability. Transferring mass doesn’t transfer armor or any augmentations to the recipient bot. Transferring mass may change the target size of the donor bot (see Flexbot Size, p. 204). Damaged mass may also simply be dumped, enabling the module to discard damage and also wounds, at the cost of lower Durability.</p><p><em>Source: Eclipse Phase Transhuman, p. 211.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 28000,
+  "ownership": {
+    "default": 0
+  }
+}

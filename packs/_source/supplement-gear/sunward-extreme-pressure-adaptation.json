@@ -1,0 +1,20 @@
+{
+  "_id": "8ce6caaeb5fc695d",
+  "_key": "!items!8ce6caaeb5fc695d",
+  "name": "Extreme Pressure Adaptation",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "extremePressureAdaptation",
+    "cost": "Expensive",
+    "description": "<p>Morphs with this mod undergo serious structural reinforcement, enabling them to withstand pressure of up to 100 atmospheres. This modification increases the morph’s Durability by 50% while reducing its Movement Rate by half and modifying COO by –10.</p><p><em>Source: Eclipse Phase Sunward, p. 167.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

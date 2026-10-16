@@ -1,0 +1,29 @@
+{
+  "_id": "da25268933a483bc",
+  "_key": "!items!da25268933a483bc",
+  "name": "Adaptive Interface",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "adaptiveInterface",
+    "cost": "High",
+    "description": "<p>One of the most hoped-for finds on any gatecrashing expedition is any piece of functional alien electronics—especially any alien data storage medium still containing data. In the rare circumstances that such a relic is found, the adaptive interface is the tool designed to enable transhumans to understand, activate, and potentially interact with it. This medium-sized device includes a series of smart-material connectors that allow this unit to be connected to almost any conceivable piece of technology. It is also equipped with sensors and a small nanoswarm that can analyze the device’s structure and otherwise try to discern its inner workings. Once connected, the adaptive interface sends minute amounts of power into the alien device, monitors all outputs, and systematically attempts to identify and map the circuitry and logic patterns in the device as well as the safe amount and type of current used to power it. The interface’s AI compares the scans and any detected data structures to databases of known and speculated designs (Academics: Computer Science 80, Academics: Electrical Engineering 80, Academics: Xenodata 60, Infosec 40, Interfacing 40, Programming 40). An adaptive interface can be set up to analyze on its own (use the AI’s skills) or a character can take advantage of it to conduct their own study (with the AI providing teamwork). Attempts to figure out how to activate or use an alien device, read data on a relic, figure out an item’s purpose, etc. are Task Actions with a suggested timeframe of at least 1 hour and quite possibly longer. The alien nature of most devices applies a –30 modifier to such tests. The gamemaster should adjust this timeframe and apply additional modifiers as appropriate to the device. While engaged in probing an alien device, the adaptive interface enters into an offline mode, severing all wireless connections; this is safety feature to prevent the interface from spreading an infection to other devices. The primary limit on this unit is that it is not designed to work with biological technology or with nanotechnology considerably in advance of those available to transhumanity. As a result, this unit cannot be used on bluetrees, myst trees, or any similar non-standard devices.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 160.</em></p>",
+    "category": "scavenger",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

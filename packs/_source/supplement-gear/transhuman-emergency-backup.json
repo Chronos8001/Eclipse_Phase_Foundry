@@ -1,0 +1,34 @@
+{
+  "_id": "617d27ebaca3bcca",
+  "_key": "!items!617d27ebaca3bcca",
+  "name": "Emergency Backup",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "emergencyBackup",
+    "cost": "Moderate",
+    "description": "<p>This plug-in automatically broadcasts a copy of the infomorph’s ego through the mesh to a predetermined secure storage site every 48 hours. This interval may be voluntarily modified, keeping in mind that ego broadcasts tend to be intentionally limited as a precaution against interception/forknapping and that such transmissions hog bandwidth. To use this upgrade, characters must either purchase backup insurance or arrange for a private server to store the backup copies of their ego. To prevent ego theft, the backup copies are transmitted using quantum cryptography (p. 254, EP). To intercept and make use of an ego backup sent in this fashion, the would-be thief must somehow gain access to one of the quantum keys used in the exchange.</p><p><em>Source: Eclipse Phase Transhuman, p. 140.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

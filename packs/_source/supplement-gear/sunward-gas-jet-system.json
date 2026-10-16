@@ -1,0 +1,20 @@
+{
+  "_id": "868bb16aab5cfdfd",
+  "_key": "!items!868bb16aab5cfdfd",
+  "name": "Gas Jet System",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "gasJetSystem",
+    "cost": "Moderate",
+    "description": "<p>This cybernetic system implants nozzles in the morph’s chest, back, and limbs, allowing it to maneuver in microgravity using vectored bursts of gas. It either inputs atmospheric gases through implanted intakes or draws gas from an oxygen reserve implant. This mod applies a +10 modifier to Free Fall Tests.</p><p><em>Source: Eclipse Phase Sunward, p. 166.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

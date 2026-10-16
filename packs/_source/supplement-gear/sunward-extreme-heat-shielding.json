@@ -1,0 +1,20 @@
+{
+  "_id": "a0403f2ead4bc0c9",
+  "_key": "!items!a0403f2ead4bc0c9",
+  "name": "Extreme Heat Shielding",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "extremeHeatShielding",
+    "cost": "Expensive",
+    "description": "<p>This enhancement bolsters the synthmorph’s tolerance to extremely high temperatures with heatresistant materials, heat sinks, and bulky coolant systems. This modification increases the morph’s Durability by 25% while reducing its Movement Rate by half and modifying COO by –10. Morphs with his augmentation can withstand temperatures up to 500 C.</p><p><em>Source: Eclipse Phase Sunward, p. 166.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

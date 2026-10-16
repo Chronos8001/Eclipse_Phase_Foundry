@@ -1,0 +1,34 @@
+{
+  "_id": "2b27c2b0cd88a391",
+  "_key": "!items!2b27c2b0cd88a391",
+  "name": "Impersonate",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "impersonate",
+    "cost": "High",
+    "description": "<p>This upgrade provides the user with a library of mannerisms, vocal patterns, and other social cues. This aids Impersonation Tests, even when communicating verbally or via avatars, providing a +10 bonus. The processor in this upgrade can also help analyze a target’s mannerisms and duplicate them more effectively. To duplicate someone’s patterns, the character must first observe their interactions and make a Kinesics Task Action Test with a timeframe of 1 hour. Success allows them to accumulate a sufficient quantity of data to allow this upgrade to duplicate this person’s phrasing and patterns of digital activity; increase the modifier for Impersonation Tests to +30 to impersonate the target. Note that this upgrade does not provide the character with the skills, memories, or other traits of the ego they are impersonating. This upgrade can also be set to randomize the emotive patterns exhibited by the user, so their phrasing and mannerisms do not identify them as anyone. This applies a +30 modifier to the Deception or Impersonation rolls in Opposed Tests when someone else is trying to use Kinesics to identify the character’s true identity.</p><p><em>Source: Eclipse Phase Transhuman, p. 140.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

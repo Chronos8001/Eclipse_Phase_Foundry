@@ -1,0 +1,29 @@
+{
+  "_id": "cd5bfa2b3bf95c47",
+  "_key": "!items!cd5bfa2b3bf95c47",
+  "name": "Poisonous Marmoset Swarm",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "poisonousMarmosetSwarm",
+    "cost": "Medium",
+    "description": "<p>A Titan Tech prank that got out of hand, these bands of ten-centimeter-tall poisonous primates were thought to have been eradicated, but it’s always possible some got away.</p><p><em>Source: Eclipse Phase Rimward, p. 192.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  }
+}

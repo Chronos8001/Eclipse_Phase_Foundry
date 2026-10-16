@@ -1,0 +1,29 @@
+{
+  "_id": "2c624f9866e506f7",
+  "_key": "!items!2c624f9866e506f7",
+  "name": "Morph Storage Pod",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "morphStoragePod",
+    "cost": "Moderate",
+    "description": "<p>This coffin-sized tank keeps a biomorph safely stored in medical stasis. They are routinely used in body banks and egocasting facilities, maintaining unused sleeves in a coma-like state within a nutrient bath. Some jurisdictions only allow morph storage pods to be operated by certified medical personnel and technicians.</p><p><em>Source: Eclipse Phase Firewall, p. 175.</em></p>",
+    "category": "everyday",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

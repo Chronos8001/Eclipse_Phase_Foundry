@@ -1,0 +1,20 @@
+{
+  "_id": "542d95785873d4ab",
+  "_key": "!items!542d95785873d4ab",
+  "name": "Radiation Shielding",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "radiationShielding",
+    "cost": "High",
+    "description": "<p>This enhancement hardens the morph to exposure from electromagnetic and ionizing radiation. This will protect the morph in most situations that would be harmful to others, but at the gamemaster’s discretion is only of limited effectiveness against extremely powerful sources of radiation (such as Jupiter’s electromagnetic field) over prolonged periods.</p><p><em>Source: Eclipse Phase Sunward, p. 167.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  }
+}

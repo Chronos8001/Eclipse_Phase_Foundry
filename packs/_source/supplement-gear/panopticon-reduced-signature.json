@@ -1,0 +1,20 @@
+{
+  "_id": "052e8a433bdfaf59",
+  "_key": "!items!052e8a433bdfaf59",
+  "name": "Reduced Signature",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "reducedSignature",
+    "cost": "High",
+    "description": "<p>This shell has been structurally modified to provide a much smaller radar cross-section. Shells with this modification have a very obvious streamlined, rounded and/or angular look, with no bulky pods or modules. External engines are instead incorporated into the frame. This enhancement is normally only applied to winged, rotorcraft, ionic, or thrust vector shells; apply a −30 modifier to detect these shells with radar and terahertz frequencies. For all other shells, a −10 modifier is applied. This modifier may not be applied to hoppers, tracked shells, or walkers while they are moving, as their mobility systems negate the advantage. The modifier from this enhancement is cumulative with the radar absorbent enhancement.</p><p><em>Source: Eclipse Phase Panopticon, p. 149.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

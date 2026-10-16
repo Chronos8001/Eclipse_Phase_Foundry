@@ -1,0 +1,20 @@
+{
+  "_id": "9cf52dafa7ba2950",
+  "_key": "!items!9cf52dafa7ba2950",
+  "name": "Ultrasound Link",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "ultrasoundLink",
+    "cost": "Moderate",
+    "description": "<p>The microbots in this swarm communicate on ultrasound wavelengths. Their effective communication range remains 50 meters, but does not function in vacuum. This makes the swarm immune to radiofrequency jamming, but they can be jammed in a similar manner with any device capable of emitting ultrasonic frequencies. The noise from ultrasoundlinked swarms is audible (+30 to hear) to anything equipped with enhanced hearing.</p><p><em>Source: Eclipse Phase Transhuman, p. 214.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 40000,
+  "ownership": {
+    "default": 0
+  }
+}

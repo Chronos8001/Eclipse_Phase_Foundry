@@ -1,0 +1,20 @@
+{
+  "_id": "24b76a92b9ab0d46",
+  "_key": "!items!24b76a92b9ab0d46",
+  "name": "Jaws",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "jaws",
+    "cost": "Moderate",
+    "description": "<p>Microbots can be outfitted with diamond “snippers” or jaws. While ideal for cutting wires, they may also be used to attack. A swarmanoid equipped with jaws can swarm a target, causing 1d10 + 1 DV with each successful attack (see Swarmanoid Attacks, next column). A single microbot is ineffective against small or larger targets, unless it has lots of time.</p><p><em>Source: Eclipse Phase Transhuman, p. 214.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 35000,
+  "ownership": {
+    "default": 0
+  }
+}

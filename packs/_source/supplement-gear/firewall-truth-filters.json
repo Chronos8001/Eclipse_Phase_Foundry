@@ -1,0 +1,20 @@
+{
+  "_id": "d52c35a9d051d489",
+  "_key": "!items!d52c35a9d051d489",
+  "name": "Truth Filters",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "truthFilters",
+    "cost": "Trivial",
+    "description": "<p>Truth filters can only be used with a cyberbrain or mesh inserts. This module scrambles the signals read from subject’s brain in such a way as to make digital deception scanners (p. 176) worthless. A character with this implant will automatically succeed on Deception Tests against such scanners. Truth filters offer no protection against analog deception scanners.</p><p><em>Source: Eclipse Phase Firewall, p. 174.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

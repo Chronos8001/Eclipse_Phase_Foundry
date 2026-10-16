@@ -1,0 +1,20 @@
+{
+  "_id": "d14cbd3c1b43d1e2",
+  "_key": "!items!d14cbd3c1b43d1e2",
+  "name": "Holographic Projector",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "holographicProjector",
+    "cost": "Low",
+    "description": "<p>The morph has embedded and concealable projectors capable of projecting high-definition, ultrarealistic three-dimensional images and movies. From a distance (20+ meters), such holograms can be difficult to distinguish as fake, but up close they are easier to see for what they are (+20 Perception Test modifier). Holograms do not appear in wavelengths other than visual light, and so are easily identified by anyone with enhanced vision.</p><p><em>Source: Eclipse Phase Transhuman, p. 198.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

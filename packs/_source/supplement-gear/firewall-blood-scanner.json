@@ -1,0 +1,29 @@
+{
+  "_id": "bb0a75e1a4a599fb",
+  "_key": "!items!bb0a75e1a4a599fb",
+  "name": "Blood Scanner",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "bloodScanner",
+    "cost": "Trivial",
+    "description": "<p>Blood scanners are used to detect infection by the biological nanovirus strain of the exsurgent virus. The scanner is simply pressed against the skin of a biomorph (or other living creature) so that microneedles can painlessly extract blood samples from capillaries. These samples are then analyzed and compared to a database of known nanoviral strains. See Exsurgent Virus Detection (p. 177), for details on handling scans.</p><p><em>Source: Eclipse Phase Firewall, p. 176.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  }
+}

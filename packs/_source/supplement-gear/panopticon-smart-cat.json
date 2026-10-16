@@ -1,0 +1,29 @@
+{
+  "_id": "ed07baca7c991062",
+  "_key": "!items!ed07baca7c991062",
+  "name": "Smart Cat",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartCat",
+    "cost": "Moderate",
+    "description": "<p>Though smart cats deign to let humans pet and feed them, they are even more stubborn and independent than their baseline forebears. Nevertheless, some have been trained for surveillance and other purposes.</p><p><em>Source: Eclipse Phase Panopticon, p. 155.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 58000,
+  "ownership": {
+    "default": 0
+  }
+}

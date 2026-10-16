@@ -1,0 +1,29 @@
+{
+  "_id": "65b3482c4d6feb22",
+  "_key": "!items!65b3482c4d6feb22",
+  "name": "Radio Beacon",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "radioBeacon",
+    "cost": "Low",
+    "description": "<p>This portable, medium-sized radio transmitter has an open range of 250 kilometers. It can be programmed with any message(s) the user desires and set to repeat, alternate, or broadcast according to schedule. It can also be set to only broadcast after it receives a preprogrammed signal. Radio beacons are used as claim markers for resource or archeological finds, as planted messages to follow-up teams or rescuers, and for automatically warning people away from dangerous or secured areas.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 154.</em></p>",
+    "category": "comms",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  }
+}

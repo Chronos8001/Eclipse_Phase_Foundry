@@ -1,0 +1,29 @@
+{
+  "_id": "e9f802e7ccb6d19f",
+  "_key": "!items!e9f802e7ccb6d19f",
+  "name": "Privacy Pod",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "privacyPod",
+    "cost": "High",
+    "description": "<p>Privacy pods are portable self-assembling tent-like structures used to create secure rooms protected from eavesdropping. Privacy pods are effectively soundproofed Faraday cages, blocking all electromagnetic emissions. They feature a built-in guardian nanoswarm hive that watches for and counteracts any smart dust or other nanosurveillance systems. A privacy pod takes only 3 Action Turns to erect itself and supplies breathable air to the occupants. It features an airlock/ scanning chamber with a built-in bug zapper (p. 291, EP). A repair nanohive monitors the pod’s perimeter for any attempts to penetrate the walls.</p><p><em>Source: Eclipse Phase Panopticon, p. 151.</em></p>",
+    "category": "espionage",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  }
+}

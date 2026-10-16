@@ -1,0 +1,20 @@
+{
+  "_id": "bafb7acc8a4e59c6",
+  "_key": "!items!bafb7acc8a4e59c6",
+  "name": "Laser Link",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "laserLink",
+    "cost": "Moderate",
+    "description": "<p>The microbots in this swarm communicate by laser pulses. Their effective communication range remains 50 meters within standard atmospheres, 200 meters in vacuum. This makes the swarm immune to radiofrequency jamming, but they suffer the same effects from a dazzler (p. 316, EP). Swarms using laser links are highly visible (+30 to spot) with enhanced vision.</p><p><em>Source: Eclipse Phase Transhuman, p. 214.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 36000,
+  "ownership": {
+    "default": 0
+  }
+}

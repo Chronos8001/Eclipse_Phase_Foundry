@@ -1,0 +1,29 @@
+{
+  "_id": "b0529cf93892e08b",
+  "_key": "!items!b0529cf93892e08b",
+  "name": "DNA Chaff",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "dnaChaff",
+    "cost": "Moderate",
+    "description": "<p>This small device is quite similar to a splash grenade (p. 341, EP), and may in fact be equipped and thrown like one. Its contents consist of nothing more than a mass of skin flakes and similar biological debris sampled from a thousand different biomorphs. The intent is to spread this material thoroughly over an area, effectively contaminating it for any purposes of collecting forensic DNA evidence.</p><p><em>Source: Eclipse Phase Panopticon, p. 150.</em></p>",
+    "category": "espionage",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

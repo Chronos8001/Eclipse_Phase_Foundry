@@ -1,0 +1,20 @@
+{
+  "_id": "6b03b6a9888be0bb",
+  "_key": "!items!6b03b6a9888be0bb",
+  "name": "Squishbot",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "squishbot",
+    "cost": "Expensive",
+    "description": "<p>The flexbot is of soft, flexible construction, consisting of reconfigurable parts in a liquid matrix with a soft outer skin. The flexbot must have the shape adjusting augmentation to take this augmentation. All shapeadjusting tasks take half the usual time. The flexbot may squeeze itself through holes as small as 10 centimeters in diameter, though doing so may require as long as a minute for the bot to extend itself into a long, narrow shape. Squishbots do not benefit from inherent synthmorph armor or from robotic armor, but they may have bioweave armor.</p><p><em>Source: Eclipse Phase Transhuman, p. 211.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 31000,
+  "ownership": {
+    "default": 0
+  }
+}

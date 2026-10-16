@@ -1,0 +1,20 @@
+{
+  "_id": "3490e605868f8e83",
+  "_key": "!items!3490e605868f8e83",
+  "name": "Lateral Line",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "lateralLine",
+    "cost": "Low",
+    "description": "<p>A transgenic organ developed from aquatic creatures, a lateral line hears low-frequency sounds and can detect movement and vibrations through nearby liquids. Suryas use lateral lines to “hear” in the corona’s plasma atmosphere.</p><p><em>Source: Eclipse Phase Sunward, p. 166.</em></p>",
+    "augType": "bioware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

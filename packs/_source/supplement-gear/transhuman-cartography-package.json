@@ -1,0 +1,34 @@
+{
+  "_id": "2a55520a9baa2ada",
+  "_key": "!items!2a55520a9baa2ada",
+  "name": "Cartography Package",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "cartographyPackage",
+    "cost": "Moderate",
+    "description": "<p>This software is used to build detailed, high-resolution maps. It is ideally employed by flight-capable morphs with the mnemonic augmentation or life recorder augmentations. Whenever airborne at an altitude of 30 meters or more, the cartography package automatically maps the morph’s surroundings out to the limits of their vision. Map resolution is 1 meter, but this is improved to 10 cm if the character also has enhanced vision or lidar and is actively focused on performing recon (equivalent to a Task Action lasting the duration of the flight, though no test is needed). Input from other sensory systems is also included; e.g., radioactive hotspots noticed with radiation sense would be marked.</p><p><em>Source: Eclipse Phase Transhuman, p. 199.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  }
+}

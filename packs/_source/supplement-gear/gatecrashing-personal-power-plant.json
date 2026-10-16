@@ -1,0 +1,20 @@
+{
+  "_id": "80a169b942bb4476",
+  "_key": "!items!80a169b942bb4476",
+  "name": "Personal Power Plant",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "personalPowerPlant",
+    "cost": "Expensive",
+    "description": "<p>For gatecrashers worried about being trapped on an exoplanet with no source of food, this nanoware system provides a solution. The nanobots in this system are powered by the isotope gadolinium-148. They transfer this nuclear energy to the body so that it is absorbed in a safe and consistent manner. This effectively fuels the body without the need to eat. With a half life of 78 years, the character can go for a century and possibly longer without regularly eating. A tiny bit of food consumption is still necessary to replace cells, though a small food stash could literally be stretched out for years. Likewise, vitamin and protein supplements would be necessary for long-term health, but as an alternative to starving to death, the personal power plant cannot be beat.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 153.</em></p>",
+    "augType": "nanoware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

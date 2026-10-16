@@ -1,0 +1,29 @@
+{
+  "_id": "f2297768c3c5f244",
+  "_key": "!items!f2297768c3c5f244",
+  "name": "Private Sensor Feeds",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "privateSensorFeeds",
+    "cost": "Low per hour",
+    "description": "<p>In addition to coverage of private areas, many public areas are seeded with privately owned cameras and sensors that are off-limits to public access. These sensors are sometimes higher-quality or have more capabilities than standard publicams. Some providers offer timed access or access to recordings for a particular time period for a fee, however.</p><p><em>Source: Eclipse Phase Panopticon, p. 154.</em></p>",
+    "category": "service",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 53000,
+  "ownership": {
+    "default": 0
+  }
+}
