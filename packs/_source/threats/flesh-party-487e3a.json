@@ -1,0 +1,376 @@
+{
+  "_id": "487e3a9ce6e7aed0",
+  "_key": "!actors!487e3a9ce6e7aed0",
+  "name": "Flesh Party",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 5,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 5,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": -16
+    },
+    "biography": "<p>Stats assume a room-sized flesh party. Larger versions may have higher Durability. Threat Level: Yellow Numbers: 1</p><p>This TITAN nanovirus debones and mutates biomorphs in concert with concurrent infections in other nearby transhumans. The result is a flesh party: a thin kudzu of invertebrate skin and organs with vines of webbed sinew and bone ridges spread over the maximum possible surface area. The nanovirus keeps its victims awake for much of the process while weaving neural connections between tortured minds, assuring an insane hive consciousness. TITAN machines sometimes hook the tumorous mass up to compromised makers loaded with feedstock, providing nutrients so the flesh party can grow and suffer for years. Most flesh parties are essentially inanimate, but some attack trespassers through their landscape. They express large mouths to swallow, squirt acid, entangle with cilia, or jab with bone spikes. Some are ainfected with the Watts-MacLeod virus, the contamination spreading across the entire organic network. These are literal psychic landscapes, inflicting powerful sleights on anyone unlucky enough to run across them.</p><p>As standard flesh parties, with the following additions. Threat Level: Orange Agony Sleight: 70, Opposed with WIL x 2, Close Range, SOM x 3 Test to act or −30 (see Agony (p. 178), Strain (1d10 ÷ 2) + 2 Skills: Control 60, Psi Assault 70, Sense 50 Traits: Psi (Level 3) Common Sleights: Agony,Ambience Sense, Anti-Electronics Field, Diffusion, Extend Range, Onslaught, Psychic Rend, Psychic Stab, Spam, Static</p><p><strong>Stress Test:</strong> SV 1d10 + 5</p><p><strong>Traits:</strong> Mental Disorder (Insane), Psi (Level 3), Very Large Size (+30 to hit)</p><p><strong>Ware:</strong> Enhanced Hearing, Enhanced Smell, Enhanced Vision,Temperature Tolerance</p><p><strong>Nanovirus Infection:</strong> Flesh parties exude the nanovirus.Treat it as a nanoplague (p. 172) with dermal, inhalation, and injection vectors and an Infection Rating of 40.</p><p><strong>Regeneration:</strong> Flesh parties regenerate 1d10 damage per hour</p><p><strong>Wound Invulnerability:</strong> Flesh parties are immune to wound effects.</p><p><em>Initiative printed: 4 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 0, Death Rating 120.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 111.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Flesh Party (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 80,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "Immobile",
+        "implants": "Enhanced Hearing, Enhanced Smell, Enhanced Vision,Temperature Tolerance",
+        "advantages": "Mental Disorder (Insane), Psi (Level 3), Very Large Size (+30 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "3b1400f02335d8d6",
+      "_key": "!actors.items!487e3a9ce6e7aed0.3b1400f02335d8d6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "619f2f01b5cae0ec",
+      "_key": "!actors.items!487e3a9ce6e7aed0.619f2f01b5cae0ec",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "Bite",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4778ded868f95e03",
+      "_key": "!actors.items!487e3a9ce6e7aed0.4778ded868f95e03",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 0,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6e105b020a848fa6",
+      "_key": "!actors.items!487e3a9ce6e7aed0.6e105b020a848fa6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "Hearing/Smell/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f3fc0923bea9144d",
+      "_key": "!actors.items!487e3a9ce6e7aed0.f3fc0923bea9144d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 50,
+        "ap": -3,
+        "dv": "2d10 + 5",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite: 50, DV 2d10 + 5,AP −3, medium and smaller targets are swallowed whole with an MoS of 30+. Engulfed victims suffer the effects of acid spit (below) until freed or dead and cannot see, hear, or breathe (see Asphyxiation, p. 194, EP).</p>"
+      },
+      "_id": "361b72347d60c16c",
+      "_key": "!actors.items!487e3a9ce6e7aed0.361b72347d60c16c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Acid Spit",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 40,
+        "ap": 0,
+        "dv": "1d10 + 5",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Acid Spit: 40, cone area effect, DV 1d10 + 5 per turn for 3 Action Turns.Armor defends but is decreased by the damage.</p>"
+      },
+      "_id": "fa6a45313a88df47",
+      "_key": "!actors.items!487e3a9ce6e7aed0.fa6a45313a88df47",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bone Spur",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 40,
+        "ap": -2,
+        "dv": "1d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bone Spur: 40, DV 1d10 + 4,AP −2</p>"
+      },
+      "_id": "ef123ce06c338abb",
+      "_key": "!actors.items!487e3a9ce6e7aed0.ef123ce06c338abb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 20000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Flesh Party",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

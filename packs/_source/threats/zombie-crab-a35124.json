@@ -1,0 +1,454 @@
+{
+  "_id": "a35124dc3f1fd500",
+  "_key": "!actors!a35124dc3f1fd500",
+  "name": "Zombie Crab",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 1,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 5,
+        "mod": 0
+      },
+      "ref": {
+        "base": 10,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 5,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Orange</p><p><strong>Numbers:</strong> 4–8</p><p>Zombie crabs are arthropods found on the exoplanet Droplet. Very similar in body plan to the crabs of Earth, zombie crabs are significantly larger and spikier. They are carnivorous and not particularly intelligent. Zombie crabs are so named because they spread a toxoplasma-related protist pathogen that affects the behavior of those infected. Zombie crabs are nocturnal and hunt prey at night, and they are quite skilled at moving quietly along the surf and shore to ambush victims. Not all of their targets are killed and eaten, however—some are deliberately wounded but kept alive, infected with the protists. The pathogen usually spreads quickly throughout the host. They then become infectious, spreading the disease to others. Over the course of a week, the infection drives up their temperature and hobbles their higher brain functions, causing them to seek out a cooling mechanism—usually water. The desired effect is to lure the victims out to the ocean, where they either drown or are dragged under the waves for a zombie crab feast.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Traits:</strong> Large Size (+10 to hit)</p><p><strong>Ware:</strong> Carapace Armor, Gills, Temperature Tolerance</p><p><strong>Protist Infection:</strong> After 5 days, the victim’s temperature spikes and they lose 5 points from all aptitudes each day, down to a minimum of 5.Victims receive the Modified Behavior (Enforced: Seek Out Water) trait.</p><p><em>Initiative printed: 3 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 10, Death Rating 75.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 154.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Zombie Crab (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 50,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 12,
+          "kinetic": 12
+        },
+        "movement": "4/20 Walker",
+        "implants": "Carapace Armor, Gills, Temperature Tolerance",
+        "advantages": "Large Size (+10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "a657b83d705bedd5",
+      "_key": "!actors.items!a35124dc3f1fd500.a657b83d705bedd5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6f4307519007018e",
+      "_key": "!actors.items!a35124dc3f1fd500.6f4307519007018e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "72c1e4e0e096c08d",
+      "_key": "!actors.items!a35124dc3f1fd500.72c1e4e0e096c08d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5a683cbaf0a1dd36",
+      "_key": "!actors.items!a35124dc3f1fd500.5a683cbaf0a1dd36",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b6d47540ba8c9140",
+      "_key": "!actors.items!a35124dc3f1fd500.b6d47540ba8c9140",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Scrounging",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "scrounging",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7a34273cfed0934a",
+      "_key": "!actors.items!a35124dc3f1fd500.7a34273cfed0934a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Swimming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "swimming",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b1641a79fa188506",
+      "_key": "!actors.items!a35124dc3f1fd500.b1641a79fa188506",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "928584b6ebc1268b",
+      "_key": "!actors.items!a35124dc3f1fd500.928584b6ebc1268b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "959a963cebacfeb3",
+      "_key": "!actors.items!a35124dc3f1fd500.959a963cebacfeb3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0dfff8953e5d081a",
+      "_key": "!actors.items!a35124dc3f1fd500.0dfff8953e5d081a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Claw",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": 0,
+        "dv": "2d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Claw: 50, DV 2d10 + 4, Reach (+10), damaged characters must make a DUR x 2 Test (+30 with medichines) or become infected by the protist pathogen.</p>"
+      },
+      "_id": "8eb2eae5b11fc8b7",
+      "_key": "!actors.items!a35124dc3f1fd500.8eb2eae5b11fc8b7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": -3,
+        "dv": "3d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite: 50, DV 3d10,AP −3, same infection risk as claws</p>"
+      },
+      "_id": "b4abb2e89cbee11b",
+      "_key": "!actors.items!a35124dc3f1fd500.b4abb2e89cbee11b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 67000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Zombie Crab",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

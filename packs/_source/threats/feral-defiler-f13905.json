@@ -1,0 +1,598 @@
+{
+  "_id": "f13905528781a3f9",
+  "_key": "!actors!f13905528781a3f9",
+  "name": "Feral Defiler",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 10,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 25,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Orange</p><p><strong>Numbers:</strong> 4–6</p><p>Feral defilers have grown from their larval form. Adults stand just over 2 meters tall and are covered with a spiky and chitinous exoskeleton. Their tail spikes are retractable. Chemical glands line their throats, allowing them to spit acid. Victims are impaled and rended with both of the creature’s arm or leg claws at the same time. Though cunning, they are roughly as intelligent as a smart animal or small child.</p><p>Victims stung by defilers are unaware they have been injected with eggs. For the first 2 days, they show no symptoms, and Medicine Tests suffer a −30 modifier to detect the parasitoids. On the third day, they suffer intense cramping and pain, taking DV 2d10 every hour as the larvae feed on their organs.This damage cannot be healed until the parasitoids are removed. Removing them is a Medicine Task Action (1 hour).There is a 30% chance that attempting to eradicate the larvae will force them to rapidly chew out and evacuate the body (inflicting DV 2d10). Otherwise the larvae eat their way out once the victim has died, consuming the corpse before scurrying off.</p><p>Larval defilers ensconce themselves in a cocoon, taking 1 week to transform into an adult.The cocoon itself offers 15/10 Armor, but the defilers inside are helpless and vulnerable during the metamorphosis (Durability 5).</p><p><strong>Stress Test:</strong> SV 1d10 + 3</p><p><strong>Ware:</strong> Acid Gland,Adrenal Boost, Carapace Armor (8/13), Enhanced Hearing, Enhanced Smell, Enhanced Vision, Hibernation, Muscle Augmentation, Prehensile Tail,Temperature Tolerance,Toxin Filters,Vacuum Sealing</p><p><strong>Fear Pheromones:</strong> Defilers emit pheromones tailored to trigger fear and flight responses in human biomorphs.Apply a +10 to Intimidation Tests when applicable.At the gamemaster’s discretion, close proximity to a defiler may provoke a WIL x 3 Test; if the human fails, they must flee for at least 2 Action Turns.</p><p><em>Initiative printed: 8 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 12, Death Rating 90.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 103.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Feral Defiler (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 60,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 8,
+          "kinetic": 13
+        },
+        "movement": "4/24 Walker",
+        "implants": "Acid Gland,Adrenal Boost, Carapace Armor (8/13), Enhanced Hearing, Enhanced Smell, Enhanced Vision, Hibernation, Muscle Augmentation, Prehensile Tail,Temperature Tolerance,Toxin Filters,Vacuum Sealing",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "3046e82515d6301a",
+      "_key": "!actors.items!f13905528781a3f9.3046e82515d6301a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2eca0de37d27e716",
+      "_key": "!actors.items!f13905528781a3f9.2eca0de37d27e716",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Exotic RangedWeapon",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Acid",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "85a7011c4980467b",
+      "_key": "!actors.items!f13905528781a3f9.85a7011c4980467b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2b644a9df20c3221",
+      "_key": "!actors.items!f13905528781a3f9.2b644a9df20c3221",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "146e635830cf74b8",
+      "_key": "!actors.items!f13905528781a3f9.146e635830cf74b8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "22cbbe4281d42418",
+      "_key": "!actors.items!f13905528781a3f9.22cbbe4281d42418",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "def7b2637734d637",
+      "_key": "!actors.items!f13905528781a3f9.def7b2637734d637",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Scrounging",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "scrounging",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c9f99a6e718c9dbd",
+      "_key": "!actors.items!f13905528781a3f9.c9f99a6e718c9dbd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Swimming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "swimming",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "77df092eb63f7091",
+      "_key": "!actors.items!f13905528781a3f9.77df092eb63f7091",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "Claw/Sting",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2132107d1091603b",
+      "_key": "!actors.items!f13905528781a3f9.2132107d1091603b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "64434589b19efaf9",
+      "_key": "!actors.items!f13905528781a3f9.64434589b19efaf9",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "Hearing/Smell/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "74abff2be02327a0",
+      "_key": "!actors.items!f13905528781a3f9.74abff2be02327a0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Sting",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -4,
+        "dv": "2d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Sting: 60, DV 2d10 + 3,AP −4; on an MoS of 30+ targets are impaled (treat as subdual, p. 204, EP) and injected with defiler eggs.</p>"
+      },
+      "_id": "697f67037e871672",
+      "_key": "!actors.items!f13905528781a3f9.697f67037e871672",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -2,
+        "dv": "3d10 +5",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Claws: 60, DV 3d10 +5,AP −2</p>"
+      },
+      "_id": "45d565a3214ce9f1",
+      "_key": "!actors.items!f13905528781a3f9.45d565a3214ce9f1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": -8,
+        "dv": "2d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite: 50, DV 2d10 + 3,AP −8</p>"
+      },
+      "_id": "83cbf18d445279fa",
+      "_key": "!actors.items!f13905528781a3f9.83cbf18d445279fa",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Acid Spit",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 50,
+        "ap": 0,
+        "dv": "3d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Acid Spit: 50, cone area effect, DV 3d10 + 3, plus DV 1d10 every turn for 3 additional Action Turns. Kinetic armor applies, but the AV is reduced by the DV absorbed. Range 5/10/15/20. Usable once per 12 hours.</p>"
+      },
+      "_id": "4828c82f710b9cbb",
+      "_key": "!actors.items!f13905528781a3f9.4828c82f710b9cbb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 11000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Feral Defiler",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

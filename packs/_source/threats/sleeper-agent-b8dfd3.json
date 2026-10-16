@@ -1,0 +1,357 @@
+{
+  "_id": "b8dfd35beebb6444",
+  "_key": "!actors!b8dfd35beebb6444",
+  "name": "Sleeper Agent",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 1–8</p><p>Puppets have the morph, ware, and gear appropriate to their cover. Stats are for a synthmorph technician.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down) when betrayed</p><p><strong>Traits:</strong> Modified Behavior (Awareness Block, Behavioral Control), Social Stigma (Clanking Masses), Uncanny Valley</p><p><strong>Ware:</strong> Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Enhanced Hearing, Enhanced Vision, Mnemonic Augmentation, Puppet Sock, Skillware</p><p><strong>Gear:</strong> Covert Operations Tool, Disabler, Disassembler Swarm, Encryption Software, Exploit Software, Hardware: Industrial Tools, Smart Dust, Utilitool</p><p><strong>Subdual:</strong> 50 (see Subdual, p. 204, EP); on next action puppet will make a called shot on target&#x27;s access jacks to plug in a disabler or a direct fiberoptic link to initiate a brainhack.</p><p><strong>Brainhack:</strong> 60 (see p. 261, EP)</p><p><strong>Hardware:</strong> Industrial 60, Hardware: Robotic 60, Impersonation 60, Infiltration 50, Infosec 60, Interfacing 40, Investigation 40,</p><p><strong>Profession:</strong> Security Ops 80, Programming 40, Unarmed Combat 40 (Subdual 50)</p><p><strong>Basilisk Hack:</strong> Deployed via augmented reality. See Basilisk Hacks, p. 365, EP.</p><p><em>Initiative printed: 6 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 8, Death Rating 80.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 132.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Sleeper Agent (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 40,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 6,
+          "kinetic": 6
+        },
+        "movement": "4/20",
+        "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Enhanced Hearing, Enhanced Vision, Mnemonic Augmentation, Puppet Sock, Skillware",
+        "advantages": "Modified Behavior (Awareness Block, Behavioral Control), Social Stigma (Clanking Masses), Uncanny Valley",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "9fcdc0a7f1b40555",
+      "_key": "!actors.items!b8dfd35beebb6444.9fcdc0a7f1b40555",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cb50dcd9ce95bead",
+      "_key": "!actors.items!b8dfd35beebb6444.cb50dcd9ce95bead",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Clubs",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "clubs",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f9c07e0a0599856e",
+      "_key": "!actors.items!b8dfd35beebb6444.f9c07e0a0599856e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a630f2a8b7e6c5b7",
+      "_key": "!actors.items!b8dfd35beebb6444.a630f2a8b7e6c5b7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a30b174c7671a1bd",
+      "_key": "!actors.items!b8dfd35beebb6444.a30b174c7671a1bd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9ee1592894ed5835",
+      "_key": "!actors.items!b8dfd35beebb6444.9ee1592894ed5835",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "feb17c802e199294",
+      "_key": "!actors.items!b8dfd35beebb6444.feb17c802e199294",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "Hearing/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5ef03395ff4430f1",
+      "_key": "!actors.items!b8dfd35beebb6444.5ef03395ff4430f1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Shock Baton",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 40,
+        "ap": 0,
+        "dv": "1d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": true,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Shock Baton: 40, DV 1d10 + 3, shock effect (p. 204, EP)</p>"
+      },
+      "_id": "d9809508222d4a6b",
+      "_key": "!actors.items!b8dfd35beebb6444.d9809508222d4a6b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 44000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Sleeper Agent",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "_id": "68d301cede226997",
+  "_key": "!actors!68d301cede226997",
+  "name": "Ny'knikiin",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Orange</p><p><strong>Numbers:</strong> 2–12</p><p>The ny’knikiin resulted from TITAN experiments in the weaponization of captured pod morphs The machines programmed simulmorphs that emulated pods and sleeved the egos of hundreds of Earthbased predators, testing to see what minds adapted to the alien bodies best. Mantis shrimp proved the most successful. The simulspace was time-accelerated further and the environment tailored to teach the shrimp to operate their new forms to full capacity. A few subjective millennia of time later and the ny’knikiin were ready for deployment. Ny’knikiin are identified by their mutilated mouths; the lips are peeled back to reveal a constant grimace and the tongues shaved into points—a disturbing contrast to the doll-like features of most pods. The fearsome appearance is furthered by grunts and screams meant to frighten prey, but the ny’knikiin otherwise arm and equip themselves like any other transhuman headed to war. Their language is a mix of radio signals and pheromones, taught to them by their creators. The TITANs engineered a tense into the grammar structure called the “god scent.” Communication from the machine gods provokes a conditioned endocrine response in ny’knikiin that’s a mixture of breeding-season heat and desperate hunger. In their addictive language, the TITANs taught their new creations everything they’d need to combat transhumanity, including how to implant cyberbrains in newborns. The name “ny’knikiin” comes from the Yazidi nomads of the TITAN Quarantine Zone, after a demon from their mythology. In their own language, ny’knikiin have named themselves after a burst of radio static and smell that translates to “those who can scent God.” Ny’knikiin are migratory, constantly patrolling their proscribed area of deployment, resting at small dome habitats of their own construction. Transhumans that aren’t killed for food are used for reproduction. Ny’knikiin egos are installed into captured pods; biomorphs are decerebrated so that a ny’knikiin cyberbrain can be installed. Synths are stripped for spare parts. As vicious and terrifying as the Ny’knikiin may be, they have nothing to do with the exsurgent virus and will kill any infected that come within range.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Traits:</strong> Anomalous Mind</p><p><strong>Ware:</strong> Basic Biomods, Basic Mesh Inserts, Bodysculpting, Cortical Stack, Cyberbrain, Enhanced Pheromones, Enhanced Smell, Mnemonic Augmentation, Pain Tolerance (Level 2), Puppet Sock, Scarification, Sex Switch</p><p><strong>Gear:</strong> Breather, Cold Weather Gear, Fabber, Nanobandages (2), Repair Spray, Shelter Dome</p><p><strong>Hardware:</strong> Electronics 40, Infiltration 50, Infosec 60, Interfacing 90, Intimidation 30, Navigation 30, Programming 70, Spray Weapons 60</p><p><strong>Ny’knikiin Meshed Gear:</strong> Ny’knikiin software is radically different from transhuman designs. Attempts to use or subvert ny’knikiin gear require extensive study (timeframe: 1 week)and suffer a −30 modifier. Ny’knikiin hackers are common and have software comparable to transhuman equivalents, but are at a similar disadvantage working with transhuman systems.</p><p><em>Initiative printed: 7 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 6, Death Rating 45.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 130.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Ny'knikiin (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 30,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 6,
+          "kinetic": 6
+        },
+        "movement": "4/20 Walker",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Bodysculpting, Cortical Stack, Cyberbrain, Enhanced Pheromones, Enhanced Smell, Mnemonic Augmentation, Pain Tolerance (Level 2), Puppet Sock, Scarification, Sex Switch",
+        "advantages": "Anomalous Mind",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "881c246530d2dbd6",
+      "_key": "!actors.items!68d301cede226997.881c246530d2dbd6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f933af9072749e72",
+      "_key": "!actors.items!68d301cede226997.f933af9072749e72",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Blades",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "blades",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f1880df3b95675f7",
+      "_key": "!actors.items!68d301cede226997.f1880df3b95675f7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "abf06e53aadd334e",
+      "_key": "!actors.items!68d301cede226997.abf06e53aadd334e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Clubs",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "clubs",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6b6cf0df17785f42",
+      "_key": "!actors.items!68d301cede226997.6b6cf0df17785f42",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "fea0f61c8d8d8738",
+      "_key": "!actors.items!68d301cede226997.fea0f61c8d8d8738",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4456112431868f5d",
+      "_key": "!actors.items!68d301cede226997.4456112431868f5d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "Smell",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b6f8036def74f012",
+      "_key": "!actors.items!68d301cede226997.b6f8036def74f012",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Diamond Ax",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": 0,
+        "dv": "2d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Diamond Ax: 60, DV 2d10 + 4</p>"
+      },
+      "_id": "24319a02e8634541",
+      "_key": "!actors.items!68d301cede226997.24319a02e8634541",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Shard Pistol",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -10,
+        "dv": "1d10 + 6",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Shard Pistol: 60, DV 1d10 + 6,AP −10, SA/BF/FA,Ammo 100</p>"
+      },
+      "_id": "6eb2ecf2af955891",
+      "_key": "!actors.items!68d301cede226997.6eb2ecf2af955891",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 42000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Ny'knikiin",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "_id": "75c5576d3067630e",
+  "_key": "!actors!75c5576d3067630e",
+  "name": "Bolatee",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 1,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 5,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 1,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Type:</strong> Xenofauna</p><p><strong>Niche:</strong> Europa</p><p><strong>Numbers:</strong> 6–24</p><p>This 5-meter long fish analog feeds on microkrill and moves in schools. Its branching masses of tendrils resemble jellyfish tentacles or roots.</p><p><strong>Traits:</strong> Large Size (+10 to hit)</p><p><strong>Ware:</strong> Echolocation, Hydrostatic Pressure Adaptation, Temperature Tolerance (Cryonic)</p><p><em>Initiative printed: 4 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 11, Death Rating 83.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 156.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Bolatee (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 55,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 7,
+          "kinetic": 4
+        },
+        "movement": "4/36 Swim",
+        "implants": "Echolocation, Hydrostatic Pressure Adaptation, Temperature Tolerance (Cryonic)",
+        "advantages": "Large Size (+10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "656ffa77377e45cd",
+      "_key": "!actors.items!75c5576d3067630e.656ffa77377e45cd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Swimming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "swimming",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a8b6b4a8178e2d80",
+      "_key": "!actors.items!75c5576d3067630e.a8b6b4a8178e2d80",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3519464e3a6fa4a4",
+      "_key": "!actors.items!75c5576d3067630e.3519464e3a6fa4a4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "338e4a4b3b69c559",
+      "_key": "!actors.items!75c5576d3067630e.338e4a4b3b69c559",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ca6355092b65f004",
+      "_key": "!actors.items!75c5576d3067630e.ca6355092b65f004",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Entangle",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": 0,
+        "dv": "2d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Entangle: 50, Reach (+10), see Subdual, p. 204, EP. On subsequent actions, entangled victims will be grabbed by other bolatees and torn apart, inflicting DV 2d10 (armor does not protect).</p>"
+      },
+      "_id": "816d585590b4dd41",
+      "_key": "!actors.items!75c5576d3067630e.816d585590b4dd41",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "dc3626d7274902b1",
+  "sort": 69000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Bolatee",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

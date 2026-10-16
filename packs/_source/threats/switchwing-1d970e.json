@@ -1,0 +1,401 @@
+{
+  "_id": "1d970eb78a397852",
+  "_key": "!actors!1d970eb78a397852",
+  "name": "Switchwing",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 1,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 5,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 4–8</p><p>This six-legged flying arthropod is native to the exoplanet Synergy. A meter long with a 1.5-meter wingspan, the switchwing is so named for its double sets of dragonflyesque wings, one of which is used for general mobility, and the other when actively hunting. These provide the predator with astonishing aerial capabilities, from hovering and swooping to fast diving attacks. The two forelimbs of the switchwing end in massive four-clawed pincers. These are ideal for snatching small prey animals off the ground but can also take chunks out of larger victims. A smaller set of mandibles is used for biting. Females of the species are also equipped with a nasty venomous stinger. Victims are ambushed and quickly stung, then the switchwing withdraws and tracks the victim until the poison slowly kills them. The same stinger is then used to implant switchwing eggs in the corpse, so that their larvae can hatch and feed.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Diving Attack:</strong> 60, 3d10 + 4,AP −2, switchwings can move their full Running rate and dive attack with no additional modifiers.</p><p><strong>Onset:</strong> 1 minute, Duration: 1 hour (30 minutes with medichines), victims take DV 2d10 from internal bleeding every ten minutes.</p><p><em>Initiative printed: 7 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 7, Death Rating 30.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 142.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Switchwing (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 35,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "8/40 Winged",
+        "implants": "",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "815c12bec70652fe",
+      "_key": "!actors.items!1d970eb78a397852.815c12bec70652fe",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "346881d605338358",
+      "_key": "!actors.items!1d970eb78a397852.346881d605338358",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "flight",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "dcac86bdbb7779a7",
+      "_key": "!actors.items!1d970eb78a397852.dcac86bdbb7779a7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "98b5d5abb688634e",
+      "_key": "!actors.items!1d970eb78a397852.98b5d5abb688634e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e68531f8d4e3b49a",
+      "_key": "!actors.items!1d970eb78a397852.e68531f8d4e3b49a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ae51ad8a732974d3",
+      "_key": "!actors.items!1d970eb78a397852.ae51ad8a732974d3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Mandibles",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": 0,
+        "dv": "1d10 + 1",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Mandibles: 50, DV 1d10 + 1</p>"
+      },
+      "_id": "72835544f9550de1",
+      "_key": "!actors.items!1d970eb78a397852.72835544f9550de1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hunting Pincers",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": 0,
+        "dv": "1d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Hunting Pincers: 50, DV 1d10 + 4</p>"
+      },
+      "_id": "2faf7ebf0a527e01",
+      "_key": "!actors.items!1d970eb78a397852.2faf7ebf0a527e01",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Stinger",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": -2,
+        "dv": "2d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Stinger: 50, DV 2d10,AP −2.Toxin: Injected,</p>"
+      },
+      "_id": "c90ca86f37c70edb",
+      "_key": "!actors.items!1d970eb78a397852.c90ca86f37c70edb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 55000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Switchwing",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

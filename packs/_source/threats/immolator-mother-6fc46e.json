@@ -1,0 +1,401 @@
+{
+  "_id": "6fc46efd148fce2a",
+  "_key": "!actors!6fc46efd148fce2a",
+  "name": "Immolator Mother",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 5,
+        "mod": 0
+      },
+      "coo": {
+        "base": 5,
+        "mod": 0
+      },
+      "int": {
+        "base": 5,
+        "mod": 0
+      },
+      "ref": {
+        "base": 5,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 30,
+        "mod": 0
+      },
+      "wil": {
+        "base": 30,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Orange</p><p><strong>Numbers:</strong> 1</p><p>The mother is created from the remains of patient zero. After constructing the hives, the remains of the totally insane transhuman mutate into a gibbering mass of uteruses and mouths. All lucidity is gone; the meaty mass serves only to accept ovipositors and lash out blindly against intruders with tentacles and psychic stabs. After receiving sufficient genetic material, the mother hardens fertilized zygotes into lightweight, crystalline spores and sends a pheromone signal for the family to self-destruct. At this point, the breeders sink into the cancerous mass and are consumed to fatten the mother for hibernation. If the mother is on an orbital vehicle, drones send the ship towards the nearest star. The mother is consumed by the solar heat, but crystal spores survive, catch on solar winds, and spread throughout the universe. If trapped planet-side, drones cut the mother into pieces and smuggle pieces in the widest distribution possible.</p><p><strong>Stress Test:</strong> SV 1d10 + 5</p><p><strong>Traits:</strong> Large Size (+10 to hit), Mental Disorder (Alien Behavior), Modified Behavior (Enforced: Breeding, Nesting), Psi (Level 2), Psi Defense</p><p><strong>Ware:</strong> Hibernation, Medichines, Oxygen Reserve, Vacuum Sealing</p><p><strong>Common Psi Sleights:</strong> Ego Sense, Extend Range, Psi Shield, Psychic Rend, Psychic Stab</p><p><strong>Exsurgent Infection:</strong> Mothers infect biomorphs with the glory exsurgent virus (p. 175) by exchanging bodily fluids.</p><p><em>Initiative printed: 2 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 20, Death Rating 150.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 122.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Immolator Mother (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 100,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 4,
+          "kinetic": 4
+        },
+        "movement": "None",
+        "implants": "Hibernation, Medichines, Oxygen Reserve, Vacuum Sealing",
+        "advantages": "Large Size (+10 to hit), Mental Disorder (Alien Behavior), Modified Behavior (Enforced: Breeding, Nesting), Psi (Level 2), Psi Defense",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "2b0a73369cc6c59e",
+      "_key": "!actors.items!6fc46efd148fce2a.2b0a73369cc6c59e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Psi Assault",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "psiAssault",
+        "aptitude": "wil",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "10d95b0c78d55887",
+      "_key": "!actors.items!6fc46efd148fce2a.10d95b0c78d55887",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Sense",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "sense",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f2e894f25110e42a",
+      "_key": "!actors.items!6fc46efd148fce2a.f2e894f25110e42a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c09b0745e259fa74",
+      "_key": "!actors.items!6fc46efd148fce2a.c09b0745e259fa74",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c75509fbb9c28372",
+      "_key": "!actors.items!6fc46efd148fce2a.c75509fbb9c28372",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 5,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4c0667d523f8261a",
+      "_key": "!actors.items!6fc46efd148fce2a.4c0667d523f8261a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 70,
+        "ap": -1,
+        "dv": "2d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite: 70, DV 2d10 + 3,AP −1. Biomorphs wounded by this bite are infected with the glory exsurgent virus (p. 175).</p>"
+      },
+      "_id": "94f15d52b0374cca",
+      "_key": "!actors.items!6fc46efd148fce2a.94f15d52b0374cca",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Tentacles",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 70,
+        "ap": 0,
+        "dv": "1d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Tentacles: 70, DV 1d10 + 3, Reach (+20); may attack with multiple tentacles at once</p>"
+      },
+      "_id": "1a99a103aa0d1ed4",
+      "_key": "!actors.items!6fc46efd148fce2a.1a99a103aa0d1ed4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Psychic Stab",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 60,
+        "ap": 0,
+        "dv": "2d10 + 5",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Psychic Stab: 60, DV 2d10 + 5, Close Range, opposed with WIL x 2, Strain 1d10 ÷ 2</p>"
+      },
+      "_id": "6fb1fd4ea9c9cd31",
+      "_key": "!actors.items!6fc46efd148fce2a.6fb1fd4ea9c9cd31",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 32000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Immolator Mother",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "_id": "c35fc990c66dd613",
+  "_key": "!actors!c35fc990c66dd613",
+  "name": "Iktomi Kumobot",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 1,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1–8</p><p>The seemingly-extinct arthropod-analog alien species known as the Iktomi left ruins and artifacts on dozens of gate-connected worlds. Though these ruins are thousands of years old, many remain surprisingly intact. In at least two instances, these sites were protected by stillfunctioning guardian robots, dubbed “kumobots.” Like their creators, kumobots have a spider-like form, with six radially symmetric legs and a smaller pair of manipulative arms/claws. As a protective measure, the head retracts into the body and the legs pull in as a protective shield. The kumobot’s shape-changing features enable it to further pull into a ball for high-speed rolling. Curiously, the legs are also detachable, suggesting that perhaps Iktomi biology functioned the same. The exact purpose of kumobots is unclear, aside from protecting Iktomi locations and technology. Though equipped with weaponry such as adjustable-strength lasers, their general utility suggests they may have served other purposes. Unfortunately, all known specimens have been destroyed. Due to their great age, there is a chance that kumobots may be partially disabled, erratic in their behavior, or otherwise malfunctioning.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Traits:</strong> Ambidextrous x 3 (both hands, fore legs); Some kumobots may have the Mental Disorder or Neural Damage traits.</p><p><strong>Ware:</strong> Electrical Sense, Enhanced Hearing, Enhanced Vision, Magnetic System, Neurachem, Pneumatic Limbs, Radar, Radiation Sense, Shape Adjusting, Specialized Hive (Fixer Nanoswarm), Structural Enhancement, Wrist-Mounted Tools</p><p><strong>Notes:</strong> Individual limbs may be detached with a Quick Action.</p><p><strong>Adjustable Laser Pulser:</strong> DV 2d10, SA, Range 50/100/150/250,Ammo 100; may increase damage +1d10 DV per shot by consuming 1 extra ammo, up to a maximum of +5d10 DV.</p><p><strong>Hardware:</strong> Electronics 40,Hardware:Industrial 40, Unarmed Combat 60 (Leg Spike 70)</p><p><em>Initiative printed: 6 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 14, Death Rating 140.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 120.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Iktomi Kumobot (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 70,
+        "speedMod": 1,
+        "initMod": 0,
+        "armor": {
+          "energy": 28,
+          "kinetic": 18
+        },
+        "movement": "4/24 Walker, 5/40 Roller",
+        "implants": "Electrical Sense, Enhanced Hearing, Enhanced Vision, Magnetic System, Neurachem, Pneumatic Limbs, Radar, Radiation Sense, Shape Adjusting, Specialized Hive (Fixer Nanoswarm), Structural Enhancement, Wrist-Mounted Tools",
+        "advantages": "Ambidextrous x 3 (both hands, fore legs); Some kumobots may have the Mental Disorder or Neural Damage traits.",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "c16c109947e6ae9d",
+      "_key": "!actors.items!c35fc990c66dd613.c16c109947e6ae9d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Art",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "art",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Music",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "410d4a1efd594824",
+      "_key": "!actors.items!c35fc990c66dd613.410d4a1efd594824",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "BeamWeapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "26a03754798ce2fd",
+      "_key": "!actors.items!c35fc990c66dd613.26a03754798ce2fd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ea47a127972e1264",
+      "_key": "!actors.items!c35fc990c66dd613.ea47a127972e1264",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b4b1ceb43ea15d5e",
+      "_key": "!actors.items!c35fc990c66dd613.b4b1ceb43ea15d5e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2751aa42accda694",
+      "_key": "!actors.items!c35fc990c66dd613.2751aa42accda694",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cdc2b4936dead87a",
+      "_key": "!actors.items!c35fc990c66dd613.cdc2b4936dead87a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "Hearing/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4dc2c7f9d2d0af78",
+      "_key": "!actors.items!c35fc990c66dd613.4dc2c7f9d2d0af78",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Claw",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -2,
+        "dv": "2d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Claw: 60, DV 2d10 + 3 (+1d10 if attacking with both),AP −2</p>"
+      },
+      "_id": "1e358930452f9408",
+      "_key": "!actors.items!c35fc990c66dd613.1e358930452f9408",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Leg Spike",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 70,
+        "ap": -3,
+        "dv": "3d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Leg Spike: 70, DV 3d10 + 4 (+1d10 if attacking with two),AP −3</p>"
+      },
+      "_id": "87e83fc5e00487a1",
+      "_key": "!actors.items!c35fc990c66dd613.87e83fc5e00487a1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 30000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Iktomi Kumobot",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "_id": "c7dc2c45334ec800",
+  "_key": "!actors!c7dc2c45334ec800",
+  "name": "Hunter-Killer",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 30,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 30,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 2–6</p><p>Hunter-killers achieved air superiority in almost every conflict with the TITANs during the Fall. These lethal drones improved on every aspect of existing transhuman fighter design. Their sleek, adjustable bodies could defeat sensors in multiple wavelengths. They performed jet-powered maneuvers in excess of 10 g with total precision and in perfect formation. Unfolding panels pulled back to reveal advanced weaponry and flexible vector-thrust engines capable of sending the hunter-killer strafing in any direction. During the Fall, transhuman and TITAN drones met in air engagements so massive they nearly blotted out the sun. In the end, it was always the hunter-killers left hovering in the sky above wreck-strewn cities. Occasionally, they’d swoop down to destroy some last vestige of defense, but mostly, they just floated there, watching impassively as exsurgent monsters hunted the civilians below.</p><p>2 Particle Beam Rifles: 55, DV 2d10 + 4,AP −2, SA,Ammo Unlimited 2 Railgun Machine Guns: 65, DV 2d10 + 8, AP −9, BF/FA,Ammo 500 each 2 HEAP Seeker Rifles: 80, DV 3d10 + 12, AP −8,Ammo 6 minimissiles each</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2, round down</p><p><strong>Ware:</strong> Anti-Glare, Chameleon Skin, Enhanced Vision, Lidar, Radar, Shape-Adjusting</p><p><strong>Deflectors:</strong> Some advanced hunter-killer models are equipped with supercapacitors embedded within their armor that release a massive charge at the area pinpointed by an attack, creating a temporary, huge, electromagnetic force field that repels or destroys incoming projectiles.This provides a −30 modifier to hit the hunter-killer, but only against kinetic weapon and seeker attacks that the hunterkiller has detected.These deflectors have 20 uses before they must be recharged, which takes 2 hours.</p><p><em>Initiative printed: 9 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 10, Death Rating 100.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 119.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Hunter-Killer (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 50,
+        "speedMod": 1,
+        "initMod": 0,
+        "armor": {
+          "energy": 14,
+          "kinetic": 14
+        },
+        "movement": "",
+        "implants": "Anti-Glare, Chameleon Skin, Enhanced Vision, Lidar, Radar, Shape-Adjusting",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "f45d1018aaa8576a",
+      "_key": "!actors.items!c7dc2c45334ec800.f45d1018aaa8576a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "22167c40d0c27b4d",
+      "_key": "!actors.items!c7dc2c45334ec800.22167c40d0c27b4d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "flight",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b2689bbf34581785",
+      "_key": "!actors.items!c7dc2c45334ec800.b2689bbf34581785",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7191f4d768edd087",
+      "_key": "!actors.items!c7dc2c45334ec800.7191f4d768edd087",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "686863573c842173",
+      "_key": "!actors.items!c7dc2c45334ec800.686863573c842173",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Seeker Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "seekerWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a3a2957e8bf680b6",
+      "_key": "!actors.items!c7dc2c45334ec800.a3a2957e8bf680b6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6267ab90f4f15b48",
+      "_key": "!actors.items!c7dc2c45334ec800.6267ab90f4f15b48",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "49e2298cdcbfc6f3",
+      "_key": "!actors.items!c7dc2c45334ec800.49e2298cdcbfc6f3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 29000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Hunter-Killer",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

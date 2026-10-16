@@ -101,6 +101,14 @@
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
+      "name": "threats",
+      "label": "Threats and Creatures",
+      "path": "packs/threats",
+      "type": "Actor",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
+    },
+    {
       "name": "sleights",
       "label": "Psi Sleights (Core, Transhuman, X-Risks)",
       "path": "packs/sleights",
@@ -113,7 +121,7 @@
     {
       "name": "Eclipse Phase",
       "sorting": "m",
-      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights", "vehicles"]
+      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights", "vehicles", "threats"]
     }
   ],
   "documentTypes": {

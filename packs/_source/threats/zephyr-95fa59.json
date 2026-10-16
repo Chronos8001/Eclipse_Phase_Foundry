@@ -1,0 +1,401 @@
+{
+  "_id": "95fa59ae72b1d378",
+  "_key": "!actors!95fa59ae72b1d378",
+  "name": "Zephyr",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 5,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 10,
+        "mod": 0
+      },
+      "sav": {
+        "base": 1,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 5,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1</p><p>Zephyrs are unusual predators discovered living in the upper layers of a gas giant’s atmosphere. It is strongly suspected that zephyrs were genetically engineered and seeded along with numerous other species to create a unique ecosystem on the exoplanet Fata Morgana by an unknown civilization. Zephyrs are the apex predators of this environment, feeding on the balloon creatures and jelly-like floaters that drift among the haze and storm banks. Though whale-sized, zephyrs have massive gas-filled bladders that keep them afloat in denser atmosphere and powerful wings for maneuverability. Sophisticated biological nanobots repair radiation damage and keep their gas bladders filled. They have been known to swallow drones and cloud skate morphs whole and to grab and drag prey with their tail arms.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Traits:</strong> Very Large Size (+30 to hit)</p><p><strong>Ware:</strong> Direction Sense, Enhanced Hearing, Enhanced Respiration, High-G Adaptation, Hydrostatic Pressure Adaptation, Medichines, Swim Bladder, Temperature Tolerance (Cryonic),Wings</p><p><em>Initiative printed: 4 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 24, Death Rating 180.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 155.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Zephyr (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 120,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 12,
+          "kinetic": 8
+        },
+        "movement": "8/60 Winged",
+        "implants": "Direction Sense, Enhanced Hearing, Enhanced Respiration, High-G Adaptation, Hydrostatic Pressure Adaptation, Medichines, Swim Bladder, Temperature Tolerance (Cryonic),Wings",
+        "advantages": "Very Large Size (+30 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "ebc3f9f841020e67",
+      "_key": "!actors.items!95fa59ae72b1d378.ebc3f9f841020e67",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5fce4e1dbba9c50a",
+      "_key": "!actors.items!95fa59ae72b1d378.5fce4e1dbba9c50a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "flight",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "123aa0e1e857097e",
+      "_key": "!actors.items!95fa59ae72b1d378.123aa0e1e857097e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "Bite/Tail",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2e20a9c80a4ea3bc",
+      "_key": "!actors.items!95fa59ae72b1d378.2e20a9c80a4ea3bc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7b9343079f74dcdb",
+      "_key": "!actors.items!95fa59ae72b1d378.7b9343079f74dcdb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "Hearing",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e5d1f6d2f31a9b1b",
+      "_key": "!actors.items!95fa59ae72b1d378.e5d1f6d2f31a9b1b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 55,
+        "ap": 0,
+        "dv": "2d10 + 6",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite: 55,DV 2d10 + 6,Reach (+20),large and smaller targets are swallowed whole with an MoS of 30+.Swallowed victims take DV 1d10 per minute;armor protects but is reduced by damage.</p>"
+      },
+      "_id": "8ce15eea21463477",
+      "_key": "!actors.items!95fa59ae72b1d378.8ce15eea21463477",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Wing Bash",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 45,
+        "ap": 0,
+        "dv": "3d10 + 6",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Wing Bash: 45, DV 3d10 + 6, Reach (+20)</p>"
+      },
+      "_id": "e515e6beb9dafed4",
+      "_key": "!actors.items!95fa59ae72b1d378.e515e6beb9dafed4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Tail",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 55,
+        "ap": 0,
+        "dv": "2d10 + 6",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Tail: 55, DV 2d10 + 6, Reach (+20), struck targets that are medium or larger sized may be subdued (p. 204, EP) with a Quick Action</p>"
+      },
+      "_id": "6ca9783182b4ec9b",
+      "_key": "!actors.items!95fa59ae72b1d378.6ca9783182b4ec9b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 68000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Zephyr",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

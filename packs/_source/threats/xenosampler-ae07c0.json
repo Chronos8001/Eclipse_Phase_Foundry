@@ -1,0 +1,401 @@
+{
+  "_id": "ae07c07db2569a36",
+  "_key": "!actors!ae07c07db2569a36",
+  "name": "Xenosampler",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 25,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 30,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Orange</p><p><strong>Numbers:</strong> 1–3</p><p>Xenosamplers are AI-piloted drones send out by an unknown alien species to explore exoplanets via the Pandora gate network, collect samples of alien life, and return home. For reasons unknown, these xenosamplers are unable to find their way back. Perhaps the gate connections no longer work, perhaps they were damaged or lost their memories, or perhaps the civilization that created them no longer exists. Xenosamplers are maneuverable thrust-vector flyers, often ranging considerably far from the nearest Pandora gate in search of life. They use a variety of tools to observe and take samples, up to and including stunning creatures with an electrolaser. Some have been known to set non-lethal traps to capture subjects for sampling and study. Xenosamplers are not particularly hostile—they simply wish to gather their samples and move on. They are wary around sapient life. If presented with overwhelming firepower or hostility, they will flee. Though xenosamplers sometimes work in small groups, they are typically found alone. Firewall is not yet aware of xenosamplers, though there has been at least one hostile encounter between xenosamplers and hypercorp gatecrashing teams.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Ware:</strong> Chameleon Skin, Chemical Sniffer, Eelware, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Lidar, Medichines, Neurachem (Level 1), Radiation Sense, Shape Adjusting, Specialized</p><p><strong>Gear:</strong> Blue Box Gate Control Unit</p><p><strong>Notes:</strong> Xenosamplers may be incredibly old, damaged, and/or malfunctioning.They may carry large xenoflora and -fauna sample payloads, some still alive and/or dangerous.</p><p><strong>Freezer:</strong> 50, cone area effect, SA,Ammo 20, REF x 3 Test or trapped. Foam has Armor 10, Durability 20, and breaks down after 12 hours.</p><p><strong>Melee Weapon:</strong> Control Pole 60,</p><p><strong>Exotic Melee Weapon:</strong> Sampling Needle 70, Flight 70, Infiltration 50, Investigation 50, Medicine: Veterinary 50, Scrounging 80, Spray Weapons 50, Unarmed Combat 50</p><p><strong>Hive:</strong> Scouts,T-Ray Emitter</p><p><em>Initiative printed: 9 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 9, Death Rating 90.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 153.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Xenosampler (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 45,
+        "speedMod": 1,
+        "initMod": 0,
+        "armor": {
+          "energy": 15,
+          "kinetic": 15
+        },
+        "movement": "4/36 Thrust Vector",
+        "implants": "Chameleon Skin, Chemical Sniffer, Eelware, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Lidar, Medichines, Neurachem (Level 1), Radiation Sense, Shape Adjusting, Specialized",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "a8da499c2c4f0f13",
+      "_key": "!actors.items!ae07c07db2569a36.a8da499c2c4f0f13",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Astrobiology",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "186a72e958e12189",
+      "_key": "!actors.items!ae07c07db2569a36.186a72e958e12189",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Animal Handling",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "animalHandling",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "33a01afa9a37ab62",
+      "_key": "!actors.items!ae07c07db2569a36.33a01afa9a37ab62",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d6e978858a735753",
+      "_key": "!actors.items!ae07c07db2569a36.d6e978858a735753",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6c906d2933605c68",
+      "_key": "!actors.items!ae07c07db2569a36.6c906d2933605c68",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "Hearing/Smell/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "58b973499e3589f3",
+      "_key": "!actors.items!ae07c07db2569a36.58b973499e3589f3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Stunner",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 50,
+        "ap": 0,
+        "dv": "ceil(1d10 / 2)",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": true,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Stunner: 50, DV 1d10 ÷ 2, shock effect (p. 204, EP), SA,Ammo 200</p>"
+      },
+      "_id": "b5c7cffd384b1fff",
+      "_key": "!actors.items!ae07c07db2569a36.b5c7cffd384b1fff",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Sampling Needle",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 70,
+        "ap": -3,
+        "dv": "1d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Sampling Needle: 70, DV 1d10,AP −3.</p>"
+      },
+      "_id": "085b26afccab501f",
+      "_key": "!actors.items!ae07c07db2569a36.085b26afccab501f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Critter Control Pole",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": 0,
+        "dv": "ceil(1d10 / 2)",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Critter Control Pole: 60, Reach (+10).With an MoS of 30+, target is snared around neck. Attempts to move will result in DV 1d10 ÷ 2 (round down, armor does not protect) and asphyxiation (p. 194, EP).</p>"
+      },
+      "_id": "2d063513bdd26c15",
+      "_key": "!actors.items!ae07c07db2569a36.2d063513bdd26c15",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 66000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Xenosampler",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

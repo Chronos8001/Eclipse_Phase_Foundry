@@ -1,0 +1,260 @@
+{
+  "_id": "a832dd1be1132cef",
+  "_key": "!actors!a832dd1be1132cef",
+  "name": "Guardian: Spider Head",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 10,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 1–6</p><p>A favorite design is to implant a set of robotic spider legs onto an artificially sustained but decapitated human head.The faces are often animated or at least stylized with grotesque expressions. Each head is packed with explosives, which the spider will detonate when it gets close to an enemy.</p><p><strong>Stress Test:</strong> SV 1d10 + 3</p><p><strong>Traits:</strong> Mental Disorder (Insane)</p><p><strong>Common Ware:</strong> Access Jacks, Cyberbrain, Pneumatic Limbs, Puppet Sock</p><p><strong>Suicide Explosion:</strong> DV 4d10 + 10,AP −6, blast area effect</p><p><strong>Volatile:</strong> Any damaging hit on a spider bot has a (20 + DV inflicted)% chance of setting off the explosives it carries.</p><p><em>Initiative printed: 5 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 2, Death Rating 20.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 126.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Guardian: Spider Head (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 10,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 1,
+          "kinetic": 1
+        },
+        "movement": "4/28 Walker",
+        "implants": "Access Jacks, Cyberbrain, Pneumatic Limbs, Puppet Sock",
+        "advantages": "Mental Disorder (Insane)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "7fb9c8e08578b0f2",
+      "_key": "!actors.items!a832dd1be1132cef.7fb9c8e08578b0f2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9802b0e4adc19237",
+      "_key": "!actors.items!a832dd1be1132cef.9802b0e4adc19237",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f91ec0dfb2580bbc",
+      "_key": "!actors.items!a832dd1be1132cef.f91ec0dfb2580bbc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "19d37e42e278ef28",
+      "_key": "!actors.items!a832dd1be1132cef.19d37e42e278ef28",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1c4adabbfd0e461f",
+      "_key": "!actors.items!a832dd1be1132cef.1c4adabbfd0e461f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "38aea3f58acc1cfe",
+      "_key": "!actors.items!a832dd1be1132cef.38aea3f58acc1cfe",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 37000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Guardian: Spider Head",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

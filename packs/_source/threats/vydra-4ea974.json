@@ -1,0 +1,357 @@
+{
+  "_id": "4ea974a9d4aa0fd6",
+  "_key": "!actors!4ea974a9d4aa0fd6",
+  "name": "Vydra",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 5,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 30,
+        "mod": 0
+      },
+      "som": {
+        "base": 1,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1–4</p><p>The horrific alien creatures known as vydra are native to the exoplanet Gwadar. Three sinuous necks end in vicious quadhinged mouths lined with jagged teeth. Much like octopi, each neck of the vydra is lined with neurons and acts independently. The creature moves as a quadruped with lobster-like legs and a thick spiked tail. Each neck features eight clawed arms used for grasping prey. Though they lack sight, vydra sense and communicate via ultrasonic clicks with their tongue, and their breathing vents provide a fine sense of smell. Though large, vydras are stealthy hunters, often lunging from shallow caves or holes to attack prey. Their common tactic is to snap one set of jaws around their target, holding it in place while the others frenzy and rip it to shreds. Vydra are accustomed to ripping shell plates off of their favorite prey animals, and they have shown a similar proclivity to transhumans, literally ripping their armor off to snap and bite at the unprotected interior flesh.</p><p>Bite (x3): 60, DV 3d10 + 6,AP −3, Reach (+10), Each vydra head may attack separately with the same action. If the MoS exceeds the target’s Durability, they are subdued (p. 204, EP).</p><p><strong>Stress Test:</strong> SV (1d10 ÷ 2, round down) + 2</p><p><strong>Traits:</strong> Large Size (+10 to hit)</p><p><strong>Ware:</strong> Echolocation, Enhanced Smell</p><p><strong>Shear Armor:</strong> 60, Reach (+10), if the vydra achieves a MoS equal to the AV x 2 or more, it rips off a chunk of protection. Reduce the target’s AV values by 1d10 + 2.</p><p><strong>Frenzy:</strong> If a vydra smells or tastes blood, it will enter into a murderous frenzy. Increase REF and Fray by +10, and the vydra can ignore the effects of 2 wounds.This effect lasts until the vydra has no more prey to kill in the immediate vicinity and it has gorged on its victim(s).</p><p><em>Initiative printed: 7 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 13, Death Rating 98.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 146.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Vydra (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 65,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 3,
+          "kinetic": 5
+        },
+        "movement": "4/20 Walker",
+        "implants": "Echolocation, Enhanced Smell",
+        "advantages": "Large Size (+10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "9027c44126e39d43",
+      "_key": "!actors.items!4ea974a9d4aa0fd6.9027c44126e39d43",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Exotic Melee Weapon",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "exoticMelee",
+        "aptitude": "som",
+        "category": "active",
+        "field": "Tail Swipe",
+        "ranks": 49,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f5fd385d5ec34da7",
+      "_key": "!actors.items!4ea974a9d4aa0fd6.f5fd385d5ec34da7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 29,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0db129e15ad05d3d",
+      "_key": "!actors.items!4ea974a9d4aa0fd6.0db129e15ad05d3d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "28e13ce98e233ef8",
+      "_key": "!actors.items!4ea974a9d4aa0fd6.28e13ce98e233ef8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6539184e949e5b4d",
+      "_key": "!actors.items!4ea974a9d4aa0fd6.6539184e949e5b4d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 59,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "203178cea2e53a4d",
+      "_key": "!actors.items!4ea974a9d4aa0fd6.203178cea2e53a4d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3d0f8b63393ca4d7",
+      "_key": "!actors.items!4ea974a9d4aa0fd6.3d0f8b63393ca4d7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "Smell",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2c66b1c7c64a4bdd",
+      "_key": "!actors.items!4ea974a9d4aa0fd6.2c66b1c7c64a4bdd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Tail Swipe",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 55,
+        "ap": 0,
+        "dv": "3d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Tail Swipe: 55, DV 3d10 + 3, Reach (+10), target must make a SOM x 3 Test or be knocked down.</p>"
+      },
+      "_id": "2f55a568dc94c54d",
+      "_key": "!actors.items!4ea974a9d4aa0fd6.2f55a568dc94c54d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 59000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Vydra",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

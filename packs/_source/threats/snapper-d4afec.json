@@ -1,0 +1,454 @@
+{
+  "_id": "d4afec2c71c034fa",
+  "_key": "!actors!d4afec2c71c034fa",
+  "name": "Snapper",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 30,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 30,
+        "mod": 0
+      },
+      "sav": {
+        "base": 20,
+        "mod": 0
+      },
+      "som": {
+        "base": 35,
+        "mod": 0
+      },
+      "wil": {
+        "base": 30,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1–3</p><p>At least one variant of the exsurgent virus explicitly targets synthmorphs, bots, and vehicles. The nanoplague physically breaks these machines down, combines them with other machines, and transforms them into centipede-like monstrosities known as snappers. The chassis of a snapper is usually adapted from large shells or vehicles. The frame is a hollow hexagonal tube composed of hinged segments that allow it to contort like the body of a snake. Multiple sets of limbs line three sides of the tube, set radially at 120-degree increments. The limbs are heavy, doublejointed, and articulated with three joints. Each ends in either a triad of manipulator digits or a pincer resembling a giant, three-pronged scissor. Snapper movement is as perplexing as it is terrifying to behold. The synths technically “walk” on their limbs, but they do so in an unpredictable, rolling gait, seeming to stumble or“fall up”wherever they go. Their bizarre movement, large size, thick armor, and giant pincers make snappers formidable opponents. A digital version of this exovirus strain is also known to target and infect minifac and large-scale fabrication facilities. In the Fall, snappers were typically deployed in areas where the TITANs seized control of crude factories without the exotic matter necessary to craft sophisticated weaponry. A favorite tactic was to send snappers after clustered crowds of transhumans awaiting farcasting or evacuation. The speed and efficiency with which they could be assembled made them a favorite harassment tactic, occupying defense forces until more sophisticated exsurgents could arrive. Too often, the snappers were enough to finish the job, rolling through and dismembering panicked crowds with abandon.</p><p><strong>Stress Test:</strong> SV 1d10</p><p><strong>Traits:</strong> Ambidexterity (x4), Large Size (+10 to hit)</p><p><strong>Ware:</strong> 360-Degree Vision, Enhanced Vision, Lidar, Magnetic System, Neurachem, Structural Enhancement</p><p><strong>Armored Variant:</strong> Heavy Armor (+16/+16), Offensive Armor Mod (shock effect; p. 204, EP), Self-Healing Armor Mod, 2 Weapon Mounts (External,Articulated) with twin Railgun Machine Guns (DV 2d10 + 8, AP −9, BF/FA,Ammo 500)</p><p><em>Initiative printed: 10 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 14, Death Rating 140.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 139.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Snapper (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 70,
+        "speedMod": 1,
+        "initMod": 0,
+        "armor": {
+          "energy": 16,
+          "kinetic": 16
+        },
+        "movement": "4/24 Walker, 6/40 Roller",
+        "implants": "360-Degree Vision, Enhanced Vision, Lidar, Magnetic System, Neurachem, Structural Enhancement",
+        "advantages": "Ambidexterity (x4), Large Size (+10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "294c7cb7f8c9fc2e",
+      "_key": "!actors.items!d4afec2c71c034fa.294c7cb7f8c9fc2e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "fa19176271895275",
+      "_key": "!actors.items!d4afec2c71c034fa.fa19176271895275",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "dd56df594ed752e7",
+      "_key": "!actors.items!d4afec2c71c034fa.dd56df594ed752e7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "704b6968be71ea6c",
+      "_key": "!actors.items!d4afec2c71c034fa.704b6968be71ea6c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f00dd38a020c7292",
+      "_key": "!actors.items!d4afec2c71c034fa.f00dd38a020c7292",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "64b6e306ef2a5602",
+      "_key": "!actors.items!d4afec2c71c034fa.64b6e306ef2a5602",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0fff2a0ccff187d6",
+      "_key": "!actors.items!d4afec2c71c034fa.0fff2a0ccff187d6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "Pincers",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ccb1747c9fa8adc9",
+      "_key": "!actors.items!d4afec2c71c034fa.ccb1747c9fa8adc9",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "121458565f1d418f",
+      "_key": "!actors.items!d4afec2c71c034fa.121458565f1d418f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3134b305e3e81cfa",
+      "_key": "!actors.items!d4afec2c71c034fa.3134b305e3e81cfa",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Pincers",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 65,
+        "ap": -3,
+        "dv": "2d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Pincers: 65, DV 2d10 + 3, Reach (+10),AP −3</p>"
+      },
+      "_id": "ce3f98806c947055",
+      "_key": "!actors.items!d4afec2c71c034fa.ce3f98806c947055",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Crushing",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 55,
+        "ap": 0,
+        "dv": "4d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Crushing Attack: 55, DV 4d10, Reach (+10), medium-sized and smaller targets only</p>"
+      },
+      "_id": "fb768366494f5921",
+      "_key": "!actors.items!d4afec2c71c034fa.fb768366494f5921",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 52000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Snapper",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

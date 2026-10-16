@@ -1,0 +1,354 @@
+{
+  "_id": "80540d81f45c2447",
+  "_key": "!actors!80540d81f45c2447",
+  "name": "Head Wrapper",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 30,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 30,
+        "mod": 0
+      },
+      "wil": {
+        "base": 30,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 4–8</p><p>Threat Level: Orange Numbers: 4–8 Mind wrappers use their impressive async abilities to mind control victims, puppeteering them as they ride their bodies. Use the same stats as head wrappers, with the following additions: Skills: Control 70, Psi Assault 50, Sense 60 Traits: Psi (Level 2), Psi Chameleon, Psi Defense (Level 2) Common Psi Sleights: Drive Emotion, Ego Sense, Decerebration, Onslaught, Sense Infection, Static,Thought Browse Puppeteer Psi Sleight: 70, opposed with WIL x 2,Touch Range, Sustained, Strain DV (1d10 ÷ 2) + 3.The wrapper controls the target’s mind. Every turn, victim can break free with an Opposed Test, their WIL versus wrapper’s Control skill. See p. 179.</p><p>These exsurgents look like four-armed starfish, capable of walking like quadrupeds on their spiny limbs. Each appendage ends in thin, clawed digits useful for climbing and tool use. The arms also house sensory bands for hearing and infrared vision. The underside of the creature houses a circular mouth ringed with hooked teeth. This mouth can distend outwards like a leech, enveloping much larger prey than it might seem. Wrappers are ideally suited for microgravity habitats due to a series of vent sacs capable of significant thrust. Wrappers derive their name from a tendency to attack from above, enveloping a transhuman&#x27;s head and restraining the arms with their legs. The creatures like to band together and nest in a single location, collectively ensuring maximum casualties rather than competing with each other for prey. Lone wrappers have been known to follow other groups of exsurgents, waiting to strike until transhumans are busy engaging other threats. As such, more advanced exsurgents sometimes grow wrappers from infected body banks to leave in their wake, covering their migratory trail. The wrapper digestive system is incapable of processing synthetics; after consuming the head of a transhuman, they pass cortical stacks and other neurological implants by defecating out of their mouths. Small, TITAN-hacked bots and other wild artificials sometimes lurk outside wrapper territory, salvaging tech from these waste piles. A preponderance of small bots waiting for implant carrion is a successful tactic for tracking the location of otherwise stealthy wrappers.</p><p><strong>Stress Test:</strong> SV 1d10</p><p><strong>Ware:</strong> Chameleon Skin, Enhanced Hearing, Enhanced Vision (Infrared Only), Hibernation, Vacuum Sealing</p><p><strong>Subdual:</strong> 60, if the MoS exceeds the target’s Durability, they are blinded and subdued (see Subdual, p. 204, EP).</p><p><em>Initiative printed: 10 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 9, Death Rating 68.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 152.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Head Wrapper (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 45,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 8,
+          "kinetic": 8
+        },
+        "movement": "4/16 Thrust Vector, 3/12 Walker",
+        "implants": "Chameleon Skin, Enhanced Hearing, Enhanced Vision (Infrared Only), Hibernation, Vacuum Sealing",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "47dae5492371dcf6",
+      "_key": "!actors.items!80540d81f45c2447.47dae5492371dcf6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6b8bc11b2816475f",
+      "_key": "!actors.items!80540d81f45c2447.6b8bc11b2816475f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ead4aba066c9f4d5",
+      "_key": "!actors.items!80540d81f45c2447.ead4aba066c9f4d5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "Grapple",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6ebe46b64a511b6b",
+      "_key": "!actors.items!80540d81f45c2447.6ebe46b64a511b6b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5e30a5ed0dd2b75f",
+      "_key": "!actors.items!80540d81f45c2447.5e30a5ed0dd2b75f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "Hearing",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c7f74eb0e3fc82b1",
+      "_key": "!actors.items!80540d81f45c2447.c7f74eb0e3fc82b1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": -5,
+        "dv": "2d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite: 50, DV 2d10 + 3,AP −5</p>"
+      },
+      "_id": "7f3bdb806294d8e7",
+      "_key": "!actors.items!80540d81f45c2447.7f3bdb806294d8e7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": -2,
+        "dv": "1d10 + 2",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Claws: 50, DV 1d10 + 2,AP −2</p>"
+      },
+      "_id": "f54bee5440ce9c7b",
+      "_key": "!actors.items!80540d81f45c2447.f54bee5440ce9c7b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 65000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Head Wrapper",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

@@ -8,6 +8,10 @@
     <select name="system.skill">{{selectOptions skillChoices selected=system.skill}}</select>
   </div>
   <div class="form-group">
+    <label data-tooltip="EP1E.Weapon.ratingHint">{{localize "EP1E.Weapon.rating"}}</label>
+    <input type="number" name="system.rating" value="{{system.rating}}" min="0">
+  </div>
+  <div class="form-group">
     <label>{{localize "EP1E.Weapon.dv"}}</label>
     <input type="text" name="system.dv" value="{{system.dv}}" placeholder="2d10 + 2">
   </div>

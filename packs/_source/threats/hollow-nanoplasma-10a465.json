@@ -1,0 +1,310 @@
+{
+  "_id": "10a4652d1386dea6",
+  "_key": "!actors!10a4652d1386dea6",
+  "name": "Hollow Nanoplasma",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 30,
+        "mod": 0
+      },
+      "coo": {
+        "base": 5,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 5,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": -16
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1–2</p><p>Hollows are a plasma colony of advanced nanobots. These mimics can replicate any biological creature by invasively mapping it, a gruesome and lethal process wherein the plasma digests the host and assumes its form. Hollows completely absorb the minds, memories, and skills of their targets—essentially becoming them. Hollows only replicate an outershell “skin suit” with no internal organs, skeletal structure, or muscles. These “skins” appear real but are only a few centimeters deep. If cut or ruptured, the nanoplasma within is exposed. Each hollow carries a node of memory diamond that acts as the “brain” and stores the host&#x27;s memories. The only way to kill a hollow is to destroy this node. Heavily damaged hollows are forced into hibernation, disassembling nearby materials for repair. The origin of hollows is a mystery even to themselves. Artifacts of a longextinct alien species, their original programming corrupted or forgotten, they pursue their own rogue purposes. Though most of the identities they absorb are discarded after use, some are saved within the node nucleus in an intact or fragmented form. The core “ego” of each hollow may no longer exist, replaced by a discordant amalgamation of the alien minds they have consumed over time.</p><p>Use the stats appropriate to the mimicked victim, with the following changes: Minimum Aptitudes: Use the highest of the hollow’s or mimicked creature’s COG/INT/WIL. Durability: As the skin suit is simply a shell, the Durability of the mimicked creature is reduced by half (round down). Damage and Wounds: Split damage evenly between the skin suit and the nanoplasma. If the skin suit takes a wound, the nanoplasma becomes visible and may leak out (Perception Test at −10 to notice). Skin suits regenerate. Implants: Bioware, cyberware, and nanoware are only replicated if they are externally visible (bioweave, gills) or otherwise essential for masquerading as the target (enhanced respiration, mesh inserts). Cyberware is sometimes simply stolen from the host and integrated into the skin suit. Muses are deleted or muted. Ware: Skin suits act as a synthetic mask (p. 311, EP). Stress Test: SV 1d10, +3 if the victim is known.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Traits:</strong> Mental Disorder (MPD)</p><p><strong>Ware:</strong> 360-Degree Vision, Chameleon Skin, Chemical Sniffer</p><p><strong>Disassembly:</strong> A hollow’s nanoplasma can corrode matter like a disassembler swarm (p. 329, EP), inflicting DV 1d10 per Action Turn.</p><p><strong>Caustic Gas:</strong> Hollows deploy caustic smoke for defense: Dermal, Onset Time: 1 Action Turn,</p><p><strong>Mimicry:</strong> The nanoplasma may invade any creature it touches. It is slow-moving and easy to avoid (Fray Test at +20), preferring incapacitated or surprised victims. “Mapping” inflicts 1d10 DV per Action Turn (accumulated damage inflicts wounds) and is exceptionally painful; victims without Pain Tolerance are incapacitated, those without Pain Tolerance (Level Two) suffer −20 to all actions. Nanophages double the time and halve the damage.After 10 minutes, the host is disassembled and a skin suit (below) is formed.The hollow absorbs the victim’s memories, skills, and ego traits (Kinesics Test at −30 to notice a difference). Hollows can mimic previous victims.</p><p><strong>Nanoplasma Invulnerability:</strong> Most attacks simply inflict DV 1.Area-effect, plasma, and fire attacks inflict half damage. Nanoplasma is immune to wounds. EMP has no effect.</p><p><strong>Node Nucleus:</strong> Nodes are difficult to find (Perception Test at −30). If destroyed, the hollow is irrevocably killed. Nodes have Armor 30/30 and Durability 50.</p><p><strong>Regeneration:</strong> Hollow nanoplasma repairs 1d10 damage per hour.</p><p><em>Initiative printed: 3 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 0, Death Rating 120.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 117.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Hollow Nanoplasma (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 80,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "1/4 Ooze",
+        "implants": "360-Degree Vision, Chameleon Skin, Chemical Sniffer",
+        "advantages": "Mental Disorder (MPD)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "ce5743aad37c4ebc",
+      "_key": "!actors.items!10a4652d1386dea6.ce5743aad37c4ebc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8083933af472d3b6",
+      "_key": "!actors.items!10a4652d1386dea6.8083933af472d3b6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "49b0fe3949a222aa",
+      "_key": "!actors.items!10a4652d1386dea6.49b0fe3949a222aa",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Impersonation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "impersonation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0e453eb090fc25df",
+      "_key": "!actors.items!10a4652d1386dea6.0e453eb090fc25df",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3cf33d97c30f4a96",
+      "_key": "!actors.items!10a4652d1386dea6.3cf33d97c30f4a96",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Scrounging",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "scrounging",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cc344ade04b0deff",
+      "_key": "!actors.items!10a4652d1386dea6.cc344ade04b0deff",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 5,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0313e4bc3f78a10e",
+      "_key": "!actors.items!10a4652d1386dea6.0313e4bc3f78a10e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4fb610d832f2f941",
+      "_key": "!actors.items!10a4652d1386dea6.4fb610d832f2f941",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 27000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Hollow Nanoplasma",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

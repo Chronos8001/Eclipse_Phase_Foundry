@@ -389,7 +389,9 @@
       "launcherHint": "Munition sizes this weapon fires (e.g. micro, mini). Leave empty if it is not a launcher.",
       "shock": "Shock",
       "shockHint": "A hit calls for a DUR + Energy armor test (p. 204).",
-      "twoHanded": "Two-handed"
+      "twoHanded": "Two-handed",
+      "rating": "Attack rating",
+      "ratingHint": "Rating printed in a creature's stat block; when above 0 it replaces the skill."
     },
     "WeaponType": { "melee": "Melee", "ranged": "Ranged" },
     "DamageType": { "kinetic": "Kinetic", "energy": "Energy", "none": "Ignores armor", "psi": "Mental armor" },

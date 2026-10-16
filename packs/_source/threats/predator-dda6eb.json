@@ -1,0 +1,376 @@
+{
+  "_id": "dda6ebd2b1832cb8",
+  "_key": "!actors!dda6ebd2b1832cb8",
+  "name": "Predator",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 30,
+        "mod": 0
+      },
+      "coo": {
+        "base": 40,
+        "mod": 0
+      },
+      "int": {
+        "base": 40,
+        "mod": 0
+      },
+      "ref": {
+        "base": 40,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 40,
+        "mod": 0
+      },
+      "wil": {
+        "base": 30,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1–6</p><p>Contrary to the indulgent intellectual modification of the neurodes, exhuman predators alter their sleeves and egos with the ascetic mindset that only the strong survive. These exhumans seek to become the ultimate, most fit, apex predators. Their morphs are designed more to top the food chain than for strict adaptability, however, and so are styled after every primitive nightmare in transhumanity&#x27;s collective memory. Common mods include poison fangs, prehensile scorpion tails with nanovirus reservoirs, compound eyes wired for multiple wavelengths, monowire-sharp claws, and enough neurachem to fry a hummingbird. They disdain using weapons, preferring to hunt with claws and teeth. Their constant biomodification, implant upgrades, and neural mods easily cross the line from experimental to reckless and dangerous. Most have edited out empathy and implanted predatory instincts and habits and psychopathic tendencies. Predators seek out hostile environments to test their fitness. They also genegineer prey animals to hone their hunting skills or find exoplanets to compete with native xenofauna. They will stalk and eat transhumans, giving them a fighting chance to experience the thrill of the hunt. Predators work in packs of 4–6, though some prefer to go lone wolf. They sometimes end up as the guard dogs of TITAN-worshipping neurodes, happy to give up thinking of anything beyond hunting whatever prey the neurode sics them after.</p><p><strong>Stress Test:</strong> SV 1d10 + 3</p><p><strong>Traits:</strong> Ambidextrous, Brave, Mental Disorder (Choose One-Three), Modified Behavior (Lack of Empathy, Heightened Ruthlessness), Pain Tolerance (Level 2), Rapid Healing</p><p><strong>Common Ware:</strong> Adrenal Boost, Carapace Armor, Chameleon Skin, Cyberclaws, Drug Glands (Grin, Kick, and/or MRDR), Endocrine Control, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Grip Pads, Hardened Skeleton, Medichines, Muscle Augmentation, Neurachem (Level 2), Oxygen Reserve, Poison Gland (Twitch), Prehensile Feet, Prehensile Tail, Respirocytes,Temperature Tolerance,Toxin Filters,Vacuum Sealing</p><p><strong>Toxin:</strong> Injected, Onset: 3 Action Turns, Duration: 10 minutes (5 with medichines).Targets make a SOM Test (+20 with medichines). If they fail, they are incapacitated. If they succeed, they suffer −20 to all actions.</p><p><strong>Subdual:</strong> 80, see Subdual, p. 204, EP.</p><p><strong>Exotic Melee Weapon:</strong> Tail Sting 80, Free Fall 70, Freerunning 80, Infiltration 70, Scrounging 70, Swimming 70, Unarmed Combat 70 (Subdual 80)</p><p><em>Initiative printed: 16 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 13, Death Rating 98.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 131.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Predator (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 65,
+        "speedMod": 2,
+        "initMod": 0,
+        "armor": {
+          "energy": 11,
+          "kinetic": 11
+        },
+        "movement": "4/24 Walker",
+        "implants": "Adrenal Boost, Carapace Armor, Chameleon Skin, Cyberclaws, Drug Glands (Grin, Kick, and/or MRDR), Endocrine Control, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Grip Pads, Hardened Skeleton, Medichines, Muscle Augmentation, Neurachem (Level 2), Oxygen Reserve, Poison Gland (Twitch), Prehensile Feet, Prehensile Tail, Respirocytes,Temperature Tolerance,Toxin Filters,Vacuum Sealing",
+        "advantages": "Ambidextrous, Brave, Mental Disorder (Choose One-Three), Modified Behavior (Lack of Empathy, Heightened Ruthlessness), Pain Tolerance (Level 2), Rapid Healing",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "5ea50eaca81ad950",
+      "_key": "!actors.items!dda6ebd2b1832cb8.5ea50eaca81ad950",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Blades",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "blades",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "376a9c0f8578e89c",
+      "_key": "!actors.items!dda6ebd2b1832cb8.376a9c0f8578e89c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d6d2354ef3db01da",
+      "_key": "!actors.items!dda6ebd2b1832cb8.d6d2354ef3db01da",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9bb4da02775afa43",
+      "_key": "!actors.items!dda6ebd2b1832cb8.9bb4da02775afa43",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "Hearing/Smell/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "86e48ca4c911d1b2",
+      "_key": "!actors.items!dda6ebd2b1832cb8.86e48ca4c911d1b2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Diamond-Tooth Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 70,
+        "ap": -3,
+        "dv": "1d10 + 7",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Diamond-Tooth Bite: 70, DV 1d10 + 7,AP −3</p>"
+      },
+      "_id": "7fba2b4cd3c8c723",
+      "_key": "!actors.items!dda6ebd2b1832cb8.7fba2b4cd3c8c723",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Monofilament Claws",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 70,
+        "ap": -4,
+        "dv": "1d10 + 8",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Monofilament Claws: 70, DV 1d10 + 8,AP −4</p>"
+      },
+      "_id": "05c18b039cff3cdf",
+      "_key": "!actors.items!dda6ebd2b1832cb8.05c18b039cff3cdf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Tail Sting",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 80,
+        "ap": -5,
+        "dv": "2d10 + 7",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Tail Sting: 80, DV 2d10 + 7,AP −5,Twitch</p>"
+      },
+      "_id": "7934b6dff11b2486",
+      "_key": "!actors.items!dda6ebd2b1832cb8.7934b6dff11b2486",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 43000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Predator",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

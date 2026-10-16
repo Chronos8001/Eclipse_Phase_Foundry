@@ -1,0 +1,401 @@
+{
+  "_id": "75371bb8a79685c1",
+  "_key": "!actors!75371bb8a79685c1",
+  "name": "Giant Barbed Eel",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 1,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": -2
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1–2</p><p>Barbed eels are a carnivorous aquatic species found on the exoplanet Droplet that displays unusual intelligence and cunning. Though possessing bioluminescent properties, barbed eels have the capability to turn this on and off, which they use for pack hunting tactics. One eel will draw along or chase prey with its glow, while others lie dark in ambush. The same fleshy barbs that illuminate also create electric potential that can be discharged to stun attackers or prey in nearby water. Barbed eels show no fear of transhumans and have been observed lunging out of the water to attack prey (usually one of Droplet’s numerous amphibious species), dragging them underwater to drown.</p><p><strong>Stress Test:</strong> SV (1d10 ÷ 2, round down) + 3</p><p><strong>Traits:</strong> Large Size (+10 to hit)</p><p><strong>Ware:</strong> Echolocation, Eelware, Electrical Sense, Enhanced Vision, Hydrostatic Pressure Adaptation,Temperature Tolerance</p><p><strong>Shock Invulnerability:</strong> Barbed eels are immune to shock effects.</p><p><em>Initiative printed: 6 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 12, Death Rating 105.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 96.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Giant Barbed Eel (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 70,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 12,
+          "kinetic": 8
+        },
+        "movement": "4/40 Swim",
+        "implants": "Echolocation, Eelware, Electrical Sense, Enhanced Vision, Hydrostatic Pressure Adaptation,Temperature Tolerance",
+        "advantages": "Large Size (+10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "af0a5b6992411fa8",
+      "_key": "!actors.items!75371bb8a79685c1.af0a5b6992411fa8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "79eaba0037332f4a",
+      "_key": "!actors.items!75371bb8a79685c1.79eaba0037332f4a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Swimming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "swimming",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0bd890b4e7bdbef5",
+      "_key": "!actors.items!75371bb8a79685c1.0bd890b4e7bdbef5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "Subdual",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ccee4240b48e1a8b",
+      "_key": "!actors.items!75371bb8a79685c1.ccee4240b48e1a8b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b8f5e04bc0a3362a",
+      "_key": "!actors.items!75371bb8a79685c1.b8f5e04bc0a3362a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5b9acb526989303e",
+      "_key": "!actors.items!75371bb8a79685c1.5b9acb526989303e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Electric Stun (Underwater)",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 0,
+        "ap": 0,
+        "dv": "2d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": true,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Electric Stun (Underwater): No defense, 15 meter radius effect, DV 2d10, −1 per 2 meters, shock effect (p. 204, EP)</p>"
+      },
+      "_id": "a09e52947983dde6",
+      "_key": "!actors.items!75371bb8a79685c1.a09e52947983dde6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Electric Stun (Out of Water)",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": 0,
+        "dv": "2d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": true,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Electric Stun (Out of Water): 60, DV 2d10, touch attack, shock effect (p. 204, EP)</p>"
+      },
+      "_id": "d752b8fa2f915d57",
+      "_key": "!actors.items!75371bb8a79685c1.d752b8fa2f915d57",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": -4,
+        "dv": "2d10 + 8",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite Attack: 50, DV 2d10 + 8,AP −4; bite targets may be subdued (p. 204, EP) with a Quick Action. Medium and smaller targets are swallowed on the next action. Swallowed victims cannot see, hear, or breathe (p. 204, EP), are restricted (−30 to all actions), and suffer DV 2d10 per Action Turn (armor does not apply).An eel that takes 2 wounds internally regurgitates anything swallowed on its next action.</p>"
+      },
+      "_id": "428012064dfa1ad4",
+      "_key": "!actors.items!75371bb8a79685c1.428012064dfa1ad4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 2000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Giant Barbed Eel",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

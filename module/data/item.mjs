@@ -108,6 +108,8 @@ export class WeaponData extends BaseItemData {
       ...super.defineSchema(),
       weaponType: choice(["melee", "ranged"], "melee"),
       skill: text("unarmedCombat"),
+      // Attack rating printed in a creature's stat block: used instead of the skill when above 0
+      rating: int(0, { min: 0 }),
       ap: int(0),
       dv: text("1d10"),
       damageType: choice(["kinetic", "energy", "none"], "kinetic"),

@@ -1,0 +1,307 @@
+{
+  "_id": "14466f4847fbc527",
+  "_key": "!actors!14466f4847fbc527",
+  "name": "Think Tank",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 30,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 25,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 35,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Ultraviolet</p><p><strong>Numbers:</strong> 1–2</p><p>Think tanks are TITAN heavy weaponry, deployed against armored transhuman military assets and fortified positions. Whereas warbots are designed to be fast and mobile heavy hitters, think tanks can take a beating and smash their way through just about any defenses. Think tanks are quadrupeds, with twin plasma and particle beam cannons on a turret torso that can adjust its height and orientation. On top of the heavy armor, advanced defenses protect against projectiles and explosions. Think tanks have access to the sensor feeds of other TITAN machines deployed in a conflict, giving them a comprehensive situational overview.</p><p>Plasma Cannons (2): 60, DV 6d10 + 20, AP −8, SA, Range 40/100/200/600,Ammo 50 Particle Beam Cannons (2): 60, DV 4d10 + 8, AP −4, SA, Range 60/200/300/600, Ammo 100</p><p><strong>Stress Test:</strong> SV 1d10</p><p><strong>Traits:</strong> Large Size (+10 to hit)</p><p><strong>Ware:</strong> 360-Degree Vision,Active Countermeasures, Cyberbrain, Direction Sense, Enhanced Vision, Hacking Alert, Lidar, Mnemonic Augmentation, Neurachem (Level 1), Panopticon, Persistence, Radar, Radiation Sense, Reflex Boosters, Specialized Hive: Fixers, Structural Enhancement,T-Ray Emitter, 5 Weapon Mounts (External,Articulated)</p><p><strong>Interest:</strong> Transhuman Military Assets 80,</p><p><strong>Interest:</strong> Transhuman Military Strategy 80, Interfacing 80, Kinetic Weapons 60,</p><p><strong>Profession:</strong> Force Commander 80</p><p><strong>Deflectors:</strong> Think tanks are equipped with supercapacitors embedded within their armor that release a massive charge at the area pinpointed by an attack, creating a temporary, huge, electromagnetic force field that repels or destroys incoming projectiles.This provides a −30 modifier to hit the tank, but only against kinetic weapon and seeker attacks that the think tank has detected.These deflectors have 20 uses before they must be recharged, which takes 2 hours.</p><p><em>Initiative printed: 8 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 20, Death Rating 200.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 143.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Think Tank (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 100,
+        "speedMod": 1,
+        "initMod": 0,
+        "armor": {
+          "energy": 36,
+          "kinetic": 36
+        },
+        "movement": "4/16 Walker",
+        "implants": "360-Degree Vision,Active Countermeasures, Cyberbrain, Direction Sense, Enhanced Vision, Hacking Alert, Lidar, Mnemonic Augmentation, Neurachem (Level 1), Panopticon, Persistence, Radar, Radiation Sense, Reflex Boosters, Specialized Hive: Fixers, Structural Enhancement,T-Ray Emitter, 5 Weapon Mounts (External,Articulated)",
+        "advantages": "Large Size (+10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "f09b8cd91653a306",
+      "_key": "!actors.items!14466f4847fbc527.f09b8cd91653a306",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Military Science",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "da39261b1ae62198",
+      "_key": "!actors.items!14466f4847fbc527.da39261b1ae62198",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9791e3ca5dcecf25",
+      "_key": "!actors.items!14466f4847fbc527.9791e3ca5dcecf25",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cca64f503df2e9a6",
+      "_key": "!actors.items!14466f4847fbc527.cca64f503df2e9a6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 0,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "446912ade2c0c6c4",
+      "_key": "!actors.items!14466f4847fbc527.446912ade2c0c6c4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5d5919897b025910",
+      "_key": "!actors.items!14466f4847fbc527.5d5919897b025910",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Railgun MG",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -9,
+        "dv": "2d10 + 8",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Railgun MG: 60, DV 2d10 + 8,AP −9, SA/BF/ FA,Ammo 500</p>"
+      },
+      "_id": "85dd5bfe9e15c185",
+      "_key": "!actors.items!14466f4847fbc527.85dd5bfe9e15c185",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 56000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Think Tank",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

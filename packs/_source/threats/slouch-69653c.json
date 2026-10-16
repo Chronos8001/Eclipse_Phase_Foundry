@@ -1,0 +1,598 @@
+{
+  "_id": "69653c7d009417ee",
+  "_key": "!actors!69653c7d009417ee",
+  "name": "Slouch",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 30,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 25,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1–4</p><p>Transhumanity has had several violent extrasolar encounters with the robotic entities they have designated “slouches”—thanks to their slumped posture—though in each case they have assumed the machines were machines left behind by the TITANs. In reality, these robots were designed by an unknown alien species, possibly seeded through the gates as a defensive measure to prevent their use. Slouches seem to be based on their designer’s alien physiology. They feature heavy claws on hands and feet and a turret stationed on each shoulder. They move with a long, loping gait, sometimes using leaning forward to use their arms when running or to balance for a vicious backwards kick. The slouches encountered so far seem to be programmed to control the Pandora gates and prevent their use. They do not automatically attack anything coming through a gate, but they are know to set up automatic defenses and traps that do so. Automated drones in particular will have their tethers cut and be targeted before they can conduct detailed scans. They will, however, prevent anything that comes through from using that gate again. They have been known to track gatecrashing teams away from the gate and ambush them elsewhere. Slouches are also known to sometimes carry tools and engage in attempts to unearth and salvage alien technology. It is unknown if slouches are controlled remotely or by an onboard AI. To date, they have self-destructed to prevent forensic examination.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Ware:</strong> Enhanced Hearing, Enhanced Vision, Neurachem (Level 1), Radar, Radiation Sense,</p><p><strong>Gear:</strong> Blue Box Gate Control Unit, Disassembly Tools, Engineer Nanoswarm, Fabber, Scout Nanoswarm, Superthermite Charges</p><p><strong>Bessel BeamTurret:</strong> 70.This device functions like a tractor/repulsor beam.Struck targets are pushed either directly towards or away from the slouch. The distance moved depends on the target’s size: very small,20 meters;small:10 meters; medium:5 meters;large:1 meter,very large: unaffected.Struck targets are trapped by the beam and must make a SOMTest to escape its grasp or they will continue to be attracted/repelled eachActionTurn.Max Range 500.These turrets have 20 turns of use and take 4 hours to recharge.</p><p><strong>Specialized Hive:</strong> Fixers,T-Ray Emitter</p><p><strong>Self-Destruct:</strong> Slouches carry a small plasma magnetic bottle that will detonate when they take more than 75 points of damage or if anyone attempts to open up or otherwise tamper with a disabled slouch.This explosion inflicts DV 5d10 + 16,AP −6, blast area effect, and will completely destroy the slouch.</p><p><em>Initiative printed: 9 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 14, Death Rating 140.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 137.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Slouch (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 70,
+        "speedMod": 1,
+        "initMod": 0,
+        "armor": {
+          "energy": 26,
+          "kinetic": 20
+        },
+        "movement": "4/24 Walker",
+        "implants": "Enhanced Hearing, Enhanced Vision, Neurachem (Level 1), Radar, Radiation Sense,",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "09c8a3c31a4f7a89",
+      "_key": "!actors.items!69653c7d009417ee.09c8a3c31a4f7a89",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b46c8e390f1ec595",
+      "_key": "!actors.items!69653c7d009417ee.b46c8e390f1ec595",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Demolitions",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "demolitions",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "95025ab5c437a460",
+      "_key": "!actors.items!69653c7d009417ee.95025ab5c437a460",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b9f3797a19e70450",
+      "_key": "!actors.items!69653c7d009417ee.b9f3797a19e70450",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "42a21814e595f2af",
+      "_key": "!actors.items!69653c7d009417ee.42a21814e595f2af",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Electronics",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a417ef83ef91bff1",
+      "_key": "!actors.items!69653c7d009417ee.a417ef83ef91bff1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Robotics",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cdc8c7f88bef0c6b",
+      "_key": "!actors.items!69653c7d009417ee.cdc8c7f88bef0c6b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1443226ff5182aea",
+      "_key": "!actors.items!69653c7d009417ee.1443226ff5182aea",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "22c2cde361538acd",
+      "_key": "!actors.items!69653c7d009417ee.22c2cde361538acd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "08c6caaf6037317b",
+      "_key": "!actors.items!69653c7d009417ee.08c6caaf6037317b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cd52ddedc79dac1f",
+      "_key": "!actors.items!69653c7d009417ee.cd52ddedc79dac1f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "Hearing/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "59d6e8b7335fc7dd",
+      "_key": "!actors.items!69653c7d009417ee.59d6e8b7335fc7dd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Claw",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -4,
+        "dv": "2d10 + 6",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Claw: 60, DV 2d10 + 6,AP −4</p>"
+      },
+      "_id": "6fb5ca25eb267d82",
+      "_key": "!actors.items!69653c7d009417ee.6fb5ca25eb267d82",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kick",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -4,
+        "dv": "3d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Kick: 60, DV 3d10 + 3,AP −4</p>"
+      },
+      "_id": "33f75f6d6198cbef",
+      "_key": "!actors.items!69653c7d009417ee.33f75f6d6198cbef",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Laser Turret",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 70,
+        "ap": 0,
+        "dv": "3d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Laser Turret: 70, DV 3d10, SA, Range 50/100/150/300,Ammo 100</p>"
+      },
+      "_id": "bca43a687cc23179",
+      "_key": "!actors.items!69653c7d009417ee.bca43a687cc23179",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Shearing Beams",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 70,
+        "ap": 0,
+        "dv": "6d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Shearing Beams: 70.Two slouches may direct their Bessel beams at the same target,one pulling,one repulsing,to create a devastating shearing effect, inflicting DV 6d10 (armor does not apply).</p>"
+      },
+      "_id": "74619d6ee1150d3e",
+      "_key": "!actors.items!69653c7d009417ee.74619d6ee1150d3e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 50000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Slouch",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

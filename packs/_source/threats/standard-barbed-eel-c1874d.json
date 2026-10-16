@@ -1,0 +1,401 @@
+{
+  "_id": "c1874d7f22eaa6ba",
+  "_key": "!actors!c1874d7f22eaa6ba",
+  "name": "Standard Barbed Eel",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 1,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Orange</p><p><strong>Numbers:</strong> 1–6</p><p>Barbed eels are a carnivorous aquatic species found on the exoplanet Droplet that displays unusual intelligence and cunning. Though possessing bioluminescent properties, barbed eels have the capability to turn this on and off, which they use for pack hunting tactics. One eel will draw along or chase prey with its glow, while others lie dark in ambush. The same fleshy barbs that illuminate also create electric potential that can be discharged to stun attackers or prey in nearby water. Barbed eels show no fear of transhumans and have been observed lunging out of the water to attack prey (usually one of Droplet’s numerous amphibious species), dragging them underwater to drown.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Ware:</strong> Echolocation, Eelware, Electrical Sense, Enhanced Vision, Hydrostatic Pressure Adaptation,Temperature Tolerance</p><p><strong>Shock Invulnerability:</strong> Barbed eels are immune to shock effects.</p><p><em>Initiative printed: 6 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 8, Death Rating 60.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 96.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Standard Barbed Eel (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 40,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 8,
+          "kinetic": 4
+        },
+        "movement": "4/30 Swim",
+        "implants": "Echolocation, Eelware, Electrical Sense, Enhanced Vision, Hydrostatic Pressure Adaptation,Temperature Tolerance",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "0ffd9d7ab070cf73",
+      "_key": "!actors.items!c1874d7f22eaa6ba.0ffd9d7ab070cf73",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7c42e781a4a252c8",
+      "_key": "!actors.items!c1874d7f22eaa6ba.7c42e781a4a252c8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Swimming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "swimming",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1c46ccce7dc48db0",
+      "_key": "!actors.items!c1874d7f22eaa6ba.1c46ccce7dc48db0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "Subdual",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ebe6665f145c1a51",
+      "_key": "!actors.items!c1874d7f22eaa6ba.ebe6665f145c1a51",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4713aa408a1b45a5",
+      "_key": "!actors.items!c1874d7f22eaa6ba.4713aa408a1b45a5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "210326670ccc457d",
+      "_key": "!actors.items!c1874d7f22eaa6ba.210326670ccc457d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Electric Stun (Underwater)",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 0,
+        "ap": 0,
+        "dv": "1d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": true,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Electric Stun (Underwater): No defense, 10 meter radius effect, DV 1d10, −1 per 2 meters, shock effect (p. 204, EP)</p>"
+      },
+      "_id": "9b3f8ac3e6bcae49",
+      "_key": "!actors.items!c1874d7f22eaa6ba.9b3f8ac3e6bcae49",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Electric Stun (Out of Water)",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": 0,
+        "dv": "1d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": true,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Electric Stun (Out of Water): 60, 1d10 DV, touch attack, shock effect (p. 204, EP)</p>"
+      },
+      "_id": "6ee9494d5e339f05",
+      "_key": "!actors.items!c1874d7f22eaa6ba.6ee9494d5e339f05",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 40,
+        "ap": -2,
+        "dv": "1d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite Attack: 40, DV 1d10 + 4,AP −2; bit targets may be subdued (p. 204, EP) with a Quick Action</p>"
+      },
+      "_id": "c55900e7b27c45ac",
+      "_key": "!actors.items!c1874d7f22eaa6ba.c55900e7b27c45ac",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 1000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Standard Barbed Eel",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

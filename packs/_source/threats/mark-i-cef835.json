@@ -1,0 +1,357 @@
+{
+  "_id": "cef835fd6c7ab920",
+  "_key": "!actors!cef835fd6c7ab920",
+  "name": "Mark I",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 10,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 6–12</p><p>The headhunter models used against cities during the Fall have been collectively designated Mark I.</p><p>Headhunters are insectoid drones that use dragonfly wings to hover and move, rapidly attacking as a squadron. Their segmented legs end in pinchers and extendable buzzsaws. The machines are designed to grasp onto a victim’s skull, saw through the neck, and remove the head for forced uploading at a specialized facility. During the Fall, headhunter squadrons were typically assembled from available materials on site by selfreplicating nanoswarms. Excepting the buzzsaws and general insect features, irregular construction methods led headhunters to have more variable designs than any other TITAN war machine. The uniform “wrongness” of their appearance and the tendency to target civilian populations have reserved headhunters a special place in transhuman nightmares. Headhunters still active in various quarantine zones follow the same orders as the day they were made. If the uploading facility is still operational, the squadron hunts and drops off any heads collected. Victims have their minds farcast to wherever in the universe the TITANs left a forwarding address, possibly in transit for decades. Squadrons without active facilities still hunt and deposit heads at the former uploading station. This results in “head hills:” giant mounds of severed heads left to rot, waiting for an upload that will never come.</p><p><strong>Stress Test:</strong> SV (1d10 ÷ 2, round down) + 1</p><p><strong>Traits:</strong> Small Size (−10 to hit)</p><p><strong>Ware:</strong> Enhanced Vision, Lidar,T-Ray Emitter</p><p><em>Initiative printed: 7 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 6, Death Rating 60.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 116.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Mark I (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 30,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 6,
+          "kinetic": 6
+        },
+        "movement": "8/32 Winged",
+        "implants": "Enhanced Vision, Lidar,T-Ray Emitter",
+        "advantages": "Small Size (−10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "6b0546559e390b36",
+      "_key": "!actors.items!cef835fd6c7ab920.6b0546559e390b36",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Exotic Melee Weapon",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "exoticMelee",
+        "aptitude": "som",
+        "category": "active",
+        "field": "Buzzsaws",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9bf1414b089ecaba",
+      "_key": "!actors.items!cef835fd6c7ab920.9bf1414b089ecaba",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "flight",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ee231dd52173100d",
+      "_key": "!actors.items!cef835fd6c7ab920.ee231dd52173100d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "354760d4fcd6dfd4",
+      "_key": "!actors.items!cef835fd6c7ab920.354760d4fcd6dfd4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0c2c4d8104d12e78",
+      "_key": "!actors.items!cef835fd6c7ab920.0c2c4d8104d12e78",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cd450290bc29da2a",
+      "_key": "!actors.items!cef835fd6c7ab920.cd450290bc29da2a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "653887469c72744c",
+      "_key": "!actors.items!cef835fd6c7ab920.653887469c72744c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "622df360e670b5d0",
+      "_key": "!actors.items!cef835fd6c7ab920.622df360e670b5d0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Buzzsaw",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 55,
+        "ap": 0,
+        "dv": "1d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Buzzsaw: 55, DV 1d10 + 3</p>"
+      },
+      "_id": "cd30e8eb633f9fe4",
+      "_key": "!actors.items!cef835fd6c7ab920.cd30e8eb633f9fe4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 25000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Mark I",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

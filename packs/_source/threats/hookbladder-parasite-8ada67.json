@@ -1,0 +1,307 @@
+{
+  "_id": "8ada6739a4d2fb0a",
+  "_key": "!actors!8ada6739a4d2fb0a",
+  "name": "Hookbladder Parasite",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 1,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 25,
+        "mod": 0
+      },
+      "ref": {
+        "base": 25,
+        "mod": 0
+      },
+      "sav": {
+        "base": 1,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 1,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 1–10</p><p>Hookbladders are an aquatic, jellyfish-like animal inhabiting the swamps of Teragula, an exoplanet being terraformed by TerraGenesis. They are named for their single hard body part, an incredibly light hook of horn-like material located near the animal’s single reproductive/digestive opening. Specimens are translucent sacs 40 centimeters in diameter, with a radial body plan and fine tentacles ending in feathery feelers. For most of their six-year life cycle, hookbladders are no more than a nuisance to transhumans, occasionally inflicting painful hook stings on the careless. When they enter their reproductive cycle, however, hookbladders seek out hosts. They propel themselves up to 3 meters into the air using jets of water, hook into a victim&#x27;s flesh, and then envelop its head, leaving only the mouth exposed. It then compels its host to kill other animals. When enough corpses are collected, the hookbladder asphyxiates the host atop its victims. It then bursts, spraying thousands of eggs over the entire heap, and adding its own body to feed its young. The larvae hatch within hours, gorging for days before dropping into the water to begin the aquatic part of their life cycle. Hookbladder zombies can be found on p. 158.</p><p><strong>Stress Test:</strong> SV 1d10 when attacking</p><p><strong>Traits:</strong> Small Size (−10 to hit)</p><p><strong>Ware:</strong> Enhanced Respiration</p><p><strong>Pain Tolerance:</strong> In their breeding cycle, hookbladders develop a resistance to pain.They ignore the effects of 2 wounds and will not react to fire, acid, or agonizers.</p><p><strong>Parasitic Control:</strong> Once a hookbladder envelopes a biomorph victim’s head, it extends shoots into the victim’s orifices and through the area pierced by its hook.These tie the victim to the hookbladder’s metabolism and, in the case of transhumans, allow them to function without breathers inTeragula’s normally asphyxiating atmosphere.This will inflict DV 1d10 ÷ 2, no defense, for 3ActionTurns. If the hookbladder is not removed in 2ActionTurns, it will dominate the target’s mind.The only way to remove the hookbladder is to kill it or forcibly pull it off with an Opposed SOM x 3Test; subdued victims suffer −30 on this test. Forced removal inflicts DV 1d10, no defense, as the hook rips free. Biomorphs saved from hookbladder infestation quickly (in less than 10 minutes) recover rapidly, but those infested longer require time in a healing vat to repair damage to their nervous system (−10 to all actions until they do).</p><p><strong>Shock Resistance:</strong> The primitive neural systems of hookbladders are immune to shock effects.</p><p><strong>Note:</strong> Hookbladders breathe through their skin membranes.They will ignore synthmorphs and robots unless attacked.Their hook attack can still damage synthetic shells, but the parasitization only affects biomorphs.</p><p><em>Initiative printed: 10 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 3, Death Rating 30.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 118.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Hookbladder Parasite (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 15,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 2,
+          "kinetic": 2
+        },
+        "movement": "8/32 Swim, 1/4 Walker",
+        "implants": "Enhanced Respiration",
+        "advantages": "Small Size (−10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "bc257a2d4e18a882",
+      "_key": "!actors.items!8ada6739a4d2fb0a.bc257a2d4e18a882",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Exotic Melee Weapon",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "exoticMelee",
+        "aptitude": "som",
+        "category": "active",
+        "field": "Envelope Head",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ced14a0445c4c8d5",
+      "_key": "!actors.items!8ada6739a4d2fb0a.ced14a0445c4c8d5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4b80e4c8ce97fe70",
+      "_key": "!actors.items!8ada6739a4d2fb0a.4b80e4c8ce97fe70",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Swimming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "swimming",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a316d818a247472c",
+      "_key": "!actors.items!8ada6739a4d2fb0a.a316d818a247472c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "96848f3430b9fe71",
+      "_key": "!actors.items!8ada6739a4d2fb0a.96848f3430b9fe71",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "90c4ad81902f424b",
+      "_key": "!actors.items!8ada6739a4d2fb0a.90c4ad81902f424b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Envelop Head",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 65,
+        "ap": -2,
+        "dv": "1d10 + 1",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Envelop Head: 65, DV 1d10 + 1,AP −2, treat as a subdual attack (p. 204, EP) that also blocks the victim’s vision.</p>"
+      },
+      "_id": "a6363452093ec63e",
+      "_key": "!actors.items!8ada6739a4d2fb0a.a6363452093ec63e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 28000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Hookbladder Parasite",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

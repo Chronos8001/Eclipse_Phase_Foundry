@@ -1,0 +1,357 @@
+{
+  "_id": "4a4a77da43a02251",
+  "_key": "!actors!4a4a77da43a02251",
+  "name": "Veiled Leech",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 5,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 1–6</p><p>Veiled leeches are arboreal creatures from the exoplanet Plootarg. These hematophages subsist on blood and bodily fluids. Veiled leeches are smaller in size and build than a neo-chimpanzee. Their elongated skulls end in a collection of tentacles they use to latch on and suck blood from from their prey. Their six eyes can see in infrared, to spot the location of major blood vessels under the skin. Membranes stretch between their limbs, enabling them to glide between trees in Plootarg’s low gravity and quietly pounce on the backs of their victims. The most unique feature of veiled leeches is their ability to turn invisible at will. Their skin and gliding membranes have an amazing negative-index metamaterial array, enabling them to bend light waves around themselves, much like an invisibility cloak. This can be triggered as desired, giving veiled leeches a strong advantage when hiding from predators or sneaking up on prey. Astrobiologists are currently studying if this occurred naturally or if veiled leeches (or their ancestors) were modified by an unknown intelligence. The sucker bite of these leeches’ mouth tentacles injects a toxin that either knocks their prey unconscious or makes them lethargic and docile. Veiled leeches do not usually feed enough to kill the victim, though a pack of leeches together might. Other predators on Plootarg are familiar with the debilitated state of veiled leech victims and will stalk near leech nests.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Ware:</strong> Enhanced Hearing, Enhanced Vision (Infrared Only), Gliding Membranes</p><p><strong>Invisibility:</strong> Veiled leeches can turn invisible at will, much like an invisibility cloak (p. 316, EP).</p><p><strong>Sucker Toxin:</strong> Injected, Onset: Immediate,</p><p><em>Initiative printed: 6 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 5, Death Rating 38.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 144.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Veiled Leech (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 25,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 4,
+          "kinetic": 2
+        },
+        "movement": "4/16 Walker, Glides 15 meters for every meter of altitude it loses.",
+        "implants": "Enhanced Hearing, Enhanced Vision (Infrared Only), Gliding Membranes",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "1ffff2aa408c79fd",
+      "_key": "!actors.items!4a4a77da43a02251.1ffff2aa408c79fd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "55e7fbfff76cf1ad",
+      "_key": "!actors.items!4a4a77da43a02251.55e7fbfff76cf1ad",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "flight",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "55e39446ba9c6983",
+      "_key": "!actors.items!4a4a77da43a02251.55e39446ba9c6983",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9e90b0af865aae76",
+      "_key": "!actors.items!4a4a77da43a02251.9e90b0af865aae76",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "124387eec91ca8f0",
+      "_key": "!actors.items!4a4a77da43a02251.124387eec91ca8f0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "Pounce",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "da0877d7fdc4146a",
+      "_key": "!actors.items!4a4a77da43a02251.da0877d7fdc4146a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "da7a2819869cf9b2",
+      "_key": "!actors.items!4a4a77da43a02251.da7a2819869cf9b2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "Hearing/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "985ff4784b8a1abe",
+      "_key": "!actors.items!4a4a77da43a02251.985ff4784b8a1abe",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Pounce",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": 0,
+        "dv": "ceil(1d10 / 2)",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Pounce: 60, see Subdual, p. 204, EP. Veiled leeches often attack with surprise (no defense). On its next action, the leech will bite with mouth suckers, inflicting DV 1d10 ÷ 2 (no defense, round down) and injecting sucker toxin (see below). Leeches will continue to suck blood and fluids for 1d10 + 4 Action Turns, inflicting DV 3 (no defense) each turn.</p>"
+      },
+      "_id": "d6d27277b683ccee",
+      "_key": "!actors.items!4a4a77da43a02251.d6d27277b683ccee",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 57000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Veiled Leech",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

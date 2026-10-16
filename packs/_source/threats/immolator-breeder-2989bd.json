@@ -1,0 +1,629 @@
+{
+  "_id": "2989bdabf9fb6ae3",
+  "_key": "!actors!2989bdabf9fb6ae3",
+  "name": "Immolator Breeder",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 25,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 25,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 25,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Orange</p><p><strong>Numbers:</strong> 2–6</p><p>Breeders use the stats, implants, gear, etc. appropriate to the transmogrified character. The stats below represent a bouncer morph.</p><p>The glory strain of the exovirus produces an ecosystem of exsurgents to ensure long-term panspermia infection vectors. Originating as an “apple of knowledge” basilisk (p. 171), it mindhacks transhumans with the technical expertise to understand complex nanofabrication schematics, inevitably forcing patient zero to construct specialized nanohives. These hives produce a nanoplague that modifies biology, creating drone, breeder, and mother exsurgents. Immolator drones (detailed on p. 158) display few signs of infection and remain lucid enough to infiltrate transhuman society. Glory physically modifies select drones into mating pairs of “breeders.” These exsurgents are clearly alien: thick gray skin in leathery patches, extended jaws with protruding canines, widened eyes with horizontal slits, fingers and toes fused into giant claws, lack of hair, prehensile feet, and protruding spines. Breeders resemble nightmarish bouncers and clearly favor low-gravity environments. Other mutant features and a variety of psi sleights manifest as well, but breeders are uniformly designed for sexual compatibility. If not defending the nest, males and females are content to mate all day. Fertilized zygotes are surrogated by the final member of the family—the “Mother”—and delivered via an ovipositor growing from the abdomen of breeder females.</p><p><strong>Stress Test:</strong> SV 1d10 + 3</p><p><strong>Traits:</strong> Limber (Level 1), Mental Disorder (Alien Behavior, OCD),</p><p><strong>Ware:</strong> Basic Biomods, Basic Mesh Inserts, Medichines, Neurachem (Level 1), Oxygen Reserve, Prehensile Feet, Vacuum Sealing</p><p><strong>Gear:</strong> Light Vacsuit, Specs, Utilitool</p><p><strong>Psi Sleights:</strong> Deep Scan, Ego Sense, Psi Shield, Psychic Stab, Sense Block</p><p><strong>Modified Behavior (Enforced:</strong> Breeding, Cannibalism, Nesting, Obey Mother), Psi (Level 2)</p><p><strong>Exsurgent Infection:</strong> Breeders infect biomorphs with the Glory virus (p. 175) by exchanging bodily fluids.</p><p><em>Initiative printed: 8 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 8, Death Rating 60.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 121.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Immolator Breeder (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 40,
+        "speedMod": 1,
+        "initMod": 0,
+        "armor": {
+          "energy": 6,
+          "kinetic": 7
+        },
+        "movement": "4/20 Walker",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Medichines, Neurachem (Level 1), Oxygen Reserve, Prehensile Feet, Vacuum Sealing",
+        "advantages": "Limber (Level 1), Mental Disorder (Alien Behavior, OCD),",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "d280e3be81c70dee",
+      "_key": "!actors.items!2989bdabf9fb6ae3.d280e3be81c70dee",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "dedb534c6933f28e",
+      "_key": "!actors.items!2989bdabf9fb6ae3.dedb534c6933f28e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Blades",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "blades",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1bfccc891cac6d84",
+      "_key": "!actors.items!2989bdabf9fb6ae3.1bfccc891cac6d84",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Control",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "control",
+        "aptitude": "wil",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "16843a9a689988e0",
+      "_key": "!actors.items!2989bdabf9fb6ae3.16843a9a689988e0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "381bf793cc7c000b",
+      "_key": "!actors.items!2989bdabf9fb6ae3.381bf793cc7c000b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2f2a05eb90e5388c",
+      "_key": "!actors.items!2989bdabf9fb6ae3.2f2a05eb90e5388c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "08dd9e2c649bf321",
+      "_key": "!actors.items!2989bdabf9fb6ae3.08dd9e2c649bf321",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "74cbc13a41539f82",
+      "_key": "!actors.items!2989bdabf9fb6ae3.74cbc13a41539f82",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "bb0e35291ced9895",
+      "_key": "!actors.items!2989bdabf9fb6ae3.bb0e35291ced9895",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7e25d55cfb2bf5cc",
+      "_key": "!actors.items!2989bdabf9fb6ae3.7e25d55cfb2bf5cc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Pilot",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "pilot",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "Spacecraft",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2be98775cee40a74",
+      "_key": "!actors.items!2989bdabf9fb6ae3.2be98775cee40a74",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Psi Assault",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "psiAssault",
+        "aptitude": "wil",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5dcbc876923e2ca5",
+      "_key": "!actors.items!2989bdabf9fb6ae3.5dcbc876923e2ca5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0026befdd25b565a",
+      "_key": "!actors.items!2989bdabf9fb6ae3.0026befdd25b565a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Sense",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "sense",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "31297dcd0d4a1c7f",
+      "_key": "!actors.items!2989bdabf9fb6ae3.31297dcd0d4a1c7f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1fa80ac775d04156",
+      "_key": "!actors.items!2989bdabf9fb6ae3.1fa80ac775d04156",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9911bf4e5fb24d43",
+      "_key": "!actors.items!2989bdabf9fb6ae3.9911bf4e5fb24d43",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d824c5eab4eb0809",
+      "_key": "!actors.items!2989bdabf9fb6ae3.d824c5eab4eb0809",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -1,
+        "dv": "1d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Claws: 60, DV 1d10 + 3,AP −1</p>"
+      },
+      "_id": "805c4cea089c1ba4",
+      "_key": "!actors.items!2989bdabf9fb6ae3.805c4cea089c1ba4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Particle Beam Bolter",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -2,
+        "dv": "2d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Particle Beam Bolter: 60, DV 2d10 + 4,AP −2, SA,Ammo 50</p>"
+      },
+      "_id": "8dc160b3d2d2b9c3",
+      "_key": "!actors.items!2989bdabf9fb6ae3.8dc160b3d2d2b9c3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 31000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Immolator Breeder",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

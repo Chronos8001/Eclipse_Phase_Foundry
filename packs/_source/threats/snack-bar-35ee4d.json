@@ -1,0 +1,307 @@
+{
+  "_id": "35ee4dbeff03796c",
+  "_key": "!actors!35ee4dbeff03796c",
+  "name": "Snack Bar",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 5,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 1–8</p><p>Snack bars are a common leftover special used by predator exhumans.They are designed as quadruped pod morphs with enhanced senses and strength, meant to be a perfect prey animal for predators to hone their hunting abilities. Some are given natural weapons with which to fight back, creating more of a challenge. Snack bars are equipped with specialized flesh vat modules that allowed them to rapidly regrow tissue in short periods of time. Even if a predator were to rip and consume all the flesh off the snack bar, its robotic core could then grow new flesh in a matter of a few days. The traumatized egos within snack bar morphs are repeatedly told that if they kill an intruder, they will be given their own predator morph and can become an exhuman themselves; some are insane or desperate enough to believe it.</p><p>Exhuman researchers, genehackers, and morph designers are known to construct creatures out of organic spare parts and resources. Colloquially known as “leftover specials,” these are typically abominations of mis-matched body parts and cybernetics, only barely kept alive by specialized medichines or nanohives. Sometimes kept as pets and companions, most are designed as habitat guardians and experimental art projects. Exhuman scientists take pride in outdoing their fellows in building the most gruesome yet usable guardians and servants. Leftover specials vary greatly in form and function, but are invariably nightmares of flesh and machine. Limbs and organs are stitched together in disturbing combinations, interfaced with machinery, sensors, and weapons. Some retain the egos of victims kidnapped by the exhumans for their experiments and atrocities, often driven permanently insane by the experience. Most leftover specials are controlled by a limited AI or the beta or delta fork of an exhuman. Ghost rider modules are common, equipped with remote switches that allow the exhuman creator to flip which ego controls the special and which ghost rides. Frequently a captured enemy is put in a special to wander around helplessly until an enemy threatens the habitat, at which point the AI or exhuman fork takes over. Leftover specials are commonly built with one of three purposes in mind: guardians, psychological deterrents, or sympathy traps. Each special is built to fulfill that function, but each one is also a unique creation. Exhumans do not mass produce leftover specials, believing each one is a work of art onto itself. Replicating that would destroy the aesthetic value. Gamemasters are encouraged to devise leftover specials from their own nightmare fuel, but a few examples are detailed here.</p><p>Threat Level: Yellow Numbers: 1–8 Often only used when the exhumans know that their habitat will be breached by outsiders, sympathy traps are designed to resemble unfortunate victims who need to be rescued: innocent splicer morphs strapped to tables, begging for help, or a mangled worker pod morph trapped in a cell.The creativity comes in how the exhuman traps the defender who tries to rescue the special. Sometimes it’s a cunningly engineered virus or hidden disassembler nanoswarm. Other times, the “victim” will attempt to lure the defenders into an ambush by concealed exhumans. The freezer trap is an actual kidnapped transhuman, usually traumatized or insane from their experience, who is strapped down to a horrifying surgical table. Unknown to the victim, their limbs have been replaced with hollowed-out “bombs” packed with freezer foam (p. 341, EP) and disguised with a synthetic mask (p. 311, EP). Once rescuers are lured near, the limbs are triggered, splattering the area and securing a new batch of victims for the exhuman. Foam Explosion: 20-meter radius, characters within must make a Ref x 3 Test or become trapped. Characters within 10 meters suffer a −30 modifier; within 15 meters the modifier is −20. Hardened foam has Armor 10 and Durability 20 and breaks down after 12 hours.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Traits:</strong> Mental Disorder (Choose Three)</p><p><strong>Ware:</strong> Access Jacks, Basic Biomods, Cyberbrain, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Medichines, Puppet Sock</p><p><strong>Flesh Regeneration:</strong> Snack bars regenerate 1d10 damage or 1 wound per hour; all damage must be healed before wounds.</p><p><em>Initiative printed: 8 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 6, Death Rating 60.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 127.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Snack Bar (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 30,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/28 Walker",
+        "implants": "Access Jacks, Basic Biomods, Cyberbrain, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Medichines, Puppet Sock",
+        "advantages": "Mental Disorder (Choose Three)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "128bb41e21957a33",
+      "_key": "!actors.items!35ee4dbeff03796c.128bb41e21957a33",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e8df9e191bc0bb7b",
+      "_key": "!actors.items!35ee4dbeff03796c.e8df9e191bc0bb7b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "34f8e5706c4e2f02",
+      "_key": "!actors.items!35ee4dbeff03796c.34f8e5706c4e2f02",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3bd5525879ce8b78",
+      "_key": "!actors.items!35ee4dbeff03796c.3bd5525879ce8b78",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "952e598834698a49",
+      "_key": "!actors.items!35ee4dbeff03796c.952e598834698a49",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "Hearing/Smell/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "49f765efb67419e2",
+      "_key": "!actors.items!35ee4dbeff03796c.49f765efb67419e2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite/Claw/Horn",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 40,
+        "ap": -1,
+        "dv": "1d10 + 6",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite/Claw/Horn: 40, DV 1d10 + 6,AP −1</p>"
+      },
+      "_id": "589a4d4ca85636a7",
+      "_key": "!actors.items!35ee4dbeff03796c.589a4d4ca85636a7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 39000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Snack Bar",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

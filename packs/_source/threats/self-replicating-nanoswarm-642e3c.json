@@ -1,0 +1,235 @@
+{
+  "_id": "642e3c93785a40f0",
+  "_key": "!actors!642e3c93785a40f0",
+  "name": "Self-Replicating Nanoswarm",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 25,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 25,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Ultraviolet</p><p><strong>Numbers:</strong> 1 swarm</p><p>Self-replicating nanoswarms have the largest resource-to-kill ratio of any weapon used in the Fall. The TITANs were a generations ahead of transhumanity in nanotechnology. Whereas typical nanoswarms have limited skill sets and remain dependent on their hives, TITAN swarms are autonomous, sapient, and self-replicating. They can modify themselves to perform any nanoswarm function and can nanofabricate new materials and structures using no more than time and feedstock. Any blueprints and programming not already installed they can steal from mesh signals they hack themselves. A TITAN nanoswarm is a WMD, area-denial weapon, cyberwarfare suite, plague, and weapons factory all rolled into one. They can just as easily camouflage themselves, quietly dissembling anything that enters the death zone, as they can construct artillery and launch precision bombardment kilometers away. They are known to scan the capabilities of new opponents in order to fabricate offensive systems to use against them. When attacked, they will adapt countermeasures to make such attacks ineffective in the future. They can also link together into a physical lattice in order to create large-scale physical forms and mechanisms. Self-replicators are almost impossible to entirely destroy with anything short of antimatter weaponry; if even a few nanobots survive, the entire swarm can rebuild and adapt accordingly. Swarms located in quarantine zones and on Earth have seen so much hostile action that they are essentially invincible; they’ve long since adapted defenses against EMP, plasma, and guardian swarm attacks. “Fresh” swarms from dormant TITAN munitions are susceptible to typical anti-nano countermeasures at first, but any victory is no more than a stalling tactic. Swarms can self-repair and install new weapons and capabilities in just a few hours. In reality, the only thing likely saving Luna and Mars from overwhelming, omnidirectional attack from swarms like this is the lack of orders from the TITANs. Without direction, most nanoswarms stick to the locations of their last deployment, occasionally migrating to “feed” on new matter. Some occupy themselves with building arcane structures that may be art, whimsically transforming the landscape, or floating as clouds and altering atmospheric properties and weather patterns. Mapping and monitoring the locations of these swarms is of the utmost importance to every transhuman military organization in existence. Orbital bombardments and other extreme countermeasures must remain in constant readiness in case a swarm decides to go back on the offensive. The release of new nanoswarms from recovered technology is the most common and feared x-threat facing Firewall short of the return of the TITANs themselves.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Common Ware:</strong> 360-Degree Vision, Chemical Sniffer, Electrical Sense, Enhanced Hearing, Enhanced Vision, Fractal Digits, Nanoscopic Vision, Radar, Radiation Sense,T-Ray Emitter</p><p><strong>Notes:</strong> Swarms may be equipped with any weapon, defenses, or other gear the gamemaster deems appropriate.</p><p><strong>Nanoswarm:</strong> These swarms follow the rules for TITAN Self-Replicating Nanoswarms (p. 169). Stats given are for a standard swarm unit, not individual nanobots.</p><p><em>Initiative printed: 9 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 14, Death Rating 0.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 133.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Self-Replicating Nanoswarm (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 70,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/16 Walker/Microlight (may create other mobility systems with different rates)",
+        "implants": "360-Degree Vision, Chemical Sniffer, Electrical Sense, Enhanced Hearing, Enhanced Vision, Fractal Digits, Nanoscopic Vision, Radar, Radiation Sense,T-Ray Emitter",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "d9a5ee664f05bade",
+      "_key": "!actors.items!642e3c93785a40f0.d9a5ee664f05bade",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "01c97c307dab989f",
+      "_key": "!actors.items!642e3c93785a40f0.01c97c307dab989f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5d219817bfa42d76",
+      "_key": "!actors.items!642e3c93785a40f0.5d219817bfa42d76",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0690ff5421d0262e",
+      "_key": "!actors.items!642e3c93785a40f0.0690ff5421d0262e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "Hearing/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d9edf2bdb983b7cb",
+      "_key": "!actors.items!642e3c93785a40f0.d9edf2bdb983b7cb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 46000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Self-Replicating Nanoswarm",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

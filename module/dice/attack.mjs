@@ -79,7 +79,9 @@ export async function rollAttack(actor, weapon, options = {}) {
   const profile = attackProfile(weapon);
   if ( !profile ) return ui.notifications.warn(game.i18n.format("EP1E.Attack.noMunition", { name: weapon.name }));
 
-  const { target, label, skill } = sys.getSkillTarget(w.skill);
+  const fromSkill = sys.getSkillTarget(w.skill);
+  // Creature attacks carry their own rating (stat blocks)
+  const { target, label, skill } = (w.rating > 0) ? { target: w.rating, label: "", skill: null } : fromSkill;
   const ranged = w.weaponType === "ranged";
   const modes = combat.availableModes(w.modes);
   const bands = ranged ? combat.parseRange(w.range, sys.aptitudes.som.value) : null;

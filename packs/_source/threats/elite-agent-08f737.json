@@ -1,0 +1,657 @@
+{
+  "_id": "08f737d9039dc6a7",
+  "_key": "!actors!08f737d9039dc6a7",
+  "name": "Elite Agent",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 25,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1–4</p><p>Elite puppets are upgraded for covert ops.This model is based on a specialist pod (p. 93, MRG).</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down) when betrayed</p><p><strong>Traits:</strong> Modified Behavior (Awareness Block, Behavioral Control), Social Stigma (Pod)</p><p><strong>Ware:</strong> Access Jacks, Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Enhanced Hearing, Enhanced Vision, Mnemonic Augmentation, Puppet Sock, Skillware, Skinflex</p><p><strong>Gear:</strong> Covert OperationsTool, Dazzler, Disabler, Disassembler Swarm, Encryption Software, Exploit Software, Invisibility Cloak, Smart Dust, Utilitool</p><p><strong>Subdual:</strong> 80 (see Subdual, p. 204, EP); on next action puppet will make a called shot on target&#x27;s access jacks to plug in a disabler or a direct fiberoptic link to initiate a brainhack.</p><p><strong>Brainhack:</strong> 80 (see p. 261, EP)</p><p><strong>Basilisk Hack:</strong> Deployed via augmented reality. See Basilisk Hacks, p. 365, EP. Puppets are people whose minds were subverted by the TITANs during the Fall. Unlike exsurgents, they are not infected by the exsurgent virus and are under the direct control of the TITANs, fetches, or their other AI minions. Most puppets are synthmorphs and pods whose cyberbrains were hacked and dominated. However, the TITANs also compromised body banks to psychosurgically modified the egos being resleeved, creating an army of biomorphs to serve their will. Some key target biomorphs were simply abducted, with either a new cyberbrain or ego implanted. TITAN puppets infiltrated all walks of transhuman life, inflicting devastating deception and treachery on transhuman civilization.They were in place months before transhumanity was aware the TITANs existed and are responsible for fueling hostilities on Earth. Many puppets occupied minor but influential positions, providing insider access without arousing suspicion. Others were military commanders, CEOs, and leaders of nations. Some were emplaced to facilitate specific objectives, usually undermining key defenses. Others brought about the downfall of governments. Puppets were used to infect air-gapped networks, as mules to transport TITAN nanoswarms, or even as suicide bombers. They sometimes possessed the capability to inflict basilisk hacks or subvert other cyberbrain-equipped morphs. The most horrifying aspect of puppets is that they are so difficult to detect. Many do not even realize they have been subverted, due to awareness block psychosurgery (p. 170, Transhuman). There are few ways to uncover manipulated minds outside of intensive psychosurgery. Transhuman society remains riddled with secret infiltrators.</p><p><em>Initiative printed: 8 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 7, Death Rating 53.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 132.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Elite Agent (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 35,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 13,
+          "kinetic": 14
+        },
+        "movement": "4/20",
+        "implants": "Access Jacks, Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Enhanced Hearing, Enhanced Vision, Mnemonic Augmentation, Puppet Sock, Skillware, Skinflex",
+        "advantages": "Modified Behavior (Awareness Block, Behavioral Control), Social Stigma (Pod)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "9e1a2e9b30c0d081",
+      "_key": "!actors.items!08f737d9039dc6a7.9e1a2e9b30c0d081",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Clubs",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "clubs",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7ee6582da182726f",
+      "_key": "!actors.items!08f737d9039dc6a7.7ee6582da182726f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5d2d325af0767717",
+      "_key": "!actors.items!08f737d9039dc6a7.5d2d325af0767717",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Disguise",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "disguise",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "107bb7e9d52db648",
+      "_key": "!actors.items!08f737d9039dc6a7.107bb7e9d52db648",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9b41f04dd60a8966",
+      "_key": "!actors.items!08f737d9039dc6a7.9b41f04dd60a8966",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b79dc22faaf41eba",
+      "_key": "!actors.items!08f737d9039dc6a7.b79dc22faaf41eba",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Impersonation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "impersonation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d2099f98fe790c09",
+      "_key": "!actors.items!08f737d9039dc6a7.d2099f98fe790c09",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b3d07264ad839266",
+      "_key": "!actors.items!08f737d9039dc6a7.b3d07264ad839266",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7407ebeaf998827e",
+      "_key": "!actors.items!08f737d9039dc6a7.7407ebeaf998827e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8214f013fedd01a3",
+      "_key": "!actors.items!08f737d9039dc6a7.8214f013fedd01a3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f25863ee9eeea9d6",
+      "_key": "!actors.items!08f737d9039dc6a7.f25863ee9eeea9d6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ded3da028b95a938",
+      "_key": "!actors.items!08f737d9039dc6a7.ded3da028b95a938",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0c874d5a317b2d33",
+      "_key": "!actors.items!08f737d9039dc6a7.0c874d5a317b2d33",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Security Ops",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d689dc5cfe09040f",
+      "_key": "!actors.items!08f737d9039dc6a7.d689dc5cfe09040f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Programming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "programming",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "303ca24db4ffbfb7",
+      "_key": "!actors.items!08f737d9039dc6a7.303ca24db4ffbfb7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c1009dd3feb7fe35",
+      "_key": "!actors.items!08f737d9039dc6a7.c1009dd3feb7fe35",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Scrounging",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "scrounging",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "76c228966fa71cdc",
+      "_key": "!actors.items!08f737d9039dc6a7.76c228966fa71cdc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "Subdual",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "005ec7ea8a133206",
+      "_key": "!actors.items!08f737d9039dc6a7.005ec7ea8a133206",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d1ed69aabdd391c0",
+      "_key": "!actors.items!08f737d9039dc6a7.d1ed69aabdd391c0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "Hearing/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6f177efefc868fc6",
+      "_key": "!actors.items!08f737d9039dc6a7.6f177efefc868fc6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Light Pistol Railgun",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -3,
+        "dv": "2d10 + 2",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": true,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Light Pistol Railgun: 60, DV 2d10 + 2,AP −3, SA/BF/FA;Ammo: 40 Armor-Piercing (AP −5, DV −2), 20 Zap (AP +2, DV −half, shock effect); Silencer; Concealable Design (−30 to spot).</p>"
+      },
+      "_id": "879a9664bf7e2c7d",
+      "_key": "!actors.items!08f737d9039dc6a7.879a9664bf7e2c7d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 45000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Elite Agent",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}
