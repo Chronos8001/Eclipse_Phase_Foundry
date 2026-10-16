@@ -1,0 +1,29 @@
+{
+  "_id": "b9dd0fe56869bd13",
+  "_key": "!items!b9dd0fe56869bd13",
+  "name": "Ablative Patches",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "ablativePatches",
+    "category": "armorMod",
+    "quantity": 1,
+    "cost": "Trivial",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>These thin and light slap-on patches of stick to armor and are designed to absorb heat and energy from beams and explosions, safely vaporizing and blowing hot gas away. Ablative patches increases the Armor Value by +4/+2, but each hit reduces both the energy and kinetic value of the ablative armor by 1.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 313.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

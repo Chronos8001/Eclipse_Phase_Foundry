@@ -1,0 +1,29 @@
+{
+  "_id": "9e50171993d8ab0e",
+  "_key": "!items!9e50171993d8ab0e",
+  "name": "Nanobandage",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "nanobandage",
+    "category": "survival",
+    "quantity": 1,
+    "cost": "Trivial",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Characters without medichines must rely on external sources of healing. The most common option is the nanobandage—a plum-sized advanced nanotechnology generator built into a reusable, selfsterilizing bandage. It can treat all forms of injury and illness, from poisoning to burns to trauma. Characters simply apply the bandage to the wound and let the nanobots do the work. It removes pain and discomfort and speeds healing (see Biomorph Healing, p. 208). For especially severe injuries, physical first aid such as setting bones and removing projectiles may be necessary (gamemaster’s choice). If the wounds are too severe (the patient has suffered more than five wounds), the unit places the patient in medical stasis and radios for emergency services.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 333.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 95000,
+  "ownership": {
+    "default": 0
+  }
+}

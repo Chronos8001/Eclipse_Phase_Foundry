@@ -1,0 +1,29 @@
+{
+  "_id": "0ce2626ba9af649f",
+  "_key": "!items!0ce2626ba9af649f",
+  "name": "Shelter Dome",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "shelterDome",
+    "category": "survival",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>A variant of the emergency bubble, this package unfolds into a dome with a 2.5-meter ceiling and a floor 4 meters across. To safely use this shelter, it must be staked down to the surface it is placed on.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 333.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 97000,
+  "ownership": {
+    "default": 0
+  }
+}

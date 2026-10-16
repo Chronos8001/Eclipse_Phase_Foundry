@@ -1,0 +1,29 @@
+{
+  "_id": "b98cbdd881e482b1",
+  "_key": "!items!b98cbdd881e482b1",
+  "name": "General Hive",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "generalHive",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "Expensive",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>General hives are capable of producing any conceivable type of nanobot with the right blueprints and/or programming. Even at their smallest size they are not really portable, with a minimum size being cubes 30 centimeters on a side and a volume of 25 liters.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 328.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 55000,
+  "ownership": {
+    "default": 0
+  }
+}

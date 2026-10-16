@@ -1,0 +1,29 @@
+{
+  "_id": "ee3b7012a69576f2",
+  "_key": "!items!ee3b7012a69576f2",
+  "name": "Spindle",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "spindle",
+    "category": "survival",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>A spindle is an advanced nanotechnology generator that produces a super-strong cable. It can produce up to 2 kilometers of 0.2 millimeter diameter line than can support up to 250 kilograms before it needs more raw materials. The spindle can produce up to 20 meters of cable every second. It can produce line in a continuous length or cut the cable it produces to any length. Spindles can also reabsorb their cable, retracting it at a rate of 5 m per second. As long as it is recharged and has small amounts of additional material added every 1,000 hours of use, a spindle can keep producing and retracting cable indefinitely. By setting the maximum production speed at 10 m/ second a character with a spindle can safely jump off a building and land safely, using the cable to slow their descent.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 333.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 98000,
+  "ownership": {
+    "default": 0
+  }
+}

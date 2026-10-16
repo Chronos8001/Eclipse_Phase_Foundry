@@ -1,0 +1,29 @@
+{
+  "_id": "344c46f2879b3409",
+  "_key": "!items!344c46f2879b3409",
+  "name": "Microbug",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "microbug",
+    "category": "espionage",
+    "quantity": 1,
+    "cost": "Trivial, Low for quantum farcaster bugs",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This device is a tiny camera and microphone 1 millimeter across. It has the visual capabilities of a set of specs (p. 325). It can hear everything within 20 meters and see everything within the same range that is in its line of sight. A microbug can record up to 100 hours of information. Microbugs can be set to broadcast continuously, at set intervals, or only when they receive a special signal. If desired, they can also be set to only record if there is movement or voices in the room they are in. Microbugs have adhesive backs and can stick to almost any surface. Microbugs can also establish their location via mesh positioning or GPS, and so double as tracking devices. To avoid being detected by their radio transmissions, some microbugs are attached to miniature quantum farcasters (p. 314). These microbugs are much larger (1 centimeter) and easy to see, but their transmissions cannot be detected or blocked.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 316.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 30000,
+  "ownership": {
+    "default": 0
+  }
+}

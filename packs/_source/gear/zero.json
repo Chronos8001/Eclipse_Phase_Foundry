@@ -1,0 +1,29 @@
+{
+  "_id": "a2b544402cb2f267",
+  "_key": "!items!a2b544402cb2f267",
+  "name": "Zero",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "zero",
+    "category": "ammo",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Similar to homing smart rounds, zero bullets identify the target when fired via smartlink. Whether the round hits or misses, however, it sends telemetry data back to the next zero bullet, allowing it to course-correct and “zero in” to hit the target (or hit more accurately). Apply a +10 modifier to each shot (or burst) fired after the first against the same target in the same Action Turn.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 338.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 118000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "56f5621ad1d53f32",
+  "_key": "!items!56f5621ad1d53f32",
+  "name": "Electronic Rope",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "electronicRope",
+    "category": "survival",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>The fibers in this rope can be controlled electronically, making it move in a snakelike fashion, stiffen up, and even wrap around objects. Typically comes in a 50meter length capable of supporting 250 kg.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 332.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 91000,
+  "ownership": {
+    "default": 0
+  }
+}

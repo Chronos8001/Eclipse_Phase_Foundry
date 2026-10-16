@@ -21,8 +21,13 @@ const DialogV2 = () => foundry.applications.api.DialogV2;
 export function attackProfile(weapon) {
   const w = weapon.system;
   if ( !w.launcher ) {
+    // Kinetic weapons fire the ammunition type they are loaded with (p. 337)
+    const ammoItem = (w.skill === "kineticWeapons") ? weapon.actor?.items.get(w.ammo.loaded) : null;
+    const ammo = (ammoItem?.type === "gear") && (ammoItem.system.category === "ammo") ? ammoItem.system.ammo : null;
     return {
-      name: weapon.name, dv: w.dv, ap: w.ap, damageType: w.damageType, shock: w.shock,
+      name: ammo ? `${weapon.name} — ${ammoItem.name}` : weapon.name,
+      dv: w.dv, ap: w.ap + (ammo?.ap ?? 0), damageType: w.damageType, shock: w.shock || !!ammo?.shock,
+      armorDoubled: !!ammo?.armorDoubled, ammo,
       area: { ...w.area }, munition: { ...w.munition }, munitionItem: null
     };
   }
@@ -119,6 +124,7 @@ export async function rollAttack(actor, weapon, options = {}) {
     concentrated,
     cone: (profile.area.shape === "cone") ? input.band : null,
     munition: profile.munition,
+    ammo: profile.ammo,
     charging: !ranged && keys.includes("charging"),
     extraWeapons,
     beamConcentrated
@@ -158,6 +164,7 @@ export async function rollAttack(actor, weapon, options = {}) {
       ap: profile.ap,
       damageType: profile.damageType,
       shock: profile.shock,
+      armorDoubled: !!profile.armorDoubled,
       area: profile.area,
       munition: profile.munition,
       ranged,
@@ -237,8 +244,28 @@ export async function reloadWeapon(weapon) {
   const actor = weapon.actor;
   if ( !actor || (w.ammo.max <= 0) ) return;
   if ( !w.launcher ) {
-    await weapon.update({ "system.ammo.value": w.ammo.max });
-    return ui.notifications.info(game.i18n.format("EP1E.Reload.done", { name: weapon.name, count: w.ammo.max }));
+    // Kinetic weapons may switch ammunition type (p. 337); the type is not counted against a stock
+    const types = (w.skill === "kineticWeapons")
+      ? actor.items.filter(i => (i.type === "gear") && (i.system.category === "ammo")) : [];
+    let loaded = w.ammo.loaded;
+    if ( types.length ) {
+      const options = [`<option value="">${game.i18n.localize("EP1E.Reload.standardAmmo")}</option>`]
+        .concat(types.map(i => `<option value="${i.id}" ${i.id === loaded ? "selected" : ""}>${i.name}</option>`)).join("");
+      const result = await DialogV2().prompt({
+        window: { title: game.i18n.format("EP1E.Reload.title", { name: weapon.name }), icon: "fa-solid fa-rotate" },
+        classes: ["ep1e", "ep1e-dialog"],
+        content: `<div class="form-group"><label>${game.i18n.localize("EP1E.Reload.ammoType")}</label><select name="ammo">${options}</select></div>`,
+        ok: { label: "EP1E.Reload.reload", callback: (ev, button) => new foundry.applications.ux.FormDataExtended(button.form).object },
+        rejectClose: false
+      });
+      if ( !result ) return;
+      loaded = result.ammo ?? "";
+    }
+    await weapon.update({ "system.ammo.value": w.ammo.max, "system.ammo.loaded": loaded });
+    const ammoName = actor.items.get(loaded)?.name;
+    return ui.notifications.info(game.i18n.format("EP1E.Reload.done", {
+      name: ammoName ? `${weapon.name} (${ammoName})` : weapon.name, count: w.ammo.max
+    }));
   }
 
   const sizes = combat.launcherSizes(w.launcher);

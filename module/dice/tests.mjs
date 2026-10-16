@@ -207,6 +207,7 @@ async function rollDamageFromTest(message) {
   return postDamageRoll(actor, roll, {
     attackId: message.id,
     shock: !!attack.shock,
+    armorDoubled: !!attack.armorDoubled,
     stress: !!attack.stress,
     label: attack.name,
     ap: attack.ap,
@@ -218,11 +219,12 @@ async function rollDamageFromTest(message) {
 
 /** Post a damage roll card with an "apply" button. */
 export async function postDamageRoll(actor, roll, {
-  label, ap = 0, damageType = "kinetic", armorDefeating = false, armorHalved = false, excellentBonus = 0,
-  stress = false, shock = false, attackId = null
+  label, ap = 0, damageType = "kinetic", armorDefeating = false, armorHalved = false, armorDoubled = false,
+  excellentBonus = 0, stress = false, shock = false, attackId = null
 }) {
   const damage = {
-    label, total: roll.total, formula: roll.formula, ap, damageType, armorDefeating, armorHalved, excellentBonus, stress, shock, attackId
+    label, total: roll.total, formula: roll.formula, ap, damageType, armorDefeating, armorHalved, armorDoubled,
+    excellentBonus, stress, shock, attackId
   };
   const content = await render(TEMPLATES.damage, {
     damage,
@@ -278,7 +280,8 @@ export async function applyToActor(actor, damage, { total = damage.total, distan
   const result = damage.stress
     ? await actor.applyStress({ sv: total })
     : await actor.applyDamage({
-      dv, ap: damage.ap, damageType: damage.damageType, armorDefeating: damage.armorDefeating, armorHalved: damage.armorHalved
+      dv, ap: damage.ap, damageType: damage.damageType, armorDefeating: damage.armorDefeating,
+      armorHalved: damage.armorHalved, armorDoubled: damage.armorDoubled
     });
   if ( !damage.stress ) {
     if ( shock ) await applyShockConditions(actor, shock);

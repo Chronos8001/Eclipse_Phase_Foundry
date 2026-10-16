@@ -100,6 +100,12 @@ assert.equal(combat.damageFormula({ dv: "2d10", beamConcentrated: true }), "ceil
 // Melee: damage bonus, charge (+1d10) and extra weapons (+1d10 each, max +3d10)
 assert.equal(combat.damageFormula({ dv: "1d10 + 2", db: 3, charging: true, extraWeapons: 5 }), "1d10 + 2 + 1d10 + 3d10 + 3");
 
+// Kinetic ammunition (p. 337): hollow-point +1d10, armor-piercing -2, plastic halves, jammer does no damage
+assert.equal(combat.damageFormula({ dv: "2d10 + 4", ammo: { dv: "+1d10" } }), "2d10 + 4 + 1d10");
+assert.equal(combat.damageFormula({ dv: "2d10 + 4", ammo: { dv: "-2" } }), "2d10 + 4 - 2");
+assert.equal(combat.damageFormula({ dv: "2d10 + 4", ammo: { half: true } }), "ceil((2d10 + 4) / 2)");
+assert.equal(combat.damageFormula({ dv: "2d10 + 4", ammo: { noDamage: true } }), "");
+
 // --- Ranges (p. 203)
 const pistol = combat.parseRange("10 / 25 / 40 / 60");
 assert.deepEqual(pistol, [10, 25, 40, 60]);

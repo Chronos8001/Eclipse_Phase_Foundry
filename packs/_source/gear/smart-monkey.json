@@ -1,0 +1,29 @@
+{
+  "_id": "10a9ab83ae95af28",
+  "_key": "!items!10a9ab83ae95af28",
+  "name": "Smart Monkey",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartMonkey",
+    "category": "pet",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Commonly used by criminal groups for minor larceny such as pickpocketing, smart monkeys can be useful and intelligent aides.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 330.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 72000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "669437a0fb488f1e",
+  "_key": "!items!669437a0fb488f1e",
+  "name": "Laser/Microwave Link",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "laserMicrowaveLink",
+    "category": "comms",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>These portable devices are used to establish a tight-beam, line-of-sight communications channel with another laser or microwave link. The range of these transceivers varies widely with environmental factors, but approximates 50 kilometers in atmosphere and 500 kilometers in space (though horizon limits must be kept in mind, being 5 kilometers at ground level on Earth and less on smaller bodies). Lasers are subject to interference from fog, dirt, smoke, and similar visual chaff, while microwaves may be hindered by metallic obstructions. These links may only be intercepted by getting directly in between the beams. Some teams carry a micro version of this system, worn on their person, allowing line of sight intra-team communications that cannot be intercepted like radio.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 314.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

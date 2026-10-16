@@ -1,0 +1,29 @@
+{
+  "_id": "bfd6a54bde684bcb",
+  "_key": "!items!bfd6a54bde684bcb",
+  "name": "Micrograv Shoes",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "microgravShoes",
+    "category": "everyday",
+    "quantity": 1,
+    "cost": "Trivial",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>These shoes are equipped with velcro and/or a magnetic system, allowing the wearer to walk normally on appropriate surfaces in micrograv and zero-G environments, rather than floating or bouncing.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 325.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 40000,
+  "ownership": {
+    "default": 0
+  }
+}

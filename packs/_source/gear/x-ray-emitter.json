@@ -1,0 +1,29 @@
+{
+  "_id": "8309d7aaca0cff3b",
+  "_key": "!items!8309d7aaca0cff3b",
+  "name": "X-Ray Emitter",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "xRayEmitter",
+    "category": "espionage",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This device is designed to be used with either the enhanced vision augmentation (p. 301) or specs (p. 325). It emits a focused beam of low-powered x-rays that allows the user of either device to both see and see through most objects using backscatter x-ray radiation (p. 303). This allows the character to literally see through walls and into containers, including ones made of metal.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 317.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 37000,
+  "ownership": {
+    "default": 0
+  }
+}

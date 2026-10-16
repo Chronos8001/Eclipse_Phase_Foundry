@@ -1,0 +1,29 @@
+{
+  "_id": "e4a6493fcdcd3d81",
+  "_key": "!items!e4a6493fcdcd3d81",
+  "name": "Specimen Container",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "specimenContainer",
+    "category": "scavenger",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This capsule container is designed to hold samples of any sort (chemical, biological, etc.) in near stasis. It can be programmed to reproduce whatever conditions the user specifies, from cryogenic freezing to extreme heat, or even vacuum or high-pressure atmosphere.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 330.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 77000,
+  "ownership": {
+    "default": 0
+  }
+}

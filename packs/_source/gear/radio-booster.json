@@ -1,0 +1,29 @@
+{
+  "_id": "8d89b2af321ed3ef",
+  "_key": "!items!8d89b2af321ed3ef",
+  "name": "Radio Booster",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "radioBooster",
+    "category": "comms",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This device boosts the range and sensitivity of short-range radios, like those from implants, ectos, or microbugs. The booster must be with the shorter-ranged device’s range (or directly linked via fiberoptic cable). It will repeat any transmissions received from that device, but at its extended range of 25 kilometers in urban areas (250 kilometers remote areas). Broadcasts from a radio booster are easy to receive by anyone looking for broadcasts (see Wireless Scanning, p. 251), though transmissions may be stealthed (p. 252). Boosters are commonly used by characters traveling far from habitats or other civilized regions.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 314.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

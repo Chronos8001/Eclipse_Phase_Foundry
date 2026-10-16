@@ -1,0 +1,29 @@
+{
+  "_id": "c414f842d2ea1659",
+  "_key": "!items!c414f842d2ea1659",
+  "name": "Saboteurs",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "saboteurs",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "High",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Sab nanobots are designed to infiltrate electronics or machinery and sabotage them in small but difficult to discern ways: severing connections, disabling components, gumming up moving parts, etc. Saboteurs inflict damage on devices similar to disassemblers, but the target is not destroyed and such damage is not immediately obvious. They inflict 1d10 ÷ 2 points of damage to synthmorphs, bots, and other devices every Action Turn. Armor has no effect, but accumulated damage counts as a wound when the Wound Threshold is reached.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 329.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 67000,
+  "ownership": {
+    "default": 0
+  }
+}

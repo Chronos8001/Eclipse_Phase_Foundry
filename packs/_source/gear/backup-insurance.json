@@ -1,0 +1,29 @@
+{
+  "_id": "829f6b9052fcebaf",
+  "_key": "!items!829f6b9052fcebaf",
+  "name": "Backup Insurance",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "backupInsurance",
+    "category": "service",
+    "quantity": 1,
+    "cost": "Low to Moderate per month",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>In the event of verifiable death, or after a set period of being missing, backup insurance will arrange for your cortical stack to be retrieved and your ego downloaded into another morph. If the cortical stack cannot be retrieved, your most recent backup is used. Most policies require that the holder provide a backup to be uploaded into secure storage at least twice a year. This industry works in a manner similar to insurance underwriting in terms of cost and individuals engaged in high risk professions can expect to pay a premium for the service. Additionally, attempts to retrieve a cortical stack are minimal unless one wants to pay for some extra effort (a thriving industry of paramilitary ego-repo operatives exists for this purpose).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 330.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 81000,
+  "ownership": {
+    "default": 0
+  }
+}

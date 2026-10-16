@@ -1,0 +1,29 @@
+{
+  "_id": "d8cef77caa197c95",
+  "_key": "!items!d8cef77caa197c95",
+  "name": "Flashlight",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "flashlight",
+    "category": "survival",
+    "quantity": 1,
+    "cost": "Trivial",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>These handheld, wearable, or portable lights can display light in the normal visual spectrum, infrared, or ultraviolet, as desired.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 333.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 94000,
+  "ownership": {
+    "default": 0
+  }
+}

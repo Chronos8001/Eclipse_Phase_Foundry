@@ -1,0 +1,29 @@
+{
+  "_id": "082fa0bf189fc512",
+  "_key": "!items!082fa0bf189fc512",
+  "name": "Spindle Climber",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "spindleClimber",
+    "category": "survival",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This device attaches to a spindle and transforms it into a highly effective climbing device. The spindle climber has two functions. First, it attaches hardened tips to the spindle’s cable and fires it at high speed, up to 50 meters, with sufficient force to imbed the tip into almost any sufficiently durable surface. Second, the spindle climber can pull itself and up to 250 kg up the cable at a speed of up to 2 m/sec. A spindle climber has enough power to shoot and pull up the cable 50 times before it must be recharged. A spindle fits inside a spindle climber.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 333.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 99000,
+  "ownership": {
+    "default": 0
+  }
+}

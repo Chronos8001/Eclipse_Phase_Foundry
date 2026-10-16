@@ -1,0 +1,29 @@
+{
+  "_id": "248bb074eac7bf09",
+  "_key": "!items!248bb074eac7bf09",
+  "name": "Body Bank",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "bodyBank",
+    "category": "service",
+    "quantity": 1,
+    "cost": "Moderate per month",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>People who are egocasting to another station but whom hope to download back into the same body they have before when they return may put the morph on ice for the duration of their absence.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 82000,
+  "ownership": {
+    "default": 0
+  }
+}

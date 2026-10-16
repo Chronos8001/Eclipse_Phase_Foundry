@@ -1,0 +1,29 @@
+{
+  "_id": "110cc17fcb6b2c02",
+  "_key": "!items!110cc17fcb6b2c02",
+  "name": "Smart Clothing",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartClothing",
+    "category": "everyday",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Smart clothing can change its color, texture, and even its cut, taking only a minute or two to transform from a solid color jumpsuit to a plaid party dress or a replica of a pinstriped, late 20th century business suit. It can also camouflage the wearer, providing a +20 bonus to Infiltration Tests to avoid being seen, as long as the wearer is stationary or not moving faster than a slow walk, and as long as the wearer is completely covered or also using chameleon skin (p. 303) of the same color/pattern. If incompletely camouflaged, or if moving faster, reduce the modifier to +10. Smart clothing also keeps the character warm or cool, allowing the character to exist comfortably in environments from –40 to 70 C.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 325.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 42000,
+  "ownership": {
+    "default": 0
+  }
+}

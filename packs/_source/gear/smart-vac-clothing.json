@@ -1,0 +1,29 @@
+{
+  "_id": "910efaf9df2876c4",
+  "_key": "!items!910efaf9df2876c4",
+  "name": "Smart Vac Clothing",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartVacClothing",
+    "category": "everyday",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Just like regular smart clothing, this outfit can also transform into a light vacsuit (p. 333). It also functions as armor with a rating of 2/4.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 325.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 43000,
+  "ownership": {
+    "default": 0
+  }
+}

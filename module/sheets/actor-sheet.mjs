@@ -119,7 +119,8 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         const { target, label } = system.getSkillTarget(w.skill);
         return {
           item, target, skillLabel: label || "—",
-          loaded: w.launcher ? actor.items.get(w.ammo.loaded)?.name : null,
+          // Launcher munition or kinetic ammunition type
+          loaded: actor.items.get(w.ammo.loaded)?.name ?? null,
           // Grenades and missiles are counted by quantity
           thrown: w.munition.kind !== "none"
         };

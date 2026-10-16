@@ -1,0 +1,29 @@
+{
+  "_id": "5f92a80e122522f6",
+  "_key": "!items!5f92a80e122522f6",
+  "name": "Fabber",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "fabber",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Fabbers are specialized nanofabricators, portable and considerably smaller than CMs. There are a wide variety of portable fabbers, including ones that can make any hand tool or small piece of personal electronics, ones that can turn any organic material into food and drink, and ones that can create any drug or medicine as well as bandages and specialized dressings. The most common fabbers have a volume of 4 liters. Larger hand tools and devices are produced as 2 or 3 separate parts that must be fitted together. Like CMs, fabbers also contain miniature disposal units.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 328.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 52000,
+  "ownership": {
+    "default": 0
+  }
+}

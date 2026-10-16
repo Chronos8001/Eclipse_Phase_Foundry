@@ -1,0 +1,29 @@
+{
+  "_id": "e8b3279cf083a7ee",
+  "_key": "!items!e8b3279cf083a7ee",
+  "name": "Plastic",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "plastic",
+    "category": "ammo",
+    "quantity": 1,
+    "cost": "Trivial",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": true,
+      "noDamage": false,
+      "armorDoubled": true,
+      "shock": false
+    },
+    "description": "<p>Plastic ammo is designed to hurt but not wound targets, and is commonly used for crowd control purposes.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 338.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 106000,
+  "ownership": {
+    "default": 0
+  }
+}

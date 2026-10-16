@@ -1,0 +1,29 @@
+{
+  "_id": "8e85928a0faec52b",
+  "_key": "!items!8e85928a0faec52b",
+  "name": "Invisibility Cloak",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "invisibilityCloak",
+    "category": "espionage",
+    "quantity": 1,
+    "cost": "High",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This cloak is made of metamaterials with a negative refractive index, so that light actually bends around it, making it and anything it covers invisible. This invisibility works from the microwave to ultraviolet spectrums, but not against radar or x-rays. The drawback is that anything concealed within the cloak can’t see out. This is easily overcome by using external sensor feeds (if available) and entoptics to navigate. Alternately, a small piece of anti-cloak, which cancels the cloak’s invisibility properties when touched together, can be used to create a small window to peep out of, though this increases the chance of being spotted. Noticing such a window requires a Perception Test with a –30 modifier.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 316.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 29000,
+  "ownership": {
+    "default": 0
+  }
+}

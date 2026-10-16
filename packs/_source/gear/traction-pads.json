@@ -1,0 +1,29 @@
+{
+  "_id": "ee2f43b8ab328a3b",
+  "_key": "!items!ee2f43b8ab328a3b",
+  "name": "Traction Pads",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "tractionPads",
+    "category": "espionage",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This set of specialized fingerless gloves, shoes, and kneepads is designed to emulate the pads on geckos’ feet. Characters can support themselves on a wall or ceiling by placing any two of these pads against any surface not made from a material specially designed to resist such devices. Characters can climb any surface and move easily across walls and ceilings that can support their weight (+30 to Climbing Tests). In addition to climbing, these devices are also very popular in zero-g environments. Wearing this item does not impair the user’s agility or manual dexterity.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 317.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 35000,
+  "ownership": {
+    "default": 0
+  }
+}

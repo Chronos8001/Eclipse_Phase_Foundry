@@ -1,0 +1,29 @@
+{
+  "_id": "03acecea7325ab75",
+  "_key": "!items!03acecea7325ab75",
+  "name": "Flash Suppressor",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "flashSuppressor",
+    "category": "weaponAccessory",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This device obscures the muzzle flash on firearms, applying a –10 modifier on Perception Tests to locate a firing weapon by its flash.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 342.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 123000,
+  "ownership": {
+    "default": 0
+  }
+}

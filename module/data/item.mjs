@@ -161,8 +161,20 @@ export class GearData extends BaseItemData {
   static defineSchema() {
     return {
       ...super.defineSchema(),
+      key: text(),
+      category: choice(["other", "armorMod", "comms", "surveillance", "espionage", "everyday", "nanotech", "pet",
+        "scavenger", "service", "survival", "ammo", "weaponAccessory"], "other"),
       quantity: int(1, { min: 0 }),
-      cost: text()
+      cost: text(),
+      // Kinetic ammunition (Core p. 337): modifiers to the weapon's AP and DV
+      ammo: new SchemaField({
+        ap: int(0),
+        dv: text(),
+        half: new BooleanField({ initial: false }),
+        noDamage: new BooleanField({ initial: false }),
+        armorDoubled: new BooleanField({ initial: false }),
+        shock: new BooleanField({ initial: false })
+      })
     };
   }
 }

@@ -1,0 +1,29 @@
+{
+  "_id": "93aa8cdb07353731",
+  "_key": "!items!93aa8cdb07353731",
+  "name": "Disassemblers",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "disassemblers",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "High",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Also known as smart corrosives, these nanobots break down any matter. Their advantage over common acids is that not only are they able to break down any material by using energy to disrupt chemical bonds, but that they can be programmed to take apart certain components while ignoring others, leaving them intact. Disassemblers are a common weapon used against synthmorphs, eating away their components without having to worry about accidentally splashing biomorphs. Upon contact, these nanobots inflict 1d10 ÷ 2 damage (round up) per Action Turn. Accumulated damage counts as a wound when the Wound Threshold is reached. Both Energy and Kinetic armor protect against this damage, but these armors are eaten away as well, so the Armor Value is reduced by the soaked DV.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 329.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 60000,
+  "ownership": {
+    "default": 0
+  }
+}

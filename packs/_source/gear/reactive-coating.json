@@ -1,0 +1,29 @@
+{
+  "_id": "08ae5b7a2a950d5e",
+  "_key": "!items!08ae5b7a2a950d5e",
+  "name": "Reactive Coating",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "reactiveCoating",
+    "category": "armorMod",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>A thick layer of advanced nanotech is applied to the armor, protecting it with a colony of nanobots designed to sense incoming attacks. When an attack strikes the coating, it detonates to disrupt the attack. Bursts and full autofire are treated as a single attack. A reactive coating increases the Armor Value by +5/+5, but each detonation automatically inflicts 1 point of damage on the wearer. Reactive armor also works against melee attacks, but the attacker also suffers 1d10 ÷ 2 (round up) points of damage per attack (armor protects) from the microexplosion. Reactive coating only works against 5 attacks, after which the specialized nanobot hive replenishes the coating at the rate of 1 use per hour.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 313.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

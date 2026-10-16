@@ -57,11 +57,13 @@ export class EPActor extends Actor {
    * @param {string} [opts.damageType]    kinetic | energy | none
    * @param {boolean} [opts.armorDefeating] Critical hit: armor is ignored
    * @param {boolean} [opts.armorHalved]  Armor counts for half, rounded down (falls, p. 197)
+   * @param {boolean} [opts.armorDoubled] Armor counts double (plastic ammunition, p. 337)
    */
-  async applyDamage({ dv, ap = 0, damageType = "kinetic", armorDefeating = false, armorHalved = false }) {
+  async applyDamage({ dv, ap = 0, damageType = "kinetic", armorDefeating = false, armorHalved = false, armorDoubled = false }) {
     const sys = this.system;
     let baseArmor = (damageType === "none") ? 0 : (sys.armor[damageType] ?? 0);
     if ( armorHalved ) baseArmor = fallingArmor(baseArmor);
+    if ( armorDoubled ) baseArmor *= 2;
     const armor = armorDefeating ? 0 : Math.max(0, baseArmor + ap);
     const damage = Math.max(0, dv - armor);
     const wt = sys.stats.wt;

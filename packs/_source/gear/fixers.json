@@ -1,0 +1,29 @@
+{
+  "_id": "fb3492d79b3a5ff0",
+  "_key": "!items!fb3492d79b3a5ff0",
+  "name": "Fixers",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "fixers",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This is the nanoswarm version of repair spray (p. 333).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 329.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 62000,
+  "ownership": {
+    "default": 0
+  }
+}

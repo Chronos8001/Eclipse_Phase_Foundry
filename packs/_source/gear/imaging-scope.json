@@ -1,0 +1,29 @@
+{
+  "_id": "d3850f0b97384915",
+  "_key": "!items!d3850f0b97384915",
+  "name": "Imaging Scope",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "imagingScope",
+    "category": "weaponAccessory",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Imaging scopes attach to the top of the weapon and act like specs (p. 325). Scopes may also bend like a periscope, along a character to point the weapon and target around corners without leaving cover.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 342.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 122000,
+  "ownership": {
+    "default": 0
+  }
+}

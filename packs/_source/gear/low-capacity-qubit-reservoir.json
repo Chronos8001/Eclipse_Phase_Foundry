@@ -1,0 +1,29 @@
+{
+  "_id": "fb0e9fcc228c6abb",
+  "_key": "!items!fb0e9fcc228c6abb",
+  "name": "Low-Capacity Qubit Reservoir",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "lowCapacityQubitReservoir",
+    "category": "comms",
+    "quantity": 1,
+    "cost": "High",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Low-capacity qubit reservoirs can be used for 10 hours of high-resolution video conferencing or meshbrowsing and 100 hours of voice or text only communications.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 315.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 21000,
+  "ownership": {
+    "default": 0
+  }
+}

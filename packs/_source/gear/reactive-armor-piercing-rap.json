@@ -1,0 +1,29 @@
+{
+  "_id": "6992f79c72ce6aa4",
+  "_key": "!items!6992f79c72ce6aa4",
+  "name": "Reactive Armor-Piercing (RAP)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "reactiveArmorPiercingRap",
+    "category": "ammo",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": -6,
+      "dv": "-1",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This is a tungsten-carbide armor-piercing round with a reactive casing, allowing the ammunition to penetrate even further.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 338.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 108000,
+  "ownership": {
+    "default": 0
+  }
+}

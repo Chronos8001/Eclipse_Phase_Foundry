@@ -1,0 +1,29 @@
+{
+  "_id": "6fec7cdc8d156b29",
+  "_key": "!items!6fec7cdc8d156b29",
+  "name": "Neutrino Communicators",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "neutrinoCommunicators",
+    "category": "comms",
+    "quantity": 1,
+    "cost": "",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Neutrinos are particles that can pass through any solid matter with ease and are impossible to block. As a result, they make an ideal medium for communications. Unfortunately, they are also easy to intercept. Even a tight beam of neutrinos sent between two locations can be intercepted simply by placing another receiver behind the location the broadcaster is sending to. Neutrino communicators require a large power plant to power the high energy particle interactions required to generate the neutrino broadcast. Neutrino receivers are also relatively large, with the smallest occupying 100 cubic meters. In most cases, neutrino communicators are designed to broadcast neutrinos in all directions, though tight-beam transmissions are also possible. Quite often neutrino communications take advantage of quantum farcasting for security.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 314.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "99536e03f822893b",
+  "_key": "!items!99536e03f822893b",
+  "name": "Safety System",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "safetySystem",
+    "category": "weaponAccessory",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>A biometric (palmprint or voiceprint) or ego ID (p. 279) sensor is embedded in the weapon, disabling it if anyone other than an authorized user attempts to fire it.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 342.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 125000,
+  "ownership": {
+    "default": 0
+  }
+}

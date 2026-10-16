@@ -1,0 +1,29 @@
+{
+  "_id": "9a9ff017e972260d",
+  "_key": "!items!9a9ff017e972260d",
+  "name": "Covert Operations Tool (COT)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "covertOperationsToolCot",
+    "category": "espionage",
+    "quantity": 1,
+    "cost": "High",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This handheld device is the ultimate in infiltration technology. It contains both smart matter micromanipulators, cutting tools, and an advanced nanotechnology generator capable of producing nanobots that can bore or cut through almost any material and disable or open almost any electronic lock. Cutting out a lock or boring a 1-millimeter hole in a wall with a COT requires ((Durability + Armor) ÷ 10) seconds. Cutting out a 1-meter diameter hole in a wall requires ((Durability + Armor) ÷ 10) minutes. These same nanobots can later be used to repair this damage so that it is invisible to any but the most careful and detailed examination. A COT can easily open any old-fashioned mechanical lock simply by analyzing it and shaping an appropriate key, though this takes a full Action Turn. It can also open electronic locks by infiltrating them with nanobots that influence the lock’s electronics, no matter what authentication system the lock uses. Opening electronic locks takes a full Action Turn, but success is practically guaranteed. Opening an electronic lock in this manner will, however, trigger an alarm and/or be logged as an event. For more details, see Electronic Locks, p. 291.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 315.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -64,7 +64,7 @@ SITUATIONAL = {
     "Adrenal Boost": [("system.mods.woundsIgnored", 1), (APT("ref"), 10)],
 }
 
-PACK_IMG = {"augmentation": "icons/svg/upgrade.svg", "substance": "icons/svg/pill.svg"}
+PACK_IMG = {"augmentation": "icons/svg/upgrade.svg", "substance": "icons/svg/pill.svg", "gear": "icons/svg/item-bag.svg"}
 
 
 def page_lines(first, last):
@@ -91,23 +91,28 @@ def join(parts):
 
 
 def skip_blocks(tagged, blocks, removed=None):
-    """Drop the lines of each block, from the line starting with its first text to the line starting with its end text.
-    The text of each removed block is stored in removed[first text]."""
-    out, skipping, current = [], None, None
+    """Drop the lines of each block, from the line starting with its first text to the line starting with its end text
+    (kept when the block has a third item, True). The text of each removed block is stored in removed[first text]."""
+    out, skipping, current, keep_end = [], None, None, False
     for line, page in tagged:
+        if skipping is not None and line.startswith(skipping):
+            skipping = None
+            if keep_end:
+                out.append((line, page))
+                continue
+            if removed is not None:
+                removed[current] += " " + line
+            continue
         if skipping is None:
             block = next((b for b in blocks if line.startswith(b[0])), None)
             if block:
-                skipping, current = block[1], block[0]
+                skipping, current, keep_end = block[1], block[0], len(block) > 2 and block[2]
                 if removed is not None:
                     removed[current] = line
                 continue
             out.append((line, page))
-        else:
-            if removed is not None:
-                removed[current] += " " + line
-            if line.startswith(skipping):
-                skipping = None
+        elif removed is not None:
+            removed[current] += " " + line
     return out
 
 
@@ -117,7 +122,7 @@ def entries(first, last, sections, end, headed=frozenset(), subheadings=frozense
     tagged = skip_blocks(page_lines(first, last), skip, removed)
     heads = dict(sections)
     start = next(i for i, (l, _) in enumerate(tagged) if l == sections[0][0])
-    after = next(i for i, (l, _) in enumerate(tagged) if (i > start) and (l == end[1]))
+    after = next(i for i, (l, _) in enumerate(tagged) if (i >= start) and (l == end[1]))
     stop = next(i for i, (l, _) in enumerate(tagged) if (i > after) and (l == end[0]))
     category, current, out = None, None, []
     complete = lambda: (current is None) or (bool(current["text"]) and current["text"][-1].rstrip().endswith("]"))
@@ -137,7 +142,8 @@ def entries(first, last, sections, end, headed=frozenset(), subheadings=frozense
             # The first entry after an introduction may start mid-line ("... common. Eidetic Memory: ...")
             if not m and complete():
                 m = re.search(r"[.)]\s+([A-Z][\w’'/&()+-]*(?: [\w’'/&()+-]+){0,5}):\s+(.*)$", chunk)
-            if m and complete():
+            # A headed paragraph without a cost (Nanoswarms) ends where the next "Name:" entry starts
+            if m and (complete() or (current["name"] in headed and ENTRY.match(chunk))):
                 current = {"category": category, "name": m.group(1), "text": [m.group(2)], "page": page}
                 out.append(current)
             elif current and not complete():
@@ -303,3 +309,85 @@ if "--summary" in sys.argv:
         s = d["system"]
         print(f"{d['name'][:22]:22} {s['category']:14} {s['substanceType']:10} {s['application']:15} {s['onset']:14} "
               f"{s['duration']:20} {s['addictionMod']:10} {s['addictionType']:9} {s['cost'][:12]:12} {len(s['description'])}")
+
+
+# ---------------------------------------------------------------- Other gear (pp. 313-342)
+
+import core_ammo as AMMO_TABLE  # noqa: E402
+
+# (first PDF page, last PDF page, sections, end, headed paragraphs, sub-headings, skipped blocks)
+GEAR_SEGMENTS = [
+    (315, 319, [("Armor Mods", "armorMod"), ("Communications", "comms"), ("Surveillance", "surveillance"),
+                ("Covert and Espionage Technologies", "espionage")],
+     ("Drugs, Chemicals, and Toxins", "Covert and Espionage Technologies"),
+     {"Neutrino Communicators", "Quantum Farcasters", "Quantum Entangled Communication"}, {"Bugs and"}, []),
+    (327, 333, [("Everyday Technology", "everyday"), ("Nanotechnology", "nanotech"), ("Pets", "pet"),
+                ("Scavenger Tech", "scavenger"), ("Services", "service")],
+     ("Software", "Services"),
+     {"Healing Vats", "Nanodetectors", "Nanofabricators", "Ego Bridges", "Nanoswarms and Microswarms"},
+     {"Basic Nanotechnology", "Advanced Nanotechnology", "Injury"}, []),
+    (334, 335, [("Survival Gear", "survival")], ("Vacuum Suits", "Survival Gear"), set(), set(), []),
+    (338, 340, [("Kinetic Ammunition", "ammo"), ("Smart Ammo", "ammo")], ("Beam Weapons", "Smart Ammo"), set(), set(),
+     [("Ammo Armor-Piercing Bug", "Hollow-Point:", True), ("Firearms Light Pistol", "Ammo 10 12 16"), ("railguns Light Pistol", "Ammo 10 12 16")]),
+    (344, 345, [("Weapon Accessories", "weaponAccessory")], ("Robots and Vehicles", "Weapon Accessories"), set(), set(), []),
+]
+
+
+def ammo_stats(name, table_text):
+    """AP and DV modifiers of an ammunition type, from the transcribed table (checked against its text)."""
+    row = AMMO_TABLE.AMMO.get(name)
+    if not row:
+        return None
+    flat = re.sub(r"\s+", " ", table_text).replace("–", "-").replace("—", "-").lower()
+    # Names hyphenated across lines ("Reactive Armor- Piercing")
+    flat = re.sub(r"([a-z])- ([a-z])", r"\1-\2", flat)
+    short = re.sub(r" \(.*\)$| Ammo$", "", name)
+    # Names may lose their hyphen in the table ("Reactive ArmorPiercing"): compare them without dashes or spaces
+    bare = lambda x: re.sub(r"[\s\-]", "", x.replace("–", "-").lower())
+    if bare(short) not in bare(flat):
+        raise SystemExit(f"Ammunition {name} not found in its table text")
+    for cell in row:
+        probe = cell.replace("–", "-").replace("—", "-").lower().replace(" (p. 204)", "")
+        if probe not in flat:
+            raise SystemExit(f"Transcribed ammo cell {cell!r} of {name} not found in its table text")
+    ap_text, dv_text = row
+    ap = int(ap_text.replace("–", "-")) if re.match(r"^[+–-]\d+$", ap_text) else 0
+    dv = dv_text.replace("–", "-") if re.match(r"^[+–-]\d*d?\d+$", dv_text) else ""
+    return {"ap": ap, "dv": dv, "half": "half" in dv_text, "noDamage": dv_text == "no damage",
+            "armorDoubled": "AV doubled" in ap_text, "shock": "shock" in dv_text}
+
+
+def gear():
+    docs, seen = [], set()
+    for first, last, sections, end, headed, subheadings, skip in GEAR_SEGMENTS:
+        removed = {}
+        found = entries(first, last, sections, end, frozenset(headed), frozenset(subheadings), skip, removed)
+        table = " ".join(removed.values())
+        for e in found:
+            if e["name"] in seen:
+                continue
+            seen.add(e["name"])
+            desc, cost = split_cost(e["text"])
+            ammo = ammo_stats(e["name"], table) if e["category"] == "ammo" else None
+            if e["category"] == "ammo" and not ammo:
+                raise SystemExit(f"Ammunition {e['name']} missing from tools/data/core_ammo.py")
+            system = {
+                "key": key(e["name"]), "category": e["category"], "quantity": 1, "cost": cost,
+                "ammo": ammo or {"ap": 0, "dv": "", "half": False, "noDamage": False, "armorDoubled": False, "shock": False},
+                "description": f"<p>{html.escape(desc, quote=False)}</p><p><em>Source: {SOURCE}, p. {e['page']}.</em></p>",
+            }
+            docs.append(doc("gear", e["name"], "gear", system, (len(docs) + 1) * 1000))
+    missing = set(AMMO_TABLE.AMMO) - {d["name"] for d in docs}
+    if missing:
+        raise SystemExit(f"Ammunition rows without a description: {sorted(missing)}")
+    return docs
+
+
+gear_docs = gear()
+write("gear", gear_docs)
+if "--summary" in sys.argv:
+    for d in gear_docs:
+        s = d["system"]
+        a = s["ammo"]
+        extra = f"AP {a['ap']} DV {a['dv']} {'half ' if a['half'] else ''}{'none ' if a['noDamage'] else ''}{'AVx2 ' if a['armorDoubled'] else ''}{'shock' if a['shock'] else ''}" if s["category"] == "ammo" else ""
+        print(f"{d['name'][:32]:32} {s['category']:15} {s['cost'][:18]:18} {len(s['description']):5} {extra}")

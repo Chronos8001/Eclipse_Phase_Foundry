@@ -1,0 +1,29 @@
+{
+  "_id": "50d668109787a2e6",
+  "_key": "!items!50d668109787a2e6",
+  "name": "Backup",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "backup",
+    "category": "service",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>A single, one-time backup without insurance is sometimes all the poor can afford, hoping that they can buy backup insurance later or that someone that cared about them will see to a resleeving.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 330.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 80000,
+  "ownership": {
+    "default": 0
+  }
+}

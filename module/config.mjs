@@ -113,6 +113,13 @@ export const EP1E = {
     scorcher: "EP1E.Software.scorcher",
     skillsoft: "EP1E.Software.skillsoft"
   },
+  gearCategories: {
+    other: "EP1E.GearCategory.other", armorMod: "EP1E.GearCategory.armorMod", comms: "EP1E.GearCategory.comms",
+    surveillance: "EP1E.GearCategory.surveillance", espionage: "EP1E.GearCategory.espionage",
+    everyday: "EP1E.GearCategory.everyday", nanotech: "EP1E.GearCategory.nanotech", pet: "EP1E.GearCategory.pet",
+    scavenger: "EP1E.GearCategory.scavenger", service: "EP1E.GearCategory.service", survival: "EP1E.GearCategory.survival",
+    ammo: "EP1E.GearCategory.ammo", weaponAccessory: "EP1E.GearCategory.weaponAccessory"
+  },
   substanceCategories: {
     drug: "EP1E.Substance.drug", nanodrug: "EP1E.Substance.nanodrug", narcoalgorithm: "EP1E.Substance.narcoalgorithm",
     chemical: "EP1E.Substance.chemical", toxin: "EP1E.Substance.toxin", nanotoxin: "EP1E.Substance.nanotoxin",

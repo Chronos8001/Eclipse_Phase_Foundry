@@ -1,0 +1,29 @@
+{
+  "_id": "a5dd01f51471325f",
+  "_key": "!items!a5dd01f51471325f",
+  "name": "Space Travel",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "spaceTravel",
+    "category": "service",
+    "quantity": 1,
+    "cost": "Expensive",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Space transport cost depends on a number of factors like distance, quality of lodgings, and how much cargo you’re bringing with. At the low end, an intra-habitat shuttle trip within the same cluster, or a trip to or from a planetary body’s surface and orbit, is not cheap but affordable [High]. Just about anything else is progressively more costly.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 88000,
+  "ownership": {
+    "default": 0
+  }
+}

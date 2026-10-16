@@ -1,0 +1,29 @@
+{
+  "_id": "d7380e3ba073154b",
+  "_key": "!items!d7380e3ba073154b",
+  "name": "Viewers",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "viewers",
+    "category": "everyday",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>These small and highly advanced binoculars possess all the visual enhancement of specs (p. 325), but also provide 50x magnification. They also include a directional microphone that magnifies sound from the direction the viewers are pointed by a factor of 50. Viewers provide the user with a +30 bonus to all Perception Tests involving vision or hearing for the target they are aimed at. This bonus is not cumulative with bonuses from any other device or augmentation.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 326.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 47000,
+  "ownership": {
+    "default": 0
+  }
+}

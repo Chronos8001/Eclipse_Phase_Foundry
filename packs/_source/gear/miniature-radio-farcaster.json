@@ -1,0 +1,29 @@
+{
+  "_id": "f075b8a3637ced17",
+  "_key": "!items!f075b8a3637ced17",
+  "name": "Miniature Radio Farcaster",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "miniatureRadioFarcaster",
+    "category": "comms",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Miniature farcasters communicate with each other using standard radio transceivers. As noted above, they may only securely communicate with the other farcasters with which they are entangled. Most miniature farcasters are worn as jewelry or fitted into clothing or other equipment.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 315.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

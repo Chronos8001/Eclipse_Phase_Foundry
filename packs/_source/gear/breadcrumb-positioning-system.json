@@ -1,0 +1,29 @@
+{
+  "_id": "156891035461e2d3",
+  "_key": "!items!156891035461e2d3",
+  "name": "Breadcrumb Positioning System",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "breadcrumbPositioningSystem",
+    "category": "survival",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This worn device leaves micro “breadcrumbs” behind as the character moves. These devices interact with mesh inserts (or ectos) as long as they are within range (50 meters), allowing the user to map their position in relation to the breadcrumb trail. This is useful in derelict habitats, wilderness, and other areas where there is no local functioning mesh, and is helpful both for mapping and for finding one’s way back.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 332.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 89000,
+  "ownership": {
+    "default": 0
+  }
+}

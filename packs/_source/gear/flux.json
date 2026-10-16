@@ -1,0 +1,29 @@
+{
+  "_id": "bc32729d3fc67170",
+  "_key": "!items!bc32729d3fc67170",
+  "name": "Flux",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "flux",
+    "category": "ammo",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Flux ammo is made from rheological materials that allow each bullet to be “programmed” so that they may change from regular rounds to less-lethal soft plastic-like rounds. This allows the firer to choose the type of round (regular or plastic) made with each shot or burst, and then change with the next one.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 337.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 103000,
+  "ownership": {
+    "default": 0
+  }
+}

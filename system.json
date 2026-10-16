@@ -61,6 +61,14 @@
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
+      "name": "gear",
+      "label": "Gear (Core)",
+      "path": "packs/gear",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
       "name": "substances",
       "label": "Drugs and Toxins (Core)",
       "path": "packs/substances",
@@ -89,7 +97,7 @@
     {
       "name": "Eclipse Phase",
       "sorting": "m",
-      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "substances", "software", "sleights"]
+      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "sleights"]
     }
   ],
   "documentTypes": {

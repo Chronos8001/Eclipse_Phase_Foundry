@@ -1,0 +1,29 @@
+{
+  "_id": "0218266fa03bd16a",
+  "_key": "!items!0218266fa03bd16a",
+  "name": "Specialized Hive",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "specializedHive",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "Moderate, plus Cost of Programmed Nanoswarm",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Specialized hives are far more common than general hives, though they can produce only one type of nanomachines (i.e., choose one type of nanoswarm per hive). The smallest specialized hives are approximately the size of a 12-gauge shotgun shell or a large cherry tomato.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 328.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 56000,
+  "ownership": {
+    "default": 0
+  }
+}

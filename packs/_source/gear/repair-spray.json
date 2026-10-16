@@ -1,0 +1,29 @@
+{
+  "_id": "c9911cb3936d9cd4",
+  "_key": "!items!c9911cb3936d9cd4",
+  "name": "Repair Spray",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "repairSpray",
+    "category": "survival",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This nanobot generator creates nanobots designed to repair synthmorphs, vehicles, and other common objects. Repair spray contains the specifications and plans for almost all commonly used synthmorphs and devices and is a ubiquitous household item. If it does not contain the specifications for something it is being used to repair, it must query the object’s voice for these details, otherwise it cannot repair it. Simply touch it to the damaged area, push the button on top, and it sprays out a number of nanobots sufficient to make repairs. These nanobots repair 1d10 points of damage per 2 hours. Once all damage is restored, the nanobots repair wounds at the rate of 1 per day. Repair spray also cleans and polishes items and returns them to a pristine and new state. Repair spray is not effective on any object with more than 3 wounds, but it provides a +30 to all repair rolls on anything too badly damaged for it to fully repair (see Synthmorph and Object Repair, p. 208).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 333.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 96000,
+  "ownership": {
+    "default": 0
+  }
+}

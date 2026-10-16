@@ -1,0 +1,29 @@
+{
+  "_id": "062a871724a933ed",
+  "_key": "!items!062a871724a933ed",
+  "name": "High-Capacity Qubit Reservoir",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "highCapacityQubitReservoir",
+    "category": "comms",
+    "quantity": 1,
+    "cost": "Expensive",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>High-capacity qubit reservoirs can be used for 100 hours of high-resolution video conferencing or meshbrowsing and 1,000 hours of voice or text only communications.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 315.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

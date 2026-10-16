@@ -1,0 +1,29 @@
+{
+  "_id": "4f6ea8c1a1e1de46",
+  "_key": "!items!4f6ea8c1a1e1de46",
+  "name": "Laser-Guided",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "laserGuided",
+    "category": "ammo",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>These bullets function like homing smart rounds (apply the +10 attack modifier), except rather than requiring a smartlink system, they lock onto the reflection of the laser sight used to paint the target. Laser-guided bullets may also be used for indirect fire (p. 195).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 338.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 116000,
+  "ownership": {
+    "default": 0
+  }
+}

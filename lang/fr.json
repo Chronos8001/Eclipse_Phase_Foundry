@@ -400,7 +400,7 @@
       "accessoryHint": "Casques, boucliers… : s'ajoute à l'armure portée sans compter comme une couche.",
       "layers": "{count} couches d'armure :"
     },
-    "Gear": { "none": "Aucun équipement.", "quantity": "Quantité", "cost": "Coût" },
+    "Gear": { "none": "Aucun équipement.", "quantity": "Quantité", "cost": "Coût", "category": "Catégorie" },
     "Augmentation": {
       "none": "Aucune augmentation.",
       "type": "Type",
@@ -543,7 +543,9 @@
       "size": "Taille",
       "done": "{name} : {count} munition(s) chargée(s).",
       "noMunitions": "Aucune grenade ni munition de lanceur dans l'inventaire.",
-      "hint": "Les munitions non tirées reviennent dans l'inventaire si vous changez de munition ou de taille."
+      "hint": "Les munitions non tirées reviennent dans l'inventaire si vous changez de munition ou de taille.",
+      "ammoType": "Munition",
+      "standardAmmo": "Normale"
     },
     "Opposed": {
       "pending": "En attente",
@@ -752,6 +754,29 @@
       "addictionLabel": "Addiction à {name} (VOL × 3)",
       "addicted": "{name} devient dépendant à {substance} : ajoutez ou augmentez le trait Addiction (p. 148).",
       "hint": "Les effets constants pendant l'effet sont des effets actifs de l'objet (désactivés tant que la dose n'est pas prise). Les effets conditionnels sont dans la description."
+    },
+    "GearCategory": {
+      "other": "Autre",
+      "armorMod": "Modification d'armure",
+      "comms": "Communications",
+      "surveillance": "Surveillance",
+      "espionage": "Espionnage",
+      "everyday": "Technologie courante",
+      "nanotech": "Nanotech",
+      "pet": "Animal",
+      "scavenger": "Technologie de récupération",
+      "service": "Service",
+      "survival": "Survie",
+      "ammo": "Munitions",
+      "weaponAccessory": "Accessoire d'arme"
+    },
+    "Ammo": {
+      "ap": "Modif. de PA",
+      "dv": "Modif. de VD",
+      "half": "Demi-dégâts",
+      "noDamage": "Aucun dégât",
+      "armorDoubled": "Armure doublée",
+      "hint": "Rechargez une arme cinétique pour choisir cette munition : ses modificateurs s'appliquent aux attaques de l'arme (p. 337). Les railguns ne tirent que des balles normales et perforantes."
     }
   }
 }

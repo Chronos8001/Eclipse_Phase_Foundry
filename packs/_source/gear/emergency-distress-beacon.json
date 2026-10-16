@@ -1,0 +1,29 @@
+{
+  "_id": "b1d42862e062a791",
+  "_key": "!items!b1d42862e062a791",
+  "name": "Emergency Distress Beacon",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "emergencyDistressBeacon",
+    "category": "survival",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This small but powerful transmitter is powered by a nuclear battery and will broadcast any programmed distress call for years. Though portable and medium-sized, this beacon has a range of 500 km in urban areas and 5,000 km elsewhere.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 333.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 93000,
+  "ownership": {
+    "default": 0
+  }
+}

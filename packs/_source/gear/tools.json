@@ -1,0 +1,29 @@
+{
+  "_id": "54758d2e30c3e213",
+  "_key": "!items!54758d2e30c3e213",
+  "name": "Tools",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "tools",
+    "category": "everyday",
+    "quantity": 1,
+    "cost": "Low (Kit), High (Shop), Expensive (Facility)",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Tools come in kits (portable), shops (can fit into a large vehicle), and facilities (large, non-mobile). Each set of tools applies to a particular skill, such as Hardware: Electronics or Hardware: Groundraft.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 326.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 45000,
+  "ownership": {
+    "default": 0
+  }
+}

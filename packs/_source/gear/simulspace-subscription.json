@@ -1,0 +1,29 @@
+{
+  "_id": "f10cd53e69bf531d",
+  "_key": "!items!f10cd53e69bf531d",
+  "name": "Simulspace Subscription",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "simulspaceSubscription",
+    "category": "service",
+    "quantity": 1,
+    "cost": "Low (single use/1 day) to Moderate (monthly subscription)",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This will by you access to the simulspace of your choice, whether you want it for a private meeting/vacation or to play the latest and hottest VR game.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 87000,
+  "ownership": {
+    "default": 0
+  }
+}

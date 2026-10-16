@@ -1,0 +1,29 @@
+{
+  "_id": "2f859856d07fc810",
+  "_key": "!items!2f859856d07fc810",
+  "name": "Self-Healing",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "selfHealing",
+    "category": "armorMod",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>The armor is equipped with a nanohive that acts like repair spray (p. 333).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 313.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  }
+}

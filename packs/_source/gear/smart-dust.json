@@ -1,0 +1,29 @@
+{
+  "_id": "43e645423f8046dc",
+  "_key": "!items!43e645423f8046dc",
+  "name": "Smart Dust",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartDust",
+    "category": "espionage",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This device is a walnut-sized specialized nanobot generator that creates tiny sensor nanobots, each one of which is a tiny sphere the diameter of a human hair. A packet of smart dust nanobots is sufficient to perform detailed surveillance on a large room like an auditorium has a volume of 1 cubic centimeter and contains 3 million nanobots. Each nanobot contains tiny cameras, microphones, a tiny computer, a radio, and chemical sensors, as well as short legs that allow them to walk and climb at a rate of 5 cm per second. When a character dumps a packet of smart dust in a room, it will cover every surface in the room within 20 minutes, including all furniture and the insides of every drawer and other space that is not airtight. At this point, the smart dust has recorded all data about the room that can be obtained by exceedingly detailed observation, including the DNA of everyone who has visited the room in the last week or two. The smart dust can then either broadcast a brief, highly compressed signal, or it can send all of its information to a few hundred nanobots that then walk to a pre-arranged destination for pickup and downloading by their user. The user need only find a single nanobot with a nanodetector to acquire the information obtained by the smart dust. If ordered to do so, the remaining nanobots can either power down and await further orders or self-destruct in a fashion that turns them into a tiny amount of dust made mostly of metal and silicon.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 316.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 34000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -400,7 +400,7 @@
       "accessoryHint": "Helmets, shields...: adds to worn armor without counting as a layer.",
       "layers": "{count} layers of armor:"
     },
-    "Gear": { "none": "No gear.", "quantity": "Quantity", "cost": "Cost" },
+    "Gear": { "none": "No gear.", "quantity": "Quantity", "cost": "Cost", "category": "Category" },
     "Augmentation": {
       "none": "No augmentations.",
       "type": "Type",
@@ -543,7 +543,9 @@
       "size": "Size",
       "done": "{name}: {count} shot(s) loaded.",
       "noMunitions": "No grenade or seeker munitions in the inventory.",
-      "hint": "Unfired munitions go back to the inventory when you switch munition or size."
+      "hint": "Unfired munitions go back to the inventory when you switch munition or size.",
+      "ammoType": "Ammunition",
+      "standardAmmo": "Regular"
     },
     "Opposed": {
       "pending": "Pending",
@@ -752,6 +754,29 @@
       "addictionLabel": "Addiction to {name} (WIL x 3)",
       "addicted": "{name} is addicted to {substance}: add or raise the Addiction trait (p. 148).",
       "hint": "Constant effects while under the influence are active effects of the item (disabled until taken). Conditional effects are in the description."
+    },
+    "GearCategory": {
+      "other": "Other",
+      "armorMod": "Armor mod",
+      "comms": "Communications",
+      "surveillance": "Surveillance",
+      "espionage": "Covert ops",
+      "everyday": "Everyday tech",
+      "nanotech": "Nanotech",
+      "pet": "Pet",
+      "scavenger": "Scavenger tech",
+      "service": "Service",
+      "survival": "Survival",
+      "ammo": "Ammunition",
+      "weaponAccessory": "Weapon accessory"
+    },
+    "Ammo": {
+      "ap": "AP modifier",
+      "dv": "DV modifier",
+      "half": "Half damage",
+      "noDamage": "No damage",
+      "armorDoubled": "Armor doubled",
+      "hint": "Reload a kinetic weapon to choose this ammunition: its modifiers apply to the weapon's attacks (p. 337). Railguns only fire regular and armor-piercing rounds."
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "_id": "6c9beff3c465363c",
+  "_key": "!items!6c9beff3c465363c",
+  "name": "Egocasting",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "egocasting",
+    "category": "service",
+    "quantity": 1,
+    "cost": "Expensive",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This is the use of a farcaster to transmit an ego/infomorph. Farcasting is not cheap, and the cost is impacted by factors such as distance to receiver station and priority service (paying extra to get bumped ahead in line).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 84000,
+  "ownership": {
+    "default": 0
+  }
+}

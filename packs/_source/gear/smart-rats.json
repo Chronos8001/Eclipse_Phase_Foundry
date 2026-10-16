@@ -1,0 +1,29 @@
+{
+  "_id": "15f5076f94cba1fe",
+  "_key": "!items!15f5076f94cba1fe",
+  "name": "Smart Rats",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartRats",
+    "category": "pet",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>These upgrades of the common Norwegian rat are clever and dexterous, and they easily fit into a pocket or hood.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 330.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 73000,
+  "ownership": {
+    "default": 0
+  }
+}

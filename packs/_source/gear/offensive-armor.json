@@ -1,0 +1,29 @@
+{
+  "_id": "0a5795a736c15068",
+  "_key": "!items!0a5795a736c15068",
+  "name": "Offensive Armor",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "offensiveArmor",
+    "category": "armorMod",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>When activated, the outer layer of this armor is rigged to shock anyone or anything that contacts it with electricity. Treat its DV and effect as a shock baton (p. 334).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 313.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

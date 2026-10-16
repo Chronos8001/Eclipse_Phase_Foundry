@@ -1,5 +1,9 @@
 <div class="form-grid">
   <div class="form-group">
+    <label>{{localize "EP1E.Gear.category"}}</label>
+    <select name="system.category">{{selectOptions config.gearCategories selected=system.category localize=true}}</select>
+  </div>
+  <div class="form-group">
     <label>{{localize "EP1E.Gear.quantity"}}</label>
     <input type="number" name="system.quantity" value="{{system.quantity}}" min="0">
   </div>
@@ -7,4 +11,31 @@
     <label>{{localize "EP1E.Gear.cost"}}</label>
     <input type="text" name="system.cost" value="{{system.cost}}" placeholder="Low / Moderate / High...">
   </div>
+  {{#if (eq system.category "ammo")}}
+  <div class="form-group">
+    <label>{{localize "EP1E.Ammo.ap"}}</label>
+    <input type="number" name="system.ammo.ap" value="{{system.ammo.ap}}">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Ammo.dv"}}</label>
+    <input type="text" name="system.ammo.dv" value="{{system.ammo.dv}}" placeholder="+1d10">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Ammo.half"}}</label>
+    <input type="checkbox" name="system.ammo.half" {{checked system.ammo.half}}>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Ammo.noDamage"}}</label>
+    <input type="checkbox" name="system.ammo.noDamage" {{checked system.ammo.noDamage}}>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Ammo.armorDoubled"}}</label>
+    <input type="checkbox" name="system.ammo.armorDoubled" {{checked system.ammo.armorDoubled}}>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Weapon.shock"}}</label>
+    <input type="checkbox" name="system.ammo.shock" {{checked system.ammo.shock}}>
+  </div>
+  {{/if}}
 </div>
+{{#if (eq system.category "ammo")}}<p class="hint">{{localize "EP1E.Ammo.hint"}}</p>{{/if}}

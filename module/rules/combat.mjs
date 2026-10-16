@@ -140,10 +140,14 @@ export function attackHits(attack, defense = null) {
  * @param {number} [o.extraWeapons=0]    Extra melee weapons: +1d10 each, max +3d10 (p. 206)
  * @param {boolean} [o.beamConcentrated] Concentrated beam fire: DV × 1.5, round up (p. 194)
  * @param {number} [o.excellent=0]       Excellent Success bonus (+5/+10)
+ * @param {object} [o.ammo]            Kinetic ammunition: { dv, half, noDamage } (p. 337)
  */
 export function damageFormula(o) {
-  if ( !o.dv ) return "";
+  if ( !o.dv || o.ammo?.noDamage ) return "";
   let base = String(o.dv);
+  // Ammunition DV modifiers add to the weapon's base DV; "half" ammunition halves it (round up)
+  if ( o.ammo?.dv ) base = `${base} ${/^[+-]/.test(o.ammo.dv) ? o.ammo.dv.replace(/^([+-])/, "$1 ") : `+ ${o.ammo.dv}`}`;
+  if ( o.ammo?.half ) base = `ceil((${base}) / 2)`;
   const size = munitionDamage(o.munition);
   if ( size.multiplier !== 1 ) base = `(${base}) * ${size.multiplier}`;
   if ( o.beamConcentrated ) base = `ceil((${base}) * 1.5)`;
