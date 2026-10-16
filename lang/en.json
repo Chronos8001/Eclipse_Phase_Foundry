@@ -519,6 +519,22 @@
       "done": "{name}: {count} shot(s) loaded.",
       "noMunitions": "No grenade or seeker munitions in the inventory.",
       "hint": "Unfired munitions go back to the inventory when you switch munition or size."
+    },
+    "Opposed": {
+      "pending": "Pending",
+      "hit": "Hit",
+      "undefended": "Hit (no defense)",
+      "miss": "Dodged",
+      "deadlock": "Missed",
+      "defend": "Defend",
+      "defendTitle": "Defense: {name}",
+      "defendHint": "Roll the defense (Shift+click: Fray, no dialog)",
+      "waiveHint": "No defense (surprised, incapacitated...)",
+      "against": "Defending against {name}",
+      "skill": "Defense skill",
+      "defenseLabel": "{skill} vs. {name}",
+      "defenseRanged": "{skill} ÷ 2 vs. {name}",
+      "pendingWarning": "Defense pending, not applied: {names}"
     }
   }
 }

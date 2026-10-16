@@ -445,7 +445,17 @@
 .ep1e.chat-card .attack-info .bonus { color: #c27c0e; font-weight: bold; }
 .ep1e.chat-card .attack-notes { display: flex; flex-wrap: wrap; gap: 3px; }
 .ep1e.chat-card .attack-notes span { border: 1px solid #999; border-radius: 3px; padding: 0 4px; font-size: 0.85em; }
-.ep1e.chat-card .attack-targets { opacity: 0.85; }
+.ep1e.chat-card .attack-targets { list-style: none; margin: 4px 0; padding: 0; }
+.ep1e.chat-card .attack-targets .target { display: flex; align-items: center; gap: 6px; padding: 2px 0; border-top: 1px dotted #999; }
+.ep1e.chat-card .attack-targets .name { flex: 1; }
+.ep1e.chat-card .attack-targets .defense { font-size: 0.85em; opacity: 0.8; }
+.ep1e.chat-card .attack-targets .state { font-weight: bold; font-size: 0.9em; }
+.ep1e.chat-card .attack-targets .target button { width: auto; flex: 0 0 auto; margin: 0; line-height: 1.4; padding: 0 6px; }
+.ep1e.chat-card .attack-targets .state-hit .state,
+.ep1e.chat-card .attack-targets .state-undefended .state { color: #c53030; }
+.ep1e.chat-card .attack-targets .state-miss .state,
+.ep1e.chat-card .attack-targets .state-deadlock .state { color: #2f855a; }
+.ep1e.chat-card .attack-targets .state-pending .state { color: #c27c0e; }
 .ep1e.chat-card .attack-info button,
 .ep1e.chat-card > button { width: 100%; margin-top: 4px; }
 

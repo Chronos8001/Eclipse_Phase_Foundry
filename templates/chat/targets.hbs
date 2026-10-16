@@ -1,0 +1,11 @@
+<ol class="attack-targets">
+  {{#each targets as |t|}}
+  <li class="target state-{{t.state}}">
+    <span class="name"><i class="fa-solid fa-bullseye"></i> {{t.name}}</span>
+    {{#if t.defense}}<span class="defense">{{ep1ePad t.defense.value}} / {{t.defense.target}}</span>{{/if}}
+    <span class="state">{{localize t.stateLabel}}</span>
+    {{#if t.canDefend}}<button type="button" data-ep-action="defend" data-token-uuid="{{t.tokenUuid}}" data-tooltip="EP1E.Opposed.defendHint"><i class="fa-solid fa-shield-halved"></i></button>{{/if}}
+    {{#if t.canWaive}}<button type="button" data-ep-action="waive" data-token-uuid="{{t.tokenUuid}}" data-tooltip="EP1E.Opposed.waiveHint"><i class="fa-solid fa-ban"></i></button>{{/if}}
+  </li>
+  {{/each}}
+</ol>

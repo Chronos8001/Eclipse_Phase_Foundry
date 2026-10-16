@@ -519,6 +519,22 @@
       "done": "{name} : {count} munition(s) chargée(s).",
       "noMunitions": "Aucune grenade ni munition de lanceur dans l'inventaire.",
       "hint": "Les munitions non tirées reviennent dans l'inventaire si vous changez de munition ou de taille."
+    },
+    "Opposed": {
+      "pending": "En attente",
+      "hit": "Touché",
+      "undefended": "Touché (sans défense)",
+      "miss": "Esquivé",
+      "deadlock": "Raté",
+      "defend": "Se défendre",
+      "defendTitle": "Défense : {name}",
+      "defendHint": "Lancer la défense (Maj+clic : Esquive sans dialogue)",
+      "waiveHint": "Sans défense (surpris, neutralisé…)",
+      "against": "Défense contre {name}",
+      "skill": "Compétence de défense",
+      "defenseLabel": "{skill} contre {name}",
+      "defenseRanged": "{skill} ÷ 2 contre {name}",
+      "pendingWarning": "Défense en attente, non appliqué : {names}"
     }
   }
 }

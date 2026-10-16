@@ -1,6 +1,7 @@
 import { DIFFICULTIES, SYSTEM_ID } from "../config.mjs";
 import { createMessage, defaultMessageMode, messageModeChoices } from "../helpers/chat.mjs";
 import { excellentBonus } from "../rules/combat.mjs";
+import { renderTargets, resolveTargets, rollDefense, waiveDefense } from "./opposed.mjs";
 
 const TEMPLATES = {
   dialog: `systems/${SYSTEM_ID}/templates/dialog/test.hbs`,
@@ -97,11 +98,12 @@ async function promptTest(actor, options) {
  * @param {string} [options.aptitude]      Aptitude key, offers a multiplier (e.g. SOM x 3)
  * @param {number} [options.multiplier]    Preset aptitude multiplier
  * @param {object} [options.attack]        Weapon attack data, enables the damage button
+ * @param {object} [options.defense]       Defense against an attack card: { attackId, tokenUuid }
  * @param {object} [options.input]         Preset dialog values (difficulty, modifier, specialized, ignoreMods, messageMode)
  * @param {boolean} [options.fastForward]  Skip the dialog
  */
 export async function rollSkillTest(actor, options = {}) {
-  const { label, attack = null } = options;
+  const { label, attack = null, defense = null } = options;
   let base = options.target ?? 0;
   let input = {
     difficulty: 0, modifier: 0, multiplier: options.multiplier ?? 1, specialized: false, ignoreMods: false, ...options.input
@@ -127,7 +129,8 @@ export async function rollSkillTest(actor, options = {}) {
     base, modifier, penalty: ignoreMods ? 0 : penalty, target,
     value: toPercentile(roll.total),
     moxie: ignoreMods ? "ignoreMods" : null,
-    attack
+    attack,
+    defense
   };
   if ( ignoreMods ) await actor.update({ "system.moxie.value": actor.system.moxie.value - 1 });
 
@@ -193,6 +196,7 @@ async function rollDamageFromTest(message) {
   const roll = await new Roll(parts.join(" + ")).evaluate();
   const actor = await fromUuid(test.actorUuid);
   return postDamageRoll(actor, roll, {
+    attackId: message.id,
     label: attack.name,
     ap: attack.ap,
     damageType: attack.damageType,
@@ -202,8 +206,10 @@ async function rollDamageFromTest(message) {
 }
 
 /** Post a damage roll card with an "apply" button. */
-export async function postDamageRoll(actor, roll, { label, ap = 0, damageType = "kinetic", armorDefeating = false, excellentBonus = 0, stress = false }) {
-  const damage = { label, total: roll.total, formula: roll.formula, ap, damageType, armorDefeating, excellentBonus, stress };
+export async function postDamageRoll(actor, roll, {
+  label, ap = 0, damageType = "kinetic", armorDefeating = false, excellentBonus = 0, stress = false, attackId = null
+}) {
+  const damage = { label, total: roll.total, formula: roll.formula, ap, damageType, armorDefeating, excellentBonus, stress, attackId };
   const content = await render(TEMPLATES.damage, {
     damage,
     damageTypeLabel: CONFIG.EP1E.damageTypes[damageType],
@@ -250,10 +256,26 @@ export async function applyToActor(actor, damage) {
   });
 }
 
-async function applyDamageFromCard(message) {
+/**
+ * Actors a damage card applies to: the targets its attack hit, or, without an attack listing
+ * targets (or on Shift+click), the user's targeted or controlled tokens.
+ */
+async function damageRecipients(damage, { manual = false } = {}) {
+  const attackMessage = (!manual && damage.attackId) ? game.messages.get(damage.attackId) : null;
+  const targets = attackMessage ? resolveTargets(attackMessage) : [];
+  if ( !targets.length ) return getTargetActors();
+  const pending = targets.filter(t => t.state === "pending");
+  if ( pending.length ) {
+    ui.notifications.warn(game.i18n.format("EP1E.Opposed.pendingWarning", { names: pending.map(t => t.name).join(", ") }));
+  }
+  const hits = targets.filter(t => ["hit", "undefended"].includes(t.state));
+  return (await Promise.all(hits.map(t => fromUuid(t.actorUuid)))).filter(a => a);
+}
+
+async function applyDamageFromCard(message, { manual = false } = {}) {
   const damage = message.getFlag(SYSTEM_ID, "damage");
   if ( !damage ) return;
-  const actors = getTargetActors();
+  const actors = await damageRecipients(damage, { manual });
   if ( !actors.length ) return ui.notifications.warn("EP1E.Damage.noTarget", { localize: true });
   for ( const actor of actors ) {
     if ( actor.isOwner ) await applyToActor(actor, damage);
@@ -264,12 +286,21 @@ async function applyDamageFromCard(message) {
   }
 }
 
-/** Socket handler: the active GM applies damage on behalf of players. */
+/** Socket handler: the active GM acts on behalf of players. */
 export async function onSocketMessage(data) {
   if ( !game.users.activeGM?.isSelf ) return;
-  if ( data?.action !== "applyDamage" ) return;
-  const actor = await fromUuid(data.actorUuid);
-  if ( actor ) await applyToActor(actor, data.damage);
+  switch ( data?.action ) {
+    case "applyDamage": {
+      const actor = await fromUuid(data.actorUuid);
+      if ( actor ) await applyToActor(actor, data.damage);
+      break;
+    }
+    case "waiveDefense": {
+      const message = game.messages.get(data.messageId);
+      if ( message ) await waiveDefense(message, data.tokenUuid);
+      break;
+    }
+  }
 }
 
 /* -------------------------------------------- */
@@ -281,12 +312,17 @@ export function onRenderChatMessage(message, html) {
   const test = message.getFlag(SYSTEM_ID, "test");
   // Moxie buttons are only usable by the roller
   if ( test && !message.isOwner ) html.querySelectorAll(".moxie-actions").forEach(el => el.remove());
+  if ( test?.attack?.targets?.length ) renderTargets(message, html).then(() => activateButtons(message, html));
+  else activateButtons(message, html);
+}
+
+function activateButtons(message, html) {
   html.querySelectorAll("[data-ep-action]").forEach(button => {
     button.addEventListener("click", async event => {
       event.preventDefault();
       button.disabled = true;
       try {
-        await handleChatAction(message, button.dataset);
+        await handleChatAction(message, button.dataset, event);
       } finally {
         button.disabled = false;
       }
@@ -294,11 +330,13 @@ export function onRenderChatMessage(message, html) {
   });
 }
 
-async function handleChatAction(message, dataset) {
+async function handleChatAction(message, dataset, event) {
   switch ( dataset.epAction ) {
     case "moxie": return spendMoxie(message, dataset.mode);
     case "damage": return rollDamageFromTest(message);
-    case "apply": return applyDamageFromCard(message);
+    case "apply": return applyDamageFromCard(message, { manual: event.shiftKey });
+    case "defend": return rollDefense(message, dataset.tokenUuid, { fastForward: event.shiftKey });
+    case "waive": return waiveDefense(message, dataset.tokenUuid);
     case "aptitudeTest": {
       const actor = await fromUuid(dataset.actorUuid);
       if ( !actor?.isOwner ) return;
