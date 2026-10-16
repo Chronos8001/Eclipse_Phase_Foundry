@@ -25,7 +25,13 @@ Copiez ou liez le dossier dans `Data/systems/ep1e` (le dossier doit s'appeler `e
 - **Compétences** : liste complète du livre de base (p. 176), créée automatiquement sur les nouveaux personnages ; domaines, spécialisations (+10), compétences sans défaut.
 - **Tests d100** (00–99) : difficulté, modificateurs, multiplicateur d'aptitude (SOM × 3...), critiques sur les doubles, 00 et 99, marge de réussite/échec, succès excellents et échecs graves.
 - **Moxie** : ignorer les modificateurs avant le jet, puis inverser le jet, passer en critique ou ignorer un échec critique depuis le chat (1 point par jet).
-- **Combat** : attaque avec une arme → bouton de dégâts (+5/+10 VD sur succès excellent, critique qui ignore l'armure, BD en mêlée) → application aux jetons ciblés avec PA, armure, blessures, et tests de renversement/inconscience. Esquive en mêlée et à distance (÷ 2).
+- **Combat** (p. 191-207) :
+  - dialogue d'attaque : mode de tir (CpC, SA, rafale, automatique, suppression), tir concentré, portée mesurée sur la carte, modificateurs de la table p. 193, cibles et armes supplémentaires ;
+  - munitions consommées selon le mode, rechargement, lanceurs chargés en grenades ou missiles (micro, mini, standard), grenades décomptées ;
+  - test opposé : les cibles se défendent depuis la carte d'attaque (Esquive ÷ 2 à distance, parade en mêlée, défense totale), ou sont déclarées sans défense ;
+  - dégâts appliqués aux cibles touchées : PA, armure, blessures, critique qui ignore l'armure, explosions selon la distance à l'épicentre (HEAP −4/m), dispersion des tirs ratés ;
+  - choc (test DUR + armure É automatique, neutralisation puis malus dégressif), renversement, inconscience, saignement, feu, chute.
+- **Statuts** de jeton : sonné (−30), défense totale (+30), au sol, inconscient, neutralisé, saignement, en feu, maîtrisé, aveuglé, mort ; leurs durées avancent à chaque tour de combat. Les couches d'armure donnent −20 par couche après la première.
 - **Stress** et traumatismes, appliqués de la même façon.
 - **Initiative** : d100 + INIT, réduite par les blessures.
 - **Effets actifs** sur acteurs et objets (implants, traits...).
