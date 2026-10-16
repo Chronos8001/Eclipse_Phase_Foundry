@@ -1,0 +1,33 @@
+{
+  "_id": "7678eaa7d42911e2",
+  "_key": "!items!7678eaa7d42911e2",
+  "name": "Predictive Boost",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "predictiveBoost",
+    "psiType": "chi",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The Bayesian probability machine features of the async’s brain are boosted by this sleight, enhancing their ability to estimate and predict outcomes of events around them as they unfold in real-time and update those predictions as information changes. In effect, the character has a more intuitive sense for which outcomes are most likely. This grants the character a +10 bonus on any skill tests that involve predicting the outcome of events. It also bolsters the async’s decision-making in combat situations by making the best course of action more clear, and so provides a +10 bonus to both Initiative and Fray Tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 225.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

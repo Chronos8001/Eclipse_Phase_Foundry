@@ -1,0 +1,33 @@
+{
+  "_id": "64cc999099275ad4",
+  "_key": "!items!64cc999099275ad4",
+  "name": "Instinct",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "instinct",
+    "psiType": "chi",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Instinct bolsters the async’s subconscious ability to gauge a situation and make a snap judgment that is just as accurate as a careful, considered decision. For Task Actions that involve analysis or planning alone (typically Mental skill actions), the async may reduce the timeframe by 90% without suffering a modifier. For Task Actions that involve partial analysis/planning, they may reduce the timeframe by 30% without penalty.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 224.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

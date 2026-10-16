@@ -1,0 +1,33 @@
+{
+  "_id": "59f7cb204215857a",
+  "_key": "!items!59f7cb204215857a",
+  "name": "Confusion",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "confusion",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "sustained",
+    "durationUnit": "turns",
+    "strainMod": 2,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "psiAssault",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Targets of the sleight are disoriented and unable to act. They must make a WIL x 3 Test to take an action, and suffer −20 to any tests. Otherwise they ramble, stand in confusion, or act randomly under the GM’s control. Confusion is so far exclusive to void crawlers (p. 145).</p><p><em>Source: X-Risks, p. 179.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 50000,
+  "ownership": {
+    "default": 0
+  }
+}

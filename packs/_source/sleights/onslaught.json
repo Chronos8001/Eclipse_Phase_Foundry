@@ -1,0 +1,33 @@
+{
+  "_id": "ac766a241f5658ca",
+  "_key": "!items!ac766a241f5658ca",
+  "name": "Onslaught",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "onslaught",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "temporary",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "psiAssault",
+    "damage": "1d10 + ceil(@wil / 10)",
+    "harm": "stress",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This offensive sleight floods the target’s mind with sensory input and thought processes that are so alien and disturbing that they inflict 1d10 + (WIL ÷ 10, round up) mental stress. Increase the stress by +5 if an Excellent Success is scored.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 371.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 42000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "3e9f6e61b5ca08a4",
+  "_key": "!items!3e9f6e61b5ca08a4",
+  "name": "Emotion Control",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "emotionControl",
+    "psiType": "chi",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Emotion Control gives the async tight control over their emotional states. Unwanted emotions can be blocked out and others embraced. This has the benefit of protecting the async from emotional manipulation, such as the Drive Emotion sleight or Intimidation skill tests. The async receives a +30 modifier when defending against such tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 224.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

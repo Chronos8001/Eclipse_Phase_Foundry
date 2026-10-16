@@ -95,7 +95,10 @@ def parse_traits():
             scope = "both" if sm.group(1) == "Ego or Morph" else "morph"
             name = name[: sm.start()]
         costs = [int(x) for x in re.findall(r"\d+", cost_txt)]
+        words = re.sub(r"[^A-Za-z0-9 ]+", " ", name).split()
         system = {
+            # Rules find traits by key (psi, psiDefense...) rather than by their displayed name
+            "key": words[0].lower() + "".join(w.capitalize() for w in words[1:]),
             "traitType": e["polarity"],
             "scope": scope,
             "level": 1,

@@ -1,0 +1,57 @@
+{
+  "_id": "bb49965fb63e0142",
+  "_key": "!items!bb49965fb63e0142",
+  "name": "Cognitive Boost",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "cognitiveBoost",
+    "psiType": "chi",
+    "activation": "active",
+    "action": "quick",
+    "range": "self",
+    "duration": "temporary",
+    "durationUnit": "turns",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The async can temporarily elevate their cognitive performance. In game terms, Cognition is raised by 5 for the chosen duration. This boost to Cognition also raises the rating of skills linked to that aptitude.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 223.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "cf115c7288ed8a21",
+      "_key": "!items.effects!bb49965fb63e0142.cf115c7288ed8a21",
+      "name": "Cognitive Boost",
+      "img": "icons/svg/aura.svg",
+      "changes": [
+        {
+          "key": "system.aptitudes.cog.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

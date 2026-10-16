@@ -1,0 +1,33 @@
+{
+  "_id": "d99d8373945fb342",
+  "_key": "!items!d99d8373945fb342",
+  "name": "Enhanced Creativity",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "enhancedCreativity",
+    "psiType": "chi",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>An async with Enhanced Creativity is more imaginative and more inclined to think outside the box. Apply a +20 modifier to any tests where creativity plays a major role. This level of ingenuity can sometimes seem strange and different, manifesting in odd or creepy ways, especially with artwork.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 224.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

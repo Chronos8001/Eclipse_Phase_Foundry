@@ -51,13 +51,21 @@
       "type": "Item",
       "system": "ep1e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "sleights",
+      "label": "Psi Sleights (Core, Transhuman, X-Risks)",
+      "path": "packs/sleights",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     }
   ],
   "packFolders": [
     {
       "name": "Eclipse Phase",
       "sorting": "m",
-      "packs": ["morphs", "traits", "weapons", "armor"]
+      "packs": ["morphs", "traits", "weapons", "armor", "sleights"]
     }
   ],
   "documentTypes": {

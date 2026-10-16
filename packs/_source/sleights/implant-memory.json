@@ -1,0 +1,33 @@
+{
+  "_id": "27a9c6753fb392ff",
+  "_key": "!items!27a9c6753fb392ff",
+  "name": "Implant Memory",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "implantMemory",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "control",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>An async using this sleight can implant a memory of up to an hour’s length inside the target’s mind. This memory very obviously does not belong to the target—there is no way they will confuse it for one of their own. The intent is not to fake memories, but to place one of the async’s memories in the target’s mind so that the target can access it just like any other memory. This can be useful for “archiving” important data with an ally, providing a literal alternate perspective, or simply making a “data dump” for the target to peruse. Implant Memory requires an Opposed Test against unwilling participants. At the gamemaster’s discretion, particularly traumatic memories might inflict mental stress on the recipient (p. 215).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 226.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "f1e915da334974ce",
+  "_key": "!items!f1e915da334974ce",
+  "name": "Penetration",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "penetration",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "quick",
+    "range": "touch",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": true,
+    "skill": "psiAssault",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Penetration is a sleight that works in conjunction with any offensive sleight that involves the Psi Assault skill. It allows the async to penetrate the Psi Shield of an opponent by concentrating their psi attack. Every point of Armor Penetration applied to a psi attack inflicts 1 point of strain. The maximum AP that may be applied equals the async’s Psi Assault skill divided by 10 (round down).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 228.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 32000,
+  "ownership": {
+    "default": 0
+  }
+}

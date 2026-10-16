@@ -1,0 +1,33 @@
+{
+  "_id": "45fe040172d78a49",
+  "_key": "!items!45fe040172d78a49",
+  "name": "Kinetic Friction",
+  "type": "sleight",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "key": "kineticFriction",
+    "psiType": "epsilon",
+    "activation": "active",
+    "action": "complex",
+    "range": "close",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The exsurgent uses this sleight to increase the friction applied to kinetic activities. This has a negligible effect on most activities, but high-velocity projectiles like firearms and railguns will be significantly slowed, decreasing their DV by half or more.</p><p>Psi-epsilon: the book leaves action, range, duration and effects to the gamemaster.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 372.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 62000,
+  "ownership": {
+    "default": 0
+  }
+}

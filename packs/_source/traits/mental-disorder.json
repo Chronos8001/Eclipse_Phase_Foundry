@@ -5,6 +5,7 @@
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
+    "key": "mentalDisorder",
     "traitType": "negative",
     "scope": "ego",
     "level": 1,

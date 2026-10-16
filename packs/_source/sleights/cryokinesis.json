@@ -1,0 +1,33 @@
+{
+  "_id": "e9a526689d1c56d9",
+  "_key": "!items!e9a526689d1c56d9",
+  "name": "Cryokinesis",
+  "type": "sleight",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "key": "cryokinesis",
+    "psiType": "epsilon",
+    "activation": "active",
+    "action": "complex",
+    "range": "close",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight allows the exsurgent to drain all heat from an area, down to absolute zero, effectively freezing everything within range and inflicting cold damage on unprotected characters.</p><p>Psi-epsilon: the book leaves action, range, duration and effects to the gamemaster.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 372.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 60000,
+  "ownership": {
+    "default": 0
+  }
+}

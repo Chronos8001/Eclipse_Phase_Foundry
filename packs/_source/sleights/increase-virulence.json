@@ -1,0 +1,33 @@
+{
+  "_id": "e586268c26fa8b99",
+  "_key": "!items!e586268c26fa8b99",
+  "name": "Increase Virulence",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "increaseVirulence",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "self",
+    "duration": "temporary",
+    "durationUnit": "hours",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "control",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight can only be performed by exsurgents infected by the biological nanovirus and can only affect biomorphs. The exsurgent increases the Infection Rating (p. 171) of their bio-nanobots by +30 for the duration of the sleight. During this time, the pathogen they exude will be more likely to infect victims it is exposed to.</p><p><em>Source: X-Risks, p. 179.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 53000,
+  "ownership": {
+    "default": 0
+  }
+}

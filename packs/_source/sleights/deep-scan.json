@@ -1,0 +1,33 @@
+{
+  "_id": "d36b09a50db8bb47",
+  "_key": "!items!d36b09a50db8bb47",
+  "name": "Deep Scan",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "deepScan",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "sustained",
+    "durationUnit": "turns",
+    "strainMod": 1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "sense",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Deep Scan is a more intrusive version of Thought Browse (p. 228), made to extract information from the targeted individual. If the Opposed Test succeeds, the async telepathically invades the target’s mind and can probe it for information. For every 10 full points of MoS the async achieves on their test, they retrieve one piece of information. Each item takes one full Action Turn to retrieve, during which the sleight must be sustained. The target is aware of this mental probing, though they will not know what information the async acquired.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 226.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  }
+}

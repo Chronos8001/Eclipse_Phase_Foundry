@@ -1,0 +1,33 @@
+{
+  "_id": "d5c1633d682ed75e",
+  "_key": "!items!d5c1633d682ed75e",
+  "name": "Hyperthymesia",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "hyperthymesia",
+    "psiType": "chi",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Hyperthymesia grants the async a superior autobiographical memory, allowing them to remember the most trivial of events. A hyperthymestic async can be asked a random date and recall the day of the week it was, the events that occurred that day, what the weather was like, and many seemingly trivial details that most people would not be able to recall.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 224.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  }
+}

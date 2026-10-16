@@ -5,6 +5,7 @@
   "type": "trait",
   "img": "icons/svg/upgrade.svg",
   "system": {
+    "key": "naturalImmunity",
     "traitType": "positive",
     "scope": "morph",
     "level": 1,

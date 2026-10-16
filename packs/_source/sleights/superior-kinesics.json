@@ -1,0 +1,33 @@
+{
+  "_id": "1b96cdc2b9eaada7",
+  "_key": "!items!1b96cdc2b9eaada7",
+  "name": "Superior Kinesics",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "superiorKinesics",
+    "psiType": "chi",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The async acquires more insight into people’s emotive signals, gestures, facial expressions, and body language when it comes time to predict the person’s emotional state, intent, or reactions. Apply a +10 modifier to Kinesics Skill Tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 225.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

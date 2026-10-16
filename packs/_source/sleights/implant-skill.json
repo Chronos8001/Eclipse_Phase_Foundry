@@ -1,0 +1,33 @@
+{
+  "_id": "74d36be6c1d663ee",
+  "_key": "!items!74d36be6c1d663ee",
+  "name": "Implant Skill",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "implantSkill",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "temporary",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "control",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Similar to Implant Memory, this sleight allows the async to impart some of their expertise and implant it into the target’s mind. For the duration of the sleight, the target benefits when using that skill. If the async’s skill is between 31 and 60, the target receives a +10 bonus. If the async’s skill is 61+, the target receives a +20 bonus. Implant Skill requires an Opposed Test against unwilling participants. In some cases, the target has been known to use the skill with the async’s flair and mannerisms.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 227.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 28000,
+  "ownership": {
+    "default": 0
+  }
+}

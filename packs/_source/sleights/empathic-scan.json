@@ -1,0 +1,33 @@
+{
+  "_id": "f725db696928a7c3",
+  "_key": "!items!f725db696928a7c3",
+  "name": "Empathic Scan",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "empathicScan",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "quick",
+    "range": "close",
+    "duration": "sustained",
+    "durationUnit": "turns",
+    "strainMod": -2,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "sense",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Empathic Scan enables the async to sense the target’s base emotions. If the async wins the Opposed Test, they intuitively feel the target’s emotional current state for as long as the sleight is sustained. At the gamemaster’s discretion, this knowledge may provide a modifier (up to +30) for certain Social skill tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 226.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 26000,
+  "ownership": {
+    "default": 0
+  }
+}

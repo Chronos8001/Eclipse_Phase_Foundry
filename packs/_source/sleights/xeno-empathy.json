@@ -1,0 +1,33 @@
+{
+  "_id": "2e141f18e2a5e88b",
+  "_key": "!items!2e141f18e2a5e88b",
+  "name": "Xeno-Empathy",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "xenoEmpathy",
+    "psiType": "chi",
+    "activation": "active",
+    "action": "complex",
+    "range": "self",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>An async with this sleight can attempt to gain an intuitive understanding of any non-human, non-terrestrial organism. If the character succeeds in an INT x 2 Test, they gain insight into the target’s motivations, needs, and mental/emotional state (if sapient) or the target’s ecological niche, instinctual drives, and likely behavioral responses (if non-sapient). Apply a +20 modifier to any Animal Handling, Deception, Intimidation, Kinesics, or Persuasion Tests made by the character against that organism. This sleight does not work on animals or smart animals of terrestrial origin.</p><p><em>Source: Transhuman, p. 154.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 48000,
+  "ownership": {
+    "default": 0
+  }
+}

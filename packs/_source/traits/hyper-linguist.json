@@ -5,6 +5,7 @@
   "type": "trait",
   "img": "icons/svg/upgrade.svg",
   "system": {
+    "key": "hyperLinguist",
     "traitType": "positive",
     "scope": "ego",
     "level": 1,

@@ -1,0 +1,33 @@
+{
+  "_id": "888957c4d03df64f",
+  "_key": "!items!888957c4d03df64f",
+  "name": "Downtime",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "downtime",
+    "psiType": "chi",
+    "activation": "active",
+    "action": "task",
+    "range": "self",
+    "duration": "sustained",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight provides the async with the ability to send the mind into a fugue-state regenerative downtime, during which the character’s psyche is repaired. The async must enter the downtime for at least 4 hours; every 4 hours of downtime heals 1 point of stress damage. Traumas, derangements, and disorders are unaffected by this sleight. For all sensory purposes, the async is catatonic during downtime, completely oblivious to the outside world. Only severe disturbances or physical shock (such as being wounded or hit by a shock weapon) will bring the async out of it.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 224.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

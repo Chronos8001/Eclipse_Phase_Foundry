@@ -5,6 +5,7 @@
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
+    "key": "lowPainTolerance",
     "traitType": "negative",
     "scope": "both",
     "level": 1,

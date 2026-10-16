@@ -1,0 +1,33 @@
+{
+  "_id": "d8b33152a1ba1f5c",
+  "_key": "!items!d8b33152a1ba1f5c",
+  "name": "Scenario",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "scenario",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "sustained",
+    "durationUnit": "turns",
+    "strainMod": 2,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "control",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight hijacks the target’s sensorium, replacing it with a virtual scenario controlled by the exsurgent. The effect is much like being jacked into a simulspace scenario, albeit against the target’s will. While the exsurgent cannot harm the target in the scenario, they can learn something about the person’s behavioral responses to certain situations. While under the influence of this sleight, the target is cut off from their physical senses (–60 to any Perception Tests), but they may flail about and otherwise respond physically to events in the scenario, which may cause them to hurt themselves and will make them seem crazy to onlookers. Targets may attempt to ignore the scenario and concentrate on the real world, but this requires a WIL Test each Action Turn and they suffer a –30 modifier from disorientation even if they succeed.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 371.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 43000,
+  "ownership": {
+    "default": 0
+  }
+}

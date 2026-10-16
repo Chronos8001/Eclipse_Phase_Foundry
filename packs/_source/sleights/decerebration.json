@@ -1,0 +1,33 @@
+{
+  "_id": "f8f56ddf04fa880b",
+  "_key": "!items!f8f56ddf04fa880b",
+  "name": "Decerebration",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "decerebration",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "temporary",
+    "durationUnit": "turns",
+    "strainMod": 2,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "psiAssault",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight temporarily “shorts out” a portion of the subject’s brain stem. The victim’s cerebral functions and motor activity become severely impaired; apply a –30 modifier to all actions. If an Excellent Success is scored, the target effectively loses all cerebral functioning, including vision, hearing, other sensory functions, and mesh use. Their muscles and limbs also tense and become rigid, essentially paralyzing them in what looks like an agonized state.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 371.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 41000,
+  "ownership": {
+    "default": 0
+  }
+}

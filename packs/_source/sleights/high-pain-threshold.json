@@ -1,0 +1,57 @@
+{
+  "_id": "6b6545d233b6c84e",
+  "_key": "!items!6b6545d233b6c84e",
+  "name": "High Pain Threshold",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "highPainThreshold",
+    "psiType": "chi",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight allows the async to block out, ignore, or otherwise isolate pain. The async reduces negative modifiers from wounds by 10.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 224.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "08caa57a6c313db9",
+      "_key": "!items.effects!6b6545d233b6c84e.08caa57a6c313db9",
+      "name": "High Pain Threshold",
+      "img": "icons/svg/aura.svg",
+      "changes": [
+        {
+          "key": "system.mods.woundsIgnored",
+          "mode": 2,
+          "type": "add",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

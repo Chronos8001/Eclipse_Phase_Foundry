@@ -5,6 +5,7 @@
   "type": "trait",
   "img": "icons/svg/upgrade.svg",
   "system": {
+    "key": "firstImpression",
     "traitType": "positive",
     "scope": "ego",
     "level": 1,

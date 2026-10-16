@@ -1,0 +1,57 @@
+{
+  "_id": "540f85fba9f867cf",
+  "_key": "!items!540f85fba9f867cf",
+  "name": "Unconscious Lead",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "unconsciousLead",
+    "psiType": "chi",
+    "activation": "active",
+    "action": "automatic",
+    "range": "self",
+    "duration": "temporary",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight allows the async to override their consciousness and let their unconscious mind take point. While in this state, the async’s conscious mind is only dimly aware of what is transgressing, and any memories of this period will be hazy at best. The advantage is that the unconscious mind acts more quickly, and so the async’s Speed is boosted by +1. The character remains aware and active, but is incapable of complex communication or other mental actions and is motivated by instinct and primitive urges more than conscious thought. Though it is recommended that the player retain control of their character while using Unconscious Lead, the gamemaster should feel free to direct the character’s actions as they see fit.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 225.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "436c52e895f34c79",
+      "_key": "!items.effects!540f85fba9f867cf.436c52e895f34c79",
+      "name": "Unconscious Lead",
+      "img": "icons/svg/aura.svg",
+      "changes": [
+        {
+          "key": "system.mods.spd",
+          "mode": 2,
+          "type": "add",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

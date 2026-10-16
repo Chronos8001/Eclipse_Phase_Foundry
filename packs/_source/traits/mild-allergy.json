@@ -5,6 +5,7 @@
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
+    "key": "mildAllergy",
     "traitType": "negative",
     "scope": "morph",
     "level": 1,

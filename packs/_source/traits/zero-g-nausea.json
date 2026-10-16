@@ -5,6 +5,7 @@
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
+    "key": "zeroGNausea",
     "traitType": "negative",
     "scope": "morph",
     "level": 1,

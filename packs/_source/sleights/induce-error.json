@@ -1,0 +1,33 @@
+{
+  "_id": "e69e6857329fd00e",
+  "_key": "!items!e69e6857329fd00e",
+  "name": "Induce Error",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "induceError",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "close",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "psiAssault",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight creates a glitch in the target’s mind that causes them to unconsciously do something wrong. This is typically a mistake that people commonly perform, even seasoned professionals. For example, in combat, a target could forget to reload a weapon or alert an ally of a flanking foe. Out of combat, a target could accidentally save the wrong file, forget the location of something important, misremember someone’s name, or unlock a security door. If the sleight succeeds, the target automatically fails a random active skill test made in the next 1d10 minutes, at the GM’s discretion. The exsurgent has no control over what kind of error is made. On an Excellent Success (MoS 30+), the exsurgent may choose a specific skill that will fail, such as Kinetic Weapons or Perception. Once the skill automatically fails, the effect of the sleight ends and the exsurgent must make another test to affect the same target again. If the target does not perform the right kind of skill test in the time period, the sleight ends without activating. On a critical success, the exsurgent can make all of the target’s skill tests fail for 3 consecutive Action Turns. This sudden ineptness may force a WIL x 3 Test to avoid panic and 1 point of mental stress. Alternatively, the exsurgent can use the critical success to induce a single critical failure instead of a standard failure.</p><p><em>Source: X-Risks, p. 179.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 54000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "2570aa32cd8957ca",
+  "_key": "!items!2570aa32cd8957ca",
+  "name": "Puppeteer",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "puppeteer",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "sustained",
+    "durationUnit": "turns",
+    "strainMod": 3,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "control",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The async takes control of the target’s mind. For the duration of the sleight, the async and target act as a single unit. The async dictates the actions taken, and can use the victim’s skills, implants, etc. Note that the attacker does not have access to the victim’s personality or memories. Every turn after the first, the victim can attempt an Opposed Test, pitting their WIL versus the async’s Control skill, to break the control. Puppeteer is so far exclusive to mind wrappers (p. 152).</p><p><em>Source: X-Risks, p. 179.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 56000,
+  "ownership": {
+    "default": 0
+  }
+}

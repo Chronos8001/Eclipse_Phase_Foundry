@@ -1,0 +1,33 @@
+{
+  "_id": "7b4e403445b04dbf",
+  "_key": "!items!7b4e403445b04dbf",
+  "name": "Filter",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "filter",
+    "psiType": "chi",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Filter allows the async to filter out out distractions and eliminate negative situational modifiers from distraction, up to the gamemaster’s discretion.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 224.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

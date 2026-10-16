@@ -1,0 +1,33 @@
+{
+  "_id": "2f7bdf319f6cc472",
+  "_key": "!items!2f7bdf319f6cc472",
+  "name": "Aphasic Touch",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "aphasicTouch",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "temporary",
+    "durationUnit": "minutes",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "control",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>With a touch attack, the async temporarily blocks or scrambles the language-processing centers in the target’s brain. For the duration of the effect, the target cannot speak, initiate mesh actions, or otherwise communicate or read.</p><p><em>Source: Transhuman, p. 154.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 45000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "767e550db30c3fe1",
+  "_key": "!items!767e550db30c3fe1",
+  "name": "Matter Transformation",
+  "type": "sleight",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "key": "matterTransformation",
+    "psiType": "epsilon",
+    "activation": "active",
+    "action": "complex",
+    "range": "close",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight alters the molecular bonds and atomic components of a targeted material, causing it to either weaken and deteriorate or transmutate into some other physical substance. This can also be used to alter the molecular state of a material, causing gases to condense, solids to liquefy, etc. An exsurgent could use this to weaken a door or other barrier, condense a solid bridge out of liquid, petrify organic materials, etc.</p><p>Psi-epsilon: the book leaves action, range, duration and effects to the gamemaster.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 372.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 63000,
+  "ownership": {
+    "default": 0
+  }
+}

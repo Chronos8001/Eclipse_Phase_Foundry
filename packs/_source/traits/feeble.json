@@ -5,6 +5,7 @@
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
+    "key": "feeble",
     "traitType": "negative",
     "scope": "ego",
     "level": 1,

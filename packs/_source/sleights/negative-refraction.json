@@ -1,0 +1,33 @@
+{
+  "_id": "3933e51f66794d8f",
+  "_key": "!items!3933e51f66794d8f",
+  "name": "Negative Refraction",
+  "type": "sleight",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "key": "negativeRefraction",
+    "psiType": "epsilon",
+    "activation": "active",
+    "action": "complex",
+    "range": "close",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The exsurgent redirects electromagnetic waves with this sleight, refracting them around their body, with the same effect as the invisibility cloak (p. 316).</p><p>Psi-epsilon: the book leaves action, range, duration and effects to the gamemaster.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 372.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 64000,
+  "ownership": {
+    "default": 0
+  }
+}

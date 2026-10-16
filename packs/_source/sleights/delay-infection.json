@@ -1,0 +1,33 @@
+{
+  "_id": "be9a61ffbc67c42a",
+  "_key": "!items!be9a61ffbc67c42a",
+  "name": "Delay Infection",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "delayInfection",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "temporary",
+    "durationUnit": "hours",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "control",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight can only be performed by exsurgents infected by the biological nanovirus and can only affect biomorphs. The exsurgent wills bio-nanobots carrying their infection to the target’s morph, but to not yet infect it. Instead, the bio-nanobots dig into the target’s body and hide until the delay is over. Once the sleight’s duration has passed, the victim is exposed to the biological pathogen and considered infected. The delayed infection cannot be detected by conventional means during this pre-infection time. Only an async using the Sense Infection sleight (p. 154, Transhuman) and achieving an Excellent Success (MoS 30+) can detect a delayed infection.</p><p><em>Source: X-Risks, p. 179.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 51000,
+  "ownership": {
+    "default": 0
+  }
+}

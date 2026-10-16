@@ -1,0 +1,33 @@
+{
+  "_id": "46cef272648b324d",
+  "_key": "!items!46cef272648b324d",
+  "name": "Pyrokinesis",
+  "type": "sleight",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "key": "pyrokinesis",
+    "psiType": "epsilon",
+    "activation": "active",
+    "action": "complex",
+    "range": "close",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Similar to cryokinesis, this sleight enables the exsurgent to accelerate the molecules, increase friction, or focus heat in a specific area, causing materials to ignite or smolder.</p><p>Psi-epsilon: the book leaves action, range, duration and effects to the gamemaster.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 372.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 65000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_id": "aa244318d8685c5a",
+  "_key": "!items!aa244318d8685c5a",
+  "name": "Qualia",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "qualia",
+    "psiType": "chi",
+    "activation": "active",
+    "action": "quick",
+    "range": "self",
+    "duration": "temporary",
+    "durationUnit": "turns",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The async can temporarily increase their intuitive grasp of things. In game terms, Intuition is raised by 5 for the chosen duration. This boost to Intuition also raises the rating of skills linked to that aptitude.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 225.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "691f6e34e130309d",
+      "_key": "!items.effects!aa244318d8685c5a.691f6e34e130309d",
+      "name": "Qualia",
+      "img": "icons/svg/aura.svg",
+      "changes": [
+        {
+          "key": "system.aptitudes.int.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

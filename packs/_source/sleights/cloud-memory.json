@@ -1,0 +1,33 @@
+{
+  "_id": "87a07d9476e05f08",
+  "_key": "!items!87a07d9476e05f08",
+  "name": "Cloud Memory",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "cloudMemory",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "temporary",
+    "durationUnit": "minutes",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "control",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Cloud Memory allows the async to temporarily disrupt the target’s ability to form long-term memories. If the async wins the Opposed Test, the target’s memorysaving ability is negated for the duration. The target will retain short-term memories during this time, but will soon forget anything that occurred while this sleight was in effect.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 226.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

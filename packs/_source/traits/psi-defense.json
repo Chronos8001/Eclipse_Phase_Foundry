@@ -5,6 +5,7 @@
   "type": "trait",
   "img": "icons/svg/upgrade.svg",
   "system": {
+    "key": "psiDefense",
     "traitType": "positive",
     "scope": "both",
     "level": 1,

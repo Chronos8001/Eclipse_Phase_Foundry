@@ -1,0 +1,57 @@
+{
+  "_id": "ef54a6469198aac3",
+  "_key": "!items!ef54a6469198aac3",
+  "name": "Psi Shield",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "psiShield",
+    "psiType": "gamma",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Psi Shield bolsters the async’s mind to psi attack and manipulation. If the async is hit by a psi attack, they receive WIL ÷ 5 (round up) points of armor, reducing the amount of damage inflicted. They also receive a +10 modifier when resisting any other sleights.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 228.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "33aa38112f394355",
+      "_key": "!items.effects!ef54a6469198aac3.33aa38112f394355",
+      "name": "Psi Shield",
+      "img": "icons/svg/aura.svg",
+      "changes": [
+        {
+          "key": "system.mods.psiShield",
+          "mode": 2,
+          "type": "add",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 33000,
+  "ownership": {
+    "default": 0
+  }
+}
