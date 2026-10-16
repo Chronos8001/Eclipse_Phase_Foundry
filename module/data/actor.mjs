@@ -204,3 +204,97 @@ export class EgoData extends foundry.abstract.TypeDataModel {
 export class CharacterData extends EgoData {}
 
 export class NpcData extends EgoData {}
+
+/**
+ * Robots and vehicles (Core pp. 195-196, 343-349): a synthetic shell with handling, movement, armor and
+ * durability. It exposes the derived values the combat code reads on actors (aptitudes at 0, stats, armor,
+ * penalties, psi), and defends and pilots with the Pilot skill of whoever drives it (its AI or a character).
+ */
+export class VehicleData extends foundry.abstract.TypeDataModel {
+  static defineSchema() {
+    return {
+      category: choice(["robot", "aircraft", "groundcraft", "personal", "watercraft", "spacecraft", "other"], "robot"),
+      passengers: text(),
+      handling: int(0),
+      movement: text(),
+      maxVelocity: text(),
+      mobility: text(),
+      // Armor Value (energy/kinetic); the derived armor adds active effects
+      av: new SchemaField({ energy: int(0, { min: 0 }), kinetic: int(0, { min: 0 }) }),
+      durability: int(30, { min: 0 }),
+      woundThreshold: int(6, { min: 0 }),
+      damage: new SchemaField({ value: int(0, { min: 0 }) }),
+      wounds: new SchemaField({ value: int(0, { min: 0 }) }),
+      // Pilot skill of the AI or character controlling the shell: used to defend and avoid crashes
+      pilot: int(40, { min: 0 }),
+      enhancements: text(),
+      cost: text(),
+      mods: new SchemaField({
+        dur: int(0), wt: int(0), energyArmor: int(0), kineticArmor: int(0), woundsIgnored: int(0, { min: 0 }),
+        actions: int(0), defense: int(0), spd: int(0), init: int(0)
+      }),
+      biography: new HTMLField({ required: true, blank: true }),
+      notes: new HTMLField({ required: true, blank: true })
+    };
+  }
+
+  prepareDerivedData() {
+    const mods = this.mods;
+    const dur = Math.max(0, this.durability + mods.dur);
+    // Synthetic shells are destroyed at DUR x 2 (p. 207)
+    const wt = Math.max(1, this.woundThreshold + mods.wt);
+    this.stats = { dur, wt, dr: dur * 2, luc: 0, tt: 0, ir: 0, init: mods.init, spd: Math.max(1, 1 + mods.spd), db: 0, isSynth: true, isInfomorph: false };
+    this.armor = { energy: this.av.energy + mods.energyArmor, kinetic: this.av.kinetic + mods.kineticArmor, psi: 0, layers: 0 };
+    this.damage.max = dur;
+    // Robots ignore one wound's modifier like other synthetic morphs (p. 207)
+    const woundPenalty = Math.max(0, this.wounds.value - Math.min(3, 1 + mods.woundsIgnored)) * 10;
+    const total = woundPenalty - mods.actions;
+    this.penalty = { wounds: woundPenalty, trauma: 0, armor: 0, actions: -mods.actions, psi: 0, total, modifier: -total, initiative: woundPenalty };
+    this.status = {
+      incapacitated: (dur > 0) && (this.damage.value >= dur),
+      dead: (dur > 0) && (this.damage.value >= dur * 2),
+      insane: false,
+      unstable: false
+    };
+    this.psi = { level: 0, armor: 0, defense: 0, sustained: 0 };
+    this.morph = { id: null, name: "", img: "", type: "synthmorph" };
+  }
+
+  /** Values read by the combat code on every actor. */
+  get aptitudes() {
+    return Object.fromEntries(APTITUDES.map(k => [k, { value: 0, base: 0, mod: 0 }]));
+  }
+
+  get moxie() {
+    return { value: 0, max: 0 };
+  }
+
+  get stress() {
+    return { value: 0, max: 0 };
+  }
+
+  get trauma() {
+    return { value: 0 };
+  }
+
+  get skillMods() {
+    return {};
+  }
+
+  get ai() {
+    return true;
+  }
+
+  get intrusions() {
+    return [];
+  }
+
+  getSkill() {
+    return null;
+  }
+
+  /** Every test of a shell is its controller's Pilot skill (with the vehicle's handling for maneuvers). */
+  getSkillTarget() {
+    return { target: this.pilot, label: game.i18n.localize("EP1E.Skill.pilot"), skill: null };
+  }
+}

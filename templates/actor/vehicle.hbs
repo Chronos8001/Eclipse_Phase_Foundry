@@ -1,0 +1,89 @@
+<section class="vehicle-sheet">
+  <header class="sheet-header">
+    <img class="profile" src="{{actor.img}}" data-edit="img" data-action="editImage" alt="">
+    <div class="header-fields">
+      <input class="name" type="text" name="name" value="{{actor.name}}" placeholder="{{localize "EP1E.Item.name"}}">
+      <div class="header-row">
+        <select name="system.category">{{selectOptions config.vehicleCategories selected=system.category localize=true}}</select>
+        <label>{{localize "EP1E.Vehicle.passengers"}} <input type="text" name="system.passengers" value="{{system.passengers}}"></label>
+        <label>{{localize "EP1E.Gear.cost"}} <input type="text" name="system.cost" value="{{system.cost}}"></label>
+      </div>
+    </div>
+  </header>
+
+  <section class="panel stats">
+    <div class="stat-grid">
+      <label class="stat">{{localize "EP1E.Vehicle.handling"}}<input type="number" name="system.handling" value="{{system.handling}}" step="10"></label>
+      <label class="stat">{{localize "EP1E.Vehicle.movement"}}<input type="text" name="system.movement" value="{{system.movement}}" placeholder="4/16"></label>
+      <label class="stat">{{localize "EP1E.Vehicle.maxVelocity"}}<input type="text" name="system.maxVelocity" value="{{system.maxVelocity}}"></label>
+      <label class="stat">{{localize "EP1E.Vehicle.mobility"}}<input type="text" name="system.mobility" value="{{system.mobility}}"></label>
+      <label class="stat">{{localize "EP1E.DamageType.energy"}}<input type="number" name="system.av.energy" value="{{system.av.energy}}" min="0"></label>
+      <label class="stat">{{localize "EP1E.DamageType.kinetic"}}<input type="number" name="system.av.kinetic" value="{{system.av.kinetic}}" min="0"></label>
+      <label class="stat">{{localize "EP1E.Stat.dur"}}<input type="number" name="system.durability" value="{{system.durability}}" min="0"></label>
+      <label class="stat">{{localize "EP1E.Stat.wt"}}<input type="number" name="system.woundThreshold" value="{{system.woundThreshold}}" min="0"></label>
+      <div class="stat"><label>{{localize "EP1E.Stat.dr"}}</label><span>{{system.stats.dr}}</span></div>
+      <div class="stat"><label>{{localize "EP1E.Stat.armor"}}</label><span>{{system.armor.energy}} / {{system.armor.kinetic}}</span></div>
+    </div>
+  </section>
+
+  <section class="panel health">
+    <div class="track">
+      <label>{{localize "EP1E.Stat.damage"}}</label>
+      <input type="number" name="system.damage.value" value="{{system.damage.value}}" min="0">
+      <span class="sep">/ {{system.stats.dur}}</span>
+      <meter min="0" max="{{system.stats.dr}}" low="{{system.stats.dur}}" high="{{system.stats.dur}}" optimum="0" value="{{system.damage.value}}"></meter>
+    </div>
+    <div class="track">
+      <label>{{localize "EP1E.Stat.wounds"}}</label>
+      <input type="number" name="system.wounds.value" value="{{system.wounds.value}}" min="0">
+      <span class="sep">{{#if system.penalty.wounds}}−{{system.penalty.wounds}}{{/if}}</span>
+    </div>
+    {{#if system.status.dead}}<p class="status danger">{{localize "EP1E.Vehicle.destroyed"}}</p>
+    {{else if system.status.incapacitated}}<p class="status warning">{{localize "EP1E.Status.incapacitated"}}</p>{{/if}}
+    <div class="buttons">
+      <label data-tooltip="EP1E.Vehicle.pilotHint">{{localize "EP1E.Vehicle.pilot"}} <input type="number" name="system.pilot" value="{{system.pilot}}" min="0"></label>
+      <button type="button" data-action="rollPilot"><i class="fa-solid fa-gamepad"></i> {{localize "EP1E.Skill.pilot"}} {{ep1eSigned system.handling}}</button>
+    </div>
+  </section>
+
+  <section class="panel weapons">
+    <header class="list-header">
+      <h3>{{localize "EP1E.Section.weapons"}}</h3>
+      {{#if editable}}<a class="add" data-action="createItem" data-type="weapon" data-tooltip="EP1E.Item.create"><i class="fa-solid fa-plus"></i></a>{{/if}}
+    </header>
+    <ol class="item-list">
+      {{#each weaponRows as |row|}}
+      <li class="item-row draggable" data-item-id="{{row.item.id}}">
+        <img src="{{row.item.img}}" alt="">
+        <span class="name"><a class="rollable" data-action="rollItem" data-tooltip="EP1E.Weapon.attackHint">{{row.item.name}}</a>
+          <small>{{row.item.system.dv}} · {{localize "EP1E.Weapon.ap"}} {{row.item.system.ap}}{{#if row.item.system.ammo.max}} · {{row.item.system.ammo.value}}/{{row.item.system.ammo.max}}{{/if}}</small></span>
+        {{#if row.item.system.ammo.max}}{{#if @root.editable}}<a data-action="reload" data-tooltip="EP1E.Reload.reload"><i class="fa-solid fa-rotate"></i></a>{{/if}}{{/if}}
+        {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "EP1E.Weapon.none"}}</li>
+      {{/each}}
+    </ol>
+  </section>
+
+  <section class="panel enhancements">
+    <h3>{{localize "EP1E.Vehicle.enhancements"}}</h3>
+    <textarea name="system.enhancements" rows="2">{{system.enhancements}}</textarea>
+    {{#if gear.length}}
+    <ol class="item-list">
+      {{#each gear as |item|}}
+      <li class="item-row draggable" data-item-id="{{item.id}}">
+        <img src="{{item.img}}" alt="">
+        <span class="name"><a data-action="itemToChat">{{item.name}}</a></span>
+        {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
+      </li>
+      {{/each}}
+    </ol>
+    {{/if}}
+  </section>
+
+  <section class="panel biography">
+    <h3>{{localize "EP1E.Section.biography"}}</h3>
+    {{formInput systemFields.biography enriched=enriched.biography value=source.system.biography name="system.biography" toggled=true}}
+  </section>
+</section>

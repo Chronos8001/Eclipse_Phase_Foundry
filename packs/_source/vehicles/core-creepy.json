@@ -1,0 +1,66 @@
+{
+  "_id": "3c4c82fa3003bfef",
+  "_key": "!actors!3c4c82fa3003bfef",
+  "name": "Creepy",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/12",
+    "maxVelocity": "12",
+    "mobility": "Walker or Hopper",
+    "av": {
+      "energy": 2,
+      "kinetic": 2
+    },
+    "durability": 25,
+    "woundThreshold": 5,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "+5 COO, Access Jacks, Chameleon Skin, Extra Limbs (2-8), Grip Pads",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Creepies are small crawler bots that come in an eclectic variety of shapes and forms, from robosquirrels to insectoids to bizarre and artsy mechanical creatures. Creepies were originally designed as a sort of robotic pet, but they are commonly used as a general purpose household minion, like a more beloved servitor. Many people in fact wear a creepy on their person, dropping it to handle small tasks for them and letting it crawl up and down and over their body.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 345.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 11000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Creepy",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

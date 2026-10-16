@@ -1,0 +1,66 @@
+{
+  "_id": "381ecece75534612",
+  "_key": "!actors!381ecece75534612",
+  "name": "EVA Sled",
+  "type": "vehicle",
+  "img": "icons/svg/wingfoot.svg",
+  "system": {
+    "category": "personal",
+    "passengers": "1",
+    "handling": -30,
+    "movement": "4/16",
+    "maxVelocity": "16",
+    "mobility": "",
+    "av": {
+      "energy": 5,
+      "kinetic": 5
+    },
+    "durability": 40,
+    "woundThreshold": 8,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This small sled uses air impellers to maneuver in zero-G. It is commonly used to carry attached gear, but may also pull along 1 human-sized morph.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 345.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 7000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "EVA Sled",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wingfoot.svg"
+    }
+  }
+}

@@ -291,6 +291,8 @@ export async function applyToActor(actor, damage, { total = damage.total, distan
   const content = await render(TEMPLATES.applied, {
     actor, result, stress: !!damage.stress, distance, shock, shockImmune,
     max: damage.stress ? sys.stats.luc : sys.stats.dur,
+    // Bots and vehicles: a Pilot Test to avoid crashing, and an automatic crash on 2+ wounds (p. 207)
+    vehicle: actor.type === "vehicle",
     knockdown: !damage.stress && (result.wounds >= 1),
     unconscious: !damage.stress && (result.wounds >= 2),
     bleeding: !damage.stress && !!conditionEffect(actor, "bleeding"),
@@ -417,6 +419,14 @@ async function handleChatAction(message, dataset, event) {
       const item = actor?.items.get(dataset.itemId);
       if ( actor?.isOwner && item ) return rollAddictionTest(actor, item);
       return;
+    }
+    case "crashTest": {
+      const actor = await fromUuid(dataset.actorUuid);
+      if ( !actor?.isOwner ) return;
+      const sys = actor.system;
+      return rollSkillTest(actor, {
+        label: game.i18n.localize("EP1E.Vehicle.crashTest"), target: sys.pilot + sys.handling, fastForward: true
+      });
     }
     case "seizureTest": {
       const actor = await fromUuid(dataset.actorUuid);

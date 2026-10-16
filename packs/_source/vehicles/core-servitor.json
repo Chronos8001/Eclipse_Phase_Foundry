@@ -1,0 +1,66 @@
+{
+  "_id": "76bf6560d813c44b",
+  "_key": "!actors!76bf6560d813c44b",
+  "name": "Servitor",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/20",
+    "maxVelocity": "20",
+    "mobility": "Walker or Wheeled",
+    "av": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "durability": 30,
+    "woundThreshold": 6,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Extra Limbs (2-6)",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Servitors are the most common robot, acting as cooks, janitors, universal helpers, movers, and personal aides. Every home has one, if not several. Servitors are intentionally built in non-humanoid forms so as not to confuse them with common synthmorphs and in order to defuse bad feelings at ordering them around. However, they all have some form of “face” to interact with, so as not to be too machine-like.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 346.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 17000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Servitor",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

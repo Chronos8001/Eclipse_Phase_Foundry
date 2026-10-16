@@ -502,3 +502,16 @@
 .ep1e.chat-card .status-line.status-locked strong { color: #c53030; }
 .ep1e.chat-card .status-line.status-spotted strong { color: #c27c0e; }
 .ep1e.chat-card .status-line.status-hidden strong { color: #2f855a; }
+
+/* Robot and vehicle sheet */
+.ep1e.vehicle .vehicle-sheet { padding: 6px; display: flex; flex-direction: column; gap: 8px; }
+.ep1e.vehicle .sheet-header { display: flex; gap: 10px; align-items: center; }
+.ep1e.vehicle .sheet-header .profile { width: 80px; height: 80px; object-fit: cover; border: 1px solid var(--ep-border); }
+.ep1e.vehicle .header-fields { flex: 1; display: flex; flex-direction: column; gap: 4px; }
+.ep1e.vehicle .header-fields .name { font-size: 1.4em; }
+.ep1e.vehicle .header-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.ep1e.vehicle .header-row input { width: 8em; }
+.ep1e.vehicle .stat-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.ep1e.vehicle .stat-grid .stat { display: flex; flex-direction: column; font-size: 0.85em; }
+.ep1e.vehicle .stat-grid input { width: 100%; }
+.ep1e.vehicle .enhancements textarea { width: 100%; }

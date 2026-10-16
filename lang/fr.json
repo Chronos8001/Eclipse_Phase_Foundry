@@ -2,7 +2,8 @@
   "TYPES": {
     "Actor": {
       "character": "Personnage",
-      "npc": "PNJ"
+      "npc": "PNJ",
+      "vehicle": "Robot / véhicule"
     },
     "Item": {
       "skill": "Compétence",
@@ -18,7 +19,7 @@
     }
   },
   "EP1E": {
-    "Sheet": { "actor": "Fiche Eclipse Phase", "item": "Fiche d'objet Eclipse Phase" },
+    "Sheet": { "actor": "Fiche Eclipse Phase", "item": "Fiche d'objet Eclipse Phase", "vehicle": "Fiche de robot / véhicule Eclipse Phase" },
     "Tab": {
       "main": "Égo & morphe",
       "skills": "Compétences",
@@ -777,6 +778,28 @@
       "noDamage": "Aucun dégât",
       "armorDoubled": "Armure doublée",
       "hint": "Rechargez une arme cinétique pour choisir cette munition : ses modificateurs s'appliquent aux attaques de l'arme (p. 337). Les railguns ne tirent que des balles normales et perforantes."
+    },
+    "VehicleCategory": {
+      "robot": "Robot",
+      "aircraft": "Aéronef",
+      "groundcraft": "Véhicule terrestre",
+      "personal": "Véhicule personnel",
+      "watercraft": "Véhicule aquatique",
+      "spacecraft": "Vaisseau spatial",
+      "other": "Autre"
+    },
+    "Vehicle": {
+      "passengers": "Passagers",
+      "handling": "Maniabilité",
+      "movement": "Déplacement",
+      "maxVelocity": "Vitesse max.",
+      "mobility": "Système de mobilité",
+      "pilot": "Pilotage",
+      "pilotHint": "Compétence Pilotage de l'IA ou du personnage aux commandes : sert aux manœuvres, à éviter les accidents et à se défendre.",
+      "enhancements": "Améliorations",
+      "crashTest": "Test de Pilotage pour éviter l'accident",
+      "crashed": "Deux blessures d'un coup : le véhicule s'écrase (p. 196).",
+      "destroyed": "Détruit"
     }
   }
 }

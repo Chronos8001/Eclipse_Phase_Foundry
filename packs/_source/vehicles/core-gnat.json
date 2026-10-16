@@ -1,0 +1,66 @@
+{
+  "_id": "4cd4a06856868f52",
+  "_key": "!actors!4cd4a06856868f52",
+  "name": "Gnat",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "8/40",
+    "maxVelocity": "60",
+    "mobility": "Rotor",
+    "av": {
+      "energy": 2,
+      "kinetic": 2
+    },
+    "durability": 25,
+    "woundThreshold": 5,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "360-Degree Vision, Access Jacks, Enhanced Hearing, Enhanced Vision, Radar",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Gnats are small rotorcraft camera/surveillance drones. Many people use gnats for personal lifelogging, while socialites and media use them to capture the glamor or hottest news.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 345.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 14000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Gnat",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

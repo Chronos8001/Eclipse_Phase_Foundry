@@ -1,0 +1,66 @@
+{
+  "_id": "2df252d8e3cd37d9",
+  "_key": "!actors!2df252d8e3cd37d9",
+  "name": "Rocket Buggy",
+  "type": "vehicle",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "category": "aircraft",
+    "passengers": "4",
+    "handling": -10,
+    "movement": "8/32",
+    "maxVelocity": "2,500–3,000",
+    "mobility": "",
+    "av": {
+      "energy": 24,
+      "kinetic": 16
+    },
+    "durability": 100,
+    "woundThreshold": 20,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This vehicle is the most common form of medium to long distance personal transport on Luna, and is in common on most other moons and large asteroids. On these airless worlds, a rocket buggy can reach orbit and return or take a parabolic path to any destination on that moon in less than an hour. This vehicle is also regularly used to travel between habitats that are less than 30,000 km apart. The vehicle is pressurized, but is designed for short duration travel only. The seats are relatively small and the life support system contains no provisions for recycling food or water and can only support the passengers for an absolute maximum of 50 uncomfortable hours. Rockets buggies come equipped with headlights, radio boosters, and radar with a range of up to 250 km. A version of this vehicle is also used on both Mars and Titan, but here the frame has been modified to act as a lifting body, and it has a top speed in the thin Martian atmosphere of 2,500 km/hour and a range of 8,000 km on Mars. On Titan is has a top speed of 3,000 kph in the atmosphere, but it can also reach orbit.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 343.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 3000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Rocket Buggy",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wing.svg"
+    }
+  }
+}

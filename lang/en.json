@@ -2,7 +2,8 @@
   "TYPES": {
     "Actor": {
       "character": "Character",
-      "npc": "NPC"
+      "npc": "NPC",
+      "vehicle": "Robot / vehicle"
     },
     "Item": {
       "skill": "Skill",
@@ -18,7 +19,7 @@
     }
   },
   "EP1E": {
-    "Sheet": { "actor": "Eclipse Phase Sheet", "item": "Eclipse Phase Item Sheet" },
+    "Sheet": { "actor": "Eclipse Phase Sheet", "item": "Eclipse Phase Item Sheet", "vehicle": "Eclipse Phase robot / vehicle sheet" },
     "Tab": {
       "main": "Ego & Morph",
       "skills": "Skills",
@@ -777,6 +778,28 @@
       "noDamage": "No damage",
       "armorDoubled": "Armor doubled",
       "hint": "Reload a kinetic weapon to choose this ammunition: its modifiers apply to the weapon's attacks (p. 337). Railguns only fire regular and armor-piercing rounds."
+    },
+    "VehicleCategory": {
+      "robot": "Robot",
+      "aircraft": "Aircraft",
+      "groundcraft": "Groundcraft",
+      "personal": "Personal vehicle",
+      "watercraft": "Watercraft",
+      "spacecraft": "Spacecraft",
+      "other": "Other"
+    },
+    "Vehicle": {
+      "passengers": "Passengers",
+      "handling": "Handling",
+      "movement": "Movement rate",
+      "maxVelocity": "Max velocity",
+      "mobility": "Mobility system",
+      "pilot": "Pilot skill",
+      "pilotHint": "Pilot skill of the AI or character controlling the shell: used to maneuver, avoid crashes and defend.",
+      "enhancements": "Enhancements",
+      "crashTest": "Pilot Test to avoid crashing",
+      "crashed": "Two wounds at once: the vehicle crashes (p. 196).",
+      "destroyed": "Destroyed"
     }
   }
 }

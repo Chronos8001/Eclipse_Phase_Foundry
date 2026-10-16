@@ -2,12 +2,13 @@
  * Eclipse Phase (1st Edition) for Foundry Virtual Tabletop — v13 / v14.
  */
 import { EP1E, SYSTEM_ID } from "./config.mjs";
-import { CharacterData, NpcData } from "./data/actor.mjs";
+import { CharacterData, NpcData, VehicleData } from "./data/actor.mjs";
 import * as itemModels from "./data/item.mjs";
 import { EPActor } from "./documents/actor.mjs";
 import { EPItem } from "./documents/item.mjs";
 import { EPActorSheet } from "./sheets/actor-sheet.mjs";
 import { EPItemSheet } from "./sheets/item-sheet.mjs";
+import { EPVehicleSheet } from "./sheets/vehicle-sheet.mjs";
 import * as tests from "./dice/tests.mjs";
 import { statusEffects } from "./helpers/effects.mjs";
 import { refreshAttackCard } from "./dice/opposed.mjs";
@@ -23,7 +24,7 @@ Hooks.once("init", () => {
 
   CONFIG.Actor.documentClass = EPActor;
   CONFIG.Item.documentClass = EPItem;
-  CONFIG.Actor.dataModels = { character: CharacterData, npc: NpcData };
+  CONFIG.Actor.dataModels = { character: CharacterData, npc: NpcData, vehicle: VehicleData };
   CONFIG.Item.dataModels = {
     skill: itemModels.SkillData,
     morph: itemModels.MorphData,
@@ -40,7 +41,8 @@ Hooks.once("init", () => {
   // Token bars: damage (vs. Durability) and stress (vs. Lucidity)
   CONFIG.Actor.trackableAttributes = {
     character: { bar: ["damage", "stress", "moxie"], value: ["wounds.value", "trauma.value"] },
-    npc: { bar: ["damage", "stress", "moxie"], value: ["wounds.value", "trauma.value"] }
+    npc: { bar: ["damage", "stress", "moxie"], value: ["wounds.value", "trauma.value"] },
+    vehicle: { bar: ["damage"], value: ["wounds.value"] }
   };
 
   // Initiative: d100 (00-99) + INIT, reduced by wound/trauma modifiers (Core p. 188)
@@ -56,6 +58,9 @@ Hooks.once("init", () => {
   const { Actors, Items } = foundry.documents.collections;
   Actors.registerSheet(SYSTEM_ID, EPActorSheet, {
     types: ["character", "npc"], makeDefault: true, label: "EP1E.Sheet.actor"
+  });
+  Actors.registerSheet(SYSTEM_ID, EPVehicleSheet, {
+    types: ["vehicle"], makeDefault: true, label: "EP1E.Sheet.vehicle"
   });
   Items.registerSheet(SYSTEM_ID, EPItemSheet, {
     types: ITEM_TYPES, makeDefault: true, label: "EP1E.Sheet.item"

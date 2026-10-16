@@ -1,0 +1,66 @@
+{
+  "_id": "880f40f2531759a4",
+  "_key": "!actors!880f40f2531759a4",
+  "name": "Dr. Bot",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/16",
+    "maxVelocity": "16",
+    "mobility": "Wheeled",
+    "av": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "durability": 40,
+    "woundThreshold": 8,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Enhanced Smell, Fabber, Fractal Digits, Healing Vat, Nanoscopic Vision",
+    "cost": "High",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>These wheeled medical robots are designed to tend to and transport injured or sick people. They carry a healing vat (p. 326), a specialized pharmaceuticals maker, miscellaneous medical gear, and articulated arms for conducting remote surgery.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 345.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 12000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Dr. Bot",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

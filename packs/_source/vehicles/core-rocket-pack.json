@@ -1,0 +1,66 @@
+{
+  "_id": "95ccea727b02c9e6",
+  "_key": "!actors!95ccea727b02c9e6",
+  "name": "Rocket Pack",
+  "type": "vehicle",
+  "img": "icons/svg/wingfoot.svg",
+  "system": {
+    "category": "personal",
+    "passengers": "1",
+    "handling": -20,
+    "movement": "",
+    "maxVelocity": "700",
+    "mobility": "",
+    "av": {
+      "energy": 5,
+      "kinetic": 5
+    },
+    "durability": 40,
+    "woundThreshold": 8,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This is a miniature metallic hydrogen rocket that the wearer straps to their back, with two rocket exhausts extending out to either side, away from the wearer’s body or legs. Biomorphs and pod morphs can only safely use this vehicle when wearing a vacuum suit or some garment that is similarly heat resistant. Also, to prevent harm to the wearer, the thrust must be kept sufficiently low that it can only take off on Mars or moons with even lower gravity. A rocket pack can keep the wearer airborne for up to 15 minutes in Mars gravity, or 30 minutes on Luna, Titan, or any of the four large Jovian moons. On Mars, it has a maximum speed of 700 kph. It can be used to reach orbit and land again on Luna, Titan, and other similarly small bodies like the Jovian moons. Rocket packs are equipped with radio boosters but no other sensors or communication devices.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 345.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 8000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Rocket Pack",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wingfoot.svg"
+    }
+  }
+}

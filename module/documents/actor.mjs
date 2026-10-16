@@ -17,7 +17,8 @@ export class EPActor extends Actor {
       }
     }
     updates["prototypeToken.bar1.attribute"] = "damage";
-    updates["prototypeToken.bar2.attribute"] = "stress";
+    // Robots and vehicles have no mental health track
+    if ( this.type !== "vehicle" ) updates["prototypeToken.bar2.attribute"] = "stress";
     this.updateSource(updates);
   }
 

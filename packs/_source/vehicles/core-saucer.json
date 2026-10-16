@@ -1,0 +1,66 @@
+{
+  "_id": "60df7a0749eaf11b",
+  "_key": "!actors!60df7a0749eaf11b",
+  "name": "Saucer",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "8/40",
+    "maxVelocity": "200",
+    "mobility": "Ionic",
+    "av": {
+      "energy": 2,
+      "kinetic": 2
+    },
+    "durability": 25,
+    "woundThreshold": 5,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "360-Degree Vision, Access Jacks, Chameleon Skin, Enhanced Hearing, Enhanced Vision, Radar",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>These disc-shaped drones are lightweight and quiet. They are typically launched by throwing vehicles—groundcraft, personal vehicles Groundcraft Cycle Mars Buggy Passenger Capacity 1–3 2–6 Handling +20 +10 Movement Rate 4/40 8/32 Max Velocity 120 40/90/110 Armor 12/10 30/20 Durability 50 150 Wound Threshold 10 30 Personal Vehicles EVA Sled Rocket Pack Thruster Pack Passenger Capacity 1 1 1 Handling –30 –20 –10 Movement Rate 4/16 — 4/20 Max Velocity 16 700 40 Armor 5 +5/+5 +4/+4 Durability 40 40 30 Wound Threshold 8 8 6 them like a frisbee, after which they propel themselves with an ionic drive (p. 310). Saucers make excellent “eye in the sky” monitors and scouts.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 345.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 16000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Saucer",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

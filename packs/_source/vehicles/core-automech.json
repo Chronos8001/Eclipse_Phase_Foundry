@@ -1,0 +1,66 @@
+{
+  "_id": "bde41a49b62c530f",
+  "_key": "!actors!bde41a49b62c530f",
+  "name": "Automech",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/8",
+    "maxVelocity": "8",
+    "mobility": "Wheeled/Vector-Thrust",
+    "av": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "durability": 30,
+    "woundThreshold": 6,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Electrical Sense, Extra Limbs (4), Headlights, Magnetic System, Radiation sense, Utilitool, misc. tools",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Automechs are general purpose repair drones, found just about everywhere. Each particular automech tends to specialize in a particular type of repair work and so carries the appropriate tools and AI skills, whether it be habitat waste recyclers, outer hull integrity, or servitor systems. Standard automechs are wheeled cubes with articulated limbs, though they are also equipped with vectored-thrust drives for zero-G work.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 345.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 10000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Automech",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

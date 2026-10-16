@@ -93,6 +93,14 @@
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
+      "name": "vehicles",
+      "label": "Robots and Vehicles",
+      "path": "packs/vehicles",
+      "type": "Actor",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
       "name": "sleights",
       "label": "Psi Sleights (Core, Transhuman, X-Risks)",
       "path": "packs/sleights",
@@ -105,13 +113,14 @@
     {
       "name": "Eclipse Phase",
       "sorting": "m",
-      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights"]
+      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights", "vehicles"]
     }
   ],
   "documentTypes": {
     "Actor": {
       "character": { "htmlFields": ["biography", "notes"] },
-      "npc": { "htmlFields": ["biography", "notes"] }
+      "npc": { "htmlFields": ["biography", "notes"] },
+      "vehicle": { "htmlFields": ["biography", "notes"] }
     },
     "Item": {
       "skill": { "htmlFields": ["description"] },

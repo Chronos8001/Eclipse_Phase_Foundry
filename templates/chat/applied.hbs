@@ -17,7 +17,15 @@
   {{#if bleeding}}<p class="danger">{{localize "EP1E.Condition.bleeding"}}</p>{{/if}}
   {{/if}}
 
-  {{#if knockdown}}
+  {{#if vehicle}}
+  {{#if unconscious}}<p class="status danger">{{localize "EP1E.Vehicle.crashed"}}</p>
+  {{else if knockdown}}
+  <div class="followups">
+    <button type="button" data-ep-action="crashTest" data-actor-uuid="{{actorUuid}}">
+      <i class="fa-solid fa-car-burst"></i> {{localize "EP1E.Vehicle.crashTest"}}</button>
+  </div>
+  {{/if}}
+  {{else if knockdown}}
   <div class="followups">
     <button type="button" data-ep-action="aptitudeTest" data-actor-uuid="{{actorUuid}}" data-aptitude="som" data-multiplier="3" data-condition="prone">
       <i class="fa-solid fa-person-falling"></i> {{localize "EP1E.Applied.knockdown"}} (SOM × 3)</button>

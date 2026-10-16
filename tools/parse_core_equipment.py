@@ -10,7 +10,7 @@ as active effects from the EFFECTS table, which follows the text of each descrip
 """
 import hashlib, html, json, os, re, subprocess, sys
 
-PDF, OUT = sys.argv[1], sys.argv[2]
+PDF, OUT = (sys.argv[1], sys.argv[2]) if len(sys.argv) > 2 else (None, None)
 OFFSET = 2
 SOURCE = "Eclipse Phase Core Rulebook"
 
@@ -18,7 +18,7 @@ JUNK = re.compile(r"^((\d?\.\d+)+\.?\d*|\d{1,3}|gear|Synopsis Welcome to Firewal
                   r"Mind Hacks The Mesh|Accelerated Future Gear|Running the Game Reference|Skills|Action and Combat|"
                   r"Skills Action and Combat.*)$")
 # "Name: text" (BTX prints a space before the colon)
-ENTRY = re.compile(r"^([A-Z][\w’'/&()+-]*(?: [\w’'/&()+-]+){0,5})\s?:\s+(.*)$")
+ENTRY = re.compile(r"^([A-Z][\w’'/&()+.-]*(?: [\w’'/&()+-]+){0,5})\s?:\s+(.*)$")
 
 # Augmentations (pp. 300-312): (heading that opens the section, augType)
 AUG_FIRST, AUG_LAST = 302, 314
@@ -141,7 +141,8 @@ def entries(first, last, sections, end, headed=frozenset(), subheadings=frozense
             m = ENTRY.match(chunk)
             # The first entry after an introduction may start mid-line ("... common. Eidetic Memory: ...")
             if not m and complete():
-                m = re.search(r"[.)]\s+([A-Z][\w’'/&()+-]*(?: [\w’'/&()+-]+){0,5}):\s+(.*)$", chunk)
+                # (at most four words, so that a sentence ending with "Pilot: Aircraft skill." is not a name)
+                m = re.search(r"[.)]\s+([A-Z][\w’'/&()+.-]*(?: [\w’'/&()+-]+){0,3}):\s+(.*)$", chunk)
             # A headed paragraph without a cost (Nanoswarms) ends where the next "Name:" entry starts
             if m and (complete() or (current["name"] in headed and ENTRY.match(chunk))):
                 current = {"category": category, "name": m.group(1), "text": [m.group(2)], "page": page}
@@ -216,14 +217,6 @@ def augmentations():
     return docs
 
 
-augs = augmentations()
-write("augmentations", augs)
-if "--summary" in sys.argv:
-    for d in augs:
-        s = d["system"]
-        fx = "; ".join(f"{c['key'].split('.')[-2] if c['key'].endswith('.mod') else c['key'].split('.')[-1]} {c['value']}"
-                       for e in d["effects"] for c in e["changes"])
-        print(f"{d['name'][:34]:34} {s['augType']:9} {s['cost'][:22]:22} {len(s['description']):5} {fx}")
 
 
 # ---------------------------------------------------------------- Substances (pp. 317-325)
@@ -302,13 +295,6 @@ def substances():
     return docs
 
 
-subs = substances()
-write("substances", subs)
-if "--summary" in sys.argv:
-    for d in subs:
-        s = d["system"]
-        print(f"{d['name'][:22]:22} {s['category']:14} {s['substanceType']:10} {s['application']:15} {s['onset']:14} "
-              f"{s['duration']:20} {s['addictionMod']:10} {s['addictionType']:9} {s['cost'][:12]:12} {len(s['description'])}")
 
 
 # ---------------------------------------------------------------- Other gear (pp. 313-342)
@@ -383,11 +369,33 @@ def gear():
     return docs
 
 
-gear_docs = gear()
-write("gear", gear_docs)
-if "--summary" in sys.argv:
-    for d in gear_docs:
-        s = d["system"]
-        a = s["ammo"]
-        extra = f"AP {a['ap']} DV {a['dv']} {'half ' if a['half'] else ''}{'none ' if a['noDamage'] else ''}{'AVx2 ' if a['armorDoubled'] else ''}{'shock' if a['shock'] else ''}" if s["category"] == "ammo" else ""
-        print(f"{d['name'][:32]:32} {s['category']:15} {s['cost'][:18]:18} {len(s['description']):5} {extra}")
+def main():
+    augs = augmentations()
+    write("augmentations", augs)
+    if "--summary" in sys.argv:
+        for d in augs:
+            s = d["system"]
+            fx = "; ".join(f"{c['key'].split('.')[-2] if c['key'].endswith('.mod') else c['key'].split('.')[-1]} {c['value']}"
+                           for e in d["effects"] for c in e["changes"])
+            print(f"{d['name'][:34]:34} {s['augType']:9} {s['cost'][:22]:22} {len(s['description']):5} {fx}")
+
+    subs = substances()
+    write("substances", subs)
+    if "--summary" in sys.argv:
+        for d in subs:
+            s = d["system"]
+            print(f"{d['name'][:22]:22} {s['category']:14} {s['substanceType']:10} {s['application']:15} {s['onset']:14} "
+                  f"{s['duration']:20} {s['addictionMod']:10} {s['addictionType']:9} {s['cost'][:12]:12} {len(s['description'])}")
+
+    gear_docs = gear()
+    write("gear", gear_docs)
+    if "--summary" in sys.argv:
+        for d in gear_docs:
+            s = d["system"]
+            a = s["ammo"]
+            extra = f"AP {a['ap']} DV {a['dv']} {'half ' if a['half'] else ''}{'none ' if a['noDamage'] else ''}{'AVx2 ' if a['armorDoubled'] else ''}{'shock' if a['shock'] else ''}" if s["category"] == "ammo" else ""
+            print(f"{d['name'][:32]:32} {s['category']:15} {s['cost'][:18]:18} {len(s['description']):5} {extra}")
+
+
+if __name__ == "__main__":
+    main()

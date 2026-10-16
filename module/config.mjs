@@ -113,6 +113,11 @@ export const EP1E = {
     scorcher: "EP1E.Software.scorcher",
     skillsoft: "EP1E.Software.skillsoft"
   },
+  vehicleCategories: {
+    robot: "EP1E.VehicleCategory.robot", aircraft: "EP1E.VehicleCategory.aircraft", groundcraft: "EP1E.VehicleCategory.groundcraft",
+    personal: "EP1E.VehicleCategory.personal", watercraft: "EP1E.VehicleCategory.watercraft",
+    spacecraft: "EP1E.VehicleCategory.spacecraft", other: "EP1E.VehicleCategory.other"
+  },
   gearCategories: {
     other: "EP1E.GearCategory.other", armorMod: "EP1E.GearCategory.armorMod", comms: "EP1E.GearCategory.comms",
     surveillance: "EP1E.GearCategory.surveillance", espionage: "EP1E.GearCategory.espionage",

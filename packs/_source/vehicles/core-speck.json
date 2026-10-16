@@ -1,0 +1,66 @@
+{
+  "_id": "c7eb6816972b6e1c",
+  "_key": "!actors!c7eb6816972b6e1c",
+  "name": "Speck",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "1/5",
+    "maxVelocity": "5",
+    "mobility": "Winged/Hopper",
+    "av": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "durability": 5,
+    "woundThreshold": 1,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "+5 REF, +5 COO, –10 SOM, Access Jacks, Grip Pads, Enhanced Hearing, Enhanced Vision, Synthetic Mask",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Specks are tiny insectoid spy drones, 2.5 mm long and 2 mm wide, about the size of a small fruit fly. They fly with tiny wings, carry a microbug, and are excellent for surveillance purposes or otherwise being a “speck on a wall.” Specks are difficult to notice (–30 Perception modifier) and almost impossible to distinguish from an actual insect.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 346.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 18000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Speck",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}
