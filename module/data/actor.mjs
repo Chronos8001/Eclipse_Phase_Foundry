@@ -1,4 +1,5 @@
 import { APTITUDES, REP_NETWORKS, SKILLS } from "../config.mjs";
+import { layeredArmorModifier } from "../rules/combat.mjs";
 
 const { SchemaField, NumberField, StringField, HTMLField } = foundry.data.fields;
 
@@ -30,7 +31,9 @@ export class EgoData extends foundry.abstract.TypeDataModel {
       mods: new SchemaField({
         dur: int(0), wt: int(0), luc: int(0), tt: int(0), init: int(0), spd: int(0), db: int(0),
         energyArmor: int(0), kineticArmor: int(0),
-        woundsIgnored: int(0, { min: 0 }), traumasIgnored: int(0, { min: 0 })
+        woundsIgnored: int(0, { min: 0 }), traumasIgnored: int(0, { min: 0 }),
+        // Modifier to every test (status effects, drugs...) and to defense tests only
+        actions: int(0), defense: int(0)
       }),
       rep: new SchemaField(Object.fromEntries(REP_NETWORKS.map(k => [k, int(0, { min: 0 })]))),
       details: new SchemaField({
@@ -84,12 +87,13 @@ export class EgoData extends foundry.abstract.TypeDataModel {
     const db = Math.floor(a("som") / 10) + mods.db;
     this.stats = { dur, wt, dr, luc, tt, ir, init, spd, db, isSynth, isInfomorph };
 
-    // Armor: morph armor plus all equipped armor items
-    const armor = { energy: (m?.armor.energy ?? 0) + mods.energyArmor, kinetic: (m?.armor.kinetic ?? 0) + mods.kineticArmor };
+    // Armor: morph armor plus all equipped armor items; accessories are not layers (Core p. 194)
+    const armor = { energy: (m?.armor.energy ?? 0) + mods.energyArmor, kinetic: (m?.armor.kinetic ?? 0) + mods.kineticArmor, layers: 0 };
     for ( const item of actor.items ) {
       if ( (item.type !== "armor") || !item.system.equipped ) continue;
       armor.energy += item.system.energy;
       armor.kinetic += item.system.kinetic;
+      if ( !item.system.accessory ) armor.layers += 1;
     }
     this.armor = armor;
 
@@ -99,7 +103,14 @@ export class EgoData extends foundry.abstract.TypeDataModel {
     const ignoredWounds = Math.min(MAX_IGNORED_WOUNDS, mods.woundsIgnored + (isSynth ? 1 : 0));
     const woundPenalty = Math.max(0, this.wounds.value - ignoredWounds) * 10;
     const traumaPenalty = Math.max(0, this.trauma.value - mods.traumasIgnored) * 10;
-    this.penalty = { wounds: woundPenalty, trauma: traumaPenalty, total: woundPenalty + traumaPenalty };
+    // Penalties are positive numbers subtracted from tests; only wounds and traumas lower Initiative (Core p. 189)
+    const armorPenalty = -layeredArmorModifier(armor.layers);
+    const actionPenalty = -mods.actions;
+    const total = woundPenalty + traumaPenalty + armorPenalty + actionPenalty;
+    this.penalty = {
+      wounds: woundPenalty, trauma: traumaPenalty, armor: armorPenalty, actions: actionPenalty,
+      total, modifier: -total, initiative: woundPenalty + traumaPenalty
+    };
     this.status = {
       incapacitated: (dur > 0) && (this.damage.value >= dur),
       dead: (dur > 0) && (this.damage.value >= dr),

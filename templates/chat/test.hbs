@@ -8,7 +8,7 @@
     <div class="target" data-tooltip="{{test.base}} {{ep1eSigned test.modifier}}">{{test.target}}</div>
   </div>
   {{#if test.modifier}}
-  <p class="modifiers">{{localize "EP1E.Test.base"}} {{test.base}} · {{localize "EP1E.Test.modifiers"}} {{ep1eSigned test.modifier}}{{#if test.penalty}} <small>({{localize "EP1E.Test.penaltyShort"}} −{{test.penalty}})</small>{{/if}}</p>
+  <p class="modifiers">{{localize "EP1E.Test.base"}} {{test.base}} · {{localize "EP1E.Test.modifiers"}} {{ep1eSigned test.modifier}}{{#if test.penalty}} <small>({{localize "EP1E.Test.penaltyShort"}} {{ep1eSigned (ep1eNeg test.penalty)}})</small>{{/if}}</p>
   {{/if}}
   <div class="outcome">
     <strong>{{localize outcomeLabel}}</strong>

@@ -111,9 +111,26 @@ export class WeaponData extends BaseItemData {
       damageType: choice(["kinetic", "energy", "none"], "kinetic"),
       addDB: new BooleanField({ initial: false }),
       modes: text(),
-      ammo: new SchemaField({ value: int(0, { min: 0 }), max: int(0, { min: 0 }) }),
+      // loaded: id of the embedded munition item a launcher is loaded with
+      ammo: new SchemaField({ value: int(0, { min: 0 }), max: int(0, { min: 0 }), loaded: text() }),
       range: text(),
-      equipped: new BooleanField({ initial: false })
+      equipped: new BooleanField({ initial: false }),
+      // Shock weapons call for a DUR + Energy armor test (Core p. 204)
+      shock: new BooleanField({ initial: false }),
+      area: new SchemaField({
+        shape: choice(["none", "blast", "uniform", "cone"], "none"),
+        radius: int(0, { min: 0 })
+      }),
+      twoHanded: new BooleanField({ initial: false }),
+      cost: text(),
+      quantity: int(1, { min: 0 }),
+      // Grenades and seeker missiles (Core p. 341)
+      munition: new SchemaField({
+        kind: choice(["none", "grenade", "seeker"], "none"),
+        size: choice(["micro", "mini", "standard"], "standard")
+      }),
+      // Munition sizes a launcher fires ("micro, mini")
+      launcher: text()
     };
   }
 }
@@ -126,7 +143,10 @@ export class ArmorData extends BaseItemData {
       ...super.defineSchema(),
       energy: int(0),
       kinetic: int(0),
-      equipped: new BooleanField({ initial: false })
+      equipped: new BooleanField({ initial: false }),
+      // Accessories (helmets, shields...) add to worn armor without the layering penalty (Core p. 194)
+      accessory: new BooleanField({ initial: false }),
+      cost: text()
     };
   }
 }

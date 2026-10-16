@@ -27,7 +27,7 @@
   </div>
   {{/if}}
   {{#if penalty}}
-  <p class="hint penalty">{{localize "EP1E.Test.penalty"}} : −{{penalty}}</p>
+  <p class="hint penalty">{{localize "EP1E.Test.penalty"}} : {{ep1eSigned (ep1eNeg penalty)}}</p>
   {{/if}}
   {{#if moxie}}
   <div class="form-group">

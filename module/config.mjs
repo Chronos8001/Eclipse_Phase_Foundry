@@ -92,6 +92,14 @@ export const EP1E = {
   traitTypes: { positive: "EP1E.TraitType.positive", negative: "EP1E.TraitType.negative" },
   traitScopes: { ego: "EP1E.TraitScope.ego", morph: "EP1E.TraitScope.morph", both: "EP1E.TraitScope.both" },
   weaponTypes: { melee: "EP1E.WeaponType.melee", ranged: "EP1E.WeaponType.ranged" },
+  areaShapes: {
+    none: "EP1E.AreaShape.none",
+    blast: "EP1E.AreaShape.blast",
+    uniform: "EP1E.AreaShape.uniform",
+    cone: "EP1E.AreaShape.cone"
+  },
+  munitionKinds: { none: "EP1E.MunitionKind.none", grenade: "EP1E.MunitionKind.grenade", seeker: "EP1E.MunitionKind.seeker" },
+  munitionSizes: { micro: "EP1E.MunitionSize.micro", mini: "EP1E.MunitionSize.mini", standard: "EP1E.MunitionSize.standard" },
   damageTypes: {
     kinetic: "EP1E.DamageType.kinetic",
     energy: "EP1E.DamageType.energy",

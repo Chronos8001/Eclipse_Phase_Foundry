@@ -35,7 +35,7 @@ export class EPActor extends Actor {
     for ( const k of APTITUDES ) data[k] = sys.aptitudes[k].value;
     Object.assign(data, sys.stats ?? {});
     // Wounds and traumas lower the Initiative score (Core p. 189)
-    data.initiative = (sys.stats?.init ?? 0) - (sys.penalty?.total ?? 0);
+    data.initiative = (sys.stats?.init ?? 0) - (sys.penalty?.initiative ?? 0);
     data.penalty = sys.penalty?.total ?? 0;
     return data;
   }

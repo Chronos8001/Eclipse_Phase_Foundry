@@ -75,6 +75,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const system = actor.system;
     const byType = type => actor.items.filter(i => i.type === type).sort((a, b) => (a.sort - b.sort) || a.name.localeCompare(b.name));
     const skills = byType("skill").sort((a, b) => a.system.label.localeCompare(b.system.label, game.i18n.lang));
+    const fray = system.getSkillTarget("fray").target;
 
     Object.assign(context, {
       actor, system,
@@ -109,7 +110,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       traits: byType("trait"),
       sleights: byType("sleight"),
       effects: Array.from(actor.allApplicableEffects?.() ?? actor.effects),
-      fray: system.getSkillTarget("fray").target,
+      fray: { melee: fray + system.mods.defense, ranged: Math.floor(fray / 2) + system.mods.defense },
       woundSlots: Array.from({ length: Math.max(system.wounds.value, 0) }),
       enriched: {
         biography: await TextEditor().enrichHTML(system.biography, { relativeTo: actor, secrets: actor.isOwner }),
@@ -176,10 +177,11 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   /** Fray defense; halved against ranged attacks (Core p. 191). */
   static #onRollFray(event, target) {
     const ranged = target.dataset.ranged === "true";
-    const { target: value, label } = this.document.system.getSkillTarget("fray");
+    const sys = this.document.system;
+    const { target: value, label } = sys.getSkillTarget("fray");
     return rollSkillTest(this.document, {
       label: ranged ? game.i18n.format("EP1E.Combat.frayRanged", { label }) : label,
-      target: ranged ? Math.floor(value / 2) : value,
+      target: (ranged ? Math.floor(value / 2) : value) + sys.mods.defense,
       fastForward: event.shiftKey
     });
   }

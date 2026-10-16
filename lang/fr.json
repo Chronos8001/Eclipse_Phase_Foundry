@@ -97,7 +97,11 @@
       "energyArmor": "Armure énergétique",
       "kineticArmor": "Armure cinétique",
       "woundsIgnored": "Blessures ignorées",
-      "traumasIgnored": "Traumatismes ignorés"
+      "traumasIgnored": "Traumatismes ignorés",
+      "actions": "Toutes les actions",
+      "actionsHint": "Modificateur à tous les tests (sonné, drogues…). Cible des effets de statut : system.mods.actions.",
+      "defense": "Défense",
+      "defenseHint": "Modificateur aux tests d'Esquive en défense (défense totale +30). system.mods.defense."
     },
     "Status": {
       "dead": "Mort",
@@ -105,7 +109,7 @@
       "insane": "Folie permanente",
       "unstable": "Instable",
       "penalty": "Malus",
-      "penaltyHint": "−10 par blessure ou traumatisme, appliqué à tous les tests et à l'initiative."
+      "penaltyHint": "Blessures et traumatismes (−10 chacun), couches d'armure et effets. S'applique à tous les tests ; l'initiative ne subit que les blessures et traumatismes."
     },
     "Rep": {
       "at": "@-rep",
@@ -225,8 +229,8 @@
       "modifier": "Modificateur",
       "multiplier": "Multiplicateur d'aptitude",
       "specialization": "Spécialisation",
-      "penalty": "Malus de blessures / traumatismes",
-      "penaltyShort": "blessures",
+      "penalty": "Malus (blessures, traumatismes, armure, effets)",
+      "penaltyShort": "malus",
       "rollMode": "Visibilité",
       "base": "Base",
       "modifiers": "Modif.",
@@ -344,14 +348,25 @@
       "modes": "Modes de tir",
       "ammo": "Munitions",
       "range": "Portées (C / M / L / E)",
-      "attackHint": "Attaquer (Maj+clic : sans dialogue)"
+      "attackHint": "Attaquer (Maj+clic : sans dialogue)",
+      "area": "Zone d'effet",
+      "radiusHint": "Rayon en mètres (explosion uniforme)",
+      "munition": "Munition",
+      "launcher": "Lanceur",
+      "launcherHint": "Tailles de munitions tirées (ex. micro, mini). Vide si l'arme n'est pas un lanceur.",
+      "shock": "Choc",
+      "shockHint": "Un coup au but impose un test de DUR + armure énergétique (p. 204).",
+      "twoHanded": "À deux mains"
     },
     "WeaponType": { "melee": "Mêlée", "ranged": "Distance" },
     "DamageType": { "kinetic": "Cinétique", "energy": "Énergétique", "none": "Sans armure" },
     "Armor": {
       "none": "Aucune armure.",
       "morph": "Armure du morphe",
-      "hint": "Les armures équipées s'additionnent à l'armure du morphe (la superposition peut imposer des malus, p. 194)."
+      "hint": "Les armures équipées s'ajoutent à celle du morphe. Chaque couche après la première impose −20 à toutes les actions (p. 194) ; les accessoires ne comptent pas.",
+      "accessory": "Accessoire",
+      "accessoryHint": "Casques, boucliers… : s'ajoute à l'armure portée sans compter comme une couche.",
+      "layers": "{count} couches d'armure :"
     },
     "Gear": { "none": "Aucun équipement.", "quantity": "Quantité", "cost": "Coût" },
     "Augmentation": {
@@ -394,6 +409,22 @@
     "Macro": {
       "ownedOnly": "Seuls les objets possédés par un acteur peuvent devenir des macros.",
       "missing": "Objet introuvable."
+    },
+    "AreaShape": {
+      "none": "Aucune",
+      "blast": "Explosion",
+      "uniform": "Explosion uniforme",
+      "cone": "Cône"
+    },
+    "MunitionKind": {
+      "none": "—",
+      "grenade": "Grenade",
+      "seeker": "Missile à tête chercheuse"
+    },
+    "MunitionSize": {
+      "micro": "Micro",
+      "mini": "Mini",
+      "standard": "Standard"
     }
   }
 }

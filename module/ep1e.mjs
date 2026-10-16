@@ -91,9 +91,9 @@ function registerHandlebarsHelpers() {
     const n = Number(value) || 0;
     return n > 0 ? `+${n}` : String(n);
   });
+  Handlebars.registerHelper("ep1eNeg", value => -(Number(value) || 0));
   Handlebars.registerHelper("ep1ePad", value => String(value ?? 0).padStart(2, "0"));
   Handlebars.registerHelper("ep1eFlip", value => tests.flipFlop(Number(value) || 0));
-  Handlebars.registerHelper("ep1eHalf", value => Math.floor((Number(value) || 0) / 2));
 }
 
 function preloadTemplates() {

@@ -97,7 +97,11 @@
       "energyArmor": "Energy armor",
       "kineticArmor": "Kinetic armor",
       "woundsIgnored": "Wounds ignored",
-      "traumasIgnored": "Traumas ignored"
+      "traumasIgnored": "Traumas ignored",
+      "actions": "All actions",
+      "actionsHint": "Modifier to every test (stunned, drugs...). Target of status effects: system.mods.actions.",
+      "defense": "Defense",
+      "defenseHint": "Modifier to Fray defense tests (full defense +30). system.mods.defense."
     },
     "Status": {
       "dead": "Dead",
@@ -105,7 +109,7 @@
       "insane": "Permanently insane",
       "unstable": "Unstable",
       "penalty": "Penalty",
-      "penaltyHint": "−10 per wound or trauma, applied to all tests and to Initiative."
+      "penaltyHint": "Wounds and traumas (−10 each), armor layers and effects. Applied to all tests; Initiative only suffers wounds and traumas."
     },
     "Rep": {
       "at": "@-rep",
@@ -225,8 +229,8 @@
       "modifier": "Modifier",
       "multiplier": "Aptitude multiplier",
       "specialization": "Specialization",
-      "penalty": "Wound / trauma penalty",
-      "penaltyShort": "wounds",
+      "penalty": "Penalties (wounds, traumas, armor, effects)",
+      "penaltyShort": "penalties",
       "rollMode": "Visibility",
       "base": "Base",
       "modifiers": "Mods",
@@ -344,14 +348,25 @@
       "modes": "Firing modes",
       "ammo": "Ammo",
       "range": "Ranges (S / M / L / E)",
-      "attackHint": "Attack (Shift+click: skip dialog)"
+      "attackHint": "Attack (Shift+click: skip dialog)",
+      "area": "Area effect",
+      "radiusHint": "Radius in meters (uniform blast)",
+      "munition": "Munition",
+      "launcher": "Launcher",
+      "launcherHint": "Munition sizes this weapon fires (e.g. micro, mini). Leave empty if it is not a launcher.",
+      "shock": "Shock",
+      "shockHint": "A hit calls for a DUR + Energy armor test (p. 204).",
+      "twoHanded": "Two-handed"
     },
     "WeaponType": { "melee": "Melee", "ranged": "Ranged" },
     "DamageType": { "kinetic": "Kinetic", "energy": "Energy", "none": "Ignores armor" },
     "Armor": {
       "none": "No armor.",
       "morph": "Morph armor",
-      "hint": "Equipped armor adds to the morph's armor (layering may apply penalties, p. 194)."
+      "hint": "Equipped armor adds to the morph's armor. Each layer after the first gives −20 to all actions (p. 194); accessories are not layers.",
+      "accessory": "Accessory",
+      "accessoryHint": "Helmets, shields...: adds to worn armor without counting as a layer.",
+      "layers": "{count} layers of armor:"
     },
     "Gear": { "none": "No gear.", "quantity": "Quantity", "cost": "Cost" },
     "Augmentation": {
@@ -394,6 +409,22 @@
     "Macro": {
       "ownedOnly": "Only items owned by an actor can become macros.",
       "missing": "Item not found."
+    },
+    "AreaShape": {
+      "none": "None",
+      "blast": "Blast",
+      "uniform": "Uniform blast",
+      "cone": "Cone"
+    },
+    "MunitionKind": {
+      "none": "—",
+      "grenade": "Grenade",
+      "seeker": "Seeker missile"
+    },
+    "MunitionSize": {
+      "micro": "Micro",
+      "mini": "Mini",
+      "standard": "Standard"
     }
   }
 }

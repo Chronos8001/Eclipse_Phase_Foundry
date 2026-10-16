@@ -11,7 +11,7 @@
       {{else if system.status.incapacitated}}<span class="status-badge warning">{{localize "EP1E.Status.incapacitated"}}</span>{{/if}}
       {{#if system.status.insane}}<span class="status-badge danger">{{localize "EP1E.Status.insane"}}</span>
       {{else if system.status.unstable}}<span class="status-badge warning">{{localize "EP1E.Status.unstable"}}</span>{{/if}}
-      {{#if system.penalty.total}}<span class="status-badge penalty" data-tooltip="EP1E.Status.penaltyHint">{{localize "EP1E.Status.penalty"}} −{{system.penalty.total}}</span>{{/if}}
+      {{#if system.penalty.total}}<span class="status-badge penalty" data-tooltip="EP1E.Status.penaltyHint">{{localize "EP1E.Status.penalty"}} {{ep1eSigned system.penalty.modifier}}</span>{{/if}}
     </div>
   </div>
   <div class="header-moxie">

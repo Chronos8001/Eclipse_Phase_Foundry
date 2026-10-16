@@ -89,6 +89,7 @@
   font-style: italic;
   margin: 4px 0;
 }
+.ep1e .hint.warning { color: var(--ep-warning); font-style: normal; }
 
 /* -------------------------------------------- */
 /*  Header                                      */
