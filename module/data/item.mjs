@@ -111,8 +111,8 @@ export class WeaponData extends BaseItemData {
       damageType: choice(["kinetic", "energy", "none"], "kinetic"),
       addDB: new BooleanField({ initial: false }),
       modes: text(),
-      // loaded: id of the embedded munition item a launcher is loaded with
-      ammo: new SchemaField({ value: int(0, { min: 0 }), max: int(0, { min: 0 }), loaded: text() }),
+      // Launchers: loaded is the id of the embedded munition item they are loaded with, size its size
+      ammo: new SchemaField({ value: int(0, { min: 0 }), max: int(0, { min: 0 }), loaded: text(), size: text() }),
       range: text(),
       equipped: new BooleanField({ initial: false }),
       // Shock weapons call for a DUR + Energy armor test (Core p. 204)

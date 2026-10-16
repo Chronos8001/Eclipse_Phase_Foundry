@@ -1,6 +1,7 @@
 import { APTITUDES, REP_NETWORKS, SKILLS, SYSTEM_ID, skillChoices } from "../config.mjs";
 import { SkillData } from "../data/item.mjs";
 import { postDamageRoll, rollAptitudeTest, rollSkillTest } from "../dice/tests.mjs";
+import { reloadWeapon } from "../dice/attack.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -25,6 +26,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       editItem: EPActorSheet.#onEditItem,
       deleteItem: EPActorSheet.#onDeleteItem,
       toggleEquipped: EPActorSheet.#onToggleEquipped,
+      reload: EPActorSheet.#onReload,
       sleeve: EPActorSheet.#onSleeve,
       itemToChat: EPActorSheet.#onItemToChat,
       applyHarm: EPActorSheet.#onApplyHarm,
@@ -101,8 +103,14 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         }))
       })),
       weaponRows: byType("weapon").map(item => {
-        const { target, label } = system.getSkillTarget(item.system.skill);
-        return { item, target, skillLabel: label || "—" };
+        const w = item.system;
+        const { target, label } = system.getSkillTarget(w.skill);
+        return {
+          item, target, skillLabel: label || "—",
+          loaded: w.launcher ? actor.items.get(w.ammo.loaded)?.name : null,
+          // Grenades and missiles are counted by quantity
+          thrown: w.munition.kind !== "none"
+        };
       }),
       armor: byType("armor"),
       gear: byType("gear"),
@@ -248,6 +256,11 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   static #onToggleEquipped(event, target) {
     const item = this._getItem(target);
     return item?.update({ "system.equipped": !item.system.equipped });
+  }
+
+  static #onReload(event, target) {
+    const item = this._getItem(target);
+    if ( item ) return reloadWeapon(item);
   }
 
   static #onSleeve(event, target) {

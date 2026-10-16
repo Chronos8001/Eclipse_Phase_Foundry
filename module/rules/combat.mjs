@@ -60,6 +60,17 @@ export function availableModes(text) {
   return modes;
 }
 
+/** Shots a firing mode uses; single shots for weapons without modes (p. 198). */
+export function ammoPerAttack(mode) {
+  return FIRING_MODES[mode]?.ammo ?? 1;
+}
+
+/** Munition sizes a launcher fires ("micro, mini" -> ["micro", "mini"]). */
+export function launcherSizes(text) {
+  const sizes = String(text ?? "").toLowerCase().match(/\b(micro|mini|standard)\b/g) ?? [];
+  return [...new Set(sizes)];
+}
+
 /**
  * Maximum distance of each range band, in meters.
  * Accepts "10 / 25 / 40 / 60" or thrown-weapon bands relative to SOM ("SOM ÷ 5 / SOM ÷ 2 / SOM / SOM × 3").

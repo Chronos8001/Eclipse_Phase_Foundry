@@ -20,11 +20,14 @@
 
   {{#if test.attack}}
   <div class="attack-info">
+    {{#if test.attack.notes.length}}<p class="attack-notes">{{#each test.attack.notes as |n|}}<span>{{n}}</span>{{/each}}</p>{{/if}}
+    {{#if test.attack.targets.length}}<p class="attack-targets"><i class="fa-solid fa-bullseye"></i> {{#each test.attack.targets as |t|}}{{t.name}}{{#unless @last}}, {{/unless}}{{/each}}</p>{{/if}}
+    {{#if calledShotMissed}}<p class="warning">{{localize "EP1E.Attack.calledShotMissed"}}</p>{{/if}}
     {{#if showDamage}}
     <p>{{localize "EP1E.Attack.hitIf"}}</p>
     {{#if damageBonus}}<p class="bonus">{{localize "EP1E.Attack.excellent"}} : +{{damageBonus}} DV</p>{{/if}}
     {{#if armorDefeating}}<p class="bonus">{{localize "EP1E.Attack.armorDefeating"}}</p>{{/if}}
-    <button type="button" data-ep-action="damage"><i class="fa-solid fa-burst"></i> {{localize "EP1E.Attack.rollDamage"}} ({{test.attack.dv}}{{#if test.attack.db}} {{ep1eSigned test.attack.db}}{{/if}}{{#if damageBonus}} +{{damageBonus}}{{/if}})</button>
+    <button type="button" data-ep-action="damage"><i class="fa-solid fa-burst"></i> {{localize "EP1E.Attack.rollDamage"}} ({{#if test.attack.formula}}{{test.attack.formula}}{{else}}{{test.attack.dv}}{{#if test.attack.db}} {{ep1eSigned test.attack.db}}{{/if}}{{/if}}{{#if damageBonus}} +{{damageBonus}}{{/if}})</button>
     {{else if result.success}}
     <p>{{localize "EP1E.Attack.noDamage"}}</p>
     {{else}}

@@ -271,7 +271,30 @@
       "armorDefeating": "Critical: armor-defeating",
       "rollDamage": "Roll damage",
       "noDamage": "No damage value set for this weapon.",
-      "miss": "The attack misses."
+      "miss": "The attack misses.",
+      "title": "Attack: {name}",
+      "roll": "Attack",
+      "targets": "Targets",
+      "noTargets": "No target selected: target tokens (T) to measure range and defend.",
+      "range": "Range",
+      "coneHint": "Cone weapon: +1d10 DV at short range or closer, −1d10 at long and extreme range (p. 194).",
+      "concentrated": "Concentrated fire",
+      "concentratedHint": "BF/FA on a single target: +1d10 DV (burst) or +1d10 + 10 (full auto), p. 198.",
+      "beamConcentrated": "Concentrated beam",
+      "beamConcentratedHint": "Semi-auto beam: give up the second shot for DV × 1.5 (p. 194).",
+      "extraWeapons": "Extra melee weapons",
+      "extraWeaponsHint": "+1d10 DV per extra weapon or limb, maximum +3d10 (p. 206).",
+      "extraWeaponsNote": "+{count} weapon(s)",
+      "extraTargets": "Extra targets this phase",
+      "extraTargetsHint": "−20 per additional target attacked with the same action (p. 202).",
+      "extraTargetsNote": "{count} extra target(s)",
+      "thrownLeft": "{count} left",
+      "noMunition": "{name} is not loaded: reload it with a munition first.",
+      "loadInLauncher": "{name} is a munition: load it into a launcher to fire it.",
+      "noAmmo": "{name} does not have the {shots} shot(s) this firing mode needs: reload.",
+      "noneLeft": "No {name} left.",
+      "outOfRange": "The target is beyond extreme range.",
+      "calledShotMissed": "Called shot missed (needs MoS 30+): normal hit."
     },
     "Combat": {
       "frayMelee": "Fray (melee)",
@@ -438,6 +461,64 @@
       "subdued": "Subdued",
       "blinded": "Blinded",
       "invisible": "Invisible"
+    },
+    "FiringMode": {
+      "SS": "Single shot",
+      "SA": "Semi-auto",
+      "BF": "Burst fire",
+      "FA": "Full auto",
+      "SUP": "Suppressive fire"
+    },
+    "Range": {
+      "pointBlank": "Point-blank",
+      "short": "Short",
+      "medium": "Medium",
+      "long": "Long",
+      "extreme": "Extreme",
+      "beyond": "Out of range"
+    },
+    "CombatModGroup": {
+      "general": "General",
+      "melee": "Melee",
+      "ranged": "Ranged"
+    },
+    "CombatMod": {
+      "offHand": "Off-hand",
+      "superiorPosition": "Superior position",
+      "touchOnly": "Touch-only attack",
+      "calledShot": "Called shot",
+      "twoHandedOneHand": "Two-handed weapon in one hand",
+      "smallTarget": "Small target",
+      "verySmallTarget": "Very small target",
+      "largeTarget": "Large target",
+      "veryLargeTarget": "Very large target",
+      "visibilityMinor": "Visibility impaired (minor)",
+      "visibilityMajor": "Visibility impaired (major)",
+      "blindAttack": "Blind attack",
+      "reachAdvantage": "Reach advantage",
+      "charging": "Charging (+1d10 DV)",
+      "receivingCharge": "Receiving a charge",
+      "smartlink": "Smartlink / laser sight",
+      "attackerInCover": "Attacker behind cover",
+      "attackerRunning": "Attacker running",
+      "attackerInMelee": "Attacker in melee",
+      "coverMinor": "Minor cover",
+      "coverModerate": "Moderate cover",
+      "coverMajor": "Major cover",
+      "proneAndFar": "Defender prone and far (10+ m)",
+      "defenderHidden": "Defender hidden",
+      "aimedQuick": "Aimed shot (quick)",
+      "aimedComplex": "Aimed shot (complex)",
+      "sweepingFire": "Sweeping beam fire",
+      "indirectFire": "Indirect fire"
+    },
+    "Reload": {
+      "reload": "Reload",
+      "title": "Reload: {name}",
+      "size": "Size",
+      "done": "{name}: {count} shot(s) loaded.",
+      "noMunitions": "No grenade or seeker munitions in the inventory.",
+      "hint": "Unfired munitions go back to the inventory when you switch munition or size."
     }
   }
 }

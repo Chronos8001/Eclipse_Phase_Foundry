@@ -1,5 +1,6 @@
 import { DIFFICULTIES, SYSTEM_ID } from "../config.mjs";
 import { createMessage, defaultMessageMode, messageModeChoices } from "../helpers/chat.mjs";
+import { excellentBonus } from "../rules/combat.mjs";
 
 const TEMPLATES = {
   dialog: `systems/${SYSTEM_ID}/templates/dialog/test.hbs`,
@@ -48,12 +49,9 @@ export function evaluateTest(test) {
 /*  Test dialog                                 */
 /* -------------------------------------------- */
 
-/**
- * Prompt for test modifiers.
- * @returns {Promise<object|null>} The submitted options, or null if cancelled.
- */
-async function promptTest(actor, { label, target, specialization, aptitude, multiplier }) {
-  const content = await render(TEMPLATES.dialog, {
+/** Context of the fields shared by every test dialog (templates/dialog/test-fields.hbs). */
+export function testDialogContext(actor, { label, target, specialization, aptitude, multiplier }) {
+  return {
     label, target, specialization, aptitude, multiplier,
     penalty: actor.system.penalty?.total ?? 0,
     moxie: actor.system.moxie.value,
@@ -61,7 +59,15 @@ async function promptTest(actor, { label, target, specialization, aptitude, mult
     multipliers: [1, 2, 3, 4, 5],
     messageModes: messageModeChoices(),
     messageMode: defaultMessageMode()
-  });
+  };
+}
+
+/**
+ * Prompt for test modifiers.
+ * @returns {Promise<object|null>} The submitted options, or null if cancelled.
+ */
+async function promptTest(actor, options) {
+  const content = await render(TEMPLATES.dialog, testDialogContext(actor, options));
   return foundry.applications.api.DialogV2.wait({
     window: { title: game.i18n.format("EP1E.Test.title", { label }), icon: "fa-solid fa-dice-d10" },
     classes: ["ep1e", "ep1e-dialog"],
@@ -91,12 +97,15 @@ async function promptTest(actor, { label, target, specialization, aptitude, mult
  * @param {string} [options.aptitude]      Aptitude key, offers a multiplier (e.g. SOM x 3)
  * @param {number} [options.multiplier]    Preset aptitude multiplier
  * @param {object} [options.attack]        Weapon attack data, enables the damage button
+ * @param {object} [options.input]         Preset dialog values (difficulty, modifier, specialized, ignoreMods, messageMode)
  * @param {boolean} [options.fastForward]  Skip the dialog
  */
 export async function rollSkillTest(actor, options = {}) {
   const { label, attack = null } = options;
   let base = options.target ?? 0;
-  let input = { difficulty: 0, modifier: 0, multiplier: options.multiplier ?? 1, specialized: false, ignoreMods: false };
+  let input = {
+    difficulty: 0, modifier: 0, multiplier: options.multiplier ?? 1, specialized: false, ignoreMods: false, ...options.input
+  };
   if ( !options.fastForward ) {
     const result = await promptTest(actor, { ...options, multiplier: input.multiplier });
     if ( !result ) return null;
@@ -137,41 +146,23 @@ export function rollAptitudeTest(actor, key, options = {}) {
   return rollSkillTest(actor, { label, target: actor.system.aptitudes[key].value, aptitude: key, ...options });
 }
 
-/** Attack with a weapon: an opposed skill test whose card carries the damage roll. */
-export function rollAttack(actor, weapon, options = {}) {
-  const w = weapon.system;
-  const { target, label } = actor.system.getSkillTarget(w.skill);
-  return rollSkillTest(actor, {
-    label: `${weapon.name}${label ? ` (${label})` : ""}`,
-    target,
-    attack: {
-      weaponUuid: weapon.uuid,
-      name: weapon.name,
-      dv: w.dv,
-      ap: w.ap,
-      damageType: w.damageType,
-      db: w.addDB ? actor.system.stats.db : 0
-    },
-    ...options
-  });
-}
-
 /* -------------------------------------------- */
 /*  Chat cards                                  */
 /* -------------------------------------------- */
 
 export async function renderTestCard(test) {
   const result = evaluateTest(test);
-  let damageBonus = 0;
-  if ( test.attack && result.success ) damageBonus = result.margin >= 60 ? 10 : (result.margin >= 30 ? 5 : 0);
+  const damageBonus = (test.attack && result.success) ? excellentBonus(result.margin) : 0;
   return render(TEMPLATES.test, {
     test, result, damageBonus,
     outcomeLabel: `EP1E.Outcome.${result.outcome}`,
     canMoxie: !test.moxie,
     canUpgrade: !test.moxie && result.success && !result.critical,
     canIgnoreCrit: !test.moxie && !result.success && result.critical,
-    showDamage: !!test.attack && result.success && !!test.attack.dv,
-    armorDefeating: !!test.attack && result.success && result.critical
+    showDamage: !!test.attack && result.success && !!(test.attack.formula ?? test.attack.dv),
+    armorDefeating: !!test.attack && result.success && result.critical,
+    // A called shot needs an Excellent Success; otherwise it is a normal hit (p. 196)
+    calledShotMissed: !!test.attack?.calledShot && result.success && !result.excellent
   });
 }
 
@@ -194,9 +185,10 @@ async function rollDamageFromTest(message) {
   const attack = test?.attack;
   if ( !attack ) return;
   const result = evaluateTest(test);
-  const bonus = result.margin >= 60 ? 10 : (result.margin >= 30 ? 5 : 0);
-  const parts = [attack.dv || "0"];
-  if ( attack.db ) parts.push(String(attack.db));
+  const bonus = excellentBonus(result.margin);
+  // Cards from before the attack dialog carry dv and db instead of a full formula
+  const parts = [attack.formula ?? attack.dv ?? "0"];
+  if ( !attack.formula && attack.db ) parts.push(String(attack.db));
   if ( bonus ) parts.push(String(bonus));
   const roll = await new Roll(parts.join(" + ")).evaluate();
   const actor = await fromUuid(test.actorUuid);

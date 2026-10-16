@@ -1,4 +1,5 @@
-import { rollAttack, rollSkillTest } from "../dice/tests.mjs";
+import { rollSkillTest } from "../dice/tests.mjs";
+import { rollAttack } from "../dice/attack.mjs";
 import { createMessage } from "../helpers/chat.mjs";
 
 export class EPItem extends Item {

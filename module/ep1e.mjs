@@ -106,6 +106,7 @@ function preloadTemplates() {
   return foundry.applications.handlebars.loadTemplates([
     ...ITEM_TYPES.map(t => `${base}/item/parts/${t}.hbs`),
     `${base}/actor/parts/item-controls.hbs`,
+    `${base}/dialog/test-fields.hbs`,
     `${base}/parts/effects-list.hbs`
   ]);
 }

@@ -271,7 +271,30 @@
       "armorDefeating": "Critique : l'armure est ignorée",
       "rollDamage": "Lancer les dégâts",
       "noDamage": "Aucun dégât défini pour cette arme.",
-      "miss": "L'attaque échoue."
+      "miss": "L'attaque échoue.",
+      "title": "Attaque : {name}",
+      "roll": "Attaquer",
+      "targets": "Cibles",
+      "noTargets": "Aucune cible : ciblez des jetons (T) pour mesurer la portée et permettre la défense.",
+      "range": "Portée",
+      "coneHint": "Arme à cône : +1d10 VD à courte portée ou moins, −1d10 à longue et extrême portée (p. 194).",
+      "concentrated": "Tir concentré",
+      "concentratedHint": "Rafale/automatique sur une seule cible : +1d10 VD (rafale) ou +1d10 + 10 (automatique), p. 198.",
+      "beamConcentrated": "Rayon concentré",
+      "beamConcentratedHint": "Arme à rayon semi-auto : renoncer au second tir pour VD × 1,5 (p. 194).",
+      "extraWeapons": "Armes de mêlée supplémentaires",
+      "extraWeaponsHint": "+1d10 VD par arme ou membre supplémentaire, maximum +3d10 (p. 206).",
+      "extraWeaponsNote": "+{count} arme(s)",
+      "extraTargets": "Cibles supplémentaires ce tour",
+      "extraTargetsHint": "−20 par cible supplémentaire attaquée avec la même action (p. 202).",
+      "extraTargetsNote": "{count} cible(s) supplémentaire(s)",
+      "thrownLeft": "{count} restant(s)",
+      "noMunition": "{name} n'est pas chargé : rechargez-le d'abord avec une munition.",
+      "loadInLauncher": "{name} est une munition : chargez-la dans un lanceur pour la tirer.",
+      "noAmmo": "{name} n'a pas les {shots} munition(s) que demande ce mode de tir : rechargez.",
+      "noneLeft": "Plus de {name}.",
+      "outOfRange": "La cible est au-delà de la portée extrême.",
+      "calledShotMissed": "Coup ciblé raté (MdR 30+ requise) : coup normal."
     },
     "Combat": {
       "frayMelee": "Esquive (mêlée)",
@@ -438,6 +461,64 @@
       "subdued": "Maîtrisé",
       "blinded": "Aveuglé",
       "invisible": "Invisible"
+    },
+    "FiringMode": {
+      "SS": "Coup par coup",
+      "SA": "Semi-automatique",
+      "BF": "Rafale",
+      "FA": "Automatique",
+      "SUP": "Tir de suppression"
+    },
+    "Range": {
+      "pointBlank": "Bout portant",
+      "short": "Courte",
+      "medium": "Moyenne",
+      "long": "Longue",
+      "extreme": "Extrême",
+      "beyond": "Hors de portée"
+    },
+    "CombatModGroup": {
+      "general": "Général",
+      "melee": "Mêlée",
+      "ranged": "Distance"
+    },
+    "CombatMod": {
+      "offHand": "Main non directrice",
+      "superiorPosition": "Position avantageuse",
+      "touchOnly": "Attaque de contact",
+      "calledShot": "Coup ciblé",
+      "twoHandedOneHand": "Arme à deux mains tenue à une main",
+      "smallTarget": "Petite cible",
+      "verySmallTarget": "Très petite cible",
+      "largeTarget": "Grande cible",
+      "veryLargeTarget": "Très grande cible",
+      "visibilityMinor": "Visibilité réduite (légère)",
+      "visibilityMajor": "Visibilité réduite (forte)",
+      "blindAttack": "Attaque à l'aveugle",
+      "reachAdvantage": "Avantage d'allonge",
+      "charging": "Charge (+1d10 VD)",
+      "receivingCharge": "Recevoir une charge",
+      "smartlink": "Smartlink / visée laser",
+      "attackerInCover": "Attaquant à couvert",
+      "attackerRunning": "Attaquant en course",
+      "attackerInMelee": "Attaquant en mêlée",
+      "coverMinor": "Couvert léger",
+      "coverModerate": "Couvert moyen",
+      "coverMajor": "Couvert important",
+      "proneAndFar": "Défenseur au sol et loin (10 m+)",
+      "defenderHidden": "Défenseur caché",
+      "aimedQuick": "Visée (rapide)",
+      "aimedComplex": "Visée (complexe)",
+      "sweepingFire": "Balayage au rayon",
+      "indirectFire": "Tir indirect"
+    },
+    "Reload": {
+      "reload": "Recharger",
+      "title": "Recharger : {name}",
+      "size": "Taille",
+      "done": "{name} : {count} munition(s) chargée(s).",
+      "noMunitions": "Aucune grenade ni munition de lanceur dans l'inventaire.",
+      "hint": "Les munitions non tirées reviennent dans l'inventaire si vous changez de munition ou de taille."
     }
   }
 }

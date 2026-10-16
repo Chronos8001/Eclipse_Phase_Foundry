@@ -45,6 +45,10 @@
           <td>
             {{#if row.item.system.ammo.max}}
             <input type="number" value="{{row.item.system.ammo.value}}" min="0" data-item-field="system.ammo.value" {{#unless @root.editable}}disabled{{/unless}}> / {{row.item.system.ammo.max}}
+            {{#if @root.editable}}<a data-action="reload" data-tooltip="EP1E.Reload.reload"><i class="fa-solid fa-rotate"></i></a>{{/if}}
+            {{#if row.loaded}}<small>{{row.loaded}}</small>{{/if}}
+            {{else if row.thrown}}
+            <input type="number" value="{{row.item.system.quantity}}" min="0" data-item-field="system.quantity" data-tooltip="EP1E.Gear.quantity" {{#unless @root.editable}}disabled{{/unless}}>
             {{/if}}
           </td>
           <td><small>{{row.item.system.range}}</small></td>

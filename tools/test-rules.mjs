@@ -67,6 +67,10 @@ assert.deepEqual(combat.availableModes("BF, FA"), ["BF", "FA", "SUP"]);
 assert.equal(combat.FIRING_MODES.BF.ammo, 3);
 assert.equal(combat.FIRING_MODES.FA.ammo, 10);
 assert.equal(combat.FIRING_MODES.SUP.ammo, 20);
+assert.equal(combat.ammoPerAttack("BF"), 3);
+assert.equal(combat.ammoPerAttack(""), 1);
+assert.deepEqual(combat.launcherSizes("micro, mini"), ["micro", "mini"]);
+assert.deepEqual(combat.launcherSizes(""), []);
 assert.equal(combat.damageFormula({ dv: "2d10 + 6", mode: "FA", concentrated: true }), "2d10 + 6 + 1d10 + 10");
 assert.equal(combat.damageFormula({ dv: "2d10 + 6", mode: "FA", concentrated: false }), "2d10 + 6");
 // Cone at long range: -1d10
