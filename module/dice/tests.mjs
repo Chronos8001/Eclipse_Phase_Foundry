@@ -6,6 +6,7 @@ import { conditionEffect, setCondition } from "../helpers/effects.mjs";
 import { blastRecipients, renderTargets, resolveTargets, rollDefense, rollScatter, waiveDefense } from "./opposed.mjs";
 import { applyShockConditions, isBiological, rollShock, updateHealthConditions } from "./conditions.mjs";
 import { rollSeizureTest } from "./psi.mjs";
+import { scorchEffect } from "./mesh.mjs";
 
 const TEMPLATES = {
   dialog: `systems/${SYSTEM_ID}/templates/dialog/test.hbs`,
@@ -400,6 +401,13 @@ async function handleChatAction(message, dataset, event) {
     case "defend": return rollDefense(message, dataset.tokenUuid, { fastForward: event.shiftKey });
     case "waive": return waiveDefense(message, dataset.tokenUuid);
     case "scatter": return rollScatter(message);
+    case "scorchEffect": {
+      const test = message.getFlag(SYSTEM_ID, "test");
+      const target = test?.attack?.targets?.find(t => t.tokenUuid === dataset.tokenUuid);
+      const actor = target ? await fromUuid(target.actorUuid) : null;
+      if ( actor?.isOwner ) return scorchEffect(actor, test.attack.effect, { excellent: evaluateTest(test).excellent });
+      return;
+    }
     case "seizureTest": {
       const actor = await fromUuid(dataset.actorUuid);
       if ( actor?.isOwner ) return rollSeizureTest(actor);

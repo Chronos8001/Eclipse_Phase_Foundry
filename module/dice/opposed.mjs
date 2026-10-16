@@ -130,11 +130,14 @@ export async function renderTargets(message, html) {
   const targets = resolveTargets(message);
   if ( !targets.length ) return;
   const scatter = message.getFlag(SYSTEM_ID, "scatter");
+  const attack = message.getFlag(SYSTEM_ID, "test").attack;
   const rows = await Promise.all(targets.map(async t => {
     const actor = t.actorUuid ? await fromUuid(t.actorUuid) : null;
     const canAct = !!actor?.isOwner;
     return {
       ...t,
+      // Nightmare, shutter and spasm scorchers: the ego hit rolls WIL x 2
+      canEffect: !!attack.effect && HIT_STATES.includes(t.state) && canAct,
       stateLabel: `EP1E.Opposed.${t.state}`,
       canDefend: (t.state === "pending") && canAct,
       canWaive: (t.state === "pending") && (canAct || game.user.isGM || message.isOwner)
@@ -169,7 +172,12 @@ export async function rollDefense(attackMessage, tokenUuid, { fastForward = fals
 
   const fullDefense = actor.statuses?.has(attack.psi ? "psiDefense" : "fullDefense");
   let options;
-  if ( attack.psi ) {
+  if ( attack.defenseSkill ) {
+    // Scorchers are resisted with Infosec (p. 261)
+    const { target: value, label } = sys.getSkillTarget(attack.defenseSkill);
+    options = [{ key: attack.defenseSkill, label, value, halved: false }];
+  }
+  else if ( attack.psi ) {
     // Psi is resisted with WIL x 2; pods +30; Psi Shield, traits and psi full defense via psi.defense (p. 222)
     options = [{
       key: "wil",
@@ -212,7 +220,7 @@ export async function rollDefense(attackMessage, tokenUuid, { fastForward = fals
     if ( !input ) return null;
   }
   const choice = options.find(o => o.key === input.skill) ?? options[0];
-  const skill = attack.psi ? null : sys.getSkill(choice.key);
+  const skill = (attack.psi && !attack.defenseSkill) ? null : sys.getSkill(choice.key);
   return rollSkillTest(actor, {
     label: game.i18n.format(choice.halved ? "EP1E.Opposed.defenseRanged" : "EP1E.Opposed.defenseLabel", {
       skill: choice.label, name: attack.name

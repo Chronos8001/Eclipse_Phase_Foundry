@@ -487,3 +487,18 @@
 .ep1e.chat-card .danger { color: #c53030; font-weight: bold; }
 .ep1e.chat-card .warning { color: #c27c0e; font-weight: bold; }
 .ep1e.chat-card .status { text-transform: uppercase; text-align: center; letter-spacing: 0.05em; }
+
+/* Mesh tab */
+.ep1e .intrusions .list-header button { width: auto; flex: 0 0 auto; }
+.ep1e .intrusions td.name input[type="text"] { width: 100%; font-size: 0.85em; margin-top: 2px; }
+.ep1e .intrusions td input[type="number"] { width: 4em; }
+.ep1e .intrusions td.controls a { margin: 0 2px; }
+.ep1e .intrusion.status-hidden td:first-child { border-left: 3px solid var(--ep-success); }
+.ep1e .intrusion.status-covert td:first-child { border-left: 3px solid var(--ep-accent-2); }
+.ep1e .intrusion.status-spotted td:first-child { border-left: 3px solid var(--ep-warning); }
+.ep1e .intrusion.status-locked td:first-child { border-left: 3px solid var(--ep-danger); }
+.ep1e.item .aptitude-table.compact input { width: 3em; }
+.ep1e.item .ai-skills { columns: 2; font-size: 0.9em; margin: 6px 0; }
+.ep1e.chat-card .status-line.status-locked strong { color: #c53030; }
+.ep1e.chat-card .status-line.status-spotted strong { color: #c27c0e; }
+.ep1e.chat-card .status-line.status-hidden strong { color: #2f855a; }

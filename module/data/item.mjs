@@ -229,3 +229,29 @@ export class SleightData extends BaseItemData {
     return (this.activation === "passive") || (this.duration === "constant") || this.active;
   }
 }
+
+/* -------------------------------------------- */
+
+/** Programs, AIs, scorchers and skillsofts (Core pp. 331-332). */
+export class SoftwareData extends BaseItemData {
+  static defineSchema() {
+    return {
+      ...super.defineSchema(),
+      // Rules find programs by key (exploit, spoof, firewall...), whatever their displayed name
+      key: text(),
+      category: choice(["program", "ai", "scorcher", "skillsoft"], "program"),
+      // Mesh gear quality (p. 247): -30 to +30, applied to tests made with the program
+      quality: int(0, { min: -30, max: 30 }),
+      cost: text(),
+      // Scorchers: harm on a successful attack, or a special effect resolved by a WIL x 2 Test
+      damage: text(),
+      harm: choice(["none", "damage", "stress"], "none"),
+      effect: choice(["", "nightmare", "shutter", "spasm"], ""),
+      // AIs: aptitudes and skills of the program, used to create the AI actor
+      aptitudes: new SchemaField(Object.fromEntries(APTITUDES.map(k => [k, int(10, { min: 0 })]))),
+      skills: new ArrayField(new SchemaField({
+        key: text(), name: text(), field: text(), value: int(0, { min: 0 }), specialization: text()
+      }))
+    };
+  }
+}

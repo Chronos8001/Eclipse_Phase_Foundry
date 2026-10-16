@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { evaluateTest, flipFlop } from "../module/dice/tests.mjs";
 import * as combat from "../module/rules/combat.mjs";
 import * as psi from "../module/rules/psi.mjs";
+import * as mesh from "../module/rules/mesh.mjs";
 
 const t = (value, target, moxie = null) => evaluateTest({ value, target, moxie });
 
@@ -162,5 +163,44 @@ assert.equal(psi.canBeTargeted("synthmorph"), false);
 assert.equal(psi.psiShieldArmor(25), 5);
 assert.equal(psi.psiExcellentBonus(45), 5);
 assert.equal(psi.psiExcellentBonus(65), 5);
+
+// --- Mesh (pp. 246-262)
+// Defeating a firewall: admin -30, security -20; exploit quality helps, firewall quality hinders
+assert.equal(mesh.intrusionModifier({ privileges: "admin" }), -30);
+assert.equal(mesh.intrusionModifier({ privileges: "security", exploit: 10, firewall: 20 }), -30);
+assert.equal(mesh.intrusionModifier({ bruteForce: true }), 30);
+// Cyberbrains: -30, but not the admin modifier on top (p. 261)
+assert.equal(mesh.intrusionModifier({ privileges: "admin", cyberbrain: true }), -30);
+assert.equal(mesh.intrusionModifier({ privileges: "security", cyberbrain: true }), -50);
+// The hacking sequence (p. 255): unmonitored success -> Covert, excellent -> Hidden
+const ok = { success: true, excellent: false };
+const great = { success: true, excellent: true };
+const ko = { success: false, excellent: false };
+assert.deepEqual(mesh.intrusionOutcome(ok), { status: "covert", retry: false });
+assert.deepEqual(mesh.intrusionOutcome(great), { status: "hidden", retry: false });
+assert.deepEqual(mesh.intrusionOutcome(ko), { status: null, retry: false });
+// Monitored: both succeed -> Spotted; only the monitor -> Locked; both fail -> roll again
+assert.equal(mesh.intrusionOutcome(great, ko).status, "hidden");
+assert.equal(mesh.intrusionOutcome(ok, ok).status, "spotted");
+assert.equal(mesh.intrusionOutcome(ko, ok).status, "locked");
+assert.equal(mesh.intrusionOutcome(ko, ko).retry, true);
+// Brute force: Locked, or locked out by a winning monitor
+assert.equal(mesh.intrusionOutcome(great, null, { bruteForce: true }).status, "locked");
+assert.equal(mesh.intrusionOutcome(ok, ok, { bruteForce: true }).status, null);
+// Status modifiers: passive alert -10, active -20, Hidden +30 to subvert
+assert.equal(mesh.statusModifier("spotted"), -10);
+assert.equal(mesh.statusModifier("locked"), -20);
+assert.equal(mesh.statusModifier("hidden"), 30);
+assert.equal(mesh.statusModifier("covert"), 0);
+// Changing status (p. 256)
+assert.equal(mesh.upgradeStatus("covert"), "hidden");
+assert.equal(mesh.upgradeStatus("locked"), "locked");
+assert.equal(mesh.statusAfterTest("covert", t(80, 40)), "spotted");    // severe failure
+assert.equal(mesh.statusAfterTest("hidden", t(77, 40)), "locked");     // critical failure
+assert.equal(mesh.statusAfterTest("covert", t(50, 40)), "covert");     // simple failure
+// Sarlo's script: Programming 70 -> 7 steps (p. 260)
+assert.equal(mesh.scriptSteps(70), 7);
+assert.equal(mesh.crashTests("ai"), 2);
+assert.equal(mesh.crashTests("agi"), 3);
 
 console.log("Rules checks passed.");

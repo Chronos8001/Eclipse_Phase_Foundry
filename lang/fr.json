@@ -12,7 +12,8 @@
       "armor": "Armure",
       "gear": "Équipement",
       "augmentation": "Augmentation",
-      "sleight": "Pouvoir psi"
+      "sleight": "Pouvoir psi",
+      "software": "Logiciel"
     }
   },
   "EP1E": {
@@ -26,7 +27,8 @@
       "ego": "Identité",
       "effects": "Effets",
       "details": "Détails",
-      "description": "Description"
+      "description": "Description",
+      "mesh": "Mesh"
     },
     "Section": {
       "aptitudes": "Aptitudes",
@@ -45,7 +47,9 @@
       "ego": "Égo",
       "rep": "Réputation",
       "biography": "Biographie",
-      "notes": "Notes"
+      "notes": "Notes",
+      "intrusions": "Intrusions",
+      "software": "Logiciels"
     },
     "Actor": { "name": "Nom" },
     "Aptitude": {
@@ -613,6 +617,103 @@
       "seizureTest": "VOL + COG (rester debout)",
       "summary": "Psi niveau {level} · armure mentale {armor} · défense psi {defense}",
       "sustainedPenalty": "pouvoirs maintenus −{penalty}"
+    },
+    "Software": {
+      "none": "Aucun logiciel.",
+      "category": "Catégorie",
+      "quality": "Qualité",
+      "program": "Programme",
+      "ai": "IA / muse",
+      "scorcher": "Scorcher",
+      "skillsoft": "Skillsoft",
+      "harm": "Effet nocif",
+      "harmNone": "—",
+      "effect": "Effet",
+      "aiStats": "Aptitudes et compétences de l'IA",
+      "createActor": "Créer l'acteur IA",
+      "aiHint": "Crée un PNJ avec ces aptitudes et compétences. Les IA n'utilisent pas les compétences par défaut et n'ont pas de Moxie (p. 264). La compétence d'arme et les compétences de savoir supplémentaires ne sont pas créées."
+    },
+    "Mesh": {
+      "hack": "Pirater un système",
+      "hackLabel": "Piratage de {target}",
+      "target": "Système",
+      "targetHint": "Appareil, réseau, cyberbrain…",
+      "method": "Méthode",
+      "methodStandard": "Contourner le pare-feu (10 min)",
+      "methodBruteForce": "En force (+30, 1 min, verrouillé)",
+      "methodSpoof": "Usurper un utilisateur légitime",
+      "privileges": "Privilèges",
+      "privilege": {
+        "user": "Utilisateur",
+        "security": "Sécurité",
+        "admin": "Admin"
+      },
+      "exploitQuality": "Exploit",
+      "spoofQuality": "Spoof",
+      "none": "aucun",
+      "firewall": "Qualité du pare-feu",
+      "qualityHint": "Qualité du matériel (p. 247) : −30 relique, 0 standard, +10 qualité sécurité, +20 nouvelle génération, +30 dernier cri.",
+      "monitor": "Gardien",
+      "monitorHint": "Infosec du hacker ou de l'IA qui surveille activement le système ; 0 s'il n'est pas surveillé.",
+      "cyberbrain": "Cyberbrain",
+      "cyberbrainHint": "Pods et synthomorphes : −30 pour pirater et subvertir ; le malus admin ne s'applique pas (p. 261).",
+      "noExploit": "Aucun programme d'exploit : pirater sans exploit est laissé au MJ (p. 254).",
+      "monitorRoll": "Gardien {value} / {target}",
+      "statusLabel": "Statut",
+      "statusNow": "Statut de l'intrus",
+      "status": {
+        "hidden": "Caché",
+        "covert": "Discret",
+        "spotted": "Repéré",
+        "locked": "Verrouillé"
+      },
+      "statusHint": {
+        "hidden": "Inaperçu, droits admin de fait ; +30 pour subvertir le système.",
+        "covert": "Passe pour un utilisateur légitime avec les privilèges visés.",
+        "spotted": "Alerte passive : −10 aux actions de l'intrus ; contre-mesures passives.",
+        "locked": "Alerte active : −20 aux actions de l'intrus ; contre-mesures actives (expulsion, traçage…)."
+      },
+      "statusEditHint": "Le MJ met à jour le statut après les contre-mesures (localisation, réauthentification…).",
+      "retry": "Les deux échouent : relancer à la prochaine phase d'action.",
+      "failed": "L'intrusion échoue.",
+      "timeStandard": "Action de tâche : 10 minutes.",
+      "timeBruteForce": "Action de tâche : 1 minute (20 tours).",
+      "subvert": "Subvertir le système",
+      "subvertTitle": "Subversion : {target}",
+      "subvertHint": "Les modificateurs de statut et de cyberbrain s'appliquent. Échec grave : statut −1 cran ; échec critique : verrouillé. Améliorer son statut demande un succès excellent.",
+      "action": {
+        "label": "Action",
+        "useSystem": "Utiliser le système",
+        "backdoor": "Installer une porte dérobée (partie Infosec)",
+        "crashSoftware": "Planter un logiciel",
+        "crashAI": "Planter une IA / un infomorphe",
+        "eliminateTraces": "Effacer ses traces",
+        "loadScript": "Charger un script",
+        "upgradeStatus": "Améliorer son statut",
+        "reAuthenticate": "Se réauthentifier",
+        "other": "Autre"
+      },
+      "cannotUpgrade": "Un intrus verrouillé ne peut pas améliorer son statut.",
+      "subverted": "Réussi.",
+      "notSubverted": "Échoué.",
+      "crashHint": "Planter une IA demande 2 victoires consécutives, 3 pour une IAG ou un infomorphe ; elle redémarre en 3 tours (p. 260).",
+      "scorch": "Brûler l'ego",
+      "noScorcher": "Aucun programme scorcher.",
+      "scorchTarget": "Ciblez le jeton de l'ego à brûler.",
+      "effectHint": "Lancer VOL × 2 contre l'effet du scorcher",
+      "nightmare": "Nightmare",
+      "shutter": "Shutter",
+      "spasm": "Spasm",
+      "shutterNote": "{modifier} à un sens choisi par le hacker, −10 de moins par tour.",
+      "panic": "Panique pendant {turns} tour(s) : fuit, s'effondre ou se fige (au choix du MJ).",
+      "leave": "Quitter le système",
+      "notes": "Notes",
+      "noIntrusions": "Aucune intrusion en cours.",
+      "hint": "Les conditions de connexion (portée, mesh ID, branchement) sont laissées au MJ. Contre-mesures : le MJ change le statut.",
+      "isAI": "IA ou muse",
+      "aiHint": "Les IA n'utilisent pas les compétences par défaut et n'ont pas de Moxie (p. 264).",
+      "aiOf": "{name} ({owner})",
+      "aiCreated": "{name} créé."
     }
   }
 }

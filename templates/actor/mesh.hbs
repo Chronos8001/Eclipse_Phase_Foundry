@@ -1,0 +1,70 @@
+<section class="tab {{tab.cssClass}}" data-group="primary" data-tab="mesh">
+
+  <section class="panel intrusions">
+    <header class="list-header">
+      <h3>{{localize "EP1E.Section.intrusions"}}</h3>
+      {{#if editable}}<button type="button" data-action="hack"><i class="fa-solid fa-user-secret"></i> {{localize "EP1E.Mesh.hack"}}</button>{{/if}}
+    </header>
+    <table class="item-table">
+      <thead>
+        <tr>
+          <th class="name">{{localize "EP1E.Mesh.target"}}</th>
+          <th>{{localize "EP1E.Mesh.privileges"}}</th>
+          <th>{{localize "EP1E.Mesh.statusLabel"}}</th>
+          <th>{{localize "EP1E.Mesh.monitor"}}</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each intrusions as |i|}}
+        <tr class="intrusion status-{{i.status}}" data-intrusion-id="{{i.id}}">
+          <td class="name">{{i.target}}{{#if i.cyberbrain}} <i class="fa-solid fa-microchip" data-tooltip="EP1E.Mesh.cyberbrain"></i>{{/if}}
+            <input type="text" value="{{i.notes}}" data-intrusion-field="notes" placeholder="{{localize "EP1E.Mesh.notes"}}" {{#unless @root.editable}}disabled{{/unless}}></td>
+          <td>{{localize i.privilegeLabel}}</td>
+          <td>
+            <select data-intrusion-field="status" data-tooltip="EP1E.Mesh.statusEditHint" {{#unless @root.editable}}disabled{{/unless}}>
+              {{selectOptions @root.intrusionStatuses selected=i.status localize=true}}
+            </select>
+            <small>{{ep1eSigned i.modifier}}</small>
+          </td>
+          <td><input type="number" value="{{i.monitor}}" min="0" data-intrusion-field="monitor" data-tooltip="EP1E.Mesh.monitorHint" {{#unless @root.editable}}disabled{{/unless}}></td>
+          <td class="controls">
+            {{#if @root.editable}}
+            <a data-action="subvert" data-tooltip="EP1E.Mesh.subvert"><i class="fa-solid fa-terminal"></i></a>
+            {{#if i.cyberbrain}}<a data-action="scorch" data-tooltip="EP1E.Mesh.scorch"><i class="fa-solid fa-bolt-lightning"></i></a>{{/if}}
+            <a data-action="removeIntrusion" data-tooltip="EP1E.Mesh.leave"><i class="fa-solid fa-right-from-bracket"></i></a>
+            {{/if}}
+          </td>
+        </tr>
+        {{else}}
+        <tr><td colspan="5" class="empty">{{localize "EP1E.Mesh.noIntrusions"}}</td></tr>
+        {{/each}}
+      </tbody>
+    </table>
+    <p class="hint">{{localize "EP1E.Mesh.hint"}}</p>
+  </section>
+
+  <section class="panel software">
+    <header class="list-header">
+      <h3>{{localize "EP1E.Section.software"}}</h3>
+      {{#if editable}}<a class="add" data-action="createItem" data-type="software" data-tooltip="EP1E.Item.create"><i class="fa-solid fa-plus"></i></a>{{/if}}
+    </header>
+    <ol class="item-list">
+      {{#each software as |item|}}
+      <li class="item-row draggable" data-item-id="{{item.id}}">
+        <img src="{{item.img}}" alt="">
+        <span class="name"><a data-action="itemToChat">{{item.name}}</a>
+          <small>{{localize (lookup @root.config.softwareCategories item.system.category)}}{{#if item.system.quality}} · {{ep1eSigned item.system.quality}}{{/if}}</small></span>
+        {{#if (eq item.system.category "ai")}}{{#if @root.editable}}<a data-action="createAIActor" data-tooltip="EP1E.Software.createActor"><i class="fa-solid fa-robot"></i></a>{{/if}}{{/if}}
+        {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "EP1E.Software.none"}}</li>
+      {{/each}}
+    </ol>
+  </section>
+
+  <section class="panel ai">
+    <label class="checkbox" data-tooltip="EP1E.Mesh.aiHint"><input type="checkbox" name="system.ai" {{checked system.ai}}> {{localize "EP1E.Mesh.isAI"}}</label>
+  </section>
+</section>

@@ -13,7 +13,7 @@ import { statusEffects } from "./helpers/effects.mjs";
 import { refreshAttackCard } from "./dice/opposed.mjs";
 import { onCombatRound } from "./dice/conditions.mjs";
 
-const ITEM_TYPES = ["skill", "morph", "trait", "weapon", "armor", "gear", "augmentation", "sleight"];
+const ITEM_TYPES = ["skill", "morph", "trait", "weapon", "armor", "gear", "augmentation", "sleight", "software"];
 
 Hooks.once("init", () => {
   console.log(`${SYSTEM_ID} | Initializing Eclipse Phase (1st Edition)`);
@@ -32,7 +32,8 @@ Hooks.once("init", () => {
     armor: itemModels.ArmorData,
     gear: itemModels.GearData,
     augmentation: itemModels.AugmentationData,
-    sleight: itemModels.SleightData
+    sleight: itemModels.SleightData,
+    software: itemModels.SoftwareData
   };
 
   // Token bars: damage (vs. Durability) and stress (vs. Lucidity)

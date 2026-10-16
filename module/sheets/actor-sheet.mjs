@@ -3,6 +3,8 @@ import { SkillData } from "../data/item.mjs";
 import { applyToActor, postDamageRoll, rollAptitudeTest, rollSkillTest } from "../dice/tests.mjs";
 import { fallingDamage, shockTarget } from "../rules/combat.mjs";
 import { reloadWeapon } from "../dice/attack.mjs";
+import { createAIActor, hackSystem, removeIntrusion, scorch, subvertSystem, updateIntrusion } from "../dice/mesh.mjs";
+import { ALERTS, statusModifier } from "../rules/mesh.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -29,6 +31,11 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       deleteItem: EPActorSheet.#onDeleteItem,
       toggleEquipped: EPActorSheet.#onToggleEquipped,
       reload: EPActorSheet.#onReload,
+      hack: EPActorSheet.#onHack,
+      subvert: EPActorSheet.#onSubvert,
+      scorch: EPActorSheet.#onScorch,
+      removeIntrusion: EPActorSheet.#onRemoveIntrusion,
+      createAIActor: EPActorSheet.#onCreateAIActor,
       sleeve: EPActorSheet.#onSleeve,
       itemToChat: EPActorSheet.#onItemToChat,
       applyHarm: EPActorSheet.#onApplyHarm,
@@ -50,6 +57,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     equipment: { template: T("equipment"), scrollable: [""] },
     traits: { template: T("traits"), scrollable: [""] },
     ego: { template: T("ego"), scrollable: [""] },
+    mesh: { template: T("mesh"), scrollable: [""] },
     effects: { template: T("effects"), scrollable: [""] }
   };
 
@@ -62,6 +70,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         { id: "equipment", icon: "fa-solid fa-toolbox" },
         { id: "traits", icon: "fa-solid fa-brain" },
         { id: "ego", icon: "fa-solid fa-id-card" },
+        { id: "mesh", icon: "fa-solid fa-network-wired" },
         { id: "effects", icon: "fa-solid fa-bolt" }
       ],
       initial: "main",
@@ -119,6 +128,12 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       gear: byType("gear"),
       augmentations: byType("augmentation"),
       traits: byType("trait"),
+      software: byType("software"),
+      intrusions: system.intrusions.map(i => ({
+        ...i, alert: ALERTS[i.status], modifier: statusModifier(i.status),
+        privilegeLabel: `EP1E.Mesh.privilege.${i.privileges}`
+      })),
+      intrusionStatuses: Object.fromEntries(["hidden", "covert", "spotted", "locked"].map(k => [k, `EP1E.Mesh.status.${k}`])),
       sleights: byType("sleight").sort((a, b) => PSI_ORDER.indexOf(a.system.psiType) - PSI_ORDER.indexOf(b.system.psiType)),
       effects: Array.from(actor.allApplicableEffects?.() ?? actor.effects),
       fray: { melee: fray + system.mods.defense, ranged: Math.floor(fray / 2) + system.mods.defense },
@@ -146,6 +161,18 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     this.element.querySelectorAll("[data-item-field]").forEach(input => {
       input.addEventListener("change", this.#onItemFieldChange.bind(this));
     });
+    this.element.querySelectorAll("[data-intrusion-field]").forEach(input => {
+      input.addEventListener("change", this.#onIntrusionFieldChange.bind(this));
+    });
+  }
+
+  async #onIntrusionFieldChange(event) {
+    event.stopPropagation();
+    const input = event.currentTarget;
+    const id = input.closest("[data-intrusion-id]")?.dataset.intrusionId;
+    let value = input.type === "checkbox" ? input.checked : input.value;
+    if ( input.type === "number" ) value = Number(value) || 0;
+    if ( id ) await updateIntrusion(this.document, id, { [input.dataset.intrusionField]: value });
   }
 
   async #onItemFieldChange(event) {
@@ -259,6 +286,45 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   static #onToggleEquipped(event, target) {
     const item = this._getItem(target);
     return item?.update({ "system.equipped": !item.system.equipped });
+  }
+
+  static #onHack() {
+    return hackSystem(this.document);
+  }
+
+  static #onSubvert(event, target) {
+    return subvertSystem(this.document, target.closest("[data-intrusion-id]")?.dataset.intrusionId);
+  }
+
+  /** Scorch the ego of a hacked cyberbrain with one of the actor's scorchers. */
+  static async #onScorch(event, target) {
+    const id = target.closest("[data-intrusion-id]")?.dataset.intrusionId;
+    const programs = this.document.items.filter(i => (i.type === "software") && (i.system.category === "scorcher"));
+    if ( !programs.length ) return ui.notifications.warn("EP1E.Mesh.noScorcher", { localize: true });
+    let programId = programs[0].id;
+    if ( programs.length > 1 ) {
+      const options = programs.map(i => `<option value="${i.id}">${i.name}</option>`).join("");
+      const result = await foundry.applications.api.DialogV2.prompt({
+        window: { title: game.i18n.localize("EP1E.Mesh.scorch") },
+        classes: ["ep1e", "ep1e-dialog"],
+        content: `<div class="form-group"><label>${game.i18n.localize("EP1E.Software.scorcher")}</label><select name="program">${options}</select></div>`,
+        ok: { label: "EP1E.Mesh.scorch", callback: (ev, button) => new foundry.applications.ux.FormDataExtended(button.form).object },
+        rejectClose: false
+      });
+      if ( !result ) return;
+      programId = result.program;
+    }
+    return scorch(this.document, id, programId);
+  }
+
+  static async #onRemoveIntrusion(event, target) {
+    const id = target.closest("[data-intrusion-id]")?.dataset.intrusionId;
+    if ( id ) return removeIntrusion(this.document, id);
+  }
+
+  static #onCreateAIActor(event, target) {
+    const item = this._getItem(target);
+    if ( item ) return createAIActor(item, { owner: this.document });
   }
 
   static #onReload(event, target) {

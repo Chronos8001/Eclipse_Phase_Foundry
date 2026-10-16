@@ -1,0 +1,17 @@
+<div class="ep1e test-dialog subvert-dialog">
+  <p class="test-base">{{intrusion.target}} : {{localize (concat "EP1E.Mesh.status." intrusion.status)}} ({{ep1eSigned statusModifier}}){{#if cyberbrain}} · {{localize "EP1E.Mesh.cyberbrain"}} ({{cyberbrain}}){{/if}}</p>
+  <div class="form-group">
+    <label>{{localize "EP1E.Mesh.action.label"}}</label>
+    <select name="action">
+      {{#each actions as |a|}}<option value="{{a.key}}">{{localize a.label}}</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Skill.label"}}</label>
+    <select name="skill">
+      {{#each skills as |s|}}<option value="{{s.key}}">{{localize s.label}}</option>{{/each}}
+    </select>
+  </div>
+  <p class="hint">{{localize "EP1E.Mesh.subvertHint"}}</p>
+  {{> "systems/ep1e/templates/dialog/test-fields.hbs"}}
+</div>

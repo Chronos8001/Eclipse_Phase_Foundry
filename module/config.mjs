@@ -107,6 +107,14 @@ export const EP1E = {
   },
   // Psi attacks are resisted by mental armor (Psi Shield); not offered on weapons
   harmTypes: { damage: "EP1E.Sleight.harmDamage", stress: "EP1E.Sleight.harmStress" },
+  softwareCategories: {
+    program: "EP1E.Software.program",
+    ai: "EP1E.Software.ai",
+    scorcher: "EP1E.Software.scorcher",
+    skillsoft: "EP1E.Software.skillsoft"
+  },
+  softwareHarms: { none: "EP1E.Software.harmNone", damage: "EP1E.Sleight.harmDamage", stress: "EP1E.Sleight.harmStress" },
+  scorchEffects: { "": "EP1E.Software.harmNone", nightmare: "EP1E.Mesh.nightmare", shutter: "EP1E.Mesh.shutter", spasm: "EP1E.Mesh.spasm" },
   augmentationTypes: {
     bioware: "EP1E.AugType.bioware",
     cyberware: "EP1E.AugType.cyberware",

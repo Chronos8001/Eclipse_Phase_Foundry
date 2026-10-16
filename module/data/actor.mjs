@@ -2,11 +2,12 @@ import { APTITUDES, REP_NETWORKS, SKILLS } from "../config.mjs";
 import { layeredArmorModifier } from "../rules/combat.mjs";
 import { psiShieldArmor, SUSTAINED_PENALTY } from "../rules/psi.mjs";
 
-const { SchemaField, NumberField, StringField, HTMLField } = foundry.data.fields;
+const { SchemaField, NumberField, StringField, HTMLField, BooleanField, ArrayField } = foundry.data.fields;
 
 const int = (initial = 0, options = {}) =>
   new NumberField({ required: true, nullable: false, integer: true, initial, ...options });
 const text = () => new StringField({ required: true, blank: true, initial: "" });
+const choice = (choices, initial) => new StringField({ required: true, blank: false, initial, choices });
 
 /** Highest rating any aptitude may reach, augmented or not (Core p. 124). */
 const APTITUDE_HARD_CAP = 40;
@@ -39,6 +40,19 @@ export class EgoData extends foundry.abstract.TypeDataModel {
         psiShield: int(0), psiArmor: int(0), psiDefense: int(0)
       }),
       rep: new SchemaField(Object.fromEntries(REP_NETWORKS.map(k => [k, int(0, { min: 0 })]))),
+      // AIs and muses cannot default to aptitudes nor use Moxie (p. 264)
+      ai: new BooleanField({ initial: false }),
+      // Systems the character has hacked into (pp. 254-258)
+      intrusions: new ArrayField(new SchemaField({
+        id: text(),
+        target: text(),
+        privileges: choice(["user", "security", "admin"], "user"),
+        status: choice(["hidden", "covert", "spotted", "locked"], "covert"),
+        firewall: int(0, { min: -30, max: 30 }),
+        monitor: int(0, { min: 0 }),
+        cyberbrain: new BooleanField({ initial: false }),
+        notes: text()
+      })),
       details: new SchemaField({
         background: text(),
         faction: text(),
@@ -153,7 +167,7 @@ export class EgoData extends foundry.abstract.TypeDataModel {
       const s = item.system;
       s.aptitudeValue = this.aptitudes[s.aptitude]?.value ?? 0;
       s.morphBonus = bonuses[s.key] ?? 0;
-      const cannotDefault = s.noDefault && (s.ranks <= 0);
+      const cannotDefault = (s.noDefault || this.ai) && (s.ranks <= 0);
       s.total = cannotDefault ? 0 : Math.max(0, s.aptitudeValue + s.ranks + s.morphBonus + s.mod);
       s.defaulting = s.ranks <= 0;
     }
@@ -177,7 +191,8 @@ export class EgoData extends foundry.abstract.TypeDataModel {
     const cfg = SKILLS[key];
     if ( !cfg ) return { target: 0, label: "", skill: null };
     const label = game.i18n.localize(`EP1E.Skill.${key}`);
-    return { target: cfg.noDefault ? 0 : this.aptitudes[cfg.aptitude].value, label, skill: null };
+    const canDefault = !cfg.noDefault && !this.ai;
+    return { target: canDefault ? this.aptitudes[cfg.aptitude].value : 0, label, skill: null };
   }
 }
 

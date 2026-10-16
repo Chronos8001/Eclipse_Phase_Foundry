@@ -5,6 +5,7 @@
     {{#if t.defense}}<span class="defense">{{ep1ePad t.defense.value}} / {{t.defense.target}}</span>{{/if}}
     <span class="state">{{localize t.stateLabel}}</span>
     {{#if t.canDefend}}<button type="button" data-ep-action="defend" data-token-uuid="{{t.tokenUuid}}" data-tooltip="EP1E.Opposed.defendHint"><i class="fa-solid fa-shield-halved"></i></button>{{/if}}
+    {{#if t.canEffect}}<button type="button" data-ep-action="scorchEffect" data-token-uuid="{{t.tokenUuid}}" data-tooltip="EP1E.Mesh.effectHint"><i class="fa-solid fa-brain"></i></button>{{/if}}
     {{#if t.canWaive}}<button type="button" data-ep-action="waive" data-token-uuid="{{t.tokenUuid}}" data-tooltip="EP1E.Opposed.waiveHint"><i class="fa-solid fa-ban"></i></button>{{/if}}
   </li>
   {{/each}}

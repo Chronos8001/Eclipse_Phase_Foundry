@@ -12,7 +12,8 @@
       "armor": "Armor",
       "gear": "Gear",
       "augmentation": "Augmentation",
-      "sleight": "Psi Sleight"
+      "sleight": "Psi Sleight",
+      "software": "Software"
     }
   },
   "EP1E": {
@@ -26,7 +27,8 @@
       "ego": "Identity",
       "effects": "Effects",
       "details": "Details",
-      "description": "Description"
+      "description": "Description",
+      "mesh": "Mesh"
     },
     "Section": {
       "aptitudes": "Aptitudes",
@@ -45,7 +47,9 @@
       "ego": "Ego",
       "rep": "Reputation",
       "biography": "Biography",
-      "notes": "Notes"
+      "notes": "Notes",
+      "intrusions": "Intrusions",
+      "software": "Software"
     },
     "Actor": { "name": "Name" },
     "Aptitude": {
@@ -613,6 +617,103 @@
       "seizureTest": "WIL + COG (stay standing)",
       "summary": "Psi level {level} · mental armor {armor} · psi defense {defense}",
       "sustainedPenalty": "sustained sleights −{penalty}"
+    },
+    "Software": {
+      "none": "No software.",
+      "category": "Category",
+      "quality": "Quality",
+      "program": "Program",
+      "ai": "AI / muse",
+      "scorcher": "Scorcher",
+      "skillsoft": "Skillsoft",
+      "harm": "Harm",
+      "harmNone": "—",
+      "effect": "Effect",
+      "aiStats": "AI aptitudes and skills",
+      "createActor": "Create the AI actor",
+      "aiHint": "Creates an NPC with these aptitudes and skills. AIs cannot default and have no Moxie (p. 264). Weapon and extra Knowledge skills are not created."
+    },
+    "Mesh": {
+      "hack": "Hack a system",
+      "hackLabel": "Hacking {target}",
+      "target": "System",
+      "targetHint": "Device, network, cyberbrain...",
+      "method": "Method",
+      "methodStandard": "Defeat the firewall (10 min)",
+      "methodBruteForce": "Brute force (+30, 1 min, Locked)",
+      "methodSpoof": "Spoof a legitimate user",
+      "privileges": "Privileges",
+      "privilege": {
+        "user": "User",
+        "security": "Security",
+        "admin": "Admin"
+      },
+      "exploitQuality": "Exploit",
+      "spoofQuality": "Spoof",
+      "none": "none",
+      "firewall": "Firewall quality",
+      "qualityHint": "Mesh gear quality (p. 247): −30 relic, 0 standard, +10 security-grade, +20 next-generation, +30 state-of-the-art.",
+      "monitor": "Monitor",
+      "monitorHint": "Infosec of the hacker or AI actively monitoring the system; 0 if it is not monitored.",
+      "cyberbrain": "Cyberbrain",
+      "cyberbrainHint": "Pods and synthmorphs: −30 to hack and subvert; the admin modifier does not apply (p. 261).",
+      "noExploit": "No exploit program: hacking without one is up to the GM (p. 254).",
+      "monitorRoll": "Monitor {value} / {target}",
+      "statusLabel": "Status",
+      "statusNow": "Intruder status",
+      "status": {
+        "hidden": "Hidden",
+        "covert": "Covert",
+        "spotted": "Spotted",
+        "locked": "Locked"
+      },
+      "statusHint": {
+        "hidden": "Unnoticed, effectively admin; +30 to subvert the system.",
+        "covert": "Passes as a legitimate user with the privileges sought.",
+        "spotted": "Passive alert: −10 to the intruder's actions; passive countermeasures.",
+        "locked": "Active alert: −20 to the intruder's actions; active countermeasures (lockout, trace...)."
+      },
+      "statusEditHint": "The GM updates the status after countermeasures (zeroing in, re-authentication...).",
+      "retry": "Both failed: roll again on the next Action Phase.",
+      "failed": "The intrusion fails.",
+      "timeStandard": "Task Action: 10 minutes.",
+      "timeBruteForce": "Task Action: 1 minute (20 Action Turns).",
+      "subvert": "Subvert the system",
+      "subvertTitle": "Subvert: {target}",
+      "subvertHint": "Status and cyberbrain modifiers apply. Severe Failure: status −1 step; critical failure: Locked. Upgrading needs an Excellent Success.",
+      "action": {
+        "label": "Action",
+        "useSystem": "Use the system",
+        "backdoor": "Install a backdoor (Infosec part)",
+        "crashSoftware": "Crash software",
+        "crashAI": "Crash an AI / infomorph",
+        "eliminateTraces": "Eliminate traces",
+        "loadScript": "Load a script",
+        "upgradeStatus": "Upgrade status",
+        "reAuthenticate": "Re-authenticate",
+        "other": "Other"
+      },
+      "cannotUpgrade": "A Locked intruder cannot upgrade their status.",
+      "subverted": "Succeeded.",
+      "notSubverted": "Failed.",
+      "crashHint": "Crashing needs 2 consecutive wins against an AI, 3 against an AGI or infomorph; it then reboots for 3 Action Turns (p. 260).",
+      "scorch": "Scorch the ego",
+      "noScorcher": "No scorcher program.",
+      "scorchTarget": "Target the token of the ego to scorch.",
+      "effectHint": "Roll WIL x 2 against the scorcher's effect",
+      "nightmare": "Nightmare",
+      "shutter": "Shutter",
+      "spasm": "Spasm",
+      "shutterNote": "{modifier} to one sense chosen by the hacker, fading by 10 per Action Turn.",
+      "panic": "Panic for {turns} Action Turn(s): flees, breaks down or cowers (GM's choice).",
+      "leave": "Leave the system",
+      "notes": "Notes",
+      "noIntrusions": "No intrusion in progress.",
+      "hint": "Connection preconditions (range, mesh ID, jacking in) are up to the GM. Countermeasures: the GM changes the status.",
+      "isAI": "AI or muse",
+      "aiHint": "AIs cannot default to aptitudes and have no Moxie (p. 264).",
+      "aiOf": "{name} ({owner})",
+      "aiCreated": "{name} created."
     }
   }
 }
