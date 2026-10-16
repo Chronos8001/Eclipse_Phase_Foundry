@@ -29,6 +29,8 @@ export function statusEffects() {
     status("burning", "icons/svg/fire.svg"),
     // Full defense (p. 198): +30 to defend until the next Action Phase
     status("fullDefense", "icons/svg/shield.svg", [addChange("system.mods.defense", 30)]),
+    // Psi full defense (p. 222): +30 to resist psi until the next Action Phase
+    status("psiDefense", "icons/svg/aura.svg", [addChange("system.mods.psiDefense", 30)]),
     // Subdued (p. 204): only physical action allowed is breaking free, at -30
     status("subdued", "icons/svg/net.svg"),
     status("blinded", "icons/svg/blind.svg"),

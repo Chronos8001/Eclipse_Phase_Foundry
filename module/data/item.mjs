@@ -89,6 +89,8 @@ export class TraitData extends BaseItemData {
   static defineSchema() {
     return {
       ...super.defineSchema(),
+      // Rules read some traits by key (psi, psiDefense...), whatever their displayed name
+      key: text(),
       traitType: choice(["positive", "negative"], "positive"),
       scope: choice(["ego", "morph", "both"], "ego"),
       level: int(1, { min: 0 }),
@@ -183,12 +185,47 @@ export class SleightData extends BaseItemData {
   static defineSchema() {
     return {
       ...super.defineSchema(),
+      key: text(),
       psiType: choice(["chi", "gamma", "epsilon"], "chi"),
+      // Active sleights are used (and cause strain); passive ones are always on (Core p. 221)
+      activation: choice(["active", "passive"], "passive"),
       action: choice(["automatic", "quick", "complex", "task"], "automatic"),
-      range: text(),
-      duration: text(),
-      strainMod: text(),
-      skill: text()
+      range: choice(["self", "touch", "close"], "self"),
+      duration: choice(["constant", "instant", "temporary", "sustained"], "constant"),
+      durationUnit: choice(["turns", "minutes", "hours"], "turns"),
+      strainMod: int(0),
+      // Mindlink: +N strain per target after the first; Penetration: 1 strain per point of AP
+      strainPerTarget: int(0, { min: 0 }),
+      strainPerAP: new BooleanField({ initial: false }),
+      skill: text(),
+      // Psi attack harm (roll data, e.g. 1d10 + ceil(@wil / 10)), as physical damage or mental stress
+      damage: text(),
+      harm: choice(["damage", "stress"], "damage"),
+      exsurgent: new BooleanField({ initial: false }),
+      // A temporary or sustained sleight in use, and the Action Turns left for a temporary one
+      active: new BooleanField({ initial: false }),
+      remaining: int(0, { min: 0 })
     };
+  }
+
+  /** Version 0.1 stored range, duration and strain modifier as free text. */
+  static migrateData(source) {
+    if ( typeof source.strainMod === "string" ) {
+      source.strainMod = Number(source.strainMod.replace(/[–−]/g, "-").match(/[+-]?\s*\d+/)?.[0].replace(/\s/g, "") ?? 0);
+    }
+    if ( (typeof source.range === "string") && !["self", "touch", "close"].includes(source.range) ) {
+      source.range = source.range.toLowerCase().match(/self|touch|close/)?.[0] ?? "self";
+    }
+    if ( (typeof source.duration === "string") && !["constant", "instant", "temporary", "sustained"].includes(source.duration) ) {
+      const text = source.duration.toLowerCase();
+      source.duration = text.match(/constant|instant|sustained/)?.[0] ?? (text.startsWith("temp") ? "temporary" : "constant");
+      if ( source.duration === "temporary" ) source.durationUnit = text.includes("hour") ? "hours" : (text.includes("minute") ? "minutes" : "turns");
+    }
+    return super.migrateData(source);
+  }
+
+  /** Sleights in use count down; constant and passive ones are always on. */
+  get isActive() {
+    return (this.activation === "passive") || (this.duration === "constant") || this.active;
   }
 }

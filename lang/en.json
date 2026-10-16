@@ -355,7 +355,8 @@
       "level": "Level",
       "cost": "Cost / bonus (CP)",
       "costText": "Cost (book text)",
-      "effectHint": "Add an active effect (Effects tab) to automate a bonus, e.g. system.mods.woundsIgnored + 1."
+      "effectHint": "Add an active effect (Effects tab) to automate a bonus, e.g. system.mods.woundsIgnored + 1.",
+      "keyHint": "Used by the rules: psi (Psi trait level), psiDefense, psiVulnerability. Keep the compendium value."
     },
     "TraitType": { "positive": "Positive", "negative": "Negative" },
     "TraitScope": { "ego": "Ego", "morph": "Morph", "both": "Ego or morph" },
@@ -383,7 +384,7 @@
       "twoHanded": "Two-handed"
     },
     "WeaponType": { "melee": "Melee", "ranged": "Ranged" },
-    "DamageType": { "kinetic": "Kinetic", "energy": "Energy", "none": "Ignores armor" },
+    "DamageType": { "kinetic": "Kinetic", "energy": "Energy", "none": "Ignores armor", "psi": "Mental armor" },
     "Armor": {
       "none": "No armor.",
       "morph": "Morph armor",
@@ -400,15 +401,30 @@
     },
     "AugType": { "bioware": "Bioware", "cyberware": "Cyberware", "nanoware": "Nanoware", "meshware": "Meshware", "other": "Other" },
     "Sleight": {
-      "none": "No psi sleights.",
+      "none": "No sleights.",
       "psiType": "Type",
+      "activation": "Use",
+      "active": "Active",
+      "passive": "Passive",
       "action": "Action",
       "skill": "Skill",
       "range": "Range",
       "duration": "Duration",
       "strain": "Strain",
-      "useHint": "Use (tests the linked skill)",
-      "hint": "Passive sleights (psi-chi) need no skill."
+      "strainPerTarget": "Strain per extra target",
+      "strainPerTargetHint": "Mindlink: one strain roll, +N per target after the first. Otherwise strain is rolled for each target.",
+      "damage": "Psi attack",
+      "damageHint": "Damage or stress formula; @wil is WIL (e.g. 1d10 + ceil(@wil / 10)).",
+      "harmDamage": "Damage",
+      "harmStress": "Stress",
+      "key": "Rules key",
+      "exsurgent": "Exsurgent",
+      "exsurgentHint": "Only exsurgents (and some aliens or xenofauna) have this sleight.",
+      "noSkill": "— None —",
+      "inUse": "In use",
+      "remaining": "Action Turns left",
+      "useHint": "Use the sleight (Shift+click: no dialog)",
+      "hint": "Passive sleights are always on. Active ones cause strain when used: 1d10 ÷ 2 (round up) + modifier, for each target (p. 223). Temporary sleights last WIL ÷ 5 turns or minutes; each sustained sleight gives −10 to other tests."
     },
     "PsiType": { "chi": "Psi-chi", "gamma": "Psi-gamma", "epsilon": "Psi-epsilon" },
     "Action": { "automatic": "Automatic", "quick": "Quick", "complex": "Complex", "task": "Task" },
@@ -461,7 +477,8 @@
       "fullDefense": "Full defense (+30)",
       "subdued": "Subdued",
       "blinded": "Blinded",
-      "invisible": "Invisible"
+      "invisible": "Invisible",
+      "psiDefense": "Psi full defense (+30)"
     },
     "FiringMode": {
       "SS": "Single shot",
@@ -552,6 +569,50 @@
       "rollScatter": "Roll scatter",
       "scattered": "Scattered {distance} m, direction {direction} (1 = beyond the target, clockwise)",
       "distance": "{distance} m from the epicenter"
+    },
+    "PsiRange": {
+      "self": "Self",
+      "touch": "Touch",
+      "close": "Close"
+    },
+    "PsiDuration": {
+      "constant": "Constant",
+      "instant": "Instant",
+      "temporary": "Temporary",
+      "sustained": "Sustained"
+    },
+    "DurationUnit": {
+      "turns": "Action Turns",
+      "minutes": "Minutes",
+      "hours": "Hours"
+    },
+    "PsiCreature": {
+      "sentient": "Sentient",
+      "partial": "Partially sentient animal",
+      "animal": "Non-sentient animal",
+      "alien": "Alien"
+    },
+    "Psi": {
+      "use": "Use",
+      "useTitle": "Sleight: {name}",
+      "levelTooLow": "{name} needs the Psi trait at level {level}.",
+      "cannotTarget": "Psi cannot affect: {names} (no biological brain).",
+      "excluded": "Not affected (no biological brain)",
+      "noTargets": "No target: target the tokens to affect (T).",
+      "creature": "Target",
+      "creatureHint": "Animals and aliens are harder to affect and cause more strain (p. 222).",
+      "penetration": "Penetration (AP)",
+      "penetrationHint": "Each point of Armor Penetration against Psi Shield costs 1 strain (p. 228).",
+      "noStrain": "no strain (exsurgent)",
+      "strainOf": "Strain: {name}",
+      "affectsIf": "Affects each target that fails its WIL x 2 test or rolls lower.",
+      "failed": "The sleight fails.",
+      "ended": "{name} ends.",
+      "endHint": "End the sleight",
+      "seizure": "{name} suffers a psi seizure: −30 and unable to act until the end of the next Action Turn.",
+      "seizureTest": "WIL + COG (stay standing)",
+      "summary": "Psi level {level} · mental armor {armor} · psi defense {defense}",
+      "sustainedPenalty": "sustained sleights −{penalty}"
     }
   }
 }

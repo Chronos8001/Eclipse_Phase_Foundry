@@ -105,6 +105,8 @@ export const EP1E = {
     energy: "EP1E.DamageType.energy",
     none: "EP1E.DamageType.none"
   },
+  // Psi attacks are resisted by mental armor (Psi Shield); not offered on weapons
+  harmTypes: { damage: "EP1E.Sleight.harmDamage", stress: "EP1E.Sleight.harmStress" },
   augmentationTypes: {
     bioware: "EP1E.AugType.bioware",
     cyberware: "EP1E.AugType.cyberware",
@@ -113,6 +115,22 @@ export const EP1E = {
     other: "EP1E.AugType.other"
   },
   psiTypes: { chi: "EP1E.PsiType.chi", gamma: "EP1E.PsiType.gamma", epsilon: "EP1E.PsiType.epsilon" },
+  psiActivations: { active: "EP1E.Sleight.active", passive: "EP1E.Sleight.passive" },
+  psiRanges: { self: "EP1E.PsiRange.self", touch: "EP1E.PsiRange.touch", close: "EP1E.PsiRange.close" },
+  psiDurations: {
+    constant: "EP1E.PsiDuration.constant",
+    instant: "EP1E.PsiDuration.instant",
+    temporary: "EP1E.PsiDuration.temporary",
+    sustained: "EP1E.PsiDuration.sustained"
+  },
+  durationUnits: { turns: "EP1E.DurationUnit.turns", minutes: "EP1E.DurationUnit.minutes", hours: "EP1E.DurationUnit.hours" },
+  psiSkills: { "": "EP1E.Sleight.noSkill", control: "EP1E.Skill.control", psiAssault: "EP1E.Skill.psiAssault", sense: "EP1E.Skill.sense" },
+  psiCreatures: {
+    sentient: "EP1E.PsiCreature.sentient",
+    partial: "EP1E.PsiCreature.partial",
+    animal: "EP1E.PsiCreature.animal",
+    alien: "EP1E.PsiCreature.alien"
+  },
   actionTypes: {
     automatic: "EP1E.Action.automatic",
     quick: "EP1E.Action.quick",

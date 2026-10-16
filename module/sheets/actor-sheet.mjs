@@ -9,6 +9,7 @@ const { ActorSheetV2 } = foundry.applications.sheets;
 const TextEditor = () => foundry.applications.ux.TextEditor.implementation;
 
 const T = path => `systems/${SYSTEM_ID}/templates/actor/${path}.hbs`;
+const PSI_ORDER = ["chi", "gamma", "epsilon"];
 
 export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
 
@@ -118,7 +119,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       gear: byType("gear"),
       augmentations: byType("augmentation"),
       traits: byType("trait"),
-      sleights: byType("sleight"),
+      sleights: byType("sleight").sort((a, b) => PSI_ORDER.indexOf(a.system.psiType) - PSI_ORDER.indexOf(b.system.psiType)),
       effects: Array.from(actor.allApplicableEffects?.() ?? actor.effects),
       fray: { melee: fray + system.mods.defense, ranged: Math.floor(fray / 2) + system.mods.defense },
       woundSlots: Array.from({ length: Math.max(system.wounds.value, 0) }),

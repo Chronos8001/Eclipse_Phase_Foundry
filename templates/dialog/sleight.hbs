@@ -1,0 +1,27 @@
+<div class="ep1e test-dialog sleight-dialog">
+  <p class="test-base">{{#if skillLabel}}{{skillLabel}} : <strong>{{target}}</strong>{{else}}{{sleight.name}}{{/if}}</p>
+  <p class="hint">{{localize (concat "EP1E.PsiType." sleight.system.psiType)}} · {{localize (concat "EP1E.PsiRange." sleight.system.range)}} ·
+    {{localize (concat "EP1E.PsiDuration." sleight.system.duration)}}{{#if strainFree}} · {{localize "EP1E.Psi.noStrain"}}{{else}} · {{localize "EP1E.Sleight.strain"}} {{ep1eSigned sleight.system.strainMod}}{{/if}}</p>
+  {{#if targets.length}}
+  <p class="hint">{{localize "EP1E.Attack.targets"}} : {{#each targets as |t|}}{{t.name}}{{#unless @last}}, {{/unless}}{{/each}}</p>
+  {{else if (ne sleight.system.range "self")}}
+  <p class="hint warning">{{localize "EP1E.Psi.noTargets"}}</p>
+  {{/if}}
+  {{#if excluded.length}}<p class="hint warning">{{localize "EP1E.Psi.excluded"}} : {{#each excluded as |n|}}{{n}}{{#unless @last}}, {{/unless}}{{/each}}</p>{{/if}}
+  {{#if (ne distance null)}}<p class="hint">{{localize "EP1E.Attack.range"}} : {{distance}} m ({{ep1eSigned rangeModifier}})</p>{{/if}}
+  {{#if targets.length}}
+  <div class="form-group">
+    <label data-tooltip="EP1E.Psi.creatureHint">{{localize "EP1E.Psi.creature"}}</label>
+    <select name="creature">
+      {{#each creatures as |c|}}<option value="{{c.key}}">{{localize c.label}}{{#if c.modifier}} ({{ep1eSigned c.modifier}}, {{localize "EP1E.Sleight.strain"}} +{{c.strain}}){{/if}}</option>{{/each}}
+    </select>
+  </div>
+  {{/if}}
+  {{#if maxAP}}
+  <div class="form-group">
+    <label data-tooltip="EP1E.Psi.penetrationHint">{{localize "EP1E.Psi.penetration"}} (max {{maxAP}})</label>
+    <input type="number" name="ap" value="0" min="0" max="{{maxAP}}">
+  </div>
+  {{/if}}
+  {{#if skillLabel}}{{> "systems/ep1e/templates/dialog/test-fields.hbs"}}{{/if}}
+</div>

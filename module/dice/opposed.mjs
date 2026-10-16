@@ -1,6 +1,7 @@
 import { SYSTEM_ID } from "../config.mjs";
 import { blastDamage, FULL_DEFENSE_BONUS, opposedWinner, scatterDistance, scatterOffset } from "../rules/combat.mjs";
 import { evaluateTest, rollSkillTest, testDialogContext } from "./tests.mjs";
+import { psiDefenseTarget } from "../rules/psi.mjs";
 
 /**
  * Opposed attack resolution (Core p. 191). The attack card lists its targets; each defender rolls a
@@ -166,16 +167,28 @@ export async function rollDefense(attackMessage, tokenUuid, { fastForward = fals
   if ( !actor?.isOwner ) return;
   const sys = actor.system;
 
-  const fullDefense = actor.statuses?.has("fullDefense");
-  const keys = ["fray"];
-  if ( !attack.ranged ) keys.push(...PARRY_SKILLS.filter(k => sys.getSkill(k)));
-  if ( fullDefense ) keys.push("freerunning");
-  // Only Fray is halved against ranged attacks; mods.defense carries full defense and other effects
-  const options = keys.map(key => {
-    const { target: value, label } = sys.getSkillTarget(key);
-    const halved = attack.ranged && (key === "fray");
-    return { key, label, value: (halved ? Math.floor(value / 2) : value) + sys.mods.defense, halved };
-  });
+  const fullDefense = actor.statuses?.has(attack.psi ? "psiDefense" : "fullDefense");
+  let options;
+  if ( attack.psi ) {
+    // Psi is resisted with WIL x 2; pods +30; Psi Shield, traits and psi full defense via psi.defense (p. 222)
+    options = [{
+      key: "wil",
+      label: `${game.i18n.localize("EP1E.Aptitude.wil")} × 2`,
+      value: psiDefenseTarget(sys.aptitudes.wil.value, { pod: sys.morph?.type === "pod", bonus: sys.psi.defense }),
+      halved: false
+    }];
+  }
+  else {
+    const keys = ["fray"];
+    if ( !attack.ranged ) keys.push(...PARRY_SKILLS.filter(k => sys.getSkill(k)));
+    if ( fullDefense ) keys.push("freerunning");
+    // Only Fray is halved against ranged attacks; mods.defense carries full defense and other effects
+    options = keys.map(key => {
+      const { target: value, label } = sys.getSkillTarget(key);
+      const halved = attack.ranged && (key === "fray");
+      return { key, label, value: (halved ? Math.floor(value / 2) : value) + sys.mods.defense, halved };
+    });
+  }
 
   let input = { skill: "fray" };
   if ( !fastForward ) {
@@ -183,7 +196,8 @@ export async function rollDefense(attackMessage, tokenUuid, { fastForward = fals
       ...testDialogContext(actor, { label: attack.name, target: options[0].value }),
       attackName: attack.name,
       options,
-      fullDefense: fullDefense ? FULL_DEFENSE_BONUS : 0
+      fullDefense: fullDefense ? FULL_DEFENSE_BONUS : 0,
+      psi: !!attack.psi
     });
     input = await foundry.applications.api.DialogV2.wait({
       window: { title: game.i18n.format("EP1E.Opposed.defendTitle", { name: actor.name }), icon: "fa-solid fa-shield-halved" },
@@ -198,7 +212,7 @@ export async function rollDefense(attackMessage, tokenUuid, { fastForward = fals
     if ( !input ) return null;
   }
   const choice = options.find(o => o.key === input.skill) ?? options[0];
-  const skill = sys.getSkill(choice.key);
+  const skill = attack.psi ? null : sys.getSkill(choice.key);
   return rollSkillTest(actor, {
     label: game.i18n.format(choice.halved ? "EP1E.Opposed.defenseRanged" : "EP1E.Opposed.defenseLabel", {
       skill: choice.label, name: attack.name

@@ -2,6 +2,7 @@
 import assert from "node:assert/strict";
 import { evaluateTest, flipFlop } from "../module/dice/tests.mjs";
 import * as combat from "../module/rules/combat.mjs";
+import * as psi from "../module/rules/psi.mjs";
 
 const t = (value, target, moxie = null) => evaluateTest({ value, target, moxie });
 
@@ -137,5 +138,29 @@ assert.equal(combat.fallingDamage(11), "3d10 + 3");
 assert.equal(combat.fallingArmor(5), 2);
 assert.equal(combat.layeredArmorModifier(1), 0);
 assert.equal(combat.layeredArmorModifier(3), -40);
+
+// --- Psi (pp. 220-228)
+// Matric: WIL 25 -> Qualia lasts 5 Action Turns; strain mod -1 -> (1d10 ÷ 2) - 1 (p. 223)
+assert.equal(psi.temporaryDuration(25), 5);
+assert.equal(psi.temporaryDuration(25, "minutes"), 100);
+assert.deepEqual(psi.strainFormulas({ mod: -1 }), ["ceil(1d10 / 2) - 1"]);
+// Psychic Stab against a worker pod: WIL x 2 = 32, +30 pod = 62; damage 1d10 + 3 with WIL 25
+assert.equal(psi.psiDefenseTarget(16, { pod: true }), 62);
+assert.equal(Math.ceil(25 / 10), 3);
+// Strain for each target; Mindlink rolls once, +1 per target after the first
+assert.deepEqual(psi.strainFormulas({ mod: 0, targets: 3 }), ["ceil(1d10 / 2)", "ceil(1d10 / 2)", "ceil(1d10 / 2)"]);
+assert.deepEqual(psi.strainFormulas({ perTarget: 1, targets: 3 }), ["ceil(1d10 / 2) + 2"]);
+// Animals: +3 strain; Penetration: +1 strain per AP
+assert.deepEqual(psi.strainFormulas({ mod: -1, creature: "animal", ap: -2 }), ["ceil(1d10 / 2) + 4"]);
+assert.equal(psi.maxPenetration(57), 5);
+// Close range: 5 m, 10 m against an async, -10 per meter beyond
+assert.equal(psi.closeRangeModifier(5), 0);
+assert.equal(psi.closeRangeModifier(7), -20);
+assert.equal(psi.closeRangeModifier(7, { vsAsync: true }), 0);
+assert.equal(psi.canBeTargeted("pod"), true);
+assert.equal(psi.canBeTargeted("synthmorph"), false);
+assert.equal(psi.psiShieldArmor(25), 5);
+assert.equal(psi.psiExcellentBonus(45), 5);
+assert.equal(psi.psiExcellentBonus(65), 5);
 
 console.log("Rules checks passed.");

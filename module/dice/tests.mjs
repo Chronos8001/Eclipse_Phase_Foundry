@@ -1,9 +1,11 @@
 import { DIFFICULTIES, SYSTEM_ID } from "../config.mjs";
 import { createMessage, defaultMessageMode, messageModeChoices } from "../helpers/chat.mjs";
 import { excellentBonus, shockedDamage } from "../rules/combat.mjs";
+import { psiExcellentBonus } from "../rules/psi.mjs";
 import { conditionEffect, setCondition } from "../helpers/effects.mjs";
 import { blastRecipients, renderTargets, resolveTargets, rollDefense, rollScatter, waiveDefense } from "./opposed.mjs";
 import { applyShockConditions, isBiological, rollShock, updateHealthConditions } from "./conditions.mjs";
+import { rollSeizureTest } from "./psi.mjs";
 
 const TEMPLATES = {
   dialog: `systems/${SYSTEM_ID}/templates/dialog/test.hbs`,
@@ -155,9 +157,12 @@ export function rollAptitudeTest(actor, key, options = {}) {
 /*  Chat cards                                  */
 /* -------------------------------------------- */
 
+/** Extra damage of an Excellent Success: +5/+10 for weapons, +5 for psi attacks (p. 228). */
+const attackBonus = (attack, margin) => (attack.psi ? psiExcellentBonus(margin) : excellentBonus(margin));
+
 export async function renderTestCard(test) {
   const result = evaluateTest(test);
-  const damageBonus = (test.attack && result.success) ? excellentBonus(result.margin) : 0;
+  const damageBonus = (test.attack && result.success) ? attackBonus(test.attack, result.margin) : 0;
   return render(TEMPLATES.test, {
     test, result, damageBonus,
     outcomeLabel: `EP1E.Outcome.${result.outcome}`,
@@ -190,7 +195,7 @@ async function rollDamageFromTest(message) {
   const attack = test?.attack;
   if ( !attack ) return;
   const result = evaluateTest(test);
-  const bonus = excellentBonus(result.margin);
+  const bonus = attackBonus(attack, result.margin);
   // Cards from before the attack dialog carry dv and db instead of a full formula
   const parts = [attack.formula ?? attack.dv ?? "0"];
   if ( !attack.formula && attack.db ) parts.push(String(attack.db));
@@ -200,6 +205,7 @@ async function rollDamageFromTest(message) {
   return postDamageRoll(actor, roll, {
     attackId: message.id,
     shock: !!attack.shock,
+    stress: !!attack.stress,
     label: attack.name,
     ap: attack.ap,
     damageType: attack.damageType,
@@ -218,7 +224,8 @@ export async function postDamageRoll(actor, roll, {
   };
   const content = await render(TEMPLATES.damage, {
     damage,
-    damageTypeLabel: CONFIG.EP1E.damageTypes[damageType],
+    // Psi attacks use "psi" (mental armor), which weapons do not offer
+    damageTypeLabel: `EP1E.DamageType.${damageType}`,
     tooltip: await roll.getTooltip()
   });
   return createMessage({
@@ -393,6 +400,11 @@ async function handleChatAction(message, dataset, event) {
     case "defend": return rollDefense(message, dataset.tokenUuid, { fastForward: event.shiftKey });
     case "waive": return waiveDefense(message, dataset.tokenUuid);
     case "scatter": return rollScatter(message);
+    case "seizureTest": {
+      const actor = await fromUuid(dataset.actorUuid);
+      if ( actor?.isOwner ) return rollSeizureTest(actor);
+      return;
+    }
     case "aptitudeTest": {
       const actor = await fromUuid(dataset.actorUuid);
       if ( !actor?.isOwner ) return;

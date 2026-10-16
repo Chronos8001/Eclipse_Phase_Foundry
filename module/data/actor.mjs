@@ -1,5 +1,6 @@
 import { APTITUDES, REP_NETWORKS, SKILLS } from "../config.mjs";
 import { layeredArmorModifier } from "../rules/combat.mjs";
+import { psiShieldArmor, SUSTAINED_PENALTY } from "../rules/psi.mjs";
 
 const { SchemaField, NumberField, StringField, HTMLField } = foundry.data.fields;
 
@@ -33,7 +34,9 @@ export class EgoData extends foundry.abstract.TypeDataModel {
         energyArmor: int(0), kineticArmor: int(0),
         woundsIgnored: int(0, { min: 0 }), traumasIgnored: int(0, { min: 0 }),
         // Modifier to every test (status effects, drugs...) and to defense tests only
-        actions: int(0), defense: int(0)
+        actions: int(0), defense: int(0),
+        // Psi: Psi Shield sleight (> 0 when known), extra mental armor, modifier to resist psi
+        psiShield: int(0), psiArmor: int(0), psiDefense: int(0)
       }),
       rep: new SchemaField(Object.fromEntries(REP_NETWORKS.map(k => [k, int(0, { min: 0 })]))),
       details: new SchemaField({
@@ -73,6 +76,11 @@ export class EgoData extends foundry.abstract.TypeDataModel {
     }
     const a = key => this.aptitudes[key].value;
 
+    // Psi trait (Core p. 147): asyncs have their Trauma Threshold lowered by 1 (p. 221)
+    const traitLevel = key => Math.max(0, ...actor.items
+      .filter(i => (i.type === "trait") && (i.system.key === key)).map(i => i.system.level));
+    const psiLevel = traitLevel("psi");
+
     // Morph statistics
     const isSynth = m?.morphType === "synthmorph";
     const isInfomorph = m?.morphType === "infomorph";
@@ -80,7 +88,7 @@ export class EgoData extends foundry.abstract.TypeDataModel {
     const wt = Math.max(0, Math.ceil(dur / 5) + mods.wt);
     const dr = isSynth ? dur * 2 : Math.ceil(dur * 1.5);
     const luc = Math.max(0, (a("wil") * 2) + mods.luc);
-    const tt = Math.max(0, Math.ceil(luc / 5) + mods.tt);
+    const tt = Math.max(0, Math.ceil(luc / 5) + mods.tt - (psiLevel > 0 ? 1 : 0));
     const ir = luc * 2;
     const init = ((a("int") + a("ref")) * 2) + (m?.initMod ?? 0) + mods.init;
     const spd = Math.clamp(1 + (m?.speedMod ?? 0) + mods.spd, 1, 4);
@@ -95,6 +103,15 @@ export class EgoData extends foundry.abstract.TypeDataModel {
       armor.kinetic += item.system.kinetic;
       if ( !item.system.accessory ) armor.layers += 1;
     }
+    // Mental armor and psi resistance: Psi Shield (p. 228), Psi Defense and Psi Vulnerability traits (pp. 147, 151)
+    const shield = mods.psiShield > 0;
+    this.psi = {
+      level: psiLevel,
+      armor: (shield ? psiShieldArmor(a("wil")) : 0) + mods.psiArmor,
+      defense: (10 * traitLevel("psiDefense")) - (10 * traitLevel("psiVulnerability")) + (shield ? 10 : 0) + mods.psiDefense,
+      sustained: actor.items.filter(i => (i.type === "sleight") && i.system.active && (i.system.duration === "sustained")).length
+    };
+    armor.psi = this.psi.armor;
     this.armor = armor;
 
     // Health and mental health tracks (max values feed the token bars)
@@ -106,9 +123,11 @@ export class EgoData extends foundry.abstract.TypeDataModel {
     // Penalties are positive numbers subtracted from tests; only wounds and traumas lower Initiative (Core p. 189)
     const armorPenalty = -layeredArmorModifier(armor.layers);
     const actionPenalty = -mods.actions;
-    const total = woundPenalty + traumaPenalty + armorPenalty + actionPenalty;
+    // Each sustained sleight: -10 to other tests (p. 222)
+    const psiPenalty = this.psi.sustained * SUSTAINED_PENALTY;
+    const total = woundPenalty + traumaPenalty + armorPenalty + actionPenalty + psiPenalty;
     this.penalty = {
-      wounds: woundPenalty, trauma: traumaPenalty, armor: armorPenalty, actions: actionPenalty,
+      wounds: woundPenalty, trauma: traumaPenalty, armor: armorPenalty, actions: actionPenalty, psi: psiPenalty,
       total, modifier: -total, initiative: woundPenalty + traumaPenalty
     };
     this.status = {

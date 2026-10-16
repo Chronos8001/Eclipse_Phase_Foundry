@@ -355,7 +355,8 @@
       "level": "Niveau",
       "cost": "Coût / bonus (PC)",
       "costText": "Coût (texte du livre)",
-      "effectHint": "Ajoutez un effet actif (onglet Effets) pour automatiser un bonus, par ex. system.mods.woundsIgnored + 1."
+      "effectHint": "Ajoutez un effet actif (onglet Effets) pour automatiser un bonus, par ex. system.mods.woundsIgnored + 1.",
+      "keyHint": "Utilisée par les règles : psi (niveau du trait Psi), psiDefense, psiVulnerability. Gardez la valeur du compendium."
     },
     "TraitType": { "positive": "Positif", "negative": "Négatif" },
     "TraitScope": { "ego": "Égo", "morph": "Morphe", "both": "Égo ou morphe" },
@@ -383,7 +384,7 @@
       "twoHanded": "À deux mains"
     },
     "WeaponType": { "melee": "Mêlée", "ranged": "Distance" },
-    "DamageType": { "kinetic": "Cinétique", "energy": "Énergétique", "none": "Sans armure" },
+    "DamageType": { "kinetic": "Cinétique", "energy": "Énergétique", "none": "Sans armure", "psi": "Armure mentale" },
     "Armor": {
       "none": "Aucune armure.",
       "morph": "Armure du morphe",
@@ -402,13 +403,28 @@
     "Sleight": {
       "none": "Aucun pouvoir psi.",
       "psiType": "Type",
+      "activation": "Utilisation",
+      "active": "Actif",
+      "passive": "Passif",
       "action": "Action",
       "skill": "Compétence",
       "range": "Portée",
       "duration": "Durée",
       "strain": "Tension",
-      "useHint": "Utiliser (test de la compétence associée)",
-      "hint": "Les pouvoirs passifs (psi-chi) n'ont pas besoin de compétence."
+      "strainPerTarget": "Tension par cible supplémentaire",
+      "strainPerTargetHint": "Lien mental : un seul jet de tension, +N par cible après la première. Sinon, la tension est lancée pour chaque cible.",
+      "damage": "Attaque psi",
+      "damageHint": "Formule de dégâts ou de stress ; @wil vaut la VOL (ex. 1d10 + ceil(@wil / 10)).",
+      "harmDamage": "Dégâts",
+      "harmStress": "Stress",
+      "key": "Clé de règle",
+      "exsurgent": "Exsurgent",
+      "exsurgentHint": "Réservé aux exsurgents (et à certains aliens ou xénofaune).",
+      "noSkill": "— Aucune —",
+      "inUse": "En cours",
+      "remaining": "Tours restants",
+      "useHint": "Utiliser le pouvoir (Maj+clic : sans dialogue)",
+      "hint": "Les pouvoirs passifs sont toujours actifs. Les actifs causent de la tension à l'usage : 1d10 ÷ 2 (arrondi sup.) + modificateur, pour chaque cible (p. 223). Les temporaires durent VOL ÷ 5 tours ou minutes ; chaque pouvoir maintenu impose −10 aux autres tests."
     },
     "PsiType": { "chi": "Psi-chi", "gamma": "Psi-gamma", "epsilon": "Psi-epsilon" },
     "Action": { "automatic": "Automatique", "quick": "Rapide", "complex": "Complexe", "task": "Tâche" },
@@ -461,7 +477,8 @@
       "fullDefense": "Défense totale (+30)",
       "subdued": "Maîtrisé",
       "blinded": "Aveuglé",
-      "invisible": "Invisible"
+      "invisible": "Invisible",
+      "psiDefense": "Défense psi totale (+30)"
     },
     "FiringMode": {
       "SS": "Coup par coup",
@@ -552,6 +569,50 @@
       "rollScatter": "Lancer la dispersion",
       "scattered": "Dispersion de {distance} m, direction {direction} (1 = au-delà de la cible, sens horaire)",
       "distance": "À {distance} m de l'épicentre"
+    },
+    "PsiRange": {
+      "self": "Soi",
+      "touch": "Contact",
+      "close": "Proche"
+    },
+    "PsiDuration": {
+      "constant": "Constante",
+      "instant": "Instantanée",
+      "temporary": "Temporaire",
+      "sustained": "Maintenue"
+    },
+    "DurationUnit": {
+      "turns": "Tours d'action",
+      "minutes": "Minutes",
+      "hours": "Heures"
+    },
+    "PsiCreature": {
+      "sentient": "Être conscient",
+      "partial": "Animal partiellement conscient",
+      "animal": "Animal non conscient",
+      "alien": "Alien"
+    },
+    "Psi": {
+      "use": "Utiliser",
+      "useTitle": "Pouvoir psi : {name}",
+      "levelTooLow": "{name} demande le trait Psi au niveau {level}.",
+      "cannotTarget": "Le psi n'a pas d'effet sur : {names} (pas de cerveau biologique).",
+      "excluded": "Non affecté (pas de cerveau biologique)",
+      "noTargets": "Aucune cible : ciblez les jetons à affecter (T).",
+      "creature": "Cible",
+      "creatureHint": "Les animaux et les aliens sont plus difficiles à affecter et causent plus de tension (p. 222).",
+      "penetration": "Pénétration (PA)",
+      "penetrationHint": "Chaque point de pénétration d'armure contre le Bouclier psi coûte 1 point de tension (p. 228).",
+      "noStrain": "pas de tension (exsurgent)",
+      "strainOf": "Tension : {name}",
+      "affectsIf": "Affecte chaque cible qui rate son test de VOL × 2 ou obtient un jet inférieur.",
+      "failed": "Le pouvoir échoue.",
+      "ended": "{name} prend fin.",
+      "endHint": "Mettre fin au pouvoir",
+      "seizure": "{name} subit une crise psi : −30 et incapable d'agir jusqu'à la fin du prochain tour.",
+      "seizureTest": "VOL + COG (rester debout)",
+      "summary": "Psi niveau {level} · armure mentale {armor} · défense psi {defense}",
+      "sustainedPenalty": "pouvoirs maintenus −{penalty}"
     }
   }
 }

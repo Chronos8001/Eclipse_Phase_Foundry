@@ -6,6 +6,6 @@
       {{#each options as |o|}}<option value="{{o.key}}">{{o.label}}{{#if o.halved}} ÷ 2{{/if}} : {{o.value}}</option>{{/each}}
     </select>
   </div>
-  {{#if fullDefense}}<p class="hint">{{localize "EP1E.Condition.fullDefense"}}</p>{{/if}}
+  {{#if fullDefense}}<p class="hint">{{#if psi}}{{localize "EP1E.Condition.psiDefense"}}{{else}}{{localize "EP1E.Condition.fullDefense"}}{{/if}}</p>{{/if}}
   {{> "systems/ep1e/templates/dialog/test-fields.hbs"}}
 </div>

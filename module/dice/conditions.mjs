@@ -2,6 +2,7 @@ import { SYSTEM_ID } from "../config.mjs";
 import * as combat from "../rules/combat.mjs";
 import { clearCondition, conditionEffect, setCondition, tickConditions } from "../helpers/effects.mjs";
 import { applyToActor, evaluateTest, gmWhisper } from "./tests.mjs";
+import { tickSleights } from "./psi.mjs";
 
 /**
  * Conditions that follow harm: shock (p. 204), knockdown and unconsciousness (p. 207),
@@ -62,6 +63,7 @@ export async function onCombatRound(combatDoc, changed, options) {
   const actors = new Set(combatDoc.combatants.contents.map(c => c.actor).filter(a => a));
   for ( const actor of actors ) {
     await tickConditions(actor);
+    await tickSleights(actor);
     await bleed(actor);
     await burn(actor);
   }

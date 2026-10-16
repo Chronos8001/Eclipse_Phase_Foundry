@@ -4,24 +4,59 @@
     <select name="system.psiType">{{selectOptions config.psiTypes selected=system.psiType localize=true}}</select>
   </div>
   <div class="form-group">
+    <label>{{localize "EP1E.Sleight.activation"}}</label>
+    <select name="system.activation">{{selectOptions config.psiActivations selected=system.activation localize=true}}</select>
+  </div>
+  <div class="form-group">
     <label>{{localize "EP1E.Sleight.action"}}</label>
     <select name="system.action">{{selectOptions config.actionTypes selected=system.action localize=true}}</select>
   </div>
   <div class="form-group">
     <label>{{localize "EP1E.Sleight.skill"}}</label>
-    <select name="system.skill">{{selectOptions skillChoices selected=system.skill}}</select>
+    <select name="system.skill">{{selectOptions config.psiSkills selected=system.skill localize=true}}</select>
   </div>
   <div class="form-group">
     <label>{{localize "EP1E.Sleight.range"}}</label>
-    <input type="text" name="system.range" value="{{system.range}}">
+    <select name="system.range">{{selectOptions config.psiRanges selected=system.range localize=true}}</select>
   </div>
   <div class="form-group">
     <label>{{localize "EP1E.Sleight.duration"}}</label>
-    <input type="text" name="system.duration" value="{{system.duration}}">
+    <span class="pair">
+      <select name="system.duration">{{selectOptions config.psiDurations selected=system.duration localize=true}}</select>
+      {{#if (eq system.duration "temporary")}}<select name="system.durationUnit">{{selectOptions config.durationUnits selected=system.durationUnit localize=true}}</select>{{/if}}
+    </span>
   </div>
   <div class="form-group">
     <label>{{localize "EP1E.Sleight.strain"}}</label>
-    <input type="text" name="system.strainMod" value="{{system.strainMod}}" placeholder="+1">
+    <input type="number" name="system.strainMod" value="{{system.strainMod}}">
   </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Sleight.strainPerTargetHint">{{localize "EP1E.Sleight.strainPerTarget"}}</label>
+    <input type="number" name="system.strainPerTarget" value="{{system.strainPerTarget}}" min="0">
+  </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Sleight.damageHint">{{localize "EP1E.Sleight.damage"}}</label>
+    <span class="pair">
+      <input type="text" name="system.damage" value="{{system.damage}}" placeholder="1d10 + ceil(@wil / 10)">
+      <select name="system.harm">{{selectOptions config.harmTypes selected=system.harm localize=true}}</select>
+    </span>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Sleight.key"}}</label>
+    <input type="text" name="system.key" value="{{system.key}}">
+  </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Sleight.exsurgentHint">{{localize "EP1E.Sleight.exsurgent"}}</label>
+    <input type="checkbox" name="system.exsurgent" {{checked system.exsurgent}}>
+  </div>
+  {{#if (or (eq system.duration "temporary") (eq system.duration "sustained"))}}
+  <div class="form-group">
+    <label>{{localize "EP1E.Sleight.inUse"}}</label>
+    <span class="pair">
+      <input type="checkbox" name="system.active" {{checked system.active}}>
+      {{#if (eq system.duration "temporary")}}<input type="number" name="system.remaining" value="{{system.remaining}}" min="0" data-tooltip="EP1E.Sleight.remaining">{{/if}}
+    </span>
+  </div>
+  {{/if}}
 </div>
 <p class="hint">{{localize "EP1E.Sleight.hint"}}</p>

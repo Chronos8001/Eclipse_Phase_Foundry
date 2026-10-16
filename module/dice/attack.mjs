@@ -8,7 +8,7 @@ const TEMPLATES = {
 };
 
 const render = (path, data) => foundry.applications.handlebars.renderTemplate(path, data);
-const { DialogV2 } = foundry.applications.api;
+const DialogV2 = () => foundry.applications.api.DialogV2;
 
 /* -------------------------------------------- */
 /*  Attack profile                              */
@@ -37,13 +37,13 @@ export function attackProfile(weapon) {
 }
 
 /** The token representing an actor on the current scene: controlled first, then any active one. */
-function actorToken(actor) {
+export function actorToken(actor) {
   if ( !canvas?.ready ) return null;
   return canvas.tokens.controlled.find(t => t.actor === actor) ?? actor.getActiveTokens()[0] ?? null;
 }
 
 /** Distance in grid units between two tokens, or null off the canvas. */
-function tokenDistance(a, b) {
+export function tokenDistance(a, b) {
   if ( !a || !b ) return null;
   try {
     return canvas.grid.measurePath([a.center, b.center]).distance;
@@ -208,7 +208,7 @@ async function promptAttack(actor, weapon, ctx) {
     groups,
     targets: ctx.targets
   });
-  return DialogV2.wait({
+  return DialogV2().wait({
     window: { title: game.i18n.format("EP1E.Attack.title", { name: ctx.profile.name }), icon: "fa-solid fa-crosshairs" },
     classes: ["ep1e", "ep1e-dialog", "attack-dialog"],
     position: { width: 520 },
@@ -250,7 +250,7 @@ export async function reloadWeapon(weapon) {
     sizes: (sizes.length ? sizes : ["standard"]).map(s => ({ key: s, label: `EP1E.MunitionSize.${s}`, selected: s === w.ammo.size })),
     ammo: w.ammo
   });
-  const result = await DialogV2.prompt({
+  const result = await DialogV2().prompt({
     window: { title: game.i18n.format("EP1E.Reload.title", { name: weapon.name }), icon: "fa-solid fa-rotate" },
     classes: ["ep1e", "ep1e-dialog"],
     content,

@@ -1,5 +1,6 @@
 import { rollSkillTest } from "../dice/tests.mjs";
 import { rollAttack } from "../dice/attack.mjs";
+import { useSleight } from "../dice/psi.mjs";
 import { createMessage } from "../helpers/chat.mjs";
 
 export class EPItem extends Item {
@@ -29,14 +30,8 @@ export class EPItem extends Item {
         });
       case "weapon":
         return rollAttack(this.actor, this, options);
-      case "sleight": {
-        const { target, label } = this.actor.system.getSkillTarget(this.system.skill);
-        return rollSkillTest(this.actor, {
-          label: label ? `${this.name} (${label})` : this.name,
-          target: label ? target : this.actor.system.aptitudes.wil.value,
-          ...options
-        });
-      }
+      case "sleight":
+        return useSleight(this.actor, this, options);
       default:
         return this.toChat();
     }

@@ -28,6 +28,8 @@
     {{#if damageBonus}}<p class="bonus">{{localize "EP1E.Attack.excellent"}} : +{{damageBonus}} DV</p>{{/if}}
     {{#if armorDefeating}}<p class="bonus">{{localize "EP1E.Attack.armorDefeating"}}</p>{{/if}}
     <button type="button" data-ep-action="damage"><i class="fa-solid fa-burst"></i> {{localize "EP1E.Attack.rollDamage"}} ({{#if test.attack.formula}}{{test.attack.formula}}{{else}}{{test.attack.dv}}{{#if test.attack.db}} {{ep1eSigned test.attack.db}}{{/if}}{{/if}}{{#if damageBonus}} +{{damageBonus}}{{/if}})</button>
+    {{else if test.attack.psi}}
+    {{#if result.success}}<p>{{localize "EP1E.Psi.affectsIf"}}</p>{{else}}<p>{{localize "EP1E.Psi.failed"}}</p>{{/if}}
     {{else if result.success}}
     <p>{{localize "EP1E.Attack.noDamage"}}</p>
     {{else}}
