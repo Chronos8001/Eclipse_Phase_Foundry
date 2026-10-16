@@ -129,6 +129,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       augmentations: byType("augmentation"),
       traits: byType("trait"),
       software: byType("software"),
+      substances: byType("substance"),
       intrusions: system.intrusions.map(i => ({
         ...i, alert: ALERTS[i.status], modifier: statusModifier(i.status),
         privilegeLabel: `EP1E.Mesh.privilege.${i.privileges}`

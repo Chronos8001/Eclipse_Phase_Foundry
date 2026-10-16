@@ -1,0 +1,27 @@
+{
+  "_id": "52a90447bde9f4a9",
+  "_key": "!items!52a90447bde9f4a9",
+  "name": "DDR",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "ddr",
+    "category": "narcoalgorithm",
+    "substanceType": "electronic",
+    "application": "",
+    "onset": "",
+    "duration": "",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>Originally crafted by prankster hackers and distributed as a virus, DDR (for “Dance Dance Robot”) triggers impulses in the target’s motor control circuits. Primary targeting robot AIs, the effect is that targets “dance” in jerky, automated movements. Pleasure receptors are also activated so that dancing— and movement of any kind—feels good. Different software variants invoke different motions and styles. The target suffers a –20 modifier on other actions while dancing, but the dancing may be overridden with a WIL x 3 Test.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 323.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 21000,
+  "ownership": {
+    "default": 0
+  }
+}

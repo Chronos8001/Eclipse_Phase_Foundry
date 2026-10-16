@@ -257,3 +257,25 @@ export class SoftwareData extends BaseItemData {
     };
   }
 }
+
+/* -------------------------------------------- */
+
+/** Drugs, chemicals, toxins, pathogens and narcoalgorithms (Core pp. 317-325). */
+export class SubstanceData extends BaseItemData {
+  static defineSchema() {
+    return {
+      ...super.defineSchema(),
+      key: text(),
+      category: choice(["drug", "nanodrug", "narcoalgorithm", "chemical", "toxin", "nanotoxin", "pathogen", "psi"], "drug"),
+      substanceType: choice(["", "chem", "bio", "nano", "electronic"], ""),
+      // Application methods (D dermal, Inh, Inj, O oral), onset and duration as printed
+      application: text(),
+      onset: text(),
+      duration: text(),
+      addictionMod: text(),
+      addictionType: choice(["", "mental", "physical", "both"], ""),
+      cost: text(),
+      quantity: int(1, { min: 0 })
+    };
+  }
+}

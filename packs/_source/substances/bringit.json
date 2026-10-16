@@ -1,0 +1,27 @@
+{
+  "_id": "0ddb03d35576ee88",
+  "_key": "!items!0ddb03d35576ee88",
+  "name": "BringIt",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "bringit",
+    "category": "drug",
+    "substanceType": "bio",
+    "application": "Inh, Inj, O",
+    "onset": "1 minute",
+    "duration": "15 minutes",
+    "addictionMod": "+10",
+    "addictionType": "physical",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>In some respects more a social than a combat drug, BringIt stimulates massive bursts of aggression pheromones designed to make the user the center of attention in a fight. In combat, opponents within 3 meters of the character not already in unarmed or melee combat with another character must pass a WIL x 3 Test or attack the character using BringIt. The nature of airborne pheromones is imprecise, however, so if the character using BringIt is within 1 meter of another character hostile to the character affected, the affected character may opt to attack the proximate character instead of the BringIt user. Characters using this drug suffer a –20 modifier on social skill tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 319.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

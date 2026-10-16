@@ -1,0 +1,27 @@
+{
+  "_id": "f1d15e7b814e8b0e",
+  "_key": "!items!f1d15e7b814e8b0e",
+  "name": "Juice",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "juice",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "O, Inh",
+    "onset": "20 minutes",
+    "duration": "8 hours",
+    "addictionMod": "",
+    "addictionType": "mental",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>This potent anti-depressant makes it almost impossible to have bad feelings or negative thoughts. The character is unnaturally happy—often irritatingly or strangely so. The character receives a +30 bonus against fear or attempts to manipulate their emotions in a negative direction, but is also likely to act inappropriately, like giggling over the massive amount of spilled blood or cheerfully changing the subject to inane topics when someone else is freaking out.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 321.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  }
+}

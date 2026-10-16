@@ -113,6 +113,13 @@ export const EP1E = {
     scorcher: "EP1E.Software.scorcher",
     skillsoft: "EP1E.Software.skillsoft"
   },
+  substanceCategories: {
+    drug: "EP1E.Substance.drug", nanodrug: "EP1E.Substance.nanodrug", narcoalgorithm: "EP1E.Substance.narcoalgorithm",
+    chemical: "EP1E.Substance.chemical", toxin: "EP1E.Substance.toxin", nanotoxin: "EP1E.Substance.nanotoxin",
+    pathogen: "EP1E.Substance.pathogen", psi: "EP1E.Substance.psi"
+  },
+  substanceTypes: { "": "—", chem: "EP1E.Substance.chem", bio: "EP1E.Substance.bio", nano: "EP1E.Substance.nano", electronic: "EP1E.Substance.electronic" },
+  addictionTypes: { "": "—", mental: "EP1E.Substance.mental", physical: "EP1E.Substance.physical", both: "EP1E.Substance.both" },
   softwareHarms: { none: "EP1E.Software.harmNone", damage: "EP1E.Sleight.harmDamage", stress: "EP1E.Sleight.harmStress" },
   scorchEffects: { "": "EP1E.Software.harmNone", nightmare: "EP1E.Mesh.nightmare", shutter: "EP1E.Mesh.shutter", spasm: "EP1E.Mesh.spasm" },
   augmentationTypes: {

@@ -13,7 +13,8 @@
       "gear": "Équipement",
       "augmentation": "Augmentation",
       "sleight": "Pouvoir psi",
-      "software": "Logiciel"
+      "software": "Logiciel",
+      "substance": "Substance"
     }
   },
   "EP1E": {
@@ -49,7 +50,8 @@
       "biography": "Biographie",
       "notes": "Notes",
       "intrusions": "Intrusions",
-      "software": "Logiciels"
+      "software": "Logiciels",
+      "substances": "Drogues et substances"
     },
     "Actor": { "name": "Nom" },
     "Aptitude": {
@@ -715,6 +717,41 @@
       "aiHint": "Les IA n'utilisent pas les compétences par défaut et n'ont pas de Moxie (p. 264).",
       "aiOf": "{name} ({owner})",
       "aiCreated": "{name} créé."
+    },
+    "Substance": {
+      "none": "Aucune substance.",
+      "category": "Catégorie",
+      "type": "Type",
+      "drug": "Drogue",
+      "nanodrug": "Nanodrogue",
+      "narcoalgorithm": "Narcoalgorithme",
+      "chemical": "Produit chimique",
+      "toxin": "Toxine",
+      "nanotoxin": "Nanotoxine",
+      "pathogen": "Pathogène",
+      "psi": "Drogue psi",
+      "chem": "Chimique",
+      "bio": "Biologique",
+      "nano": "Nano",
+      "electronic": "Électronique",
+      "mental": "Mentale",
+      "physical": "Physique",
+      "both": "Mentale et physique",
+      "application": "Application",
+      "applicationHint": "D cutané, Inh inhalé, Inj injecté, O oral (p. 317).",
+      "onset": "Délai d'action",
+      "duration": "Durée",
+      "durationHint": "Les effets durent ce temps une fois la dose prise : décomptés à chaque tour en combat, et en temps du monde.",
+      "addiction": "Addiction",
+      "takeHint": "Prendre une dose (applique ses effets pour la durée)",
+      "noneLeft": "Plus de {name}.",
+      "taken": "{name} prend {substance}",
+      "onsetIn": "délai {onset}",
+      "lasts": "dure {duration}",
+      "addictionTest": "Addiction : VOL × 3 ({modifier})",
+      "addictionLabel": "Addiction à {name} (VOL × 3)",
+      "addicted": "{name} devient dépendant à {substance} : ajoutez ou augmentez le trait Addiction (p. 148).",
+      "hint": "Les effets constants pendant l'effet sont des effets actifs de l'objet (désactivés tant que la dose n'est pas prise). Les effets conditionnels sont dans la description."
     }
   }
 }

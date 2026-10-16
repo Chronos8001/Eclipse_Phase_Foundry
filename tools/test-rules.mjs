@@ -4,6 +4,7 @@ import { evaluateTest, flipFlop } from "../module/dice/tests.mjs";
 import * as combat from "../module/rules/combat.mjs";
 import * as psi from "../module/rules/psi.mjs";
 import * as mesh from "../module/rules/mesh.mjs";
+import * as gear from "../module/rules/gear.mjs";
 
 const t = (value, target, moxie = null) => evaluateTest({ value, target, moxie });
 
@@ -202,5 +203,18 @@ assert.equal(mesh.statusAfterTest("covert", t(50, 40)), "covert");     // simple
 assert.equal(mesh.scriptSteps(70), 7);
 assert.equal(mesh.crashTests("ai"), 2);
 assert.equal(mesh.crashTests("agi"), 3);
+
+// --- Gear: substance durations and addiction (pp. 317-325)
+assert.equal(gear.durationTurns("20 minutes"), 400);
+assert.equal(gear.durationTurns("3 Action Turns"), 3);
+assert.equal(gear.durationTurns("8 hours"), 9600);
+assert.equal(gear.durationTurns("1 day"), 28800);
+assert.equal(gear.durationTurns("2 hours–1 day"), 2400);
+assert.equal(gear.durationTurns("3 Action Turns/1 hour"), 3);
+assert.equal(gear.durationTurns("special"), null);
+assert.equal(gear.durationTurns("death"), null);
+assert.equal(gear.addictionTarget(15, "–10"), 35);
+assert.equal(gear.addictionTarget(15, "+10"), 55);
+assert.equal(gear.addictionTarget(15, ""), 45);
 
 console.log("Rules checks passed.");

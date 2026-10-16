@@ -1,0 +1,51 @@
+{
+  "_id": "be30812100f2b870",
+  "_key": "!items!be30812100f2b870",
+  "name": "Drive",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "drive",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "O",
+    "onset": "20 minutes",
+    "duration": "8 hours",
+    "addictionMod": "",
+    "addictionType": "mental",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>This nootropic speeds up left-right brain hemisphere communication, stimulates idea production, and improves concentration, with no usual side effects. Users receive a +5 bonus to COG while the drug lasts.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 318.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "e7893ac04d7b6b01",
+      "_key": "!items.effects!be30812100f2b870.e7893ac04d7b6b01",
+      "name": "Drive",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.aptitudes.cog.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "0ecad637085aa025",
+  "_key": "!items!0ecad637085aa025",
+  "name": "NotWater",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "notwater",
+    "category": "chemical",
+    "substanceType": "",
+    "application": "",
+    "onset": "",
+    "duration": "",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Trivial",
+    "quantity": 1,
+    "description": "<p>NotWater is an effective liquid fire retardant that does not get objects wet, no matter how absorbent they are—it simply beads up and slides right off.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 323.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 26000,
+  "ownership": {
+    "default": 0
+  }
+}

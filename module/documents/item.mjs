@@ -1,6 +1,7 @@
 import { rollSkillTest } from "../dice/tests.mjs";
 import { rollAttack } from "../dice/attack.mjs";
 import { useSleight } from "../dice/psi.mjs";
+import { takeSubstance } from "../dice/substances.mjs";
 import { createMessage } from "../helpers/chat.mjs";
 
 export class EPItem extends Item {
@@ -32,6 +33,8 @@ export class EPItem extends Item {
         return rollAttack(this.actor, this, options);
       case "sleight":
         return useSleight(this.actor, this, options);
+      case "substance":
+        return takeSubstance(this);
       default:
         return this.toChat();
     }

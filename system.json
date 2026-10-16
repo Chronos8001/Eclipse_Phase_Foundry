@@ -61,6 +61,14 @@
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
+      "name": "substances",
+      "label": "Drugs and Toxins (Core)",
+      "path": "packs/substances",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
       "name": "software",
       "label": "Software (Core)",
       "path": "packs/software",
@@ -81,7 +89,7 @@
     {
       "name": "Eclipse Phase",
       "sorting": "m",
-      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "software", "sleights"]
+      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "substances", "software", "sleights"]
     }
   ],
   "documentTypes": {
@@ -98,7 +106,8 @@
       "gear": { "htmlFields": ["description"] },
       "augmentation": { "htmlFields": ["description"] },
       "sleight": { "htmlFields": ["description"] },
-      "software": { "htmlFields": ["description"] }
+      "software": { "htmlFields": ["description"] },
+      "substance": { "htmlFields": ["description"] }
     }
   },
   "socket": true,

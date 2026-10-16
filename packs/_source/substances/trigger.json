@@ -1,0 +1,27 @@
+{
+  "_id": "21a91bbec9b8d04b",
+  "_key": "!items!21a91bbec9b8d04b",
+  "name": "Trigger",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "trigger",
+    "category": "pathogen",
+    "substanceType": "",
+    "application": "",
+    "onset": "",
+    "duration": "",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Expensive",
+    "quantity": 1,
+    "description": "<p>Trigger is a designer virus that selectively targets and infects mast cells to trigger a hyper-allergic reaction. The resulting anaphylactic shock due to systemic vasodilatation (associated with a sudden drop in blood pressure) and bronchial swelling (resulting in constriction and difficulty breathing) usually leads to death in a matter of minutes after onset, if not treated. Infected characters must succeed in a DUR Test (using their current Durability score minus damage) or die quickly. Even medichines have difficulty reacting in time against this virus; characters with medichines must make a DUR x 2 Test to survive.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 324.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 41000,
+  "ownership": {
+    "default": 0
+  }
+}

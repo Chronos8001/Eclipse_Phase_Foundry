@@ -7,6 +7,7 @@ import { blastRecipients, renderTargets, resolveTargets, rollDefense, rollScatte
 import { applyShockConditions, isBiological, rollShock, updateHealthConditions } from "./conditions.mjs";
 import { rollSeizureTest } from "./psi.mjs";
 import { scorchEffect } from "./mesh.mjs";
+import { rollAddictionTest } from "./substances.mjs";
 
 const TEMPLATES = {
   dialog: `systems/${SYSTEM_ID}/templates/dialog/test.hbs`,
@@ -406,6 +407,12 @@ async function handleChatAction(message, dataset, event) {
       const target = test?.attack?.targets?.find(t => t.tokenUuid === dataset.tokenUuid);
       const actor = target ? await fromUuid(target.actorUuid) : null;
       if ( actor?.isOwner ) return scorchEffect(actor, test.attack.effect, { excellent: evaluateTest(test).excellent });
+      return;
+    }
+    case "addictionTest": {
+      const actor = await fromUuid(dataset.actorUuid);
+      const item = actor?.items.get(dataset.itemId);
+      if ( actor?.isOwner && item ) return rollAddictionTest(actor, item);
       return;
     }
     case "seizureTest": {

@@ -13,7 +13,8 @@
       "gear": "Gear",
       "augmentation": "Augmentation",
       "sleight": "Psi Sleight",
-      "software": "Software"
+      "software": "Software",
+      "substance": "Substance"
     }
   },
   "EP1E": {
@@ -49,7 +50,8 @@
       "biography": "Biography",
       "notes": "Notes",
       "intrusions": "Intrusions",
-      "software": "Software"
+      "software": "Software",
+      "substances": "Drugs and substances"
     },
     "Actor": { "name": "Name" },
     "Aptitude": {
@@ -715,6 +717,41 @@
       "aiHint": "AIs cannot default to aptitudes and have no Moxie (p. 264).",
       "aiOf": "{name} ({owner})",
       "aiCreated": "{name} created."
+    },
+    "Substance": {
+      "none": "No substances.",
+      "category": "Category",
+      "type": "Type",
+      "drug": "Drug",
+      "nanodrug": "Nanodrug",
+      "narcoalgorithm": "Narcoalgorithm",
+      "chemical": "Chemical",
+      "toxin": "Toxin",
+      "nanotoxin": "Nanotoxin",
+      "pathogen": "Pathogen",
+      "psi": "Psi drug",
+      "chem": "Chemical",
+      "bio": "Biological",
+      "nano": "Nano",
+      "electronic": "Electronic",
+      "mental": "Mental",
+      "physical": "Physical",
+      "both": "Mental and physical",
+      "application": "Application",
+      "applicationHint": "D dermal, Inh inhaled, Inj injected, O oral (p. 317).",
+      "onset": "Onset time",
+      "duration": "Duration",
+      "durationHint": "Effects last this long once taken: counted down each Action Turn in combat, and in world time.",
+      "addiction": "Addiction",
+      "takeHint": "Take a dose (applies its effects for the duration)",
+      "noneLeft": "No {name} left.",
+      "taken": "{name} takes {substance}",
+      "onsetIn": "onset {onset}",
+      "lasts": "lasts {duration}",
+      "addictionTest": "Addiction: WIL x 3 ({modifier})",
+      "addictionLabel": "Addiction to {name} (WIL x 3)",
+      "addicted": "{name} is addicted to {substance}: add or raise the Addiction trait (p. 148).",
+      "hint": "Constant effects while under the influence are active effects of the item (disabled until taken). Conditional effects are in the description."
     }
   }
 }

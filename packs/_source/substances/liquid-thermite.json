@@ -1,0 +1,27 @@
+{
+  "_id": "00672f950a5f02b1",
+  "_key": "!items!00672f950a5f02b1",
+  "name": "Liquid Thermite",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "liquidThermite",
+    "category": "chemical",
+    "substanceType": "",
+    "application": "",
+    "onset": "",
+    "duration": "",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Moderate",
+    "quantity": 1,
+    "description": "<p>Similar to scrapper’s gel, liquid thermite comes in a gel form that is easily applied under all environmental conditions (by the nature of its chemical reaction, thermite is oxygenated and will burn underwater or in space). It is ignited with an electric charge, burning at temperatures exceeding 2,500 degrees Celsius and melting through whatever it is touching. Liquid thermite inflicts 3d10 + 5 DV per Action turn to whatever it is touching. Armor will also be burnt through, offering no protection once the full Armor rating has been reached.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 323.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 25000,
+  "ownership": {
+    "default": 0
+  }
+}

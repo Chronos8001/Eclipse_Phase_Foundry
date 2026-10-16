@@ -1,0 +1,27 @@
+{
+  "_id": "45ec6d456d470e54",
+  "_key": "!items!45ec6d456d470e54",
+  "name": "Nervex",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "nervex",
+    "category": "toxin",
+    "substanceType": "chem",
+    "application": "D, Inh, Inj, O",
+    "onset": "1 minute",
+    "duration": "death",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "High",
+    "quantity": 1,
+    "description": "<p>Derived from deadly nerve agents like cyclosarin, VX, and novichok, this genetically-modified toxin is deployed as a colorless, odorless gas that turns safely inert 10 minutes after deployment. It causes involuntary contraction of the muscles, seizures, and death by respiratory failure. One minute after exposure, the character must make a SOM Test or be incapacitated by seizures, paralysis, or nausea and vomiting; unaffected characters still suffer a –20 modifier to all actions. After 10 minutes, the character will die unless an antidote (such as atropine, p. 323) is applied. Characters with medichines suffer the initial effects, but recover after 5 minutes.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 324.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 33000,
+  "ownership": {
+    "default": 0
+  }
+}

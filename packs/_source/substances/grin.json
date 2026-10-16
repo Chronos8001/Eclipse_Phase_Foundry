@@ -1,0 +1,58 @@
+{
+  "_id": "5d8f5f5a1ef12721",
+  "_key": "!items!5d8f5f5a1ef12721",
+  "name": "Grin",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "grin",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "Inh, Inj, O",
+    "onset": "3 Action Turns",
+    "duration": "3 hours",
+    "addictionMod": "–10",
+    "addictionType": "physical",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>Grin is an effective opiate and pain suppressant. Users may ignore the –10 modifiers from 2 wounds (not cumulative with similar effects), and in fact may not even be aware they are injured. Grin users suffer from tunnel vision, however, and so suffer a –10 modifier on Perception Tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 319.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "1cb9eb93ef5cf849",
+      "_key": "!items.effects!5d8f5f5a1ef12721.1cb9eb93ef5cf849",
+      "name": "Grin",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.mods.woundsIgnored",
+          "mode": 2,
+          "type": "add",
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.skillMods.perception",
+          "mode": 2,
+          "type": "add",
+          "value": "-10",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

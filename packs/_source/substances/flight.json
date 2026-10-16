@@ -1,0 +1,27 @@
+{
+  "_id": "8987609b459c49f0",
+  "_key": "!items!8987609b459c49f0",
+  "name": "Flight",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "flight",
+    "category": "toxin",
+    "substanceType": "bio",
+    "application": "Inh",
+    "onset": "3 Action Turns",
+    "duration": "1 hour",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>This drug is derived from human pheromones released due to fear, and is intended to instill alarm or even terror in the character. Affected characters must make a WIL x 3 Test (+30 with medichines) or suffer a panic attack, inflicting 1d10 stress. Dosed characters also suffer a –30 modifier for resisting intimidation or fear-based emotional manipulations. Flight affects last for 1 hour (5 minutes with medichines).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 324.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 32000,
+  "ownership": {
+    "default": 0
+  }
+}

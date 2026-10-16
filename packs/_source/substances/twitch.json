@@ -1,0 +1,27 @@
+{
+  "_id": "6a1d12b5a722675a",
+  "_key": "!items!6a1d12b5a722675a",
+  "name": "Twitch",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "twitch",
+    "category": "toxin",
+    "substanceType": "chem",
+    "application": "D, Inh, Inj, O",
+    "onset": "3 Action Turns",
+    "duration": "10 minutes",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>Twitch is a convulsive agent, a nonlethal nerve gas. Affected characters must succeed in a SOM Test (+30 with medichines) or become incapacitated with severe muscle tremors. Unaffected characters still suffer a –20 on all actions. The effects of Twitch last for 10 minutes, 5 if the character has medichines.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 324.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 35000,
+  "ownership": {
+    "default": 0
+  }
+}

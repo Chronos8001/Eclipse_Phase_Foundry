@@ -1,0 +1,27 @@
+{
+  "_id": "eb06c437c7937dcd",
+  "_key": "!items!eb06c437c7937dcd",
+  "name": "Frequency",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "frequency",
+    "category": "nanodrug",
+    "substanceType": "nano",
+    "application": "Inj, O",
+    "onset": "",
+    "duration": "8 hours",
+    "addictionMod": "–10",
+    "addictionType": "mental",
+    "cost": "Moderate",
+    "quantity": 1,
+    "description": "<p>Frequency (or Freeq) is a nanodrug designed as a tool for scientific visualization. It releases a small swarm of nanobots into the character’s bloodstream that settle in the epidermis, where they act as sensors of electromagnetic radiation. This sensory input is then injected into the character’s visual and tactile sensoria, hitting the user with a sequence of novel stimuli, typically a light show or weird tactile sensations. Aside from its recreational uses, Frequency is good at picking up on localized field radiation with a standard Perception Test. A character can take advantage of this to spot sensors and hidden electronics. Similar to now-obsolete 20th-century hallucinogens like LSD and psilocybin, however, a Frequency trip can be disorienting and upsetting (the gamemaster should apply any modifiers, mental stress, or even trauma as they feel appropriate). Characters typically experience a period about 1/3 of the way through their trip in which sensory input is extremely intense; during this period, which usually lasts about 2 hours, they are unable to read.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 321.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

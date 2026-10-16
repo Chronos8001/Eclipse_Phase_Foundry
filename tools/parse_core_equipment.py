@@ -17,7 +17,8 @@ SOURCE = "Eclipse Phase Core Rulebook"
 JUNK = re.compile(r"^((\d?\.\d+)+\.?\d*|\d{1,3}|gear|Synopsis Welcome to Firewall|A Time of Eclipse.*|Skills Action and Combat|"
                   r"Mind Hacks The Mesh|Accelerated Future Gear|Running the Game Reference|Skills|Action and Combat|"
                   r"Skills Action and Combat.*)$")
-ENTRY = re.compile(r"^([A-Z][\w’'/&()+-]*(?: [\w’'/&()+-]+){0,5}):\s+(.*)$")
+# "Name: text" (BTX prints a space before the colon)
+ENTRY = re.compile(r"^([A-Z][\w’'/&()+-]*(?: [\w’'/&()+-]+){0,5})\s?:\s+(.*)$")
 
 # Augmentations (pp. 300-312): (heading that opens the section, augType)
 AUG_FIRST, AUG_LAST = 302, 314
@@ -63,7 +64,7 @@ SITUATIONAL = {
     "Adrenal Boost": [("system.mods.woundsIgnored", 1), (APT("ref"), 10)],
 }
 
-PACK_IMG = {"augmentation": "icons/svg/upgrade.svg"}
+PACK_IMG = {"augmentation": "icons/svg/upgrade.svg", "substance": "icons/svg/pill.svg"}
 
 
 def page_lines(first, last):
@@ -89,25 +90,31 @@ def join(parts):
     return re.sub(r"\s+", " ", text).replace("•", " • ").replace("  ", " ")
 
 
-def skip_blocks(tagged, blocks):
-    """Drop the lines of each block, from its first line to the line starting with its end text."""
-    out, skipping = [], None
+def skip_blocks(tagged, blocks, removed=None):
+    """Drop the lines of each block, from the line starting with its first text to the line starting with its end text.
+    The text of each removed block is stored in removed[first text]."""
+    out, skipping, current = [], None, None
     for line, page in tagged:
         if skipping is None:
-            block = next((b for b in blocks if line == b[0]), None)
+            block = next((b for b in blocks if line.startswith(b[0])), None)
             if block:
-                skipping = block[1]
+                skipping, current = block[1], block[0]
+                if removed is not None:
+                    removed[current] = line
                 continue
             out.append((line, page))
-        elif line.startswith(skipping):
-            skipping = None
+        else:
+            if removed is not None:
+                removed[current] += " " + line
+            if line.startswith(skipping):
+                skipping = None
     return out
 
 
-def entries(first, last, sections, end, headed=frozenset(), subheadings=frozenset(), skip=()):
+def entries(first, last, sections, end, headed=frozenset(), subheadings=frozenset(), skip=(), removed=None):
     """[{category, name, text, page}] of the entries between the first section heading and the end.
     end: (heading, previous heading): the first such heading found after the previous one."""
-    tagged = skip_blocks(page_lines(first, last), skip)
+    tagged = skip_blocks(page_lines(first, last), skip, removed)
     heads = dict(sections)
     start = next(i for i, (l, _) in enumerate(tagged) if l == sections[0][0])
     after = next(i for i, (l, _) in enumerate(tagged) if (i > start) and (l == end[1]))
@@ -211,3 +218,88 @@ if "--summary" in sys.argv:
         fx = "; ".join(f"{c['key'].split('.')[-2] if c['key'].endswith('.mod') else c['key'].split('.')[-1]} {c['value']}"
                        for e in d["effects"] for c in e["changes"])
         print(f"{d['name'][:34]:34} {s['augType']:9} {s['cost'][:22]:22} {len(s['description']):5} {fx}")
+
+
+# ---------------------------------------------------------------- Substances (pp. 317-325)
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"))
+import core_substances as SUBST  # noqa: E402
+
+SUB_FIRST, SUB_LAST = 318, 327
+SUB_SECTIONS = [
+    ("Cognitive Drugs", "drug"), ("Combat Drugs", "drug"), ("Health Drugs", "drug"), ("Recreational Drugs", "drug"),
+    ("Social Drugs", "drug"), ("Nanodrugs", "nanodrug"), ("Narcoalgorithms", "narcoalgorithm"), ("Chemicals", "chemical"),
+    ("Toxins", "toxin"), ("Nanotoxins", "nanotoxin"), ("Pathogens", "pathogen"), ("Psi Drugs", "psi"),
+]
+SUB_END = ("Everyday Technology", "Psi Drugs")
+# Tables and sidebars printed among the entries: (start of the first line, start of the last line)
+SUB_TABLES = {"drugs": ("Cognitive Drugs Drive", "Mental Physical Mental"),
+              "nanodrugs": ("Nanodrugs Frequency", "Addiction Type"),
+              "toxins": ("Chemical Toxins BTX", "6 hours 1 hour 1 hour")}
+SUB_SKIP = list(SUB_TABLES.values()) + [("Other Nanodrugs", "Nanodrugs have the capability"),
+                                        ("Sample Petals", "perhaps 40 hours.")]
+SUB_HEADED = {"Petals"}
+
+# Effects while under the influence (switched on when the substance is taken): constant bonuses from the text
+SUB_EFFECTS = {
+    "Drive": [(APT("cog"), 5)],
+    "Klar": [(APT("int"), 5)],
+    "Kick": [(APT("ref"), 10), ("system.mods.spd", 1)],
+    "MRDR": [(APT("som"), 10), ("system.mods.spd", 1), ("system.mods.dur", 10), ("system.mods.woundsIgnored", 1)],
+    "Grin": [("system.mods.woundsIgnored", 2), (SKILL("perception"), -10)],
+    "Phlo": [(APT("coo"), 5), (SKILL("perception"), 10)],
+    "Comfurt": [("system.mods.traumasIgnored", 1), ("system.mods.luc", 5)],
+    "Orbital Hash": [("system.mods.traumasIgnored", 1)],
+    "Mono No Aware": [(SKILL("art"), 10), (SKILL("sense"), 10)],
+    "Psike-Out": [(SKILL("control"), 20), (SKILL("psiAssault"), 20), (SKILL("sense"), 20)],
+    "Inhibitor": [(APT("cog"), -10)],
+    "CR Gas": [("system.mods.actions", -20)],
+}
+
+
+def check_table(name, row, text):
+    """Every cell of a transcribed row must appear in the extracted text of its table."""
+    flat = re.sub(r"\s+", " ", text).replace("–", "-").replace("—", "-").lower()
+    for cell in (SUBST.TABLE_NAMES.get(name, name),) + row[:4]:
+        if cell and cell.replace("–", "-").lower() not in flat:
+            raise SystemExit(f"Transcribed cell {cell!r} of {name} not found in its table text")
+
+
+def substances():
+    removed = {}
+    found = entries(SUB_FIRST, SUB_LAST, SUB_SECTIONS, SUB_END, SUB_HEADED, frozenset(), SUB_SKIP, removed)
+    tables = {k: removed.get(v[0], "") for k, v in SUB_TABLES.items()}
+    stats = {**SUBST.DRUGS, **SUBST.NANODRUGS, **SUBST.TOXINS}
+    for name, row in SUBST.DRUGS.items():
+        check_table(name, row, tables["drugs"])
+    for name, row in SUBST.NANODRUGS.items():
+        check_table(name, row, tables["nanodrugs"])
+    for name, row in SUBST.TOXINS.items():
+        check_table(name, row, tables["toxins"])
+    docs = []
+    for n, e in enumerate(found):
+        desc, cost = split_cost(e["text"])
+        row = stats.get(e["name"], ("electronic" if e["category"] == "narcoalgorithm" else "", "", "", "", "", ""))
+        system = {
+            "key": key(e["name"]), "category": e["category"], "substanceType": row[0], "application": row[1],
+            "onset": row[2], "duration": row[3], "addictionMod": row[4], "addictionType": row[5],
+            "cost": cost, "quantity": 1,
+            "description": f"<p>{html.escape(desc, quote=False)}</p><p><em>Source: {SOURCE}, p. {e['page']}.</em></p>",
+        }
+        d = doc("substances", e["name"], "substance", system, (n + 1) * 1000)
+        if SUB_EFFECTS.get(e["name"]):
+            d["effects"] = [effect("substances", e["name"], SUB_EFFECTS[e["name"]], disabled=True)]
+        docs.append(d)
+    missing = set(stats) - {d["name"] for d in docs}
+    if missing:
+        raise SystemExit(f"Table rows without a description: {sorted(missing)}")
+    return docs
+
+
+subs = substances()
+write("substances", subs)
+if "--summary" in sys.argv:
+    for d in subs:
+        s = d["system"]
+        print(f"{d['name'][:22]:22} {s['category']:14} {s['substanceType']:10} {s['application']:15} {s['onset']:14} "
+              f"{s['duration']:20} {s['addictionMod']:10} {s['addictionType']:9} {s['cost'][:12]:12} {len(s['description'])}")

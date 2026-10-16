@@ -1,0 +1,51 @@
+{
+  "_id": "592f073e38e2b5cd",
+  "_key": "!items!592f073e38e2b5cd",
+  "name": "CR Gas",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "crGas",
+    "category": "toxin",
+    "substanceType": "chem",
+    "application": "D, Inh",
+    "onset": "1 Action Turn",
+    "duration": "20 minutes",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>This potent incapacitating agent causes eye twitching and temporary blindness, severe coughing and breathing difficulty, skin irritation, and panic. Affected characters suffer 1d10 ÷ 2 damage, a –30 modifier to sight-based Perception Tests, and a –20 modifier to all other actions for 20 minutes (5 minutes if the character has medichines).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 324.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "e19f03ad3ccdb903",
+      "_key": "!items.effects!592f073e38e2b5cd.e19f03ad3ccdb903",
+      "name": "CR Gas",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.mods.actions",
+          "mode": 2,
+          "type": "add",
+          "value": "-20",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 31000,
+  "ownership": {
+    "default": 0
+  }
+}

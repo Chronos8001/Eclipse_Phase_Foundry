@@ -1,0 +1,27 @@
+{
+  "_id": "9e8e07444f5c50a8",
+  "_key": "!items!9e8e07444f5c50a8",
+  "name": "Buzz",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "buzz",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "Inh, O",
+    "onset": "1 hour",
+    "duration": "36 hours",
+    "addictionMod": "",
+    "addictionType": "mental",
+    "cost": "Moderate",
+    "quantity": 1,
+    "description": "<p>This gene-modified variant of BZ is an odorless, invisible, extremely powerful hallucinogen. Users or affected characters will undergo extremely realistic hallucinations for the duration, and may even “share” hallucinations with other affected characters. Characters will suffer a –30 modifier to any tests to remember what occurred while under the influence.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 320.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  }
+}
