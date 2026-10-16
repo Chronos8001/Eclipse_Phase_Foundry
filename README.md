@@ -34,10 +34,11 @@ Copiez ou liez le dossier dans `Data/systems/ep1e` (le dossier doit s'appeler `e
 - **Statuts** de jeton : sonné (−30), défense totale (+30), au sol, inconscient, neutralisé, saignement, en feu, maîtrisé, aveuglé, mort ; leurs durées avancent à chaque tour de combat. Les couches d'armure donnent −20 par couche après la première.
 - **Psi** (p. 220-228) : sleights actifs et passifs, test opposé à VOL × 2 (+30 pour les pods, Bouclier psi, traits Psi Defense/Vulnerability, défense psi totale), portée Proche, tension par cible (aucune pour les exsurgents), pouvoirs temporaires (VOL ÷ 5) et maintenus (−10), Pénétration, Psychic Stab et Onslaught, crise sur échec critique ; trait Psi : niveau requis et Seuil de traumatisme −1.
 - **Mesh et piratage** (p. 246-262) : onglet Mesh avec les intrusions en cours ; piratage (pare-feu, privilèges, qualité de l'exploit et du pare-feu, en force, usurpation, cyberbrain −30) et test opposé au gardien → statut caché / discret / repéré / verrouillé et alertes ; subversion modifiée par le statut, avec dégradation sur échec grave ou critique ; scorchers contre l'ego d'un cyberbrain piraté ; création d'acteurs IA et muses à partir des logiciels.
+- **Équipement** (p. 294-342) : augmentations avec leurs bonus en effets actifs (aptitudes, armure, vitesse, initiative, blessures ignorées, compétences via `system.skillMods`) ; drogues et toxines (prise d'une dose, effets pour la durée, test d'addiction VOL × 3) ; munitions cinétiques (modificateurs de PA et VD, demi-dégâts, armure doublée, choc) choisies au rechargement.
 - **Stress** et traumatismes, appliqués de la même façon.
 - **Initiative** : d100 + INIT, réduite par les blessures.
 - **Effets actifs** sur acteurs et objets (implants, traits...).
-- **Compendiums** : les 127 morphes du *Morph Recognition Guide* (variantes, modules flexbot et eidolons inclus), les traits, armes et armures du livre de base, les 65 sleights du livre de base, de *Transhuman* et de *X-Risks*, et les 20 logiciels du livre de base.
+- **Compendiums** : les 127 morphes du *Morph Recognition Guide* (variantes, modules flexbot et eidolons inclus), les traits, armes et armures du livre de base, les 65 sleights du livre de base, de *Transhuman* et de *X-Risks*, et tout l'équipement du livre de base : 107 augmentations, 129 objets (dont 19 munitions), 44 drogues et toxines, 20 logiciels.
 - Interface en **français** et **anglais**.
 
 ## Structure
@@ -49,7 +50,7 @@ Copiez ou liez le dossier dans `Data/systems/ep1e` (le dossier doit s'appeler `e
 | `packs/_source/` | Sources JSON des compendiums |
 | `tools/` | Compilation des packs, vérifications, extraction depuis les PDF |
 
-Les sources des compendiums ont été extraites des livres avec `tools/parse_mrg.py` (morphes), `tools/parse_core.py` (traits), `tools/parse_core_gear.py` (armes, armures) `tools/parse_sleights.py` (sleights) et `tools/parse_core_software.py` (logiciels). Les scripts d'extraction nécessitent vos PDF et `pdftotext`.
+Les sources des compendiums ont été extraites des livres avec `tools/parse_mrg.py` (morphes), `tools/parse_core.py` (traits), `tools/parse_core_gear.py` (armes, armures) `tools/parse_sleights.py` (sleights), `tools/parse_core_software.py` (logiciels) et `tools/parse_core_equipment.py` (augmentations, équipement, substances). Les tableaux illisibles par `pdftotext` (substances, munitions) sont transcrits dans `tools/data/` et vérifiés cellule par cellule contre le texte du tableau. Les scripts d'extraction nécessitent vos PDF et `pdftotext`.
 
 ## Licence
 
