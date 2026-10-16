@@ -1,0 +1,47 @@
+{
+  "_id": "a8b6c4db494c73b8",
+  "_key": "!items!a8b6c4db494c73b8",
+  "name": "Antimatter Grenade",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "key": "antimatterGrenade",
+    "cost": "Expensive; Only Available at Gamemaster Discretion",
+    "description": "<p>Sometimes, Firewall operatives are faced with a situation where defeating an exsurgent threat is impossible and total destruction of the incursion is the only effective option. Antimatter grenades are ideal tools for this task. This weapon comes in two versions, large and small. The large grenade contains 0.1 grams of antimatter, which is sufficient to create a 5-kiloton blast. In its standard setting, the explosion destroys everything within 1 kilometer of the device, and causes severe damage for up to 2 kilometers. This device will completely destroy any habitat up to 5 kilometers across. The small grenade contains 0.0002 grams of antimatter, which is sufficient to create a blast equivalent to 10 tons of TNT. In its standard setting, the explosion destroys everything within 150 meters of the device and severe damage for up to 300 meters. Both weapons can blast a hole through the hull of any habitat and will destroy any spacecraft they are detonated on. Antimatter grenades are highly illegal almost everywhere and possession of one is grounds for severe punishment in most of the solar system. Both weapons can also be set to generate a brief but intense magnetic field a fraction of a second before the blast, which somewhat directs the explosion. Used in this manner, the large device has a blast radius that only extends 400 meters in the protected direction, and the small device has a blast radius that only extends 60 meters in the protected direction. The large antimatter grenade has a mass of 3 kilograms and is a rounded box roughly 10 centimeters on a side; the small antimatter grenade has a mass of 0.5 kilograms and is a box roughly 5 centimeters on a side. Both of these devices can only be detonated using a mini-sized detonator containing a tiny qubit reservoir that contains a QE comm, which transmits to the tiny qubit reservoir in the device. The device can be detonated immediately or set to go off at a predetermined time. The user can also deactivate the device at any time before it explodes. Because of the massive destruction involved, Firewall only uses these devices as a last resort. Antimatter grenades are handled with Demolitions skill.</p><p><em>Source: Eclipse Phase Firewall, p. 178.</em></p>",
+    "weaponType": "ranged",
+    "skill": "demolitions",
+    "ap": 0,
+    "dv": "",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0,
+      "loaded": "",
+      "size": ""
+    },
+    "range": "",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "none",
+      "radius": 0,
+      "falloff": 2
+    },
+    "twoHanded": false,
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

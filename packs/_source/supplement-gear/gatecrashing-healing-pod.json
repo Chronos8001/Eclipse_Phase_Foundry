@@ -1,0 +1,29 @@
+{
+  "_id": "a466febe43a7dec6",
+  "_key": "!items!a466febe43a7dec6",
+  "name": "Healing Pod",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "healingPod",
+    "cost": "Moderate",
+    "description": "<p>Healing vats are too expensive and bulky for most gatecrashers to carry with them. However, both medichines and nanobandages heal wounds at a much slower rate. Also, neither of these two types of medical technology can deal with the most severely wounded morphs. Instead, both place such morphs in medical stasis. Since gatecrashers can rarely afford to either wait several days to heal or to carry around a comrade in medical stasis, a disposable healing pod was developed. This small-sized device contains a wide variety of advanced medical repair and life support nanotechnology. To use this device, the patient must either be in a functional vacsuit or the healing pod must be connected to a Life-Support Pack (p. 159) and the patient placed into a morph-sized sack that is included with the device. When the healing pod is activated, the unit’s compressed nanobots swarm out, envelop the patient, and thoroughly infiltrate their body. These nanobots heal the patient with the same speed and effectiveness as a healing vat (p. 326, EP). A version of the healing pod exists that is designed to repair synthmorphs. It does not require a working vacsuit or an LSP and comes with a limited supply of the raw materials needed for synthmorph repair. A single healing pod can heal either biomorphs or synthmorphs, not both. Healing pods can be re-used, but their nanotech is only able to heal a total of 10 wounds. Once a healing pod has healed that many wounds, the medical nanobots have been used up and a new healing pod must be acquired.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 159.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 29000,
+  "ownership": {
+    "default": 0
+  }
+}

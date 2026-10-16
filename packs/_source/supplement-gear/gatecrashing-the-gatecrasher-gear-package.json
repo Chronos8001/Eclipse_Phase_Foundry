@@ -1,0 +1,29 @@
+{
+  "_id": "644e9fd3e3b8eb63",
+  "_key": "!items!644e9fd3e3b8eb63",
+  "name": "The Gatecrasher Gear Package",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "theGatecrasherGearPackage",
+    "cost": "Expensive",
+    "description": "<p>While the Survival Belt (p. 159) incorporates the essential items of personal gear that any gatecrasher needs, the gatecrasher package provides all the core gear a team is likely need in one handy bundle for a Cost of</p><p><em>Source: Eclipse Phase Gatecrashing, p. 159.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

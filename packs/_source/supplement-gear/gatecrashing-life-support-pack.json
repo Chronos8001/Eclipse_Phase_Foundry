@@ -1,0 +1,29 @@
+{
+  "_id": "dd7ccfc3b513fb58",
+  "_key": "!items!dd7ccfc3b513fb58",
+  "name": "Life-Support Pack",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "lifeSupportPack",
+    "cost": "Medium",
+    "description": "<p>Ordinary vacsuits are only designed for relatively short term use, but gatecrashers might stay on uninhabitable worlds for many weeks. A life-support pack (LSP) is a thick belt that contains a small nuclear battery as well as advanced filters and a specialized maker that allow it to supply the wearer with pure air for up to 30 days. If the wearer periodically adds water or ice or spends time in an atmosphere containing oxygen, even if this oxygen is part of carbon dioxide or some other gas, then the LSP automatically replenishes its oxygen supply and can continue to provide air for the wearer for the next two years. The LSP’s nuclear battery is also designed to interface with the vacsuit it is attached to, allowing it to power that suit for a similar length of time. LSPs can be worn with either light or standard vacsuits, but are most useful when used with standard vacsuits, since they also provide the wearer with food and water.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 159.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 30000,
+  "ownership": {
+    "default": 0
+  }
+}

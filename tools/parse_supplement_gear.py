@@ -46,11 +46,13 @@ BOOKS = [
     },
     {
         "file": "Eclipse Phase gatecrashing.pdf", "title": "Gatecrashing", "offset": 3, "pages": [(155, 163), (167, 168)],
+        # Weapons: skill and damage type from the text; AP, DV, modes, ammo and ranges read from their table page
+        "weapons": {"PLASMA CUTTER": {"skill": "beamWeapons", "weaponType": "ranged", "damageType": "energy", "table": 161}},
         "sections": {"NEW BIOWARE": AUG("bioware"), "NEW CYBERWARE": AUG("cyberware"), "NEW NANOWARE": AUG("nanoware"),
                      "COMMUNICATIONS GEAR": GEAR("comms"), "EVERYDAY TECHNOLOGY": GEAR("everyday"),
                      "EXPLORATION GEAR": GEAR("survival"), "SMART ANIMALS": GEAR("pet"), "SURVIVAL GEAR": GEAR("survival"),
                      "XENOARCHEOLOGY GEAR": GEAR("scavenger"), "ALIEN RELICS": GEAR("other"),
-                     "SPECIAL TRAIT": SKIP, "BEAM WEAPONS": SKIP, "ROBOTS": SKIP, "VEHICLES": SKIP, "POWERSUITS": SKIP},
+                     "SPECIAL TRAIT": SKIP, "ROBOTS": SKIP, "VEHICLES": SKIP, "POWERSUITS": SKIP},
     },
     {
         "file": "eclipse phase panopticon.pdf", "title": "Panopticon", "offset": 2, "pages": [(150, 159)],
@@ -64,10 +66,12 @@ BOOKS = [
     },
     {
         "file": "eclipse phase firewall.pdf", "title": "Firewall", "offset": 2, "pages": [(176, 181)],
+        "weapons": {"PLASMA SWORD (BLADES)": {"skill": "blades", "weaponType": "melee", "damageType": "energy", "table": 181},
+                    "ANTIMATTER GRENADE": {"skill": "demolitions", "weaponType": "ranged", "damageType": "kinetic"}},
         "skip": [("RECREATIONAL DRUGS", None)],
         "sections": {"CYBERWARE": AUG("cyberware"), "COVERT OPS GEAR": GEAR("espionage"), "DRUGS": SUBST,
                      "EVERYDAY TECHNOLOGY": GEAR("everyday"), "NANOTECHNOLOGY": GEAR("nanotech"), "SENSORS": GEAR("surveillance"),
-                     "SOFTWARE": SOFT, "ROBOTS": SKIP, "WEAPONS": SKIP, "USING NON-FIREWALL FACTIONS": SKIP},
+                     "SOFTWARE": SOFT, "ROBOTS": SKIP, "WEAPONS": ("weapon", ""), "USING NON-FIREWALL FACTIONS": SKIP},
     },
 ]
 
@@ -75,7 +79,7 @@ COST = re.compile(r"\[((?:Trivial|Low|Moderate|Medium|High|Expensive|Free|One Co
 # A capitalized line with at least one word (stat rows of numbers are not headings)
 CAPS = re.compile(r"^(?=.*[A-ZÆ]{2})[A-Z0-9Æ][A-Z0-9Æ &/,.'’()+-]{2,60}$")
 # Category labels printed after some names ("WINGS (PHYSICAL AUGMENTATION)")
-LABEL = re.compile(r"\s*\(((PHYSICAL|MENTAL) (AUGMENTATION|MODIFICATION)|ENHANCED SENSE|EVERYDAY TECHNOLOGY)\)", re.I)
+LABEL = re.compile(r"\s*\(((PHYSICAL|MENTAL) (AUGMENTATION|MODIFICATION)|ENHANCED SENSE|EVERYDAY TECHNOLOGY|BLADES)\)", re.I)
 VEHICLE = re.compile(r"\((GROUNDCRAFT|AIRCRAFT|HOVERCRAFT|SPACECRAFT|WATERCRAFT|ROBOT)\)", re.I)
 # Running headers, chapter tabs and table headings in capitals
 FURNITURE = re.compile(
@@ -83,7 +87,8 @@ FURNITURE = re.compile(
     r"SOL-MERCURY VENUS EARTH|EARTH ORBIT LUNA MARS INNER FRINGE|MAIN BELT JUPITER|SATURN.*|FIREWALL OTHER GROUPS.*|"
     r"CHARACTER CREATION|TER CREATION|CREATION|OPTIONAL RULE|EXAMPLE|NEW GEAR|NEW MORPH ENHANCEMENTS|"
     # Chapter tabs and stat block headings
-    r"SURVEILLANCE|HABITATS|UPLIFTS|CREATURES|CREATURE|ANIMAL|PANOPTICON|COG COO INT.*|BEAM WEAPON RANGES|"
+    r"SURVEILLANCE|HABITATS|UPLIFTS|CREATURES|CREATURE|ANIMAL|PANOPTICON|COG COO INT.*|BEAM WEAPON RANGES|BEAM WEAPONS|FIRING MODES.*|AMMO \d+|"
+    r"ARMOR PENETRATION.*|DAMAGE VALUE.*|AVERAGE DV.*|"
     r"PLAYING CHARACTERS|MORPHS|CHARACTER OPTIONS.*|.*CREATION:.*|"
     r"(\.\d)+.*|\d{1,3})$")
 
@@ -243,7 +248,11 @@ def parse(book):
         desc = text[:cost.start()].strip()
         if e.get("stats"):
             desc = f"{desc} {e['stats']}"
-        items.append({**e, "name": title(e["name"]), "desc": desc, "cost": cost.group(1)})
+        item = {**e, "name": title(e["name"]), "desc": desc, "cost": cost.group(1)}
+        if e["name"] in book.get("weapons", {}):
+            item["type"] = "weapon"
+            item["weapon"] = weapon_stats(book, book["weapons"][e["name"]])
+        items.append(item)
     # Drug stats from the drug tables, matched by item name
     drugs = [i["name"] for i in items if i["type"] == "substance"]
     stats = {}
@@ -255,6 +264,35 @@ def parse(book):
                 raise SystemExit(f"{book['title']}: no table row for the drug {i['name']}")
             i["stats"] = stats[i["name"]]
     return items
+
+
+def weapon_stats(book, cfg):
+    """WeaponData of a supplement weapon: one-row tables, each value printed after its column label."""
+    stats = {"weaponType": cfg["weaponType"], "skill": cfg["skill"], "ap": 0, "dv": "", "damageType": cfg["damageType"],
+             "addDB": False, "modes": "", "ammo": {"value": 0, "max": 0, "loaded": "", "size": ""}, "range": "",
+             "equipped": False, "shock": False, "area": {"shape": "none", "radius": 0, "falloff": 2}, "twoHanded": False,
+             "quantity": 1, "munition": {"kind": "none", "size": "standard"}, "launcher": ""}
+    if "table" not in cfg:
+        return stats
+    text = subprocess.run(["pdftotext", "-enc", "UTF-8", "-f", str(cfg["table"]), "-l", str(cfg["table"]),
+                           os.path.join(FOLDER, book["file"]), "-"], capture_output=True).stdout.decode("utf-8", "replace")
+    text = re.sub(r"\s+", " ", text)
+    after = lambda label, pattern: (re.search(re.escape(label) + r".*?(" + pattern + ")", text) or [None, None])[1]
+    ap = after("ARMOR PENETRATION (AP)", r"[–−-]\d+")
+    dv = after("DAMAGE VALUE (DV)", r"\d+d10(?: \+ \d+)?")
+    if not (ap and dv):
+        raise SystemExit(f"{book['title']}: no AP/DV found on page {cfg['table']}")
+    stats["ap"] = int(ap.replace("–", "-").replace("−", "-"))
+    stats["dv"] = dv
+    modes = re.search(r"FIRING MODES ((?:SS|SA|BF|FA)(?:, (?:SS|SA|BF|FA))*)", text)
+    stats["modes"] = modes.group(1) if modes else ""
+    ammo = re.search(r"AMMO (\d+)", text)
+    if ammo:
+        stats["ammo"].update(value=int(ammo.group(1)), max=int(ammo.group(1)))
+    bands = [after(label, r"\d+[–-]\d+") for label in ("SHORT RANGE", "MEDIUM RANGE", "LONG RANGE", "EXTREME RANGE")]
+    if all(bands):
+        stats["range"] = " / ".join(b.split("–")[-1].split("-")[-1] for b in bands)
+    return stats
 
 
 def skip_blocks(tagged, blocks):
@@ -288,6 +326,8 @@ def system_for(e, book):
     base = {"key": key(e["name"]), "cost": e["cost"], "description": desc}
     if e["type"] == "augmentation":
         return {**base, "augType": e["category"]}
+    if e["type"] == "weapon":
+        return {**base, **e["weapon"]}
     # Suits giving an Armor Value (energy/kinetic) are armor, like the vacsuits of the core rulebook
     av = AV.search(e["desc"]) if e["type"] == "gear" else None
     if av:
@@ -342,7 +382,7 @@ def ai_stats(text):
 
 AV = re.compile(r"(?:\bAV|[Aa]rmor of(?: AV)?)\s*(\d+)\s*/\s*(\d+)|\b(\d+)\s*/\s*(\d+)\s+armor")
 
-IMAGES = {"armor": "icons/svg/shield.svg", "augmentation": "icons/svg/upgrade.svg", "gear": "icons/svg/item-bag.svg",
+IMAGES = {"weapon": "icons/svg/sword.svg", "armor": "icons/svg/shield.svg", "augmentation": "icons/svg/upgrade.svg", "gear": "icons/svg/item-bag.svg",
           "software": "icons/svg/hanging-sign.svg", "substance": "icons/svg/pill.svg"}
 
 
