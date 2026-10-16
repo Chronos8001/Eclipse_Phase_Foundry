@@ -2,6 +2,8 @@
  * Active effect helpers working on both v13 (numeric change modes) and v14 (string change types).
  */
 
+import { SYSTEM_ID } from "../config.mjs";
+
 /** An additive change to a numeric field. */
 export function addChange(key, value) {
   if ( game.release.generation >= 14 ) return { key, type: "add", value: String(value) };
@@ -32,4 +34,73 @@ export function statusEffects() {
     status("blinded", "icons/svg/blind.svg"),
     status("invisible", "icons/svg/invisible.svg")
   ];
+}
+
+/* -------------------------------------------- */
+/*  Conditions on actors                        */
+/* -------------------------------------------- */
+
+/** The active effect carrying a status condition on an actor. */
+export function conditionEffect(actor, id) {
+  return actor.effects.find(e => e.statuses?.has(id)) ?? null;
+}
+
+/**
+ * Give an actor a status condition, or refresh it.
+ * @param {Actor} actor
+ * @param {string} id               Status id (CONFIG.statusEffects)
+ * @param {object} [options]
+ * @param {number} [options.modifier] New value of the condition's change (e.g. -30 for stunned)
+ * @param {object} [options.timer]    Countdown in Action Turns, see tickConditions
+ * @param {boolean} [options.overlay] Show the icon over the whole token (death)
+ */
+export async function setCondition(actor, id, { modifier, timer, overlay = false } = {}) {
+  let effect = conditionEffect(actor, id);
+  if ( !effect ) {
+    await actor.toggleStatusEffect(id, { active: true, overlay });
+    effect = conditionEffect(actor, id);
+  }
+  if ( !effect ) return null;
+  const update = {};
+  if ( modifier !== undefined ) update.changes = effect.toObject().changes.map(c => ({ ...c, value: String(modifier) }));
+  if ( timer ) update[`flags.${SYSTEM_ID}.timer`] = timer;
+  if ( !foundry.utils.isEmpty(update) ) await effect.update(update);
+  return effect;
+}
+
+/** Remove a status condition from an actor. */
+export function clearCondition(actor, id) {
+  return conditionEffect(actor, id)?.delete();
+}
+
+/**
+ * Count down the timed conditions of an actor by one Action Turn.
+ * flags.ep1e.timer = { left, every?, step?, then? }:
+ * - when left reaches 0, a condition with a step raises its modifier by step and restarts the countdown (every),
+ *   until the modifier is back to 0;
+ * - other conditions end, and may give way to another one (then: { id, modifier, timer }).
+ */
+export async function tickConditions(actor) {
+  for ( const effect of actor.effects.contents ) {
+    const timer = effect.getFlag(SYSTEM_ID, "timer");
+    if ( !timer ) continue;
+    const left = timer.left - 1;
+    if ( left > 0 ) {
+      await effect.setFlag(SYSTEM_ID, "timer", { ...timer, left });
+      continue;
+    }
+    if ( timer.step ) {
+      const change = effect.toObject().changes[0];
+      const value = Math.min(0, (Number(change?.value) || 0) + timer.step);
+      if ( value < 0 ) {
+        await effect.update({
+          changes: effect.toObject().changes.map(c => ({ ...c, value: String(value) })),
+          [`flags.${SYSTEM_ID}.timer`]: { ...timer, left: timer.every ?? 1 }
+        });
+        continue;
+      }
+    }
+    await effect.delete();
+    if ( timer.then ) await setCondition(actor, timer.then.id, timer.then);
+  }
 }

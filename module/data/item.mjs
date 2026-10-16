@@ -119,7 +119,9 @@ export class WeaponData extends BaseItemData {
       shock: new BooleanField({ initial: false }),
       area: new SchemaField({
         shape: choice(["none", "blast", "uniform", "cone"], "none"),
-        radius: int(0, { min: 0 })
+        radius: int(0, { min: 0 }),
+        // DV lost per meter from the epicenter (p. 193); HEAP loses 4
+        falloff: int(2, { min: 0 })
       }),
       twoHanded: new BooleanField({ initial: false }),
       cost: text(),

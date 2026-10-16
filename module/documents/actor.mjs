@@ -1,5 +1,6 @@
 import { APTITUDES, SKILLS } from "../config.mjs";
 import { SkillData } from "../data/item.mjs";
+import { fallingArmor } from "../rules/combat.mjs";
 
 export class EPActor extends Actor {
 
@@ -55,10 +56,12 @@ export class EPActor extends Actor {
    * @param {number} [opts.ap=0]          Armor penetration (negative number)
    * @param {string} [opts.damageType]    kinetic | energy | none
    * @param {boolean} [opts.armorDefeating] Critical hit: armor is ignored
+   * @param {boolean} [opts.armorHalved]  Armor counts for half, rounded down (falls, p. 197)
    */
-  async applyDamage({ dv, ap = 0, damageType = "kinetic", armorDefeating = false }) {
+  async applyDamage({ dv, ap = 0, damageType = "kinetic", armorDefeating = false, armorHalved = false }) {
     const sys = this.system;
-    const baseArmor = (damageType === "none") ? 0 : (sys.armor[damageType] ?? 0);
+    let baseArmor = (damageType === "none") ? 0 : (sys.armor[damageType] ?? 0);
+    if ( armorHalved ) baseArmor = fallingArmor(baseArmor);
     const armor = armorDefeating ? 0 : Math.max(0, baseArmor + ap);
     const damage = Math.max(0, dv - armor);
     const wt = sys.stats.wt;

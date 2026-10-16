@@ -220,6 +220,48 @@ export function shockTarget(durability, damage, energyArmor) {
   return Math.max(0, durability - damage) + energyArmor;
 }
 
+/** DV inflicted by a shock weapon: half on a successful shock test (rounded up, like the stunner's 1d10 ÷ 2). */
+export function shockedDamage(dv, outcome) {
+  return outcome?.halfDamage ? Math.ceil(dv / 2) : dv;
+}
+
+/** The shock modifier fades by 10 per step (Action Turn or minute) until it is gone (p. 204). */
+export const SHOCK_MODIFIER = -30;
+export function fadeModifier(modifier, step = 10) {
+  return Math.min(0, modifier + step);
+}
+
+/** Action Turns per minute (an Action Turn lasts 3 seconds, p. 189). */
+export const TURNS_PER_MINUTE = 20;
+
+/**
+ * Bleeding (p. 207): a wounded biomorph whose damage exceeds its Durability loses 1 damage point per Action Turn.
+ * @param {object} o  { biological, wounds, damage, durability }
+ */
+export function isBleeding({ biological, wounds, damage, durability }) {
+  return biological && (wounds > 0) && (damage > durability);
+}
+
+/** Fire damage after some Action Turns of burning (p. 198): 1d10 ÷ 2, then 1d10, 2d10, 3d10, then +5 every 5 turns. */
+export function fireDamage(turns) {
+  const stage = Math.floor(Math.max(0, turns) / 5);
+  if ( stage === 0 ) return "ceil(1d10 / 2)";
+  if ( stage <= 3 ) return `${stage}d10`;
+  return `3d10 + ${(stage - 3) * 5}`;
+}
+
+/**
+ * Scatter of a missed blast (p. 204): offset of the epicenter from the target, in grid units.
+ * @param {number} distance   Scatter distance in meters
+ * @param {number} d8         Direction: 1 = straight beyond the target (away from the attacker), clockwise by 45°
+ * @param {number} [heading]  Angle of the line of fire in radians (0 = east, canvas y axis pointing down)
+ * @returns {{dx: number, dy: number}}
+ */
+export function scatterOffset(distance, d8, heading = -Math.PI / 2) {
+  const angle = heading + (((d8 - 1) % 8) * Math.PI / 4);
+  return { dx: Math.round(distance * Math.cos(angle) * 100) / 100, dy: Math.round(distance * Math.sin(angle) * 100) / 100 };
+}
+
 /** Falling damage (p. 197): 1d10 at 1-2 m, 2d10 at 3-5 m, 3d10 at 6-8 m, +1 per meter beyond. */
 export function fallingDamage(meters) {
   const m = Math.floor(meters);

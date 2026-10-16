@@ -302,7 +302,9 @@ def parse_weapons():
                 "ammo": {"value": 0, "max": 0},
                 "range": ranges.get("Standard Grenades", "") if kind == "grenade" else "",
                 "equipped": False, "shock": False,
-                "area": {"shape": "uniform" if uniform else "blast", "radius": blast_radius.get(short, 0)},
+                # HEAP loses 4 DV per meter instead of 2 (p. 341)
+                "area": {"shape": "uniform" if uniform else "blast", "radius": blast_radius.get(short, 0),
+                         "falloff": 4 if "HEAP" in name else 2},
                 "twoHanded": False, "cost": cost, "quantity": 1,
                 "munition": {"kind": kind, "size": size}, "launcher": "",
                 "description": describe(body, 341, notes),

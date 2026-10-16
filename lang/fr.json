@@ -314,9 +314,10 @@
       "applyStress": "Infliger du stress",
       "applyTargets": "Appliquer aux cibles",
       "applyStressTargets": "Appliquer le stress aux cibles",
-      "applyHint": "S'applique aux jetons ciblés, sinon aux jetons sélectionnés.",
+      "applyHint": "S'applique aux cibles touchées par l'attaque (explosions : tous les jetons à portée), sinon aux jetons ciblés ou sélectionnés. Maj+clic : jetons ciblés/sélectionnés, même déjà touchés.",
       "noTarget": "Ciblez ou sélectionnez au moins un jeton.",
-      "noGM": "Aucun MJ connecté pour appliquer les dégâts."
+      "noGM": "Aucun MJ connecté pour appliquer les dégâts.",
+      "alreadyApplied": "Déjà appliqué à : {names} (Maj+clic pour appliquer à nouveau)."
     },
     "Applied": {
       "damage": "VD {dv} − armure {armor} = <strong>{amount}</strong> dégâts ({total} / {max}).",
@@ -535,6 +536,22 @@
       "defenseLabel": "{skill} contre {name}",
       "defenseRanged": "{skill} ÷ 2 contre {name}",
       "pendingWarning": "Défense en attente, non appliqué : {names}"
+    },
+    "Harm": {
+      "bleeds": "{name} saigne : 1 dégât ({total} / {max}).",
+      "shockTest": "Test de choc {value} / {target}",
+      "shockResisted": "réussi : demi-dégâts, sonné (−30, −10 par tour)",
+      "shockFailed": "neutralisé pendant {turns} tours, puis sonné (−30, −10 par minute)",
+      "shockImmune": "Morphe synthétique : immunisé au choc.",
+      "fall": "Chute",
+      "fallDistance": "Hauteur de chute (m)",
+      "fallHint": "1-2 m : 1d10, 3-5 m : 2d10, 6-8 m : 3d10, +1 par mètre au-delà. L'armure cinétique compte pour moitié (p. 197).",
+      "fallHarmless": "Une chute de moins d'un mètre n'inflige aucun dégât."
+    },
+    "Blast": {
+      "rollScatter": "Lancer la dispersion",
+      "scattered": "Dispersion de {distance} m, direction {direction} (1 = au-delà de la cible, sens horaire)",
+      "distance": "À {distance} m de l'épicentre"
     }
   }
 }

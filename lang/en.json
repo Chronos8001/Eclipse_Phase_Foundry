@@ -314,9 +314,10 @@
       "applyStress": "Inflict stress",
       "applyTargets": "Apply to targets",
       "applyStressTargets": "Apply stress to targets",
-      "applyHint": "Applies to targeted tokens, otherwise to selected tokens.",
+      "applyHint": "Applies to the targets hit by the attack (blasts: every token in range), otherwise to targeted or selected tokens. Shift+click: targeted/selected tokens, even again.",
       "noTarget": "Target or select at least one token.",
-      "noGM": "No GM connected to apply damage."
+      "noGM": "No GM connected to apply damage.",
+      "alreadyApplied": "Already applied to: {names} (Shift+click to apply again)."
     },
     "Applied": {
       "damage": "DV {dv} − armor {armor} = <strong>{amount}</strong> damage ({total} / {max}).",
@@ -535,6 +536,22 @@
       "defenseLabel": "{skill} vs. {name}",
       "defenseRanged": "{skill} ÷ 2 vs. {name}",
       "pendingWarning": "Defense pending, not applied: {names}"
+    },
+    "Harm": {
+      "bleeds": "{name} is bleeding: 1 damage ({total} / {max}).",
+      "shockTest": "Shock test {value} / {target}",
+      "shockResisted": "resisted: half damage, stunned (−30, −10 per turn)",
+      "shockFailed": "incapacitated for {turns} turns, then stunned (−30, −10 per minute)",
+      "shockImmune": "Synthetic morph: immune to shock.",
+      "fall": "Fall",
+      "fallDistance": "Distance fallen (m)",
+      "fallHint": "1-2 m: 1d10, 3-5 m: 2d10, 6-8 m: 3d10, +1 per meter beyond. Kinetic armor counts for half (p. 197).",
+      "fallHarmless": "A fall of less than 1 meter does no damage."
+    },
+    "Blast": {
+      "rollScatter": "Roll scatter",
+      "scattered": "Scattered {distance} m, direction {direction} (1 = beyond the target, clockwise)",
+      "distance": "{distance} m from the epicenter"
     }
   }
 }

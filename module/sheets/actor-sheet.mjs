@@ -1,6 +1,7 @@
 import { APTITUDES, REP_NETWORKS, SKILLS, SYSTEM_ID, skillChoices } from "../config.mjs";
 import { SkillData } from "../data/item.mjs";
-import { postDamageRoll, rollAptitudeTest, rollSkillTest } from "../dice/tests.mjs";
+import { applyToActor, postDamageRoll, rollAptitudeTest, rollSkillTest } from "../dice/tests.mjs";
+import { fallingDamage, shockTarget } from "../rules/combat.mjs";
 import { reloadWeapon } from "../dice/attack.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
@@ -30,6 +31,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       sleeve: EPActorSheet.#onSleeve,
       itemToChat: EPActorSheet.#onItemToChat,
       applyHarm: EPActorSheet.#onApplyHarm,
+      fall: EPActorSheet.#onFall,
       resetMoxie: EPActorSheet.#onResetMoxie,
       createEffect: EPActorSheet.#onCreateEffect,
       editEffect: EPActorSheet.#onEditEffect,
@@ -201,7 +203,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const tests = {
       lucidity: { label: game.i18n.localize("EP1E.Stat.luc"), target: sys.stats.luc },
       willpower: { label: `${game.i18n.localize("EP1E.Aptitude.wil")} × 2`, target: sys.aptitudes.wil.value * 2 },
-      shock: { label: game.i18n.localize("EP1E.Combat.shockTest"), target: sys.stats.dur + sys.armor.energy }
+      shock: { label: game.i18n.localize("EP1E.Combat.shockTest"), target: shockTarget(sys.stats.dur, sys.damage.value, sys.armor.energy) }
     };
     const test = tests[stat];
     if ( test ) return rollSkillTest(this.document, { ...test, fastForward: event.shiftKey });
@@ -303,6 +305,26 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       armorDefeating: !!result.armorDefeating,
       stress
     });
+  }
+
+  /** Falling damage (p. 197), resisted by half the kinetic armor. */
+  static async #onFall() {
+    const result = await foundry.applications.api.DialogV2.prompt({
+      window: { title: game.i18n.localize("EP1E.Harm.fall"), icon: "fa-solid fa-person-falling" },
+      classes: ["ep1e", "ep1e-dialog"],
+      content: `<div class="form-group"><label>${game.i18n.localize("EP1E.Harm.fallDistance")}</label>
+        <input type="number" name="meters" value="3" min="0" step="0.5" autofocus></div>
+        <p class="hint">${game.i18n.localize("EP1E.Harm.fallHint")}</p>`,
+      ok: { label: "EP1E.Damage.roll", callback: (ev, button) => new foundry.applications.ux.FormDataExtended(button.form).object },
+      rejectClose: false
+    });
+    if ( !result ) return;
+    const formula = fallingDamage(Number(result.meters) || 0);
+    if ( !formula ) return ui.notifications.info("EP1E.Harm.fallHarmless", { localize: true });
+    const roll = await new Roll(formula).evaluate();
+    return applyToActor(this.document, {
+      label: game.i18n.localize("EP1E.Harm.fall"), total: roll.total, ap: 0, damageType: "kinetic", armorHalved: true
+    }, { rolls: [roll] });
   }
 
   static async #onCreateEffect() {

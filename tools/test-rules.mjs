@@ -60,6 +60,23 @@ assert.deepEqual(combat.shockOutcome(t(71, 41)), { incapacitated: 3, halfDamage:
 assert.equal(combat.shockOutcome(t(30, 41)).halfDamage, true);
 // Current DUR is reduced by damage taken
 assert.equal(combat.shockTarget(35, 10, 6), 31);
+// Successful shock test: half DV (round up); the -30 modifier fades by 10 per step
+assert.equal(combat.shockedDamage(7, combat.shockOutcome(t(30, 41))), 4);
+assert.equal(combat.shockedDamage(7, combat.shockOutcome(t(71, 41))), 7);
+assert.equal(combat.fadeModifier(-30), -20);
+assert.equal(combat.fadeModifier(-10), 0);
+assert.equal(combat.shockOutcome(t(95, 41)).incapacitated, 5);
+
+// --- Bleeding (p. 207) and fire (p. 198)
+assert.equal(combat.isBleeding({ biological: true, wounds: 1, damage: 36, durability: 35 }), true);
+assert.equal(combat.isBleeding({ biological: true, wounds: 0, damage: 36, durability: 35 }), false);
+assert.equal(combat.isBleeding({ biological: true, wounds: 2, damage: 35, durability: 35 }), false);
+assert.equal(combat.isBleeding({ biological: false, wounds: 2, damage: 50, durability: 35 }), false);
+assert.equal(combat.fireDamage(0), "ceil(1d10 / 2)");
+assert.equal(combat.fireDamage(5), "1d10");
+assert.equal(combat.fireDamage(14), "2d10");
+assert.equal(combat.fireDamage(15), "3d10");
+assert.equal(combat.fireDamage(25), "3d10 + 10");
 
 // --- Firing modes (p. 198)
 assert.deepEqual(combat.parseModes("SA, BF, FA"), ["SA", "BF", "FA"]);
@@ -99,6 +116,10 @@ assert.equal(combat.blastDamage(21, 12, { shape: "uniform", radius: 10 }), 17);
 assert.equal(combat.scatterDistance(0, 10), 10);
 assert.equal(combat.scatterDistance(4, 45), 8);
 assert.equal(combat.scatterDistance(4, 70), 12);
+// Scatter direction: 1 lands beyond the target along the line of fire, 5 back toward the attacker
+assert.deepEqual(combat.scatterOffset(8, 1, 0), { dx: 8, dy: 0 });
+assert.deepEqual(combat.scatterOffset(8, 5, 0), { dx: -8, dy: 0 });
+assert.deepEqual(combat.scatterOffset(4, 3, 0), { dx: 0, dy: 4 });
 assert.equal(combat.damageFormula({ dv: "3d10 + 6", munition: { kind: "grenade", size: "mini" } }), "3d10 + 6 - 1d10");
 assert.equal(combat.damageFormula({ dv: "3d10 + 6", munition: { kind: "seeker", size: "standard" } }), "(3d10 + 6) * 2");
 assert.equal(combat.damageFormula({ dv: "3d10 + 6", munition: { kind: "seeker", size: "mini" } }), "3d10 + 6");

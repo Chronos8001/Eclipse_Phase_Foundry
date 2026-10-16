@@ -1,5 +1,5 @@
 import { SYSTEM_ID } from "../config.mjs";
-import { FULL_DEFENSE_BONUS, opposedWinner } from "../rules/combat.mjs";
+import { blastDamage, FULL_DEFENSE_BONUS, opposedWinner, scatterDistance, scatterOffset } from "../rules/combat.mjs";
 import { evaluateTest, rollSkillTest, testDialogContext } from "./tests.mjs";
 
 /**
@@ -62,12 +62,73 @@ export function hitTargets(message) {
   return resolveTargets(message).filter(t => ["hit", "undefended"].includes(t.state));
 }
 
+/* -------------------------------------------- */
+/*  Blasts                                      */
+/* -------------------------------------------- */
+
+const isBlast = attack => ["blast", "uniform"].includes(attack?.area?.shape);
+const HIT_STATES = ["hit", "undefended"];
+
+/** A blast that missed its first target scatters (p. 204). */
+function needsScatter(message) {
+  const attack = message.getFlag(SYSTEM_ID, "test")?.attack;
+  if ( !isBlast(attack) || message.getFlag(SYSTEM_ID, "scatter") ) return false;
+  const [first] = resolveTargets(message);
+  return !!first && ["miss", "deadlock"].includes(first.state);
+}
+
+/**
+ * Roll where a missed blast lands: d10 meters (×2 at MoF 30+, ×3 at MoF 60+) in a d8 direction
+ * relative to the line of fire (1 = beyond the target).
+ */
+export async function rollScatter(message) {
+  if ( !message.isOwner || !needsScatter(message) ) return;
+  const test = message.getFlag(SYSTEM_ID, "test");
+  const result = evaluateTest(test);
+  const roll = await new Roll("1d10 + 1d8").evaluate();
+  const [d10, d8] = roll.dice.map(d => d.total);
+  const distance = scatterDistance(d10, result.success ? 0 : result.margin);
+  const target = fromUuidSync(test.attack.targets[0].tokenUuid)?.object;
+  const attacker = test.attack.attackerTokenUuid ? fromUuidSync(test.attack.attackerTokenUuid)?.object : null;
+  const heading = (target && attacker) ? Math.atan2(target.center.y - attacker.center.y, target.center.x - attacker.center.x) : undefined;
+  return message.setFlag(SYSTEM_ID, "scatter", { distance, direction: d8, ...scatterOffset(distance, d8, heading) });
+}
+
+/** Epicenter of a blast in canvas coordinates: the target if hit, else where the attack scattered. */
+function blastEpicenter(message) {
+  const attack = message.getFlag(SYSTEM_ID, "test")?.attack;
+  const [first] = resolveTargets(message);
+  const token = first ? fromUuidSync(first.tokenUuid)?.object : null;
+  if ( !token || !canvas.ready ) return null;
+  if ( HIT_STATES.includes(first.state) ) return token.center;
+  const scatter = message.getFlag(SYSTEM_ID, "scatter");
+  if ( !scatter || !isBlast(attack) ) return null;
+  const px = canvas.dimensions.distancePixels;
+  return { x: token.center.x + (scatter.dx * px), y: token.center.y + (scatter.dy * px) };
+}
+
+/**
+ * Who a blast reaches and how hard: every token on the scene, damage reduced by distance (p. 193).
+ * @returns {object[]|null} [{ actor, total, distance }], or null when the attack is not a blast or not placed yet
+ */
+export function blastRecipients(message, total) {
+  const attack = message.getFlag(SYSTEM_ID, "test")?.attack;
+  if ( !isBlast(attack) ) return null;
+  const center = blastEpicenter(message);
+  if ( !center ) return null;
+  return canvas.tokens.placeables.filter(t => t.actor).map(t => {
+    const distance = canvas.grid.measurePath([center, t.center]).distance;
+    return { actor: t.actor, distance: Math.round(distance), total: blastDamage(total, distance, attack.area, attack.area.falloff ?? 2) };
+  }).filter(r => r.total > 0);
+}
+
 /** Show the live state of the targets on a rendered attack card. */
 export async function renderTargets(message, html) {
   const container = html.querySelector(".attack-targets");
   if ( !container ) return;
   const targets = resolveTargets(message);
   if ( !targets.length ) return;
+  const scatter = message.getFlag(SYSTEM_ID, "scatter");
   const rows = await Promise.all(targets.map(async t => {
     const actor = t.actorUuid ? await fromUuid(t.actorUuid) : null;
     const canAct = !!actor?.isOwner;
@@ -78,7 +139,9 @@ export async function renderTargets(message, html) {
       canWaive: (t.state === "pending") && (canAct || game.user.isGM || message.isOwner)
     };
   }));
-  container.outerHTML = await render(TEMPLATES.targets, { targets: rows });
+  container.outerHTML = await render(TEMPLATES.targets, {
+    targets: rows, scatter, canScatter: message.isOwner && needsScatter(message)
+  });
 }
 
 /** Re-render the attack card a defense test belongs to. */

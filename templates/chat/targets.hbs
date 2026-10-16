@@ -8,4 +8,6 @@
     {{#if t.canWaive}}<button type="button" data-ep-action="waive" data-token-uuid="{{t.tokenUuid}}" data-tooltip="EP1E.Opposed.waiveHint"><i class="fa-solid fa-ban"></i></button>{{/if}}
   </li>
   {{/each}}
+  {{#if scatter}}<li class="scatter"><i class="fa-solid fa-burst"></i> {{localize "EP1E.Blast.scattered" distance=scatter.distance direction=scatter.direction}}</li>{{/if}}
+  {{#if canScatter}}<li class="scatter"><button type="button" data-ep-action="scatter"><i class="fa-solid fa-burst"></i> {{localize "EP1E.Blast.rollScatter"}}</button></li>{{/if}}
 </ol>

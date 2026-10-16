@@ -21,7 +21,8 @@
     "shock": false,
     "area": {
       "shape": "blast",
-      "radius": 0
+      "radius": 0,
+      "falloff": 4
     },
     "twoHanded": false,
     "cost": "Moderate",

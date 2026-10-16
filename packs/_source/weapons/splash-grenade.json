@@ -21,7 +21,8 @@
     "shock": false,
     "area": {
       "shape": "uniform",
-      "radius": 10
+      "radius": 10,
+      "falloff": 2
     },
     "twoHanded": false,
     "cost": "Trivial",

@@ -3,19 +3,26 @@
     <h3>{{actor.name}}</h3>
   </header>
   {{#if stress}}
-  <p>{{localize "EP1E.Applied.stress" amount=result.damage total=result.total max=max}}</p>
+  <p>{{{localize "EP1E.Applied.stress" amount=result.damage total=result.total max=max}}}</p>
   {{#if result.wounds}}<p class="danger">{{localize "EP1E.Applied.traumas" count=result.wounds}}</p>{{/if}}
   {{else}}
-  <p>{{localize "EP1E.Applied.damage" dv=result.dv armor=result.armor amount=result.damage total=result.total max=max}}</p>
+  {{#if (ne distance null)}}<p class="hint">{{localize "EP1E.Blast.distance" distance=distance}}</p>{{/if}}
+  {{#if shock}}
+  <p class="{{#if shock.success}}warning{{else}}danger{{/if}}">{{localize "EP1E.Harm.shockTest" value=(ep1ePad shock.value) target=shock.target}} —
+    {{#if shock.success}}{{localize "EP1E.Harm.shockResisted"}}{{else}}{{localize "EP1E.Harm.shockFailed" turns=shock.incapacitated}}{{/if}}</p>
+  {{/if}}
+  {{#if shockImmune}}<p class="hint">{{localize "EP1E.Harm.shockImmune"}}</p>{{/if}}
+  <p>{{{localize "EP1E.Applied.damage" dv=result.dv armor=result.armor amount=result.damage total=result.total max=max}}}</p>
   {{#if result.wounds}}<p class="danger">{{localize "EP1E.Applied.wounds" count=result.wounds}}</p>{{/if}}
+  {{#if bleeding}}<p class="danger">{{localize "EP1E.Condition.bleeding"}}</p>{{/if}}
   {{/if}}
 
   {{#if knockdown}}
   <div class="followups">
-    <button type="button" data-ep-action="aptitudeTest" data-actor-uuid="{{actorUuid}}" data-aptitude="som" data-multiplier="3">
+    <button type="button" data-ep-action="aptitudeTest" data-actor-uuid="{{actorUuid}}" data-aptitude="som" data-multiplier="3" data-condition="prone">
       <i class="fa-solid fa-person-falling"></i> {{localize "EP1E.Applied.knockdown"}} (SOM × 3)</button>
     {{#if unconscious}}
-    <button type="button" data-ep-action="aptitudeTest" data-actor-uuid="{{actorUuid}}" data-aptitude="som" data-multiplier="3">
+    <button type="button" data-ep-action="aptitudeTest" data-actor-uuid="{{actorUuid}}" data-aptitude="som" data-multiplier="3" data-condition="unconscious">
       <i class="fa-solid fa-bed"></i> {{localize "EP1E.Applied.unconscious"}} (SOM × 3)</button>
     {{/if}}
   </div>

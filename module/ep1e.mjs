@@ -11,6 +11,7 @@ import { EPItemSheet } from "./sheets/item-sheet.mjs";
 import * as tests from "./dice/tests.mjs";
 import { statusEffects } from "./helpers/effects.mjs";
 import { refreshAttackCard } from "./dice/opposed.mjs";
+import { onCombatRound } from "./dice/conditions.mjs";
 
 const ITEM_TYPES = ["skill", "morph", "trait", "weapon", "armor", "gear", "augmentation", "sleight"];
 
@@ -71,6 +72,9 @@ Hooks.on("renderChatMessageHTML", (message, html) => tests.onRenderChatMessage(m
 // A defense roll (or Moxie spent on it) changes the outcome shown on its attack card
 Hooks.on("createChatMessage", message => refreshAttackCard(message));
 Hooks.on("updateChatMessage", message => refreshAttackCard(message));
+
+// Each new Action Turn: timed conditions, bleeding and fire
+Hooks.on("updateCombat", onCombatRound);
 
 /** Dropping an owned item on the hotbar creates a macro that rolls it. */
 Hooks.on("hotbarDrop", (bar, data, slot) => {

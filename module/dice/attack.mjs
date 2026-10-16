@@ -81,7 +81,8 @@ export async function rollAttack(actor, weapon, options = {}) {
 
   // Targets and automatic range band
   const targets = Array.from(game.user.targets).map(t => ({ tokenUuid: t.document.uuid, actorUuid: t.actor?.uuid ?? null, name: t.name }));
-  const distance = ranged ? tokenDistance(actorToken(actor), Array.from(game.user.targets)[0]) : null;
+  const attackerToken = actorToken(actor);
+  const distance = ranged ? tokenDistance(attackerToken, Array.from(game.user.targets)[0]) : null;
   const band = (ranged && (distance !== null)) ? combat.rangeBand(distance, bands) : "short";
 
   let input = { mode: modes[0] ?? "", band, mods: {}, extraTargets: 0, concentrated: false };
@@ -164,7 +165,8 @@ export async function rollAttack(actor, weapon, options = {}) {
       band: ranged ? input.band : null,
       calledShot: keys.includes("calledShot"),
       notes,
-      targets
+      targets,
+      attackerTokenUuid: attackerToken?.document.uuid ?? null
     }
   });
 }
