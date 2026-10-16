@@ -1,0 +1,67 @@
+{
+  "_id": "37a769200b4de077",
+  "_key": "!actors!37a769200b4de077",
+  "name": "Go Cycle",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "2",
+    "handling": 20,
+    "movement": "8/40",
+    "maxVelocity": "140",
+    "mobility": "",
+    "av": {
+      "energy": 14,
+      "kinetic": 12
+    },
+    "durability": 60,
+    "woundThreshold": 12,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This craft is a more robust version of a common cycle that is designed for extended use on uneven terrain and in inhospitable environments. The tires are made of advanced smart materials that can adapt to conditions including open water, swamps, mountainous terrain, and sandy deserts. Go cycles are designed so that even on the worst terrain they can maintain speeds of at least 40 kph. In addition, this vehicle is VEHICLE Back Wing Crasher Truck Go Cycle Inflatable Boat Large Jet Mobile Base Mobility Frame Powersuit powered by a nuclear battery that can power both the vehicle and its life support system for at least 2 years. The driver and passenger are enclosed in an airtight streamlined pod. The vehicle has a single large wide wheel in front of this pod and another immediately behind the pod. Go cycles are equipped with a headlight, viewer, radar, and radio booster. The go cycle’s maker can supply the passenger and driver with air, food, and water indefinitely, as long as the users add a few liters of additional water or some other source of hydrogen and oxygen every month. Go cycles are built to comfortably hold a driver, a single passenger, and 60 kilograms of cargo. The smart material rear seat can accommodate up to two passengers, though both will be slightly cramped.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 163.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 27000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Go Cycle",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

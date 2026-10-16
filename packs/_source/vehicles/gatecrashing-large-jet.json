@@ -1,0 +1,67 @@
+{
+  "_id": "099fc458970040c9",
+  "_key": "!actors!099fc458970040c9",
+  "name": "Large Jet",
+  "type": "vehicle",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "category": "aircraft",
+    "passengers": "21",
+    "handling": 20,
+    "movement": "",
+    "maxVelocity": "800-1,200",
+    "mobility": "",
+    "av": {
+      "energy": 30,
+      "kinetic": 20
+    },
+    "durability": 200,
+    "woundThreshold": 40,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Expensive, min. 50,000",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This jet is powered by liquid hydrogen and is the size of a small 20th-century commercial airliner. It is designed for maximum fuel efficiency and can also take off and land on any relatively smooth solid surface. Its adaptive outer covering also allows it to land and take off from water. It has a cruising speed of 1,100 kph and a range of 40,000 km, allowing it to make a single 20,000 km round trip before it must refuel. It has a passenger capacity of 150.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 164.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 29000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Large Jet",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wing.svg"
+    }
+  }
+}

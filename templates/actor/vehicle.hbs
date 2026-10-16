@@ -21,7 +21,7 @@
       <label class="stat">{{localize "EP1E.DamageType.kinetic"}}<input type="number" name="system.av.kinetic" value="{{system.av.kinetic}}" min="0"></label>
       <label class="stat">{{localize "EP1E.Stat.dur"}}<input type="number" name="system.durability" value="{{system.durability}}" min="0"></label>
       <label class="stat">{{localize "EP1E.Stat.wt"}}<input type="number" name="system.woundThreshold" value="{{system.woundThreshold}}" min="0"></label>
-      <div class="stat"><label>{{localize "EP1E.Stat.dr"}}</label><span>{{system.stats.dr}}</span></div>
+      <label class="stat" data-tooltip="EP1E.Vehicle.deathRatingHint">{{localize "EP1E.Stat.dr"}}<input type="number" name="system.deathRating" value="{{system.deathRating}}" min="0" placeholder="{{system.stats.dr}}"></label>
       <div class="stat"><label>{{localize "EP1E.Stat.armor"}}</label><span>{{system.armor.energy}} / {{system.armor.kinetic}}</span></div>
     </div>
   </section>

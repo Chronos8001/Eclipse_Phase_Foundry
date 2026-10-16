@@ -1,0 +1,67 @@
+{
+  "_id": "dd5d86dbcff04c95",
+  "_key": "!actors!dd5d86dbcff04c95",
+  "name": "Martian Rover",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "6",
+    "handling": 0,
+    "movement": "8/32",
+    "maxVelocity": "100",
+    "mobility": "",
+    "av": {
+      "energy": 20,
+      "kinetic": 15
+    },
+    "durability": 200,
+    "woundThreshold": 40,
+    "deathRating": 400,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>The rover is a mobile living unit used by Martian nomads and terraforming work teams. This large vehicle features eight large smart wheels and cramped living quarters to accommodate up to six people, with bunk beds, a kitchen, and bathroom. Rovers are also equipped with a fabber, mobile lab, headlights, radar system, external cameras, radio booster, cargo trailer hitch, drone-launching rack, and a two-person airlock to protect the internal pressurized environment. Barsoomians are known to decorate and mod their rovers in creative fashions.</p><p><em>Source: Eclipse Phase Sunward, p. 169.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "9047c9e532eaea58",
+  "sort": 8000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Martian Rover",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

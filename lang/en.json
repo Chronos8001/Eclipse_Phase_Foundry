@@ -799,7 +799,8 @@
       "enhancements": "Enhancements",
       "crashTest": "Pilot Test to avoid crashing",
       "crashed": "Two wounds at once: the vehicle crashes (p. 196).",
-      "destroyed": "Destroyed"
+      "destroyed": "Destroyed",
+      "deathRatingHint": "Death Rating given by the book; empty: DUR x 2."
     }
   }
 }

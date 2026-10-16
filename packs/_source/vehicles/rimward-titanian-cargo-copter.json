@@ -1,0 +1,67 @@
+{
+  "_id": "8505c3803bd3a25b",
+  "_key": "!actors!8505c3803bd3a25b",
+  "name": "Titanian Cargo Copter",
+  "type": "vehicle",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "category": "aircraft",
+    "passengers": "32",
+    "handling": 0,
+    "movement": "4/40",
+    "maxVelocity": "150",
+    "mobility": "",
+    "av": {
+      "energy": 20,
+      "kinetic": 20
+    },
+    "durability": 250,
+    "woundThreshold": 50,
+    "deathRating": 500,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Cryonic Protection, Laser Link, Radar, Radio",
+    "cost": "Expensive, Minimum 40,000+",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This massive dual-rotor helicopter takes advantage of Titan’s thick atmosphere and low gravity. It is unable to fly anywhere else in the solar system, including Earth and Venus. It can carry 15 tons of cargo or 30 personnel.</p><p><em>Source: Eclipse Phase Rimward, p. 195.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "469ab101da588cac",
+  "sort": 23000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Titanian Cargo Copter",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wing.svg"
+    }
+  }
+}

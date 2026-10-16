@@ -1,0 +1,67 @@
+{
+  "_id": "25f2584cf7773453",
+  "_key": "!actors!25f2584cf7773453",
+  "name": "Aerostat",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "0–4",
+    "handling": 0,
+    "movement": "4/20",
+    "maxVelocity": "100",
+    "mobility": "Microlight",
+    "av": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "durability": 20,
+    "woundThreshold": 5,
+    "deathRating": 40,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Chem Sniffer, Laser Link, Lidar, Radar, Radiation Sense, Telescope",
+    "cost": "High",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>These balloon platforms are used on planets or moons with atmospheres. They rely on buoyant gases for lift, but are propelled with turbofans. Research aerostats are loaded with sensors and scientific analysis equipment, usually to analyze atmospheric conditions. Surveillance aerostats are equipped with sensors and surveillance packages, serving as an eye in the sky. They are also used for exploration and surface terrain mapping. [High] Enhancements: Access Jacks, 360-Degree Vision, Enhanced Vision, Image Recognition Software, Laser Link, Radar, T-Ray Emitter Mining aerostats are deployed on the gas giant planets, loaded with equipment to extract specific volatiles from the atmosphere, which are then stored in pressurized tanks. These tanks are either picked up periodically or equipped with a rocket to launch into orbit for collection when full. [High] Enhancements: Access Jacks, Chem Sniffer, Gas Collection Gear, Laser Link, Storage Tanks</p><p><em>Source: Eclipse Phase Rimward, p. 192.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "469ab101da588cac",
+  "sort": 14000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Aerostat",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

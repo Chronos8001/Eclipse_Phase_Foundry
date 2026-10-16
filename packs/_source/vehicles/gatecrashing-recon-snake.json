@@ -1,0 +1,67 @@
+{
+  "_id": "e0ec4cec421558f3",
+  "_key": "!actors!e0ec4cec421558f3",
+  "name": "Recon Snake",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/8",
+    "maxVelocity": "12",
+    "mobility": "Snake",
+    "av": {
+      "energy": 2,
+      "kinetic": 2
+    },
+    "durability": 25,
+    "woundThreshold": 5,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "+5 COO, Access Jacks, Chameleon Skin, Eelware, Enhanced Hearing, Enhanced Vision, Headlights, Image Recognition Software, Magnetic System, Shape Adjusting, Sonar",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This meter-long synthetic snake is ideal for exploring cracks, holes, and similar tight spots. It can narrow its shape to squeeze through thin openings. It can also climb rough surfaces, trees, and poles by wrapping parts of its body around the object in order to reach higher points or spy from the treetops. Like other recon bots, recon snakes are equipped with image recognition software.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 162.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 37000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Recon Snake",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "da8c6a5da78a0143",
+  "_key": "!actors!da8c6a5da78a0143",
+  "name": "Passenger Balloon",
+  "type": "vehicle",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "category": "aircraft",
+    "passengers": "10",
+    "handling": -30,
+    "movement": "",
+    "maxVelocity": "100",
+    "mobility": "",
+    "av": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "durability": 20,
+    "woundThreshold": 5,
+    "deathRating": 30,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "High",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>These delicate constructions of lightweight polymers and aerogels are primarily used by tourists and the wealthy on Venus. The spherical balloon is both the vehicle’s source of lift and also the source of breathable air for those passengers that require it. The passenger cabin is a small room, 6 meters in diameter, with limited facilities, attached directly to the bottom of the balloon.</p><p><em>Source: Eclipse Phase Sunward, p. 170.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "9047c9e532eaea58",
+  "sort": 11000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Passenger Balloon",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wing.svg"
+    }
+  }
+}

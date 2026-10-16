@@ -1,0 +1,67 @@
+{
+  "_id": "5325dba0b4781928",
+  "_key": "!actors!5325dba0b4781928",
+  "name": "Explorernaut",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/20",
+    "maxVelocity": "60",
+    "mobility": "Thrust Vector/Wheeled",
+    "av": {
+      "energy": 8,
+      "kinetic": 8
+    },
+    "durability": 35,
+    "woundThreshold": 7,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Chem Sniffer, Electrical Sense, Enhanced Hearing, Enhanced Vision, Headlights, Image Recognition Software, Lidar, Mobile Lab, Radar, Radiation Sense, Specimen Container, Telescope, T-Ray Emitter, Utilitool",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>These bots are specifically designed for the second phase of exploring a new extrasolar location, right after the initial Gate Probe (p. 156) has been deployed. Explorenauts are dog-sized wheeled bots that remain tethered (both for safety and to maintain a communications link) back through the gate. They are equipped with audiovisual and infrared cameras, radar, lidar, t-ray emitters, chem sniffers, and radio receivers. If the area seems clear (no signs of sapient life or threats), its primary task is to move around and map and scan the immediate gate environment, using thrust-vector jets to get a few meters up for a better look around. It will also scan for radio signals, analyze the soil, regolith, or whatever constitutes ground, test for biological samples, and use a telescope to try and identify pulsars or other recognizable features that might help determine its galactic location. Beyond initial first-in proceedings, explorenauts are considered useful for general exploration duties, and so are often brought along by gatecrashing teams. The robot AI has Academics: Astronomy 60, Academics: Chemistry 60, and Perception 40.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 160.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 33000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Explorernaut",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

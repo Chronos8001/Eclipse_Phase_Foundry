@@ -1,0 +1,67 @@
+{
+  "_id": "df0bd4091aacb3f4",
+  "_key": "!actors!df0bd4091aacb3f4",
+  "name": "Mobile Base",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "2",
+    "handling": -10,
+    "movement": "4/20",
+    "maxVelocity": "15–35",
+    "mobility": "",
+    "av": {
+      "energy": 30,
+      "kinetic": 20
+    },
+    "durability": 150,
+    "woundThreshold": 30,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>A shelter dome (p. 333, EP) fits in a backpack and is perfectly suitable for short-term expeditions. If gatecrashers wish to establish a long-term base at some location, however, they will want something considerably larger as well as more comfortable and more durable. The mobile base is a relatively small and boxy vehicle with eight large smart material tires that are designed to work on almost any terrain. This vehicle is 4 meters long, 2 meters wide and high, holds a driver and one passenger in the air-sealed cabin, and can move between 15 and 35 km/hour (depending upon the terrain). It is powered by nuclear batteries that can power either the vehicle or the operational base for three full years. When this vehicle arrives at its destination, it automatically unfolds and unpacks so that it becomes a large and comfortable semi-permanent base capable of housing up to 12 transhumans. This base is 25 meters on a side and includes a mobile lab, sleeping facilities, and everything else the residents will need, including several large and high quality makers. If empty of all personnel and their gear, this base can be packed back into its mobile form within two hours. Unpacking it takes the same time. The base is fully pressurized and includes an air lock. It can be covered with rock or earth to provide radiation shielding.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 164.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 30000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Mobile Base",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

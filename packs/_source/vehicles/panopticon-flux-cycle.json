@@ -1,0 +1,67 @@
+{
+  "_id": "f82f904587710630",
+  "_key": "!actors!f82f904587710630",
+  "name": "Flux Cycle",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "1–3",
+    "handling": 20,
+    "movement": "4/40",
+    "maxVelocity": "110",
+    "mobility": "",
+    "av": {
+      "energy": 12,
+      "kinetic": 10
+    },
+    "durability": 50,
+    "woundThreshold": 10,
+    "deathRating": 300,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This is an enclosed cycle (p. 344, EP) with the same features as a flux ground car.</p><p><em>Source: Eclipse Phase Panopticon, p. 158.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "aa4874aab6c3c707",
+  "sort": 46000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Flux Cycle",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

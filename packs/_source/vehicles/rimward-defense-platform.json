@@ -1,0 +1,67 @@
+{
+  "_id": "6fdb65d8e9ec3fa4",
+  "_key": "!actors!6fdb65d8e9ec3fa4",
+  "name": "Defense Platform",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": -20,
+    "movement": "8/40",
+    "maxVelocity": "NA",
+    "mobility": "Thrust Vector",
+    "av": {
+      "energy": 16,
+      "kinetic": 16
+    },
+    "durability": 250,
+    "woundThreshold": 50,
+    "deathRating": 500,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "360-Degree Vision, Access Jacks, Anti-Glare, Chameleon Skin, Cryonic Protection, Ego Sharing, Heavy Combat Armor, Hyperspectral Imager (p. 153, Panopticon), Radar, Radar Absorbent (p. 149, Panopticon), Super-Wide Cameras (p. 153, Panopticon), 6 Weapon Mounts with 2 Exoatmospheric Particle Beam Bolters, 2 Seeker Rifles (HEAP and Plasmaburst), 2 Railgun Machine Guns",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This robotic weapons platform is designed as a defensive system for small habitats, mining claims, brinker colonies, and similar small settlements. They are often placed in orbit around an asteroid or small moon to guard against encroaching intruders. They are also sometimes entrenched in physical perimeter locations. Defense platforms are equipped with two AIs with Beam Weapons 40, Fray 40, Kinetic Weapons 40, Perception 40, and Seeker Weapons 40. The beam weapons are continuously powered by the platform’s nuclear battery, while the ammo bins hold up to 1,000 rounds of ammo and 50 minimissiles.</p><p><em>Source: Eclipse Phase Rimward, p. 192.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "469ab101da588cac",
+  "sort": 15000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Defense Platform",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

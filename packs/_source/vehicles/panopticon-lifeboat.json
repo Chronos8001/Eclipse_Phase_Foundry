@@ -1,0 +1,67 @@
+{
+  "_id": "65a7d2aef4a02d1c",
+  "_key": "!actors!65a7d2aef4a02d1c",
+  "name": "Lifeboat",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "100",
+    "handling": -20,
+    "movement": "4/100",
+    "maxVelocity": "NA",
+    "mobility": "",
+    "av": {
+      "energy": 20,
+      "kinetic": 20
+    },
+    "durability": 200,
+    "woundThreshold": 20,
+    "deathRating": 400,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Habitat lifeboats are designed to carry up to 100 people with food and water for 8 days. They are not designed for long-term or long-distance travel and have only very small metallic hydrogen rockets with limited range and poor maneuverability.</p><p><em>Source: Eclipse Phase Panopticon, p. 158.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "aa4874aab6c3c707",
+  "sort": 47000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Lifeboat",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

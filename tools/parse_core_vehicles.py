@@ -90,7 +90,7 @@ def build():
         system = {
             "category": category, "passengers": passengers, "handling": handling,
             "movement": "" if movement == "—" else movement, "maxVelocity": velocity, "mobility": mobility,
-            "av": {"energy": energy, "kinetic": kinetic}, "durability": number(dur), "woundThreshold": number(wt),
+            "av": {"energy": energy, "kinetic": kinetic}, "durability": number(dur), "woundThreshold": number(wt), "deathRating": 0,
             "damage": {"value": 0}, "wounds": {"value": 0}, "pilot": 40, "enhancements": enhancements, "cost": cost,
             "mods": {"dur": 0, "wt": 0, "energyArmor": 0, "kineticArmor": 0, "woundsIgnored": 0, "actions": 0, "defense": 0,
                      "spd": 0, "init": 0},
@@ -104,7 +104,8 @@ def write(folders, docs):
     d = os.path.join(OUT, PACK)
     os.makedirs(d, exist_ok=True)
     for f in os.listdir(d):
-        os.remove(os.path.join(d, f))
+        if f.startswith(("core-", "_folder-core")):
+            os.remove(os.path.join(d, f))
     for x in folders:
         with open(os.path.join(d, f"_folder-{x['name'].lower()}.json"), "w", encoding="utf-8") as fh:
             json.dump(x, fh, indent=2, ensure_ascii=False)

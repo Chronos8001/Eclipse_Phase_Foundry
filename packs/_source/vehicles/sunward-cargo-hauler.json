@@ -1,0 +1,67 @@
+{
+  "_id": "8dcaf688c56178c1",
+  "_key": "!actors!8dcaf688c56178c1",
+  "name": "Cargo Hauler",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "2 (more as cargo)",
+    "handling": 0,
+    "movement": "4/32",
+    "maxVelocity": "120",
+    "mobility": "",
+    "av": {
+      "energy": 20,
+      "kinetic": 15
+    },
+    "durability": 250,
+    "woundThreshold": 50,
+    "deathRating": 500,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>These freight-hauling trucks are commonly used to carry goods to isolated rural habitats and terraforming operations on Mars. Powerful and rugged, they are equipped with smart tires for handling tricky off-road situations. Their interiors are pressurized, heated, and provide life support for biomorphs unequipped to breath Martian atmosphere.</p><p><em>Source: Eclipse Phase Sunward, p. 168.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "9047c9e532eaea58",
+  "sort": 3000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Cargo Hauler",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

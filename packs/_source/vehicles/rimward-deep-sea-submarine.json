@@ -1,0 +1,67 @@
+{
+  "_id": "354574a717620cd2",
+  "_key": "!actors!354574a717620cd2",
+  "name": "Deep Sea Submarine",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "watercraft",
+    "passengers": "4",
+    "handling": -20,
+    "movement": "4/20",
+    "maxVelocity": "30",
+    "mobility": "",
+    "av": {
+      "energy": 30,
+      "kinetic": 30
+    },
+    "durability": 250,
+    "woundThreshold": 50,
+    "deathRating": 500,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Cryonic Protection, Headlights, Hydrostatic Pressure Adaptation, Maker, Radio, Sonar",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This mini-submersible is capable of carrying four passengers and a small amount of cargo all of the way to sea floor on Europa. Moving on propellers powered by a small reactor, it can provide life support for the crew for 1 week.</p><p><em>Source: Eclipse Phase Rimward, p. 193.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "469ab101da588cac",
+  "sort": 16000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Deep Sea Submarine",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

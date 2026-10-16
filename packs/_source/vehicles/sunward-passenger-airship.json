@@ -1,0 +1,67 @@
+{
+  "_id": "de65d8a10d74b02d",
+  "_key": "!actors!de65d8a10d74b02d",
+  "name": "Passenger Airship",
+  "type": "vehicle",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "category": "aircraft",
+    "passengers": "100",
+    "handling": -20,
+    "movement": "",
+    "maxVelocity": "100",
+    "mobility": "",
+    "av": {
+      "energy": 5,
+      "kinetic": 5
+    },
+    "durability": 300,
+    "woundThreshold": 10,
+    "deathRating": 350,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>A major method of intra-aerostat transport on Venus, these huge vehicles are 250 meters long and 40 meters in diameter and can carry up to 100 passengers and 20 tons of cargo. Powered by small fusion reactors, these vehicles can operate for weeks at a time, but most journeys take less than 5 days.</p><p><em>Source: Eclipse Phase Sunward, p. 170.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "9047c9e532eaea58",
+  "sort": 10000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Passenger Airship",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wing.svg"
+    }
+  }
+}

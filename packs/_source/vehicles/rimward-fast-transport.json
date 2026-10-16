@@ -1,0 +1,67 @@
+{
+  "_id": "8f9c29d2e6f9208c",
+  "_key": "!actors!8f9c29d2e6f9208c",
+  "name": "Fast Transport",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "120/200",
+    "handling": 0,
+    "movement": "NA",
+    "maxVelocity": "NA",
+    "mobility": "",
+    "av": {
+      "energy": 20,
+      "kinetic": 20
+    },
+    "durability": 750,
+    "woundThreshold": 150,
+    "deathRating": 1500,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>These are ordinary standard transports (p. 349, EP) with smart material hulls that restructure to double the amount of hydrogen carried, allowing the ship to make the journey twice as fast. The downside of reconfiguring a standard transport in this fashion is that it can only carry 120 passengers instead of the normal 200.</p><p><em>Source: Eclipse Phase Rimward, p. 194.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "469ab101da588cac",
+  "sort": 19000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Fast Transport",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

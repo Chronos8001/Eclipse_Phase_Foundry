@@ -1,0 +1,67 @@
+{
+  "_id": "c72062f5dca8988b",
+  "_key": "!actors!c72062f5dca8988b",
+  "name": "Hab Repair Bot",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/16",
+    "maxVelocity": "20",
+    "mobility": "Walker",
+    "av": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "durability": 40,
+    "woundThreshold": 8,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Chem Sniffer, Electrical Sense, Enhanced Vision, Extra Limbs (6–8), Grip Pads, Headlights, Maker, Nanoscopic Vision, Repair Spray, Tool Kit, Utilitool",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>To cut costs, most habitat repair bots are standardized and versatile, used for purposes as diverse as conducting repairs in vacuum on a station’s exterior hull to clearing blocked sewage pipes or repainting a colony corridor. They are equipped with interchangeable tools and reservoirs for carrying stock materials. Most repair bots have a crab-like robotic frame. Repair bot AIs have Hardware: Industrial 40, Hardware: Robotics 40, and Perception 30.</p><p><em>Source: Eclipse Phase Panopticon, p. 157.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "aa4874aab6c3c707",
+  "sort": 51000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Hab Repair Bot",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

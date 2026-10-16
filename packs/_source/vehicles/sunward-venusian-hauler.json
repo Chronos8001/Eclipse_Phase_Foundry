@@ -1,0 +1,67 @@
+{
+  "_id": "f95aa6a03e3b95f0",
+  "_key": "!actors!f95aa6a03e3b95f0",
+  "name": "Venusian Hauler",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "",
+    "handling": -10,
+    "movement": "2/16",
+    "maxVelocity": "80",
+    "mobility": "",
+    "av": {
+      "energy": 30,
+      "kinetic": 20
+    },
+    "durability": 200,
+    "woundThreshold": 40,
+    "deathRating": 400,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This tungsten-tracked flatbed cargo hauler is designed to transport Q-morphs, mining equipment, and mined goods across the harsh Venusian surface. It is built from materials designed to withstand the heat and temperature, equivalent to the High-Temperature Operation trait (p. 165). It has no passenger compartment or life support; Q-morphs and mining bots ride like cargo along with everything else.</p><p><em>Source: Eclipse Phase Sunward, p. 171.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "9047c9e532eaea58",
+  "sort": 13000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Venusian Hauler",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

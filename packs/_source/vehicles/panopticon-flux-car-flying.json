@@ -1,0 +1,67 @@
+{
+  "_id": "ff490cc367619307",
+  "_key": "!actors!ff490cc367619307",
+  "name": "Flux Car (Flying)",
+  "type": "vehicle",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "category": "aircraft",
+    "passengers": "4",
+    "handling": 0,
+    "movement": "8/60",
+    "maxVelocity": "180",
+    "mobility": "",
+    "av": {
+      "energy": 20,
+      "kinetic": 10
+    },
+    "durability": 150,
+    "woundThreshold": 30,
+    "deathRating": 300,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Expensive, Minimum 30,000 for ground, 40,000 for flying",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Flux cars are black market vehicles optimized for countersurveillance and tracking. Equipped with chameleon coating and constructed with smart materials, they can change their exterior appearance and even reconfigure their chassis on command. Both flying and ground car versions are available; flying car models come equipped with radar absorbent modifications. Most jurisdictions outlaw these designs.</p><p><em>Source: Eclipse Phase Panopticon, p. 158.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "aa4874aab6c3c707",
+  "sort": 44000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Flux Car (Flying)",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wing.svg"
+    }
+  }
+}

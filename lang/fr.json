@@ -799,7 +799,8 @@
       "enhancements": "Améliorations",
       "crashTest": "Test de Pilotage pour éviter l'accident",
       "crashed": "Deux blessures d'un coup : le véhicule s'écrase (p. 196).",
-      "destroyed": "Détruit"
+      "destroyed": "Détruit",
+      "deathRatingHint": "Seuil de destruction donné par le livre ; vide : DUR × 2."
     }
   }
 }

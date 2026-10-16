@@ -1,0 +1,67 @@
+{
+  "_id": "a2259f7ae45096e2",
+  "_key": "!actors!a2259f7ae45096e2",
+  "name": "Zephyr",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "8/40",
+    "maxVelocity": "200",
+    "mobility": "Winged",
+    "av": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "durability": 40,
+    "woundThreshold": 8,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Enhanced Vision, Image Recognition Software, Laser Link, Lidar, Radar, T-Ray Emitter",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Zephyrs are medium-sized, long-range, high-altitude winged flyers, capable of reconnoitering over long distances quickly. They are essentially small planes and may be launched by throwing them into the air.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 163.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 43000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Zephyr",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

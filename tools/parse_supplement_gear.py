@@ -9,7 +9,7 @@ type and category; robots and vehicles (stat blocks) are left for the robot and 
 """
 import hashlib, html, json, os, re, subprocess, sys
 
-FOLDER, OUT = sys.argv[1], sys.argv[2]
+FOLDER, OUT = (sys.argv[1], sys.argv[2]) if len(sys.argv) > 2 else (None, None)
 PACK = "supplement-gear"
 
 AUG = lambda c: ("augmentation", c)
@@ -75,9 +75,12 @@ BOOKS = [
     },
 ]
 
-COST = re.compile(r"\[((?:Trivial|Low|Moderate|Medium|High|Expensive|Free|One Cost Category|Only Available|Increase)[^\]]*)\]")
+COST = re.compile(r"\[((?:Trivial|Low|Moderate|Medium|High|Expensive|Free|One Cost Category|Only Available|Increase|Not Available)[^\]]*)\]")
 # A capitalized line with at least one word (stat rows of numbers are not headings)
 CAPS = re.compile(r"^(?=.*[A-ZÆ]{2})[A-Z0-9Æ][A-Z0-9Æ &/,.'’()+-]{2,60}$")
+# Column headings of robot and vehicle tables (ignored unless they are a section heading of the book)
+TABLE_HEAD = re.compile(r"^((ROBOTS?|VEHICLES?|BOT|PASSENGER|CAPACITY|HANDLING|MOVEMENT|RATE|MAX|VELOCITY|ARMOR|DURABILITY|"
+                        r"WOUND|THRESHOLD|DEATH|RATING|MOBILITY|SYSTEM)\s*)+$")
 # Category labels printed after some names ("WINGS (PHYSICAL AUGMENTATION)")
 LABEL = re.compile(r"\s*\(((PHYSICAL|MENTAL) (AUGMENTATION|MODIFICATION)|ENHANCED SENSE|EVERYDAY TECHNOLOGY|BLADES)\)", re.I)
 VEHICLE = re.compile(r"\((GROUNDCRAFT|AIRCRAFT|HOVERCRAFT|SPACECRAFT|WATERCRAFT|ROBOT)\)", re.I)
@@ -203,6 +206,14 @@ def parse(book):
         unfinished = current is not None and bool(current["text"]) and not complete()
         sentence_end = unfinished and bool(re.search(r"[.!?:)\]][\"”’]?$", current["text"][-1])) and not continues.get(index)
         if CAPS.match(line) and not COST.search(line):
+            if TABLE_HEAD.match(line) and line not in book["sections"]:
+                # A table ends any list printed after the previous item
+                if current is not None and current.get("stats"):
+                    current["stats_done"] = True
+                continue
+            # An illustration caption repeating the name of an item already read
+            if any(e["name"] == line for e in out if (e is not current) or complete()):
+                continue
             if unfinished and not sentence_end:
                 suspended = True
                 if line in book["sections"]:
@@ -231,9 +242,19 @@ def parse(book):
             suspended = False
         if current and not complete():
             current["text"].append(line)
-        elif current and line.startswith("Skills:") and current["type"] == "software":
-            # AI skills printed after the cost
+            # Enhancements printed right after the cost, on the same line
+            if complete() and "Enhancements:" in line[COST.search(line).end() if COST.search(line) else 0:]:
+                current["stats"] = line[line.index("Enhancements:"):]
+        elif current and line.startswith(("Skills:", "Enhancements:")):
+            # AI skills or shell enhancements printed after the cost
             current["stats"] = line
+        elif current and current.get("stats") and not current.get("stats_done"):
+            # Lines continuing the enhancements list, until the next heading
+            # Prose (a sentence about a variant) ends the list: "Surveillance aerostats are equipped..."
+            if re.match(r"^[A-Z][a-z]+( [a-z]+){2,}", line) or (re.match(r"^[A-Z][a-z]+ [a-z]", line) and line.endswith(".")):
+                current["stats_done"] = True
+            else:
+                current["stats"] += " " + line
     items = []
     for e in out:
         if VEHICLE.search(e["name"]):
@@ -246,7 +267,7 @@ def parse(book):
             continue
         cost = m[-1]
         desc = text[:cost.start()].strip()
-        if e.get("stats"):
+        if e.get("stats") and e["type"] == "software":
             desc = f"{desc} {e['stats']}"
         item = {**e, "name": title(e["name"]), "desc": desc, "cost": cost.group(1)}
         if e["name"] in book.get("weapons", {}):
@@ -423,12 +444,17 @@ def write(folders, docs):
     print(PACK, len(docs), "items in", len(folders), "folders")
 
 
-folders, docs = build()
-write(folders, docs)
-if "--summary" in sys.argv:
-    sys.stdout.reconfigure(encoding="utf-8")
-    for x in docs:
-        book = next(f["name"] for f in folders if f["_id"] == x["folder"])
-        s = x["system"]
-        cat = s.get("augType") or s.get("category") or f"{s.get('energy')}/{s.get('kinetic')}"
-        print(f"{book[:12]:12} {x['type']:12} {cat:11} {x['name'][:36]:36} {s['cost'][:16]:16} {len(s['description'])}")
+def main():
+    folders, docs = build()
+    write(folders, docs)
+    if "--summary" in sys.argv:
+        sys.stdout.reconfigure(encoding="utf-8")
+        for x in docs:
+            book = next(f["name"] for f in folders if f["_id"] == x["folder"])
+            s = x["system"]
+            cat = s.get("augType") or s.get("category") or f"{s.get('energy')}/{s.get('kinetic')}"
+            print(f"{book[:12]:12} {x['type']:12} {cat:11} {x['name'][:36]:36} {s['cost'][:16]:16} {len(s['description'])}")
+
+
+if __name__ == "__main__":
+    main()

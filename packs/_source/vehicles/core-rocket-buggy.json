@@ -17,6 +17,7 @@
     },
     "durability": 100,
     "woundThreshold": 20,
+    "deathRating": 0,
     "damage": {
       "value": 0
     },

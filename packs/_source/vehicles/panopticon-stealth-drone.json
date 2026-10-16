@@ -1,0 +1,67 @@
+{
+  "_id": "0bb9396e602d7bce",
+  "_key": "!actors!0bb9396e602d7bce",
+  "name": "Stealth Drone",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "12/200",
+    "maxVelocity": "200 (air)/NA (space)",
+    "mobility": "Winged, Thrust Vector",
+    "av": {
+      "energy": 10,
+      "kinetic": 10
+    },
+    "durability": 60,
+    "woundThreshold": 12,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "+10 COO, 360-Degree Vision, Access Jacks, Chameleon Skin, Enhanced Vision, Lidar, Quantum Radar, Radar Absorbent, Radiation Sense, Reduced Signature, Super-Wide Camera",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This stealth plane is designed to covertly penetrate airspace and monitor targets from overhead without detection. It can be used in vacuum as well as atmosphere. Its AI is equipped with Flight 40 and Perception 40.</p><p><em>Source: Eclipse Phase Panopticon, p. 158.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "aa4874aab6c3c707",
+  "sort": 55000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Stealth Drone",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

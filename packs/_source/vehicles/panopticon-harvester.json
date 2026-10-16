@@ -1,0 +1,67 @@
+{
+  "_id": "6145791b930375b6",
+  "_key": "!actors!6145791b930375b6",
+  "name": "Harvester",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "12/200",
+    "maxVelocity": "NA",
+    "mobility": "Thrust Vector",
+    "av": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "durability": 50,
+    "woundThreshold": 10,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "360-Degree Vision, Access Jacks, Extra Limbs (4), Enhanced Vision, Headlights, Radar, Radiation Sense, Tool Kit",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Many microgravity habitats employ harvester bots to bring in outside materials, such as rock and ice, for processing into useful materials. Dense fields like Saturn’s rings or trojan or orbiting debris clumps are relatively easy to mine because there are so many particles and chunks of material that can literally be grabbed with a drone’s robot arms and propelled back to the station. These capture drones are disc-shaped to give a 360-degree reach from the main body and allow the plasma thruster in the center to be pointed through the center-of-gravity of any object. Most are no larger than 1.5 meters in diameter, with six to eight articulated appendages that can reach another four meters each.</p><p><em>Source: Eclipse Phase Panopticon, p. 158.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "aa4874aab6c3c707",
+  "sort": 52000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Harvester",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "a6567359682b46c3",
+  "_key": "!actors!a6567359682b46c3",
+  "name": "Sky Mote",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/20",
+    "maxVelocity": "20",
+    "mobility": "Microlight",
+    "av": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "durability": 5,
+    "woundThreshold": 1,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "360-Degree Vision, Access Jacks, Enhanced Vision, Laser Link",
+    "cost": "Trivial (single bot)/Moderate (swarm of 50)",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Sky motes are mini-sized aerostats designed to keep position over an area and act as a relay point for a mote mesh (see Motes, p. 154). They are typically deployed over areas where high terrain, bodies of water, or other environmental factors impede a mote network’s coverage or to link two distant mote networks together. Sky motes are also equipped with laser links for line-of-sight communication or in case of radio interference.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 163.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 41000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Sky Mote",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

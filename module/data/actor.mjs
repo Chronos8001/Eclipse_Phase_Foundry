@@ -223,6 +223,8 @@ export class VehicleData extends foundry.abstract.TypeDataModel {
       av: new SchemaField({ energy: int(0, { min: 0 }), kinetic: int(0, { min: 0 }) }),
       durability: int(30, { min: 0 }),
       woundThreshold: int(6, { min: 0 }),
+      // Some tables give a Death Rating; 0 uses DUR x 2 as for synthmorphs
+      deathRating: int(0, { min: 0 }),
       damage: new SchemaField({ value: int(0, { min: 0 }) }),
       wounds: new SchemaField({ value: int(0, { min: 0 }) }),
       // Pilot skill of the AI or character controlling the shell: used to defend and avoid crashes
@@ -243,7 +245,8 @@ export class VehicleData extends foundry.abstract.TypeDataModel {
     const dur = Math.max(0, this.durability + mods.dur);
     // Synthetic shells are destroyed at DUR x 2 (p. 207)
     const wt = Math.max(1, this.woundThreshold + mods.wt);
-    this.stats = { dur, wt, dr: dur * 2, luc: 0, tt: 0, ir: 0, init: mods.init, spd: Math.max(1, 1 + mods.spd), db: 0, isSynth: true, isInfomorph: false };
+    const dr = this.deathRating || (dur * 2);
+    this.stats = { dur, wt, dr, luc: 0, tt: 0, ir: 0, init: mods.init, spd: Math.max(1, 1 + mods.spd), db: 0, isSynth: true, isInfomorph: false };
     this.armor = { energy: this.av.energy + mods.energyArmor, kinetic: this.av.kinetic + mods.kineticArmor, psi: 0, layers: 0 };
     this.damage.max = dur;
     // Robots ignore one wound's modifier like other synthetic morphs (p. 207)
@@ -252,7 +255,7 @@ export class VehicleData extends foundry.abstract.TypeDataModel {
     this.penalty = { wounds: woundPenalty, trauma: 0, armor: 0, actions: -mods.actions, psi: 0, total, modifier: -total, initiative: woundPenalty };
     this.status = {
       incapacitated: (dur > 0) && (this.damage.value >= dur),
-      dead: (dur > 0) && (this.damage.value >= dur * 2),
+      dead: (dr > 0) && (this.damage.value >= dr),
       insane: false,
       unstable: false
     };
