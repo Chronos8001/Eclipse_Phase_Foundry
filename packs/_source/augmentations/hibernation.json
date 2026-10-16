@@ -1,0 +1,20 @@
+{
+  "_id": "a582c18e487a8e94",
+  "_key": "!items!a582c18e487a8e94",
+  "name": "Hibernation",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "hibernation",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The character can voluntarily reduce the morph’s metabolism to the point that the morph requires only 5% of the normal amount of food, water, and air. The character appears to sink into a deep sleep, but can maintain a dim awareness of both touch and sound and so can be easily awakened. Entering or leaving this state requires 3 minutes where the character is relatively helpless. With sufficient air, characters can safely hibernate for up to 40 days without food or water.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 305.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 30000,
+  "ownership": {
+    "default": 0
+  }
+}

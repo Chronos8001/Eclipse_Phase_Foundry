@@ -1,0 +1,20 @@
+{
+  "_id": "4f5967e930e46498",
+  "_key": "!items!4f5967e930e46498",
+  "name": "Gills",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "gills",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The morph’s lung tissue has been adapted to function as gills, allowing the morph to breathe both air and water, as long as the water is not toxic or too stagnant. Characters with this augmentation breathe in water and then expel the water through slits just underneath their lowest pair of ribs that seal when the character is not underwater.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 305.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 28000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "b2021e66573a3a04",
+  "_key": "!items!b2021e66573a3a04",
+  "name": "Cortical Stack",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "corticalStack",
+    "augType": "standard",
+    "cost": "Moderate, but included for free with most morphs",
+    "description": "<p>A cortical stack is a tiny cyberware data storage unit protected within a synthdiamond case the size of a grape, implanted at the base of the skull where the brain stem and spinal cord connect. It contains a digital backup of that character’s ego. Part nanoware, the implant maintains a network of nanobots that monitor synaptic connections and brain architecture, noting any changes and updating the ego backup in real time, right up to the moment of death. If the character dies, the cortical stack can be recovered and they may be restored from the backup (see Resleeving, p. 271). Cortical stacks do not have external or wireless access (for security), they must be surgically removed (see Retrieving a Cortical Stack, p. 268). Cortical stacks are extremely durable, requiring special effort to damage or destroy. They are commonly recovered from bodies that have otherwise been pulped or mangled. Cortical stacks are intentionally isolated from mesh inserts and other implants, as a security measure to prevent hacking or external tampering.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 300.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

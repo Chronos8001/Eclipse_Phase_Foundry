@@ -1,0 +1,20 @@
+{
+  "_id": "88cbe8808a0733ee",
+  "_key": "!items!88cbe8808a0733ee",
+  "name": "Multi-Tasking",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "multiTasking",
+    "augType": "cyberware",
+    "cost": "High",
+    "description": "<p>Only characters with cortical stacks can possess this augmentation. The character has an advanced computer installed in their brain that uses the data in the cortical stack to create several simultaneous short-term forks to handle various mental tasks. By design, this computer automatically reintegrates all of these forks into the character’s core personality after a maximum of 4 hours, earlier if desired. This augmentation allows the character to both plan a speech and engage in intensive mesh-browsing while simultaneously fighting a gun battle or running from pursuit, since each of the forks operates independently. However, these forks can only perform purely mental or on-line interactions. This augmentation can produce a maximum of two forks at a time, giving the character an extra two Complex Actions on every Action Phase for mental or on-line actions. This implant cannot be used simultaneously with any other augmentation that allows for extra actions, or with the mental speed augmentation (p. 308).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 307.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 50000,
+  "ownership": {
+    "default": 0
+  }
+}

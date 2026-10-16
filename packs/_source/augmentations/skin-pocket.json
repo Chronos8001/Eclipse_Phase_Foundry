@@ -1,0 +1,20 @@
+{
+  "_id": "f1c50a6c66d1a1f8",
+  "_key": "!items!f1c50a6c66d1a1f8",
+  "name": "Skin Pocket",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "skinPocket",
+    "augType": "bioware",
+    "cost": "Trivial",
+    "description": "<p>The morph has a pocket within its skin layer, capable of holding and providing concealment (+30) for small items.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 305.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 37000,
+  "ownership": {
+    "default": 0
+  }
+}

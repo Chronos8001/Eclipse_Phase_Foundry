@@ -1,0 +1,20 @@
+{
+  "_id": "3ed7848e656a65cb",
+  "_key": "!items!3ed7848e656a65cb",
+  "name": "Roller",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "roller",
+    "augType": "robotic",
+    "cost": "Moderate",
+    "description": "<p>Only for circular shells, this system allows the synthmorph to roll like a ball. The shell rolls around an interior axle, propelled by a motor-driven pendulum.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 83000,
+  "ownership": {
+    "default": 0
+  }
+}

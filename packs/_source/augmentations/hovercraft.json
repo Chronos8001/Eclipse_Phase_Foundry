@@ -1,0 +1,20 @@
+{
+  "_id": "024ce1a1c712afb9",
+  "_key": "!items!024ce1a1c712afb9",
+  "name": "Hovercraft",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "hovercraft",
+    "augType": "robotic",
+    "cost": "Low",
+    "description": "<p>The shell uses an impeller to blast a cushion of high-pressure air off the surface below, repelling the frame off the ground (modern hovercraft do not use rubber skirts). Most hovercraft travel a meter or so above the ground, but can temporarily levitate themselves higher for short periods.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 80000,
+  "ownership": {
+    "default": 0
+  }
+}

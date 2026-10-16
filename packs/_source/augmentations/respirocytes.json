@@ -1,0 +1,20 @@
+{
+  "_id": "514355662741c53d",
+  "_key": "!items!514355662741c53d",
+  "name": "Respirocytes",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "respirocytes",
+    "augType": "nanoware",
+    "cost": "Moderate",
+    "description": "<p>These nanobots act as highly-efficient artificial red blood cells, increasing the ability to transfer oxygen and carbon dioxide. This increases the morph’s ability to hold their breath to 4 hours and increases DUR by +5.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 309.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 64000,
+  "ownership": {
+    "default": 0
+  }
+}

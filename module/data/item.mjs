@@ -173,7 +173,9 @@ export class AugmentationData extends BaseItemData {
   static defineSchema() {
     return {
       ...super.defineSchema(),
-      augType: choice(["bioware", "cyberware", "nanoware", "meshware", "other"], "bioware"),
+      key: text(),
+      // standard: included in most morphs; cosmetic: body mods; robotic: synthmorph and bot enhancements (Core pp. 300-312)
+      augType: choice(["standard", "bioware", "cyberware", "nanoware", "meshware", "cosmetic", "robotic", "other"], "bioware"),
       cost: text()
     };
   }

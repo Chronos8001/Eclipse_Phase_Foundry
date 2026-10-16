@@ -1,0 +1,20 @@
+{
+  "_id": "684df8ca2cf9833b",
+  "_key": "!items!684df8ca2cf9833b",
+  "name": "Winged",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "winged",
+    "augType": "robotic",
+    "cost": "Low",
+    "description": "<p>Primarily used by smaller shells, this system of four independently-controlled wings allows the shell to hover or move rapidly in any direction.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 91000,
+  "ownership": {
+    "default": 0
+  }
+}

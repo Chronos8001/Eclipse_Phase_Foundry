@@ -1,0 +1,20 @@
+{
+  "_id": "753a2035f7f62487",
+  "_key": "!items!753a2035f7f62487",
+  "name": "Enhanced Hearing",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "enhancedHearing",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The morph’s ears are enhanced to hear both higher and lower frequency sounds—the range of sounds they can hear is twice that of normal human ears (see Using Enhanced Senses, p. 302). In addition, their hearing is considerably more sensitive, allowing them to hear sounds as if they were five times closer than they are. A character with this augmentation can easily overhear even a softly spoken conversation at another table in a small restaurant. This augmentation provides a +20 modifier to all Perception Tests involving hearing.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 301.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "42b89c3554dace71",
+  "_key": "!items!42b89c3554dace71",
+  "name": "Multiple Personalities",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "multiplePersonalities",
+    "augType": "bioware",
+    "cost": "High",
+    "description": "<p>The character’s brain is intentionally partitioned to accommodate an extra personality. This multiplicity is not viewed as a disorder, but as a cognitive tool to help people deal with their hypercomplex environments. This extra personality can be an NPC run by the gamemaster, a separate character (in ego form only) made by the player, or the downloaded fork of another character. For all intents and purposes, the extra personality is treated as a separate ego (i.e., it may fork separately), except that both personalities are backed up in the same cortical stack and if downloaded they must be placed in separate morphs or in another morph with this implant. Only one ego may be in control of the morph at a time. The other resides in the background, still active, but not on a surface level. Each ego is completely aware of what the other is doing, thinking, etc. If for some reason the subsumed personality wants to come to the fore, but the other personality won’t relinquish control, make an Opposed WIL x 3 Test. Each ego has its own Lucidity and Trauma Threshold, and they track stress and trauma separately. Any psi attacks or social/mental influences only affect the personality at the fore. Having an extra ego in your head, working in the background, is helpful for multitasking. The character receives an extra Complex Action each turn that may only be used for mental or mesh actions.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 301.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

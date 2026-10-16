@@ -1,0 +1,20 @@
+{
+  "_id": "0a025c60a9d17fe1",
+  "_key": "!items!0a025c60a9d17fe1",
+  "name": "Chameleon Skin",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "chameleonSkin",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The morph’s skin is augmented with complex chromatophores so that it changes color like the skin of a chameleon or an octopus. The morph can match the appearance of almost any color and most patterns. This provides a +20 modifier to Infiltration Tests to avoid being seen or noticed, as long as the character is stationary or not moving faster than a slow walk. The character must be nude or wearing smart clothing (p. 325) of the same color/pattern. If incompletely camouflaged, or if moving faster, reduce the modifier to +10. In addition to blending in, the character can also consciously change the color and pattern of their skin to deliberately stand out (+20 on Perception Tests to notice) or simply to produce attractive or interesting colors or patterns.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 303.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

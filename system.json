@@ -53,6 +53,14 @@
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
+      "name": "augmentations",
+      "label": "Augmentations (Core)",
+      "path": "packs/augmentations",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
       "name": "software",
       "label": "Software (Core)",
       "path": "packs/software",
@@ -73,7 +81,7 @@
     {
       "name": "Eclipse Phase",
       "sorting": "m",
-      "packs": ["morphs", "traits", "weapons", "armor", "sleights", "software"]
+      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "software", "sleights"]
     }
   ],
   "documentTypes": {

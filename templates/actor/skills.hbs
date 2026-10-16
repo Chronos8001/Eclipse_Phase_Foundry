@@ -31,7 +31,7 @@
           </td>
           <td class="apt">{{localize row.aptitudeAbbr}} <small>{{row.item.system.aptitudeValue}}</small></td>
           <td><input type="number" value="{{row.item.system.ranks}}" min="0" data-item-field="system.ranks" {{#unless @root.editable}}disabled{{/unless}}></td>
-          <td class="derived">{{#if row.item.system.morphBonus}}{{ep1eSigned row.item.system.morphBonus}}{{/if}}</td>
+          <td class="derived">{{#if row.item.system.morphBonus}}{{ep1eSigned row.item.system.morphBonus}}{{/if}}{{#if row.item.system.effectBonus}} <span data-tooltip="EP1E.Skill.effectBonus">{{ep1eSigned row.item.system.effectBonus}}</span>{{/if}}</td>
           <td><input type="number" value="{{row.item.system.mod}}" data-item-field="system.mod" {{#unless @root.editable}}disabled{{/unless}}></td>
           <td class="total"><a class="rollable" data-action="rollItem">{{row.item.system.total}}</a></td>
           <td class="spec"><input type="text" value="{{row.item.system.specialization}}" data-item-field="system.specialization" {{#unless @root.editable}}disabled{{/unless}}></td>

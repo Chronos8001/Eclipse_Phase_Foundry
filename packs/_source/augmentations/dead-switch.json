@@ -1,0 +1,20 @@
+{
+  "_id": "dd7833ea59e97390",
+  "_key": "!items!dd7833ea59e97390",
+  "name": "Dead Switch",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "deadSwitch",
+    "augType": "cyberware",
+    "cost": "Low",
+    "description": "<p>This cortical stack (p. 300) accessory is designed to keep the stack from falling into the wrong hands. If the morph is killed, the dead switch wipes and melts the cortical stack completely, so that the ego cannot be recovered. This option is generally only used by covert operatives with recent backups.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 306.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 46000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "e05ce8f0d03e295d",
+  "_key": "!items!e05ce8f0d03e295d",
+  "name": "Enhanced Smell",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "enhancedSmell",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The morph’s sense of smell is equal to that of a bloodhound. The user can identify both chemicals and individuals by smell, and can track people and chemically reactive objects by smell as long as the trail was made within the last several hours and has not been obscured. The character can also gain a general sense of the emotions and health of any character within 5 meters (+20 to Perception or Kinesics Tests to do so).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 301.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

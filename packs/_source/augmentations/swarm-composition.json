@@ -1,0 +1,20 @@
+{
+  "_id": "363544c18c60a703",
+  "_key": "!items!363544c18c60a703",
+  "name": "Swarm Composition",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "swarmComposition",
+    "augType": "robotic",
+    "cost": "High",
+    "description": "<p>The shell is not a single unit but a swarm of hundreds of insect-sized robotic microdrones. Each individual “bug” is capable of crawling, rolling, hopping several meters, or using nanocopter fan blades for airlift. The cyberbrain, sensor systems, and implants are distributed throughout the swarm. Though the swarm can “meld” together into a roughly child-sized shape, the swarm is incapable of tackling physical tasks like grabbing, lifting, or holding as a unit. Individual bugs, however, are quite capable of interfacing with electronics. Swarms cannot carry most gear or wear armor, and may not make strength-based SOM-linked skill tests. For combat purposes, use the same rules as given for nanoswarms, p. 328. Damage and wounds are reflected as damaged/massacred bugs. The swarm may be “healed” by manufacturing more bugs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 101000,
+  "ownership": {
+    "default": 0
+  }
+}

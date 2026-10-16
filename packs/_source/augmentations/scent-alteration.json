@@ -1,0 +1,20 @@
+{
+  "_id": "12f9ffa804a384e1",
+  "_key": "!items!12f9ffa804a384e1",
+  "name": "Scent Alteration",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "scentAlteration",
+    "augType": "cosmetic",
+    "cost": "Low",
+    "description": "<p>Minor changes to a body’s biochemistry can alter a character’s natural smell or constantly perfume them.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 73000,
+  "ownership": {
+    "default": 0
+  }
+}

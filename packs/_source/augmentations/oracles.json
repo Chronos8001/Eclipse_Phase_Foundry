@@ -1,0 +1,44 @@
+{
+  "_id": "ee60a6b7e87dddea",
+  "_key": "!items!ee60a6b7e87dddea",
+  "name": "Oracles",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "oracles",
+    "augType": "nanoware",
+    "cost": "Moderate",
+    "description": "<p>These neural macrosensing nanobots pay attention to the sensory input on which the character is not focusing, alerting them about important things they might otherwise overlook. Oracles also act as a sort of memory buffer and search aid, extending short term memory, helping the character recall memories and details, and crosschecking them with other memories. Oracles negate Perception modifiers for distraction, apply a +10 modifier to Investigation Tests, and add a +30 bonus to memory-related tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 309.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "6f5f018fe3eacb70",
+      "_key": "!items.effects!ee60a6b7e87dddea.6f5f018fe3eacb70",
+      "name": "Oracles",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.investigation",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 63000,
+  "ownership": {
+    "default": 0
+  }
+}

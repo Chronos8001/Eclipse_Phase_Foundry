@@ -1,0 +1,20 @@
+{
+  "_id": "b344ba342b5b82df",
+  "_key": "!items!b344ba342b5b82df",
+  "name": "Echolocation",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "echolocation",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The character possesses sonar similar to that of a bat or dolphin. The character bounces brief ultrasonic pulses off their surroundings and uses them to form an image of these surroundings through the pattern of reflections of these pulses received by the character’s ears. For more details, see Using Enhanced Senses, p. 302. This augmentation works in both air and water and has a range of 20 meters in air and 100 meters in water.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 301.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

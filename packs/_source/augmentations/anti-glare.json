@@ -1,0 +1,20 @@
+{
+  "_id": "3315f8ccbad369da",
+  "_key": "!items!3315f8ccbad369da",
+  "name": "Anti-Glare",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "antiGlare",
+    "augType": "cyberware",
+    "cost": "Low",
+    "description": "<p>This visual mod eliminates penalties for glare.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 306.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 41000,
+  "ownership": {
+    "default": 0
+  }
+}

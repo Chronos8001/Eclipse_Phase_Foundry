@@ -1,0 +1,20 @@
+{
+  "_id": "4ebf38008a973b82",
+  "_key": "!items!4ebf38008a973b82",
+  "name": "Temperature Tolerance",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "temperatureTolerance",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The morph’s temperature regulation and circulation are both substantially enhanced allowing the character to survive in temperatures as low as –30 degrees Celsius and as high as 60 degrees Celsius without discomfort or ill effects.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 305.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 38000,
+  "ownership": {
+    "default": 0
+  }
+}

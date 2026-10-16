@@ -1,0 +1,20 @@
+{
+  "_id": "553fb848a38921af",
+  "_key": "!items!553fb848a38921af",
+  "name": "Snake",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "snake",
+    "augType": "robotic",
+    "cost": "Moderate",
+    "description": "<p>Commonly used by slitheroids, these shells use lateral undulation, flexing their body from left to right and waving their frame forward. Such shells may also use sidewinding or a concertina motion (straightening forward, then retracting the rear) to move. They also featured gyroscope stabilization so that they may circle into a hoop and roll like a wheel.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 85000,
+  "ownership": {
+    "default": 0
+  }
+}

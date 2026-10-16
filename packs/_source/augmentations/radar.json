@@ -1,0 +1,20 @@
+{
+  "_id": "31cc758978b324a1",
+  "_key": "!items!31cc758978b324a1",
+  "name": "Radar",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "radar",
+    "augType": "robotic",
+    "cost": "Low",
+    "description": "<p>This sensor system bounces radio or microwaves off targets and measures the reflected waves to judge size, composition, and motion. See Using Enhanced Senses, p. 302.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 107000,
+  "ownership": {
+    "default": 0
+  }
+}

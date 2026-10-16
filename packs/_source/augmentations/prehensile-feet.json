@@ -1,0 +1,20 @@
+{
+  "_id": "2f70aaf0d47f5c66",
+  "_key": "!items!2f70aaf0d47f5c66",
+  "name": "Prehensile Feet",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "prehensileFeet",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The morph’s feet and leg joints are altered so that its toes are longer and more dexterous and the big toe is transformed into an opposable thumb. Physically, the morph’s feet resemble a longer narrower hand or a human foot with finger (and thumb)-like toes. The character can walk normally but must wear specially designed shoes. However, this morph runs somewhat slower than a morph with unmodified feet (–1 meter per Action Turn). In addition, the morph’s hips are slightly modified to allow greater mobility. In a properly constructed chair, or when floating in zero-G, the character can use both their hands and their feet to manipulate the same object. Most morphs used by characters who live in zero-G possess this augmentation.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 305.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 34000,
+  "ownership": {
+    "default": 0
+  }
+}

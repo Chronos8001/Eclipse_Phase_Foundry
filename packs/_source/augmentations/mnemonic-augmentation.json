@@ -1,0 +1,20 @@
+{
+  "_id": "ef5f180eded33a9d",
+  "_key": "!items!ef5f180eded33a9d",
+  "name": "Mnemonic Augmentation",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "mnemonicAugmentation",
+    "augType": "cyberware",
+    "cost": "Low",
+    "description": "<p>A character with this augmentation and a cortical stack can access digital recordings of all of the sensory data they have experienced in XP format (and they may share these recordings with others). Mnemonic augmentation differs from the eidetic memory bioware because it allows characters to digitally share all of their sensory data with others. It also allows them to closely examine sensory data they did not initially look at. For example, If the character glanced at a note but did not read it, they can later use image enhancement software to enhance this image and in most cases actually read what the note said. Mnemonic augmentation allows the character to clearly hear all background noises, like a conversation at a nearby table that the character only initially heard a few words of. Using mnemonic augmentation to retrieve a specific piece of information is quite easy, but usually requires between 2 and 20 minutes of concentration.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 307.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 49000,
+  "ownership": {
+    "default": 0
+  }
+}

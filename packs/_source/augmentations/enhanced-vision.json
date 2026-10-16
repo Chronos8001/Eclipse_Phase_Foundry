@@ -1,0 +1,20 @@
+{
+  "_id": "60f87cc67f3a8084",
+  "_key": "!items!60f87cc67f3a8084",
+  "name": "Enhanced Vision",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "enhancedVision",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The morph’s eyes have tetrachromatic vision capable of exceptional color differentiation. These eyes can also see the electromagnetic spectrum from terahertz wave frequencies to gamma rays, enabling them to see a total of several dozen colors, instead of the seven ordinary human eyes can perceive. In addition, these eyes have a variable focus equivalent to 5 power magnifiers or binoculars. This augmentation provides a +20 modifier to all Perception Tests involving vision. For further applications, see Using Enhances Senses, p. 302.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 301.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  }
+}

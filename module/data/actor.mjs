@@ -40,6 +40,8 @@ export class EgoData extends foundry.abstract.TypeDataModel {
         psiShield: int(0), psiArmor: int(0), psiDefense: int(0)
       }),
       rep: new SchemaField(Object.fromEntries(REP_NETWORKS.map(k => [k, int(0, { min: 0 })]))),
+      // Bonus to each skill, the target of active effects (system.skillMods.climbing...)
+      skillMods: new SchemaField(Object.fromEntries(Object.keys(SKILLS).map(k => [k, int(0)]))),
       // AIs and muses cannot default to aptitudes nor use Moxie (p. 264)
       ai: new BooleanField({ initial: false }),
       // Systems the character has hacked into (pp. 254-258)
@@ -167,8 +169,10 @@ export class EgoData extends foundry.abstract.TypeDataModel {
       const s = item.system;
       s.aptitudeValue = this.aptitudes[s.aptitude]?.value ?? 0;
       s.morphBonus = bonuses[s.key] ?? 0;
+      // Implants and other effects (system.skillMods.<key>) add to the skill's other modifier
+      s.effectBonus = this.skillMods[s.key] ?? 0;
       const cannotDefault = (s.noDefault || this.ai) && (s.ranks <= 0);
-      s.total = cannotDefault ? 0 : Math.max(0, s.aptitudeValue + s.ranks + s.morphBonus + s.mod);
+      s.total = cannotDefault ? 0 : Math.max(0, s.aptitudeValue + s.ranks + s.morphBonus + s.mod + s.effectBonus);
       s.defaulting = s.ranks <= 0;
     }
   }
@@ -192,7 +196,8 @@ export class EgoData extends foundry.abstract.TypeDataModel {
     if ( !cfg ) return { target: 0, label: "", skill: null };
     const label = game.i18n.localize(`EP1E.Skill.${key}`);
     const canDefault = !cfg.noDefault && !this.ai;
-    return { target: canDefault ? this.aptitudes[cfg.aptitude].value : 0, label, skill: null };
+    const target = canDefault ? this.aptitudes[cfg.aptitude].value + (this.skillMods[key] ?? 0) : 0;
+    return { target, label, skill: null };
   }
 }
 

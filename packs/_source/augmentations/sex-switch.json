@@ -1,0 +1,20 @@
+{
+  "_id": "3c4ea51394653042",
+  "_key": "!items!3c4ea51394653042",
+  "name": "Sex Switch",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "sexSwitch",
+    "augType": "bioware",
+    "cost": "Moderate",
+    "description": "<p>A complex suite of alterations allows the character to switch their physical sex to male, female, hermaphrodite, or neuter. This change is mentally triggered but takes approximately 1 week to complete.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 305.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 36000,
+  "ownership": {
+    "default": 0
+  }
+}

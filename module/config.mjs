@@ -116,10 +116,13 @@ export const EP1E = {
   softwareHarms: { none: "EP1E.Software.harmNone", damage: "EP1E.Sleight.harmDamage", stress: "EP1E.Sleight.harmStress" },
   scorchEffects: { "": "EP1E.Software.harmNone", nightmare: "EP1E.Mesh.nightmare", shutter: "EP1E.Mesh.shutter", spasm: "EP1E.Mesh.spasm" },
   augmentationTypes: {
+    standard: "EP1E.AugType.standard",
     bioware: "EP1E.AugType.bioware",
     cyberware: "EP1E.AugType.cyberware",
     nanoware: "EP1E.AugType.nanoware",
     meshware: "EP1E.AugType.meshware",
+    cosmetic: "EP1E.AugType.cosmetic",
+    robotic: "EP1E.AugType.robotic",
     other: "EP1E.AugType.other"
   },
   psiTypes: { chi: "EP1E.PsiType.chi", gamma: "EP1E.PsiType.gamma", epsilon: "EP1E.PsiType.epsilon" },

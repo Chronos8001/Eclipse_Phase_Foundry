@@ -1,0 +1,51 @@
+{
+  "_id": "cefbc219a9398d2c",
+  "_key": "!items!cefbc219a9398d2c",
+  "name": "Emotional Dampers",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "emotionalDampers",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>This low-cost alternative to endocrine control (p. 304) allows the user to voluntarily damp their morph’s emotional responses and various non-verbal cues like pupil dilation, eye movement, or vocal tone. Using this augmentation allows the user to lie and conceal their emotions in such as way as oo fool the keenest observer; apply a +30 modifier to Deception and Impersonation Tests. This modification does not affect methods of detecting lies and emotions that involve reading the character’s neural state, including psi-gamma sleights. However, this augmentation damps out all emotional responses and so causes the character to be less persuasive in real-time personal interactions, imposing a –10 modifier to other Social skill tests like Persuasion. Characters can turn this augmentation on or off at will.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 304.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "271a07560019f7a6",
+      "_key": "!items.effects!cefbc219a9398d2c.271a07560019f7a6",
+      "name": "Emotional Dampers",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.deception",
+          "mode": 2,
+          "type": "add",
+          "value": "30",
+          "priority": null
+        },
+        {
+          "key": "system.skillMods.impersonation",
+          "mode": 2,
+          "type": "add",
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  }
+}

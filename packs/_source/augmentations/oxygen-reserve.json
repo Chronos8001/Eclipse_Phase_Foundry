@@ -1,0 +1,20 @@
+{
+  "_id": "c6f794561f4ec60c",
+  "_key": "!items!c6f794561f4ec60c",
+  "name": "Oxygen Reserve",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "oxygenReserve",
+    "augType": "cyberware",
+    "cost": "Low",
+    "description": "<p>The morph has a miniature oxygen tank and rebreather installed in its torso. This implant provides the equivalent of the life support system in a light vacsuit (p. 333), allowing the character to breathe comfortably for up to 3 hours. It feeds oxygen directly to the morph’s blood stream, avoiding problems with pressure changes. Implanted sensors automatically cause the character to use the stored oxygen if they detect poisonous or insufficient atmosphere. Without vacuum sealing, the character can only survive in vacuum for 5 minutes, but remains conscious and active for the entire time, giving them far more time to find shelter or a vacsuit than characters without this implant. For every hour the character is in a breathable atmosphere, this implant recovers one hour of oxygen storage. The implant can be fully recharged within 15 minutes if the character is in a high-pressure mostly oxygen atmosphere.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 308.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 57000,
+  "ownership": {
+    "default": 0
+  }
+}

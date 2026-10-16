@@ -214,7 +214,8 @@
       "art": "Art",
       "interest": "Centre d'intérêt",
       "language": "Langue",
-      "profession": "Profession"
+      "profession": "Profession",
+      "effectBonus": "Implants et effets (system.skillMods)"
     },
     "Difficulty": {
       "effortless": "Sans effort",
@@ -401,9 +402,9 @@
     "Augmentation": {
       "none": "Aucune augmentation.",
       "type": "Type",
-      "hint": "Ajoutez un effet actif pour automatiser les bonus (ex. system.aptitudes.ref.mod + 10)."
+      "hint": "Les bonus constants sont des effets actifs (aptitudes, armure, vitesse, initiative, blessures ignorées, compétences via system.skillMods.<compétence>). Les bonus situationnels (Adrenal Boost) sont désactivés : activez-les dans l'onglet Effets."
     },
-    "AugType": { "bioware": "Bioware", "cyberware": "Cyberware", "nanoware": "Nanoware", "meshware": "Meshware", "other": "Autre" },
+    "AugType": { "bioware": "Bioware", "cyberware": "Cyberware", "nanoware": "Nanoware", "meshware": "Meshware", "other": "Autre", "standard": "Standard", "cosmetic": "Cosmétique", "robotic": "Robotique" },
     "Sleight": {
       "none": "Aucun pouvoir psi.",
       "psiType": "Type",

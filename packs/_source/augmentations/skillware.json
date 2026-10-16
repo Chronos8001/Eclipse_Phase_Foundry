@@ -1,0 +1,20 @@
+{
+  "_id": "4a9c0798a1362db0",
+  "_key": "!items!4a9c0798a1362db0",
+  "name": "Skillware",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "skillware",
+    "augType": "nanoware",
+    "cost": "High",
+    "description": "<p>The morph’s brain is laced with a network of artificial neurons that may be formatted with downloaded information. This allows the user to download skillsofts (p. 332) into their brains, gaining the use of those programmed skills until the skillsoft is erased or replaced. Skillware systems are only capable of handling 100 total skill points worth of skillsofts at a time.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 309.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 65000,
+  "ownership": {
+    "default": 0
+  }
+}

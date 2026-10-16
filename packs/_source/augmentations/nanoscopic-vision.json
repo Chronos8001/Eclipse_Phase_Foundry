@@ -1,0 +1,20 @@
+{
+  "_id": "79a92f2b2a902e4b",
+  "_key": "!items!79a92f2b2a902e4b",
+  "name": "Nanoscopic Vision",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "nanoscopicVision",
+    "augType": "robotic",
+    "cost": "Moderate",
+    "description": "<p>The shell’s visual sensors can focus like a microscope, using advanced superlens techniques to beat the optical diffraction limit and image objects as small as a nanometer. This allows the character to view and analyze objects as small as blood cells and even individual nanobots. The synthmorph must stay relatively steady to view objects at this scale.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 106000,
+  "ownership": {
+    "default": 0
+  }
+}

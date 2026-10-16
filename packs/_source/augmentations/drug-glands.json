@@ -1,0 +1,20 @@
+{
+  "_id": "84f95edb75bdf8d6",
+  "_key": "!items!84f95edb75bdf8d6",
+  "name": "Drug Glands",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "drugGlands",
+    "augType": "bioware",
+    "cost": "One Cost Category Higher Than Drug Cost",
+    "description": "<p>The morph has specially-tailored glands designed to produce specific hormones or chemicals and release them in the body. The character has control over these glands and can release the chemicals at will. Each type of drug gland is considered a separate enhancement. For potential drugs and chemicals, see p. 317.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 304.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

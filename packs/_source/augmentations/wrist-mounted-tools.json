@@ -1,0 +1,20 @@
+{
+  "_id": "0b14ee6c1f6c4ab7",
+  "_key": "!items!0b14ee6c1f6c4ab7",
+  "name": "Wrist-Mounted Tools",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "wristMountedTools",
+    "augType": "nanoware",
+    "cost": "Moderate",
+    "description": "<p>The morph has a 6 centimeter-wide metal band containing nanobot generators implanted around each wrist. These nanobots link together to duplicate the function of a utilitool (p. 326), creating narrow, highly flexible arms that each ends in a specialized tool. These nanobots can also produce tiny fiber optics to allow the character to see through small openings, as well as being able to create small weapons equal to bioware claws. The fact that these tool are mentally controlled gives the character a +20 modifier to skills involving repairing or modifying devices with mechanical parts, opening locks or disarming alarm systems, or performing first aid.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 309.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 68000,
+  "ownership": {
+    "default": 0
+  }
+}
