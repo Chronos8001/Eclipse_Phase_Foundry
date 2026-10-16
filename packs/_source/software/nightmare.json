@@ -1,0 +1,34 @@
+{
+  "_id": "9a2d4346fddbf698",
+  "_key": "!items!9a2d4346fddbf698",
+  "name": "Nightmare",
+  "type": "software",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "key": "nightmare",
+    "category": "scorcher",
+    "quality": 0,
+    "cost": "High",
+    "damage": "",
+    "harm": "none",
+    "effect": "nightmare",
+    "aptitudes": {
+      "cog": 10,
+      "coo": 10,
+      "int": 10,
+      "ref": 10,
+      "sav": 10,
+      "som": 10,
+      "wil": 10
+    },
+    "skills": [],
+    "description": "<p>Nightmare programs trigger anxiety and panic attacks within the victim by stimulating the neural circuitry representing the amygdala and hippocampus. The target ego must make a WIL x 2 Test. If they succeed, they are shaken but otherwise unaffected, suffering a –10 modifier to all actions until the end of the next Action Turn. If they fail, they suffers 1d10 ÷ 2 stress damage and are overcome with panic. This causes them either to blindly flee, have a nervous breakdown, or cower in frozen shock (gamemaster’s discretion). This panic episode lasts for 1 Action Turn per 10 points of MoF.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 332.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

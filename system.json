@@ -53,6 +53,14 @@
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
+      "name": "software",
+      "label": "Software (Core)",
+      "path": "packs/software",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
       "name": "sleights",
       "label": "Psi Sleights (Core, Transhuman, X-Risks)",
       "path": "packs/sleights",
@@ -65,7 +73,7 @@
     {
       "name": "Eclipse Phase",
       "sorting": "m",
-      "packs": ["morphs", "traits", "weapons", "armor", "sleights"]
+      "packs": ["morphs", "traits", "weapons", "armor", "sleights", "software"]
     }
   ],
   "documentTypes": {
@@ -81,7 +89,8 @@
       "armor": { "htmlFields": ["description"] },
       "gear": { "htmlFields": ["description"] },
       "augmentation": { "htmlFields": ["description"] },
-      "sleight": { "htmlFields": ["description"] }
+      "sleight": { "htmlFields": ["description"] },
+      "software": { "htmlFields": ["description"] }
     }
   },
   "socket": true,
