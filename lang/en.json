@@ -771,7 +771,8 @@
       "service": "Service",
       "survival": "Survival",
       "ammo": "Ammunition",
-      "weaponAccessory": "Weapon accessory"
+      "weaponAccessory": "Weapon accessory",
+      "server": "Server"
     },
     "Ammo": {
       "ap": "AP modifier",

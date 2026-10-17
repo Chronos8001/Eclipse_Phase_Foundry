@@ -123,7 +123,8 @@ export const EP1E = {
     surveillance: "EP1E.GearCategory.surveillance", espionage: "EP1E.GearCategory.espionage",
     everyday: "EP1E.GearCategory.everyday", nanotech: "EP1E.GearCategory.nanotech", pet: "EP1E.GearCategory.pet",
     scavenger: "EP1E.GearCategory.scavenger", service: "EP1E.GearCategory.service", survival: "EP1E.GearCategory.survival",
-    ammo: "EP1E.GearCategory.ammo", weaponAccessory: "EP1E.GearCategory.weaponAccessory"
+    ammo: "EP1E.GearCategory.ammo", weaponAccessory: "EP1E.GearCategory.weaponAccessory",
+    server: "EP1E.GearCategory.server"
   },
   substanceCategories: {
     drug: "EP1E.Substance.drug", nanodrug: "EP1E.Substance.nanodrug", narcoalgorithm: "EP1E.Substance.narcoalgorithm",

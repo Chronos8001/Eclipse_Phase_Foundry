@@ -1,0 +1,53 @@
+{
+  "_id": "bf004492905217a2",
+  "_key": "!items!bf004492905217a2",
+  "name": "Lockbox",
+  "type": "gear",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "lockbox",
+    "cost": "Infomorph Capacity x 500 (rental: Moderate per account per month)",
+    "description": "<p>Lockboxes are servers specifically designed to imprison, interrogate, or manipulate captive egos. In most cases, an involuntary subject is loaded onto the server and run in a slave eidolon shell (p. 142). Captive infomorphs are given almost no user privileges on the system, are prevented from running any nonsanctioned software including plug-ins or upgrades, cannot self-delete or self-modify, can only operate at a Speed of 1, and often suffer other restrictions. These servers makes certain that captive infomorphs running on them are obedient, weak willed, and easily intimidated. Disadvantages (Captive Users Only): Aptitude Maximum 20, Speed Maximum 1 Advantages (Admin Users Only): +10 Psychosurgery</p><p><em>Source: Eclipse Phase Transhuman, p. 146.</em></p>",
+    "category": "server",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "072f89e3f3224a45",
+      "_key": "!items.effects!bf004492905217a2.072f89e3f3224a45",
+      "name": "Lockbox (on the server)",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.psychosurgery",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 55000,
+  "ownership": {
+    "default": 0
+  }
+}

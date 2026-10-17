@@ -165,7 +165,7 @@ export class GearData extends BaseItemData {
       ...super.defineSchema(),
       key: text(),
       category: choice(["other", "armorMod", "comms", "surveillance", "espionage", "everyday", "nanotech", "pet",
-        "scavenger", "service", "survival", "ammo", "weaponAccessory"], "other"),
+        "scavenger", "service", "survival", "ammo", "weaponAccessory", "server"], "other"),
       quantity: int(1, { min: 0 }),
       cost: text(),
       // Kinetic ammunition (Core p. 337): modifiers to the weapon's AP and DV

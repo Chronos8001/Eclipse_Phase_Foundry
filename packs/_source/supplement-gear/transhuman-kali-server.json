@@ -1,0 +1,60 @@
+{
+  "_id": "edd391919b128200",
+  "_key": "!items!edd391919b128200",
+  "name": "Kali Server",
+  "type": "gear",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "kaliServer",
+    "cost": "High to Expensive (rental per account per month)",
+    "description": "<p>This server, maintained by the ID Crew, runs an OS optimized for security and penetration testing. Advantages: +10 Infosec, Enhanced Server</p><p><em>Source: Eclipse Phase Transhuman, p. 145.</em></p>",
+    "category": "server",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "89772e0bfb81bf8e",
+      "_key": "!items.effects!edd391919b128200.89772e0bfb81bf8e",
+      "name": "Kali Server (on the server)",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.infosec",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.mods.init",
+          "mode": 2,
+          "type": "add",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 53000,
+  "ownership": {
+    "default": 0
+  }
+}

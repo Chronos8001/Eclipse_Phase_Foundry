@@ -1,0 +1,53 @@
+{
+  "_id": "ccbcf585f564f9cd",
+  "_key": "!items!ccbcf585f564f9cd",
+  "name": "Byzantium",
+  "type": "gear",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "byzantium",
+    "cost": "High to Expensive (rental per account per month)",
+    "description": "<p>A server designed by programmers, for programmers. Advantages: +10 Programming</p><p><em>Source: Eclipse Phase Transhuman, p. 145.</em></p>",
+    "category": "server",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "5a632bf480768436",
+      "_key": "!items.effects!ccbcf585f564f9cd.5a632bf480768436",
+      "name": "Byzantium (on the server)",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.programming",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 43000,
+  "ownership": {
+    "default": 0
+  }
+}

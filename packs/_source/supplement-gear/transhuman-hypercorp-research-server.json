@@ -1,0 +1,53 @@
+{
+  "_id": "a35f8aff980d5f10",
+  "_key": "!items!a35f8aff980d5f10",
+  "name": "Hypercorp Research Server",
+  "type": "gear",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "hypercorpResearchServer",
+    "cost": "High to Expensive (rental per account per month)",
+    "description": "<p>Some hypercorps employ infomorph researchers, and some scientists and engineers find it easier to work as an infomorph. The best hypercorps maintain enhanced specialized servers that significantly improve the capabilities of the infomorphs running on them. These severs are always actively monitored and security personnel vigorously respond to all potential threats. Advantages: +10 Academics: (Choose One), +10 Research, Math Boost</p><p><em>Source: Eclipse Phase Transhuman, p. 145.</em></p>",
+    "category": "server",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "8425ba10412360f8",
+      "_key": "!items.effects!a35f8aff980d5f10.8425ba10412360f8",
+      "name": "Hypercorp Research Server (on the server)",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.research",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 51000,
+  "ownership": {
+    "default": 0
+  }
+}

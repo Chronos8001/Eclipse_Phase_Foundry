@@ -1,0 +1,60 @@
+{
+  "_id": "2b28ea031a04335c",
+  "_key": "!items!2b28ea031a04335c",
+  "name": "Glitch",
+  "type": "gear",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "glitch",
+    "cost": "High to Expensive (rental per account per month)",
+    "description": "<p>The exotic environment of the infomorph habitat Glitch is specifically designed to enhance the minds of its inhabitants. Similar specialized servers are used by various other groups of wealthy infomorphs interested in intelligence enhancement. Advantages: +5 COG, +5 INT, Math Boost</p><p><em>Source: Eclipse Phase Transhuman, p. 145.</em></p>",
+    "category": "server",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "efd9d77a8cf0bd08",
+      "_key": "!items.effects!2b28ea031a04335c.efd9d77a8cf0bd08",
+      "name": "Glitch (on the server)",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.aptitudes.cog.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "5",
+          "priority": null
+        },
+        {
+          "key": "system.aptitudes.int.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 47000,
+  "ownership": {
+    "default": 0
+  }
+}

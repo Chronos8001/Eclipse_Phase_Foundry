@@ -771,7 +771,8 @@
       "service": "Service",
       "survival": "Survie",
       "ammo": "Munitions",
-      "weaponAccessory": "Accessoire d'arme"
+      "weaponAccessory": "Accessoire d'arme",
+      "server": "Serveur"
     },
     "Ammo": {
       "ap": "Modif. de PA",

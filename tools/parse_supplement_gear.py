@@ -104,7 +104,7 @@ def lines(book):
                                    os.path.join(FOLDER, book["file"]), "-"], capture_output=True).stdout.decode("utf-8", "replace")
             for line in text.split("\n"):
                 # Control characters, and the end-of-section glyph that prints as a lone "n"
-                line = re.sub(r"\s+n$", "", re.sub(r"[\x00-\x1f]", "", line).strip())
+                line = re.sub(r"(^|\s+)n$", "", re.sub(r"[\x00-\x1f]", "", line).strip())
                 if line and not FURNITURE.match(line):
                     out.append((line, p - book["offset"]))
     return out
@@ -382,6 +382,7 @@ SKILL_KEYS = {
     "profession": "profession", "professional": "profession", "programming": "programming", "protocol": "protocol",
     "research": "research", "scrounging": "scrounging", "spray weapons": "sprayWeapons", "unarmed combat": "unarmedCombat",
     "animal handling": "animalHandling", "throwing weapons": "throwingWeapons", "seeker weapons": "seekerWeapons",
+    "psychosurgery": "psychosurgery",
 }
 
 
@@ -399,6 +400,69 @@ def ai_stats(text):
         skills.append({"key": SKILL_KEYS.get(name.strip().lower(), ""), "name": name.strip(), "field": (field or "").strip(),
                        "value": int(value), "specialization": spec or ""})
     return aptitudes, skills
+
+
+# Servers for infomorphs (Transhuman pp. 144-146): headings of the entries kept, their item name and cost (Server Costs
+# table). The general Specialized Servers paragraph is cut by a sidebar and a page break, out of order: not kept.
+SERVER_PAGES = (147, 149)
+SERVERS = {"ENHANCED SERVERS": ("Enhanced Server", "High (rental per account per month)"),
+           "BYZANTIUM": ("Byzantium", "High to Expensive (rental per account per month)"),
+           "ELITE MILITARY VEHICLE": ("Elite Military Vehicle", "High to Expensive (rental per account per month)"),
+           "GLITCH": ("Glitch", "High to Expensive (rental per account per month)"),
+           "HIGH-END VEHICLE": ("High-End Vehicle", "High to Expensive (rental per account per month)"),
+           "HYPERCORP RESEARCH SERVER": ("Hypercorp Research Server", "High to Expensive (rental per account per month)"),
+           "KALI SERVER": ("Kali Server", "High to Expensive (rental per account per month)"),
+           # The Lockbox sample completes the Lockboxes paragraph
+           "LOCKBOXES": ("Lockbox", "Infomorph Capacity x 500 (rental: Moderate per account per month)"),
+           "LOCKBOX": ("Lockbox", "Infomorph Capacity x 500 (rental: Moderate per account per month)")}
+
+
+def servers(book):
+    """Server items {name, desc, cost, page, changes}: the bonuses an infomorph gets while running on the server."""
+    tagged = lines({**book, "pages": [SERVER_PAGES]})
+    entries, current = {}, None
+    for line, page in tagged:
+        if CAPS.match(line):
+            current = line if line in SERVERS else None
+            if current:
+                entries[current] = {"page": page, "text": []}
+            continue
+        if current:
+            text = entries[current]["text"]
+            # The paragraph ends at its last sentence; lines after it belong to a sidebar or another column
+            if text and re.search(r"[.!?]$", text[-1]) and not re.match(r"^(Advantages|Disadvantages)", line) and \
+                    not re.match(r"^[a-z+]", line):
+                current = None
+                continue
+            text.append(line)
+    # One item per name, its paragraphs in the order of SERVERS (Lockboxes, then the Lockbox sample)
+    merged = {}
+    for heading, (name, cost) in SERVERS.items():
+        if heading in entries:
+            e = merged.setdefault(name, {"name": name, "cost": cost, "page": entries[heading]["page"], "text": []})
+            e["text"] += entries[heading]["text"]
+    out = []
+    for e in merged.values():
+        desc = join(e["text"])
+        # "Advantages: +10 Pilot: [Vehicle Type], +10 Gunnery, Enhanced Server"; a field to choose
+        # ("+10 Academics: (Choose One)") cannot be targeted and stays in the description
+        advantages = " ".join(re.findall(r"Advantages(?: \([^)]*\))?:\s*(.*?)(?=Disadvantages|$)", desc))
+        changes = []
+        for value, what in re.findall(r"\+(\d+) ([A-Z][A-Za-z]*(?: [A-Z][a-z]+)?)(?!: \(Choose)", advantages):
+            # "Psychosurgery Lockboxes" (the next paragraph): the longest known name wins
+            words = what.split()
+            what = next((" ".join(words[:n]) for n in range(len(words), 0, -1)
+                         if " ".join(words[:n]) in APTITUDES or " ".join(words[:n]).lower() in SKILL_KEYS), what)
+            apt, skill = APTITUDES.get(what), SKILL_KEYS.get(what.lower())
+            if apt:
+                changes.append((f"system.aptitudes.{apt}.mod", int(value)))
+            elif skill:
+                changes.append((f"system.skillMods.{skill}", int(value)))
+        # An enhanced server: +1 to Initiative Tests
+        if e["name"] == "Enhanced Server" or "Enhanced Server" in advantages:
+            changes.append(("system.mods.init", 1))
+        out.append({**e, "desc": desc, "changes": changes})
+    return out
 
 
 AV = re.compile(r"(?:\bAV|[Aa]rmor of(?: AV)?)\s*(\d+)\s*/\s*(\d+)|\b(\d+)\s*/\s*(\d+)\s+armor")
@@ -423,7 +487,31 @@ def build():
             docs.append({"_id": _id, "_key": f"!items!{_id}", "name": e["name"], "type": e["type"], "img": IMAGES[e["type"]],
                          "system": system, "effects": [], "flags": {}, "folder": folder_id,
                          "sort": (n + 1) * 1000, "ownership": {"default": 0}})
+        if book["title"] == "Transhuman":
+            for n, e in enumerate(servers(book)):
+                docs.append(server_doc(e, book, folder_id, (len(docs) + n + 1) * 1000))
     return folders, docs
+
+
+def server_doc(e, book, folder_id, sort):
+    """A server gear item; its bonuses are an effect to enable while the infomorph runs on the server."""
+    _id = make_id(book["title"], e["name"])
+    desc = (f"<p>{html.escape(e['desc'], quote=False)}</p>"
+            f"<p><em>Source: Eclipse Phase {book['title']}, p. {e['page']}.</em></p>")
+    effects = []
+    if e["changes"]:
+        eid = make_id(book["title"], e["name"], "effect")
+        effects.append({
+            "_id": eid, "_key": f"!items.effects!{_id}.{eid}", "name": f"{e['name']} (on the server)",
+            "img": "icons/svg/upgrade.svg",
+            # v13 reads the numeric mode, v14 the string type
+            "changes": [{"key": k, "mode": 2, "type": "add", "value": str(v), "priority": None} for k, v in e["changes"]],
+            "disabled": True, "transfer": True, "duration": {}, "flags": {}, "description": "", "origin": None,
+            "statuses": [], "tint": "#ffffff"})
+    return {"_id": _id, "_key": f"!items!{_id}", "name": e["name"], "type": "gear", "img": "icons/svg/hanging-sign.svg",
+            "system": {"key": key(e["name"]), "cost": e["cost"], "description": desc, "category": "server", "quantity": 1,
+                       "ammo": {"ap": 0, "dv": "", "half": False, "noDamage": False, "armorDoubled": False, "shock": False}},
+            "effects": effects, "flags": {}, "folder": folder_id, "sort": sort, "ownership": {"default": 0}}
 
 
 def write(folders, docs):
