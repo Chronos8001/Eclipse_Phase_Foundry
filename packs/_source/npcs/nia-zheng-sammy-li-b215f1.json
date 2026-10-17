@@ -1,0 +1,836 @@
+{
+  "_id": "b215f1c7a471006f",
+  "_key": "!actors!b215f1c7a471006f",
+  "name": "Nia Zheng/Sammy Li",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 25,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 2,
+      "max": 2
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "dur": 5
+    },
+    "biography": "<p>Former White Khanhs Criminal</p><p><strong>Morph:</strong> Pleasure Pod</p><p><strong>Motivation:</strong> +Hedonism +Technology +Wealth</p><p><strong>Active Skills:</strong> Beam Weapons 70, Blades 80, Clubs 60, Deception 60, Fray 70, Free Fall 60, Impersonation 70, Infiltration 60, Infosec 30, Intimidation 35, Investigation 40, Kinesics 60, Kinetic Weapons 60, Networking: Guanxi 65, Perception 60, Persuasion 60, Pilot: Groundcraft 30, Research 50, Unarmed Combat 80</p><p><strong>Knowledge Skills:</strong> Interest: Locus Syndicates 60, Interest: Martian Triads 40, Language: English 50, Language: Cantonese 85, Language Russian: 65, Language: Vietnamese 70, Profession: Cool Hunter 60, Profession: Tech Trader 60</p><p><strong>Reputation:</strong> @-rep 20, g-rep 40</p><p><strong>Traits:</strong> Social Stigma (Pleasure Pod) trait</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts, Clean Metabolism, Cortical Stack, Cyber Brain, Enhanced Pheromones, Mnemonic Augmentation, Puppet Sock, Sex Switch</p><p><strong>Roleplaying:</strong> Sammy is quite fearful that the Khanhs will track him down. He’s a tough guy, though, and an experienced thug, so he’ll face any threats head on. In the meantime, however, he’s quite enjoying his new sex and lifestyle and won’t be afraid to flaunt it.</p><p><em>Printed: INIT 80, SPD 1, LUC 40, TT 8, IR 80, DUR 35, WT 7, DR 53.</em></p><p><em>Source: Eclipse Phase Glory, p. 22.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Hedonism +Technology +Wealth"
+    }
+  },
+  "items": [
+    {
+      "_id": "daf6c726800037d1",
+      "name": "Pleasure Pod",
+      "type": "morph",
+      "img": "icons/svg/mystery-man-black.svg",
+      "system": {
+        "morphType": "pod",
+        "aptitudeMax": {
+          "cog": 30,
+          "coo": 30,
+          "int": 30,
+          "ref": 30,
+          "sav": 30,
+          "som": 30,
+          "wil": 30
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 5,
+          "ref": 0,
+          "sav": 5,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 30,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Clean Metabolism, Cortical Stack, Cyberbrain, Enhanced Pheromones, Mnemonic Augmentation, Puppet Sock, Sex Switch",
+        "advantages": "+5 INT, +5 SAV, +5 to one aptitude of the player’s choice",
+        "disadvantages": "Social Stigma (Pleasure Pod) trait",
+        "skillBonuses": [],
+        "cpCost": 20,
+        "creditCost": "High",
+        "active": true,
+        "description": "<p>Pleasure pods are exactly what they seem—faux humans designed purely for intimate entertainment purposes. Pleasure pods have extra nerve clusters in their erogenous zones, fine motor control over certain muscle groups, enhanced pheromones, sanitized metabolisms, and the genetics for purring. Naturally, they are crafted for good looks and charisma and enhanced in other areas as well. Pleasure pods are capable of switching their sex at will to male, female, hermaphrodite, neuter, or other intersex variations.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 76.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b215f1c7a471006f.daf6c726800037d1"
+    },
+    {
+      "_id": "8e151fcfb2607fa4",
+      "name": "Social Stigma",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "socialStigma",
+        "traitType": "negative",
+        "scope": "both",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>An unfortunate aspect of the character’s background means that they suffer from a stigma in certain social situations. They may be sleeved in a morph viewed with repugnance, be a survivor of the infamous Lost generation, or may be an AGI in a post-Fall society plagued by fear of artificial intelligence. In social situations where the character’s nature is known to someone who view that nature with distaste, fear, or repugnance, they suffer a –10 to –30 modifier (gamemaster’s discretion) to social skill tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b215f1c7a471006f.8e151fcfb2607fa4"
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "68b922dc3df43ce4",
+      "_key": "!actors.items!b215f1c7a471006f.68b922dc3df43ce4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Blades",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "blades",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0d948eca50b7951e",
+      "_key": "!actors.items!b215f1c7a471006f.0d948eca50b7951e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Clubs",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "clubs",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6eb18249d6f3b6f4",
+      "_key": "!actors.items!b215f1c7a471006f.6eb18249d6f3b6f4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ab64c85749738e98",
+      "_key": "!actors.items!b215f1c7a471006f.ab64c85749738e98",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "838996d593aef9f7",
+      "_key": "!actors.items!b215f1c7a471006f.838996d593aef9f7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "eb3db1607daa1ce7",
+      "_key": "!actors.items!b215f1c7a471006f.eb3db1607daa1ce7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Impersonation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "impersonation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c3de98755e8497fd",
+      "_key": "!actors.items!b215f1c7a471006f.c3de98755e8497fd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3566aec62df965b2",
+      "_key": "!actors.items!b215f1c7a471006f.3566aec62df965b2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ffbdc7e5f6894681",
+      "_key": "!actors.items!b215f1c7a471006f.ffbdc7e5f6894681",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 5,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "28daf3537289b815",
+      "_key": "!actors.items!b215f1c7a471006f.28daf3537289b815",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2e7473feef08a3a4",
+      "_key": "!actors.items!b215f1c7a471006f.2e7473feef08a3a4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0d0a80bcf7113b18",
+      "_key": "!actors.items!b215f1c7a471006f.0d0a80bcf7113b18",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3a94b0e3782e17cc",
+      "_key": "!actors.items!b215f1c7a471006f.3a94b0e3782e17cc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Guanxi",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "76fa77477e3fedaf",
+      "_key": "!actors.items!b215f1c7a471006f.76fa77477e3fedaf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "048087571721ded4",
+      "_key": "!actors.items!b215f1c7a471006f.048087571721ded4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b8f5a319541ae2fc",
+      "_key": "!actors.items!b215f1c7a471006f.b8f5a319541ae2fc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Pilot",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "pilot",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "Groundcraft",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "91272abbfac004a8",
+      "_key": "!actors.items!b215f1c7a471006f.91272abbfac004a8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4d605145d5dd4cec",
+      "_key": "!actors.items!b215f1c7a471006f.4d605145d5dd4cec",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4135e68c1ca6c971",
+      "_key": "!actors.items!b215f1c7a471006f.4135e68c1ca6c971",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Locus Syndicates",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "408e29b76c7683f4",
+      "_key": "!actors.items!b215f1c7a471006f.408e29b76c7683f4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 22000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Martian Triads",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "99c5f65517d6e007",
+      "_key": "!actors.items!b215f1c7a471006f.99c5f65517d6e007",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 23000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "English",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "aff332648c063d1a",
+      "_key": "!actors.items!b215f1c7a471006f.aff332648c063d1a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 24000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Cantonese",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3d84a728d7e72f3f",
+      "_key": "!actors.items!b215f1c7a471006f.3d84a728d7e72f3f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 25000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Russian",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7d1caa85f5bd382f",
+      "_key": "!actors.items!b215f1c7a471006f.7d1caa85f5bd382f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 26000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Vietnamese",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5e6ece09a9615ecf",
+      "_key": "!actors.items!b215f1c7a471006f.5e6ece09a9615ecf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 27000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Cool Hunter",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5d510c8aa7dd64d6",
+      "_key": "!actors.items!b215f1c7a471006f.5d510c8aa7dd64d6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 28000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Tech Trader",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "40c0fa3bfd2bb22f",
+      "_key": "!actors.items!b215f1c7a471006f.40c0fa3bfd2bb22f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 29000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "f3497fd65709500d",
+  "sort": 27000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Nia Zheng/Sammy Li",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

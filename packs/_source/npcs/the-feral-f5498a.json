@@ -1,0 +1,324 @@
+{
+  "_id": "f5498ad139dedd84",
+  "_key": "!actors!f5498ad139dedd84",
+  "name": "The Feral",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 25,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 35,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 1,
+      "max": 1
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p><strong>Movement Rate:</strong> 4/16</p><p><strong>Skills:</strong> Clubs 50, Fray 55, Perception 60, Unarmed Combat 60</p><p><strong>Notes:</strong> Bioweave Armor (Heavy)(3/4), Chameleon Skin, Grip Pads, Prehensile Feet</p><p><strong>Attacks:</strong> Club (DV 1d10 + 5, AP 0), Unarmed (Claws) (DV 1d10 + 6, AP –1)</p><p><em>Printed: INIT 90, SPD 1, LUC 20, TT 4, IR 40, DUR 35(45), WT 7(9), DR 53(68).</em></p><p><em>Source: Eclipse Phase Gatecrashing, p. 176.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": ""
+    }
+  },
+  "items": [
+    {
+      "name": "The Feral (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 35,
+        "initMod": 0,
+        "speedMod": 0,
+        "armor": {
+          "energy": 3,
+          "kinetic": 4
+        },
+        "movement": "4/16",
+        "implants": "",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "8ccab632cc4c4f51",
+      "_key": "!actors.items!f5498ad139dedd84.8ccab632cc4c4f51",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Clubs",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "clubs",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9a2d98c0df32cfcd",
+      "_key": "!actors.items!f5498ad139dedd84.9a2d98c0df32cfcd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ca9f8a5666ff07b5",
+      "_key": "!actors.items!f5498ad139dedd84.ca9f8a5666ff07b5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "26f714c8ef266fc6",
+      "_key": "!actors.items!f5498ad139dedd84.26f714c8ef266fc6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "65cf2f02c7fe7ce4",
+      "_key": "!actors.items!f5498ad139dedd84.65cf2f02c7fe7ce4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "78614a0d4361c5b2",
+      "name": "Club",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "clubs",
+        "ap": 0,
+        "dv": "1d10 + 5",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "range": "",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "Trivial",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Club (DV 1d10 + 5, AP 0)</p><p>Clubs encompasses a wide range of one-hand- ed blunt objects, from saps to sticks to pipes.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!f5498ad139dedd84.78614a0d4361c5b2"
+    },
+    {
+      "_id": "06121a538b31770d",
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "ap": -1,
+        "dv": "1d10 + 6",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "range": "",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Unarmed (Claws) (DV 1d10 + 6, AP –1)</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!f5498ad139dedd84.06121a538b31770d"
+    }
+  ],
+  "effects": [],
+  "folder": "158be1a6be4faa33",
+  "sort": 4000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "The Feral",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

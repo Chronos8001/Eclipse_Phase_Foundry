@@ -102,8 +102,16 @@
     },
     {
       "name": "threats",
-      "label": "Threats and Creatures",
+      "label": "Threats and Creatures (X-Risks)",
       "path": "packs/threats",
+      "type": "Actor",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "npcs",
+      "label": "NPCs and Creatures (Core, Supplements, Scenarios)",
+      "path": "packs/npcs",
       "type": "Actor",
       "system": "ep1e",
       "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
@@ -121,7 +129,7 @@
     {
       "name": "Eclipse Phase",
       "sorting": "m",
-      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights", "vehicles", "threats"]
+      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights", "vehicles", "threats", "npcs"]
     }
   ],
   "documentTypes": {

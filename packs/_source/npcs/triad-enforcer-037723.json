@@ -1,0 +1,616 @@
+{
+  "_id": "0377238a3b78714a",
+  "_key": "!actors!0377238a3b78714a",
+  "name": "Triad Enforcer",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 20,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 1,
+      "max": 1
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p><strong>Morph:</strong> Olympian</p><p><strong>Skills:</strong> Beam Weapons 45, Clubs 45, Fray 55, Intimidation 60, Kinesics 40, Kinetic Weapons 50, Networking: Criminal 60, Palming 50, Perception 45, Profession: Police Procedures 30, Protocol 55, Unarmed Combat 50</p><p><strong>Rep:</strong> g-rep 25</p><p><strong>Traits:</strong> Pain Tolerance (Level 1)</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Heavy), Cortical Stack, Enhanced Hearing, Skin Pocket</p><p><strong>Armor:</strong> 3/4 (Armored Clothing)</p><p><strong>melee:</strong> Extendable Baton 45 (DV 1d10 + 4)</p><p><strong>ranged:</strong> Agonizer 50 (Pain or AP –5, DV 2d10, Ammo 50)</p><p><strong>ranged:</strong> Medium Pistol 50 with hollow point ammo (DV 3d10 + 2, Mode SA/BF/FA, Ammo 12)</p><p><em>Printed: INIT 80, SPD 1, LUC 30, TT 6, IR 60, DUR 40, WT 8, DR 60.</em></p><p><em>Source: Eclipse Phase Ego Hunter, p. 13.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "47404596f324eb14",
+      "name": "Olympian",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 30,
+          "coo": 30,
+          "int": 30,
+          "ref": 30,
+          "sav": 30,
+          "som": 30,
+          "wil": 30
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 5,
+          "int": 0,
+          "ref": 5,
+          "sav": 0,
+          "som": 10,
+          "wil": 0
+        },
+        "durability": 40,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack",
+        "advantages": "+5 COO, +5 REF, +10 SOM, +5 to one other aptitude of the player’s choice",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 40,
+        "creditCost": "Expensive",
+        "active": true,
+        "description": "<p>Olympians are human upgrades with improved athletic capabilities like endurance, eye-hand coordination, and cardiovascular functions. Olympians are common among athletes, dancers, freerunners, and soldiers.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 74.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0377238a3b78714a.47404596f324eb14"
+    },
+    {
+      "_id": "a135c074d64ce288",
+      "name": "Pain Tolerance",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "painTolerance",
+        "traitType": "positive",
+        "scope": "both",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
+        "description": "<p>The character has a high threshold for pain tolerance and is better at ignoring the effects of pain on their abilities and concentration. Level 1 allows them to ignore the –10 modifier from 1 wound. Level 2 allows them to ignore the –10 modifiers from 2 wounds. This trait is only available for biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0377238a3b78714a.a135c074d64ce288"
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "31e1bb649a285ba2",
+      "_key": "!actors.items!0377238a3b78714a.31e1bb649a285ba2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Clubs",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "clubs",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7606c244df872133",
+      "_key": "!actors.items!0377238a3b78714a.7606c244df872133",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b614c712ed757650",
+      "_key": "!actors.items!0377238a3b78714a.b614c712ed757650",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e739c4651a47763b",
+      "_key": "!actors.items!0377238a3b78714a.e739c4651a47763b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7dcabadd2b08048a",
+      "_key": "!actors.items!0377238a3b78714a.7dcabadd2b08048a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "67471bbdceededd5",
+      "_key": "!actors.items!0377238a3b78714a.67471bbdceededd5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Criminal",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "df3faf2c5a9b95da",
+      "_key": "!actors.items!0377238a3b78714a.df3faf2c5a9b95da",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Palming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "palming",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "bf1f5ca7cbce593c",
+      "_key": "!actors.items!0377238a3b78714a.bf1f5ca7cbce593c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "04248e5bf7016895",
+      "_key": "!actors.items!0377238a3b78714a.04248e5bf7016895",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Police Procedures",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "55679eb122d069f7",
+      "_key": "!actors.items!0377238a3b78714a.55679eb122d069f7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1f8698167bcb9870",
+      "_key": "!actors.items!0377238a3b78714a.1f8698167bcb9870",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2c1e5cec605f315b",
+      "_key": "!actors.items!0377238a3b78714a.2c1e5cec605f315b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "5c311c15f6641426",
+      "name": "Extendable Baton",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "clubs",
+        "ap": 0,
+        "dv": "1d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "range": "",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "Trivial",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>melee Extendable Baton 45 (DV 1d10 + 4)</p><p>This hardened composite baton retracts into its handle for easy carrying, storage, or concealment. Extending it simply requires a flick or an electronic signal.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0377238a3b78714a.5c311c15f6641426"
+    },
+    {
+      "name": "Agonizer",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "beamWeapons",
+        "ap": -5,
+        "dv": "2d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 50,
+          "max": 50,
+          "loaded": "",
+          "size": ""
+        },
+        "range": "",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "rating": 50,
+        "description": "<p>ranged Agonizer 50 (Pain or AP –5, DV 2d10, Ammo 50)</p>"
+      },
+      "_id": "9f6264950af311ca",
+      "_key": "!actors.items!0377238a3b78714a.9f6264950af311ca",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "892a2af4034ceafe",
+      "name": "Medium Pistol (Firearm)",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "kineticWeapons",
+        "ap": 0,
+        "dv": "3d10 + 2",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "SA, BF, FA",
+        "ammo": {
+          "value": 12,
+          "max": 12
+        },
+        "range": "10 / 30 / 50 / 70",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "Low",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>ranged Medium Pistol 50 with hollow point ammo (DV 3d10 + 2, Mode SA/BF/FA, Ammo 12)</p><p>Pistols are small-sized (p. 297) and designed for one-hand use. Light pistols sacrifice penetrating ability for concealability. Heavy pistols focus on stopping power, with medium pistols occupying a middle ground. All versions fire in semi-automatic, burst-fire, and full-auto modes.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 336.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0377238a3b78714a.892a2af4034ceafe"
+    },
+    {
+      "name": "Armored Clothing",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "energy": 3,
+        "kinetic": 4,
+        "accessory": false,
+        "cost": "",
+        "description": "",
+        "equipped": true
+      },
+      "_id": "9a88e5650d035d30",
+      "_key": "!actors.items!0377238a3b78714a.9a88e5650d035d30",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "051c846999ef5119",
+  "sort": 20000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Triad Enforcer",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

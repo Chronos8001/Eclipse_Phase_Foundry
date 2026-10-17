@@ -1,0 +1,553 @@
+{
+  "_id": "a23f864964ac41b6",
+  "_key": "!actors!a23f864964ac41b6",
+  "name": "Promethean Agents",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 30,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 30,
+        "mod": 0
+      },
+      "ref": {
+        "base": 30,
+        "mod": 0
+      },
+      "sav": {
+        "base": 20,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 30,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Rather than interacting directly via a fork, some Prometheans prefer to ride shotgun with an agent representative. These avatars are AGIs that have been programmed by the Prometheans for specific tasks—in a sense they are the Prometheans’ children. The advantage to operating through such agents is that each is a unique individual, and thus much less able to be identified by other ASIs through any tell-tale behavioral signatures, as a fork might. Agents are programmed to be completely loyal to their progenitor and its agenda, but they are also instilled with a range of distinctive personality quirks that make them somewhat unpredictable. While in the field, the Promethean (or a fork) will watch over the agent’s shoulder via the live XP feed through their mesh inserts and occasionally seize control via implanted puppet socks.</p><p><strong>Skills:</strong> Academics: (Choose Three) 80, Deception 70, Impersonation 60, Infosec 90, Interest: (Choose Two) 80, Interfacing 95, Kinesics 80, Language: (Choose Three) 90, Perception 80, Persuasion 60, Profession: (Choose Two) 80, Protocol 60, Research 80, plus three other skills at 70 as appropriate to the situation</p><p><strong>Common Traits:</strong> AGI Affinity, Anomalous Mind, Digital Ghost, Edited Memories, Emotive Blindness, Expert, Identifiable Quirk, Malleable Mind, Modified Behavior, Overwhelmed By Emotions, Real World Naiveté</p><p><em>Printed: .</em></p><p><em>Source: Eclipse Phase Firewall, p. 171.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": ""
+    }
+  },
+  "items": [
+    {
+      "name": "Promethean Agents (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "infomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 0,
+        "initMod": 0,
+        "speedMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "",
+        "implants": "",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "74b80c27724ee0b5",
+      "_key": "!actors.items!a23f864964ac41b6.74b80c27724ee0b5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "0bcec7b60c0b4497",
+      "name": "Edited Memories",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "editedMemories",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>At some point in the character’s past, the character had certain memories strategically removed or otherwise lost to them. This may have been done to intentionally forget an unpleasant or shameful experience or to make a break with the past. The memory may also have been lost by an unexpected death (with no recent backup), or it may have been erased against the character’s will. Whatever the case, the memory should bear some importance, and there should exist either evidence of what happened or NPCs who know the full story. This is a tool the gamemaster can use to haunt the character at some future point with ghosts from their past.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 149.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.0bcec7b60c0b4497"
+    },
+    {
+      "_id": "ddaea5f84e94dbd7",
+      "name": "Expert",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "expert",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>The character is a legend in the use of one particular skill. The character may raise one learned skill over 80, to a maximum of 90, during character creation. This trait does not actually increase the skill, it just raises the maximum. This trait may only be taken once.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.ddaea5f84e94dbd7"
+    },
+    {
+      "_id": "f58518952610154e",
+      "name": "Modified Behavior",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "modifiedBehavior",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 5,
+        "costText": "Bonus: 5 (Level 1), 10 (Level 2), or 20 (Level 3) CP",
+        "description": "<p>The character has been conditioned via timeaccelerated behavioral control psychosurgery. This is common among ex-felons, who have been conditioned to respond to a specific idea or activity with vehement horror and disgust, but may have occurred for some other reason or even been self-inflicted. At Level 1, the chosen behavior is either limited or boosted, at Level 2 it is either blocked or encouraged, and at Level 3 it is expunged or enforced (see p. 231 for details). This trait should only be allowed for behaviors that are either limited or, if encouraged, impact the character in a negative way.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.f58518952610154e"
+    },
+    {
+      "_id": "8b475e3de73b2b97",
+      "name": "Real World Naiveté",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "realWorldNaivet",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>Due to their background, the character has very limited personal experience with the real (physical) world—or they have spent so much time in simulspace that their functioning in real life is impaired. They lack an understanding of many physical properties, social cues, and other factors that people with standard human upbringings take for granted. This lack of common sense may lead the character to misunderstand how a device works or to misinterpret someone’s body language. Once per game session, the gamemaster may intentionally mislead the character when giving them a description about some thing or some social interaction. This falsehood represents the character’s misunderstanding of the situation, and should be roleplayed appropriately, even if the player realizes the character’s mistake. This trait should only be available to characters with the infolife or re-instantiated backgrounds, though the gamemaster may allow it for characters who have extensive virtual reality/XP use in their personal histories.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.8b475e3de73b2b97"
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Choose Three",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "be26bc3c36ffb9ee",
+      "_key": "!actors.items!a23f864964ac41b6.be26bc3c36ffb9ee",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "082d8d2206096dd7",
+      "_key": "!actors.items!a23f864964ac41b6.082d8d2206096dd7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Impersonation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "impersonation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0632f55be1a72846",
+      "_key": "!actors.items!a23f864964ac41b6.0632f55be1a72846",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e57d905f22a12a0e",
+      "_key": "!actors.items!a23f864964ac41b6.e57d905f22a12a0e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Choose Two",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9c54081d42013ac4",
+      "_key": "!actors.items!a23f864964ac41b6.9c54081d42013ac4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "de492035fec6ddfa",
+      "_key": "!actors.items!a23f864964ac41b6.de492035fec6ddfa",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "af9a8d5eb49b74ee",
+      "_key": "!actors.items!a23f864964ac41b6.af9a8d5eb49b74ee",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Choose Three",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "494a972e1a70f5ab",
+      "_key": "!actors.items!a23f864964ac41b6.494a972e1a70f5ab",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "43fe526c590307e4",
+      "_key": "!actors.items!a23f864964ac41b6.43fe526c590307e4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "69f3b537873abf85",
+      "_key": "!actors.items!a23f864964ac41b6.69f3b537873abf85",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Choose Two",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2c0929746f7da690",
+      "_key": "!actors.items!a23f864964ac41b6.2c0929746f7da690",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e149c9575c6fa26c",
+      "_key": "!actors.items!a23f864964ac41b6.e149c9575c6fa26c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cc2609402c695831",
+      "_key": "!actors.items!a23f864964ac41b6.cc2609402c695831",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "10ee5cff085c4619",
+  "sort": 7000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Promethean Agents",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

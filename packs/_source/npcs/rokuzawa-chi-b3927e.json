@@ -1,0 +1,673 @@
+{
+  "_id": "b3927e533b5d7a3e",
+  "_key": "!actors!b3927e533b5d7a3e",
+  "name": "Rokuzawa Chi",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 5,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 10,
+        "mod": 0
+      },
+      "sav": {
+        "base": 20,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 2,
+      "max": 2
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "dur": 5
+    },
+    "biography": "<p>Undercover Titanian Scientist</p><p><strong>Morph:</strong> Bouncer</p><p><strong>Motivations:</strong> +Science +Singularity Seeking +Technosocialism</p><p><strong>Skills:</strong> Academics: Neuroscience (Forking) 80, Blades 45, Fray 50, Free Fall 40, Infosec 55, Interest: Neuroscience Projects 50, Interfacing 45, Kinesics 60, Language (Native): Japanese 90, Language: Skandinaviska 80, Medicine: Resleeving 55, Perception 50, Persuasion 50, Programming 40, Psychosurgery 80, Research 70</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts, Cortical Stack, Grip Pads, Oxygen Reserve, Prehensile Feet</p><p><strong>Traits:</strong> Adaptability (Lvl 1), Allies, Ego Plasticity (Lvl 1), Limber (Lvl 1), Trauma Tolerance (Lvl 1)</p><p><strong>Gear:</strong> Chameleon Cloak, Creepy Bot</p><p><strong>melee:</strong> Wasp Knife 45 (AP −1, DV 1d10 + 3) with BTX-2.</p><p><strong>Armor:</strong> 5/5 (Light Vacsuit)</p><p><strong>Appearance:</strong> Rokuzawa's gender identity is female, but she's sleeved into a male Asian bouncer. Like all of the Houngan, she wears off-white researcher's coveralls with Nazon's personal veve (corrupted from that of Papa Legba) on the chest.</p><p><strong>Roleplaying:</strong> Rokuzawa is a daring and unorthodox researcher who's devoted herself to exploring the limits of transhuman identity. But with Nine Lives, she's in over her head. At this point, she just wants to get out of here. Rokuzawa's alpha could trash the reps of any scientist or autonomist characters who go back on a deal to get her off station. She'll use this as leverage when bargaining.</p><p><em>Printed: INIT 6, SPD 1, LUC 30, TT 6, IR 60, DUR 40, WT 8, DR 60.</em></p><p><em>Source: Eclipse Phase The Devotees, p. 27.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Science +Singularity Seeking +Technosocialism"
+    }
+  },
+  "items": [
+    {
+      "_id": "cdad5bbae76be3f2",
+      "name": "Bouncer",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 30,
+          "coo": 30,
+          "int": 30,
+          "ref": 30,
+          "sav": 30,
+          "som": 30,
+          "wil": 30
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 5,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 5,
+          "wil": 0
+        },
+        "durability": 35,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Grip Pads, Oxygen Reserve, Prehensile Feet",
+        "advantages": "Limber (Level 1) trait, +5 COO, +5 SOM, +5 to one other aptitude of the player’s choice",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 40,
+        "creditCost": "Expensive",
+        "active": true,
+        "description": "<p>Bouncers are humans genetically adapted for zero-g and microgravity environments. Their legs are more limber, and their feet can grasp as well as their hands.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 13.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b3927e533b5d7a3e.cdad5bbae76be3f2"
+    },
+    {
+      "_id": "647453e83763aba9",
+      "name": "Adaptability",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "adaptability",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
+        "description": "<p>Resleeving is a breeze for this character. They adjust to new morphs much more quickly than most other people. Apply a +10 modifier per level for Integration Tests and Alienation Tests (p. 272).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 145.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b3927e533b5d7a3e.647453e83763aba9"
+    },
+    {
+      "_id": "302c24ec2e5cd336",
+      "name": "Allies",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "allies",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 30,
+        "costText": "Cost: 30 CP",
+        "description": "<p>The character is part of or has a relationship with some influential group that they can occasionally call on for support. For example, this could be their old gatecrashing crew, former research lab co-workers, a criminal cartel they are part of, or an elite social clique. The gamemaster and player should work out what the character’s relationship is with this group, and why the character can call on them for aid. Gamemaster’s should take care that these allies are not abused, such as calling on them more than once per game session. The character’s ties to this group are also a two-way street—they will be expected to perform duties for the group on occasion as well (a potential plot seed for scenarios).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 145.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b3927e533b5d7a3e.302c24ec2e5cd336"
+    },
+    {
+      "_id": "1e60cfc4e13a2b44",
+      "name": "Limber",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "limber",
+        "traitType": "positive",
+        "scope": "morph",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
+        "description": "<p>The morph is especially flexible and supple, capable of graceful contortions and interesting positions. At Level 1, the character can smoke with their toes, do the splits, and squeeze into small, cramped spaces. At Level 2, they are double-jointed escape artists. Each level provides a +10 modifier to escaping from bonds, fitting into narrow confines, and other acts relying on contortion or flexibility. This trait is only available to biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b3927e533b5d7a3e.1e60cfc4e13a2b44"
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Neuroscience",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "Forking",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "191d92588dd2991b",
+      "_key": "!actors.items!b3927e533b5d7a3e.191d92588dd2991b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Blades",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "blades",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "33e0477cc3751516",
+      "_key": "!actors.items!b3927e533b5d7a3e.33e0477cc3751516",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "040d4e94fbed3907",
+      "_key": "!actors.items!b3927e533b5d7a3e.040d4e94fbed3907",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "bb79ef099229d362",
+      "_key": "!actors.items!b3927e533b5d7a3e.bb79ef099229d362",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8a099a0839506d84",
+      "_key": "!actors.items!b3927e533b5d7a3e.8a099a0839506d84",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Neuroscience Projects",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "bebe00abf51ac4a8",
+      "_key": "!actors.items!b3927e533b5d7a3e.bebe00abf51ac4a8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "34f553a9f82c5ef9",
+      "_key": "!actors.items!b3927e533b5d7a3e.34f553a9f82c5ef9",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c4c9a56aaf5a57b4",
+      "_key": "!actors.items!b3927e533b5d7a3e.c4c9a56aaf5a57b4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language (Native)",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Japanese",
+        "ranks": 70,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5ffefd243ed52d99",
+      "_key": "!actors.items!b3927e533b5d7a3e.5ffefd243ed52d99",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Skandinaviska",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0c2919d592b19076",
+      "_key": "!actors.items!b3927e533b5d7a3e.0c2919d592b19076",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Medicine",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "medicine",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Resleeving",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d18db5390827f1ea",
+      "_key": "!actors.items!b3927e533b5d7a3e.d18db5390827f1ea",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "af42e98a27a5a3df",
+      "_key": "!actors.items!b3927e533b5d7a3e.af42e98a27a5a3df",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ea5601041361cf0b",
+      "_key": "!actors.items!b3927e533b5d7a3e.ea5601041361cf0b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Programming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "programming",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8f0311d69513fd6f",
+      "_key": "!actors.items!b3927e533b5d7a3e.8f0311d69513fd6f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Psychosurgery",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "psychosurgery",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "377bd4585cbba5d0",
+      "_key": "!actors.items!b3927e533b5d7a3e.377bd4585cbba5d0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "003efb3f1ddd0e8f",
+      "_key": "!actors.items!b3927e533b5d7a3e.003efb3f1ddd0e8f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "fe37ce8c417da6fe",
+      "name": "Wasp Knife",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "blades",
+        "ap": -1,
+        "dv": "1d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "range": "",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "Low",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>melee Wasp Knife 45 (AP −1, DV 1d10 + 3) with BTX-2.</p><p>Wasp knives are equipped with a canister in their handle. The common use is to fill these canisters with pressured air, which inflates inside the target. This is potentially lethal in vacuum or pressurized environments (like underwater), as the gas bursts out of the body cavity to escape (+2d10 damage in such situations). Wasp knives may also be loaded with chemicals, drugs, or nanobots. The target must be damaged for the canister’s contents to affect them.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b3927e533b5d7a3e.fe37ce8c417da6fe"
+    },
+    {
+      "_id": "1ed2fd4a30e250de",
+      "name": "Light Vacsuit",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "energy": 5,
+        "kinetic": 5,
+        "equipped": true,
+        "accessory": false,
+        "cost": "Low",
+        "description": "<p>Everyone living in a sealed habitat owns at least one of these suits. They come in a variety of forms. Inexpensive versions are typically lightweight jumpsuits made of simple smart fabric that adjusts to fit and folds up small enough to fit into a coat pocket. The best models include suits of high-end smart clothing that can transform into a vacsuit and an advanced nanotech generator the size of a large orange that deploy nanobots that cover the user and fit together into a vacuum suit. Both can transform into a vacsuit in 2 full Action Turns and do so either on command or if their sensors reveal that life support is needed. All models include a lightweight belt or torc containing a miniature oxygen tank and advanced rebreather unit that provides 3 hours of air. However, the suits contain no food or water recycling. All models include an ecto (p. 325) and a headlight, but typically little else beyond atmosphere sensors to let the wearer know when it is safe to take off the suit. They protect the wearer from temperatures from –75 to 100 C. These vacuum suits also provide an Armor rating of 5/5 and instantly self-seal breaches unless more than 20 points of damage are inflicted at once.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 333.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 22000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b3927e533b5d7a3e.1ed2fd4a30e250de"
+    }
+  ],
+  "effects": [],
+  "folder": "cab7c189bf2296af",
+  "sort": 18000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Rokuzawa Chi",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

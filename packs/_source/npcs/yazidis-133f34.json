@@ -1,0 +1,652 @@
+{
+  "_id": "133f34834650db7a",
+  "_key": "!actors!133f34834650db7a",
+  "name": "Yazidis",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 25,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Yazidis are a religious sect of Kurds abandoned in the TQZ during the Fall. Rather than perish, they became infected with a mutant strain of the Watts-MacLeod virus, in effect becoming exsurgents. Other exsurgents and many TITAN war machines simply ignore them. They’ve since adapted to live among the dangers of the TQZ. Laden with survival gear, they dress in ragged, desert-patterned ghillie suits purpose-built to foil the senses of TITAN warbots. Their lifestyle revolves around subsistence nanofabrication and maintaining concealed greenhouses (much like the nomads of the Martian north). Yazidi gear is unusual in that everything has access jacks. To avoid detection, they only use wireless meshes within shielded camps. The Yazidis were already a close-knit community before the Fall, most having emigrated from Germany, but religion now occupies a central place in their lives. They revere Tawûsê Melek, the Peacock Angel, whom they believe granted their async powers to help them survive. Peacock and sun motifs are common on their clothes and gear. Yazidis aren’t hostile. Usually they hide from outsiders. Many have been killed by the Rangers when they went too near the Zone perimeter. On occasion, they approach transhumans who go deeper into the Zone, offering to barter. A few zone stalkers are rumored to get most of their artifacts this way, but if true, the details of their arrangements with the Yazidis are well guarded. When Yazidis do make contact, they sometimes offer visions of Tawûsê Melek to guests using the scenario sleight (p. 371, EP). Those who accept are shown the Yazidi story of the Fall, including their survival, which they attribute to the Peacock Angel and other heavenly beings. Visions last an eyeblink, but are much longer subjectively. A character who submits to a Yazidi vision must make a WIL x 2 Test. If they fail, they’re infected with the Yazidi variant of Watts-MacLeod. They gain the following traits: Psi (Level 1), Mental Disorder: Cosmic Anxiety Disorder, and Mental Disorder: [player’s choice]. They don’t initially gain any psi sleights. For each week spent living among the Yazidis and practicing their lifestyle, the character may ignore the effects of the cosmic anxiety disorder for 1 month. Because this requires a dangerous trip in and out of the TQZ, many of those infected stay with the Yazidis permanently. Finally, within the boundaries of the TITAN Quarantine Zone on Mars only, exsurgents are neutral to the character, only attacking if the character takes hostile action first. War machines only attack if “hungry” (e.g., fractals scavenging for raw materials). Stats below are for an average Yazidi nomad. Skills and gear should be adjusted appropriately for specialists.</p><p><strong>Weapons:</strong> Varies; Sniper Rifles and spray weapons are common</p><p><strong>Armor:</strong> Light Vacsuit (5/5), Yazidi Ghillie Suit (7/6)</p><p><strong>Augmentations:</strong> Access Jacks, Basic Biomods, Basic Mesh Inserts, Cortical Stack, Direction Sense, Enhanced Respiration, Temperature Tolerance (Cold)</p><p><strong>Gear:</strong> Electronics Tool Kit, Fiberoptic Cables, Muse, Repair Nanoswarm, Yazidi Ghillie Suit (+10 to Infiltration; +30 vs. TITAN war machines)</p><p><strong>Skills:</strong> Control 50, Fray 50, Freerunning 40, Infiltration 50 (60), Interest: TQZ Hazards 70, Interest: Yazidi Boltholes 80, Hardware: Electronics 40, Hardware: Industrial 50, Kinetic Weapons 50, Language: German 60, Language: Kurdish 80, Navigation 40, Sense 70, Spray Weapons 50</p><p><strong>Traits:</strong> Psi (Level 3)</p><p><strong>Psi-Chi:</strong> Ambience Sense, Time Sense</p><p><strong>Psi-Epsilon:</strong> Scenario (special; see above)</p><p><em>Printed: INIT 8, SPD 1 (2), LUC —, TT —, IR —, DUR 40, WT 8, DR 80.</em></p><p><em>Source: Eclipse Phase Zone Stalkers, p. 14.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": ""
+    }
+  },
+  "items": [
+    {
+      "name": "Yazidis (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 40,
+        "initMod": 0,
+        "speedMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "",
+        "implants": "",
+        "advantages": "Psi (Level 3)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "17b3161d9facfb4f",
+      "_key": "!actors.items!133f34834650db7a.17b3161d9facfb4f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "a151089492d1f6b4",
+      "name": "Psi",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "psi",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 3,
+        "cost": 20,
+        "costText": "Cost: 20 CP (Level 1), 25 CP (Level 2)",
+        "description": "<p>The character has been infected with the WattsMacLeod strain of the Exsurgent virus, which altered their brain structure and opened the potential for their mind to enhance their cognitive abilities and read and manipulate the biological minds of others (see Psi, p. 220). The character may purchase and learn psi sleights (p. 223). At Level 1, the character may only use psi-chi sleights. At Level 2, the character may use both psi-chi and psi-gamma sleights. Though this trait is not very expensive, gamemasters should not allow it to be abused. There are a number of negative side effects to Watts-MacLeod infection, noted under Psi Drawbacks, p. 220.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 147.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!133f34834650db7a.a151089492d1f6b4"
+    },
+    {
+      "_id": "bcb823c83bde6484",
+      "name": "Ambience Sense",
+      "type": "sleight",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "key": "ambienceSense",
+        "psiType": "chi",
+        "activation": "passive",
+        "action": "automatic",
+        "range": "self",
+        "duration": "constant",
+        "durationUnit": "turns",
+        "strainMod": 0,
+        "strainPerTarget": 0,
+        "strainPerAP": false,
+        "skill": "",
+        "damage": "",
+        "harm": "damage",
+        "exsurgent": false,
+        "active": false,
+        "remaining": 0,
+        "description": "<p>This sleight provides the async with an instinctive sense about an area and any potential threats nearby. The async receives a +10 modifier to all Investigation, Perception, Scrounging, and Surprise Tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 223.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!133f34834650db7a.bcb823c83bde6484"
+    },
+    {
+      "_id": "3b9c7a2e51336a06",
+      "name": "Time Sense",
+      "type": "sleight",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "key": "timeSense",
+        "psiType": "chi",
+        "activation": "active",
+        "action": "automatic",
+        "range": "self",
+        "duration": "temporary",
+        "durationUnit": "turns",
+        "strainMod": -1,
+        "strainPerTarget": 0,
+        "strainPerAP": false,
+        "skill": "",
+        "damage": "",
+        "harm": "damage",
+        "exsurgent": false,
+        "active": false,
+        "remaining": 0,
+        "description": "<p>An async with this ability can slow down his perception of time, making everything appear to move in slow motion or at reduced speed. In game terms, this sleight grants the async a Speed of +1. This extra Action Phase, however, can only be spent on mental and mesh actions.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 225.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!133f34834650db7a.3b9c7a2e51336a06"
+    },
+    {
+      "_id": "e27d5b1b129e7132",
+      "name": "Scenario",
+      "type": "sleight",
+      "img": "icons/svg/terror.svg",
+      "system": {
+        "key": "scenario",
+        "psiType": "gamma",
+        "activation": "active",
+        "action": "complex",
+        "range": "touch",
+        "duration": "sustained",
+        "durationUnit": "turns",
+        "strainMod": 2,
+        "strainPerTarget": 0,
+        "strainPerAP": false,
+        "skill": "control",
+        "damage": "",
+        "harm": "damage",
+        "exsurgent": true,
+        "active": false,
+        "remaining": 0,
+        "description": "<p>This sleight hijacks the target’s sensorium, replacing it with a virtual scenario controlled by the exsurgent. The effect is much like being jacked into a simulspace scenario, albeit against the target’s will. While the exsurgent cannot harm the target in the scenario, they can learn something about the person’s behavioral responses to certain situations. While under the influence of this sleight, the target is cut off from their physical senses (–60 to any Perception Tests), but they may flail about and otherwise respond physically to events in the scenario, which may cause them to hurt themselves and will make them seem crazy to onlookers. Targets may attempt to ignore the scenario and concentrate on the real world, but this requires a WIL Test each Action Turn and they suffer a –30 modifier from disorientation even if they succeed.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 371.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!133f34834650db7a.e27d5b1b129e7132"
+    },
+    {
+      "name": "Control",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "control",
+        "aptitude": "wil",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c0ba3af57b87c9a4",
+      "_key": "!actors.items!133f34834650db7a.c0ba3af57b87c9a4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "80a1822a1045273e",
+      "_key": "!actors.items!133f34834650db7a.80a1822a1045273e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c03ef4a48410e2ba",
+      "_key": "!actors.items!133f34834650db7a.c03ef4a48410e2ba",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "87015992782ea039",
+      "_key": "!actors.items!133f34834650db7a.87015992782ea039",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "TQZ Hazards",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b8b1aeb4967818de",
+      "_key": "!actors.items!133f34834650db7a.b8b1aeb4967818de",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Yazidi Boltholes",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b7f640fad5eee998",
+      "_key": "!actors.items!133f34834650db7a.b7f640fad5eee998",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Electronics",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "12a001d012d76fba",
+      "_key": "!actors.items!133f34834650db7a.12a001d012d76fba",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Industrial",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2e65ab6e047c0855",
+      "_key": "!actors.items!133f34834650db7a.2e65ab6e047c0855",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "94dcb6a7a49e324c",
+      "_key": "!actors.items!133f34834650db7a.94dcb6a7a49e324c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "German",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "38ca1efde2e5a6ad",
+      "_key": "!actors.items!133f34834650db7a.38ca1efde2e5a6ad",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Kurdish",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5b761d577d4d94a5",
+      "_key": "!actors.items!133f34834650db7a.5b761d577d4d94a5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Navigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "navigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5a02342df75388a3",
+      "_key": "!actors.items!133f34834650db7a.5a02342df75388a3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Sense",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "sense",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ec67bc22d9353928",
+      "_key": "!actors.items!133f34834650db7a.ec67bc22d9353928",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Spray Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "sprayWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "493a0e44c759ceaf",
+      "_key": "!actors.items!133f34834650db7a.493a0e44c759ceaf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "38377b5823c9fd8d",
+      "name": "Light Vacsuit",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "energy": 5,
+        "kinetic": 5,
+        "equipped": true,
+        "accessory": false,
+        "cost": "Low",
+        "description": "<p>Everyone living in a sealed habitat owns at least one of these suits. They come in a variety of forms. Inexpensive versions are typically lightweight jumpsuits made of simple smart fabric that adjusts to fit and folds up small enough to fit into a coat pocket. The best models include suits of high-end smart clothing that can transform into a vacsuit and an advanced nanotech generator the size of a large orange that deploy nanobots that cover the user and fit together into a vacuum suit. Both can transform into a vacsuit in 2 full Action Turns and do so either on command or if their sensors reveal that life support is needed. All models include a lightweight belt or torc containing a miniature oxygen tank and advanced rebreather unit that provides 3 hours of air. However, the suits contain no food or water recycling. All models include an ecto (p. 325) and a headlight, but typically little else beyond atmosphere sensors to let the wearer know when it is safe to take off the suit. They protect the wearer from temperatures from –75 to 100 C. These vacuum suits also provide an Armor rating of 5/5 and instantly self-seal breaches unless more than 20 points of damage are inflicted at once.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 333.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!133f34834650db7a.38377b5823c9fd8d"
+    },
+    {
+      "name": "Yazidi Ghillie Suit",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "energy": 7,
+        "kinetic": 6,
+        "accessory": false,
+        "cost": "",
+        "description": "",
+        "equipped": true
+      },
+      "_id": "57bf532f0f09337d",
+      "_key": "!actors.items!133f34834650db7a.57bf532f0f09337d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "140d56fa99c7cf46",
+  "sort": 8000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Yazidis",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

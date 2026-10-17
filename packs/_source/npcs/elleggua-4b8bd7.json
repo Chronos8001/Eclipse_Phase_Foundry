@@ -1,0 +1,991 @@
+{
+  "_id": "4b8bd73715b22398",
+  "_key": "!actors!4b8bd73715b22398",
+  "name": "Elleggua",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 25,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 6,
+      "max": 6
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "dur": 20,
+      "spd": 3
+    },
+    "biography": "<p>Roland Nazon’s fork posing as a personal assistant</p><p><strong>Morph:</strong> Neotenic</p><p><strong>Motivations:</strong> +Anonymity +Profit +Respect through Fear</p><p><strong>Skills:</strong> Academics: Neuroscience 60, Deception 45 (75), Fray 80, Free Fall 75, Impersonation 45 (75), Infiltration 70, Interest: Underlings' Schemes 80, Interfacing 50, Intimidation 75, Investigation 50, Kinesics 45 (65), Kinetic Weapons 75, Language: English 60, Language: French (Native) 90, Language: Mandarin 60, Networking: Criminal 80, Networking: Hypercorps 45, Networking: Scientists 55, Perception 50, Persuasion 60, Profession: Crime Boss 80, Profession: Identity Theft 80, Programming 40, Psychosurgery 60, Research 40, Unarmed Combat 70</p><p><strong>Implants:</strong> Anti-Glare, Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Eelware, Drug Gland (Neem), Emergency Farcaster, Emotional Dampeners, Enhanced Vision, Hardened Skeleton, Medichines, Muscle Augmentation, Neurachem (Level 2), Reflex Booster</p><p><strong>Traits:</strong> Addiction (Major, Neem), Mental Disorder (Megalomania), Trauma Tolerance (Level 2), Social Stigma (Neotenic), Tough (Level 3)</p><p><strong>Gear:</strong> Invisibility Cloak, Personal Interaction Sensor, Security AI, Tactical Network</p><p><strong>ranged:</strong> Submachinegun 75 (85) (AP −2, DV 3d10 + 3, Mode SA/BF/FA, Ammo 20) with ammo Overload, Smartlink</p><p><strong>melee:</strong> Unarmed 70 (AP −2, DV 2d10 + 1 + shock)</p><p><strong>melee:</strong> Injector Nanoswarmwith BTX2,</p><p><strong>Armor:</strong> 10/13 (Second Skin, Smart Fabric Vacsuit)</p><p><strong>Notes:</strong> Counts as a small target (−10 to hit)</p><p><strong>Appearance:</strong> Elleggua appears as a wiry, mixed race boy in flowing red and black clothing.</p><p><strong>Roleplaying:</strong> Elleggua is the “real” Roland Nazon. The neotenic contains the same ruthless sociopath whose calculating brutality turned the Fall into a business opportunity. In many ways, his outlook has never left the squalor of the refugee camps: everyone is an asset to exploit or an example to be made. The same innate understanding of suspicion and fear that launched Lapriyè informs his years of deception. Imitating the servant of an addled king has revealed countless schemes to steal his throne. Elleggua uses Nazon’s veneer of weakness to expose his enemies, then orchestrates their demise before they become a real threat. Even if someone were to succeed in eliminating Nazon, one can’t assassinate a King that doesn’t exist.</p><p><em>Printed: INIT 10, SPD 4, LUC 40, TT 8, IR 80, DUR 50, WT 10, DR 75.</em></p><p><em>Source: Eclipse Phase The Devotees, p. 24.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Anonymity +Profit +Respect through Fear"
+    }
+  },
+  "items": [
+    {
+      "_id": "6cee3432ba3e33a9",
+      "name": "Neotenic",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 30,
+          "coo": 30,
+          "int": 30,
+          "ref": 30,
+          "sav": 30,
+          "som": 20,
+          "wil": 30
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 5,
+          "int": 5,
+          "ref": 5,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 30,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack",
+        "advantages": "+5 COO, +5 INT, +5 REF, +5 to one other aptitude of the player’s choice",
+        "disadvantages": "Social Stigma (Neotenic) trait",
+        "skillBonuses": [],
+        "cpCost": 25,
+        "creditCost": "Expensive",
+        "active": true,
+        "description": "<p>Neotenics are transhumans modified to retain a child-like form. They are smaller, more agile, inquisitive, and less resource-depleting, making them ideal for habitat living and spacecraft. Some people find neotenic sleeves distasteful, especially when employed in certain media and sex work capacities.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 68.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!4b8bd73715b22398.6cee3432ba3e33a9"
+    },
+    {
+      "_id": "6bfa448ee2f06afd",
+      "name": "Addiction",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "addiction",
+        "traitType": "negative",
+        "scope": "both",
+        "level": 1,
+        "cost": 5,
+        "costText": "Bonus: 5 CP (Minor), 10 CP (Moderate), or 20 CP (Major)",
+        "description": "<p>Addiction comes in two forms: mental (affecting the ego) and physical (affecting the biomorph). The character or morph is addicted to a drug (p. 317), stimulus (XP), or activity (mesh use) to a degree that impacts the character’s physical or mental health. Players and gamemasters should work together to agree on addictions that are appropriate for their game. Addiction comes in three levels of severity: minor, moderate, or major: Minor: A minor addiction is largely kept under control—it does not ruin the character’s life, though it may create some difficulties. The character may not even recognize or admit they have a problem. The character must indulge the addiction at least once a week, though they can go for longer without too much difficulty. If they fail to get their weekly dose, they suffer a –10 modifier on all actions until they get their fix. Moderate: A moderate addiction is in full swing. The character obviously has a problem, and must satisfy the addiction at least once a day. If they fail to do so, they may suffer mood swings, compulsive behavior, physical sickness, or other side effects until they indulge their craving. Apply a –20 modifier to all of the character’s actions until they get their fix. Additionally, a character with this level of addiction suffers a –5 DUR penalty. Major: A character with a major addiction is on the rapid road to ruin. They face cravings every 6 hours, and suffer a –10 DUR penalty as their health is affected. If they fail to get their regular dosage, they suffer a –30 modifier on all actions until they do. If their life hasn’t already been ruined by their obsession, it soon will be.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 148.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!4b8bd73715b22398.6bfa448ee2f06afd"
+    },
+    {
+      "_id": "66df94462e700db0",
+      "name": "Mental Disorder",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "mentalDisorder",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>You have a psychological disorder from a previous traumatic experience in your life. Choose one of the disorders listed on p. 211.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!4b8bd73715b22398.66df94462e700db0"
+    },
+    {
+      "_id": "b030193a5ba37a40",
+      "name": "Social Stigma",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "socialStigma",
+        "traitType": "negative",
+        "scope": "both",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>An unfortunate aspect of the character’s background means that they suffer from a stigma in certain social situations. They may be sleeved in a morph viewed with repugnance, be a survivor of the infamous Lost generation, or may be an AGI in a post-Fall society plagued by fear of artificial intelligence. In social situations where the character’s nature is known to someone who view that nature with distaste, fear, or repugnance, they suffer a –10 to –30 modifier (gamemaster’s discretion) to social skill tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!4b8bd73715b22398.b030193a5ba37a40"
+    },
+    {
+      "_id": "4748710cf1602b11",
+      "name": "Tough",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "tough",
+        "traitType": "positive",
+        "scope": "morph",
+        "level": 3,
+        "cost": 10,
+        "costText": "Cost: 10 (Level 1), 20 (Level 2), or 30 (Level 3) CP",
+        "description": "<p>This morph is resilient than others of its type and can take more physical abuse. Increase their Durability by +5 per level (+5 at Level 1, +10 at Level 2, and +15 at Level 3). This also increases Wound Threshold by +1, +2, and +3 respectively.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 148.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!4b8bd73715b22398.4748710cf1602b11"
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Neuroscience",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e595beb343072bb8",
+      "_key": "!actors.items!4b8bd73715b22398.e595beb343072bb8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "152800d57babd63a",
+      "_key": "!actors.items!4b8bd73715b22398.152800d57babd63a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e4a7d17a2f6235f7",
+      "_key": "!actors.items!4b8bd73715b22398.e4a7d17a2f6235f7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "537e856ef1b70d78",
+      "_key": "!actors.items!4b8bd73715b22398.537e856ef1b70d78",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Impersonation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "impersonation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "20d5fe5dc18b7d30",
+      "_key": "!actors.items!4b8bd73715b22398.20d5fe5dc18b7d30",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "88ebedbdec7b769c",
+      "_key": "!actors.items!4b8bd73715b22398.88ebedbdec7b769c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Underlings' Schemes",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e4034aea044071d5",
+      "_key": "!actors.items!4b8bd73715b22398.e4034aea044071d5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "048401a7a0b74279",
+      "_key": "!actors.items!4b8bd73715b22398.048401a7a0b74279",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ab2affd05f657b36",
+      "_key": "!actors.items!4b8bd73715b22398.ab2affd05f657b36",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "960d043ea9daf2a7",
+      "_key": "!actors.items!4b8bd73715b22398.960d043ea9daf2a7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a716f9aae0c8e4ec",
+      "_key": "!actors.items!4b8bd73715b22398.a716f9aae0c8e4ec",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0c55bcaf64992e72",
+      "_key": "!actors.items!4b8bd73715b22398.0c55bcaf64992e72",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "English",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0ae0c15817c7a489",
+      "_key": "!actors.items!4b8bd73715b22398.0ae0c15817c7a489",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "French",
+        "ranks": 70,
+        "mod": 0,
+        "specialization": "Native",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e65c56349885bb2b",
+      "_key": "!actors.items!4b8bd73715b22398.e65c56349885bb2b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Mandarin",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3c47ace6902c9283",
+      "_key": "!actors.items!4b8bd73715b22398.3c47ace6902c9283",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Criminal",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e23ddd82688798e3",
+      "_key": "!actors.items!4b8bd73715b22398.e23ddd82688798e3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Hypercorps",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b6dcf3ca6dead228",
+      "_key": "!actors.items!4b8bd73715b22398.b6dcf3ca6dead228",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 22000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Scientists",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "964034b032ac9231",
+      "_key": "!actors.items!4b8bd73715b22398.964034b032ac9231",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 23000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7de6ed22fc7f621a",
+      "_key": "!actors.items!4b8bd73715b22398.7de6ed22fc7f621a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 24000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9a10b43571ad700b",
+      "_key": "!actors.items!4b8bd73715b22398.9a10b43571ad700b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 25000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Crime Boss",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9f90d6fc398ebb63",
+      "_key": "!actors.items!4b8bd73715b22398.9f90d6fc398ebb63",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 26000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Identity Theft",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "84a295762940467c",
+      "_key": "!actors.items!4b8bd73715b22398.84a295762940467c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 27000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Programming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "programming",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "793c22e1a12aa33b",
+      "_key": "!actors.items!4b8bd73715b22398.793c22e1a12aa33b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 28000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Psychosurgery",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "psychosurgery",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3dd273b371ad750b",
+      "_key": "!actors.items!4b8bd73715b22398.3dd273b371ad750b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 29000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a08242ad408123ac",
+      "_key": "!actors.items!4b8bd73715b22398.a08242ad408123ac",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 30000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "99b032333201820c",
+      "_key": "!actors.items!4b8bd73715b22398.99b032333201820c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 31000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "d2ee4472cd44e0af",
+      "name": "Submachine Gun (Firearm)",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "kineticWeapons",
+        "ap": -2,
+        "dv": "3d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "SA, BF, FA",
+        "ammo": {
+          "value": 20,
+          "max": 20
+        },
+        "range": "30 / 80 / 125 / 230",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "Moderate",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>ranged Submachinegun 75 (85) (AP −2, DV 3d10 + 3, Mode SA/BF/FA, Ammo 20) with ammo Overload, Smartlink</p><p>SMGs use pistol ammunition, but are medium-sized (p. 297) and may fire in semi-auto, burst fire, or full auto modes. They typically are designed in a bullpup configuration for close quarters operations and are ideal for tactical and strike teams.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 336.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 32000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!4b8bd73715b22398.d2ee4472cd44e0af"
+    },
+    {
+      "_id": "90b165ae376a821f",
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "ap": -2,
+        "dv": "2d10 + 1",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "range": "",
+        "equipped": true,
+        "shock": true,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>melee Unarmed 70 (AP −2, DV 2d10 + 1 + shock)</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 33000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!4b8bd73715b22398.90b165ae376a821f"
+    },
+    {
+      "name": "Second Skin, Smart Fabric Vacsuit",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "energy": 10,
+        "kinetic": 13,
+        "accessory": false,
+        "cost": "",
+        "description": "",
+        "equipped": true
+      },
+      "_id": "35e54816246c36f9",
+      "_key": "!actors.items!4b8bd73715b22398.35e54816246c36f9",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 34000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "cab7c189bf2296af",
+  "sort": 11000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Elleggua",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

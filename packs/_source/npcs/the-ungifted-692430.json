@@ -1,0 +1,347 @@
+{
+  "_id": "692430ab6e024e03",
+  "_key": "!actors!692430ab6e024e03",
+  "name": "The Ungifted",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 10,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p><strong>Movement Rate:</strong> 4/16</p><p><strong>Skills:</strong> Clubs 50, Fray 40, Perception 40, Unarmed Combat 60</p><p><strong>Traits:</strong> Mental Disorder (Choose Two)</p><p><strong>Attacks:</strong> Club (DV 1d10 + 2, AP 0), Unarmed (DV 1d10, AP 0)</p><p><em>Printed: INIT 10, SPD 10, LUC 10, TT 15, IR 5, DUR 15, WT 10, DR 0.</em></p><p><em>The book misprints this derived stats line; the stats of a standard native are used.</em></p><p><em>Source: Eclipse Phase Gatecrashing, p. 176.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": ""
+    }
+  },
+  "items": [
+    {
+      "name": "The Ungifted (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 35,
+        "initMod": 0,
+        "speedMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/16",
+        "implants": "",
+        "advantages": "Mental Disorder (Choose Two)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "87878b418f2086d9",
+      "_key": "!actors.items!692430ab6e024e03.87878b418f2086d9",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "231ed6b08a14f2e2",
+      "name": "Mental Disorder",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "mentalDisorder",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>You have a psychological disorder from a previous traumatic experience in your life. Choose one of the disorders listed on p. 211.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!692430ab6e024e03.231ed6b08a14f2e2"
+    },
+    {
+      "name": "Clubs",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "clubs",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d4e8bf1c7d64e8c4",
+      "_key": "!actors.items!692430ab6e024e03.d4e8bf1c7d64e8c4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6649f16f5a032a30",
+      "_key": "!actors.items!692430ab6e024e03.6649f16f5a032a30",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b1f273d4f16c4ec6",
+      "_key": "!actors.items!692430ab6e024e03.b1f273d4f16c4ec6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b0d26a56fab559e3",
+      "_key": "!actors.items!692430ab6e024e03.b0d26a56fab559e3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "584ea0830672f8cc",
+      "name": "Club",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "clubs",
+        "ap": 0,
+        "dv": "1d10 + 2",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "range": "",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "Trivial",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Club (DV 1d10 + 2, AP 0)</p><p>Clubs encompasses a wide range of one-hand- ed blunt objects, from saps to sticks to pipes.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!692430ab6e024e03.584ea0830672f8cc"
+    },
+    {
+      "_id": "09038f0a902bacec",
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "ap": 0,
+        "dv": "1d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "range": "",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Unarmed (DV 1d10, AP 0)</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!692430ab6e024e03.09038f0a902bacec"
+    }
+  ],
+  "effects": [],
+  "folder": "158be1a6be4faa33",
+  "sort": 3000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "The Ungifted",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

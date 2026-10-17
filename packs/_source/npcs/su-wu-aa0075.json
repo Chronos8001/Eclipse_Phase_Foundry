@@ -1,0 +1,473 @@
+{
+  "_id": "aa007542a18cf9b2",
+  "_key": "!actors!aa007542a18cf9b2",
+  "name": "Su Wu",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 20,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 3,
+      "max": 3
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "spd": 2
+    },
+    "biography": "<p>Leader of the Ghede Nanchon</p><p><strong>Morph:</strong> Ghost</p><p><strong>Motivations:</strong> +Command +Lapriyè −Weakness</p><p><strong>Skills:</strong> Blades 75 (Monofilament Sword 85), Climbing 45 (75), Fray 65 (75), Freerunning 70, Infiltration 70, Kinetic Weapons 75, Networking: Criminal 60, Perception 60, Unarmed Combat 65</p><p><strong>Implants:</strong> Adrenal Boost, Basic Biomods, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Grip Pads, Enhanced Vision, Medichines, Nanotats, Neurachem, Reflex Boosters</p><p><strong>Traits:</strong> Mental Disorder (PTSD) triggered by nanoswarms</p><p><strong>melee:</strong> Monofilament Sword (AP −4, DV 2d10 + 4)</p><p><strong>ranged:</strong> SMG 75 (DV 2d10 + 3, Mode SA/BF/FA Ammo 30) with Extended Magazine, Safety System, and Smartlink</p><p><strong>Armor:</strong> 13/17 (Light Body Armor, Smart Vac Clothing, Second Skin)</p><p><strong>Appearance:</strong> Slender morph of Chinese genotype with facial nanotats streaming tears down his face</p><p><strong>Roleplaying:</strong> Su Wu was a mercenary before the Fall and briefly involved in the ultimate movement. He eventually left the group, disagreeing with their insistence he learn skills beside murder. Wu’s calm exterior completely falls away in combat. He flies at his enemy in a rage until they are dead, returning to impassive detachment until the next victim arrives. One of the few things capable of breaking Wu’s warrior focus is nanotechnology; events during the Fall have left him deeply phobic.</p><p><em>Printed: INIT 7 (9), SPD 3, LUC 40, TT 8, IR 80, DUR 45, WT 9, DR 67.</em></p><p><em>Source: Eclipse Phase The Devotees, p. 25.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Command +Lapriyè −Weakness"
+    }
+  },
+  "items": [
+    {
+      "_id": "02a502a6900ed214",
+      "name": "Ghost",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 30,
+          "coo": 30,
+          "int": 30,
+          "ref": 30,
+          "sav": 30,
+          "som": 30,
+          "wil": 30
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 10,
+          "int": 0,
+          "ref": 5,
+          "sav": 0,
+          "som": 5,
+          "wil": 5
+        },
+        "durability": 45,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Adrenal Boost, Enhanced Vision, Grip Pads",
+        "advantages": "+10 COO, +5 REF, +5 SOM, +5 WIL, +5 to one other aptitude of the player’s choice",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 70,
+        "creditCost": "Expensive (minimum 40,000)",
+        "active": true,
+        "description": "<p>Ghosts are partially designed for combat applications, but their primary focus is stealth and infiltration. Their genetic profile encourages speed, agility, and reflexes, and their minds are modified for patience and problem-solving.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 41.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!aa007542a18cf9b2.02a502a6900ed214"
+    },
+    {
+      "name": "Blades",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "blades",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "Monofilament Sword",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "768ac8925048be81",
+      "_key": "!actors.items!aa007542a18cf9b2.768ac8925048be81",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1d126211f8e9a377",
+      "_key": "!actors.items!aa007542a18cf9b2.1d126211f8e9a377",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1a0687f5257be8be",
+      "_key": "!actors.items!aa007542a18cf9b2.1a0687f5257be8be",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "60fac0cd7733528c",
+      "_key": "!actors.items!aa007542a18cf9b2.60fac0cd7733528c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0bf60266e747d899",
+      "_key": "!actors.items!aa007542a18cf9b2.0bf60266e747d899",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1d97f76f90cdee53",
+      "_key": "!actors.items!aa007542a18cf9b2.1d97f76f90cdee53",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Criminal",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "03f6e47193e76100",
+      "_key": "!actors.items!aa007542a18cf9b2.03f6e47193e76100",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a6e9bef8669e0fa0",
+      "_key": "!actors.items!aa007542a18cf9b2.a6e9bef8669e0fa0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "810d91d18bf4c58e",
+      "_key": "!actors.items!aa007542a18cf9b2.810d91d18bf4c58e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "24fdd032b240b381",
+      "name": "Monofilament Sword",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "blades",
+        "ap": -4,
+        "dv": "2d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "range": "",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "Low",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>melee Monofilament Sword (AP −4, DV 2d10 + 4)</p><p>Though swords are rather archaic in the time of Eclipse Phase, a few eccentrics take advantage of modern versions with a selfsharpening near-monomolecular edge, easily capable of slicing through metal or limbs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!aa007542a18cf9b2.24fdd032b240b381"
+    },
+    {
+      "_id": "71f610e0ba805dbf",
+      "name": "Submachine Gun (Firearm)",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "kineticWeapons",
+        "ap": 0,
+        "dv": "2d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "SA, BF, FA",
+        "ammo": {
+          "value": 20,
+          "max": 20
+        },
+        "range": "30 / 80 / 125 / 230",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "Moderate",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>ranged SMG 75 (DV 2d10 + 3, Mode SA/BF/FA Ammo 30) with Extended Magazine, Safety System, and Smartlink</p><p>SMGs use pistol ammunition, but are medium-sized (p. 297) and may fire in semi-auto, burst fire, or full auto modes. They typically are designed in a bullpup configuration for close quarters operations and are ideal for tactical and strike teams.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 336.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!aa007542a18cf9b2.71f610e0ba805dbf"
+    },
+    {
+      "name": "Light Body Armor, Smart Vac Clothing, Second Skin",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "energy": 13,
+        "kinetic": 17,
+        "accessory": false,
+        "cost": "",
+        "description": "",
+        "equipped": true
+      },
+      "_id": "bbcf12036d409abc",
+      "_key": "!actors.items!aa007542a18cf9b2.bbcf12036d409abc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "cab7c189bf2296af",
+  "sort": 13000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Su Wu",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

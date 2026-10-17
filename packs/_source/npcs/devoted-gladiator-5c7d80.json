@@ -1,0 +1,447 @@
+{
+  "_id": "5c7d809b1513d3aa",
+  "_key": "!actors!5c7d809b1513d3aa",
+  "name": "Devoted Gladiator",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 10,
+        "mod": 0
+      },
+      "coo": {
+        "base": 25,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 1,
+      "max": 1
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "spd": 1,
+      "tt": 2
+    },
+    "biography": "<p><strong>Morph:</strong> Remade</p><p><strong>Skills:</strong> Blades 50, Free Fall 55, Freerunning 55, Fray 70, Unarmed Combat 50</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Claws, Clean Metabolism, Cortical Stack, Eidetic Memory, Enhanced Respiration, Enhanced Vision, Neurachem (Level 1), Temperature Tolerance, Toxin Filters</p><p><strong>Traits:</strong> Brave, Mental Disorder (Bipolar, Depersonsalization, PTSD), Modified Behavior (Awareness Block, Loyalty to Elleggua), Pain Tolerance</p><p><strong>melee:</strong> Unarmed Combat 50 (DV 1d10 + 2)</p><p><strong>melee:</strong> Cyberclaws (AP −2, DV 1d10 + 5)</p><p><strong>Appearance:</strong> These combat morphs aren’t even clothed before being ushered to Samedi’s gladiator pits. Loaded with AWE-hacked egos, they don’t mind. If ordered to kill, they won’t stop until the enemy of the “executive” is dead or they’ve been obliterated.</p><p><em>Printed: INIT 7 (9), SPD 2, LUC 30, TT 8, IR 60, DUR 40, WT 8, DR 60.</em></p><p><em>Source: Eclipse Phase The Devotees, p. 27.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "a0524df665048899",
+      "name": "Remade",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 10,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 5,
+          "som": 10,
+          "wil": 0
+        },
+        "durability": 40,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Clean Metabolism, Cortical Stack, Eidetic Memory, Enhanced Respiration, Temperature Tolerance, Toxin Filters",
+        "advantages": "+10 COG, +5 SAV, +10 SOM, +5 to two other aptitudes of the player’s choice",
+        "disadvantages": "Uncanny Valley trait",
+        "skillBonuses": [],
+        "cpCost": 60,
+        "creditCost": "Expensive (minimum 40,000+)",
+        "active": true,
+        "description": "<p>The remade are completely redesigned humans: humans 2.0. Their cardiovascular systems are stronger, the digestive tract has been sanitized and restructured to eliminate flaws, and they have otherwise been optimized for good health, smarts, and longevity with numerous transgenic mods. The remade are popular with the ultimates faction. The remade look close to human, but are different in very noticeable and sometimes eerie ways: taller, lack of hair, slightly larger craniums, wider eyes, smaller noses, smaller teeth, and elongated digits.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 79.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!5c7d809b1513d3aa.a0524df665048899"
+    },
+    {
+      "_id": "fb01c2c2369071fc",
+      "name": "Brave",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "brave",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>This character does not scare easily, and will face threats, intimidation, and certain bodily harm without flinching. As a side effect, the character is not always the best at gauging risks, especially when it comes to factoring in danger to others. The character receives a +10 modifier on all tests to resist fear or intimidation.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 145.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!5c7d809b1513d3aa.fb01c2c2369071fc"
+    },
+    {
+      "_id": "2009a7e6e8cc32b8",
+      "name": "Mental Disorder",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "mentalDisorder",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>You have a psychological disorder from a previous traumatic experience in your life. Choose one of the disorders listed on p. 211.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!5c7d809b1513d3aa.2009a7e6e8cc32b8"
+    },
+    {
+      "_id": "3d378f8bb0fb0ef3",
+      "name": "Modified Behavior",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "modifiedBehavior",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 5,
+        "costText": "Bonus: 5 (Level 1), 10 (Level 2), or 20 (Level 3) CP",
+        "description": "<p>The character has been conditioned via timeaccelerated behavioral control psychosurgery. This is common among ex-felons, who have been conditioned to respond to a specific idea or activity with vehement horror and disgust, but may have occurred for some other reason or even been self-inflicted. At Level 1, the chosen behavior is either limited or boosted, at Level 2 it is either blocked or encouraged, and at Level 3 it is expunged or enforced (see p. 231 for details). This trait should only be allowed for behaviors that are either limited or, if encouraged, impact the character in a negative way.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!5c7d809b1513d3aa.3d378f8bb0fb0ef3"
+    },
+    {
+      "_id": "cf400713d537caba",
+      "name": "Pain Tolerance",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "painTolerance",
+        "traitType": "positive",
+        "scope": "both",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
+        "description": "<p>The character has a high threshold for pain tolerance and is better at ignoring the effects of pain on their abilities and concentration. Level 1 allows them to ignore the –10 modifier from 1 wound. Level 2 allows them to ignore the –10 modifiers from 2 wounds. This trait is only available for biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!5c7d809b1513d3aa.cf400713d537caba"
+    },
+    {
+      "name": "Blades",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "blades",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "dceeb171f4bd44f6",
+      "_key": "!actors.items!5c7d809b1513d3aa.dceeb171f4bd44f6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8749405da30eca10",
+      "_key": "!actors.items!5c7d809b1513d3aa.8749405da30eca10",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ca29f60d734666f2",
+      "_key": "!actors.items!5c7d809b1513d3aa.ca29f60d734666f2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ef8af3568ac75543",
+      "_key": "!actors.items!5c7d809b1513d3aa.ef8af3568ac75543",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "156db5a2b250d2a5",
+      "_key": "!actors.items!5c7d809b1513d3aa.156db5a2b250d2a5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "ap": 0,
+        "dv": "1d10 + 2",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "range": "",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "rating": 0,
+        "description": "<p>melee Unarmed Combat 50 (DV 1d10 + 2)</p>"
+      },
+      "_id": "9c4b753f51b4dc9a",
+      "_key": "!actors.items!5c7d809b1513d3aa.9c4b753f51b4dc9a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "b9d28abb3b31c6ff",
+      "name": "Cyberclaws",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "ap": -2,
+        "dv": "1d10 + 5",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "range": "",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>melee Cyberclaws (AP −2, DV 1d10 + 5)</p><p>See p. 307.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!5c7d809b1513d3aa.b9d28abb3b31c6ff"
+    }
+  ],
+  "effects": [],
+  "folder": "cab7c189bf2296af",
+  "sort": 19000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Devoted Gladiator",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

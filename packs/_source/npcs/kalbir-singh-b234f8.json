@@ -1,0 +1,633 @@
+{
+  "_id": "b234f8ddd8186e95",
+  "_key": "!actors!b234f8ddd8186e95",
+  "name": "Kalbir Singh",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 4,
+      "max": 4
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Security Ops Singh was part of the security team at the original HAL facility. He secretly smuggled XP of the living conditions HAL kept their workers in to a human rights group. When the strike was called and the EDF anarchists revealed themselves, Singh threw in with the strikers, locked down the barracks where most of the security personnel were resting, and opened up the armory to the workers. After the Fall, Singh stuck with the swarm and helped the fleet organize its militia. To this day, he has a hand in securing the fleet’s defenses, working alongside several weapon system collectives and training new militia volunteers. He also consults with conflict-resolution affinity groups that are formed by the scum on an ad-hoc basis to deal with disputes and antisocial crimes. He also secretly coordinates a counter-intelligence operation against outside groups and factions that meddle in the swarm’s affairs.</p><p><strong>Morph:</strong> Ghost</p><p><strong>Motivation:</strong> +Fairness +Security –Hypercorps</p><p><strong>Active Skills:</strong> Blades 75 (80), Climbing 75 (80), Fray 65 (85), Free Fall 65, Freerunning 70 (75), Infiltration 70 (Shadowing 80), Investigation 50, Kinetic Weapons 75, Networking: Anarchists 80, Networking: Reclaimers 55, Perception 70, Research 50, Spray Weapons 60, Throwing Weapons 60, Unarmed Combat 65 (70)</p><p><strong>Knowledge Skills:</strong> Interests: Biomodification 40, Language: Cantonese 55, Language: Hindi (Native) 85, Profession: Security Protocols 55</p><p><strong>Rep:</strong> @-rep 70, e-rep 50</p><p><strong>Implants:</strong> Adrenal Boost, Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Echolocation, Enhanced Vision, Grip Pads, Hardened Skeleton, Medichines, Mental Speed, Neurachem (Level 1), Reflex Boosters, Toxin Filters</p><p><strong>Gear:</strong> Anonymous Account, Chameleon Cloak, Skinflex, Smart Clothing, Smart Dust</p><p><strong>Armor:</strong> 12/13 (Light Body Armor + Light Bioweave)</p><p><strong>Roleplaying:</strong> Singh has a keen sense of what is fair and does his best to mediate any situations aboard the fleet. Of course he’s found the best way of doing this is to make sure that problems are stopped before they can rise to the level of a concern, so he keeps his eyes on any strangers or new arrivals for signs they may cause trouble.</p><p><strong>Appearance:</strong> Singh’s ghost looks like a standard Southeast Asian phenotype splicer. He keeps his head shaved but has a small mustache. While his physical appearance may not be as outlandish as other scum, the amount of internal modifications is significant and gives him an edge in physical confrontations.</p><p><em>Printed: INIT 7 (14), SPD 1 (3), LUC 30, TT 6, IR 60, DUR 45 (50), WT 9, DR 67.</em></p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 15.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Fairness +Security –Hypercorps"
+    }
+  },
+  "items": [
+    {
+      "_id": "1f1de8b7f33d11f4",
+      "name": "Ghost",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 30,
+          "coo": 30,
+          "int": 30,
+          "ref": 30,
+          "sav": 30,
+          "som": 30,
+          "wil": 30
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 10,
+          "int": 0,
+          "ref": 5,
+          "sav": 0,
+          "som": 5,
+          "wil": 5
+        },
+        "durability": 45,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Adrenal Boost, Enhanced Vision, Grip Pads",
+        "advantages": "+10 COO, +5 REF, +5 SOM, +5 WIL, +5 to one other aptitude of the player’s choice",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 70,
+        "creditCost": "Expensive (minimum 40,000)",
+        "active": true,
+        "description": "<p>Ghosts are partially designed for combat applications, but their primary focus is stealth and infiltration. Their genetic profile encourages speed, agility, and reflexes, and their minds are modified for patience and problem-solving.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 41.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b234f8ddd8186e95.1f1de8b7f33d11f4"
+    },
+    {
+      "name": "Blades",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "blades",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d8e94556992ae336",
+      "_key": "!actors.items!b234f8ddd8186e95.d8e94556992ae336",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d0dc10797c9dade0",
+      "_key": "!actors.items!b234f8ddd8186e95.d0dc10797c9dade0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9bb5c31592fea49a",
+      "_key": "!actors.items!b234f8ddd8186e95.9bb5c31592fea49a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "53eb4281b9f4978c",
+      "_key": "!actors.items!b234f8ddd8186e95.53eb4281b9f4978c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "528c728419d601af",
+      "_key": "!actors.items!b234f8ddd8186e95.528c728419d601af",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "Shadowing",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5089a7ced6768f8e",
+      "_key": "!actors.items!b234f8ddd8186e95.5089a7ced6768f8e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a8619e0822aa51c1",
+      "_key": "!actors.items!b234f8ddd8186e95.a8619e0822aa51c1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ae0189b72af4e0d7",
+      "_key": "!actors.items!b234f8ddd8186e95.ae0189b72af4e0d7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Anarchists",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ecbd72e3dd77b5f4",
+      "_key": "!actors.items!b234f8ddd8186e95.ecbd72e3dd77b5f4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Reclaimers",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6fcf3f231a04cd0e",
+      "_key": "!actors.items!b234f8ddd8186e95.6fcf3f231a04cd0e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2755c3f24d44c5ec",
+      "_key": "!actors.items!b234f8ddd8186e95.2755c3f24d44c5ec",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5c288f8513460ade",
+      "_key": "!actors.items!b234f8ddd8186e95.5c288f8513460ade",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Spray Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "sprayWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1ab3cca0cc3b81d2",
+      "_key": "!actors.items!b234f8ddd8186e95.1ab3cca0cc3b81d2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Throwing Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "throwingWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ae1f61e2734481e5",
+      "_key": "!actors.items!b234f8ddd8186e95.ae1f61e2734481e5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "fc5aa46952b8503b",
+      "_key": "!actors.items!b234f8ddd8186e95.fc5aa46952b8503b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interests",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Biomodification",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ea253c429e28454e",
+      "_key": "!actors.items!b234f8ddd8186e95.ea253c429e28454e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Cantonese",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "45794ef93ac50832",
+      "_key": "!actors.items!b234f8ddd8186e95.45794ef93ac50832",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Hindi",
+        "ranks": 70,
+        "mod": 0,
+        "specialization": "Native",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "97f1861282db6202",
+      "_key": "!actors.items!b234f8ddd8186e95.97f1861282db6202",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Security Protocols",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d1a9b381d85d376e",
+      "_key": "!actors.items!b234f8ddd8186e95.d1a9b381d85d376e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Light Body Armor + Light Bioweave",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "energy": 12,
+        "kinetic": 13,
+        "accessory": false,
+        "cost": "",
+        "description": "",
+        "equipped": true
+      },
+      "_id": "05ebdebc318579e8",
+      "_key": "!actors.items!b234f8ddd8186e95.05ebdebc318579e8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "0345dc02520ce0d4",
+  "sort": 37000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Kalbir Singh",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

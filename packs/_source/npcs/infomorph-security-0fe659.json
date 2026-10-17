@@ -1,0 +1,261 @@
+{
+  "_id": "0fe659ff925b2616",
+  "_key": "!actors!0fe659ff925b2616",
+  "name": "Infomorph Security",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 25,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 10,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 25,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 2,
+      "max": 2
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "dur": 40
+    },
+    "biography": "<p><strong>Morph:</strong> Infomorph (Slave Eidolon)</p><p><strong>Skills:</strong> Interfacing 50, Infosec 60, Perception 50, Profession: Security Ops 40</p><p><strong>Enhancements:</strong> Copylock, Mnemonic Augmentation</p><p><strong>Traits:</strong> Modified Behavior (Loyalty to Nine Lives)</p><p><strong>Gear:</strong> Guardian, Taggant, and Injector swarms; Exploit, Sniffer, Spoof, and Tracking software.</p><p><em>Printed: INIT 4, SPD 3, LUC 30, TT 6, IR 60, DUR 40, WT 8, DR 60.</em></p><p><em>Source: Eclipse Phase The Devotees, p. 14.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "3cc43704f84ef7d0",
+      "name": "Slave (Infomorph eidolon)",
+      "type": "morph",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "morphType": "infomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": -10
+        },
+        "durability": 0,
+        "speedMod": 2,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "",
+        "implants": "Copylock, Mnemonic Augmentation",
+        "advantages": "",
+        "disadvantages": "Modified Behavior (Level 2: Blocked disobedience to a particular person/group), −10 WIL",
+        "skillBonuses": [],
+        "cpCost": 5,
+        "creditCost": "Moderate",
+        "active": true,
+        "description": "<p>No one other than a handful of bizarre eccentrics voluntarily uses this eidolon. It is specifically designed as a means to control infomorphs who are being used as slaves. One common use of this eidolon is sending an infomorph on a mission where the sender wishes to insure the infomorphs complete and total obedience.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 51.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0fe659ff925b2616.3cc43704f84ef7d0"
+    },
+    {
+      "_id": "e33d2b5a016de7d2",
+      "name": "Modified Behavior",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "modifiedBehavior",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 5,
+        "costText": "Bonus: 5 (Level 1), 10 (Level 2), or 20 (Level 3) CP",
+        "description": "<p>The character has been conditioned via timeaccelerated behavioral control psychosurgery. This is common among ex-felons, who have been conditioned to respond to a specific idea or activity with vehement horror and disgust, but may have occurred for some other reason or even been self-inflicted. At Level 1, the chosen behavior is either limited or boosted, at Level 2 it is either blocked or encouraged, and at Level 3 it is expunged or enforced (see p. 231 for details). This trait should only be allowed for behaviors that are either limited or, if encouraged, impact the character in a negative way.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0fe659ff925b2616.e33d2b5a016de7d2"
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "32920304c4bd0aaa",
+      "_key": "!actors.items!0fe659ff925b2616.32920304c4bd0aaa",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8fa0a345b6739790",
+      "_key": "!actors.items!0fe659ff925b2616.8fa0a345b6739790",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b879412592eae27a",
+      "_key": "!actors.items!0fe659ff925b2616.b879412592eae27a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Security Ops",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "debd3d85976cd98a",
+      "_key": "!actors.items!0fe659ff925b2616.debd3d85976cd98a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "cab7c189bf2296af",
+  "sort": 9000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Infomorph Security",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

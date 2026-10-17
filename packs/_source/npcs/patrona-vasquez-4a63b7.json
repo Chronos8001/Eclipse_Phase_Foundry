@@ -1,0 +1,1168 @@
+{
+  "_id": "4a63b725f649e2c2",
+  "_key": "!actors!4a63b725f649e2c2",
+  "name": "Patrona Vasquez",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 30,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 25,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 4,
+      "max": 4
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Freelance Magistrate, Agent of Nomic</p><p><strong>Morph:</strong> Exalt</p><p><strong>Motivation:</strong> -Crime +Justice +Libertarianism</p><p><strong>Active Skills:</strong> Beam Weapons 80, Clubs 60, Fray 80, Freerunning 60, Gunnery 60, Infiltration 70, Infosec 80, Intimidation 70, Investigation 80, Kinesics 90, Kinetic Weapons 60, Navigation 30, Networking: Autonomists 80, Networking: Guanxi 80, Networking: Hypercorps 60, Perception 60, Persuasion 40, Pilot: Groundcraft 40, Pilot: Spacecraft 60, Programming 35, Protocol 60, Research 80, Unarmed Combat 70</p><p><strong>Knowledge Skills:</strong> Academics: Jurisprudence 80, Interest: Criminal Syndicates 80, Language: Arabic 60, Language: English: 60, Language: French 60, Language: Italian 95, Language: German 40, Language: Mandarin 70, Language: Portuguese: 40, Language: Spanish 80, Language: Thai 40, Profession: Lawyer 80, Profession: Police Procedures 80, Profession: Squad Tactics 60</p><p><strong>Reputation:</strong> @-rep 90, c-rep 60, g-rep 40</p><p><strong>Traits:</strong> Expert (Kinesics)</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts (Software: Facial Recognition, Security AI, Tactical Network), Cortical Stack, Endocrine Control, Hyper-Linguist, Mnemonic Augmentation, Multitasking, Oracles</p><p><strong>Roleplaying:</strong> Patrona is all business, with a stark lack of any sense of humor. She is very, very sharp at reading people, and will not hesitate to point out anything she discerns about a person’s actions or personality.</p><p><em>Printed: INIT 70, SPD 1, LUC 50, TT 10, IR 100, DUR 35, WT 7, DR 53.</em></p><p><em>Source: Eclipse Phase Glory, p. 22.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "-Crime +Justice +Libertarianism"
+    }
+  },
+  "items": [
+    {
+      "_id": "28cabfce6b08c85e",
+      "name": "Exalt",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 30,
+          "coo": 30,
+          "int": 30,
+          "ref": 30,
+          "sav": 30,
+          "som": 30,
+          "wil": 30
+        },
+        "aptitudeBonus": {
+          "cog": 5,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 35,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack",
+        "advantages": "+5 COG, +5 to three other aptitudes of the player’s choice",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 30,
+        "creditCost": "Expensive",
+        "active": true,
+        "description": "<p>Exalt morphs are genetically enhanced humans, designed to emphasize specific traits. Their genetic code has been tweaked to make them healthier, smarter, and more attractive (based on ever-evolving beauty standards). Their metabolism is modified to predispose them towards staying fit and athletic for the duration of an extended lifespan.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 27.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!4a63b725f649e2c2.28cabfce6b08c85e"
+    },
+    {
+      "_id": "34bd75066abc11c9",
+      "name": "Expert",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "expert",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>The character is a legend in the use of one particular skill. The character may raise one learned skill over 80, to a maximum of 90, during character creation. This trait does not actually increase the skill, it just raises the maximum. This trait may only be taken once.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!4a63b725f649e2c2.34bd75066abc11c9"
+    },
+    {
+      "_id": "d59a7d814dda5695",
+      "name": "Security AI",
+      "type": "software",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "key": "securityAi",
+        "category": "ai",
+        "quality": 0,
+        "cost": "High",
+        "damage": "",
+        "harm": "none",
+        "effect": "",
+        "aptitudes": {
+          "cog": 10,
+          "coo": 10,
+          "int": 10,
+          "ref": 10,
+          "sav": 10,
+          "som": 10,
+          "wil": 10
+        },
+        "skills": [
+          {
+            "key": "hardware",
+            "name": "Hardware",
+            "field": "Electronics",
+            "value": 30,
+            "specialization": ""
+          },
+          {
+            "key": "infosec",
+            "name": "Infosec",
+            "field": "",
+            "value": 40,
+            "specialization": ""
+          },
+          {
+            "key": "interfacing",
+            "name": "Interface",
+            "field": "",
+            "value": 40,
+            "specialization": ""
+          },
+          {
+            "key": "profession",
+            "name": "Professional",
+            "field": "Security Systems",
+            "value": 80,
+            "specialization": ""
+          },
+          {
+            "key": "programming",
+            "name": "Programming",
+            "field": "",
+            "value": 40,
+            "specialization": ""
+          },
+          {
+            "key": "research",
+            "name": "Research",
+            "field": "",
+            "value": 20,
+            "specialization": ""
+          },
+          {
+            "key": "perception",
+            "name": "Perception",
+            "field": "",
+            "value": 30,
+            "specialization": ""
+          }
+        ],
+        "description": "<p>Security AIs provide overwatch for electronic systems. Skills: Hardware: Electronics 30, Infosec 40, Interface 40, Professional: Security Systems 80, Programming 40, Research 20, Perception 30, plus one weapon skill at 40.</p><p>Not created automatically: plus one weapon skill at 40.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 332.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!4a63b725f649e2c2.d59a7d814dda5695"
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ff204a70b6ce28f2",
+      "_key": "!actors.items!4a63b725f649e2c2.ff204a70b6ce28f2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Clubs",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "clubs",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1c997237cfedf5dd",
+      "_key": "!actors.items!4a63b725f649e2c2.1c997237cfedf5dd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6b830081dad58311",
+      "_key": "!actors.items!4a63b725f649e2c2.6b830081dad58311",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "dfbe55fb4175ec25",
+      "_key": "!actors.items!4a63b725f649e2c2.dfbe55fb4175ec25",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Gunnery",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "gunnery",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "fe66107078aa6766",
+      "_key": "!actors.items!4a63b725f649e2c2.fe66107078aa6766",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "90a2253309b716a3",
+      "_key": "!actors.items!4a63b725f649e2c2.90a2253309b716a3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0eba732d6c40e92e",
+      "_key": "!actors.items!4a63b725f649e2c2.0eba732d6c40e92e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c2a06696e6199cc7",
+      "_key": "!actors.items!4a63b725f649e2c2.c2a06696e6199cc7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c2577184dbfc1ad7",
+      "_key": "!actors.items!4a63b725f649e2c2.c2577184dbfc1ad7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a3d46df8ec07e1c7",
+      "_key": "!actors.items!4a63b725f649e2c2.a3d46df8ec07e1c7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "aa26d1b3115dcecd",
+      "_key": "!actors.items!4a63b725f649e2c2.aa26d1b3115dcecd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Navigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "navigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4d3d2bd2a9fda4ac",
+      "_key": "!actors.items!4a63b725f649e2c2.4d3d2bd2a9fda4ac",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Autonomists",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b5785a880786ce6a",
+      "_key": "!actors.items!4a63b725f649e2c2.b5785a880786ce6a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Guanxi",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "684eca69210bafe5",
+      "_key": "!actors.items!4a63b725f649e2c2.684eca69210bafe5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Hypercorps",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "59f5bfba3f2d6c11",
+      "_key": "!actors.items!4a63b725f649e2c2.59f5bfba3f2d6c11",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "bd040334d984aad6",
+      "_key": "!actors.items!4a63b725f649e2c2.bd040334d984aad6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "729ee9133f839aca",
+      "_key": "!actors.items!4a63b725f649e2c2.729ee9133f839aca",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Pilot",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "pilot",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "Groundcraft",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1e97a4b22d710188",
+      "_key": "!actors.items!4a63b725f649e2c2.1e97a4b22d710188",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Pilot",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "pilot",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "Spacecraft",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1dcbefe1eba67c8f",
+      "_key": "!actors.items!4a63b725f649e2c2.1dcbefe1eba67c8f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 22000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Programming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "programming",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "80787bb4349a1376",
+      "_key": "!actors.items!4a63b725f649e2c2.80787bb4349a1376",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 23000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "729a395929c6aa41",
+      "_key": "!actors.items!4a63b725f649e2c2.729a395929c6aa41",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 24000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4e59a2022b0fecb6",
+      "_key": "!actors.items!4a63b725f649e2c2.4e59a2022b0fecb6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 25000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a1c6c1b2c0045da4",
+      "_key": "!actors.items!4a63b725f649e2c2.a1c6c1b2c0045da4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 26000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Jurisprudence",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7a9be12ae243bae0",
+      "_key": "!actors.items!4a63b725f649e2c2.7a9be12ae243bae0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 27000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Criminal Syndicates",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ab45cbd39d6aab80",
+      "_key": "!actors.items!4a63b725f649e2c2.ab45cbd39d6aab80",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 28000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Arabic",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "850c9bfe1ebd9f75",
+      "_key": "!actors.items!4a63b725f649e2c2.850c9bfe1ebd9f75",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 29000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "English",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "32de7284146ee140",
+      "_key": "!actors.items!4a63b725f649e2c2.32de7284146ee140",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 30000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "French",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6d08a02e95895ca3",
+      "_key": "!actors.items!4a63b725f649e2c2.6d08a02e95895ca3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 31000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Italian",
+        "ranks": 75,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2d8c5974554c8d52",
+      "_key": "!actors.items!4a63b725f649e2c2.2d8c5974554c8d52",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 32000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "German",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ba586ff7110dfdd1",
+      "_key": "!actors.items!4a63b725f649e2c2.ba586ff7110dfdd1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 33000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Mandarin",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a7217978266c2ce1",
+      "_key": "!actors.items!4a63b725f649e2c2.a7217978266c2ce1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 34000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Portuguese",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e6f2eafb44e9fc57",
+      "_key": "!actors.items!4a63b725f649e2c2.e6f2eafb44e9fc57",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 35000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Spanish",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "488985387aefa2c7",
+      "_key": "!actors.items!4a63b725f649e2c2.488985387aefa2c7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 36000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Thai",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e2601d3973c6fb03",
+      "_key": "!actors.items!4a63b725f649e2c2.e2601d3973c6fb03",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 37000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Lawyer",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6edf2f623846301e",
+      "_key": "!actors.items!4a63b725f649e2c2.6edf2f623846301e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 38000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Police Procedures",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "195912f480f0ec6a",
+      "_key": "!actors.items!4a63b725f649e2c2.195912f480f0ec6a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 39000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Squad Tactics",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "522972668740adb4",
+      "_key": "!actors.items!4a63b725f649e2c2.522972668740adb4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 40000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "f3497fd65709500d",
+  "sort": 26000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Patrona Vasquez",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

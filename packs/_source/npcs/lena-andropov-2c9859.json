@@ -1,0 +1,611 @@
+{
+  "_id": "2c98594e6204d0c1",
+  "_key": "!actors!2c98594e6204d0c1",
+  "name": "Lena Andropov",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 30,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 4,
+      "max": 4
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Engineer Extraordinaire Born in Kiev in the Ukraine, Lena Andropov studied nanotechnology and materials engineering, receiving a doctorate in applied nanotechnology. She found to her dismay, however, that working for a Ukrainian university meant also working for the oligarchs who pumped money into the institution to use it as a research facility for their own projects. When the Fall began, those same oligarchs fled the planet using nanoschematics of her design to modify a number of older launch vehicles on the pad for the capacity to reach Luna—but stranding her and the rest of her team. Lena and her colleagues managed to get another craft off planet, but the engines failed before they could reach a stable orbit and they began falling back towards Earth. A team of HAL strikers and scum swept in and rescued them, earning 15 her eternal gratitude and her considerable skill in patching up busted systems. She immediately turned her skills towards improving and retrofitting the HAL facility. Since the swarm departed Earth, her attention has been focused unceasingly on getting the most out of the Thoughtcrime’s aging manufactories. Lena’s loyalty is to her friends in the flotilla, and while she personally doesn’t consider herself much of an anarchist or even a real scum, she still considers the swarm her home and the people there her family. She maintains good relationships with the argonauts and often does small favors for them at inner system habitats at which the fleet stops over.</p><p><strong>Morph:</strong> Arachnoid</p><p><strong>Motivation:</strong> +Efficiency +Information Freedom +Thoughtcrime Nanofabricators</p><p><strong>Active Skills:</strong> Fray 50, Free Fall 40, Hardware: Aerospace 65, Hardware: Electronics 65, Hardware: Industrial 50, Hardware: Nanotechnology 80, Interfacing 65, Investigation 60, Networking: Argonauts 40, Networking: Scientists 65, Perception 50, Programming 75 (Nanofabrication 85), Research 65</p><p><strong>Knowledge Skills:</strong> Academics: Materials Engineering 70, Academics: Nanofabrication 90, Language: Russian 50, Language: Ukrainian (Native) 90, Profession: Academic 45, Profession: Engineer 55</p><p><strong>Rep:</strong> @-rep 60, r-rep 60</p><p><strong>Implants:</strong> Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Eidetic Memory, Enhanced Vision, Extra Limbs (10 Arms/Legs), Hyper Linguist, Lidar, Math Boost, Mnemonic Augmentation, Multi-Tasking, Pneumatic Limbs, Nanophages, Radar</p><p><strong>Gear:</strong> Creepy, Fabber, Mobile Lab, Nanodetector, Nanoswarms (Engineer, Guardian), Repair Spray, Servitor, Specimen Container</p><p><strong>Armor:</strong> 8/8</p><p><strong>Roleplaying:</strong> Lena’s personality can be a bit grating since she spends most of her time with machines and her fellow gear-heads and she is prone to snapping orders at whoever is nearby when something needs to be done.</p><p><strong>Appearance:</strong> Lena spends most of her time clomping around in her arachnoid shell since she likes the functionality it gives her for tackling any engineering tasks or problems that might arise. She’s a hands-on type of woman and won’t hesitate to clamber all over the outside hull of a ship that’s experiencing problems. Because of this, her arachnoid shell is banged up and dented all over, although some of the other crew of the Thoughtcrime have tried to cover this up with colorful applications of paint to her chassis.</p><p><em>Printed: INIT 8, SPD 1, LUC 30, TT 6, IR 60, DUR 40, WT 8, DR 60.</em></p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 16.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Efficiency +Information Freedom +Thoughtcrime Nanofabricators"
+    }
+  },
+  "items": [
+    {
+      "_id": "36f44bf6384e652a",
+      "name": "Arachnoid",
+      "type": "morph",
+      "img": "icons/svg/cog.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 30,
+          "coo": 30,
+          "int": 30,
+          "ref": 30,
+          "sav": 30,
+          "som": 30,
+          "wil": 30
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 5,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 10,
+          "wil": 0
+        },
+        "durability": 40,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 8,
+          "kinetic": 8
+        },
+        "movement": "Walker 4/24, Thrust Vector 8/40, Wheeled 8/40",
+        "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Enhanced Vision, Extra Limbs (10 Arms/Legs), Lidar, Mnemonic Augmentation, Pneumatic Limbs, Radar",
+        "advantages": "+5 COO, +10 SOM, Armor 8/8",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 45,
+        "creditCost": "Expensive (minimum 40,000+)",
+        "active": true,
+        "description": "<p>Arachnoid robotic shells are 1-meter in length, segmented into two parts, with a smaller head like a spider or termite. They feature four pairs of 1.5-meter-long retractable arms/ legs, capable of rotating around the axis of the body, with built-in pneumatic systems for propelling the bot with small leaps. The manipulator claws on each arm/leg can be switched out with extendable mini-wheels for high-speed skating movement. A smaller pair of manip- ulator arms near the head allows for closer handling and tool use. In zero-g environments, arachnoids can retract their arms/legs and maneuver with vectored air thrusters.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 7.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!2c98594e6204d0c1.36f44bf6384e652a"
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "52828a1deba755b5",
+      "_key": "!actors.items!2c98594e6204d0c1.52828a1deba755b5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "637840577545017d",
+      "_key": "!actors.items!2c98594e6204d0c1.637840577545017d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Aerospace",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "87fca8537250e4c6",
+      "_key": "!actors.items!2c98594e6204d0c1.87fca8537250e4c6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Electronics",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "67207cd60e6e6530",
+      "_key": "!actors.items!2c98594e6204d0c1.67207cd60e6e6530",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Industrial",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e3f0e6ee9ddafbcf",
+      "_key": "!actors.items!2c98594e6204d0c1.e3f0e6ee9ddafbcf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Nanotechnology",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "364a9a0411d88c30",
+      "_key": "!actors.items!2c98594e6204d0c1.364a9a0411d88c30",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9b32310040ee8431",
+      "_key": "!actors.items!2c98594e6204d0c1.9b32310040ee8431",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "156bac4ae2794ca3",
+      "_key": "!actors.items!2c98594e6204d0c1.156bac4ae2794ca3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Argonauts",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "dc54cf095b1daf72",
+      "_key": "!actors.items!2c98594e6204d0c1.dc54cf095b1daf72",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Scientists",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "35df21c3d72243af",
+      "_key": "!actors.items!2c98594e6204d0c1.35df21c3d72243af",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "28c972b911f0beac",
+      "_key": "!actors.items!2c98594e6204d0c1.28c972b911f0beac",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Programming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "programming",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "Nanofabrication",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "13f848c7f518125e",
+      "_key": "!actors.items!2c98594e6204d0c1.13f848c7f518125e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "253c49002863711a",
+      "_key": "!actors.items!2c98594e6204d0c1.253c49002863711a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Materials Engineering",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0986a755855ee26b",
+      "_key": "!actors.items!2c98594e6204d0c1.0986a755855ee26b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Nanofabrication",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b9c7065401e9233f",
+      "_key": "!actors.items!2c98594e6204d0c1.b9c7065401e9233f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Russian",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "412b2a8a8b644ae8",
+      "_key": "!actors.items!2c98594e6204d0c1.412b2a8a8b644ae8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Ukrainian",
+        "ranks": 70,
+        "mod": 0,
+        "specialization": "Native",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6c2f9ae29f686aee",
+      "_key": "!actors.items!2c98594e6204d0c1.6c2f9ae29f686aee",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Academic",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4ebf23da04b635b5",
+      "_key": "!actors.items!2c98594e6204d0c1.4ebf23da04b635b5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Engineer",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4dd2c0bafcf493c2",
+      "_key": "!actors.items!2c98594e6204d0c1.4dd2c0bafcf493c2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "0345dc02520ce0d4",
+  "sort": 38000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Lena Andropov",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}
