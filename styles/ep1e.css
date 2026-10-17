@@ -47,6 +47,13 @@
   border-radius: var(--ep-radius);
 }
 
+/* Long dialogs (attack, psychosurgery...) fit the screen: the content scrolls, the buttons stay visible */
+.application.ep1e-dialog { max-height: calc(100vh - 16px); }
+.application.ep1e-dialog .window-content { min-height: 0; overflow-y: auto; }
+.application.ep1e-dialog .dialog-form { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; max-height: 100%; }
+.application.ep1e-dialog .dialog-content { flex: 1 1 auto; min-height: 0; overflow-y: auto; padding-right: 4px; }
+.application.ep1e-dialog .form-footer { flex: 0 0 auto; }
+
 .ep1e.sheet input[type="number"] {
   text-align: center;
   padding: 0 2px;
@@ -74,7 +81,11 @@
   border: 1px solid var(--ep-border);
   border-radius: var(--ep-radius);
   cursor: pointer;
-  line-height: 26px;
+  /* Foundry v13 gives buttons a fixed height: let a long label grow the button instead of spilling out */
+  height: auto;
+  min-height: 28px;
+  line-height: 1.3;
+  padding: 3px 8px;
 }
 
 .ep1e.sheet button:hover,
@@ -176,6 +187,7 @@
 .ep1e.sheet nav.tabs {
   flex: 0 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   background: var(--ep-panel);
   border-bottom: 1px solid var(--ep-border);
@@ -306,8 +318,10 @@
 .ep1e .track input { width: 56px; }
 .ep1e .track .sep { min-width: 40px; color: var(--ep-muted); }
 .ep1e .track meter { flex: 1; height: 10px; }
-.ep1e .panel .buttons { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
-.ep1e .panel .buttons button { flex: 1 1 auto; width: auto; margin: 0; padding: 0 8px; white-space: nowrap; font-size: 0.85em; }
+.ep1e .panel .buttons,
+.ep1e .button-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 6px; }
+.ep1e .panel .buttons button,
+.ep1e .button-row button { flex: 1 1 auto; width: auto; margin: 0; white-space: nowrap; font-size: 0.85em; }
 
 /* -------------------------------------------- */
 /*  Skills & combat tables                      */
@@ -335,7 +349,7 @@
 .ep1e .item-row.equipped > a:first-child { color: var(--ep-accent); }
 
 .ep1e .defense-row { display: flex; gap: 8px; align-items: stretch; flex-wrap: wrap; }
-.ep1e .defense-row button { flex: 1 1 160px; }
+.ep1e .defense-row button { flex: 1 1 160px; width: auto; margin: 0; }
 .ep1e .defense-row button strong { color: var(--ep-accent); margin-left: 4px; }
 .ep1e .defense-row .stat { min-width: 70px; }
 
@@ -345,7 +359,7 @@
 
 .ep1e .detail-grid,
 .ep1e .rep-grid { display: grid; gap: 6px 12px; }
-.ep1e .detail-grid { grid-template-columns: repeat(2, 1fr); }
+.ep1e .detail-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .ep1e .rep-grid { grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); }
 .ep1e .detail-grid label,
 .ep1e .rep-grid label,
@@ -363,7 +377,7 @@
 /*  Item sheets                                 */
 /* -------------------------------------------- */
 
-.ep1e .form-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px 14px; margin-bottom: 8px; }
+.ep1e .form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 14px; margin-bottom: 8px; }
 .ep1e.item .form-group { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin: 0; }
 .ep1e.item .form-group > label { flex: 0 0 45%; color: var(--ep-muted); font-size: 0.9em; }
 .ep1e.item .form-group > input,
@@ -389,7 +403,7 @@
 .ep1e.test-dialog .test-base { font-size: 1.1em; margin: 0 0 8px; }
 .ep1e.test-dialog .test-base strong { color: var(--ep-accent); font-size: 1.2em; }
 .ep1e.test-dialog .penalty { color: var(--ep-warning); font-style: normal; }
-.ep1e.attack-dialog .combat-mods { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 8px; margin: 6px 0; }
+.ep1e.attack-dialog .combat-mods { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2px 8px; margin: 6px 0; }
 .ep1e.attack-dialog .combat-mods label.checkbox { display: flex; align-items: center; gap: 4px; font-size: 0.9em; }
 .ep1e.attack-dialog .combat-mods small { margin-left: auto; opacity: 0.7; }
 
@@ -446,8 +460,8 @@
 .ep1e.chat-card .attack-notes { display: flex; flex-wrap: wrap; gap: 3px; }
 .ep1e.chat-card .attack-notes span { border: 1px solid #999; border-radius: 3px; padding: 0 4px; font-size: 0.85em; }
 .ep1e.chat-card .attack-targets { list-style: none; margin: 4px 0; padding: 0; }
-.ep1e.chat-card .attack-targets .target { display: flex; align-items: center; gap: 6px; padding: 2px 0; border-top: 1px dotted #999; }
-.ep1e.chat-card .attack-targets .name { flex: 1; }
+.ep1e.chat-card .attack-targets .target { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 2px 0; border-top: 1px dotted #999; }
+.ep1e.chat-card .attack-targets .name { flex: 1 1 100px; min-width: 0; overflow-wrap: anywhere; }
 .ep1e.chat-card .attack-targets .defense { font-size: 0.85em; opacity: 0.8; }
 .ep1e.chat-card .attack-targets .state { font-weight: bold; font-size: 0.9em; }
 .ep1e.chat-card .attack-targets .target button { width: auto; flex: 0 0 auto; margin: 0; line-height: 1.4; padding: 0 6px; }
@@ -470,7 +484,7 @@
   font-size: 0.85em;
 }
 .ep1e.chat-card .moxie-actions span { color: #c27c0e; width: 100%; }
-.ep1e.chat-card .moxie-actions button { flex: 1; line-height: 22px; font-size: 0.9em; }
+.ep1e.chat-card .moxie-actions button { flex: 1 1 auto; width: auto; margin: 0; font-size: 0.9em; }
 
 .ep1e.damage-card { --card-accent: #c53030; }
 .ep1e.damage-card.stress { --card-accent: #805ad5; }
@@ -511,7 +525,7 @@
 .ep1e.vehicle .header-fields .name { font-size: 1.4em; }
 .ep1e.vehicle .header-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .ep1e.vehicle .header-row input { width: 8em; }
-.ep1e.vehicle .stat-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.ep1e.vehicle .stat-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
 .ep1e.vehicle .stat-grid .stat { display: flex; flex-direction: column; font-size: 0.85em; }
 .ep1e.vehicle .stat-grid input { width: 100%; }
 .ep1e.vehicle .enhancements textarea { width: 100%; }
