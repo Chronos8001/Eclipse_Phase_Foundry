@@ -1,0 +1,23 @@
+{
+  "_id": "35fc326091a07f63",
+  "_key": "!items!35fc326091a07f63",
+  "name": "Botched Merge",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "botchedMerge",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 15,
+    "costText": "Bonus: 15 CP",
+    "description": "<p>In the past, the character suffered a serious complication during an attempt to merge a fork that caused irreparable damage to their ego map, leaving them with a weaker grip on their memories and own identity. For some reason—perhaps due to irreproducible memories or information that would otherwise be lost, moral conviction, or the lack of any prior backup states to re-instance—the decision was made to carry on with a damaged mind. Now, high-stress situations can cause periods of dissociation, amnesia, and body alienation. Whenever the character takes stress damage, they must succeed on an INT x 3 Test or immediately enter a dissociative state where they feel disconnected from their body, lose some awareness of the events around them, and/ or forget certain information, memories, or skills. In this state they suffer a −10 penalty on all tests. The dissociative state persists for one minute or for the duration of a derangement if one is acquired due to trauma.</p><p><em>Source: Eclipse Phase Transhuman, p. 87.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 36000,
+  "ownership": {
+    "default": 0
+  }
+}

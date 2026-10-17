@@ -1,0 +1,23 @@
+{
+  "_id": "1be10811937f6895",
+  "_key": "!items!1be10811937f6895",
+  "name": "High-Temperature Operation",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "highTemperatureOperation",
+    "traitType": "positive",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>This morph has been designed to operate only in high-temperature environments, enabling them to withstand temperatures up to 1,000 C. This morph loses 1 point of COO for every 5 minutes it spends at temperatures lower than 250 C, and 1 point of COO for every minute that it spends below 150 C. When its COO equals zero the morph becomes completely immobile. This same penalty is applied to all COO-based skill rolls. The morph’s cyberbrain and mesh access still work in these circumstances, but the morph cannot physically move under its own power. Even if placed back in higher temperatures, if it was previously reduced to total immobility, the morph halves its COO and SOM (round down) until it has been serviced. This trait may only be applied to synthmorphs. It provides 5 points of Energy armor against heat-based attacks (such as lasers, microwaves, and plasma weapons, but not explosions).</p><p><em>Source: Eclipse Phase Sunward, p. 165.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "3546d7a90ee695f2",
+  "sort": 72000,
+  "ownership": {
+    "default": 0
+  }
+}

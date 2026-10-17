@@ -159,7 +159,30 @@
       "_key": "!actors.items!b3927e533b5d7a3e.302c24ec2e5cd336"
     },
     {
-      "_id": "1e60cfc4e13a2b44",
+      "_id": "bdb9337b370c4755",
+      "name": "Ego Plasticity",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "egoPlasticity",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP (Level 1), 20 CP (Level 2), or 30 CP (Level 3)",
+        "description": "<p>Merging forks can be stressful under the best of circumstances, but some people handle the process better than others. Per level, the character gains a +10 modifier on all Merging Tests and suffers −1 SV when merging forks.</p><p><em>Source: Eclipse Phase Transhuman, p. 83.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b3927e533b5d7a3e.bdb9337b370c4755"
+    },
+    {
+      "_id": "aef4d18dd1ecefd2",
       "name": "Limber",
       "type": "trait",
       "img": "icons/svg/upgrade.svg",
@@ -174,12 +197,35 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 4000,
+      "sort": 5000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!b3927e533b5d7a3e.1e60cfc4e13a2b44"
+      "_key": "!actors.items!b3927e533b5d7a3e.aef4d18dd1ecefd2"
+    },
+    {
+      "_id": "6172e3267dc6e2c3",
+      "name": "Trauma Tolerance",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "traumaTolerance",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP (Level 1) or 20 CP (Level 2)",
+        "description": "<p>This character has a higher threshold for handling traumatic experiences and is better at ignoring the effects of stress on their abilities and concentration. Level 1 allows them to ignore the −10 modifier from 1 trauma. Level 2 allows them to ignore the −10 modifiers from 2 traumas. Initiative modifiers still apply. In both cases, the character is also not immediately inflicted with any derangements as a result of these traumas. Any additional traumas affect the character as normal; postponed derangements don’t count for the purpose of raising derangement effects, but they do count towards determining when a disorder is applied. Blocking out traumatically stressful experiences is a temporary measure, however, as the experience still lingers and festers in the dark recesses of the character’s mind. A short period of time later (1d10 ÷ 2 hours, round down), the character’s facade of mental fortitude will crack and the −10 trauma modifier(s) and derangement(s) will kick in at one level higher. A character who ignored a trauma that would have inflicted a minor derangement, for example, will a few hours later be struck by a moderate derangement.</p><p><em>Source: Eclipse Phase Transhuman, p. 86.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b3927e533b5d7a3e.6172e3267dc6e2c3"
     },
     {
       "name": "Academics",
@@ -196,12 +242,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "191d92588dd2991b",
-      "_key": "!actors.items!b3927e533b5d7a3e.191d92588dd2991b",
+      "_id": "e6a6a62afa375c26",
+      "_key": "!actors.items!b3927e533b5d7a3e.e6a6a62afa375c26",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 5000,
+      "sort": 7000,
       "ownership": {
         "default": 0
       }
@@ -221,12 +267,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "33e0477cc3751516",
-      "_key": "!actors.items!b3927e533b5d7a3e.33e0477cc3751516",
+      "_id": "bbef7032c1b83631",
+      "_key": "!actors.items!b3927e533b5d7a3e.bbef7032c1b83631",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 6000,
+      "sort": 8000,
       "ownership": {
         "default": 0
       }
@@ -246,12 +292,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "040d4e94fbed3907",
-      "_key": "!actors.items!b3927e533b5d7a3e.040d4e94fbed3907",
+      "_id": "6bd01014afbb8cd6",
+      "_key": "!actors.items!b3927e533b5d7a3e.6bd01014afbb8cd6",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 7000,
+      "sort": 9000,
       "ownership": {
         "default": 0
       }
@@ -271,12 +317,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "bb79ef099229d362",
-      "_key": "!actors.items!b3927e533b5d7a3e.bb79ef099229d362",
+      "_id": "62c6e2834b2e4cee",
+      "_key": "!actors.items!b3927e533b5d7a3e.62c6e2834b2e4cee",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 8000,
+      "sort": 10000,
       "ownership": {
         "default": 0
       }
@@ -296,12 +342,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "8a099a0839506d84",
-      "_key": "!actors.items!b3927e533b5d7a3e.8a099a0839506d84",
+      "_id": "b4e2900516475e84",
+      "_key": "!actors.items!b3927e533b5d7a3e.b4e2900516475e84",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 9000,
+      "sort": 11000,
       "ownership": {
         "default": 0
       }
@@ -321,12 +367,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "bebe00abf51ac4a8",
-      "_key": "!actors.items!b3927e533b5d7a3e.bebe00abf51ac4a8",
+      "_id": "e24405f502d906bf",
+      "_key": "!actors.items!b3927e533b5d7a3e.e24405f502d906bf",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 10000,
+      "sort": 12000,
       "ownership": {
         "default": 0
       }
@@ -346,12 +392,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "34f553a9f82c5ef9",
-      "_key": "!actors.items!b3927e533b5d7a3e.34f553a9f82c5ef9",
+      "_id": "f4b7737c479059e6",
+      "_key": "!actors.items!b3927e533b5d7a3e.f4b7737c479059e6",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 11000,
+      "sort": 13000,
       "ownership": {
         "default": 0
       }
@@ -371,12 +417,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "c4c9a56aaf5a57b4",
-      "_key": "!actors.items!b3927e533b5d7a3e.c4c9a56aaf5a57b4",
+      "_id": "1e8dab11aebc3edb",
+      "_key": "!actors.items!b3927e533b5d7a3e.1e8dab11aebc3edb",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 12000,
+      "sort": 14000,
       "ownership": {
         "default": 0
       }
@@ -396,12 +442,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "5ffefd243ed52d99",
-      "_key": "!actors.items!b3927e533b5d7a3e.5ffefd243ed52d99",
+      "_id": "9cba03533e21f19a",
+      "_key": "!actors.items!b3927e533b5d7a3e.9cba03533e21f19a",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 13000,
+      "sort": 15000,
       "ownership": {
         "default": 0
       }
@@ -421,12 +467,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "0c2919d592b19076",
-      "_key": "!actors.items!b3927e533b5d7a3e.0c2919d592b19076",
+      "_id": "e51664be883d8726",
+      "_key": "!actors.items!b3927e533b5d7a3e.e51664be883d8726",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 14000,
+      "sort": 16000,
       "ownership": {
         "default": 0
       }
@@ -446,12 +492,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "d18db5390827f1ea",
-      "_key": "!actors.items!b3927e533b5d7a3e.d18db5390827f1ea",
+      "_id": "d978477c7636d1de",
+      "_key": "!actors.items!b3927e533b5d7a3e.d978477c7636d1de",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 15000,
+      "sort": 17000,
       "ownership": {
         "default": 0
       }
@@ -471,12 +517,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "af42e98a27a5a3df",
-      "_key": "!actors.items!b3927e533b5d7a3e.af42e98a27a5a3df",
+      "_id": "039847e0c6f5ed63",
+      "_key": "!actors.items!b3927e533b5d7a3e.039847e0c6f5ed63",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 16000,
+      "sort": 18000,
       "ownership": {
         "default": 0
       }
@@ -496,12 +542,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "ea5601041361cf0b",
-      "_key": "!actors.items!b3927e533b5d7a3e.ea5601041361cf0b",
+      "_id": "0794fb8115b8d694",
+      "_key": "!actors.items!b3927e533b5d7a3e.0794fb8115b8d694",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 17000,
+      "sort": 19000,
       "ownership": {
         "default": 0
       }
@@ -521,12 +567,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "8f0311d69513fd6f",
-      "_key": "!actors.items!b3927e533b5d7a3e.8f0311d69513fd6f",
+      "_id": "b2429870621579d1",
+      "_key": "!actors.items!b3927e533b5d7a3e.b2429870621579d1",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 18000,
+      "sort": 20000,
       "ownership": {
         "default": 0
       }
@@ -546,12 +592,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "377bd4585cbba5d0",
-      "_key": "!actors.items!b3927e533b5d7a3e.377bd4585cbba5d0",
+      "_id": "2dea68cd91e01d52",
+      "_key": "!actors.items!b3927e533b5d7a3e.2dea68cd91e01d52",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 19000,
+      "sort": 21000,
       "ownership": {
         "default": 0
       }
@@ -571,18 +617,18 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "003efb3f1ddd0e8f",
-      "_key": "!actors.items!b3927e533b5d7a3e.003efb3f1ddd0e8f",
+      "_id": "be2038fec24360c1",
+      "_key": "!actors.items!b3927e533b5d7a3e.be2038fec24360c1",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 20000,
+      "sort": 22000,
       "ownership": {
         "default": 0
       }
     },
     {
-      "_id": "fe37ce8c417da6fe",
+      "_id": "14d981b369e5dfd9",
       "name": "Wasp Knife",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -618,15 +664,15 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 21000,
+      "sort": 23000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!b3927e533b5d7a3e.fe37ce8c417da6fe"
+      "_key": "!actors.items!b3927e533b5d7a3e.14d981b369e5dfd9"
     },
     {
-      "_id": "1ed2fd4a30e250de",
+      "_id": "dc1ef680595c5756",
       "name": "Light Vacsuit",
       "type": "armor",
       "img": "icons/svg/shield.svg",
@@ -640,12 +686,12 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 22000,
+      "sort": 24000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!b3927e533b5d7a3e.1ed2fd4a30e250de"
+      "_key": "!actors.items!b3927e533b5d7a3e.dc1ef680595c5756"
     }
   ],
   "effects": [],

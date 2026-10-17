@@ -1,0 +1,23 @@
+{
+  "_id": "fb7d5f1f41c5970a",
+  "_key": "!items!fb7d5f1f41c5970a",
+  "name": "Alien Biochemistry",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "alienBiochemistry",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 0,
+    "costText": "Neither positive nor negative (no CP)",
+    "description": "<p>It is an impressive feat that creatures that evolved on separate worlds with different biochemistries are now being transformed into pods by transhuman geneticists. In fact, the biochemistries of these creatures are far less understood than that of transhumans. What this means is that drugs, chemicals, bioware augmentations, and cybernetic implants may have unpredictable effects on the pod. Drug treatments beneficial to transhumans may not function at all, for example, while something that transhumans regularly eat or handle may in fact be toxic to the pod and trigger an anaphylactic response. The gamemaster decides when this factor will play a role, based on the pod biochemistry’s similarity to that of transhumans and numerous other factors. Certain augmentations may simply not be available, having not yet been invented for the alien physiology in question.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 153.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "756ef7f03b052fd0",
+  "sort": 77000,
+  "ownership": {
+    "default": 0
+  }
+}

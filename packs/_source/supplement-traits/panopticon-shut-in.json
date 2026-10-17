@@ -1,0 +1,23 @@
+{
+  "_id": "40ae355d4be525be",
+  "_key": "!items!40ae355d4be525be",
+  "name": "Shut-In",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "shutIn",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 15,
+    "costText": "Bonus: 15 CP",
+    "description": "<p>This character is a social hermit or went through a period of self-imposed isolation, limiting the amount of interactions they have via online social networks. Because the character is out of touch, their ability to network with others is impaired. Apply a −10 modifier to Networking Tests.</p><p><em>Source: Eclipse Phase Panopticon, p. 147.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "315ebe0c4fba6ff6",
+  "sort": 86000,
+  "ownership": {
+    "default": 0
+  }
+}

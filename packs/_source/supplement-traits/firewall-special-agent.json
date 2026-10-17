@@ -1,0 +1,23 @@
+{
+  "_id": "0381a31b1a95bf7d",
+  "_key": "!items!0381a31b1a95bf7d",
+  "name": "Special Agent",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "specialAgent",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP (Level 1), 20 CP (Level 2)",
+    "description": "<p>The character is a field agent of the Titanian Security Police, the secret police of one of the Martian city-states, the Jovian CDC, or a similar organization. At Level 2, the character is a supervising agent coordinating the work of 5–10 other agents. For each level, the character receives a +10 on all Networking Tests within their agency. The character is actively employed there and is expected to put in at least 6 hours of work four days a week (if Titanian) or 8 hours a day five days a week (if Jovian, Venusian, Lunar, or Martian). Players taking this trait must seek gamemaster permission and develop a plausible story for how their character is able to participate in Firewall missions while working for the agency. Their work requires them to be physically present, although whether they’re stationed in a specific place or are deployed more widely depends on their agency role. Characters using favors to deploy other agents or access secret information not related to their jobs will eventually have to explain their actions to superiors.</p><p><em>Source: Eclipse Phase Firewall, p. 173.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "7f3ebf3c224a27b4",
+  "sort": 96000,
+  "ownership": {
+    "default": 0
+  }
+}

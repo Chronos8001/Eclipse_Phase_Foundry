@@ -1,0 +1,23 @@
+{
+  "_id": "338ff83b2d3eeeae",
+  "_key": "!items!338ff83b2d3eeeae",
+  "name": "Lost Fork",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "lostFork",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 5,
+    "costText": "Bonus: 5 CP",
+    "description": "<p>A fork of the character has gone missing without a trace. The fork was legal and in compliance with all relevant laws and standards—then it vanished. The version that disappeared was an alpha fork, a complete recent copy of the character’s ego that possesses sensitive knowledge about all aspects of the character’s life. Players and gamemasters should discuss this trait before using it in their game and address the following questions: When did the disappearance occur? Why was the fork created? What was the fork doing just before the disappearance? What leads, if any, does the player possess at the start of the game? This trait is often taken in combination with the Edited Memories, Enemy, and/or On the Run traits.</p><p><em>Source: Eclipse Phase Transhuman, p. 91.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 54000,
+  "ownership": {
+    "default": 0
+  }
+}

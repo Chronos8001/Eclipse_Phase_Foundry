@@ -1,0 +1,23 @@
+{
+  "_id": "b6efea99a0a8f17b",
+  "_key": "!items!b6efea99a0a8f17b",
+  "name": "Curbed Intelligence",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "curbedIntelligence",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>AGIs Only. Fearful of AGIs that might develop into seed AIs like the TITANs, some developers have programmed extra safeguards and precautions into AGI mindstates to limit their intelligence. The aptitude maximum for COG for this AGI character is 15.</p><p><em>Source: Eclipse Phase Transhuman, p. 88.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 38000,
+  "ownership": {
+    "default": 0
+  }
+}

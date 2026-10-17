@@ -1,0 +1,23 @@
+{
+  "_id": "118fd729e64e37f3",
+  "_key": "!items!118fd729e64e37f3",
+  "name": "Async Familiarity",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "asyncFamiliarity",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 5,
+    "costText": "Cost: 5 CP",
+    "description": "<p>This character has a keen sense for the subtle behavioral clues and micro-expressions that many asyncs unconsciously adopt after their infection. As a result, they may make a Kinesics Test to identify an async as such on their behavior alone. Gamemasters are encouraged to make this test difficult (–30) at best, given that there is usually no outward sign of Watts-MacLeod infection or the use of psi sleights. This trait is most common among asyncs, but it may be allowed for characters that have studied asyncs or spent significant time in their presence.</p><p><em>Source: Eclipse Phase Transhuman, p. 83.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

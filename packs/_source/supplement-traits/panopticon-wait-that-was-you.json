@@ -1,0 +1,23 @@
+{
+  "_id": "4f18aff045185baa",
+  "_key": "!items!4f18aff045185baa",
+  "name": "Wait, That Was You?",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "waitThatWasYou",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>This character was the unfortunate star of a viral meme that swept through the solar system’s mesh networks—provoking anger, disgust, or mockery towards them. To this day, strangers who access the character’s social profile are likely to connect them to that meme, coloring their perception of the character. Once per game session, the gamemaster may decide that a stranger with whom the character is interacting and who has access to the character’s online public profile makes the connection. The character suffers a one-time −20 modifier to any social skill or Networking Test with that stranger.</p><p><em>Source: Eclipse Phase Panopticon, p. 147.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "315ebe0c4fba6ff6",
+  "sort": 89000,
+  "ownership": {
+    "default": 0
+  }
+}

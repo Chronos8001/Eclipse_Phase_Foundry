@@ -1,0 +1,23 @@
+{
+  "_id": "127ac32475e2b646",
+  "_key": "!items!127ac32475e2b646",
+  "name": "Impaired Balance",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "impairedBalance",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP (Level 1), 20 CP (Level 2), or 30 CP (Level 3)",
+    "description": "<p>This trait is only available to neo-pigs. This uplift’s brain has not been fully adapted to the neo-pig’s bipedal stance and still suffers occasional difficulties with balance. The character suffers a −10 modifier per level to any Climbing, Freerunning, or similar test involving balance or upright movement.</p><p><em>Source: Eclipse Phase Panopticon, p. 145.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "315ebe0c4fba6ff6",
+  "sort": 83000,
+  "ownership": {
+    "default": 0
+  }
+}

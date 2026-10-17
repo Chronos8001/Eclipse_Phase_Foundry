@@ -1,0 +1,23 @@
+{
+  "_id": "32d09c3af20cb7fe",
+  "_key": "!items!32d09c3af20cb7fe",
+  "name": "Stalker",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "stalker",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>A voyeur obsessively stalks this character’s actions online. The gamemaster and player should work out details of the stalker together, and the gamemaster should use the stalker as a plot element to create occasional nuisances and challenges. The stalker could, for example, be a fan who over-appreciates the character’s work and pesters them or a unknown entity that follows the character’s actions religiously and posts the details to an online log.</p><p><em>Source: Eclipse Phase Panopticon, p. 147.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "315ebe0c4fba6ff6",
+  "sort": 87000,
+  "ownership": {
+    "default": 0
+  }
+}

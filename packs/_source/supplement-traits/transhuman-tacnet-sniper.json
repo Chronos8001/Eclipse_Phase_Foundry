@@ -1,0 +1,23 @@
+{
+  "_id": "5610dd2419111f96",
+  "_key": "!items!5610dd2419111f96",
+  "name": "Tacnet Sniper",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "tacnetSniper",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>If they have eyes on the target through an ally’s tacnet link, the character can make indirect fire attacks with only a −10 modifier rather than the usual −30. This only applies if the character uses tacnet, not through any other means.</p><p><em>Source: Eclipse Phase Transhuman, p. 86.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 29000,
+  "ownership": {
+    "default": 0
+  }
+}

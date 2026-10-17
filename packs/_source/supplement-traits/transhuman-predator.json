@@ -1,0 +1,23 @@
+{
+  "_id": "d7d2b284c2329d4b",
+  "_key": "!items!d7d2b284c2329d4b",
+  "name": "Predator",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "predator",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>This trait is only available to uplifts, and is most common in those from octopus or orca genestock. The uplift retains the thrill of the hunt from its predatory ancestry. The character receives a +10 modifier on Infiltration Tests when stalking a target and a +10 bonus on the first attack against a surprised opponent.</p><p><em>Source: Eclipse Phase Transhuman, p. 86.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 25000,
+  "ownership": {
+    "default": 0
+  }
+}

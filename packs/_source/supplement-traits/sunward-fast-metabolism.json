@@ -1,0 +1,23 @@
+{
+  "_id": "b5fafed5d5166a2b",
+  "_key": "!items!b5fafed5d5166a2b",
+  "name": "Fast Metabolism",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "fastMetabolism",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 5,
+    "costText": "Bonus: 5 CP",
+    "description": "<p>The morph’s metabolism runs hot, requiring the character to eat two to three times as much food as a normal character with similar body mass. Food tends to be plentiful and cheap in most transhuman settlements, but this trait can pose a problem in remote areas or when visiting settlements with limited resources. The character must plan ahead and pack enough food on expeditions. If the character is eating off their rep, they must expend two trivial favors each day for the additional food they require. If the character is unable to obtain enough food, they lose SOM at the rate of one point per day until they resume their usual caloric intake. This trait is only available for biomorphs (including uplifts and pods).</p><p><em>Source: Eclipse Phase Sunward, p. 165.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "3546d7a90ee695f2",
+  "sort": 73000,
+  "ownership": {
+    "default": 0
+  }
+}

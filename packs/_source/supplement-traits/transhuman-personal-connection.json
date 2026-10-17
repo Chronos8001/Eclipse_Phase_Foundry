@@ -1,0 +1,23 @@
+{
+  "_id": "79d11f1635762f94",
+  "_key": "!items!79d11f1635762f94",
+  "name": "Personal Connection",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "personalConnection",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 15,
+    "costText": "Cost: 15 CP",
+    "description": "<p>The character has some sort of personal connection that often allows them to get one particular category of goods or services at a discount in most major habitats. Perhaps an old friend owns a body bank corp, their family is in the shipping business, they won a lifetime membership discount for a common retail chain, or someone in a criminal cartel owes them a life-long obligation. The player chooses one particular type of goods or services, such as morphs, cargo shipping, weapons, robots, software, implants, and so on. The character can usually acquire these goods or services at one cost category cheaper. This does not apply to Expensive goods. The player may use this trait as often as they wish, but the gamemaster may rule that is simply not available in certain settlements—their connection may not have a presence there or may be too strained for resources to offer the discount. Also at the gamemaster’s discretion, if the character takes actions that would substantially compromise the relationship that enables this discount, they may be temporarily unable to use this trait or may even lose it for good. This trait does not reduce the cost of goods and services acquired during character creation, nor may it be taken in conjunction with the Tenure trait.</p><p><em>Source: Eclipse Phase Transhuman, p. 85.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -111,7 +111,53 @@
       }
     },
     {
-      "_id": "9fd1a9495f62a4c0",
+      "_id": "19b8a48459ea38e6",
+      "name": "Anomalous Mind",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "anomalousMind",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 20,
+        "costText": "Bonus: 20 CP",
+        "description": "<p>Found almost exclusively in AGIs, uplifts, and the subjects of highly experimental pyschosurgical procedures, your mental patterns are dramatically outside the norm of transhumanity. The uniqueness of their mental map makes psychosurgery, routine backup, and resleeving difficult and risky. Any attempts to perform psychosurgery on the character suffer a −10 penalty and automatically cause 1 SV in addition to any other results and regardless of the success or failure of a procedure. Also, backing up and resleeving are not automatic (pp. 268–271, EP) and require active management of the process. Any technician operating the ego bridge during such procedures must succeed on a Psychosurgery Test or the backup/ sleeving attempt will fail.</p><p><em>Source: Eclipse Phase Transhuman, p. 87.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0ff20839940908f6.19b8a48459ea38e6"
+    },
+    {
+      "_id": "80420e1e70eb807c",
+      "name": "Digital Ghost",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "digitalGhost",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>The character has an intuitive knack for keeping their computer intrusions out of the spotlight. Once per game session, the hacker may prevent a Severe Failure or Critical Failure from downgrading their status on a hacked system (see Failing Tests, p. 257, EP).</p><p><em>Source: Eclipse Phase Transhuman, p. 83.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0ff20839940908f6.80420e1e70eb807c"
+    },
+    {
+      "_id": "5addc6d14b019c5c",
       "name": "Edited Memories",
       "type": "trait",
       "img": "icons/svg/downgrade.svg",
@@ -126,15 +172,38 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 2000,
+      "sort": 4000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!0ff20839940908f6.9fd1a9495f62a4c0"
+      "_key": "!actors.items!0ff20839940908f6.5addc6d14b019c5c"
     },
     {
-      "_id": "733b54e1f828f231",
+      "_id": "c91580f3a9be5183",
+      "name": "Emotive Blindness",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "emotiveBlindness",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>This trait is only available to AGIs and uplifts. This character has difficulty reading the finer points of social cues, body language, expressions, emoting, and so forth for any transhuman outside of its own species. Apply a −10 modifier to Kinesics Tests used against anyone not of the same species as the character.</p><p><em>Source: Eclipse Phase Transhuman, p. 89.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0ff20839940908f6.c91580f3a9be5183"
+    },
+    {
+      "_id": "222a69b0fbce3a36",
       "name": "Expert",
       "type": "trait",
       "img": "icons/svg/upgrade.svg",
@@ -149,15 +218,15 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 3000,
+      "sort": 6000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!0ff20839940908f6.733b54e1f828f231"
+      "_key": "!actors.items!0ff20839940908f6.222a69b0fbce3a36"
     },
     {
-      "_id": "37f57ca297bfc1e0",
+      "_id": "1876386825c8e0ca",
       "name": "Modified Behavior",
       "type": "trait",
       "img": "icons/svg/downgrade.svg",
@@ -172,15 +241,38 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 4000,
+      "sort": 7000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!0ff20839940908f6.37f57ca297bfc1e0"
+      "_key": "!actors.items!0ff20839940908f6.1876386825c8e0ca"
     },
     {
-      "_id": "af6687e3743b4e6e",
+      "_id": "bf439778fa416cf4",
+      "name": "Overwhelmed by Emotions",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "overwhelmedByEmotions",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>This trait is only available to AGIs. The character has a particularly difficult time adjusting to hormonal urges and emotions when sleeved in biomorphs. The character suffers a −10 modifier when resisting any form of emotional manipulation, including Intimidation and most Persuasion Tests. Additionally the character suffers a −10 modifier to Stress Tests involving emotions, fear, or pain. At the gamemaster’s discretion, certain intense emotions or rushes may temporarily overwhelm the character; if they fail a WIL x 3 Test, they are disoriented and must spend a Complex Action to regain their wits. Gamemasters should not allow this trait for characters that are unlikely to ever sleeve into biomorphs—or should at least occasionally put them in situations that force them into one. Endocrine control does not completely mitigate these effects, though some of the modifiers may cancel out.</p><p><em>Source: Eclipse Phase Transhuman, p. 91.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0ff20839940908f6.bf439778fa416cf4"
+    },
+    {
+      "_id": "35c030743e8e0c40",
       "name": "Real World Naiveté",
       "type": "trait",
       "img": "icons/svg/downgrade.svg",
@@ -195,12 +287,12 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 5000,
+      "sort": 9000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!0ff20839940908f6.af6687e3743b4e6e"
+      "_key": "!actors.items!0ff20839940908f6.35c030743e8e0c40"
     },
     {
       "name": "Academics",
@@ -217,12 +309,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "07ddb09742fc3404",
-      "_key": "!actors.items!0ff20839940908f6.07ddb09742fc3404",
+      "_id": "71302ae2516c6323",
+      "_key": "!actors.items!0ff20839940908f6.71302ae2516c6323",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 6000,
+      "sort": 10000,
       "ownership": {
         "default": 0
       }
@@ -242,12 +334,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "2a96acb334a117e8",
-      "_key": "!actors.items!0ff20839940908f6.2a96acb334a117e8",
+      "_id": "5f013782914aa3a1",
+      "_key": "!actors.items!0ff20839940908f6.5f013782914aa3a1",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 7000,
+      "sort": 11000,
       "ownership": {
         "default": 0
       }
@@ -267,12 +359,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "e1761de9a6e183a6",
-      "_key": "!actors.items!0ff20839940908f6.e1761de9a6e183a6",
+      "_id": "6690c964dc3b17cf",
+      "_key": "!actors.items!0ff20839940908f6.6690c964dc3b17cf",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 8000,
+      "sort": 12000,
       "ownership": {
         "default": 0
       }
@@ -292,12 +384,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "a139f8402547f783",
-      "_key": "!actors.items!0ff20839940908f6.a139f8402547f783",
+      "_id": "7ec8bdbf265df4ef",
+      "_key": "!actors.items!0ff20839940908f6.7ec8bdbf265df4ef",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 9000,
+      "sort": 13000,
       "ownership": {
         "default": 0
       }
@@ -317,12 +409,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "6640a34d836521c4",
-      "_key": "!actors.items!0ff20839940908f6.6640a34d836521c4",
+      "_id": "2f9f0f7b1cc67e74",
+      "_key": "!actors.items!0ff20839940908f6.2f9f0f7b1cc67e74",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 10000,
+      "sort": 14000,
       "ownership": {
         "default": 0
       }
@@ -342,12 +434,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "18be296ee86e15bf",
-      "_key": "!actors.items!0ff20839940908f6.18be296ee86e15bf",
+      "_id": "cc80c3b4634e9b97",
+      "_key": "!actors.items!0ff20839940908f6.cc80c3b4634e9b97",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 11000,
+      "sort": 15000,
       "ownership": {
         "default": 0
       }
@@ -367,12 +459,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "8577c2604ea16745",
-      "_key": "!actors.items!0ff20839940908f6.8577c2604ea16745",
+      "_id": "44ad508f7ff5a070",
+      "_key": "!actors.items!0ff20839940908f6.44ad508f7ff5a070",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 12000,
+      "sort": 16000,
       "ownership": {
         "default": 0
       }
@@ -392,12 +484,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "10b6c08cf1ac7146",
-      "_key": "!actors.items!0ff20839940908f6.10b6c08cf1ac7146",
+      "_id": "bb8087c0e7b9b85a",
+      "_key": "!actors.items!0ff20839940908f6.bb8087c0e7b9b85a",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 13000,
+      "sort": 17000,
       "ownership": {
         "default": 0
       }
@@ -417,12 +509,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "0da5a98547cd6cfa",
-      "_key": "!actors.items!0ff20839940908f6.0da5a98547cd6cfa",
+      "_id": "f0b1d241f5675fd6",
+      "_key": "!actors.items!0ff20839940908f6.f0b1d241f5675fd6",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 14000,
+      "sort": 18000,
       "ownership": {
         "default": 0
       }
@@ -442,12 +534,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "d24d0cfcf96c64c1",
-      "_key": "!actors.items!0ff20839940908f6.d24d0cfcf96c64c1",
+      "_id": "b584c49407d26fe5",
+      "_key": "!actors.items!0ff20839940908f6.b584c49407d26fe5",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 15000,
+      "sort": 19000,
       "ownership": {
         "default": 0
       }
@@ -467,12 +559,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "74911054cd331f04",
-      "_key": "!actors.items!0ff20839940908f6.74911054cd331f04",
+      "_id": "3d56062f102f89c5",
+      "_key": "!actors.items!0ff20839940908f6.3d56062f102f89c5",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 16000,
+      "sort": 20000,
       "ownership": {
         "default": 0
       }
@@ -492,12 +584,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "a7e446b68fa56349",
-      "_key": "!actors.items!0ff20839940908f6.a7e446b68fa56349",
+      "_id": "f352d4dd06e5ad98",
+      "_key": "!actors.items!0ff20839940908f6.f352d4dd06e5ad98",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 17000,
+      "sort": 21000,
       "ownership": {
         "default": 0
       }
@@ -517,12 +609,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "91f926025ed0e195",
-      "_key": "!actors.items!0ff20839940908f6.91f926025ed0e195",
+      "_id": "df01839b44ed2c0e",
+      "_key": "!actors.items!0ff20839940908f6.df01839b44ed2c0e",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 18000,
+      "sort": 22000,
       "ownership": {
         "default": 0
       }

@@ -1,0 +1,23 @@
+{
+  "_id": "a506b996dee318fc",
+  "_key": "!items!a506b996dee318fc",
+  "name": "Hardening",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "hardening",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>Either through repeated exposure or simply due to a willful aspect of the character’s personality, the character is desensitized to one particular type of stressful experience. The player may choose one entry from the Stressful Experiences table (p. 215, EP), the Continuity Stress table (p. 233, EP), or any other specific experience that causes stress, such as specific psychosurgery procedures or Alienation Tests with a particular type of morph, with gamemaster approval. They are immune to stress from this source. This trait may be taken more than once, for hardening to different experiences. Each time it is taken, the character’s maximum Moxie score is reduced by 1. Characters may not become hardened to the merging of forks. Characters that become hardened through repeat exposure (p. 214, EP) gain this trait for free.</p><p><em>Source: Eclipse Phase Transhuman, p. 84.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  }
+}

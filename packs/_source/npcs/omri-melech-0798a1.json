@@ -111,7 +111,30 @@
       "_key": "!actors.items!0798a1adc9bb5c4d.1671e5df8e9657c5"
     },
     {
-      "_id": "021184c67b644132",
+      "_id": "48953f5de5a0bc7c",
+      "name": "Information Control",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "informationControl",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>This character has a knack for diligence and caution in their daily living, online, and social networking interactions, reducing the amount of extraneous or sensitive information about themselves that leaks out in the public eye. Apply a −10 modifier to any Research Tests to gather information on the character or track them online (see Scanning, Tracking, and Monitoring, p. 251, EP) and any Networking Tests to ascertain the character’s networking interactions (see Keeping It Quiet, p. 288, EP).</p><p><em>Source: Eclipse Phase Panopticon, p. 145.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0798a1adc9bb5c4d.48953f5de5a0bc7c"
+    },
+    {
+      "_id": "bd14859b92a9304d",
       "name": "Math Wiz",
       "type": "trait",
       "img": "icons/svg/upgrade.svg",
@@ -126,12 +149,12 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 2000,
+      "sort": 3000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!0798a1adc9bb5c4d.021184c67b644132"
+      "_key": "!actors.items!0798a1adc9bb5c4d.bd14859b92a9304d"
     },
     {
       "name": "Academics",
@@ -148,12 +171,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "10c62ca46efdfcd0",
-      "_key": "!actors.items!0798a1adc9bb5c4d.10c62ca46efdfcd0",
+      "_id": "28d76a7c28568294",
+      "_key": "!actors.items!0798a1adc9bb5c4d.28d76a7c28568294",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 3000,
+      "sort": 4000,
       "ownership": {
         "default": 0
       }
@@ -173,12 +196,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "26249152dc9981ac",
-      "_key": "!actors.items!0798a1adc9bb5c4d.26249152dc9981ac",
+      "_id": "26d3a00d701ecb78",
+      "_key": "!actors.items!0798a1adc9bb5c4d.26d3a00d701ecb78",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 4000,
+      "sort": 5000,
       "ownership": {
         "default": 0
       }
@@ -198,12 +221,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "c663488534efacf7",
-      "_key": "!actors.items!0798a1adc9bb5c4d.c663488534efacf7",
+      "_id": "6321a03ce75076e6",
+      "_key": "!actors.items!0798a1adc9bb5c4d.6321a03ce75076e6",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 5000,
+      "sort": 6000,
       "ownership": {
         "default": 0
       }
@@ -223,12 +246,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "dfd2f33c567256ec",
-      "_key": "!actors.items!0798a1adc9bb5c4d.dfd2f33c567256ec",
+      "_id": "269eef5034082e93",
+      "_key": "!actors.items!0798a1adc9bb5c4d.269eef5034082e93",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 6000,
+      "sort": 7000,
       "ownership": {
         "default": 0
       }
@@ -248,12 +271,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "c81a96fd14bfa928",
-      "_key": "!actors.items!0798a1adc9bb5c4d.c81a96fd14bfa928",
+      "_id": "0c4c80ef393808dd",
+      "_key": "!actors.items!0798a1adc9bb5c4d.0c4c80ef393808dd",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 7000,
+      "sort": 8000,
       "ownership": {
         "default": 0
       }
@@ -273,12 +296,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "f16a8cedf48f5929",
-      "_key": "!actors.items!0798a1adc9bb5c4d.f16a8cedf48f5929",
+      "_id": "daf314ba1df7b722",
+      "_key": "!actors.items!0798a1adc9bb5c4d.daf314ba1df7b722",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 8000,
+      "sort": 9000,
       "ownership": {
         "default": 0
       }
@@ -298,12 +321,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "f3b4d270cdeab404",
-      "_key": "!actors.items!0798a1adc9bb5c4d.f3b4d270cdeab404",
+      "_id": "39b7b587dbbd83c6",
+      "_key": "!actors.items!0798a1adc9bb5c4d.39b7b587dbbd83c6",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 9000,
+      "sort": 10000,
       "ownership": {
         "default": 0
       }
@@ -323,12 +346,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "4496b7231dff951d",
-      "_key": "!actors.items!0798a1adc9bb5c4d.4496b7231dff951d",
+      "_id": "cb35dc373563a206",
+      "_key": "!actors.items!0798a1adc9bb5c4d.cb35dc373563a206",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 10000,
+      "sort": 11000,
       "ownership": {
         "default": 0
       }
@@ -348,12 +371,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "dcd5f0fd1b1a0c99",
-      "_key": "!actors.items!0798a1adc9bb5c4d.dcd5f0fd1b1a0c99",
+      "_id": "323323a4edcc1f78",
+      "_key": "!actors.items!0798a1adc9bb5c4d.323323a4edcc1f78",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 11000,
+      "sort": 12000,
       "ownership": {
         "default": 0
       }
@@ -373,12 +396,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "95bb4263ce0b389e",
-      "_key": "!actors.items!0798a1adc9bb5c4d.95bb4263ce0b389e",
+      "_id": "6abf3e654677d69f",
+      "_key": "!actors.items!0798a1adc9bb5c4d.6abf3e654677d69f",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 12000,
+      "sort": 13000,
       "ownership": {
         "default": 0
       }
@@ -398,12 +421,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "e78af519aa2da95d",
-      "_key": "!actors.items!0798a1adc9bb5c4d.e78af519aa2da95d",
+      "_id": "c97a0b7d41ed8d5b",
+      "_key": "!actors.items!0798a1adc9bb5c4d.c97a0b7d41ed8d5b",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 13000,
+      "sort": 14000,
       "ownership": {
         "default": 0
       }
@@ -423,12 +446,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "bdfe1e2fd4ad14c2",
-      "_key": "!actors.items!0798a1adc9bb5c4d.bdfe1e2fd4ad14c2",
+      "_id": "236c11ac01ff1430",
+      "_key": "!actors.items!0798a1adc9bb5c4d.236c11ac01ff1430",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 14000,
+      "sort": 15000,
       "ownership": {
         "default": 0
       }
@@ -448,12 +471,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "eed88f486c6b739e",
-      "_key": "!actors.items!0798a1adc9bb5c4d.eed88f486c6b739e",
+      "_id": "c3281c2f0b6168bf",
+      "_key": "!actors.items!0798a1adc9bb5c4d.c3281c2f0b6168bf",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 15000,
+      "sort": 16000,
       "ownership": {
         "default": 0
       }
@@ -473,12 +496,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "930e9c5189b488d0",
-      "_key": "!actors.items!0798a1adc9bb5c4d.930e9c5189b488d0",
+      "_id": "2e4b26f7572afcde",
+      "_key": "!actors.items!0798a1adc9bb5c4d.2e4b26f7572afcde",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 16000,
+      "sort": 17000,
       "ownership": {
         "default": 0
       }
@@ -498,12 +521,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "c4c3532f44a62b7a",
-      "_key": "!actors.items!0798a1adc9bb5c4d.c4c3532f44a62b7a",
+      "_id": "0bbb6c8833ccf9c1",
+      "_key": "!actors.items!0798a1adc9bb5c4d.0bbb6c8833ccf9c1",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 17000,
+      "sort": 18000,
       "ownership": {
         "default": 0
       }
@@ -523,18 +546,18 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "35dd7d3136193290",
-      "_key": "!actors.items!0798a1adc9bb5c4d.35dd7d3136193290",
+      "_id": "d316e7184bc6f444",
+      "_key": "!actors.items!0798a1adc9bb5c4d.d316e7184bc6f444",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 18000,
+      "sort": 19000,
       "ownership": {
         "default": 0
       }
     },
     {
-      "_id": "61d796b855012bc8",
+      "_id": "f82c4ba54b03930c",
       "name": "Laser Pulser",
       "type": "weapon",
       "img": "icons/svg/target.svg",
@@ -570,15 +593,15 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 19000,
+      "sort": 20000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!0798a1adc9bb5c4d.61d796b855012bc8"
+      "_key": "!actors.items!0798a1adc9bb5c4d.f82c4ba54b03930c"
     },
     {
-      "_id": "8b64262544ecdbe8",
+      "_id": "f7eca2c7d03291cf",
       "name": "Plasmaburst Grenade",
       "type": "weapon",
       "img": "icons/svg/explosion.svg",
@@ -615,15 +638,15 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 20000,
+      "sort": 21000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!0798a1adc9bb5c4d.8b64262544ecdbe8"
+      "_key": "!actors.items!0798a1adc9bb5c4d.f7eca2c7d03291cf"
     },
     {
-      "_id": "81a077bc7262b9a3",
+      "_id": "b1650516c59e08be",
       "name": "Light Body Armor",
       "type": "armor",
       "img": "icons/svg/shield.svg",
@@ -637,12 +660,12 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 21000,
+      "sort": 22000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!0798a1adc9bb5c4d.81a077bc7262b9a3"
+      "_key": "!actors.items!0798a1adc9bb5c4d.b1650516c59e08be"
     }
   ],
   "effects": [],

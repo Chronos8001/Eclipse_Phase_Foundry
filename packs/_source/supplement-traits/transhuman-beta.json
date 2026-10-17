@@ -1,0 +1,23 @@
+{
+  "_id": "85efdc063a05ed02",
+  "_key": "!items!85efdc063a05ed02",
+  "name": "Beta",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "beta",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 20,
+    "costText": "Bonus: 20 CP",
+    "description": "<p>This character is a beta fork of their original self, which for some reason is no longer alive (most likely lost during the Fall). They were created some time ago, so they have grown and overcome most of their original aptitude deficiencies. This character may not have a Moxie higher than 1 and no Active skills higher than 60, nor may they possess the Psi trait. They also have only a limited set of their original self’s memories—much of their previous life is simply lost to them. They automatically receive the Edited Memories trait (p. 149, EP), without gaining the bonus CP. Beta forks are, of course, illegal in many jurisdictions, and some consider them less than human (the gamemaster may apply a Social Stigma: Beta trait in appropriate circumstances; again no bonus CP are gained).</p><p><em>Source: Eclipse Phase Transhuman, p. 87.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 35000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "e3d942a1459a0b95",
+  "_key": "!items!e3d942a1459a0b95",
+  "name": "Phoenix",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "phoenix",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP (Level 1) or 20 CP (Level 2)",
+    "description": "<p>Transhumans who die and resleeve frequently are nicknamed “phoenixes.” Death holds little sway over these daring characters, so the trauma of lost continuity has lost much of its sting. The character gains a +20 bonus on Continuity Tests at Level 1, and a +30 bonus at Level 2.</p><p><em>Source: Eclipse Phase Transhuman, p. 85.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  }
+}

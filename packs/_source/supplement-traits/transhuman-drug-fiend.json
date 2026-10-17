@@ -1,0 +1,23 @@
+{
+  "_id": "a5c3d86eba8c6413",
+  "_key": "!items!a5c3d86eba8c6413",
+  "name": "Drug Fiend",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "drugFiend",
+    "traitType": "negative",
+    "scope": "both",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>The character or morph has a weak resistance to addiction. Addiction Tests (including attempts to resist addiction cravings) are made with a −20 modifier.</p><p><em>Source: Eclipse Phase Transhuman, p. 89.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 44000,
+  "ownership": {
+    "default": 0
+  }
+}

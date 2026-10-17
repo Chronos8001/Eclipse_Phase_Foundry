@@ -1,0 +1,23 @@
+{
+  "_id": "16a135ca49fc1b1f",
+  "_key": "!items!16a135ca49fc1b1f",
+  "name": "Heightened Instinct",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "heightenedInstinct",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>This trait is only available to uplifts. Though the character is fully sapient and normally socialized, the uplift process left much of their unconscious instinct intact, and they are able to synthesize a great deal of contextual information instinctively. This provides a marked advantage when dealing with confusing or tense situations, as the character’s subconscious drives their actions and responses faster than conscious decision-making. The character receives a +1 bonus to Initiative and ignores up to −10 of any modifiers for distraction when making skill tests.</p><p><em>Source: Eclipse Phase Transhuman, p. 84.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

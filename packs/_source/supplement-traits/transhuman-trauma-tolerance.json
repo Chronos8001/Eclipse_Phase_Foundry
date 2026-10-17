@@ -1,0 +1,23 @@
+{
+  "_id": "9105fca9f889dee6",
+  "_key": "!items!9105fca9f889dee6",
+  "name": "Trauma Tolerance",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "traumaTolerance",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP (Level 1) or 20 CP (Level 2)",
+    "description": "<p>This character has a higher threshold for handling traumatic experiences and is better at ignoring the effects of stress on their abilities and concentration. Level 1 allows them to ignore the −10 modifier from 1 trauma. Level 2 allows them to ignore the −10 modifiers from 2 traumas. Initiative modifiers still apply. In both cases, the character is also not immediately inflicted with any derangements as a result of these traumas. Any additional traumas affect the character as normal; postponed derangements don’t count for the purpose of raising derangement effects, but they do count towards determining when a disorder is applied. Blocking out traumatically stressful experiences is a temporary measure, however, as the experience still lingers and festers in the dark recesses of the character’s mind. A short period of time later (1d10 ÷ 2 hours, round down), the character’s facade of mental fortitude will crack and the −10 trauma modifier(s) and derangement(s) will kick in at one level higher. A character who ignored a trauma that would have inflicted a minor derangement, for example, will a few hours later be struck by a moderate derangement.</p><p><em>Source: Eclipse Phase Transhuman, p. 86.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 31000,
+  "ownership": {
+    "default": 0
+  }
+}

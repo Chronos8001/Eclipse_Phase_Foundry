@@ -1,0 +1,23 @@
+{
+  "_id": "8679d681079db880",
+  "_key": "!items!8679d681079db880",
+  "name": "Planned Obsolescence",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "plannedObsolescence",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 5,
+    "costText": "Bonus: 5 CP",
+    "description": "<p>The morph is a hypercorp model that requires periodic GSP (Genetic Service Pack) therapy. For every three months of game time, the character must spend credits equal to 10% the cost of the morph on GSP “upgrades.” If they fail to do so, the morph’s SOM is reduced by 5 until the character gets their GSP therapy. These penalties are cumulative over time (at 6 months, 9 months, etc.), but getting GSP therapy once removes all penalties. The character suffers no SOM loss if the majority of a given 3 month period was spent in hibernation, in a healing vat, or in some other form of metabolic suspension. The SOM reduction is due to low level neural degradation, minor tumors, joint pain, and other problems that crop up and express later as hypercorp genetic designers working on tight budgets and tighter deadlines race to release morph models with extra value-added features. While theoretically over many years this trait would lead to the early death of the morph, in game terms the morph stops accruing penalties when its SOM is reduced to 5. The character regains their normal SOM score if they resleeve. This trait is only available to biomorphs (including uplifts and pods).</p><p><em>Source: Eclipse Phase Sunward, p. 165.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "3546d7a90ee695f2",
+  "sort": 74000,
+  "ownership": {
+    "default": 0
+  }
+}

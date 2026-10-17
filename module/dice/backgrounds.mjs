@@ -11,11 +11,17 @@ import { gmWhisper } from "./tests.mjs";
 const L = (key, data) => (data ? game.i18n.format(`EP1E.Background.${key}`, data) : game.i18n.localize(`EP1E.Background.${key}`));
 const norm = text => String(text ?? "").trim().toLowerCase();
 
-/** The trait of the system's compendium with this name, as item data. */
+/** Compendiums searched for a trait, in this order: Core, supplements, mental disorders. */
+const TRAIT_PACKS = ["traits", "supplement-traits", "mental-health"];
+
+/** The trait of the system's compendiums with this name, as item data. */
 async function traitData(name) {
-  const pack = game.packs.get(`${SYSTEM_ID}.traits`);
-  const entry = pack?.index.find(e => norm(e.name) === norm(name));
-  return entry ? (await pack.getDocument(entry._id)).toObject() : null;
+  for ( const id of TRAIT_PACKS ) {
+    const pack = game.packs.get(`${SYSTEM_ID}.${id}`);
+    const entry = pack?.index.find(e => norm(e.name) === norm(name));
+    if ( entry ) return (await pack.getDocument(entry._id)).toObject();
+  }
+  return null;
 }
 
 /**

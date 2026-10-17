@@ -1,0 +1,23 @@
+{
+  "_id": "d450c028bdcae3f9",
+  "_key": "!items!d450c028bdcae3f9",
+  "name": "Murder Simulator Addict",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "murderSimulatorAddict",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>Thousands of hours spent in various simulspace combat games have sharpened the character’s aim and reflexes—or they’ve simply spent an inordinate amount of time at the range practicing headshots. When making called shots in ranged combat to target an opponent’s head, this character does not suffer the usual −10 called shot modifier. They still suffer the −10 modifier for other called shots, however.</p><p><em>Source: Eclipse Phase Transhuman, p. 85.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 21000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "02d0e4a4bc5e00b2",
+  "_key": "!items!02d0e4a4bc5e00b2",
+  "name": "Debt",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "debt",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP (Level 1), 20 CP (Level 2), 30 CP (Level 3)",
+    "description": "<p>The character is in debt to a loan shark or powerful organization that demands regular payments. The debt may be the result of a legitimate loan or the character may be a victim of extortion. Either way, the character is expected to pay, with an interest rate that is far above standard (and possibly illegal), and the creditor organization will not take no for an answer. The approximate level of debt is equal to the following amount: Level 1: 20,000 credits (plus 1d10 x 500 credits in weekly interest) Level 2: 40,000 credits (plus 2d10 x 500 credits in weekly interest) Level 3: 60,000 credits (plus 3d10 x 500 credits in weekly interest) Each week the character is expected to make a payment on the debt equal to the weekly interest. Failure to do so will cause the creditor organization to retaliate, which can take any number of forms. Hypercorp creditors may lower the character’s rep by publicly declaring them a deadbeat while criminal syndicates may send ego hunters to extract full payment. Many organizations employ debt collectors that know how to get money from reluctant debtors one way or the other. If the character completely reneges on this debt, they gain the Black Mark (Level 2) and Enemy traits. Characters may be given the option of working off their weekly interest payment—or even their entire debt—by performing a job or other favor for the creditor organization. Generally, this will be a high risk mission for which the organization does not want to use its own personnel, such as retrieval of data from an exsurgent-infested abandoned habitat or assassinating the head of a Martian crime syndicate. The higher the debt is, the more dangerous or difficult the mission will be.</p><p><em>Source: Eclipse Phase Transhuman, p. 88.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 39000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "bb24b99195b72592",
+  "_key": "!items!bb24b99195b72592",
+  "name": "Reduced Size",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "reducedSize",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>This trait reduces the size of an existing morph model from either large to medium or medium to small (morphs may only be reduced once). Morphs shrunk to a medium size lose the effects of the Large Size trait (next page) and 10 points of Durability. Morphs reduced to a small size gain the effects of the Small Size trait (p. 95) and lose 5 points of Durability. Durability reductions also effect Wound Threshold and Death Rating per normal. Reducing a morph may affect other changes at the gamemaster’s discretion.</p><p><em>Source: Eclipse Phase Transhuman, p. 93.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 64000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "f82b02518c77085e",
+  "_key": "!items!f82b02518c77085e",
+  "name": "Military Rank",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "militaryRank",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP (Level 1), 20 CP (Level 2), 30 CP (Level 3)",
+    "description": "<p>Jovian: The character is an officer in the Jovian Space Force or Jovian Space Force Marines. Level 1 makes the character an NCO: a warrant officer, sergeant, or senior airman. Level 2 makes the character a low-ranking commissioned officer: a first or second lieutenant. Level 3 makes the character a midranked commissioned officer: a captain or major. Titanian: The character is an officer in the Commonwealth Fleet, Marines, or Coast Guard. Level 1 makes the character an NCO: a warrant officer, sergeant, or petty officer. Level 2 makes the character a low-ranking commissioned officer: a pilot officer, lieutenant, or officer. Level 3 makes the character a mid-ranked commissioned officer: a squadron leader, major, or commanding officer. For each level, the character receives a +10 on all Networking Tests within their service branch. The character is on active duty, with all of the attendant structure and responsibilities of military life. Usually this includes being stationed in a specific place or on a specific vessel. However, the character might also have a desk job or be support staff. Players taking this trait must seek gamemaster permission and develop a plausible story for how their character is able to participate in Firewall missions while on active duty. Also note that this trait affects only the character’s Networking Tests. Favors involving acquiring hardware, deploying military units, or the like still require plausible explanations as to how the character is manipulating the military command and logistics systems, and will have serious consequences if the character’s superiors judge them to be abusing their position. Rank-and-file grunts don’t need to take this trait.</p><p><em>Source: Eclipse Phase Firewall, p. 173.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "7f3ebf3c224a27b4",
+  "sort": 93000,
+  "ownership": {
+    "default": 0
+  }
+}

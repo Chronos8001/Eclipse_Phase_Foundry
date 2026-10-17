@@ -104,11 +104,11 @@
     "repNetwork": "",
     "traits": [
       {
-        "name": "Social Stigma: (Uplift)",
+        "name": "Social Stigma",
         "level": 1
       }
     ],
-    "choices": "",
+    "choices": "Social Stigma: Uplift",
     "restrictions": "",
     "morphs": "",
     "motivations": "+Mercurial Cause +Sapient Cause +Uplift Rights, –Uplift Slavery"

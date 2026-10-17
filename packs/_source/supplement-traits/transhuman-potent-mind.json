@@ -1,0 +1,23 @@
+{
+  "_id": "f5513d6efc2990ca",
+  "_key": "!items!f5513d6efc2990ca",
+  "name": "Potent Mind",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "potentMind",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 5,
+    "costText": "Cost: 5 CP",
+    "description": "<p>This trait is only available to characters that also have the Psi trait and the Psychic Stab sleight. The character’s mind is especially invasive and damaging when used against others. Inflict an extra 1d10 DV when using the Psychic Stab sleight.</p><p><em>Source: Eclipse Phase Transhuman, p. 85.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  }
+}

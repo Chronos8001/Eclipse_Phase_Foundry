@@ -1,0 +1,23 @@
+{
+  "_id": "d5a684dff41031e8",
+  "_key": "!items!d5a684dff41031e8",
+  "name": "Weak Grip",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "weakGrip",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>This trait is only available to neo-avian and neo-pig morphs. The physiology of this particular morph is flawed in that the opposable digits on the hands are not fully formed or operational. A character in this morph loses their damage bonus in melee attacks and suffers a −10 modifier on subdual tests (p. 204, EP) and any other tests involving their grip, hand strength, or ability to hold on.</p><p><em>Source: Eclipse Phase Panopticon, p. 148.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "315ebe0c4fba6ff6",
+  "sort": 90000,
+  "ownership": {
+    "default": 0
+  }
+}

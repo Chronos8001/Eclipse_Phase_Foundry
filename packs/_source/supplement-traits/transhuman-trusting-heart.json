@@ -1,0 +1,23 @@
+{
+  "_id": "6f6398603538aa69",
+  "_key": "!items!6f6398603538aa69",
+  "name": "Trusting Heart",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "trustingHeart",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>The character has a tendency to trust others far too quickly and is devastated when betrayed. Stress loss from betrayal is doubled and the character suffers a −10 modifier when using Kinesics in Opposed Tests against Deception or Impersonation skills.</p><p><em>Source: Eclipse Phase Transhuman, p. 94.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 69000,
+  "ownership": {
+    "default": 0
+  }
+}

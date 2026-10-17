@@ -1,0 +1,23 @@
+{
+  "_id": "3cfd237c0f9204b9",
+  "_key": "!items!3cfd237c0f9204b9",
+  "name": "Temperature Intolerance (Warm)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "temperatureIntoleranceWarm",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>The morph is adapted for extreme cold and has difficulty dissipating body heat in temperatures tolerated by normal transhumans. When exposed to vacuum or temperatures above 5 C for more than 10 minutes, the character suffers a –10 modifier to all actions. At 10 C, increase the modifier to –20. At temperatures above 25 C, the character may suffer 1d10 DV per hour exposed from overheating, at the gamemaster’s discretion. These effects can be nullified by wearing a vacsuit, the application of some sort of cooling system, or returning to a suitably cold environment.</p><p><em>Source: Eclipse Phase Rimward, p. 188.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "15e92c880558b335",
+  "sort": 75000,
+  "ownership": {
+    "default": 0
+  }
+}

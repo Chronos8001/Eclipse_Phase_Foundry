@@ -1,0 +1,23 @@
+{
+  "_id": "f52c1d66cdd47ef0",
+  "_key": "!items!f52c1d66cdd47ef0",
+  "name": "Social Butterfly",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "socialButterfly",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 15,
+    "costText": "Cost: 15 CP",
+    "description": "<p>This character is a promiscuous abuser of online social networks. Because they go out of their way to make new connections and interact with people, they find it slightly easier to get what they need. Apply a +10 modifier to Networking Tests.</p><p><em>Source: Eclipse Phase Panopticon, p. 145.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "315ebe0c4fba6ff6",
+  "sort": 80000,
+  "ownership": {
+    "default": 0
+  }
+}

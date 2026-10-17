@@ -1,0 +1,23 @@
+{
+  "_id": "2ed8df6e69d22f0b",
+  "_key": "!items!2ed8df6e69d22f0b",
+  "name": "Memory Artifact",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "memoryArtifact",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 5,
+    "costText": "Bonus: 5 CP",
+    "description": "<p>This particular morph has an anomalous neural structure. As a result, sometimes not all aspects of an ego are properly erased after it has been uploaded and the mind is customarily wiped. This morph has memories from a previous ego that continue to resurface. Once per week, the ego sleeved in the morph must make a MOX x 10 Test. If it fails, certain memories will manifest in the current occupant’s mind. This memories are likely to be from emotionally charged or otherwise memorable events in a previous ego’s life. The first time the latent memories activate, the ego suffers (1d10 ÷ 2) SV. Additional incidents of memory recall may or may not inflict stress, depending on the memory in question (traumatic ones certainly will), how drastically the memories conflict with the character’s personality, and whether or not the character is aware of the source of these memories. The character naturally integrates these memories in with their own, making them a long-term or possibly permanent change that can only be removed with psychotherapy. These memories may of course be useful for plot purposes, as they may include sensitive data, secrets hidden from the public, or information the previous ego does not want spread. Gamemasters should not allow this trait for morphs that will be sleeved for less than a week unless they increase the test frequency from weekly to daily.</p><p><em>Source: Eclipse Phase Transhuman, p. 91.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 56000,
+  "ownership": {
+    "default": 0
+  }
+}

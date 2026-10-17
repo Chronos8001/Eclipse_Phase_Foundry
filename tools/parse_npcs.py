@@ -289,7 +289,7 @@ def norm(name):
 
 
 MORPHS = load("morphs")
-TRAITS = load("traits")
+TRAITS = {**load("mental-health"), **load("supplement-traits"), **load("traits")}
 SLEIGHTS = load("sleights")
 SOFTWARE = load("software")
 WEAPONS = {**load("supplement-gear", "weapon"), **load("weapons")}

@@ -1,0 +1,23 @@
+{
+  "_id": "3d28162407ee6917",
+  "_key": "!items!3d28162407ee6917",
+  "name": "Identifiable Quirk",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "identifiableQuirk",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>Transhumans may be able to switch bodies and travel the entire solar system to start a new life, but some things can’t be left behind. The character has a unique behavioral quirk that makes identification easy, no matter the morph in which they are sleeved. Attempts to identify this character through Kinesics or similar skills gain a +10 bonus. This quirk could be a nervous twitch of the lips, distinct accent, noticeable laugh, or unusual gait. The character suffers a −30 modifier to all Impersonation Tests against targets aware of the character’s quirk.</p><p><em>Source: Eclipse Phase Transhuman, p. 90.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 50000,
+  "ownership": {
+    "default": 0
+  }
+}

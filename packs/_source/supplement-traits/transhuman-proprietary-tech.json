@@ -1,0 +1,23 @@
+{
+  "_id": "bf40be44c9d7cb78",
+  "_key": "!items!bf40be44c9d7cb78",
+  "name": "Proprietary Tech",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "proprietaryTech",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>This trait is only available to synthmorphs. This morph was built to non-standard specifications, so that normal tools and software do not properly work on this morph. This is a conscious design decision by the manufacturer of the morph and is often used as a means of control. By limiting access to repair and modifications, the morph is dependent on the manufacturer. Highly skilled technicians can work around these barriers, but it impedes work. Standard repair and diagnostic tools like repair spray and fixer nanoswarms do not work on this morph, except for manufacturer-approved brands. Characters with Hardware: Robotics can repair or modify the morph but at a −20 modifier.</p><p><em>Source: Eclipse Phase Transhuman, p. 93.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 63000,
+  "ownership": {
+    "default": 0
+  }
+}

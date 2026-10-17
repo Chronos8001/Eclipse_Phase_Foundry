@@ -1,0 +1,23 @@
+{
+  "_id": "3d72b23d1bdb61e2",
+  "_key": "!items!3d72b23d1bdb61e2",
+  "name": "Dependent",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "dependent",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 5,
+    "costText": "Bonus: 5 CP",
+    "description": "<p>This character has a dependent—a child, a disabled family member, or even a much-loved but needy smart animal pet. Though the character can leave their ward’s care in the hands of a fork or others, they must occasionally attend to the dependent’s needs and may sometimes be forced to bring the dependent with them. The player and gamemaster should work out the specifics of the dependent NPC together; this NPC should have no skills or abilities of value to the player character. The dependent should be a potential vulnerability for the character that enemies or rivals could exploit.</p><p><em>Source: Eclipse Phase Transhuman, p. 88.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 41000,
+  "ownership": {
+    "default": 0
+  }
+}

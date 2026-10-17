@@ -1,0 +1,23 @@
+{
+  "_id": "b13449909c87f601",
+  "_key": "!items!b13449909c87f601",
+  "name": "Gold Star",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "goldStar",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>At some point in their past, this character did something that permanently earned them a place in the historical annals of a particular faction. Choose one faction. Each time the character interacts with that faction (such as with Networking Tests) or with an NPC from this faction who knows the character, they gain a +10 modifier. This trait is incompatible with the Black Mark trait (p. 149, EP) for the same faction.</p><p><em>Source: Eclipse Phase Transhuman, p. 84.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  }
+}

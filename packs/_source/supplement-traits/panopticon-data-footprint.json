@@ -1,0 +1,23 @@
+{
+  "_id": "7eea770caba3d7a4",
+  "_key": "!items!7eea770caba3d7a4",
+  "name": "Data Footprint",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "dataFootprint",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>The character is particularly sloppy about keeping a lid on their daily living, online, and social networking interactions, leaving a larger data footprint than usual in the public eye. Apply a +10 modifier to any Research Tests to gather information on the character or track them online (see Scanning, Tracking, and Monitoring, p. 251, EP) and any Networking Tests to ascertain the character’s networking interactions (see Keeping It Quiet, p. 288, EP).</p><p><em>Source: Eclipse Phase Panopticon, p. 145.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "315ebe0c4fba6ff6",
+  "sort": 82000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "d2a92bceeedf2ced",
+  "_key": "!items!d2a92bceeedf2ced",
+  "name": "Botched Uplift",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "botchedUplift",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 30,
+    "costText": "Bonus: 30 CP",
+    "description": "<p>This trait is only available to uplifts. Although possessed of a rough self-awareness and the trappings of sapience, your mental development is flawed. Despite the best efforts of your creators and teachers, you cannot ever fully overcome your mental limitations and serious social awkwardness. Even psychosurgery is unlikely to fix you. You have an aptitude maximum of 10 for both COG or SAV. You have difficulty keeping up with others in complex social situations and are likely highly reliant on your muse to organize your life and coach you through your daily affairs. Whoever does interact with you likely treats you with either contempt or pity, as your difficulties are apparent to anyone who has more than the briefest exchanges with you.</p><p><em>Source: Eclipse Phase Transhuman, p. 87.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 37000,
+  "ownership": {
+    "default": 0
+  }
+}

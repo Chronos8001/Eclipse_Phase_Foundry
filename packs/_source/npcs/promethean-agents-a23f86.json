@@ -111,7 +111,76 @@
       }
     },
     {
-      "_id": "0bcec7b60c0b4497",
+      "_id": "dec0eb6eb98ac23d",
+      "name": "AGI Affinity",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "agiAffinity",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 5,
+        "costText": "Cost: 5 CP",
+        "description": "<p>The character has spent a significant amount of time around AGIs, to the point where socializing with an AGI is far easier. The character gains a +10 modifier on Social Skill Tests against AGIs as well as characters with the Real World Naiveté trait.</p><p><em>Source: Eclipse Phase Transhuman, p. 82.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.dec0eb6eb98ac23d"
+    },
+    {
+      "_id": "c8a614d3b4bf8679",
+      "name": "Anomalous Mind",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "anomalousMind",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 20,
+        "costText": "Bonus: 20 CP",
+        "description": "<p>Found almost exclusively in AGIs, uplifts, and the subjects of highly experimental pyschosurgical procedures, your mental patterns are dramatically outside the norm of transhumanity. The uniqueness of their mental map makes psychosurgery, routine backup, and resleeving difficult and risky. Any attempts to perform psychosurgery on the character suffer a −10 penalty and automatically cause 1 SV in addition to any other results and regardless of the success or failure of a procedure. Also, backing up and resleeving are not automatic (pp. 268–271, EP) and require active management of the process. Any technician operating the ego bridge during such procedures must succeed on a Psychosurgery Test or the backup/ sleeving attempt will fail.</p><p><em>Source: Eclipse Phase Transhuman, p. 87.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.c8a614d3b4bf8679"
+    },
+    {
+      "_id": "fc1b9ecc75fe8934",
+      "name": "Digital Ghost",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "digitalGhost",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>The character has an intuitive knack for keeping their computer intrusions out of the spotlight. Once per game session, the hacker may prevent a Severe Failure or Critical Failure from downgrading their status on a hacked system (see Failing Tests, p. 257, EP).</p><p><em>Source: Eclipse Phase Transhuman, p. 83.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.fc1b9ecc75fe8934"
+    },
+    {
+      "_id": "3904f81adaa84370",
       "name": "Edited Memories",
       "type": "trait",
       "img": "icons/svg/downgrade.svg",
@@ -126,15 +195,38 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 2000,
+      "sort": 5000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!a23f864964ac41b6.0bcec7b60c0b4497"
+      "_key": "!actors.items!a23f864964ac41b6.3904f81adaa84370"
     },
     {
-      "_id": "ddaea5f84e94dbd7",
+      "_id": "23e75a9d21aae615",
+      "name": "Emotive Blindness",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "emotiveBlindness",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>This trait is only available to AGIs and uplifts. This character has difficulty reading the finer points of social cues, body language, expressions, emoting, and so forth for any transhuman outside of its own species. Apply a −10 modifier to Kinesics Tests used against anyone not of the same species as the character.</p><p><em>Source: Eclipse Phase Transhuman, p. 89.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.23e75a9d21aae615"
+    },
+    {
+      "_id": "886504c0931909ac",
       "name": "Expert",
       "type": "trait",
       "img": "icons/svg/upgrade.svg",
@@ -149,15 +241,61 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 3000,
+      "sort": 7000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!a23f864964ac41b6.ddaea5f84e94dbd7"
+      "_key": "!actors.items!a23f864964ac41b6.886504c0931909ac"
     },
     {
-      "_id": "f58518952610154e",
+      "_id": "3642520299afbcda",
+      "name": "Identifiable Quirk",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "identifiableQuirk",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>Transhumans may be able to switch bodies and travel the entire solar system to start a new life, but some things can’t be left behind. The character has a unique behavioral quirk that makes identification easy, no matter the morph in which they are sleeved. Attempts to identify this character through Kinesics or similar skills gain a +10 bonus. This quirk could be a nervous twitch of the lips, distinct accent, noticeable laugh, or unusual gait. The character suffers a −30 modifier to all Impersonation Tests against targets aware of the character’s quirk.</p><p><em>Source: Eclipse Phase Transhuman, p. 90.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.3642520299afbcda"
+    },
+    {
+      "_id": "e3321a0f2ca81eb5",
+      "name": "Malleable Mind",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "malleableMind",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP (Level 1), 20 CP (Level 2), 30 CP (Level 3)",
+        "description": "<p>Either through a natural quirk or psychosurgical conditioning, the character’s neural architecture is especially malleable and more readily accepts psychosurgical changes. Apply a −10 modifier per level to the character’s WIL x 3 Test when receiving voluntary psychosurgery (including neural pruning of forks). This modifier does not apply to involuntary psychosurgery.</p><p><em>Source: Eclipse Phase Transhuman, p. 85.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.e3321a0f2ca81eb5"
+    },
+    {
+      "_id": "d77c14ced80dfa15",
       "name": "Modified Behavior",
       "type": "trait",
       "img": "icons/svg/downgrade.svg",
@@ -172,15 +310,38 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 4000,
+      "sort": 10000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!a23f864964ac41b6.f58518952610154e"
+      "_key": "!actors.items!a23f864964ac41b6.d77c14ced80dfa15"
     },
     {
-      "_id": "8b475e3de73b2b97",
+      "_id": "afeb16aea23902ab",
+      "name": "Overwhelmed by Emotions",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "overwhelmedByEmotions",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>This trait is only available to AGIs. The character has a particularly difficult time adjusting to hormonal urges and emotions when sleeved in biomorphs. The character suffers a −10 modifier when resisting any form of emotional manipulation, including Intimidation and most Persuasion Tests. Additionally the character suffers a −10 modifier to Stress Tests involving emotions, fear, or pain. At the gamemaster’s discretion, certain intense emotions or rushes may temporarily overwhelm the character; if they fail a WIL x 3 Test, they are disoriented and must spend a Complex Action to regain their wits. Gamemasters should not allow this trait for characters that are unlikely to ever sleeve into biomorphs—or should at least occasionally put them in situations that force them into one. Endocrine control does not completely mitigate these effects, though some of the modifiers may cancel out.</p><p><em>Source: Eclipse Phase Transhuman, p. 91.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.afeb16aea23902ab"
+    },
+    {
+      "_id": "bcf468641b0213ba",
       "name": "Real World Naiveté",
       "type": "trait",
       "img": "icons/svg/downgrade.svg",
@@ -195,12 +356,12 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 5000,
+      "sort": 12000,
       "ownership": {
         "default": 0
       },
       "folder": null,
-      "_key": "!actors.items!a23f864964ac41b6.8b475e3de73b2b97"
+      "_key": "!actors.items!a23f864964ac41b6.bcf468641b0213ba"
     },
     {
       "name": "Academics",
@@ -217,12 +378,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "be26bc3c36ffb9ee",
-      "_key": "!actors.items!a23f864964ac41b6.be26bc3c36ffb9ee",
+      "_id": "1ca1e55d5ab8b9a1",
+      "_key": "!actors.items!a23f864964ac41b6.1ca1e55d5ab8b9a1",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 6000,
+      "sort": 13000,
       "ownership": {
         "default": 0
       }
@@ -242,12 +403,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "082d8d2206096dd7",
-      "_key": "!actors.items!a23f864964ac41b6.082d8d2206096dd7",
+      "_id": "14fee88351c15e7c",
+      "_key": "!actors.items!a23f864964ac41b6.14fee88351c15e7c",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 7000,
+      "sort": 14000,
       "ownership": {
         "default": 0
       }
@@ -267,12 +428,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "0632f55be1a72846",
-      "_key": "!actors.items!a23f864964ac41b6.0632f55be1a72846",
+      "_id": "64addfa40775f5b0",
+      "_key": "!actors.items!a23f864964ac41b6.64addfa40775f5b0",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 8000,
+      "sort": 15000,
       "ownership": {
         "default": 0
       }
@@ -292,12 +453,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "e57d905f22a12a0e",
-      "_key": "!actors.items!a23f864964ac41b6.e57d905f22a12a0e",
+      "_id": "7b7ba9755f07db26",
+      "_key": "!actors.items!a23f864964ac41b6.7b7ba9755f07db26",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 9000,
+      "sort": 16000,
       "ownership": {
         "default": 0
       }
@@ -317,12 +478,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "9c54081d42013ac4",
-      "_key": "!actors.items!a23f864964ac41b6.9c54081d42013ac4",
+      "_id": "24755cefea624016",
+      "_key": "!actors.items!a23f864964ac41b6.24755cefea624016",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 10000,
+      "sort": 17000,
       "ownership": {
         "default": 0
       }
@@ -342,12 +503,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "de492035fec6ddfa",
-      "_key": "!actors.items!a23f864964ac41b6.de492035fec6ddfa",
+      "_id": "14f93cdffb853c1e",
+      "_key": "!actors.items!a23f864964ac41b6.14f93cdffb853c1e",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 11000,
+      "sort": 18000,
       "ownership": {
         "default": 0
       }
@@ -367,12 +528,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "af9a8d5eb49b74ee",
-      "_key": "!actors.items!a23f864964ac41b6.af9a8d5eb49b74ee",
+      "_id": "a2c702fd26194f5b",
+      "_key": "!actors.items!a23f864964ac41b6.a2c702fd26194f5b",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 12000,
+      "sort": 19000,
       "ownership": {
         "default": 0
       }
@@ -392,12 +553,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "494a972e1a70f5ab",
-      "_key": "!actors.items!a23f864964ac41b6.494a972e1a70f5ab",
+      "_id": "ee72659e7f126d93",
+      "_key": "!actors.items!a23f864964ac41b6.ee72659e7f126d93",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 13000,
+      "sort": 20000,
       "ownership": {
         "default": 0
       }
@@ -417,12 +578,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "43fe526c590307e4",
-      "_key": "!actors.items!a23f864964ac41b6.43fe526c590307e4",
+      "_id": "8b1aea1538f12f3a",
+      "_key": "!actors.items!a23f864964ac41b6.8b1aea1538f12f3a",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 14000,
+      "sort": 21000,
       "ownership": {
         "default": 0
       }
@@ -442,12 +603,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "69f3b537873abf85",
-      "_key": "!actors.items!a23f864964ac41b6.69f3b537873abf85",
+      "_id": "99389bcfe804f9aa",
+      "_key": "!actors.items!a23f864964ac41b6.99389bcfe804f9aa",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 15000,
+      "sort": 22000,
       "ownership": {
         "default": 0
       }
@@ -467,12 +628,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "2c0929746f7da690",
-      "_key": "!actors.items!a23f864964ac41b6.2c0929746f7da690",
+      "_id": "92d2450ed2c19e7a",
+      "_key": "!actors.items!a23f864964ac41b6.92d2450ed2c19e7a",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 16000,
+      "sort": 23000,
       "ownership": {
         "default": 0
       }
@@ -492,12 +653,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "e149c9575c6fa26c",
-      "_key": "!actors.items!a23f864964ac41b6.e149c9575c6fa26c",
+      "_id": "a021a4cfb59eea48",
+      "_key": "!actors.items!a23f864964ac41b6.a021a4cfb59eea48",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 17000,
+      "sort": 24000,
       "ownership": {
         "default": 0
       }
@@ -517,12 +678,12 @@
         "noDefault": false,
         "description": ""
       },
-      "_id": "cc2609402c695831",
-      "_key": "!actors.items!a23f864964ac41b6.cc2609402c695831",
+      "_id": "63f0e6b6f6a374cc",
+      "_key": "!actors.items!a23f864964ac41b6.63f0e6b6f6a374cc",
       "effects": [],
       "flags": {},
       "folder": null,
-      "sort": 18000,
+      "sort": 25000,
       "ownership": {
         "default": 0
       }

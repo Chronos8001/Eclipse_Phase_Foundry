@@ -1,0 +1,23 @@
+{
+  "_id": "40904e32eadfb1ef",
+  "_key": "!items!40904e32eadfb1ef",
+  "name": "Faulty Education",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "faultyEducation",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>Not everyone receives the same quality of education and many are taught incorrect things. Some children, for example, are raised with an ideologically driven system that prizes obedience over truth and accuracy—something still common in certain Jovian, brinker, and religious communities. Others, like many infugees, isolates, and zeroed indentures, only have access to substandard or obsolete reference material. No matter the cause, the character thinks they know far more than they really do. Once per session, the gamemaster may intentionally mislead the character when giving them the results of a Knowledge Skill Test or otherwise detailing some aspect of the setting or a social interaction, depending on the character’s background. This misinformation represents the character’s faulty understanding of the topic at hand and should be roleplayed appropriately, even if the player knows that their character is mistaken.</p><p><em>Source: Eclipse Phase Transhuman, p. 89.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 47000,
+  "ownership": {
+    "default": 0
+  }
+}

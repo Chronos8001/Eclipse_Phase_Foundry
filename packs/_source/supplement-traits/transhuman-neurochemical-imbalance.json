@@ -1,0 +1,23 @@
+{
+  "_id": "debeb624d039b9e7",
+  "_key": "!items!debeb624d039b9e7",
+  "name": "Neurochemical Imbalance",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "neurochemicalImbalance",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 5,
+    "costText": "Bonus: 5 CP",
+    "description": "<p>Something about this morph’s neurochemistry (or its neurochemical simulators, in the case of pods and synthmorphs) is unbalanced. Egos that sleeve into this morph struggle with a strong, almost overwhelming emotion: sadness, despair, frustration, loneliness, manic intensity, anxiety, euphoria, and so on. The strength of this emotion may ebb and wane, but it is omnipresent enough to have a consistent impact on the character’s mood and personality. This imposed emotion does not affect the character’s abilities, but it should be taken into effect for roleplaying purposes. The emotion may be quelled with endocrine control implants (but not emotional dampers) or temporarily overcome via a Psychosurgery Test (for biomorphs) or Hardware: Robotics Test (for synthmorphs). Specific drugs may also reduce the effect, based on the particular aptitude affected. Despite these efforts, the emotion will return in 1d10 days.</p><p><em>Source: Eclipse Phase Transhuman, p. 91.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 57000,
+  "ownership": {
+    "default": 0
+  }
+}

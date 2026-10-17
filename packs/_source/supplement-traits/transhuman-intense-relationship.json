@@ -1,0 +1,23 @@
+{
+  "_id": "6907c17121ce94ae",
+  "_key": "!items!6907c17121ce94ae",
+  "name": "Intense Relationship",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "intenseRelationship",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>Many characters retain close relationships with family, friends, and lovers. Sometimes, however, the interpersonal connection in these relationships becomes so intense as to be a detriment. The character is emotionally dependent on their relationship with a particular NPC to the point that being separated from the NPC is taxing. Each week the character goes without meaningful communication with the NPC, they suffer 1 point of stress. If cut off for more than two weeks, they also suffer a −10 modifier to all Task Actions until they are able to reconnect, as they are too distracted to focus. The character also suffers double the stress from witnessing the NPC being hurt or killed. Basic operational security dictates that the character cannot tell the NPC anything about Firewall nor can they communicate with the NPC during a Firewall mission. Characters breaking these rules put the lives of their friends and family at risk. Gamemasters should have enemies of Firewall use friends and family against characters who break these rules.</p><p><em>Source: Eclipse Phase Transhuman, p. 90.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 52000,
+  "ownership": {
+    "default": 0
+  }
+}

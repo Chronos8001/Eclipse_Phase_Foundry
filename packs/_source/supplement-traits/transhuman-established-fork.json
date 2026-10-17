@@ -1,0 +1,23 @@
+{
+  "_id": "234334503395fced",
+  "_key": "!items!234334503395fced",
+  "name": "Established Fork",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "establishedFork",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 5,
+    "costText": "Cost: 5 CP",
+    "description": "<p>The character begins the game with a fully instanced fork of themselves, and the player can specify if it is an alpha, beta, or delta fork; beta and delta forks will have their stats adjusted according to the rules outlined on pp. 273–274, EP. Psychosurgical alterations that differentiate the fork from the character such as personality edits, mannerisms, and gender/sexual identity (but not traits) can be defined by the player and incorporated into the fork at no cost. Any other positive or negative mental traits taken for the fork must be purchased and applied to the fork exclusively. The fork’s morph and gear must be paid for and provided by expenditure of the character’s own CP and starting credits. This trait ensures the fork is established and recognized as legal in whatever habitat the character lives in when the game starts, but there is no guarantee that the fork would be recognized as legal elsewhere or that the legality will remain current once the game is underway. This trait can be taken more than once. Players should carefully coordinate with their gamemaster to ensure a common understanding of the fork’s place in the game and how they can be utilized.</p><p><em>Source: Eclipse Phase Transhuman, p. 84.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "1a4626aef9c29f5e",
+  "_key": "!items!1a4626aef9c29f5e",
+  "name": "Police Officer",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "policeOfficer",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP (Level 1), 20 CP (Level 2)",
+    "description": "<p>The character is a mid-ranking cop—a sergeant or detective—in the Martian Rangers, Titanian Science Police, or other police department. At Level 2, the character is a high-ranking officer: chief inspector, chief of single station or district, or high-ranking desk officer in a large department. For each level, the character receives a +10 on all Networking Tests within their department. The character is actively employed there and is expected to put in at least 6 hours of work four days a week (if Titanian) or 8 hours a day five days a week (if Jovian, Venusian, Lunar, or Martian). Rank-and-file officers don’t need to take this trait. Characters using favors to deploy other officers or use department resources may have to explain their actions to superiors.</p><p><em>Source: Eclipse Phase Firewall, p. 173.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "7f3ebf3c224a27b4",
+  "sort": 94000,
+  "ownership": {
+    "default": 0
+  }
+}

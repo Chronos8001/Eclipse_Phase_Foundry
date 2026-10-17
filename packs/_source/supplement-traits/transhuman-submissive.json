@@ -1,0 +1,23 @@
+{
+  "_id": "64f5abe8851c9b16",
+  "_key": "!items!64f5abe8851c9b16",
+  "name": "Submissive",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "submissive",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 5,
+    "costText": "Bonus: 5 CP",
+    "description": "<p>This trait is only available to uplifts. This character retains a tendency to submit to displays of dominance, inherited from their pre-sapient forebears. The character suffers a −20 modifier in Opposed Tests against Intimidation from NPCs with perceived social status.</p><p><em>Source: Eclipse Phase Transhuman, p. 93.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 67000,
+  "ownership": {
+    "default": 0
+  }
+}

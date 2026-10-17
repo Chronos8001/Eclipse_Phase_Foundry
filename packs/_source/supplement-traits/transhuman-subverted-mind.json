@@ -1,0 +1,23 @@
+{
+  "_id": "e3c906945aafd234",
+  "_key": "!items!e3c906945aafd234",
+  "name": "Subverted Mind",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "subvertedMind",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 30,
+    "costText": "Bonus: 30 CP",
+    "description": "<p>Similar to the Modified Behavior trait (p. 150, EP), the character has been conditioned by behavioral control psychosurgery—in this case, an expunged or enforced behavior. The character is unaware of this mind editing, however, as the procedure also included an awareness block (p. 170). This means the character could be a secret spy, courier, or saboteur, possibly even regularly engaging in behavior of which they are completely unaware. Alternatively, they could simply be an enemy’s secret ace in the hole, a trump card to exploit when the time is right. Keep in mind that, due to the awareness block, even when the character’s hidden programming becomes apparent to others, they will be cognitively incapable of recognizing it themselves, which is certain to be an incredibly stressful experience all around.</p><p><em>Source: Eclipse Phase Transhuman, p. 93.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 68000,
+  "ownership": {
+    "default": 0
+  }
+}

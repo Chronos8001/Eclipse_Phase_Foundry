@@ -1,0 +1,23 @@
+{
+  "_id": "8383c964ad1f8190",
+  "_key": "!items!8383c964ad1f8190",
+  "name": "Personality Artifact",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "personalityArtifact",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>Minor but occasionally intrusive echoes of previous egos that have inhabited the morph still remain as mental artifacts. Once per week, the ego sleeved in the morph must make a MOX x 10 Test. If it fails, certain character traits manifest in the current occupant’s mind, causing personality or behavior modification. Roll on the Personality Artifact table and apply the result; the effect lasts for (1d10 ÷ 2) days. With a successful INT x 3 Test, the character will recognize the manifesting behavior as foreign and suffer (1d10 ÷ 2) SV. Additional incidents may or may not inflict stress, depending on the change in question, how drastically the changes conflict with the character’s personality, and whether or not the character is aware of the source of these memories. These personality changes are not permanent and will not transfer with the character’s ego when they resleeve. Gamemasters should not allow this trait for morphs that will be sleeved for less than a week, unless they increase the test frequency from weekly to daily.</p><p><em>Source: Eclipse Phase Transhuman, p. 92.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 60000,
+  "ownership": {
+    "default": 0
+  }
+}

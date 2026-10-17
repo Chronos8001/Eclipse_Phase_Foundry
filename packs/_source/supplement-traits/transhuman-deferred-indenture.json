@@ -1,0 +1,23 @@
+{
+  "_id": "711d06f870e9e114",
+  "_key": "!items!711d06f870e9e114",
+  "name": "Deferred Indenture",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "deferredIndenture",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 5,
+    "costText": "Bonus: 5 CP (Level 1), 15 CP (Level 2), or 20 CP (Level 3)",
+    "description": "<p>Due to a prior contract or sentence, this character has a pending indenture that has yet to be redeemed. The character is legally obligated to perform whatever work is asked of them to repay their debt. At Level 1, the value of the indenture is equivalent to 5,000 credits or a Level 4 favor. At Level 2, it is worth 20,000 credits or a Level 5 favor. At Level 3, the indenture is worth 40,000 credits or two Level 5 favors. If the indenture is not honored when called in, the character will be subject to the legal consequences, up to and including pursuit by law enforcement and additional criminal penalties from the originating jurisdiction. Gamemasters and players should outline the circumstances that led to the establishment of the indenture.</p><p><em>Source: Eclipse Phase Transhuman, p. 88.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 40000,
+  "ownership": {
+    "default": 0
+  }
+}

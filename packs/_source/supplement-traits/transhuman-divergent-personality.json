@@ -1,0 +1,23 @@
+{
+  "_id": "072908aff4486235",
+  "_key": "!items!072908aff4486235",
+  "name": "Divergent Personality",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "divergentPersonality",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>Something about this character makes their forks diverge from their core personality more quickly than usual. When attempting a merge, treat the fork’s time apart as if it were one step lower on the Merging table (p. 275, EP). For example, a fork that is absent under an hour is treated as if it were away for 1–4 hours. Characters with this trait may not take the multitasking implant; the continual forking and merging is too stressful on their mind.</p><p><em>Source: Eclipse Phase Transhuman, p. 88.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 42000,
+  "ownership": {
+    "default": 0
+  }
+}

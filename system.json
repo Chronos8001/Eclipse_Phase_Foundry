@@ -117,6 +117,14 @@
       "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
     },
     {
+      "name": "supplement-traits",
+      "label": "Traits (Transhuman, Sunward, Rimward, Gatecrashing, Panopticon, Firewall)",
+      "path": "packs/supplement-traits",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
       "name": "mental-health",
       "label": "Derangements and Mental Disorders (Core, Transhuman)",
       "path": "packs/mental-health",
@@ -145,7 +153,7 @@
     {
       "name": "Eclipse Phase",
       "sorting": "m",
-      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights", "vehicles", "threats", "npcs", "backgrounds", "mental-health"]
+      "packs": ["morphs", "traits", "supplement-traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights", "vehicles", "threats", "npcs", "backgrounds", "mental-health"]
     }
   ],
   "documentTypes": {

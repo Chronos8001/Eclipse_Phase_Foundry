@@ -1,0 +1,23 @@
+{
+  "_id": "50b9ca040757c169",
+  "_key": "!items!50b9ca040757c169",
+  "name": "Overwhelmed by Emotions",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "overwhelmedByEmotions",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>This trait is only available to AGIs. The character has a particularly difficult time adjusting to hormonal urges and emotions when sleeved in biomorphs. The character suffers a −10 modifier when resisting any form of emotional manipulation, including Intimidation and most Persuasion Tests. Additionally the character suffers a −10 modifier to Stress Tests involving emotions, fear, or pain. At the gamemaster’s discretion, certain intense emotions or rushes may temporarily overwhelm the character; if they fail a WIL x 3 Test, they are disoriented and must spend a Complex Action to regain their wits. Gamemasters should not allow this trait for characters that are unlikely to ever sleeve into biomorphs—or should at least occasionally put them in situations that force them into one. Endocrine control does not completely mitigate these effects, though some of the modifiers may cancel out.</p><p><em>Source: Eclipse Phase Transhuman, p. 91.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 59000,
+  "ownership": {
+    "default": 0
+  }
+}

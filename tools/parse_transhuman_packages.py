@@ -215,6 +215,7 @@ def level_data(block):
                 line = line[:sleights.start()].strip()
             for t in re.split(r",\s*(?![^()]*\))", line.split(":", 1)[1]):
                 t = re.sub(r"\s+trait$", "", t.strip().rstrip("."))
+                t = re.sub(r":\s*\(", " (", t)  # "Social Stigma: (Uplift)", once
                 lvl = re.match(r"^(.+?) \((?:Level )?(\d)\)$", t)
                 detail = re.match(r"^([A-Z][\w ’'-]+?) \((.+)\)$", t)
                 if re.search(r"\beither\b|\bor\b", t):

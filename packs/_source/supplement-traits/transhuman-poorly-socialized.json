@@ -1,0 +1,23 @@
+{
+  "_id": "a4062697ff80fa54",
+  "_key": "!items!a4062697ff80fa54",
+  "name": "Poorly Socialized",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "poorlySocialized",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>This trait is most common among AGIs and uplifts, but can be taken by anyone. The character’s early life experience left them poorly prepared for interacting with the general public, and they come off as boorish, distant, or strange until they get to know someone well. Due to the difficult nature of the character’s behavior, they suffer a −10 modifier on all Social Skill Tests whenever the character is interacting with another character for the first time only.</p><p><em>Source: Eclipse Phase Transhuman, p. 93.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 62000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "47699e3b3123aebf",
+  "_key": "!items!47699e3b3123aebf",
+  "name": "Impaired Linguistics",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "impairedLinguistics",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP (Level 1) or 20 CP (Level 2)",
+    "description": "<p>This trait is only available to uplifts. This uplift’s particular brain structure has difficulty processing language. At Level 1, the uplift loses some of their ability to speak, read, and comprehend things spoken by others when they suffer from stress. Each time the uplift suffers a trauma, they must make a Language Test at −10 to speak (both verbal and via mesh inserts) or comprehend (reading or listening) anything above the most basic words and information. This test only needs to be made once for each language, but for each additional trauma suffered, the test must be made again, with an additional cumulative −10 modifier. If the uplift loses their language abilities, they will recover them when that particular trauma is healed. In the meantime, they can only convey and understand basic, one-word, one-syllable concepts, such as “eat” or “run.” At Level 2, the uplift’s language centers are permanently hobbled. Their free natural Language skill at character creation is 40 + INT, and no Language skill may be raised above 60. Additionally, they must make make a Language Test to convey or comprehend particularly complex information or sentences at a −10 modifier. At the gamemaster’s discretion, this may also impair other skill tests, particularly Knowledge skills when dealing with detailed data or specialist terminology. Level 2 does not incorporate Level 1 effects.</p><p><em>Source: Eclipse Phase Panopticon, p. 147.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "315ebe0c4fba6ff6",
+  "sort": 85000,
+  "ownership": {
+    "default": 0
+  }
+}

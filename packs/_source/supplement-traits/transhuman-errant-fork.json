@@ -1,0 +1,23 @@
+{
+  "_id": "90f57a9456f0475d",
+  "_key": "!items!90f57a9456f0475d",
+  "name": "Errant Fork",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "errantFork",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>Whether through conscious action or a freak occurrence, you are not the only you out there. An alpha fork of yourself exists and has decided to pursue its own path. Though this fork is not necessarily an enemy, it does have its own agenda and interests that sometimes run counter to your own. There may be legal issues involved, such as competing claims over who is the original alpha and therefore has rights to any property (or in some jurisdictions, the right to exist). There may be social awkwardness, as the division between you and your alpha forced you to compete over your friends, family, or even lovers. Though the alpha fork began with the same aptitudes, skills, traits, rep, and so on as yourself, it has diverged and begun to develop as a separate character, controlled by the gamemaster. Other complications in the relationship between these alphas should exist, enough that the other alpha should serve as an occasional hindrance or surprise. The alphas may, for example, have a strong rivalry going over their shared field of expertise or may simply feel a need to prove themselves better than the other.</p><p><em>Source: Eclipse Phase Transhuman, p. 89.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 46000,
+  "ownership": {
+    "default": 0
+  }
+}
