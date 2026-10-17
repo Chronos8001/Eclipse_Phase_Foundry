@@ -184,6 +184,11 @@
         "major": "major"
       }
     },
+    "Migration": {
+      "start": "Migrating the world to Eclipse Phase {version}: do not close the world until it is done.",
+      "done": "Migration to Eclipse Phase {version} complete.",
+      "failed": "Migration finished with {count} error(s): see the console (F12)."
+    },
     "Setting": {
       "halfStressOnSuccess": "Stress on a success (X-Risks optional rule)",
       "halfStressOnSuccessHint": "A successful Willpower Stress Test still takes half the stress (round down), as in the optional rule of X-Risks p. 165. Off: the Core rule (no stress)."

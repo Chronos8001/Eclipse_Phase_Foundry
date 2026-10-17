@@ -184,6 +184,11 @@
         "major": "majeure"
       }
     },
+    "Migration": {
+      "start": "Migration du monde vers Eclipse Phase {version} : ne fermez pas le monde avant la fin.",
+      "done": "Migration vers Eclipse Phase {version} terminée.",
+      "failed": "Migration terminée avec {count} erreur(s) : voir la console (F12)."
+    },
     "Setting": {
       "halfStressOnSuccess": "Stress même réussi (règle optionnelle de X-Risks)",
       "halfStressOnSuccessHint": "Un test de stress réussi inflige quand même la moitié du stress (arrondi inférieur), règle optionnelle de X-Risks p. 165. Désactivé : règle du livre de base (aucun stress)."

@@ -15,6 +15,7 @@ import { refreshAttackCard } from "./dice/opposed.mjs";
 import { onCombatRound } from "./dice/conditions.mjs";
 import { expireEffects } from "./dice/ego.mjs";
 import { applyBackground } from "./dice/backgrounds.mjs";
+import { migrateWorld, registerMigrationSetting } from "./migration.mjs";
 
 const ITEM_TYPES = ["skill", "morph", "trait", "weapon", "armor", "gear", "augmentation", "sleight", "software", "substance", "background"];
 
@@ -28,7 +29,8 @@ Hooks.once("init", () => {
     name: "EP1E.Setting.halfStressOnSuccess", hint: "EP1E.Setting.halfStressOnSuccessHint",
     scope: "world", config: true, type: Boolean, default: false
   });
-  game[SYSTEM_ID] = { tests, rollItemMacro };
+  registerMigrationSetting();
+  game[SYSTEM_ID] = { tests, rollItemMacro, migrateWorld };
 
   CONFIG.Actor.documentClass = EPActor;
   CONFIG.Item.documentClass = EPItem;
@@ -81,6 +83,7 @@ Hooks.once("init", () => {
 
 Hooks.once("ready", () => {
   game.socket.on(`system.${SYSTEM_ID}`, tests.onSocketMessage);
+  migrateWorld();
 });
 
 Hooks.on("renderChatMessageHTML", (message, html) => tests.onRenderChatMessage(message, html));
