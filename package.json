@@ -1,6 +1,6 @@
 {
   "name": "ep1e",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "private": true,
   "description": "Eclipse Phase (1st Edition) system for Foundry VTT v13/v14",
   "type": "module",
