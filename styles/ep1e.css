@@ -223,7 +223,7 @@
 .ep1e .list-header { display: flex; justify-content: space-between; align-items: center; }
 .ep1e .list-header .add { color: var(--ep-accent); }
 
-.ep1e .two-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.ep1e .two-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; }
 .ep1e .two-columns .panel { margin-bottom: 10px; }
 
 .ep1e ol.item-list { list-style: none; margin: 0; padding: 0; }
@@ -306,8 +306,8 @@
 .ep1e .track input { width: 56px; }
 .ep1e .track .sep { min-width: 40px; color: var(--ep-muted); }
 .ep1e .track meter { flex: 1; height: 10px; }
-.ep1e .panel .buttons { display: flex; gap: 6px; margin-top: 6px; }
-.ep1e .panel .buttons button { flex: 1; font-size: 0.85em; }
+.ep1e .panel .buttons { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.ep1e .panel .buttons button { flex: 1 1 auto; width: auto; margin: 0; padding: 0 8px; white-space: nowrap; font-size: 0.85em; }
 
 /* -------------------------------------------- */
 /*  Skills & combat tables                      */

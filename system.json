@@ -2,7 +2,7 @@
   "id": "ep1e",
   "title": "Eclipse Phase (1st Edition)",
   "description": "Système non officiel pour Eclipse Phase, 1re édition : fiches de personnage, morphs, tests d100, combat, dégâts, stress et Moxie. Eclipse Phase est une marque de Posthuman Studios ; le contenu de jeu est publié sous licence Creative Commons BY-NC-SA 3.0.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
