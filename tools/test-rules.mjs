@@ -424,4 +424,12 @@ assert.deepEqual(traits.levelCosts("Bonus: 5 CP (Minor), 10 CP (Moderate), or 20
 assert.deepEqual(traits.levelCosts("Bonus: 10 CP (Level 1) or 20 CP (Level 20)"), [10, 20]);
 assert.deepEqual(traits.levelCosts("Cost: 10 CP"), []);
 
+/* Initiative */
+// Core: INT 15 + REF 20 = INIT 70 (p. 121); one wound: 60. Supplements' scale: (15 + 20) / 5 = 7, one wound 6
+assert.equal(combat.initiativeScore(70, 0, "core"), 70);
+assert.equal(combat.initiativeScore(70, 10, "core"), 60);
+assert.equal(combat.initiativeScore(70, 0, "supplements"), 7);
+assert.equal(combat.initiativeScore(70, 10, "supplements"), 6);
+assert.equal(combat.initiativeScore(76, 0, "supplements"), 7);
+
 console.log("Rules checks passed.");

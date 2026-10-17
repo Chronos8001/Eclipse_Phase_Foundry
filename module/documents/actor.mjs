@@ -1,6 +1,15 @@
-import { APTITUDES, SKILLS } from "../config.mjs";
+import { APTITUDES, SKILLS, SYSTEM_ID } from "../config.mjs";
 import { SkillData } from "../data/item.mjs";
-import { fallingArmor } from "../rules/combat.mjs";
+import { fallingArmor, initiativeScore } from "../rules/combat.mjs";
+
+/** The world's Initiative rule (Core, or the supplements' 1d10 scale). */
+export function initiativeRule() {
+  try {
+    return game.settings.get(SYSTEM_ID, "initiativeRule");
+  } catch {
+    return "core";
+  }
+}
 
 export class EPActor extends Actor {
 
@@ -37,7 +46,7 @@ export class EPActor extends Actor {
     for ( const k of APTITUDES ) data[k] = sys.aptitudes[k].value;
     Object.assign(data, sys.stats ?? {});
     // Wounds and traumas lower the Initiative score (Core p. 189)
-    data.initiative = (sys.stats?.init ?? 0) - (sys.penalty?.initiative ?? 0);
+    data.initiative = initiativeScore(sys.stats?.init ?? 0, sys.penalty?.initiative ?? 0, initiativeRule());
     data.penalty = sys.penalty?.total ?? 0;
     return data;
   }

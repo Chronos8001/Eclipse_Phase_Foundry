@@ -1,7 +1,8 @@
 import { APTITUDES, REP_NETWORKS, SKILLS, SYSTEM_ID, skillChoices } from "../config.mjs";
 import { SkillData } from "../data/item.mjs";
 import { applyToActor, postDamageRoll, rollAptitudeTest, rollSkillTest } from "../dice/tests.mjs";
-import { fallingDamage, shockTarget } from "../rules/combat.mjs";
+import { fallingDamage, initiativeScore, shockTarget } from "../rules/combat.mjs";
+import { initiativeRule } from "../documents/actor.mjs";
 import { reloadWeapon } from "../dice/attack.mjs";
 import { createAIActor, hackSystem, removeIntrusion, scorch, subvertSystem, updateIntrusion } from "../dice/mesh.mjs";
 import { ALERTS, statusModifier } from "../rules/mesh.mjs";
@@ -15,6 +16,17 @@ const { ActorSheetV2 } = foundry.applications.sheets;
 const TextEditor = () => foundry.applications.ux.TextEditor.implementation;
 
 const T = path => `systems/${SYSTEM_ID}/templates/actor/${path}.hbs`;
+
+/**
+ * An actor's skills in sheet order: alphabetical, or the order the player dragged them into (skills added since come
+ * last, alphabetically).
+ */
+function sortedSkills(actor) {
+  const label = (a, b) => a.system.label.localeCompare(b.system.label, game.i18n.lang);
+  const skills = actor.items.filter(i => i.type === "skill");
+  if ( actor.getFlag(SYSTEM_ID, "skillOrder") !== "manual" ) return skills.sort(label);
+  return skills.sort((a, b) => ((a.sort || Infinity) - (b.sort || Infinity)) || label(a, b));
+}
 const PSI_ORDER = ["chi", "gamma", "epsilon"];
 
 export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
@@ -64,7 +76,8 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       editEffect: EPActorSheet.#onEditEffect,
       deleteEffect: EPActorSheet.#onDeleteEffect,
       toggleEffect: EPActorSheet.#onToggleEffect,
-      toggleSummary: EPActorSheet.#onToggleSummary
+      toggleSummary: EPActorSheet.#onToggleSummary,
+      sortSkills: EPActorSheet.#onSortSkills
     }
   };
 
@@ -114,7 +127,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const actor = this.document;
     const system = actor.system;
     const byType = type => actor.items.filter(i => i.type === type).sort((a, b) => (a.sort - b.sort) || a.name.localeCompare(b.name));
-    const skills = byType("skill").sort((a, b) => a.system.label.localeCompare(b.system.label, game.i18n.lang));
+    const skills = sortedSkills(actor);
     const fray = system.getSkillTarget("fray").target;
 
     Object.assign(context, {
@@ -165,6 +178,9 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       intrusionStatuses: Object.fromEntries(["hidden", "covert", "spotted", "locked"].map(k => [k, `EP1E.Mesh.status.${k}`])),
       sleights: byType("sleight").sort((a, b) => PSI_ORDER.indexOf(a.system.psiType) - PSI_ORDER.indexOf(b.system.psiType)),
       effects: Array.from(actor.allApplicableEffects?.() ?? actor.effects),
+      manualSkillOrder: actor.getFlag(SYSTEM_ID, "skillOrder") === "manual",
+      // INIT on the scale of the world's Initiative rule
+      initiative: initiativeScore(system.stats.init, 0, initiativeRule()),
       tracks: [
         { key: "damage", label: "EP1E.Stat.damage", hint: "EP1E.Track.damageHint", value: system.damage.value, max: system.stats.dur,
           count: system.wounds.value, countLabel: "EP1E.Stat.wounds", icon: "fa-heart-crack" },
@@ -247,6 +263,21 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     await item.update({ [input.dataset.itemField]: value });
   }
 
+  /**
+   * Skills dropped on the sheet are put in the dropped-on skill's place (alphabetical order until then); other items
+   * use the usual sort.
+   * @override
+   */
+  async _onSortItem(event, item) {
+    const target = this.document.items.get(event.target.closest("[data-item-id]")?.dataset.itemId);
+    if ( (item.type !== "skill") || (target?.type !== "skill") ) return super._onSortItem(event, item);
+    if ( (target.id === item.id) || (target.system.category !== item.system.category) ) return [];
+    const list = sortedSkills(this.document).filter(s => (s.system.category === item.system.category) && (s.id !== item.id));
+    list.splice(list.findIndex(s => s.id === target.id), 0, item);
+    await this.document.setFlag(SYSTEM_ID, "skillOrder", "manual");
+    return this.document.updateEmbeddedDocuments("Item", list.map((s, i) => ({ _id: s.id, sort: (i + 1) * 10 })));
+  }
+
   /* -------------------------------------------- */
   /*  Helpers                                     */
   /* -------------------------------------------- */
@@ -265,6 +296,11 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   /* -------------------------------------------- */
   /*  Actions                                     */
   /* -------------------------------------------- */
+
+  /** Back to the alphabetical order of the skills. */
+  static #onSortSkills() {
+    return this.document.unsetFlag(SYSTEM_ID, "skillOrder");
+  }
 
   static #onToggleSummary(event, target) {
     return this.#summaries.toggle(target);

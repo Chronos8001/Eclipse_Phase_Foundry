@@ -511,9 +511,9 @@ def servers(book):
                 changes.append((f"system.aptitudes.{apt}.mod", int(value)))
             elif skill:
                 changes.append((f"system.skillMods.{skill}", int(value)))
-        # An enhanced server: +1 to Initiative Tests
+        # An enhanced server: +1 to Initiative Tests, on the 1d10 scale of Transhuman = +10 on the Core's d100 scale
         if e["name"] == "Enhanced Server" or "Enhanced Server" in advantages:
-            changes.append(("system.mods.init", 1))
+            changes.append(("system.mods.init", 10))
         out.append({**e, "desc": desc, "changes": changes})
     return out
 

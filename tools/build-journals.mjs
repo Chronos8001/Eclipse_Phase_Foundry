@@ -95,6 +95,9 @@ const ENTRIES = [
     content: [
       p("Attaque : test de la compétence de l'arme, opposé à la Défense (Fray) de la cible, divisée par deux contre les armes à distance. L'attaque touche si elle réussit et bat la défense ; une impasse rate. Défense totale : " +
         `${signed(combat.FULL_DEFENSE_BONUS)}. Réussite excellente : +5 aux dommages (MR ≥ 30), +10 (MR ≥ 60).`),
+      h2("Initiative"),
+      p("Chaque tour d'action (3 secondes) : 1d100 + INIT, avec INIT = (INT + RÉF) × 2, moins 10 par blessure et par traumatisme ; on agit du plus haut au plus bas, une fois par point de VIT. " +
+        "Le réglage du monde « Initiative » passe à la règle des suppléments : 1d10 + (INT + RÉF) ÷ 5, la même valeur au dixième (un bonus de +1 de ces livres vaut +10 ici)."),
       h2("Modes de tir"),
       table(["Mode", "Munitions", "Attaques par action complexe", "Tir concentré"],
         Object.entries(combat.FIRING_MODES).map(([k, m]) => [t(`EP1E.FiringMode.${k}`) + ` (${k})`, m.ammo, m.attacks, m.concentrated ? `+${m.concentrated}` : "—"])),
@@ -111,7 +114,7 @@ const ENTRIES = [
         "Chute : 1d10 à 1-2 m, 2d10 à 3-5 m, 3d10 à 6-8 m, +1 par mètre au-delà ; l'armure cinétique compte pour moitié.",
         "Feu : 1d10 ÷ 2, puis 1d10, 2d10, 3d10, puis +5 tous les 5 tours."
       ]),
-      source("Eclipse Phase Core Rulebook, p. 189-207")
+      source("Eclipse Phase Core Rulebook, p. 188-207 ; Eclipse Phase Transhuman, p. 97")
     ]
   },
   {

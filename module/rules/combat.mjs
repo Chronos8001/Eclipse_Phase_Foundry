@@ -235,6 +235,20 @@ export function fadeModifier(modifier, step = 10) {
   return Math.min(0, modifier + step);
 }
 
+/**
+ * Initiative (Core p. 188): 1d100 + INIT, INIT = (INT + REF) x 2. The supplements (Transhuman p. 97, X-Risks) roll
+ * 1d10 + INIT with INIT = (INT + REF) / 5: the same score on a tenth of the scale, so bonuses of +1 there are +10 here.
+ */
+export const INITIATIVE_RULES = {
+  core: { formula: "1d100 - 1 + @initiative", scale: 1 },
+  supplements: { formula: "1d10 + @initiative", scale: 10 }
+};
+
+/** Initiative score added to the roll: INIT less the wound and trauma modifiers, on the rule's scale (round down). */
+export function initiativeScore(init, penalty, rule = "core") {
+  return Math.floor((init - penalty) / (INITIATIVE_RULES[rule] ?? INITIATIVE_RULES.core).scale);
+}
+
 /** Action Turns per minute (an Action Turn lasts 3 seconds, p. 189). */
 export const TURNS_PER_MINUTE = 20;
 

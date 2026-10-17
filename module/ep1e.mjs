@@ -4,7 +4,8 @@
 import { EP1E, SYSTEM_ID } from "./config.mjs";
 import { CharacterData, NpcData, VehicleData } from "./data/actor.mjs";
 import * as itemModels from "./data/item.mjs";
-import { EPActor } from "./documents/actor.mjs";
+import { EPActor, initiativeRule } from "./documents/actor.mjs";
+import { INITIATIVE_RULES } from "./rules/combat.mjs";
 import { EPItem } from "./documents/item.mjs";
 import { EPActorSheet } from "./sheets/actor-sheet.mjs";
 import { EPItemSheet } from "./sheets/item-sheet.mjs";
@@ -28,6 +29,12 @@ Hooks.once("init", () => {
   game.settings.register(SYSTEM_ID, "halfStressOnSuccess", {
     name: "EP1E.Setting.halfStressOnSuccess", hint: "EP1E.Setting.halfStressOnSuccessHint",
     scope: "world", config: true, type: Boolean, default: false
+  });
+  // Initiative: the Core Rulebook's 1d100 + (INT + REF) x 2, or the supplements' 1d10 + (INT + REF) / 5
+  game.settings.register(SYSTEM_ID, "initiativeRule", {
+    name: "EP1E.Setting.initiativeRule", hint: "EP1E.Setting.initiativeRuleHint",
+    scope: "world", config: true, type: String, default: "core", requiresReload: true,
+    choices: { core: "EP1E.Setting.initiativeCore", supplements: "EP1E.Setting.initiativeSupplements" }
   });
   registerMigrationSetting();
   game[SYSTEM_ID] = { tests, rollItemMacro, migrateWorld };
@@ -56,8 +63,8 @@ Hooks.once("init", () => {
     vehicle: { bar: ["damage"], value: ["wounds.value"] }
   };
 
-  // Initiative: d100 (00-99) + INIT, reduced by wound/trauma modifiers (Core p. 188)
-  CONFIG.Combat.initiative = { formula: "1d100 - 1 + @initiative", decimals: 0 };
+  // Initiative: d100 (00-99) + INIT, reduced by wound/trauma modifiers (Core p. 188), or the supplements' 1d10
+  CONFIG.Combat.initiative = { formula: (INITIATIVE_RULES[initiativeRule()] ?? INITIATIVE_RULES.core).formula, decimals: 0 };
 
   // Token conditions; a blinded token loses its sight
   CONFIG.statusEffects = statusEffects();
@@ -79,6 +86,19 @@ Hooks.once("init", () => {
 
   registerHandlebarsHelpers();
   return preloadTemplates();
+});
+
+// Compendium names in the user's language (system.json keeps the English ones)
+Hooks.once("setup", () => {
+  for ( const pack of game.packs ) {
+    const key = `EP1E.Pack.${pack.metadata.name}`;
+    if ( (pack.metadata.packageName !== SYSTEM_ID) || !game.i18n.has(key) ) continue;
+    try {
+      pack.metadata.label = game.i18n.localize(key);
+    } catch ( err ) {
+      console.warn(`${SYSTEM_ID} | Cannot rename the compendium ${pack.collection}`, err);
+    }
+  }
 });
 
 Hooks.once("ready", () => {
