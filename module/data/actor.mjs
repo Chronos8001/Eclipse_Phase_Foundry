@@ -40,6 +40,16 @@ export class EgoData extends foundry.abstract.TypeDataModel {
         psiShield: int(0), psiArmor: int(0), psiDefense: int(0)
       }),
       rep: new SchemaField(Object.fromEntries(REP_NETWORKS.map(k => [k, int(0, { min: 0 })]))),
+      // World time each favor level of each network was last used, null if never (Core p. 288)
+      favors: new SchemaField(Object.fromEntries(REP_NETWORKS.map(k => [k, new SchemaField(
+        Object.fromEntries([1, 2, 3, 4, 5].map(l => [`l${l}`, new NumberField({ required: true, nullable: true, initial: null })]))
+      )]))),
+      // A fork of another ego (pp. 273-275): its kind, the original's actor UUID and the world time it was made
+      fork: new SchemaField({
+        kind: new StringField({ required: true, blank: true, initial: "", choices: ["alpha", "beta", "delta"] }),
+        origin: text(),
+        created: new NumberField({ required: true, nullable: true, initial: null })
+      }),
       // Bonus to each skill, the target of active effects (system.skillMods.climbing...)
       skillMods: new SchemaField(Object.fromEntries(Object.keys(SKILLS).map(k => [k, int(0)]))),
       // AIs and muses cannot default to aptitudes nor use Moxie (p. 264)

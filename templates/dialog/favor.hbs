@@ -1,0 +1,27 @@
+<div class="ep1e favor-dialog">
+  <div class="form-group">
+    <label>{{localize "EP1E.Ego.network"}}</label>
+    <select name="network">
+      {{#each networks as |n|}}<option value="{{n.key}}" {{#if n.selected}}selected{{/if}}>{{localize n.label}} ({{n.rep}})</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Ego.favorLevelLabel"}}</label>
+    <select name="level">
+      {{#each levels as |l|}}<option value="{{l.level}}">{{localize l.label}} — {{l.timeframe}}</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Ego.burn"}}</label>
+    <input type="number" name="burn" value="0" min="0" max="{{maxBurn}}">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Ego.quiet"}}</label>
+    <input type="number" name="quiet" value="0" min="0" step="10">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Ego.extra"}}</label>
+    <input type="number" name="extra" value="0" min="0">
+  </div>
+  <p class="hint">{{localize "EP1E.Ego.favorHint"}}</p>
+</div>

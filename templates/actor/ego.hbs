@@ -19,6 +19,17 @@
     </label>
   </section>
 
+  <section class="panel ego-actions">
+    <h3>{{localize "EP1E.Ego.actions"}}</h3>
+    {{#if isFork}}<p class="hint"><i class="fa-solid fa-code-fork"></i> {{localize forkKind}}</p>{{/if}}
+    <div class="button-row">
+      <button type="button" data-action="resleeveTests" data-tooltip="EP1E.Ego.resleeveTestsHint"><i class="fa-solid fa-person-rays"></i> {{localize "EP1E.Ego.resleeveTests"}}</button>
+      <button type="button" data-action="backupTest" data-tooltip="EP1E.Ego.backupTestHint"><i class="fa-solid fa-floppy-disk"></i> {{localize "EP1E.Ego.backupTest"}}</button>
+      <button type="button" data-action="fork"><i class="fa-solid fa-code-fork"></i> {{localize "EP1E.Ego.createFork"}}</button>
+      {{#if isFork}}<button type="button" data-action="merge"><i class="fa-solid fa-code-merge"></i> {{localize "EP1E.Ego.mergeFork"}}</button>{{/if}}
+    </div>
+  </section>
+
   <section class="panel rep">
     <h3>{{localize "EP1E.Section.rep"}}</h3>
     <div class="rep-grid">
@@ -26,6 +37,21 @@
       <label data-tooltip="{{localize (concat 'EP1E.RepNetwork.' r.key)}}">{{localize r.label}}<input type="number" name="system.rep.{{r.key}}" value="{{r.value}}" min="0"></label>
       {{/each}}
     </div>
+    <table class="favors">
+      <thead><tr><th>{{localize "EP1E.Ego.network"}}</th><th>{{localize "EP1E.Ego.repLevel"}}</th><th colspan="5">{{localize "EP1E.Ego.favorsAvailable"}}</th><th></th></tr></thead>
+      <tbody>
+        {{#each favorStatus as |n|}}
+        <tr>
+          <td>{{localize (concat "EP1E.Rep." n.key)}}</td>
+          <td>{{n.level}}</td>
+          {{#each n.favors as |f|}}
+          <td class="favor {{#if f.ready}}ready{{else}}used{{/if}}" data-tooltip="{{#if f.ready}}{{localize 'EP1E.Ego.favorReady'}}{{else}}{{localize 'EP1E.Ego.favorWait' hours=f.wait}}{{/if}}">{{f.level}}</td>
+          {{/each}}
+          <td><a data-action="favor" data-network="{{n.key}}" data-tooltip="EP1E.Ego.callFavor"><i class="fa-solid fa-handshake"></i></a></td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
   </section>
 
   <section class="panel biography">

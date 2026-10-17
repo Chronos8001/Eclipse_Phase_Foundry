@@ -5,6 +5,7 @@ import { fallingDamage, shockTarget } from "../rules/combat.mjs";
 import { reloadWeapon } from "../dice/attack.mjs";
 import { createAIActor, hackSystem, removeIntrusion, scorch, subvertSystem, updateIntrusion } from "../dice/mesh.mjs";
 import { ALERTS, statusModifier } from "../rules/mesh.mjs";
+import { endIntegration, favorStatus, mergeFork, promptFavor, promptFork, promptResleeve, rollBackupTest } from "../dice/ego.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -37,6 +38,11 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       removeIntrusion: EPActorSheet.#onRemoveIntrusion,
       createAIActor: EPActorSheet.#onCreateAIActor,
       sleeve: EPActorSheet.#onSleeve,
+      resleeveTests: EPActorSheet.#onResleeveTests,
+      backupTest: EPActorSheet.#onBackupTest,
+      fork: EPActorSheet.#onFork,
+      merge: EPActorSheet.#onMerge,
+      favor: EPActorSheet.#onFavor,
       itemToChat: EPActorSheet.#onItemToChat,
       applyHarm: EPActorSheet.#onApplyHarm,
       fall: EPActorSheet.#onFall,
@@ -144,7 +150,10 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         biography: await TextEditor().enrichHTML(system.biography, { relativeTo: actor, secrets: actor.isOwner }),
         notes: await TextEditor().enrichHTML(system.notes, { relativeTo: actor, secrets: actor.isOwner })
       },
-      systemFields: system.schema.fields
+      systemFields: system.schema.fields,
+      favorStatus: favorStatus(actor),
+      isFork: !!system.fork.kind,
+      forkKind: system.fork.kind ? `EP1E.Ego.forkKind.${system.fork.kind}` : ""
     });
     return context;
   }
@@ -334,9 +343,35 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     if ( item ) return reloadWeapon(item);
   }
 
-  static #onSleeve(event, target) {
+  /** Sleeve into a morph; sleeving into a new one offers the resleeving tests (Shift+click: without them). */
+  static async #onSleeve(event, target) {
     const item = this._getItem(target);
-    if ( item ) return this.document.sleeve(item.id);
+    if ( !item ) return;
+    const sleeving = !item.system.active;
+    await this.document.sleeve(item.id);
+    if ( !sleeving ) return;
+    await endIntegration(this.document);
+    if ( !event.shiftKey ) return promptResleeve(this.document, item);
+  }
+
+  static #onResleeveTests() {
+    return promptResleeve(this.document, this.document.system.activeMorph);
+  }
+
+  static #onBackupTest() {
+    return rollBackupTest(this.document);
+  }
+
+  static #onFork() {
+    return promptFork(this.document);
+  }
+
+  static #onMerge() {
+    return mergeFork(this.document);
+  }
+
+  static #onFavor(event, target) {
+    return promptFavor(this.document, target.dataset.network ?? null);
   }
 
   static #onItemToChat(event, target) {

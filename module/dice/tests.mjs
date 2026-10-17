@@ -8,6 +8,7 @@ import { applyShockConditions, isBiological, rollShock, updateHealthConditions }
 import { rollSeizureTest } from "./psi.mjs";
 import { scorchEffect } from "./mesh.mjs";
 import { rollAddictionTest } from "./substances.mjs";
+import { applyEgoResult, egoSummary } from "./ego.mjs";
 
 const TEMPLATES = {
   dialog: `systems/${SYSTEM_ID}/templates/dialog/test.hbs`,
@@ -105,11 +106,12 @@ async function promptTest(actor, options) {
  * @param {number} [options.multiplier]    Preset aptitude multiplier
  * @param {object} [options.attack]        Weapon attack data, enables the damage button
  * @param {object} [options.defense]       Defense against an attack card: { attackId, tokenUuid }
+ * @param {object} [options.ego]           Ego test with an "apply" button (dice/ego.mjs): { kind, ... }
  * @param {object} [options.input]         Preset dialog values (difficulty, modifier, specialized, ignoreMods, messageMode)
  * @param {boolean} [options.fastForward]  Skip the dialog
  */
 export async function rollSkillTest(actor, options = {}) {
-  const { label, attack = null, defense = null } = options;
+  const { label, attack = null, defense = null, ego = null } = options;
   let base = options.target ?? 0;
   let input = {
     difficulty: 0, modifier: 0, multiplier: options.multiplier ?? 1, specialized: false, ignoreMods: false, ...options.input
@@ -136,7 +138,8 @@ export async function rollSkillTest(actor, options = {}) {
     value: toPercentile(roll.total),
     moxie: ignoreMods ? "ignoreMods" : null,
     attack,
-    defense
+    defense,
+    ego
   };
   if ( ignoreMods ) await actor.update({ "system.moxie.value": actor.system.moxie.value - 1 });
 
@@ -174,7 +177,8 @@ export async function renderTestCard(test) {
     showDamage: !!test.attack && result.success && !!(test.attack.formula ?? test.attack.dv),
     armorDefeating: !!test.attack && result.success && result.critical,
     // A called shot needs an Excellent Success; otherwise it is a normal hit (p. 196)
-    calledShotMissed: !!test.attack?.calledShot && result.success && !result.excellent
+    calledShotMissed: !!test.attack?.calledShot && result.success && !result.excellent,
+    ego: test.ego ? egoSummary(test, result) : null
   });
 }
 
@@ -407,6 +411,8 @@ async function handleChatAction(message, dataset, event) {
     case "defend": return rollDefense(message, dataset.tokenUuid, { fastForward: event.shiftKey });
     case "waive": return waiveDefense(message, dataset.tokenUuid);
     case "scatter": return rollScatter(message);
+    case "egoApply": return applyEgoResult(message);
+    case "egoBurn": return applyEgoResult(message, "burn");
     case "scorchEffect": {
       const test = message.getFlag(SYSTEM_ID, "test");
       const target = test?.attack?.targets?.find(t => t.tokenUuid === dataset.tokenUuid);

@@ -13,6 +13,7 @@ import * as tests from "./dice/tests.mjs";
 import { statusEffects } from "./helpers/effects.mjs";
 import { refreshAttackCard } from "./dice/opposed.mjs";
 import { onCombatRound } from "./dice/conditions.mjs";
+import { expireEffects } from "./dice/ego.mjs";
 
 const ITEM_TYPES = ["skill", "morph", "trait", "weapon", "armor", "gear", "augmentation", "sleight", "software", "substance"];
 
@@ -83,6 +84,9 @@ Hooks.on("updateChatMessage", message => refreshAttackCard(message));
 // Each new Action Turn: timed conditions, bleeding and fire
 Hooks.on("updateCombat", onCombatRound);
 
+// Effects lasting days of world time (integration penalties) end when the time passes
+Hooks.on("updateWorldTime", worldTime => expireEffects(worldTime));
+
 /** Dropping an owned item on the hotbar creates a macro that rolls it. */
 Hooks.on("hotbarDrop", (bar, data, slot) => {
   if ( data.type !== "Item" ) return;
@@ -123,6 +127,9 @@ function preloadTemplates() {
     ...ITEM_TYPES.map(t => `${base}/item/parts/${t}.hbs`),
     `${base}/actor/parts/item-controls.hbs`,
     `${base}/dialog/test-fields.hbs`,
+    `${base}/dialog/resleeve.hbs`,
+    `${base}/dialog/fork.hbs`,
+    `${base}/dialog/favor.hbs`,
     `${base}/parts/effects-list.hbs`
   ]);
 }

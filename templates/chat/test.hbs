@@ -38,6 +38,14 @@
   </div>
   {{/if}}
 
+  {{#if ego}}
+  <div class="ego-result">
+    {{#if ego.text}}<p>{{ego.text}}</p>{{/if}}
+    {{#if ego.button}}<button type="button" data-ep-action="egoApply"><i class="fa-solid fa-check"></i> {{ego.button}}</button>{{/if}}
+    {{#if ego.burn}}<button type="button" data-ep-action="egoBurn"><i class="fa-solid fa-fire"></i> {{ego.burn}}</button>{{/if}}
+  </div>
+  {{/if}}
+
   {{#if canMoxie}}
   <div class="moxie-actions">
     <span><i class="fa-solid fa-star"></i> {{localize "EP1E.Moxie.spend"}}</span>

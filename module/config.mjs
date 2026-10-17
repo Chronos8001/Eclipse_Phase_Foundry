@@ -7,6 +7,10 @@ export const SYSTEM_ID = "ep1e";
 export const APTITUDES = ["cog", "coo", "int", "ref", "sav", "som", "wil"];
 
 export const REP_NETWORKS = ["at", "c", "e", "f", "g", "i", "r"];
+/** The Networking field that taps each reputation network (Reputation Networks table, Core p. 287). */
+export const REP_NETWORKING = {
+  at: "Autonomists", c: "Hypercorps", e: "Ecologists", f: "Media", g: "Criminals", i: "Firewall", r: "Scientists"
+};
 
 /**
  * Learned skills from the Complete Skill List (Core p. 176).

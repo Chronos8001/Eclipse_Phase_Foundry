@@ -5,6 +5,7 @@ import * as combat from "../module/rules/combat.mjs";
 import * as psi from "../module/rules/psi.mjs";
 import * as mesh from "../module/rules/mesh.mjs";
 import * as gear from "../module/rules/gear.mjs";
+import * as ego from "../module/rules/ego.mjs";
 
 const t = (value, target, moxie = null) => evaluateTest({ value, target, moxie });
 
@@ -224,5 +225,65 @@ assert.equal(gear.durationTurns("death"), null);
 assert.equal(gear.addictionTarget(15, "–10"), 35);
 assert.equal(gear.addictionTarget(15, "+10"), 55);
 assert.equal(gear.addictionTarget(15, ""), 45);
+
+// --- Ego (Core pp. 270-289) ---
+// Integration and alienation modifiers (p. 272): infomorph and fork apply to the Alienation Test only
+assert.equal(ego.sleevingModifier(["synthetic", "adaptability1"], "integration"), 0);
+assert.equal(ego.sleevingModifier(["infomorph", "firstTime"], "integration"), -10);
+assert.equal(ego.sleevingModifier(["infomorph", "firstTime"], "alienation"), -30);
+assert.equal(ego.integrationTarget(15), 45);
+// Integration Test table: MoF 25 -> -10 to physical actions for 2 + 2 days; severe failure: all actions
+assert.deepEqual(ego.integrationEffect(t(70, 45)), { modifier: -10, physical: true, days: 4, moxie: 0 });
+assert.deepEqual(ego.integrationEffect(t(80, 45)), { modifier: -10, physical: false, days: 5, moxie: 0 });
+assert.deepEqual(ego.integrationEffect(t(20, 45)), { modifier: -10, physical: true, days: 1, moxie: 0 });
+assert.equal(ego.integrationEffect(t(10, 45)).modifier, 0); // excellent success: no ill effects
+assert.equal(ego.integrationEffect(t(22, 45)).moxie, 1);    // critical success
+assert.deepEqual(ego.integrationEffect(t(88, 45)), { modifier: -30, physical: true, days: null, moxie: 0 });
+// Alienation Test table: 1 SV per 10 full MoF, 2 on a critical failure; a critical success heals 1d10 / 2
+assert.equal(ego.alienationStress(t(75, 40)).stress, 3);
+assert.equal(ego.alienationStress(t(77, 40)).stress, 6);
+assert.equal(ego.alienationStress(t(30, 40)).stress, 0);
+assert.equal(ego.alienationStress(t(11, 40)).heal, "ceil(1d10 / 2)");
+// Continuity: -1 SV per 10 full MoS, +1 per 10 full MoF, +2 when not knowing how you died, never below 0
+assert.equal(ego.continuityStress(6, t(20, 45)), 4);
+assert.equal(ego.continuityStress(6, t(70, 45)), 8);
+assert.equal(ego.continuityStress(1, t(5, 45), { notKnowing: true }), 0);
+assert.equal(ego.continuityStress(3, t(40, 45), { notKnowing: true }), 5);
+// Backup complications (p. 270): 1 SV per 10 full MoF of the LUC Test
+assert.equal(ego.backupStress(t(75, 50)), 2);
+assert.equal(ego.backupStress(t(45, 50)), 0);
+// Forks (pp. 273-274): beta -5 aptitudes (min 1), active skills up to 60; delta keeps its 5 best skills
+assert.equal(ego.forkAptitude(20, "beta"), 15);
+assert.equal(ego.forkAptitude(5, "delta"), 1);
+assert.equal(ego.forkAptitude(20, "alpha"), 20);
+assert.equal(ego.forkRanks(50, 20, 60), 40);
+assert.equal(ego.forkRanks(30, 20, 60), 30);
+assert.equal(ego.forkRanks(30, 50, 40), 0);
+assert.equal(ego.forkRanks(30, 50, null), 30);
+assert.deepEqual(ego.forkKeptSkills([1, 7, 3, 9, 5, 6, 2].map((total, i) => ({ id: `s${i}`, total })), 5), ["s3", "s1", "s5", "s4", "s2"]);
+assert.equal(ego.pruningPenalties(t(62, 40)), 2);
+// Merging table (p. 275): under 1 hour +30, 4-12 hours +10, 1 week or more -30
+assert.equal(ego.mergingRow(1800).modifier, 30);
+assert.equal(ego.mergingRow(3600).modifier, 20);
+assert.equal(ego.mergingRow(6 * 3600).modifier, 10);
+assert.equal(ego.mergingRow(2 * 86400).modifier, -10);
+assert.equal(ego.mergingRow(30 * 86400).modifier, -30);
+assert.equal(ego.mergingRow(30 * 86400).failure.memory, "severe");
+// Reputation levels (p. 287)
+assert.equal(ego.repLevel(0), 1);
+assert.equal(ego.repLevel(53), 3);
+assert.equal(ego.repLevel(80), 5);
+assert.equal(ego.repLevel(99), 5);
+// Jaqui (pp. 287-288): @-rep 53 (Level 3) seeking a Level 4 favor with Networking 50 -> target 40
+assert.equal(50 + ego.favorModifier({ rep: 53, level: 4 }), 40);
+// Keeping quiet -20 -> 20 (p. 289); burning Rep: +1 per point, at most +30
+assert.equal(50 + ego.favorModifier({ rep: 53, level: 4, quiet: -20 }), 20);
+assert.equal(ego.favorModifier({ rep: 53, level: 3, burn: 45 }), 30);
+assert.equal(ego.favorModifier({ rep: 90, level: 1, extra: 1 }), 50);
+// Level 4 favors refresh after a month, and cost 10 Rep to burn (Jaqui: 53 -> 43)
+assert.equal(ego.FAVORS[4].burn, 10);
+assert.equal(ego.favorRefreshed(4, 0, 3 * 3600), false);
+assert.equal(ego.favorRefreshed(4, 0, 30 * 86400), true);
+assert.equal(ego.favorRefreshed(5, null, 0), true);
 
 console.log("Rules checks passed.");
