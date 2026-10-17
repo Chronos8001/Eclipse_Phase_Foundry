@@ -1,0 +1,29 @@
+{
+  "_id": "50ce588782172364",
+  "_key": "!items!50ce588782172364",
+  "name": "Breeding Crab",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "breedingCrab",
+    "cost": "Expensive (Minimum 40,000)",
+    "description": "<p>Biological exsurgents often have functional genitals but lack the libido to use them. The breeding crab is a symbiote that temporarily provides one, latching on to the exsurgent’s head and brain stem. Researchers hypothesize that the crab is more than a fluffer for zombies, though. The TITANs would never have bothered with the randomness of normal sexual reproduction. It’s thought that the crab actually tailors the chromosomes included in exsurgent sperm and eggs, eliminating randomness. When allowed to attach to a human biomorph, they send the wearer into a frenzy of uncontainable lust. This makes them a hit at certain types of parties. The crab can be removed with a jolt from a specially modified cattle prod. The wearer usually doesn’t contract the exsurgent virus, but there’s always a chance that the crab had been used previously on an exsurgent.</p><p><em>Source: Eclipse Phase Zone Stalkers, p. 15.</em></p>",
+    "category": "other",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5dd151933780efa2",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

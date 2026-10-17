@@ -73,6 +73,16 @@ BOOKS = [
                      "EVERYDAY TECHNOLOGY": GEAR("everyday"), "NANOTECHNOLOGY": GEAR("nanotech"), "SENSORS": GEAR("surveillance"),
                      "SOFTWARE": SOFT, "ROBOTS": SKIP, "WEAPONS": ("weapon", ""), "USING NON-FIREWALL FACTIONS": SKIP},
     },
+    {
+        "file": "eclipse phase zonestalkers.pdf", "title": "Zone Stalkers", "offset": 2, "pages": [(17, 18)],
+        # A stalker's message (sidebar) and the TQZ Drugs table, printed among the artifacts
+        "skip": [("Message from Choey", "“How’s it work?”"), ("NAME “Bred” Halcyon", "ADDICTION TYPE")],
+        "sections": {"TITAN ARTIFACTS": GEAR("other"), "LOCATIONS": SKIP},
+        # Drugs of the TQZ Drugs table (read with pdftotext -table): artifact -> [(table row, item name, cost)]
+        "tqz_drugs": {"page": 17, "drugs": {
+            "Halcyons": [("“Bred” Halcyon", "Halcyon (Bred)", "Moderate"), ("“Wild” Halcyon", "Halcyon (Wild)", "High")],
+            "Halftones": [("Halftone", "Halftone", None)]}},
+    },
 ]
 
 COST = re.compile(r"\[((?:Trivial|Low|Moderate|Medium|High|Expensive|Free|One Cost Category|Only Available|Increase|Not Available)[^\]]*)\]")
@@ -265,15 +275,23 @@ def parse(book):
             if e["name"] in costless:
                 items.append({**e, "name": title(e["name"]), "desc": text.strip(), "cost": ""})
             continue
-        cost = m[-1]
-        desc = text[:cost.start()].strip()
+        # A run of costs: "[Moderate] to [High]", "[High] (bulb) or [Expensive (Minimum 60,000)] (tank)"
+        first = len(m) - 1
+        while first > 0 and re.fullmatch(r"\s*(?:\([^)]*\)\s*)?(?:to|or)\s*", text[m[first - 1].end():m[first].start()]):
+            first -= 1
+        desc = text[:m[first].start()].strip()
+        cost = re.sub(r"[\[\]]", "", text[m[first].start():]).strip() if first < len(m) - 1 else m[-1].group(1)
+        # A parenthesis the book forgets to close ("[Expensive (Minimum 100,000]")
+        cost += ")" * (cost.count("(") - cost.count(")"))
         if e.get("stats") and e["type"] == "software":
             desc = f"{desc} {e['stats']}"
-        item = {**e, "name": title(e["name"]), "desc": desc, "cost": cost.group(1)}
+        item = {**e, "name": title(e["name"]), "desc": desc, "cost": cost}
         if e["name"] in book.get("weapons", {}):
             item["type"] = "weapon"
             item["weapon"] = weapon_stats(book, book["weapons"][e["name"]])
         items.append(item)
+    if "tqz_drugs" in book:
+        return tqz_drugs(book, items)
     # Drug stats from the drug tables, matched by item name
     drugs = [i["name"] for i in items if i["type"] == "substance"]
     stats = {}
@@ -285,6 +303,41 @@ def parse(book):
                 raise SystemExit(f"{book['title']}: no table row for the drug {i['name']}")
             i["stats"] = stats[i["name"]]
     return items
+
+
+APPLICATIONS = {"Injected": "Inj", "Dermal": "D", "Oral": "O", "Inhaled": "Inh"}
+
+
+def tqz_drugs(book, items):
+    """Turn the artifacts that are drugs into substances, one per row of the TQZ Drugs table
+    (name, type, application, onset, duration, addiction modifier, addiction type)."""
+    cfg = book["tqz_drugs"]
+    text = subprocess.run(["pdftotext", "-enc", "UTF-8", "-table", "-f", str(cfg["page"]), "-l", str(cfg["page"]),
+                           os.path.join(FOLDER, book["file"]), "-"], capture_output=True).stdout.decode("utf-8", "replace")
+    rows = {}
+    for line in text.split("\n"):
+        cells = re.split(r"\s{2,}", line.strip())
+        if len(cells) >= 7:
+            rows[cells[0]] = cells[1:7]
+    out = []
+    for item in items:
+        if item["name"] not in cfg["drugs"]:
+            out.append(item)
+            continue
+        # "... [Moderate] to [High]": the costs go to the variants
+        desc = re.sub(r"\s*\[[^\]]*\](?: to)?\s*$", "", item["desc"]).strip()
+        for row, name, cost in cfg["drugs"][item["name"]]:
+            if row not in rows:
+                raise SystemExit(f"{book['title']}: no TQZ Drugs row for {row}")
+            kind, application, onset, duration, mod, addiction = rows[row]
+            stats = ("" if kind.startswith("unknown") else kind.lower(), APPLICATIONS.get(application, application), onset,
+                     duration, "" if mod == "—" else mod.replace("−", "–").replace("-", "–"),
+                     "" if addiction == "—" else addiction.lower())
+            note = " (Type unknown: neither toxin filters nor medichines prevent its effects; characters with both may " \
+                   "attempt a SOM x 2 Test to shake them off.)" if kind.endswith("*") else ""
+            out.append({**item, "type": "substance", "category": "drug", "name": name, "desc": desc + note,
+                        "cost": cost or item["cost"], "stats": stats})
+    return out
 
 
 def weapon_stats(book, cfg):
@@ -520,7 +573,8 @@ def write(folders, docs):
     for f in os.listdir(d):
         os.remove(os.path.join(d, f))
     for x in folders:
-        with open(os.path.join(d, f"_folder-{x['name'].lower()}.json"), "w", encoding="utf-8") as fh:
+        slug = re.sub(r"[^a-z0-9]+", "-", x["name"].lower()).strip("-")
+        with open(os.path.join(d, f"_folder-{slug}.json"), "w", encoding="utf-8") as fh:
             json.dump(x, fh, indent=2, ensure_ascii=False)
             fh.write("\n")
     for x in docs:

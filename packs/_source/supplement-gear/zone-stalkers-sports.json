@@ -1,0 +1,29 @@
+{
+  "_id": "a83abacfcfeb3d00",
+  "_key": "!items!a83abacfcfeb3d00",
+  "name": "Sports",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "sports",
+    "cost": "Moderate to Expensive (Minimum 60,000)",
+    "description": "<p>The TITANs experimented extensively on human genetics, and the by-blows of these experiments may sometimes be found held in stasis in the Zone. Some of these mutants are of no use to science, while others suggest new lines of research. In rare cases, sports possess features that can be adopted whole cloth by transhuman genehackers. Given that most sports carry the virus, incorporating it into genetic modifications intended for sale to the public is high-risk. Firewall knows of at least one case in which the junk DNA of a sport contained a copy of the exsurgent virus that would be triggered to express itself at a later time. Especially distinctive or grotesque sports are also prized by wealthy collectors. Famous specimens, such as the Lamb Baby and the Porous Conjoined, have changed hands for tens or even hundreds of thousands of credits on the black market. Some of these mutants might be a threat if ever released from stasis.</p><p><em>Source: Eclipse Phase Zone Stalkers, p. 16.</em></p>",
+    "category": "other",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5dd151933780efa2",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

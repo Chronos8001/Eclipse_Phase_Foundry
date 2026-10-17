@@ -1,0 +1,29 @@
+{
+  "_id": "cff486032343ec7c",
+  "_key": "!items!cff486032343ec7c",
+  "name": "Morphgrow",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "morphgrow",
+    "cost": "High (bulb) or Expensive (Minimum 60,000) (tank)",
+    "description": "<p>Highly profitable for stalkers yet notoriously difficult to transport, the milky ochre substance dubbed morphgrow is always found in either 20-liter glass bulbs or 20,000-liter tanks. Its apparent purpose was as a rapid growth agent for biological exsurgents, and it works just as well on biomorphs. 1 liter once per month is enough to triple the speed at which a biomorph develops. Morphs fertilized with morphgrow aren’t automatically exsurgents, but they’re very prone to tumors and unsightly somatic mutations. The TITANs invented the stuff for rapidly replacing zombie casualties, not for growing exec-model sylphs.</p><p><em>Source: Eclipse Phase Zone Stalkers, p. 16.</em></p>",
+    "category": "other",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5dd151933780efa2",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

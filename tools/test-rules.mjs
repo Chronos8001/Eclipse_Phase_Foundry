@@ -216,6 +216,8 @@ assert.equal(gear.durationTurns("3 Action Turns"), 3);
 assert.equal(gear.durationTurns("8 hours"), 9600);
 assert.equal(gear.durationTurns("1 day"), 28800);
 assert.equal(gear.durationTurns("2 hours–1 day"), 2400);
+// Halftone (Zone Stalkers p. 16): a range of hours lasts its upper bound
+assert.equal(gear.durationTurns("36–48 hours"), 48 * 1200);
 assert.equal(gear.durationTurns("3 Action Turns/1 hour"), 3);
 assert.equal(gear.durationTurns("special"), null);
 assert.equal(gear.durationTurns("death"), null);
