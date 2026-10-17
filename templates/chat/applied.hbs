@@ -4,7 +4,12 @@
   </header>
   {{#if stress}}
   <p>{{{localize "EP1E.Applied.stress" amount=result.damage total=result.total max=max}}}</p>
-  {{#if result.wounds}}<p class="danger">{{localize "EP1E.Applied.traumas" count=result.wounds}}</p>{{/if}}
+  {{#if result.wounds}}<p class="danger">{{localize "EP1E.Applied.traumas" count=result.wounds}}</p>
+  <div class="followups">
+    <button type="button" data-ep-action="aptitudeTest" data-actor-uuid="{{actorUuid}}" data-aptitude="wil" data-multiplier="3"
+            data-tooltip="EP1E.Mental.disorientationHint"><i class="fa-solid fa-person-rays"></i> {{localize "EP1E.Mental.disorientation"}} (WIL × 3)</button>
+    <button type="button" data-ep-action="derangement" data-actor-uuid="{{actorUuid}}"><i class="fa-solid fa-head-side-virus"></i> {{localize "EP1E.Mental.derangement"}}</button>
+  </div>{{/if}}
   {{else}}
   {{#if (ne distance null)}}<p class="hint">{{localize "EP1E.Blast.distance" distance=distance}}</p>{{/if}}
   {{#if shock}}

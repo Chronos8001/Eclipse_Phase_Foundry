@@ -7,6 +7,7 @@ import * as mesh from "../module/rules/mesh.mjs";
 import * as gear from "../module/rules/gear.mjs";
 import * as ego from "../module/rules/ego.mjs";
 import * as adv from "../module/rules/advancement.mjs";
+import * as mental from "../module/rules/mental.mjs";
 
 const t = (value, target, moxie = null) => evaluateTest({ value, target, moxie });
 
@@ -331,5 +332,49 @@ assert.deepEqual(adv.rezCost("specialization", { total: 40, specialized: true })
 assert.deepEqual(adv.rezCost("specialization", { total: 40 }), { cost: 5 });
 assert.deepEqual(adv.rezCost("sleight", { psi: false }), { error: "noPsi" });
 assert.deepEqual(adv.rezCost("rep", { points: 2 }), { cost: 2 });
+
+// --- Healing and mental health (Core pp. 208-215, 229-233) ---
+// Healing table: basic biomods heal 1d10 per 12 hours; wounds only once the damage is gone
+assert.deepEqual(mental.naturalHealing({ damage: 12, wounds: 2, hours: 24, care: "biomods", rolls: [6, 7] }), { damage: 12, wounds: 0, periods: 2 });
+assert.deepEqual(mental.naturalHealing({ damage: 5, wounds: 2, hours: 12 + (2 * 72), care: "biomods", rolls: [8] }), { damage: 5, wounds: 2, periods: 1 });
+assert.equal(mental.naturalHealing({ damage: 0, wounds: 3, hours: 24, care: "medichines", rolls: [] }).wounds, 2);
+// Poor conditions double the timeframes; harsh conditions stop wound healing
+assert.equal(mental.naturalHealing({ damage: 10, wounds: 0, hours: 24, care: "none", condition: "poor", rolls: [4, 4] }).periods, 0);
+assert.equal(mental.naturalHealing({ damage: 0, wounds: 1, hours: 1000, care: "none", condition: "harsh", rolls: [] }).wounds, 0);
+// Willpower Stress Tests: all or nothing; X-Risks option: half on a success (round down)
+assert.equal(mental.stressTaken(7, false), 7);
+assert.equal(mental.stressTaken(7, true), 0);
+assert.equal(mental.stressTaken(7, true, { halfOnSuccess: true }), 3);
+assert.equal(mental.STRESSFUL_EXPERIENCES.tortureSevere, "3d10 + 5");
+// Derangements by trauma: minor, then upgraded to moderate and major; a disorder from the 4th trauma
+assert.equal(mental.derangementFor(1), "minor");
+assert.equal(mental.derangementFor(2), "moderate");
+assert.equal(mental.derangementFor(3), "major");
+assert.equal(mental.derangementFor(4), "disorder");
+// Natural mental healing: 1d10 stress, or 1 trauma once the stress is gone
+assert.deepEqual(mental.naturalMentalHealing(t(30, 45), { stress: 4, traumas: 1, rolled: 7 }), { stress: 4, traumas: 0 });
+assert.deepEqual(mental.naturalMentalHealing(t(30, 45), { stress: 0, traumas: 2, rolled: 7 }), { stress: 0, traumas: 1 });
+assert.deepEqual(mental.naturalMentalHealing(t(60, 45), { stress: 4, traumas: 1, rolled: 7 }), { stress: 0, traumas: 0 });
+// Psychotherapy: 1 hour per stress point, 8 per trauma, 40 per disorder; +30 after psychosurgery, -10 per disorder
+assert.deepEqual(mental.therapyHealing(10, { stress: 6, traumas: 1, disorders: 1 }), { stress: 6, traumas: 0, disorders: 0 });
+assert.deepEqual(mental.therapyHealing(14, { stress: 6, traumas: 1, disorders: 1 }), { stress: 6, traumas: 1, disorders: 0 });
+assert.deepEqual(mental.therapyHealing(40, { stress: 0, traumas: 0, disorders: 2 }), { stress: 0, traumas: 0, disorders: 1 });
+assert.deepEqual(mental.therapyHealing(5, { stress: 9, traumas: 2, disorders: 0 }), { stress: 5, traumas: 0, disorders: 0 });
+assert.equal(mental.therapyModifier({ psychosurgery: true, disorders: 2 }), 10);
+// Psychosurgery (p. 232): surgeon succeeds and subject fails -> permanent; both succeed, surgeon higher -> 1 week/10 MoS
+const surgeon = { ...t(45, 70), value: 45 };
+assert.deepEqual(mental.surgeryOutcome(surgeon, { ...t(60, 45), value: 60 }), { effect: "permanent", weeks: 0 });
+assert.deepEqual(mental.surgeryOutcome({ ...t(48, 70), value: 48 }, { ...t(30, 45), value: 30 }), { effect: "temporary", weeks: 2 });
+assert.deepEqual(mental.surgeryOutcome({ ...t(20, 70), value: 20 }, { ...t(30, 45), value: 30 }), { effect: "none", weeks: 0 });
+assert.deepEqual(mental.surgeryOutcome({ ...t(80, 70), value: 80 }, null), { effect: "none", weeks: 0 });
+assert.deepEqual(mental.surgeryOutcome({ ...t(20, 70), value: 20 }, null), { effect: "permanent", weeks: 0 });
+// Stress: halved on an Excellent Success, none on a critical, doubled on a Severe Failure, trauma on a critical failure
+assert.deepEqual(mental.surgeryStress(5, t(30, 70)), { sv: 2, trauma: false });
+assert.deepEqual(mental.surgeryStress(5, t(44, 70)), { sv: 0, trauma: false });
+assert.deepEqual(mental.surgeryStress(5, t(90, 50)), { sv: 10, trauma: false });
+assert.deepEqual(mental.surgeryStress(5, t(66, 50)), { sv: 5, trauma: true });
+assert.deepEqual(mental.surgeryStress(3, t(60, 70), ["timeAcceleration", "safetyIgnored"]), { sv: 10, trauma: false });
+assert.equal(mental.surgeryModifier("behavioralControl", "block", ["nonHuman"]), -40);
+assert.equal(mental.surgeryModifier("interrogation", "standard"), 30);
 
 console.log("Rules checks passed.");

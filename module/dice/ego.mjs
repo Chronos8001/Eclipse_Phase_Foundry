@@ -1,6 +1,7 @@
 import { REP_NETWORKING, REP_NETWORKS, SKILLS, SYSTEM_ID } from "../config.mjs";
 import * as ego from "../rules/ego.mjs";
 import { applyToActor, evaluateTest, gmWhisper, renderTestCard, rollSkillTest } from "./tests.mjs";
+import { MENTAL_KINDS, applyMentalResult, mentalSummary } from "./mental.mjs";
 
 /**
  * The ego (Core pp. 268-289): resleeving tests, backups, forks and merging, and favors from reputation networks.
@@ -298,6 +299,8 @@ export async function promptFavor(actor, network = null) {
 export function egoSummary(test, result) {
   const e = test.ego;
   if ( e.applied ) return { text: e.applied, button: null };
+  // Healing and mental health tests (dice/mental.mjs)
+  if ( MENTAL_KINDS.includes(e.kind) ) return mentalSummary(test, result);
   switch ( e.kind ) {
     case "integration": {
       const fx = ego.integrationEffect(result);
@@ -359,6 +362,7 @@ export async function applyEgoResult(message, mode = "apply") {
   if ( !e || e.applied ) return;
   const actor = await fromUuid(test.actorUuid);
   if ( !actor?.isOwner ) return;
+  if ( MENTAL_KINDS.includes(e.kind) ) return applyMentalResult(message, test, actor);
   const result = evaluateTest(test);
   switch ( e.kind ) {
     case "integration": {
@@ -420,14 +424,20 @@ export async function applyEgoResult(message, mode = "apply") {
 /*  World time                                  */
 /* -------------------------------------------- */
 
-/** End the effects whose world-time duration is over (integration penalties): run by the active GM. */
+/**
+ * End what lasts for some world time once it is over (integration penalties, temporary psychosurgery, derangements):
+ * effects and items flagged with ep1e.expiresAt. Run by the active GM.
+ */
 export async function expireEffects(worldTime) {
   if ( !game.users.activeGM?.isSelf ) return;
+  const expired = doc => {
+    const at = doc.getFlag(SYSTEM_ID, "expiresAt");
+    return (typeof at === "number") && (at <= worldTime);
+  };
   for ( const actor of game.actors ) {
-    const ids = actor.effects.filter(e => {
-      const at = e.getFlag(SYSTEM_ID, "expiresAt");
-      return (typeof at === "number") && (at <= worldTime);
-    }).map(e => e.id);
-    if ( ids.length ) await actor.deleteEmbeddedDocuments("ActiveEffect", ids);
+    const effects = actor.effects.filter(expired).map(e => e.id);
+    if ( effects.length ) await actor.deleteEmbeddedDocuments("ActiveEffect", effects);
+    const items = actor.items.filter(expired).map(i => i.id);
+    if ( items.length ) await actor.deleteEmbeddedDocuments("Item", items);
   }
 }

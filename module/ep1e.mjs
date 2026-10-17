@@ -22,6 +22,12 @@ Hooks.once("init", () => {
   console.log(`${SYSTEM_ID} | Initializing Eclipse Phase (1st Edition)`);
 
   CONFIG.EP1E = EP1E;
+
+  // Optional rule (X-Risks p. 165): a successful Willpower Stress Test still takes half the stress
+  game.settings.register(SYSTEM_ID, "halfStressOnSuccess", {
+    name: "EP1E.Setting.halfStressOnSuccess", hint: "EP1E.Setting.halfStressOnSuccessHint",
+    scope: "world", config: true, type: Boolean, default: false
+  });
   game[SYSTEM_ID] = { tests, rollItemMacro };
 
   CONFIG.Actor.documentClass = EPActor;
@@ -137,6 +143,13 @@ function preloadTemplates() {
     `${base}/dialog/resleeve.hbs`,
     `${base}/dialog/fork.hbs`,
     `${base}/dialog/favor.hbs`,
+    `${base}/dialog/healing.hbs`,
+    `${base}/dialog/helper.hbs`,
+    `${base}/dialog/helper-fields.hbs`,
+    `${base}/dialog/stress-test.hbs`,
+    `${base}/dialog/derangement.hbs`,
+    `${base}/dialog/therapy.hbs`,
+    `${base}/dialog/surgery.hbs`,
     `${base}/parts/effects-list.hbs`
   ]);
 }

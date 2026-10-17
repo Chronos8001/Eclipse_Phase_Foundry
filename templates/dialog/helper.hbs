@@ -1,0 +1,8 @@
+<div class="ep1e helper-dialog">
+  {{> "systems/ep1e/templates/dialog/helper-fields.hbs"}}
+  <div class="form-group">
+    <label>{{localize "EP1E.Test.modifier"}}</label>
+    <input type="number" name="modifier" value="0" step="10">
+  </div>
+  {{#if hint}}<p class="hint">{{hint}}</p>{{/if}}
+</div>

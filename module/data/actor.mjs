@@ -44,6 +44,8 @@ export class EgoData extends foundry.abstract.TypeDataModel {
       favors: new SchemaField(Object.fromEntries(REP_NETWORKS.map(k => [k, new SchemaField(
         Object.fromEntries([1, 2, 3, 4, 5].map(l => [`l${l}`, new NumberField({ required: true, nullable: true, initial: null })]))
       )]))),
+      // Hardening (p. 214): successful Willpower Stress Tests against each source; 5 make the ego immune to it
+      hardening: new ArrayField(new SchemaField({ source: text(), successes: int(0, { min: 0 }) })),
       // A fork of another ego (pp. 273-275): its kind, the original's actor UUID and the world time it was made
       fork: new SchemaField({
         kind: new StringField({ required: true, blank: true, initial: "", choices: ["alpha", "beta", "delta"] }),

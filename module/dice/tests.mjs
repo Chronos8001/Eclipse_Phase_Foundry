@@ -9,6 +9,7 @@ import { rollSeizureTest } from "./psi.mjs";
 import { scorchEffect } from "./mesh.mjs";
 import { rollAddictionTest } from "./substances.mjs";
 import { applyEgoResult, egoSummary } from "./ego.mjs";
+import { promptDerangement } from "./mental.mjs";
 
 const TEMPLATES = {
   dialog: `systems/${SYSTEM_ID}/templates/dialog/test.hbs`,
@@ -107,6 +108,8 @@ async function promptTest(actor, options) {
  * @param {object} [options.attack]        Weapon attack data, enables the damage button
  * @param {object} [options.defense]       Defense against an attack card: { attackId, tokenUuid }
  * @param {object} [options.ego]           Ego test with an "apply" button (dice/ego.mjs): { kind, ... }
+ * @param {boolean} [options.ownPenalty=true] Apply the actor's wound, trauma and other penalties (false for a test
+ *                                          made with someone else's skill, such as a therapist's)
  * @param {object} [options.input]         Preset dialog values (difficulty, modifier, specialized, ignoreMods, messageMode)
  * @param {boolean} [options.fastForward]  Skip the dialog
  */
@@ -124,7 +127,7 @@ export async function rollSkillTest(actor, options = {}) {
   const multiplier = options.aptitude ? Math.max(1, Number(input.multiplier) || 1) : 1;
   base *= multiplier;
 
-  const penalty = actor.system.penalty?.total ?? 0;
+  const penalty = (options.ownPenalty === false) ? 0 : (actor.system.penalty?.total ?? 0);
   const ignoreMods = !!input.ignoreMods && (actor.system.moxie.value > 0);
   const situational = (Number(input.difficulty) || 0) + (Number(input.modifier) || 0) + (input.specialized ? 10 : 0);
   const modifier = ignoreMods ? 0 : situational - penalty;
@@ -412,6 +415,11 @@ async function handleChatAction(message, dataset, event) {
     case "waive": return waiveDefense(message, dataset.tokenUuid);
     case "scatter": return rollScatter(message);
     case "egoApply": return applyEgoResult(message);
+    case "derangement": {
+      const actor = await fromUuid(dataset.actorUuid);
+      if ( actor?.isOwner ) return promptDerangement(actor);
+      return;
+    }
     case "egoBurn": return applyEgoResult(message, "burn");
     case "scorchEffect": {
       const test = message.getFlag(SYSTEM_ID, "test");

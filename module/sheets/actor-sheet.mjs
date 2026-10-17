@@ -6,6 +6,7 @@ import { reloadWeapon } from "../dice/attack.mjs";
 import { createAIActor, hackSystem, removeIntrusion, scorch, subvertSystem, updateIntrusion } from "../dice/mesh.mjs";
 import { ALERTS, statusModifier } from "../rules/mesh.mjs";
 import { creationSummary, promptRez } from "../dice/advancement.mjs";
+import * as mentalDice from "../dice/mental.mjs";
 import { endIntegration, favorStatus, mergeFork, promptFavor, promptFork, promptResleeve, rollBackupTest } from "../dice/ego.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
@@ -45,6 +46,15 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       merge: EPActorSheet.#onMerge,
       favor: EPActorSheet.#onFavor,
       spendRez: EPActorSheet.#onSpendRez,
+      heal: EPActorSheet.#onMentalAction,
+      medicalCare: EPActorSheet.#onMentalAction,
+      stressTest: EPActorSheet.#onMentalAction,
+      derangement: EPActorSheet.#onMentalAction,
+      mentalHealing: EPActorSheet.#onMentalAction,
+      disorderHealing: EPActorSheet.#onMentalAction,
+      therapy: EPActorSheet.#onMentalAction,
+      surgery: EPActorSheet.#onMentalAction,
+      removeHardening: EPActorSheet.#onRemoveHardening,
       itemToChat: EPActorSheet.#onItemToChat,
       applyHarm: EPActorSheet.#onApplyHarm,
       fall: EPActorSheet.#onFall,
@@ -372,6 +382,21 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
 
   static #onMerge() {
     return mergeFork(this.document);
+  }
+
+  /** Healing and mental health actions (dice/mental.mjs), by the button's data-action. */
+  static #onMentalAction(event, target) {
+    const actions = {
+      heal: mentalDice.promptHealing, medicalCare: mentalDice.promptMedicalCare, stressTest: mentalDice.promptStressTest,
+      derangement: mentalDice.promptDerangement, mentalHealing: mentalDice.rollMentalHealing,
+      disorderHealing: mentalDice.rollDisorderHealing, therapy: mentalDice.promptTherapy, surgery: mentalDice.promptSurgery
+    };
+    return actions[target.dataset.action]?.(this.document);
+  }
+
+  static #onRemoveHardening(event, target) {
+    const list = this.document.system.hardening.filter((h, i) => i !== Number(target.dataset.index));
+    return this.document.update({ "system.hardening": list });
   }
 
   static #onSpendRez() {
