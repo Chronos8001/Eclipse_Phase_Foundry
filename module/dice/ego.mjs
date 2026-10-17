@@ -1,5 +1,6 @@
 import { REP_NETWORKING, REP_NETWORKS, SKILLS, SYSTEM_ID } from "../config.mjs";
 import * as ego from "../rules/ego.mjs";
+import * as traits from "../rules/traits.mjs";
 import { applyToActor, evaluateTest, gmWhisper, renderTestCard, rollSkillTest } from "./tests.mjs";
 import { MENTAL_KINDS, applyMentalResult, mentalSummary } from "./mental.mjs";
 
@@ -17,8 +18,7 @@ const L = (key, data) => (data ? game.i18n.format(`EP1E.Ego.${key}`, data) : gam
 const PHYSICAL_APTITUDES = ["coo", "ref", "som"];
 const PHYSICAL_SKILLS = Object.entries(SKILLS).filter(([, c]) => PHYSICAL_APTITUDES.includes(c.aptitude)).map(([k]) => k);
 
-const traitLevel = (actor, key) => Math.max(0, ...actor.items.filter(i => (i.type === "trait") && (i.system.key === key))
-  .map(i => i.system.level));
+const traitLevel = (actor, key) => traits.traitLevel(actor.items, key);
 
 async function prompt(title, template, data, icon = "fa-solid fa-id-card") {
   const content = await render(T(template), data);
@@ -79,6 +79,7 @@ export async function promptResleeve(actor, morph, { preset = [], situation = "s
   });
   return rollSkillTest(actor, {
     label: L("continuity"), target: apt.wil.value * 3, fastForward: true,
+    input: { modifier: traits.phoenixBonus(traitLevel(actor, "phoenix")) },
     ego: { kind: "continuity", situation: data.situation, notKnowing: !!data.notKnowing }
   });
 }
@@ -205,6 +206,7 @@ export async function createFork(actor, kind, { longTerm = false, fromBackup = f
     if ( fromBackup ) {
       await rollSkillTest(fork, {
         label: L("continuity"), target: fork.system.aptitudes.wil.value * 3, fastForward: true,
+        input: { modifier: traits.phoenixBonus(traitLevel(fork, "phoenix")) },
         ego: { kind: "continuity", situation: "fork", notKnowing: false }
       });
     }
@@ -229,10 +231,12 @@ export async function mergeFork(fork) {
   const apart = Math.max(0, game.time.worldTime - (created ?? game.time.worldTime));
   const row = ego.MERGING.indexOf(ego.mergingRow(apart));
   const { target } = original.system.getSkillTarget("psychosurgery");
+  // Ego Plasticity (Transhuman p. 83): +10 per level, and 1 SV less per level
+  const plasticity = traits.egoPlasticity(traitLevel(original, "egoPlasticity"));
   return rollSkillTest(original, {
     label: L("merge", { fork: fork.name }), target,
-    input: { modifier: ego.MERGING[row].modifier },
-    ego: { kind: "merge", row, fork: fork.uuid, forkName: fork.name, hours: Math.floor(apart / 3600) }
+    input: { modifier: ego.MERGING[row].modifier + plasticity.modifier },
+    ego: { kind: "merge", row, fork: fork.uuid, forkName: fork.name, hours: Math.floor(apart / 3600), svMod: plasticity.sv }
   });
 }
 
@@ -396,7 +400,7 @@ export async function applyEgoResult(message, mode = "apply") {
       const row = ego.MERGING[e.row];
       const out = result.success ? row.success : row.failure;
       const roll = await new Roll(out.sv).evaluate();
-      const sv = Math.max(0, roll.total);
+      const sv = Math.max(0, roll.total + (e.svMod ?? 0));
       if ( sv ) await applyStress(actor, sv);
       return markApplied(message, test, L("mergeDone", { sv, memory: L(`memory.${out.memory}`), fork: e.forkName }));
     }

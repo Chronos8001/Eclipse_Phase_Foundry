@@ -1,6 +1,7 @@
 import { APTITUDES, REP_NETWORKS, SKILLS } from "../config.mjs";
 import { layeredArmorModifier } from "../rules/combat.mjs";
 import { psiShieldArmor, SUSTAINED_PENALTY } from "../rules/psi.mjs";
+import { traitAptitudeMax, traitBonuses } from "../rules/traits.mjs";
 
 const { SchemaField, NumberField, StringField, HTMLField, BooleanField, ArrayField } = foundry.data.fields;
 
@@ -95,11 +96,14 @@ export class EgoData extends foundry.abstract.TypeDataModel {
     const morph = this.activeMorph;
     const m = morph?.system;
     const mods = this.mods;
+    // Traits with a fixed effect (Tough, Frail Sanity, Pain Tolerance...)
+    const traits = traitBonuses(actor.items.filter(i => i.type === "trait").map(i => ({ key: i.system.key, level: i.system.level })));
+    this.traitBonuses = traits;
 
     // Aptitudes: ego base limited by the morph's aptitude maximum, then augmented (Core p. 124)
     for ( const key of APTITUDES ) {
       const apt = this.aptitudes[key];
-      apt.max = m ? m.aptitudeMax[key] : APTITUDE_HARD_CAP;
+      apt.max = traitAptitudeMax(m ? m.aptitudeMax[key] : APTITUDE_HARD_CAP, key, traits);
       apt.morph = m ? m.aptitudeBonus[key] : 0;
       apt.value = Math.clamp(Math.min(apt.base + apt.morph, apt.max) + apt.mod, 0, APTITUDE_HARD_CAP);
       apt.capped = (apt.base + apt.morph) > apt.max;
@@ -114,15 +118,16 @@ export class EgoData extends foundry.abstract.TypeDataModel {
     // Morph statistics
     const isSynth = m?.morphType === "synthmorph";
     const isInfomorph = m?.morphType === "infomorph";
-    const dur = Math.max(0, (m?.durability ?? 0) + mods.dur);
+    const dur = Math.max(0, (m?.durability ?? 0) + mods.dur + traits.dur);
     const wt = Math.max(0, Math.ceil(dur / 5) + mods.wt);
     const dr = isSynth ? dur * 2 : Math.ceil(dur * 1.5);
-    const luc = Math.max(0, (a("wil") * 2) + mods.luc);
+    const luc = Math.max(0, (a("wil") * 2) + mods.luc + traits.luc);
     const tt = Math.max(0, Math.ceil(luc / 5) + mods.tt - (psiLevel > 0 ? 1 : 0));
     const ir = luc * 2;
-    const init = ((a("int") + a("ref")) * 2) + (m?.initMod ?? 0) + mods.init;
+    const init = ((a("int") + a("ref")) * 2) + (m?.initMod ?? 0) + mods.init + traits.init;
     const spd = Math.clamp(1 + (m?.speedMod ?? 0) + mods.spd, 1, 4);
-    const db = Math.floor(a("som") / 10) + mods.db;
+    // Weak Grip: no damage bonus in melee (Panopticon p. 148)
+    const db = traits.noDamageBonus ? 0 : Math.floor(a("som") / 10) + mods.db;
     this.stats = { dur, wt, dr, luc, tt, ir, init, spd, db, isSynth, isInfomorph };
 
     // Armor: morph armor plus all equipped armor items; accessories are not layers (Core p. 194)
@@ -147,9 +152,10 @@ export class EgoData extends foundry.abstract.TypeDataModel {
     // Health and mental health tracks (max values feed the token bars)
     this.damage.max = dur;
     this.stress.max = luc;
-    const ignoredWounds = Math.min(MAX_IGNORED_WOUNDS, mods.woundsIgnored + (isSynth ? 1 : 0));
-    const woundPenalty = Math.max(0, this.wounds.value - ignoredWounds) * 10;
-    const traumaPenalty = Math.max(0, this.trauma.value - mods.traumasIgnored) * 10;
+    const ignoredWounds = Math.min(MAX_IGNORED_WOUNDS, mods.woundsIgnored + traits.woundsIgnored + (isSynth ? 1 : 0));
+    // Low Pain Tolerance: -20 per wound (Core p. 150)
+    const woundPenalty = Math.max(0, this.wounds.value - ignoredWounds) * (10 + traits.woundPenalty);
+    const traumaPenalty = Math.max(0, this.trauma.value - mods.traumasIgnored - traits.traumasIgnored) * 10;
     // Penalties are positive numbers subtracted from tests; only wounds and traumas lower Initiative (Core p. 189)
     const armorPenalty = -layeredArmorModifier(armor.layers);
     const actionPenalty = -mods.actions;
@@ -183,8 +189,8 @@ export class EgoData extends foundry.abstract.TypeDataModel {
       const s = item.system;
       s.aptitudeValue = this.aptitudes[s.aptitude]?.value ?? 0;
       s.morphBonus = bonuses[s.key] ?? 0;
-      // Implants and other effects (system.skillMods.<key>) add to the skill's other modifier
-      s.effectBonus = this.skillMods[s.key] ?? 0;
+      // Implants and other effects (system.skillMods.<key>) and traits add to the skill's other modifier
+      s.effectBonus = (this.skillMods[s.key] ?? 0) + (this.traitBonuses?.skillMods[s.key] ?? 0);
       const cannotDefault = (s.noDefault || this.ai) && (s.ranks <= 0);
       s.total = cannotDefault ? 0 : Math.max(0, s.aptitudeValue + s.ranks + s.morphBonus + s.mod + s.effectBonus);
       s.defaulting = s.ranks <= 0;
@@ -210,7 +216,7 @@ export class EgoData extends foundry.abstract.TypeDataModel {
     if ( !cfg ) return { target: 0, label: "", skill: null };
     const label = game.i18n.localize(`EP1E.Skill.${key}`);
     const canDefault = !cfg.noDefault && !this.ai;
-    const target = canDefault ? this.aptitudes[cfg.aptitude].value + (this.skillMods[key] ?? 0) : 0;
+    const target = canDefault ? this.aptitudes[cfg.aptitude].value + (this.skillMods[key] ?? 0) + (this.traitBonuses?.skillMods[key] ?? 0) : 0;
     return { target, label, skill: null };
   }
 }

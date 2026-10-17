@@ -11,7 +11,8 @@
         <img src="{{item.img}}" alt="">
         <span class="name"><a data-action="itemToChat">{{item.name}}</a>{{#if (gt item.system.level 1)}} ({{localize "EP1E.Trait.level"}} {{item.system.level}}){{/if}}
           <small>{{localize (lookup @root.config.traitTypes item.system.traitType)}} · {{localize (lookup @root.config.traitScopes item.system.scope)}}</small></span>
-        <span class="value">{{item.system.cost}} CP</span>
+        {{#if item.system.automated}}<i class="fa-solid fa-gears automated" data-tooltip="EP1E.Trait.automated"></i>{{/if}}
+        <span class="value">{{item.system.levelCost}} CP</span>
         {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
       </li>
       {{else}}

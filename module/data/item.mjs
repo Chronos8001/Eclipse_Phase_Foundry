@@ -1,4 +1,5 @@
 import { APTITUDES, SKILLS } from "../config.mjs";
+import { isAutomated, levelCosts } from "../rules/traits.mjs";
 
 const { SchemaField, NumberField, StringField, BooleanField, HTMLField, ArrayField } = foundry.data.fields;
 
@@ -93,12 +94,20 @@ export class TraitData extends BaseItemData {
       ...super.defineSchema(),
       // Rules read some traits by key (psi, psiDefense...), whatever their displayed name
       key: text(),
-      traitType: choice(["positive", "negative"], "positive"),
+      // Neutral: neither positive nor negative, no CP (Alien Biochemistry, Gatecrashing p. 153)
+      traitType: choice(["positive", "negative", "neutral"], "positive"),
       scope: choice(["ego", "morph", "both"], "ego"),
       level: int(1, { min: 0 }),
       cost: int(0, { min: 0 }),
       costText: text()
     };
+  }
+
+  /** CP of the trait at its level: the book's cost of that level, else the cost field. */
+  prepareDerivedData() {
+    const costs = levelCosts(this.costText);
+    this.levelCost = (this.traitType === "neutral") ? 0 : (costs[Math.max(1, this.level) - 1] ?? this.cost);
+    this.automated = isAutomated(this.key);
   }
 }
 

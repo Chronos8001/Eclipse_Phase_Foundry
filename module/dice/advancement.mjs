@@ -22,7 +22,7 @@ export function creationSummary(actor) {
       ranks: s.system.ranks, free: s.system.free, specialized: !!s.system.specialization
     })),
     rep: REP_NETWORKS.map(k => sys.rep[k]),
-    traits: traits.map(t => ({ cost: t.system.cost, negative: t.system.traitType === "negative", morph: t.system.scope === "morph" })),
+    traits: traits.map(t => ({ cost: t.system.levelCost ?? t.system.cost, negative: t.system.traitType === "negative", morph: t.system.scope === "morph" })),
     morph: sys.activeMorph?.system.cpCost ?? 0,
     sleights: actor.items.filter(i => i.type === "sleight").length,
     packages: actor.items.filter(i => (i.type === "background") && (i.system.kind === "package")).reduce((sum, i) => sum + i.system.pp, 0),

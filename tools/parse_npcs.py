@@ -284,6 +284,22 @@ def load(pack, kind=None):
     return items
 
 
+def trait_effects(items):
+    """DUR, LUC and skill bonuses of the traits among the actor's items, as module/rules/traits.mjs gives them."""
+    fx = {"dur": 0, "luc": 0, "skills": {}}
+    for i in items:
+        if i["type"] != "trait":
+            continue
+        key, level = i["system"].get("key"), max(1, i["system"].get("level", 1))
+        fx["dur"] += {"tough": 5 * level, "frail": -5 * level}.get(key, 0)
+        fx["luc"] += {"frailSanity": -5 * level}.get(key, 0)
+        for skill, value in {"socialButterfly": {"networking": 10}, "shutIn": {"networking": -10},
+                             "animalEmpathy": {"animalHandling": 10}, "impairedProprioception": {"fray": -10},
+                             "impairedBalance": {"climbing": -10 * level, "freerunning": -10 * level}}.get(key, {}).items():
+            fx["skills"][skill] = fx["skills"].get(skill, 0) + value
+    return fx
+
+
 def norm(name):
     return re.sub(r"[^a-z0-9]+", " ", name.lower().replace("’", "'")).strip()
 
@@ -551,9 +567,14 @@ def actor(block, folder, sort):
         if s and not any(i["name"] == s["name"] for i in items):
             add(clone(s, "", 0))
 
+    # The printed stats include the traits' fixed effects, which the system adds itself (module/rules/traits.mjs)
+    fx = trait_effects(items)
+    if "dur" in mods:
+        mods["dur"] -= fx["dur"]
+
     # Derived stats: what the rules do not give goes to the modifiers
     if stats.get("LUC") is not None:
-        mods["luc"] = stats["LUC"] - 2 * total["wil"]
+        mods["luc"] = stats["LUC"] - 2 * total["wil"] - fx["luc"]
         if stats.get("TT") is not None:
             mods["tt"] = stats["TT"] - math.ceil(stats["LUC"] / 5) + (1 if psi else 0)
 
@@ -563,7 +584,7 @@ def actor(block, folder, sort):
     for label in ("Skills", "Active Skills", "Knowledge Skills"):
         for key, sname, field, val, spec in parse_skills(get(label)):
             aptitude, category = threats.SKILLS.get(key, ("cog", "knowledge"))
-            ranks = max(0, val - total[aptitude] - morph_skill.get(key, 0)) if key else val
+            ranks = max(0, val - total[aptitude] - morph_skill.get(key, 0) - fx["skills"].get(key, 0)) if key else val
             skill_values.setdefault(key, val)
             add({"name": sname, "type": "skill",
                  "img": "icons/svg/book.svg" if category == "knowledge" else "icons/svg/d20-black.svg",

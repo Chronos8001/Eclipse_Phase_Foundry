@@ -110,6 +110,8 @@
       "surgeryTitle": "Psychochirurgie sur {name}",
       "procedureLabel": "Procédure",
       "surgeryConditions": "Conditions",
+      "voluntary": "Psychochirurgie volontaire",
+      "voluntaryHint": "Le sujet a accepté la procédure (le trait Malleable Mind ne compte que dans ce cas).",
       "resists": "Le sujet résiste (VOL × 3)",
       "surgeryHint": "Test opposé : Psychosurgery contre VOL × 3 ; le stress s’applique quel que soit le résultat (p. 232).",
       "surgeryLabel": "{procedure} par {name} (Psychosurgery)",
@@ -193,7 +195,30 @@
       "done": "Migration vers Eclipse Phase {version} terminée.",
       "failed": "Migration terminée avec {count} erreur(s) : voir la console (F12)."
     },
+    "Pack": {
+      "morphs": "Morphes (Morph Recognition Guide)",
+      "traits": "Traits (livre de base)",
+      "weapons": "Armes (livre de base)",
+      "armor": "Armures (livre de base)",
+      "augmentations": "Augmentations (livre de base)",
+      "gear": "Équipement (livre de base)",
+      "substances": "Drogues et toxines (livre de base)",
+      "supplement-gear": "Équipement (suppléments)",
+      "software": "Logiciels (livre de base)",
+      "vehicles": "Robots et véhicules",
+      "threats": "Menaces et créatures (X-Risks)",
+      "npcs": "PNJ et créatures (livre de base, suppléments, scénarios)",
+      "rules-reference": "Aide-mémoire des règles",
+      "supplement-traits": "Traits (Transhuman, Sunward, Rimward, Gatecrashing, Panopticon, Firewall)",
+      "mental-health": "Dérangements et troubles mentaux (livre de base, Transhuman)",
+      "backgrounds": "Historiques, factions et packages (livre de base, Transhuman)",
+      "sleights": "Pouvoirs psi (livre de base, Transhuman, X-Risks)"
+    },
     "Setting": {
+      "initiativeRule": "Initiative",
+      "initiativeRuleHint": "Livre de base (p. 188) : 1d100 + INIT, avec INIT = (INT + RÉF) × 2. Suppléments (Transhuman p. 97, X-Risks) : 1d10 + INIT, avec INIT = (INT + RÉF) ÷ 5. Les bonus des suppléments (+1) valent +10 à l’échelle du livre de base. Recharge le monde.",
+      "initiativeCore": "Livre de base : 1d100 + (INT + RÉF) × 2",
+      "initiativeSupplements": "Suppléments : 1d10 + (INT + RÉF) ÷ 5",
       "halfStressOnSuccess": "Stress même réussi (règle optionnelle de X-Risks)",
       "halfStressOnSuccessHint": "Un test de stress réussi inflige quand même la moitié du stress (arrondi inférieur), règle optionnelle de X-Risks p. 165. Désactivé : règle du livre de base (aucun stress)."
     },
@@ -554,6 +579,8 @@
     },
     "SkillCategory": { "active": "Compétences actives", "knowledge": "Compétences de savoir" },
     "Skill": {
+      "sortAlpha": "Revenir à l’ordre alphabétique",
+      "orderHint": "Glissez une compétence sur une autre pour changer l’ordre.",
       "filter": "Filtrer les compétences…",
       "free": "Rangs gratuits",
       "freeHint": "Rangs donnés par l’historique, la faction ou la langue maternelle : ils ne coûtent pas de PC",
@@ -763,6 +790,9 @@
     },
     "MorphType": { "biomorph": "Biomorphe", "pod": "Pod", "synthmorph": "Synthomorphe", "infomorph": "Infomorphe" },
     "Trait": {
+      "automated": "Effet appliqué par le système",
+      "automatedHint": "Le système applique l’effet de ce trait (statistiques, compétences ou dialogue concerné) d’après sa clé et son niveau.",
+      "levelCost": "Coût à ce niveau : {cost} PC.",
       "none": "Aucun trait.",
       "type": "Type",
       "scope": "Portée",
@@ -772,7 +802,7 @@
       "effectHint": "Ajoutez un effet actif (onglet Effets) pour automatiser un bonus, par ex. system.mods.woundsIgnored + 1.",
       "keyHint": "Utilisée par les règles : psi (niveau du trait Psi), psiDefense, psiVulnerability. Gardez la valeur du compendium."
     },
-    "TraitType": { "positive": "Positif", "negative": "Négatif" },
+    "TraitType": { "positive": "Positif", "negative": "Négatif", "neutral": "Neutre" },
     "TraitScope": { "ego": "Égo", "morph": "Morphe", "both": "Égo ou morphe" },
     "Weapon": {
       "name": "Arme",

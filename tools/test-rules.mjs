@@ -8,6 +8,7 @@ import * as gear from "../module/rules/gear.mjs";
 import * as ego from "../module/rules/ego.mjs";
 import * as adv from "../module/rules/advancement.mjs";
 import * as mental from "../module/rules/mental.mjs";
+import * as traits from "../module/rules/traits.mjs";
 
 const t = (value, target, moxie = null) => evaluateTest({ value, target, moxie });
 
@@ -376,5 +377,51 @@ assert.deepEqual(mental.surgeryStress(5, t(66, 50)), { sv: 5, trauma: true });
 assert.deepEqual(mental.surgeryStress(3, t(60, 70), ["timeAcceleration", "safetyIgnored"]), { sv: 10, trauma: false });
 assert.equal(mental.surgeryModifier("behavioralControl", "block", ["nonHuman"]), -40);
 assert.equal(mental.surgeryModifier("interrogation", "standard"), 30);
+
+/* Traits with fixed effects */
+// Tough: +5 DUR per level, so Level 3 gives +15 (Core p. 148); Frail Level 2: -10 (p. 149)
+assert.equal(traits.traitBonuses([{ key: "tough", level: 3 }]).dur, 15);
+assert.equal(traits.traitBonuses([{ key: "tough", level: 1 }, { key: "frail", level: 2 }]).dur, -5);
+// Wound Threshold follows DUR: a splicer (DUR 30, WT 6) with Tough 1 has DUR 35, WT 7 (ceil(35 / 5))
+assert.equal(Math.ceil((30 + traits.traitBonuses([{ key: "tough", level: 1 }]).dur) / 5), 7);
+// Pain Tolerance 2 ignores 2 wounds (p. 146); Trauma Tolerance 1 ignores 1 trauma (Transhuman p. 86)
+assert.equal(traits.traitBonuses([{ key: "painTolerance", level: 2 }]).woundsIgnored, 2);
+assert.equal(traits.traitBonuses([{ key: "traumaTolerance", level: 1 }]).traumasIgnored, 1);
+// Low Pain Tolerance: -20 per wound (p. 150)
+assert.equal(10 + traits.traitBonuses([{ key: "lowPainTolerance", level: 1 }]).woundPenalty, 20);
+// Frail Sanity 2: -10 LUC (Transhuman p. 90)
+assert.equal(traits.traitBonuses([{ key: "frailSanity", level: 2 }]).luc, -10);
+// Aged: aptitude maximums -5 (a splicer's 25 becomes 20), -10 to physical skills (p. 148)
+const aged = traits.traitBonuses([{ key: "aged", level: 1 }]);
+assert.equal(traits.traitAptitudeMax(25, "cog", aged), 20);
+assert.equal(aged.skillMods.climbing, -10);
+assert.equal(aged.skillMods.academics, undefined);
+// Unfit 2: COO, REF, SOM maximums -10 (p. 152), not COG
+const unfit = traits.traitBonuses([{ key: "unfit", level: 2 }]);
+assert.equal(traits.traitAptitudeMax(30, "som", unfit), 20);
+assert.equal(traits.traitAptitudeMax(30, "cog", unfit), 30);
+// Curbed Intelligence: COG maximum 15 (Transhuman p. 88); Botched Uplift: COG and SAV 10 (p. 87)
+assert.equal(traits.traitAptitudeMax(30, "cog", traits.traitBonuses([{ key: "curbedIntelligence", level: 1 }])), 15);
+assert.equal(traits.traitAptitudeMax(30, "sav", traits.traitBonuses([{ key: "botchedUplift", level: 1 }])), 10);
+// Heightened Instinct: +1 Initiative on the 1d10 scale = +10 here (Transhuman p. 84)
+assert.equal(traits.traitBonuses([{ key: "heightenedInstinct", level: 1 }]).init, 10);
+// Social Butterfly +10 and Shut-In -10 to Networking (Panopticon pp. 145, 147); Impaired Balance 3: -30 Climbing
+assert.equal(traits.traitBonuses([{ key: "socialButterfly", level: 1 }, { key: "shutIn", level: 1 }]).skillMods.networking, 0);
+assert.equal(traits.traitBonuses([{ key: "impairedBalance", level: 3 }]).skillMods.climbing, -30);
+assert.equal(traits.traitBonuses([{ key: "weakGrip", level: 1 }]).noDamageBonus, true);
+assert.equal(traits.traitBonuses([{ key: "brave", level: 1 }]).dur, 0);
+// Dialog traits: Phoenix +20/+30, Ego Plasticity 2: +20 and -2 SV, Malleable Mind 3 voluntary -30, involuntary 0
+assert.equal(traits.phoenixBonus(1), 20);
+assert.equal(traits.phoenixBonus(2), 30);
+assert.deepEqual(traits.egoPlasticity(2), { modifier: 20, sv: -2 });
+assert.equal(traits.malleableMind(3, true), -30);
+assert.equal(traits.malleableMind(3, false), 0);
+assert.equal(traits.traitLevel([{ type: "trait", system: { key: "phoenix", level: 2 } }, { type: "skill", system: { key: "phoenix" } }], "phoenix"), 2);
+// Costs by level: Adaptability 10/20 (Core p. 145), Psi 20/25 (p. 147), Addiction 5/10/20, Frail Sanity's "Level 20" typo
+assert.deepEqual(traits.levelCosts("Cost: 10 (Level 1) or 20 (Level 2) CP"), [10, 20]);
+assert.deepEqual(traits.levelCosts("Cost: 20 CP (Level 1), 25 CP (Level 2)"), [20, 25]);
+assert.deepEqual(traits.levelCosts("Bonus: 5 CP (Minor), 10 CP (Moderate), or 20 CP (Major)"), [5, 10, 20]);
+assert.deepEqual(traits.levelCosts("Bonus: 10 CP (Level 1) or 20 CP (Level 20)"), [10, 20]);
+assert.deepEqual(traits.levelCosts("Cost: 10 CP"), []);
 
 console.log("Rules checks passed.");

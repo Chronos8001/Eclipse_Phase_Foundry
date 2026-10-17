@@ -110,6 +110,8 @@
       "surgeryTitle": "Psychosurgery on {name}",
       "procedureLabel": "Procedure",
       "surgeryConditions": "Conditions",
+      "voluntary": "Voluntary psychosurgery",
+      "voluntaryHint": "The subject agreed to the procedure (the Malleable Mind trait only counts then).",
       "resists": "The subject resists (WIL × 3)",
       "surgeryHint": "Opposed test: Psychosurgery against WIL × 3; the stress applies whatever the outcome (p. 232).",
       "surgeryLabel": "{procedure} by {name} (Psychosurgery)",
@@ -193,7 +195,30 @@
       "done": "Migration to Eclipse Phase {version} complete.",
       "failed": "Migration finished with {count} error(s): see the console (F12)."
     },
+    "Pack": {
+      "morphs": "Morphs (Morph Recognition Guide)",
+      "traits": "Traits (Core)",
+      "weapons": "Weapons (Core)",
+      "armor": "Armor (Core)",
+      "augmentations": "Augmentations (Core)",
+      "gear": "Gear (Core)",
+      "substances": "Drugs and Toxins (Core)",
+      "supplement-gear": "Gear (Supplements)",
+      "software": "Software (Core)",
+      "vehicles": "Robots and Vehicles",
+      "threats": "Threats and Creatures (X-Risks)",
+      "npcs": "NPCs and Creatures (Core, Supplements, Scenarios)",
+      "rules-reference": "Rules Reference (French)",
+      "supplement-traits": "Traits (Transhuman, Sunward, Rimward, Gatecrashing, Panopticon, Firewall)",
+      "mental-health": "Derangements and Mental Disorders (Core, Transhuman)",
+      "backgrounds": "Backgrounds, Factions and Packages (Core, Transhuman)",
+      "sleights": "Psi Sleights (Core, Transhuman, X-Risks)"
+    },
     "Setting": {
+      "initiativeRule": "Initiative",
+      "initiativeRuleHint": "Core Rulebook (p. 188): 1d100 + INIT, with INIT = (INT + REF) × 2. Supplements (Transhuman p. 97, X-Risks): 1d10 + INIT, with INIT = (INT + REF) ÷ 5. The supplements’ bonuses (+1) are worth +10 on the Core scale. Reloads the world.",
+      "initiativeCore": "Core Rulebook: 1d100 + (INT + REF) × 2",
+      "initiativeSupplements": "Supplements: 1d10 + (INT + REF) ÷ 5",
       "halfStressOnSuccess": "Stress on a success (X-Risks optional rule)",
       "halfStressOnSuccessHint": "A successful Willpower Stress Test still takes half the stress (round down), as in the optional rule of X-Risks p. 165. Off: the Core rule (no stress)."
     },
@@ -554,6 +579,8 @@
     },
     "SkillCategory": { "active": "Active Skills", "knowledge": "Knowledge Skills" },
     "Skill": {
+      "sortAlpha": "Back to alphabetical order",
+      "orderHint": "Drag a skill onto another to change the order.",
       "filter": "Filter skills…",
       "free": "Free ranks",
       "freeHint": "Ranks given by the background, faction or native tongue: they cost no CP",
@@ -763,6 +790,9 @@
     },
     "MorphType": { "biomorph": "Biomorph", "pod": "Pod", "synthmorph": "Synthmorph", "infomorph": "Infomorph" },
     "Trait": {
+      "automated": "Effect applied by the system",
+      "automatedHint": "The system applies this trait’s effect (statistics, skills or the relevant dialog) from its key and level.",
+      "levelCost": "Cost at this level: {cost} CP.",
       "none": "No traits.",
       "type": "Type",
       "scope": "Scope",
@@ -772,7 +802,7 @@
       "effectHint": "Add an active effect (Effects tab) to automate a bonus, e.g. system.mods.woundsIgnored + 1.",
       "keyHint": "Used by the rules: psi (Psi trait level), psiDefense, psiVulnerability. Keep the compendium value."
     },
-    "TraitType": { "positive": "Positive", "negative": "Negative" },
+    "TraitType": { "positive": "Positive", "negative": "Negative", "neutral": "Neutral" },
     "TraitScope": { "ego": "Ego", "morph": "Morph", "both": "Ego or morph" },
     "Weapon": {
       "name": "Weapon",

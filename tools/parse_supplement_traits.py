@@ -136,9 +136,9 @@ def build():
             _id = make_id(book["title"], name)
             docs.append({
                 "_id": _id, "_key": f"!items!{_id}", "name": name, "type": "trait",
-                "img": "icons/svg/upgrade.svg" if polarity == "positive" else "icons/svg/downgrade.svg",
+                "img": {"positive": "icons/svg/upgrade.svg", "negative": "icons/svg/downgrade.svg"}.get(polarity, "icons/svg/aura.svg"),
                 "system": {"key": words[0].lower() + "".join(w.capitalize() for w in words[1:]),
-                           "traitType": "positive" if polarity == "positive" else "negative", "scope": scope, "level": 1,
+                           "traitType": polarity, "scope": scope, "level": 1,
                            "cost": costs[0] if costs else 0, "costText": cost_text,
                            "description": f"<p>{html.escape(desc, quote=False)}</p>"
                                           f"<p><em>Source: Eclipse Phase {book['title']}, p. {e['page']}.</em></p>"},

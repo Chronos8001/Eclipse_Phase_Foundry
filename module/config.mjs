@@ -93,7 +93,7 @@ export const EP1E = {
     synthmorph: "EP1E.MorphType.synthmorph",
     infomorph: "EP1E.MorphType.infomorph"
   },
-  traitTypes: { positive: "EP1E.TraitType.positive", negative: "EP1E.TraitType.negative" },
+  traitTypes: { positive: "EP1E.TraitType.positive", negative: "EP1E.TraitType.negative", neutral: "EP1E.TraitType.neutral" },
   traitScopes: { ego: "EP1E.TraitScope.ego", morph: "EP1E.TraitScope.morph", both: "EP1E.TraitScope.both" },
   backgroundKinds: { background: "EP1E.Background.kind.background", faction: "EP1E.Background.kind.faction", package: "EP1E.Background.kind.package" },
   weaponTypes: { melee: "EP1E.WeaponType.melee", ranged: "EP1E.WeaponType.ranged" },

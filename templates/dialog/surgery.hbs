@@ -15,5 +15,6 @@
     {{#each conditions as |c|}}<label class="checkbox"><input type="checkbox" name="cond.{{c.key}}"> {{localize c.label}} ({{ep1eSigned c.test}})</label>{{/each}}
   </fieldset>
   <label class="checkbox"><input type="checkbox" name="resists" checked> {{localize "EP1E.Mental.resists"}}</label>
+  <label class="checkbox" data-tooltip="EP1E.Mental.voluntaryHint"><input type="checkbox" name="voluntary"> {{localize "EP1E.Mental.voluntary"}}</label>
   <p class="hint">{{localize "EP1E.Mental.surgeryHint"}}</p>
 </div>

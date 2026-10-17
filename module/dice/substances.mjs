@@ -1,5 +1,6 @@
 import { SYSTEM_ID } from "../config.mjs";
 import { addictionTarget, durationTurns, turnsToSeconds } from "../rules/gear.mjs";
+import { DRUG_FIEND_MODIFIER, traitLevel } from "../rules/traits.mjs";
 import { evaluateTest, gmWhisper, rollSkillTest } from "./tests.mjs";
 
 /**
@@ -53,6 +54,8 @@ export async function rollAddictionTest(actor, item) {
   const message = await rollSkillTest(actor, {
     label: game.i18n.format("EP1E.Substance.addictionLabel", { name: item.name }),
     target: addictionTarget(actor.system.aptitudes.wil.value, item.system.addictionMod),
+    // Drug Fiend (Transhuman p. 89): -20 on Addiction Tests
+    input: { modifier: (traitLevel(actor.items, "drugFiend") > 0) ? DRUG_FIEND_MODIFIER : 0 },
     fastForward: true
   });
   const flag = message?.getFlag(SYSTEM_ID, "test");

@@ -1,5 +1,6 @@
 import { SYSTEM_ID } from "../config.mjs";
 import * as mental from "../rules/mental.mjs";
+import * as traits from "../rules/traits.mjs";
 import { applyToActor, evaluateTest, gmWhisper, renderTestCard, rollSkillTest } from "./tests.mjs";
 
 /**
@@ -276,14 +277,18 @@ export async function promptSurgery(actor) {
   let subject = null;
   if ( data.resists ) {
     const roll = await new Roll("1d100").evaluate();
-    const target = Math.max(0, (actor.system.aptitudes.wil.value * 3) - (actor.system.penalty?.total ?? 0));
+    // Malleable Mind (Transhuman p. 85): -10 per level to the subject's test, for voluntary psychosurgery only
+    const malleable = traits.malleableMind(traits.traitLevel(actor.items, "malleableMind"), !!data.voluntary);
+    const target = Math.max(0, (actor.system.aptitudes.wil.value * 3) - (actor.system.penalty?.total ?? 0) + malleable);
     subject = { value: roll.total % 100, target };
   }
+  // Anomalous Mind (Transhuman p. 87): -10 to the psychosurgeon, and 1 SV whatever the result
+  const anomalous = traits.traitLevel(actor.items, "anomalousMind") > 0;
   return rollSkillTest(actor, {
     label: L("surgeryLabel", { name: helper.name, procedure: game.i18n.localize(`EP1E.Mental.procedure.${procedure}`) }),
     target: helper.target, ownPenalty: false, fastForward: true,
-    input: { modifier: mental.surgeryModifier(procedure, degree, conditions) },
-    ego: { kind: "surgery", procedure, degree, conditions, subject }
+    input: { modifier: mental.surgeryModifier(procedure, degree, conditions) + (anomalous ? traits.ANOMALOUS_MIND.modifier : 0) },
+    ego: { kind: "surgery", procedure, degree, conditions, subject, anomalous }
   });
 }
 
@@ -375,6 +380,7 @@ export async function applyMentalResult(message, test, actor) {
       const formula = mental.PROCEDURES[e.procedure].sv;
       const rolled = formula ? (await new Roll(formula).evaluate()).total : 0;
       const stress = mental.surgeryStress(rolled, result, e.conditions);
+      if ( e.anomalous ) stress.sv += traits.ANOMALOUS_MIND.sv;
       if ( stress.sv ) await applyStress(actor, stress.sv);
       if ( stress.trauma ) await actor.update({ "system.trauma.value": actor.system.trauma.value + 1 });
       if ( out.effect !== "none" ) await actor.createEmbeddedDocuments("ActiveEffect", [surgeryEffect(e, out)]);

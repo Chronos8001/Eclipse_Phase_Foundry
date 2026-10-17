@@ -24,4 +24,6 @@
   <label>{{localize "EP1E.Trait.costText"}}</label>
   <input type="text" name="system.costText" value="{{system.costText}}">
 </div>
-<p class="hint">{{localize "EP1E.Trait.effectHint"}}</p>
+{{#if system.automated}}<p class="hint"><i class="fa-solid fa-gears"></i> {{localize "EP1E.Trait.automatedHint"}}</p>
+{{else}}<p class="hint">{{localize "EP1E.Trait.effectHint"}}</p>{{/if}}
+<p class="hint">{{localize "EP1E.Trait.levelCost" cost=system.levelCost}}</p>
