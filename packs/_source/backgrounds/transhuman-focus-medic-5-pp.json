@@ -1,0 +1,112 @@
+{
+  "_id": "50edcb7cff1582db",
+  "_key": "!items!50edcb7cff1582db",
+  "name": "Medic (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are a biotech specialist.</p><p><strong>Suggested Motivations:</strong> +Helping Others, –Violence</p><p><strong>5 PP:</strong> +2 Moxie · +5 COG, +50 r-rep · Academics: (Choose One) 40,Academics: (Choose One) 30, Fray 30, Hardware: Implants 20, Interest: (Choose One) 30, Interfacing 15, Medicine: (Paramedic) 50, Medicine: (Choose Two) 40, Networking: (Choose One) 20, Perception 30, Persuasion 20, Profession: Medical Care 50</p><p><em>Source: Eclipse Phase Transhuman, p. 33.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "Implants",
+        "value": 20
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 15
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Paramedic",
+        "value": 50
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "(Choose Two)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Medical Care",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 2,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "r",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Helping Others, –Violence"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 208000,
+  "ownership": {
+    "default": 0
+  }
+}

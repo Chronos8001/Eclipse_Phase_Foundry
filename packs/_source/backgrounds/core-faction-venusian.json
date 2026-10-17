@@ -1,0 +1,52 @@
+{
+  "_id": "263db5215a43f44e",
+  "_key": "!items!263db5215a43f44e",
+  "name": "Venusian",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>You are a supporter of the Morningstar Confederation of Venusian aerostats, resentful of the growing influence of the Planetary Consortium and other entrenched and conservative inner system powers. You see your faction’s ascension as a chance to reform the old guard ways of inner system politics.</p><p>Advantages: +10 Pilot: Aircraft, +10 to one skill of your choice, +20 Networking: Hypercorps skill Disadvantages: None Common Morphs: Cases, Exalts, Mentons, Splicers, Sylphs, Synths</p><p><em>Source: Eclipse Phase Core Rulebook, p. 134.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Aircraft",
+        "value": 10
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Hypercorps",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to one skill of your choice",
+    "restrictions": "",
+    "morphs": "Cases, Exalts, Mentons, Splicers, Sylphs, Synths",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

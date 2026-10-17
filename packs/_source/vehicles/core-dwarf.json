@@ -1,0 +1,67 @@
+{
+  "_id": "7eaa1d3a5a7cde8c",
+  "_key": "!actors!7eaa1d3a5a7cde8c",
+  "name": "Dwarf",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/12",
+    "maxVelocity": "20",
+    "mobility": "Walker",
+    "av": {
+      "energy": 16,
+      "kinetic": 12
+    },
+    "durability": 150,
+    "woundThreshold": 30,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "+10 SOM, Access Jacks, Extra Limbs (4), Industrial Armor, Radar, Sonar, misc. tools",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>These large industrial bots are named not just for their primary use—mining, excavation, tunneling, and construction—but because the default AIs they shipped with had a programmed tendency to happily whistle as they worked. Dwarfs are quadrapedal walkers, equipped with massive modular industrial tools like boring drills, shovels, hydraulic jacks, jackhammers, scooping arms, acid sprays, and so on.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 345.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 13000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Dwarf",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

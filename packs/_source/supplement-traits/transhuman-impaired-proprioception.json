@@ -1,0 +1,23 @@
+{
+  "_id": "8a6d05b074dfec12",
+  "_key": "!items!8a6d05b074dfec12",
+  "name": "Impaired Proprioception",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "impairedProprioception",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>This trait is only available to octomorphs and flying squid morphs. Baseline cephalopods lack a sense of proprioception in their arms and tentacles, meaning they only know where their limbs are by looking at them. Though a standard proprioceptive sense was added to most octomorph and flying squid models, a number of germlines lack the proper neural structure. A morph with this trait suffers a −10 modifier on Fray Tests to avoid attacks or get out of the way and gains no benefits from the Ambidextrous trait.</p><p><em>Source: Eclipse Phase Transhuman, p. 90.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 51000,
+  "ownership": {
+    "default": 0
+  }
+}

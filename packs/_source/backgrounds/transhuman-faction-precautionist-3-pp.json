@@ -1,0 +1,88 @@
+{
+  "_id": "ca89245564c5aa7e",
+  "_key": "!items!ca89245564c5aa7e",
+  "name": "Precautionist (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You adhere to the Precautionary Principle, believing that the only technology to be adopted should be that which is first proven safe.</p><p><strong>Suggested Motivations:</strong> +Precautionism, +Reclaiming Earth, –Bioconservatism, –Technoprogressivism</p><p><strong>3 PP:</strong> +1 Moxie · +50 Rep (Your Choice) · Academics: (Choose One) 50,Academics: (Choose One) 40, Hardware: (Choose One) 20, Infosec 20, Interfacing 30, Investigation 40, Networking: (Choose One) 30, Research 50</p><p><em>Source: Eclipse Phase Transhuman, p. 26.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Precautionism, +Reclaiming Earth, –Bioconservatism, –Technoprogressivism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 122000,
+  "ownership": {
+    "default": 0
+  }
+}

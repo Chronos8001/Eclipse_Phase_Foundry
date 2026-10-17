@@ -33,7 +33,7 @@
     },
     "movement": "Swim 16/56",
     "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced Hearing, Oxygen Reserve",
-    "advantages": "+5 INT, +5 SOM, +5 to one other aptitude of the player's choice, +50 Swimming skill, Ramming Attack (1d10 DV),",
+    "advantages": "+5 INT, +5 SOM, +5 to one other aptitude of the player’s choice, +50 Swimming skill, Ramming Attack (1d10 DV),",
     "disadvantages": "Neo-porpoises lack a sense of smell",
     "skillBonuses": [
       {
@@ -49,7 +49,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 81000,
+  "sort": 82000,
   "ownership": {
     "default": 0
   }

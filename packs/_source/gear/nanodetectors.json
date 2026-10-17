@@ -1,0 +1,29 @@
+{
+  "_id": "56562ba337ad1e55",
+  "_key": "!items!56562ba337ad1e55",
+  "name": "Nanodetectors",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "nanodetectors",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Nanodetectors are small devices that suck in air and micro debris in order to scan for and detect nanobots. Given that nanobots are so small, the density of nanobots in the area has a large impact on its success. The nanodetector has a base skill of 30 for detecting nanobots, modified by +30 if an active nanoswarm or hive is present, +0 if a nanoswarm or hive was active recently, and –10 for the presence of nanobots outside of a swarm or hive. Once a nanobot is detected it may be analyzed either by the user or the nanodetector’s AI, using Academics: Nanotechnology 30 skill. Nanodetectors are often worn and left on, set to alert the user if a hostile nanoswarm is detected.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 327.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 49000,
+  "ownership": {
+    "default": 0
+  }
+}

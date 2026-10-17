@@ -1,0 +1,29 @@
+{
+  "_id": "798495e676491afc",
+  "_key": "!items!798495e676491afc",
+  "name": "Animal Care",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "animalCare",
+    "cost": "Low per week; Moderate for large animals",
+    "description": "<p>Though smart animals are sometimes self-sufficient, any animal caretaker who plans to be away for an extended period likely needs to have someone make sure their critters get food, water, and exercise.</p><p><em>Source: Eclipse Phase Panopticon, p. 154.</em></p>",
+    "category": "service",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 47000,
+  "ownership": {
+    "default": 0
+  }
+}

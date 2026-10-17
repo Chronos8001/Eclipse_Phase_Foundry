@@ -1,0 +1,52 @@
+{
+  "_id": "7876bca2470d3541",
+  "_key": "!items!7876bca2470d3541",
+  "name": "Colonist: Flight Staff (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You worked on, or even piloted, the ships that kept colonies supplied.</p><p><strong>Suggested Motivations:</strong> +Exploration, +Personal Career, +Thrill Seeking</p><p><strong>1 PP:</strong> +1 Moxie · Pilot: Spacecraft 40, Profession: Flight Crew 30</p><p><em>Source: Eclipse Phase Transhuman, p. 15.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Spacecraft",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Flight Crew",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exploration, +Personal Career, +Thrill Seeking"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

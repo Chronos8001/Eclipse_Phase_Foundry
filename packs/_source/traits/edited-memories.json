@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
+    "key": "editedMemories",
     "traitType": "negative",
     "scope": "ego",
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 CP",
-    "description": "<p>At some point in the character's past, the character had certain memories strategically removed or otherwise lost to them. This may have been done to intentionally forget an unpleasant or shameful experience or to make a break with the past. The memory may also have been lost by an unexpected death (with no recent backup), or it may have been erased against the character's will. Whatever the case, the memory should bear some importance, and there should exist either evidence of what happened or NPCs who know the full story. This is a tool the gamemaster can use to haunt the character at some future point with ghosts from their past.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>At some point in the character’s past, the character had certain memories strategically removed or otherwise lost to them. This may have been done to intentionally forget an unpleasant or shameful experience or to make a break with the past. The memory may also have been lost by an unexpected death (with no recent backup), or it may have been erased against the character’s will. Whatever the case, the memory should bear some importance, and there should exist either evidence of what happened or NPCs who know the full story. This is a tool the gamemaster can use to haunt the character at some future point with ghosts from their past.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 149.</em></p>"
   },
   "effects": [],
   "flags": {},

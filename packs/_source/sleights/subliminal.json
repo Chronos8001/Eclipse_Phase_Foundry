@@ -1,0 +1,33 @@
+{
+  "_id": "dbae8d8e1cc153b2",
+  "_key": "!items!dbae8d8e1cc153b2",
+  "name": "Subliminal",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "subliminal",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": 2,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "control",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The Subliminal sleight allows the async to influence the train of thought of another person by implementing a single post-hypnotic suggestion into the mind of the target. If the async wins the Opposed Test, the recipient will carry out this suggestion as if it was their own idea. Implanted suggestions must be short and simple; as a rule of thumb, the gamemaster may only suggestions encompassed by a short sentence (for example: “open the airlock,” or “hand over the weapon”). At the gamemaster’s discretion, the target may receive a bonus for resisting suggestions that are immediately life threatening (“jump off the bridge”) or that violate their motivations or personal strictures. Suggestions do not need to be carried out immediately, they may be implanted with a short trigger condition (“when the alarm goes off, ignore it”).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 228.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 39000,
+  "ownership": {
+    "default": 0
+  }
+}

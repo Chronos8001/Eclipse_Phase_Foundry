@@ -1,0 +1,29 @@
+{
+  "_id": "3baaf375a2d942e6",
+  "_key": "!items!3baaf375a2d942e6",
+  "name": "Ego Bridges",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "egoBridges",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "Expensive",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Ego bridges are vat devices used for uploading and downloading minds. See Backups and Uploading, p. 268, and Resleeving, p. 271.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 328.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 57000,
+  "ownership": {
+    "default": 0
+  }
+}

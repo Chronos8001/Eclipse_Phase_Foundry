@@ -1,0 +1,29 @@
+{
+  "_id": "f54d3eaf906403e7",
+  "_key": "!items!f54d3eaf906403e7",
+  "name": "Survival Belt",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "survivalBelt",
+    "cost": "Moderate",
+    "description": "<p>This widely used item is a collection of tools that are useful or essential to gatecrashers, all in a comfortable and durable belt with more than a dozen pockets. The standard survival belt contains the following: • Basic Tool Kit (p. 326, EP) • Breadcrumb Positioning System (p. 332, EP) • Electronic Rope (10 meters) (p. 332, EP) • Emergency Rations (p. 158) • Filter Straws (3) (p. 159) • Flashlight (p. 333, EP) • Flex Cutter (p. 334, EP) • 2 Nanobandages (p. 333, EP) • Solar Recharger (p. 155) • Radio Booster (p. 314, EP) • Recon Hopper (p. 161) or Recon Flyer (p. 161) • Repair Spray (p. 333, EP) • Utilitool (p. 326, EP) • Viewers (p. 326, EP) The only essential gear not included is a vacsuit.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 159.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 32000,
+  "ownership": {
+    "default": 0
+  }
+}

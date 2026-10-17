@@ -1,0 +1,456 @@
+{
+  "_id": "c066cf0cd14ac2e7",
+  "_key": "!actors!c066cf0cd14ac2e7",
+  "name": "Exsurgent Virus (Digital)",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 40,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 40,
+        "mod": 0
+      },
+      "ref": {
+        "base": 40,
+        "mod": 0
+      },
+      "sav": {
+        "base": 40,
+        "mod": 0
+      },
+      "som": {
+        "base": 40,
+        "mod": 0
+      },
+      "wil": {
+        "base": 40,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Digital strains are purely information- or code-based versions of the virus. They resemble typical computer virii, worms, or trojans, spreading throughout the mesh, exploiting holes, mimicking protocols, and taking advantage of it like a skilled hacker. Digital versions of the Exsurgent virus are treated as intelligent programs, using the same rules as infomorphs (p. 264), with the following stats:</p><p><strong>Skills:</strong> Hardware: Electronics 50, Infosec 70, Interfacing 60, Investigation 50, Perception 60, Programming 50</p><p><strong>Software:</strong> Exploit, Firewall, Sniffer, Spoof, Track, plus any others the gamemaster considers appropriate</p><p><em>Printed: INIT 160, SPD 3, LUC —, TT —, IR —, DUR —, WT —, DR —.</em></p><p><em>Source: Eclipse Phase Core Rulebook, p. 364.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": ""
+    }
+  },
+  "items": [
+    {
+      "name": "Exsurgent Virus (Digital) (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "infomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 0,
+        "initMod": 0,
+        "speedMod": 2,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "",
+        "implants": "",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "ada4a0464173b067",
+      "_key": "!actors.items!c066cf0cd14ac2e7.ada4a0464173b067",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "6e320ee8f97515f0",
+      "name": "Exploit",
+      "type": "software",
+      "img": "icons/svg/hanging-sign.svg",
+      "system": {
+        "key": "exploit",
+        "category": "program",
+        "quality": 0,
+        "cost": "High",
+        "damage": "",
+        "harm": "none",
+        "effect": "",
+        "aptitudes": {
+          "cog": 10,
+          "coo": 10,
+          "int": 10,
+          "ref": 10,
+          "sav": 10,
+          "som": 10,
+          "wil": 10
+        },
+        "skills": [],
+        "description": "<p>Exploits are hacker tools that take advantage of known vulnerabilities in other software. They are required for intrusion attempts (p. 254).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c066cf0cd14ac2e7.6e320ee8f97515f0"
+    },
+    {
+      "_id": "689ebfff3aefa57b",
+      "name": "Firewall",
+      "type": "software",
+      "img": "icons/svg/hanging-sign.svg",
+      "system": {
+        "key": "firewall",
+        "category": "program",
+        "quality": 0,
+        "cost": "Low",
+        "damage": "",
+        "harm": "none",
+        "effect": "",
+        "aptitudes": {
+          "cog": 10,
+          "coo": 10,
+          "int": 10,
+          "ref": 10,
+          "sav": 10,
+          "som": 10,
+          "wil": 10
+        },
+        "skills": [],
+        "description": "<p>This program protects a device from hostile intrusion. Every system comes with a standard version of this software by default.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c066cf0cd14ac2e7.689ebfff3aefa57b"
+    },
+    {
+      "_id": "f9c3796269354c77",
+      "name": "Sniffer",
+      "type": "software",
+      "img": "icons/svg/hanging-sign.svg",
+      "system": {
+        "key": "sniffer",
+        "category": "program",
+        "quality": 0,
+        "cost": "Moderate",
+        "damage": "",
+        "harm": "none",
+        "effect": "",
+        "aptitudes": {
+          "cog": 10,
+          "coo": 10,
+          "int": 10,
+          "ref": 10,
+          "sav": 10,
+          "som": 10,
+          "wil": 10
+        },
+        "skills": [],
+        "description": "<p>Sniffer programs collect all of the transmission that pass to, from, or through the device they are running on. See Sniffing, p. 252.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c066cf0cd14ac2e7.f9c3796269354c77"
+    },
+    {
+      "_id": "1b5b4df641846d9e",
+      "name": "Spoof",
+      "type": "software",
+      "img": "icons/svg/hanging-sign.svg",
+      "system": {
+        "key": "spoof",
+        "category": "program",
+        "quality": 0,
+        "cost": "Moderate",
+        "damage": "",
+        "harm": "none",
+        "effect": "",
+        "aptitudes": {
+          "cog": 10,
+          "coo": 10,
+          "int": 10,
+          "ref": 10,
+          "sav": 10,
+          "som": 10,
+          "wil": 10
+        },
+        "skills": [],
+        "description": "<p>Spoof is a hacker tool used to fake commands and transmissions, making them seem as if they came from another source. See Spoofing Authentication, p. 255.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c066cf0cd14ac2e7.1b5b4df641846d9e"
+    },
+    {
+      "_id": "41da785810dffdd1",
+      "name": "Tracking",
+      "type": "software",
+      "img": "icons/svg/hanging-sign.svg",
+      "system": {
+        "key": "tracking",
+        "category": "program",
+        "quality": 0,
+        "cost": "Moderate",
+        "damage": "",
+        "harm": "none",
+        "effect": "",
+        "aptitudes": {
+          "cog": 10,
+          "coo": 10,
+          "int": 10,
+          "ref": 10,
+          "sav": 10,
+          "som": 10,
+          "wil": 10
+        },
+        "skills": [],
+        "description": "<p>This software is used to track people by their presence online. See Scanning, Tracking, and Monitoring, p. 251.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c066cf0cd14ac2e7.41da785810dffdd1"
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Electronics",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8d796b7e5b39ab19",
+      "_key": "!actors.items!c066cf0cd14ac2e7.8d796b7e5b39ab19",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e71a47048880ee64",
+      "_key": "!actors.items!c066cf0cd14ac2e7.e71a47048880ee64",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "610984c726fed48f",
+      "_key": "!actors.items!c066cf0cd14ac2e7.610984c726fed48f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ea1007f77c7e6e3a",
+      "_key": "!actors.items!c066cf0cd14ac2e7.ea1007f77c7e6e3a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5c20ab11c4680b0e",
+      "_key": "!actors.items!c066cf0cd14ac2e7.5c20ab11c4680b0e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Programming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "programming",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "acf67674ac0b60bb",
+      "_key": "!actors.items!c066cf0cd14ac2e7.acf67674ac0b60bb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d4856cc7bcb57b20",
+  "sort": 1000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Exsurgent Virus (Digital)",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

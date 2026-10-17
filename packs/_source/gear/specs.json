@@ -1,0 +1,29 @@
+{
+  "_id": "f76427e7cf4068b0",
+  "_key": "!items!f76427e7cf4068b0",
+  "name": "Specs",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "specs",
+    "category": "everyday",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Specs are vision-enhancing glasses. They deliver sensory data directly into the wearer’s visual cortex by connecting with their basic mesh inserts (p. 300), though visual displays are available for bioconservatives and other characters without implants. Specs extend the range of the wearer’s vision from terahertz waves to gamma rays (p. 302). Specs include a t-ray emitter (p. 306), however, using x-rays, or gamma rays for visual purposes requires a separate emitter, since neither of these sorts of radiation are common inside habitats, or in any safe environments. Specs have a variable focus equivalent to 5 power magnifiers and provide the wearer with a +10 bonus to all Perception Tests involving vision.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 326.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 44000,
+  "ownership": {
+    "default": 0
+  }
+}

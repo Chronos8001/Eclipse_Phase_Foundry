@@ -8,6 +8,14 @@
     <input type="number" name="system.kinetic" value="{{system.kinetic}}">
   </div>
   <div class="form-group">
+    <label data-tooltip="EP1E.Armor.accessoryHint">{{localize "EP1E.Armor.accessory"}}</label>
+    <input type="checkbox" name="system.accessory" {{checked system.accessory}}>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Gear.cost"}}</label>
+    <input type="text" name="system.cost" value="{{system.cost}}">
+  </div>
+  <div class="form-group">
     <label>{{localize "EP1E.Item.equipped"}}</label>
     <input type="checkbox" name="system.equipped" {{checked system.equipped}}>
   </div>

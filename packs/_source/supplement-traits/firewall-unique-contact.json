@@ -1,0 +1,23 @@
+{
+  "_id": "dcc26e0aa54f830a",
+  "_key": "!items!dcc26e0aa54f830a",
+  "name": "Unique Contact",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "uniqueContact",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>You have a personal tie to an individual with unique skills or resources of particular value to your clandestine activities. This connection may be be based on blood or family ties, shared history, or some other situation that permanently linked you together. Though the contact does not owe you, they are generally inclined to help you, presuming it does not greatly inconvenience them or put them at great risk. This contact could be a weapons dealer, a high-ranking government official, a major hypercorp exec, a scientist at the top of their field, a media icon, a deep-cover mole, a police lieutenant, or even a field agent from a rival group. Apply a +10 modifier on Networking and Social Skill Tests with this specific NPC.</p><p><em>Source: Eclipse Phase Firewall, p. 173.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "7f3ebf3c224a27b4",
+  "sort": 97000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "4584eb1054eb2710",
+  "_key": "!items!4584eb1054eb2710",
+  "name": "Plasma Cutter",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "key": "plasmaCutter",
+    "cost": "High",
+    "description": "<p>Plasma cutters are useful cutting and excavation tools that also work as short-range weapons. They are devices that are halfway in use and power between a plasma torch and a plasma rifle and are designed to cut rock, refractory alloys, and similar substances. They have a maximum range of 15 meters and can be fired continuously to cut away large segments of even the thickest rock wall very rapidly. Plasma cutters consist of a hand-held unit the size of a small, thick rifle that is connected to a small backpack unit by a flexible cable.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 159.</em></p>",
+    "weaponType": "ranged",
+    "skill": "beamWeapons",
+    "ap": -8,
+    "dv": "2d10 + 8",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "SA",
+    "ammo": {
+      "value": 20,
+      "max": 20,
+      "loaded": "",
+      "size": ""
+    },
+    "range": "5 / 15 / 18 / 20",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "none",
+      "radius": 0,
+      "falloff": 2
+    },
+    "twoHanded": false,
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 31000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
+    "key": "lowPainTolerance",
     "traitType": "negative",
     "scope": "both",
     "level": 1,
     "cost": 20,
     "costText": "Bonus: 20 CP",
-    "description": "<p>Pain is the character's enemy. The character has a very low threshold for pain tolerance and is more severely impaired when suffering. Increase the modifier for each wound take by an additional -10 (so the character suffers -20 with one wound, -40 with another, and -60 with a third). Additionally, the character suffers a -30 modifier on any test involving pain resistance. This morph version of this trait is only available for biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>Pain is the character’s enemy. The character has a very low threshold for pain tolerance and is more severely impaired when suffering. Increase the modifier for each wound take by an additional –10 (so the character suffers –20 with one wound, –40 with another, and –60 with a third). Additionally, the character suffers a –30 modifier on any test involving pain resistance. This morph version of this trait is only available for biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
   },
   "effects": [],
   "flags": {},

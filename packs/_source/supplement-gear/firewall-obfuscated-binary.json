@@ -1,0 +1,34 @@
+{
+  "_id": "2088542cc4449289",
+  "_key": "!items!2088542cc4449289",
+  "name": "Obfuscated Binary",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "obfuscatedBinary",
+    "cost": "One Cost Category Higher Than Software Cost",
+    "description": "<p>This modification to software clutters a program with additional instructions and unnecessary features, with the goal of concealing its true purpose. It’s sometimes used by hackers to avoid having software like exploits or sniffers be discovered if they’re captured and their mesh inserts examined. A Programming Test at –30 can determine the true nature of an obfuscated binary, but only if the programmer has reason to suspect something is amiss and specifically searches for it.</p><p><em>Source: Eclipse Phase Firewall, p. 178.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  }
+}

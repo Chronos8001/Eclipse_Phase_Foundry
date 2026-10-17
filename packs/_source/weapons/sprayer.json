@@ -1,0 +1,43 @@
+{
+  "_id": "d0ad9df38ea8bb1b",
+  "_key": "!items!d0ad9df38ea8bb1b",
+  "name": "Sprayer",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "sprayWeapons",
+    "ap": 0,
+    "dv": "",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SA",
+    "ammo": {
+      "value": 20,
+      "max": 20
+    },
+    "range": "5 / 15 / 30 / 50",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "none",
+      "radius": 0
+    },
+    "twoHanded": true,
+    "cost": "Low",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>This is a general-purpose two-handed squirtgun, loaded with tanks filled with the chemical or drug of the wielder’s choice.</p><p>Table: as chemical/drug</p><p><em>Source: Eclipse Phase Core Rulebook, p. 340.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 43000,
+  "ownership": {
+    "default": 0
+  }
+}

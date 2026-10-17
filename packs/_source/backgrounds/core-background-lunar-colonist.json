@@ -1,0 +1,52 @@
+{
+  "_id": "5e119b75bc34605d",
+  "_key": "!items!5e119b75bc34605d",
+  "name": "Lunar Colonist",
+  "type": "background",
+  "img": "icons/svg/village.svg",
+  "system": {
+    "description": "<p>You experienced your childhood in one of the cramped dome cities or underground stations on Luna, Earth’s moon. You had a ringside seat to the Fall of Earth.</p><p>Advantages: +10 Pilot: Groundcraft skill, +10 to one Technical, Academic: [Field], or Profession: [Field] skill of your choice, +20 Networking: Hypercorps skill Disadvantages: None Common Morphs: Flats, Splicers</p><p><em>Source: Eclipse Phase Core Rulebook, p. 131.</em></p>",
+    "kind": "background",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Groundcraft",
+        "value": 10
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Hypercorps",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to one Technical; Academic: [Field]; or Profession: [Field] skill of your choice",
+    "restrictions": "",
+    "morphs": "Flats, Splicers",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5d1fd729a9c1db00",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

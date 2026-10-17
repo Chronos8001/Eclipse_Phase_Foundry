@@ -1,0 +1,67 @@
+{
+  "_id": "1d2b8729af2a5cb8",
+  "_key": "!actors!1d2b8729af2a5cb8",
+  "name": "Utility Helicopter",
+  "type": "vehicle",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "category": "aircraft",
+    "passengers": "8",
+    "handling": 10,
+    "movement": "8/40",
+    "maxVelocity": "200",
+    "mobility": "",
+    "av": {
+      "energy": 20,
+      "kinetic": 10
+    },
+    "durability": 150,
+    "woundThreshold": 30,
+    "deathRating": 300,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Cryonic Protection, Laser Link, Radar, Radio",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This is a standard helicopter design from Earth, deployed on Titan. It is commonly used for cargo and personnel transport, medevac, ground/air assault, and command/control.</p><p><em>Source: Eclipse Phase Rimward, p. 195.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "469ab101da588cac",
+  "sort": 24000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Utility Helicopter",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wing.svg"
+    }
+  }
+}

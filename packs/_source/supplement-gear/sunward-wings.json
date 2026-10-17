@@ -1,0 +1,20 @@
+{
+  "_id": "bf867a7c9554e139",
+  "_key": "!items!bf867a7c9554e139",
+  "name": "Wings",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "wings",
+    "cost": "Moderate",
+    "description": "<p>Wings enable the morph to fly at Earth/Venusian gravities if small (child-sized) and light, or at low gravities if human-sized or larger. Tests made while flying use the Flight skill. Most wing designs are transgenic and based on bat-wing physiology, so they may be easily folded when not in use. Though the Movement Rate depends on the morph in question and the particular design, a standard Movement Rate is 8/40. Neo-avians have wings by default, as part of their physiology.</p><p><em>Source: Eclipse Phase Sunward, p. 166.</em></p>",
+    "augType": "bioware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

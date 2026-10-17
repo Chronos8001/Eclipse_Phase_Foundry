@@ -1,0 +1,20 @@
+{
+  "_id": "26a2d4766a72f308",
+  "_key": "!items!26a2d4766a72f308",
+  "name": "Access Jacks",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "accessJacks",
+    "augType": "cyberware",
+    "cost": "Low",
+    "description": "<p>Usually located in the base of the skull or neck, this implant is an external socket with a direct neural interface. It allows the character to establish a direct wired connection using a fiberoptic cable to external devices or other characters, which can be useful in places where wireless links are unreliable or complete privacy is required. Two characters linked via access jack can “speak” mind-to-mind and transfer information between their mesh inserts and other implants. All synthmorphs have these by default.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 306.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 45000,
+  "ownership": {
+    "default": 0
+  }
+}

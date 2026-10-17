@@ -1,0 +1,33 @@
+{
+  "_id": "bffd27cb9aa7df2d",
+  "_key": "!items!bffd27cb9aa7df2d",
+  "name": "Grok",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "grok",
+    "psiType": "chi",
+    "activation": "active",
+    "action": "complex",
+    "range": "self",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>By using the Grok sleight, the async is able to intuitively understand how any unfamiliar object, vehicle, or device is used simply by looking at and handling it. If the character succeeds in a COG x 2 Test, they achieve a basic ability to use the object, vehicle, or device, no matter how alien or bizarre. This sleight does not provide any understanding of the principles or technologies involved—the psi user simply grasps how to make it work. If a test is called for, the psi user receives a +20 modifier to use the device (this bonus only applies to unfamiliar devices, and/or tests the character is defaulting on—it does not apply to devices the character is familiar with).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 224.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

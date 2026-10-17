@@ -1,0 +1,29 @@
+{
+  "_id": "55020ec7bdffc21a",
+  "_key": "!items!55020ec7bdffc21a",
+  "name": "Ecto",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "ecto",
+    "category": "everyday",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Ectos are the external version of basic mesh inserts (p. 300), minus the medical sensors. These colorful devices serve as a wearable mesh terminal, PDA, locator, and camera-phone. The devices are flexible (often worn as bracelets), dirt-resistant, self-cleaning, and may be stretched out to increase screen size. They may project holographic displays and are typically equipped with wireless-enabled glasses or contact lenses and decorative earpieces or earrings so that the user may access augmented reality. Given the ubiquity of mesh inserts, ectos are growing less common, but they are still used by bioconservatives, others without implants, and those who prefer to access the mesh via an external device for security concerns.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 325.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 38000,
+  "ownership": {
+    "default": 0
+  }
+}

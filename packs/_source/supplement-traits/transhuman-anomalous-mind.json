@@ -1,0 +1,23 @@
+{
+  "_id": "6d1fc49233c5236f",
+  "_key": "!items!6d1fc49233c5236f",
+  "name": "Anomalous Mind",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "anomalousMind",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 20,
+    "costText": "Bonus: 20 CP",
+    "description": "<p>Found almost exclusively in AGIs, uplifts, and the subjects of highly experimental pyschosurgical procedures, your mental patterns are dramatically outside the norm of transhumanity. The uniqueness of their mental map makes psychosurgery, routine backup, and resleeving difficult and risky. Any attempts to perform psychosurgery on the character suffer a −10 penalty and automatically cause 1 SV in addition to any other results and regardless of the success or failure of a procedure. Also, backing up and resleeving are not automatic (pp. 268–271, EP) and require active management of the process. Any technician operating the ego bridge during such procedures must succeed on a Psychosurgery Test or the backup/ sleeving attempt will fail.</p><p><em>Source: Eclipse Phase Transhuman, p. 87.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 34000,
+  "ownership": {
+    "default": 0
+  }
+}

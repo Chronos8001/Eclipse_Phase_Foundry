@@ -33,7 +33,7 @@
     },
     "movement": "Ionic 12/40, Thrust Vector 8/40, Walker 2/8, Winged 8/32",
     "implants": "Access Jacks, Anti- Glare, Basic Mesh Inserts, Chemical Sniffer, Cortical Stack, Cyberbrain, Direction Sense, Enhanced Hearing, Enhanced Vision, Lidar, Mnemonic Augmentation, Radar, Shape Adjusting, T-Ray Emitter, Wings",
-    "advantages": "+5 to one aptitude of the player's choice, Armor (2/2) — Variant: Armor 6/6",
+    "advantages": "+5 to one aptitude of the player’s choice, Armor (2/2) — Variant: Armor 6/6",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 55,
@@ -44,7 +44,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 67000,
+  "sort": 68000,
   "ownership": {
     "default": 0
   }

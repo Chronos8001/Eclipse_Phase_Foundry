@@ -1,0 +1,29 @@
+{
+  "_id": "ae2c184a12c9511c",
+  "_key": "!items!ae2c184a12c9511c",
+  "name": "Portable Sensor",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "portableSensor",
+    "category": "everyday",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This is a small portable (possibly even wearable) sensor system. The type of sensor must be chosen (for example: infrared, lidar, radar, x-ray). Combined sensor systems are also available, at a cumulative cost. See Radio and Sensor Ranges, p. 299. and Using Enhanced Senses, p. 302.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 325.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 41000,
+  "ownership": {
+    "default": 0
+  }
+}

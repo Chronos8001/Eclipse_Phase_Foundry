@@ -8,12 +8,14 @@
     "energy": 3,
     "kinetic": 4,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "Low",
+    "description": "<p>Designed for both industrial worksite safety and protection from accidental zero-G collisions, crash suits are also favored by sports enthusiasts and explorers. The basic jumpsuit offers comfortable protection equal to that of armor clothing. When activated with an electronic signal, however, elastic polymers within the suit stiffen and form rigid impact protection for vital areas. Crash suits provide an Armor Value of 3/4 when inactive and 4/6 when activated.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 312.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 5000,
+  "sort": 9000,
   "ownership": {
     "default": 0
   }

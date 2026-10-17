@@ -1,0 +1,29 @@
+{
+  "_id": "46644a6b9462f855",
+  "_key": "!items!46644a6b9462f855",
+  "name": "Cleaners",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "cleaners",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This nanoswarm cleans, polishes, and removes dirt and stains. It may be used on an area, specific objects, or people. Some facilities employ permanent cleaner swarms to keep their area spotless. Cleaners may also be programmed to remove specific toxins, chemicals, or other hazardous substances in order to decontaminate an area. Covert operatives and criminals sometimes use cleaners to eliminate any evidence they may have left at a scene usable for forensics purposes, such as blood, hair, or anything that could be DNA-typed.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 329.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 59000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "_id": "4608c5ea0edb17a3",
+  "_key": "!actors!4608c5ea0edb17a3",
+  "name": "Land Anemone",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 1,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 1,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Orange</p><p><strong>Numbers:</strong> 1–5</p><p>These carnivorous polyps live in the cloud forest of Echo IV. They remain stationary for long periods, easily blending in with the other large, vibrant plants, changing their colors, patterns, textures, and even smell to draw in unsuspecting prey. They extend their long, venomous tentacles, reaching out up to 2-meters, which they will use to swiftly grapple and draw in prey to their mouth sac. Meals are digested rapidly, then expelled. Land anemones are capable of slowly crawling, though they do it rarely, usually only to find a better ambush position or to escape a fire threat. They are known to situate themselves along game trails, near sources of water, or in trees and rocks with their tentacles dangling down. They sometimes work together, camping out in a large circle that they allow victims to enter before attacking, so that those escaping from one flee right into the tentacles of another. Land anemones have a symbiotic relationship with Echolalian clown sprites (p. 156). The sprites are not eaten and are even defended from other predators, and in return they feast on pests that would bother the anemones, keep their mouth sacs clean, and provide nutrient-rich fecal matter. Clown sprites are known to intentionally lure prey toward the anemones.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Traits:</strong> Large Size (+10 to hit)</p><p><strong>Ware:</strong> Chameleon Skin, Enhanced Hearing, Enhanced Smell, Poison Gland</p><p><strong>Tentacle Toxin:</strong> Dermal, Onset: 1 Action Turn,</p><p><em>Initiative printed: 7 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 6, Death Rating 75.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 125.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Land Anemone (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 30,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "2/4 Walker",
+        "implants": "Chameleon Skin, Enhanced Hearing, Enhanced Smell, Poison Gland",
+        "advantages": "Large Size (+10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "b915dc91b3cd3b5c",
+      "_key": "!actors.items!4608c5ea0edb17a3.b915dc91b3cd3b5c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "20d99f1efc9d621e",
+      "_key": "!actors.items!4608c5ea0edb17a3.20d99f1efc9d621e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8067db3e1239fac8",
+      "_key": "!actors.items!4608c5ea0edb17a3.8067db3e1239fac8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d03d85a71524aba3",
+      "_key": "!actors.items!4608c5ea0edb17a3.d03d85a71524aba3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "Hearing/Smell",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ff9e9a72a316bf22",
+      "_key": "!actors.items!4608c5ea0edb17a3.ff9e9a72a316bf22",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Grapple",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": 0,
+        "dv": "1d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Grapple: 60 (see Subdual, p. 204, EP), Reach (+10); see also Tentacle Toxin effect, below. Subdued targets are swallowed on next action. Swallowed victims cannot see, hear, or breathe (Asphyxiation, p. 194, EP), are restricted (–30 to physical actions), and suffer DV 1d10 each Action Turn; armor defends but is decreased by the damage.</p>"
+      },
+      "_id": "862b6533193a2cc1",
+      "_key": "!actors.items!4608c5ea0edb17a3.862b6533193a2cc1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Tentacle",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": 0,
+        "dv": "1d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Tentacle Attack: 60, DV 1d10, Reach (+10), see also Tentacle Toxin effect, below.</p>"
+      },
+      "_id": "ade662e2b49e614c",
+      "_key": "!actors.items!4608c5ea0edb17a3.ade662e2b49e614c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 35000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Land Anemone",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

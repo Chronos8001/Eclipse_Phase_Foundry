@@ -1,0 +1,29 @@
+{
+  "_id": "a1e07310db4a7e92",
+  "_key": "!items!a1e07310db4a7e92",
+  "name": "Acoustic Spotter",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "acousticSpotter",
+    "cost": "Moderate",
+    "description": "<p>This medium-sized but portable sensor system features an array of microphones and a swivel-mounted camera and laser rangefinder. When activated, the system detects the audio signature of kinetic weapons fire (or another programmed sound signature) and attempts to focus the camera and rangefinder on the source. In the case of standard firearms (or seekers or similar projectiles), the system detects the muzzle blast, the shock wave of the incoming bullets, and the difference in timing between them in order to triangulate the originating position. The location of the detected source, including the camera visual feed and range data, are fed into a meshed tacnet. The spotter’s AI has Perception 40 and receives a +10 modifier for detecting sounds, +30 in the case of firearms (but not railguns), seekers, etc. The system can hone in on a repeating audio source; apply a +10 cumulative modifier for each additional emission/attack.</p><p><em>Source: Eclipse Phase Panopticon, p. 150.</em></p>",
+    "category": "espionage",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

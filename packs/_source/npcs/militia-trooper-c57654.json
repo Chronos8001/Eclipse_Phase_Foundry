@@ -1,0 +1,593 @@
+{
+  "_id": "c57654254dff6460",
+  "_key": "!actors!c57654254dff6460",
+  "name": "Militia Trooper",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 10,
+        "mod": 0
+      },
+      "coo": {
+        "base": 25,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 25,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 1,
+      "max": 1
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p><strong>Morph:</strong> Exalt</p><p><strong>Skills:</strong> Beam Weapons 50, Clubs 40, Fray 40, Intimidation 40, Investigation 30, Kinesics 35, Kinetic Weapons 50, Networking: Hypercorp 20, Perception 40, Profession: Security Ops 40, Protocol 40, Unarmed Combat 40</p><p><strong>Rep:</strong> c-rep 15</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts, Cortical Stack</p><p><strong>Gear:</strong> Cuffband, Prisoner Mask, Specs, Tactical Network Software, X-Ray Emitter</p><p><strong>Armor:</strong> 11/12 Armor Clothing with Armor Vest and Light Helmet</p><p><strong>melee:</strong> Shock Baton 40 (DV 1d10 + 3 + shock)</p><p><strong>ranged:</strong> Agonizer 50 (Pain or AP –5, DV 2d10, Ammo 50)</p><p><strong>ranged:</strong> Medium Pistol 50 (AP –5, DV 2d10 + 4, Mode SA/BF/FA, Ammo 12)</p><p><em>Printed: INIT 80, SPD 1, LUC 20, TT 4, IR 40, DUR 35, WT 7, DR 53.</em></p><p><em>Source: Eclipse Phase Ego Hunter, p. 14.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "de88cacba6eebc8d",
+      "name": "Exalt",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 30,
+          "coo": 30,
+          "int": 30,
+          "ref": 30,
+          "sav": 30,
+          "som": 30,
+          "wil": 30
+        },
+        "aptitudeBonus": {
+          "cog": 5,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 35,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack",
+        "advantages": "+5 COG, +5 to three other aptitudes of the player’s choice",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 30,
+        "creditCost": "Expensive",
+        "active": true,
+        "description": "<p>Exalt morphs are genetically enhanced humans, designed to emphasize specific traits. Their genetic code has been tweaked to make them healthier, smarter, and more attractive (based on ever-evolving beauty standards). Their metabolism is modified to predispose them towards staying fit and athletic for the duration of an extended lifespan.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 27.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c57654254dff6460.de88cacba6eebc8d"
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2c09dd00b506eabb",
+      "_key": "!actors.items!c57654254dff6460.2c09dd00b506eabb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Clubs",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "clubs",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a54a3003e4433f26",
+      "_key": "!actors.items!c57654254dff6460.a54a3003e4433f26",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b0363670aa2699d2",
+      "_key": "!actors.items!c57654254dff6460.b0363670aa2699d2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9090c38963d63802",
+      "_key": "!actors.items!c57654254dff6460.9090c38963d63802",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8bbb3122a04a2b94",
+      "_key": "!actors.items!c57654254dff6460.8bbb3122a04a2b94",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d4b33d46a5024c80",
+      "_key": "!actors.items!c57654254dff6460.d4b33d46a5024c80",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e475d50ef76b3af0",
+      "_key": "!actors.items!c57654254dff6460.e475d50ef76b3af0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Hypercorp",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c28a2b1353a9369b",
+      "_key": "!actors.items!c57654254dff6460.c28a2b1353a9369b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a1930ae097ce94de",
+      "_key": "!actors.items!c57654254dff6460.a1930ae097ce94de",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Security Ops",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "bd53c5fe92ab9b0c",
+      "_key": "!actors.items!c57654254dff6460.bd53c5fe92ab9b0c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "be4970bad11bc990",
+      "_key": "!actors.items!c57654254dff6460.be4970bad11bc990",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8b6b03476cce1b0e",
+      "_key": "!actors.items!c57654254dff6460.8b6b03476cce1b0e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "794b513f72b073c4",
+      "name": "Shock Baton",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "clubs",
+        "ap": 0,
+        "dv": "1d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "range": "",
+        "equipped": true,
+        "shock": true,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "Low",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>melee Shock Baton 40 (DV 1d10 + 3 + shock)</p><p>Shock batons are standard clubs used for policing duties, but when activated they also deliver an electric shock to struck targets (see Shock Attacks, p. 204).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c57654254dff6460.794b513f72b073c4"
+    },
+    {
+      "name": "Agonizer",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "beamWeapons",
+        "ap": -5,
+        "dv": "2d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "ammo": {
+          "value": 50,
+          "max": 50,
+          "loaded": "",
+          "size": ""
+        },
+        "range": "",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "rating": 0,
+        "description": "<p>ranged Agonizer 50 (Pain or AP –5, DV 2d10, Ammo 50)</p>"
+      },
+      "_id": "7a0a6d48e89575a2",
+      "_key": "!actors.items!c57654254dff6460.7a0a6d48e89575a2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "e8b51cc0f592338f",
+      "name": "Medium Pistol (Firearm)",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "kineticWeapons",
+        "ap": -5,
+        "dv": "2d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "SA, BF, FA",
+        "ammo": {
+          "value": 12,
+          "max": 12
+        },
+        "range": "10 / 30 / 50 / 70",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "Low",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>ranged Medium Pistol 50 (AP –5, DV 2d10 + 4, Mode SA/BF/FA, Ammo 12)</p><p>Pistols are small-sized (p. 297) and designed for one-hand use. Light pistols sacrifice penetrating ability for concealability. Heavy pistols focus on stopping power, with medium pistols occupying a middle ground. All versions fire in semi-automatic, burst-fire, and full-auto modes.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 336.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c57654254dff6460.e8b51cc0f592338f"
+    },
+    {
+      "name": "Armor Clothing with Armor Vest and Light Helmet",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "energy": 11,
+        "kinetic": 12,
+        "accessory": false,
+        "cost": "",
+        "description": "",
+        "equipped": true
+      },
+      "_id": "4261f905091df5d6",
+      "_key": "!actors.items!c57654254dff6460.4261f905091df5d6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "051c846999ef5119",
+  "sort": 22000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Militia Trooper",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

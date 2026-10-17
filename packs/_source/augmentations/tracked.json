@@ -1,0 +1,20 @@
+{
+  "_id": "5789ad6fd9223988",
+  "_key": "!items!5789ad6fd9223988",
+  "name": "Tracked",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "tracked",
+    "augType": "robotic",
+    "cost": "Low",
+    "description": "<p>Tracked shells use smart rotating treads to work their way across surfaces that would bog down other ground vehicles. They can prop themselves up in order to overcome taller obstacles or to lay themselves down to bridge across a ditch or crevice.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 87000,
+  "ownership": {
+    "default": 0
+  }
+}

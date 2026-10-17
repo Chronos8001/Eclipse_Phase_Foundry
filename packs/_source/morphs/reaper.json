@@ -39,12 +39,12 @@
     "cpCost": 100,
     "creditCost": "Expensive (minimum 50,000+)",
     "active": false,
-    "description": "<p>The reaper is a common combat bot, used in place of biomorph soldiers and typically operated via teleoperation or by autonomous AI. The reaper's core form is an armored disc, so that it can turn and present a thin profile to an enemy. It uses vector-thrust nozzles to maneuver in microgravity and also takes advantage of an ionic drive for fast movement over distance. Four legs/manipulating arms and four weapon pods are folded inside its frame. The reaper's shell is made of smart materials, allowing these limbs and weapon mounts to extrude in any direction desired and even to change shape and length. In gravity environments, the reaper walks or hops on two or four of these limbs. Reapers are infamous due to numerous war XPs, and bringing one into most habitats will undoubtedly raise eyebrows if not get you arrested.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 78.</em></p>"
+    "description": "<p>The reaper is a common combat bot, used in place of biomorph soldiers and typically operated via teleoperation or by autonomous AI. The reaper’s core form is an armored disc, so that it can turn and present a thin profile to an enemy. It uses vector-thrust nozzles to maneuver in microgravity and also takes advantage of an ionic drive for fast movement over distance. Four legs/manipulating arms and four weapon pods are folded inside its frame. The reaper’s shell is made of smart materials, allowing these limbs and weapon mounts to extrude in any direction desired and even to change shape and length. In gravity environments, the reaper walks or hops on two or four of these limbs. Reapers are infamous due to numerous war XPs, and bringing one into most habitats will undoubtedly raise eyebrows if not get you arrested.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 78.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 92000,
+  "sort": 93000,
   "ownership": {
     "default": 0
   }

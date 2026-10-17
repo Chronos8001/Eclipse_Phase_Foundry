@@ -1,0 +1,29 @@
+{
+  "_id": "128e53ee1abdfd05",
+  "_key": "!items!128e53ee1abdfd05",
+  "name": "Swarm Cat",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "swarmCat",
+    "cost": "High",
+    "description": "<p>Swarm cats (p. 116) are the creation of scum genehackers. No two swarm cats tend to be alike—many of them are more like hyenas or mongooses—and each is likely to have a unique assortment of enhancements. The statistics given below should be used as a rough guidelines for other cats.</p><p><em>Source: Eclipse Phase Panopticon, p. 155.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 59000,
+  "ownership": {
+    "default": 0
+  }
+}

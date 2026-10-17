@@ -1,0 +1,23 @@
+{
+  "_id": "eeb60931407bdd57",
+  "_key": "!items!eeb60931407bdd57",
+  "name": "Digital Ghost",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "digitalGhost",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>The character has an intuitive knack for keeping their computer intrusions out of the spotlight. Once per game session, the hacker may prevent a Severe Failure or Critical Failure from downgrading their status on a hacked system (see Failing Tests, p. 257, EP).</p><p><em>Source: Eclipse Phase Transhuman, p. 83.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

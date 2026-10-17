@@ -1,0 +1,88 @@
+{
+  "_id": "1d2e0afbe3924a83",
+  "_key": "!items!1d2e0afbe3924a83",
+  "name": "Bioconservative (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You think the ideology of transhumanism is dubious and suspect at best, and may in fact pose an extinction threat to the human species.</p><p><strong>Suggested Motivations:</strong> +Bioconservatism, +Religion, –AGI Rights, –Uplift Rights, –X-Risks</p><p><strong>3 PP:</strong> Demolitions 30, Freerunning 40, Interest: (Choose One) 50, Kinetic Weapons 40, Medicine: Paramedic 30, Pilot: (Choose One) 40, Profession: (Choose One) 40, Scrounging 30</p><p><em>Source: Eclipse Phase Transhuman, p. 23.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "demolitions",
+        "name": "Demolitions",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Paramedic",
+        "value": 30
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Bioconservatism, +Religion, –AGI Rights, –Uplift Rights, –X-Risks"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 94000,
+  "ownership": {
+    "default": 0
+  }
+}

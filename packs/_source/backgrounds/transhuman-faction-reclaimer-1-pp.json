@@ -1,0 +1,58 @@
+{
+  "_id": "903ddb9410385e1d",
+  "_key": "!items!903ddb9410385e1d",
+  "name": "Reclaimer (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are dedicated to rescuing your species’ homeworld from the ruin engulfing it.</p><p><strong>Suggested Motivations:</strong> +Bioconservatism, +Reclaiming Earth, –AGI Rights</p><p><strong>1 PP:</strong> Freerunning 30, Hardware: (Choose One) 40, Language: (Choose One) 30</p><p><em>Source: Eclipse Phase Transhuman, p. 26.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Bioconservatism, +Reclaiming Earth, –AGI Rights"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 125000,
+  "ownership": {
+    "default": 0
+  }
+}

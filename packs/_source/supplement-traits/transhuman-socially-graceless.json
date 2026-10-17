@@ -1,0 +1,23 @@
+{
+  "_id": "5d968fda8f088f3c",
+  "_key": "!items!5d968fda8f088f3c",
+  "name": "Socially Graceless",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "sociallyGraceless",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>Something about the character makes them a walking social disaster. While the character can be charming and confident, they forget basic social etiquette, overlook customs and rules, miss social cues, and overstep their bounds. Once per game session, the gamemaster can treat one social interaction (preferably where a Social Skill Test by the character was involved) as a critical failure. Usually this results in someone being offended, becoming hostile, or refusing to work with the character. Protocol may not be used to wipe away this social gaffe, nor may Moxie negate it.</p><p><em>Source: Eclipse Phase Transhuman, p. 93.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 65000,
+  "ownership": {
+    "default": 0
+  }
+}

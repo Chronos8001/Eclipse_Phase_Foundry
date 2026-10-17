@@ -1,0 +1,29 @@
+{
+  "_id": "0c4d057b3b09f2c3",
+  "_key": "!items!0c4d057b3b09f2c3",
+  "name": "Bot/Pod Rental",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "botPodRental",
+    "category": "service",
+    "quantity": 1,
+    "cost": "Moderate per day",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>When you need a helping hand or a personal companion for a day or two, renting a bot or pod is often the way to go.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 83000,
+  "ownership": {
+    "default": 0
+  }
+}

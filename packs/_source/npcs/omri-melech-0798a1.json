@@ -1,0 +1,693 @@
+{
+  "_id": "0798a1adc9bb5c4d",
+  "_key": "!actors!0798a1adc9bb5c4d",
+  "name": "Omri Melech",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 20,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 3,
+      "max": 3
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>ID Crew Defector</p><p><strong>Morph:</strong> Splicer</p><p><strong>Motivations:</strong> +Recognition −Bullies −Hyperelites</p><p><strong>Skills:</strong> Academics: Computer Science 70, Beam Weapons 40, Deception 40, Fray 60, Hardware: Electronics 65, Impersonation 75, Infosec 70 (Spoof 80), Interfacing 65, Kinesics 45, Networking: Criminal 50, Perception 50, Persuasion 50, Programming 60 (Forknapping 70), Protocol 60, Research 60, Thrown Weapons 40</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts, Cortical Stack, Dead Switch (2), Ghostrider Module, Mental Speed</p><p><strong>Traits:</strong> Information Control, Math Wiz</p><p><strong>ranged:</strong> Laser Pulser 40 (DV 2d10, Ammo 100)</p><p><strong>ranged:</strong> Plasmaburst Grenade 40 (AP −6, DV 3d10 + 10)</p><p><strong>Armor:</strong> 10/10 (Light Body Armor)</p><p><strong>Appearance:</strong> Mousy, Caucasian, unfortunate features</p><p><strong>Roleplaying:</strong> Shitty morph, coffin-sized apartment, crappy assignments—Omri has had it. Nobody else in the ID Crew could have nabbed Nath’s ego, and it wasn’t the first time he’d nabbed a big fish for no reward. Rather than be ignored again, he worked up the courage to sell to another party. He couldn’t believe his luck when Lam Cong Dong offered him a fortune. Omri figures the ID Crew can’t find all of his backups: this score is worth risking death over. He doesn’t trust Nine Lives for a second; they’re going to have to pay for the product. Then Omri can take his fortune and start his own crew, one that will acknowledge he’s the best at what he does.</p><p><em>Printed: INIT 6, SPD 1 (2), LUC 40, TT 8, IR 80, DUR 30, WT 6, DR 45.</em></p><p><em>Source: Eclipse Phase The Devotees, p. 26.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Recognition −Bullies −Hyperelites"
+    }
+  },
+  "items": [
+    {
+      "_id": "1671e5df8e9657c5",
+      "name": "Splicer",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 25,
+          "coo": 25,
+          "int": 25,
+          "ref": 25,
+          "sav": 25,
+          "som": 25,
+          "wil": 25
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 30,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack",
+        "advantages": "+5 to one aptitude of the player’s choice",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 10,
+        "creditCost": "High",
+        "active": true,
+        "description": "<p>Splicers are genefixed humans. Their genome has been cleansed of hereditary diseases and optimized for looks and health, but has not otherwise been substantially upgraded. Splicers make up the majority of transhumanity.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 95.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0798a1adc9bb5c4d.1671e5df8e9657c5"
+    },
+    {
+      "_id": "48953f5de5a0bc7c",
+      "name": "Information Control",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "informationControl",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>This character has a knack for diligence and caution in their daily living, online, and social networking interactions, reducing the amount of extraneous or sensitive information about themselves that leaks out in the public eye. Apply a −10 modifier to any Research Tests to gather information on the character or track them online (see Scanning, Tracking, and Monitoring, p. 251, EP) and any Networking Tests to ascertain the character’s networking interactions (see Keeping It Quiet, p. 288, EP).</p><p><em>Source: Eclipse Phase Panopticon, p. 145.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0798a1adc9bb5c4d.48953f5de5a0bc7c"
+    },
+    {
+      "_id": "bd14859b92a9304d",
+      "name": "Math Wiz",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "mathWiz",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>The character can perform any feat of calculation, including the most complex and advanced mathematics, instantly and with great precision, with the same ease an unmodified human can add 2 + 3. The character can calculate odds with great precision, find correlations in numerical data, and perform similar tasks with great ease. Apply a +30 modifier on tests involving math calculations.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0798a1adc9bb5c4d.bd14859b92a9304d"
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Computer Science",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "28d76a7c28568294",
+      "_key": "!actors.items!0798a1adc9bb5c4d.28d76a7c28568294",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "26d3a00d701ecb78",
+      "_key": "!actors.items!0798a1adc9bb5c4d.26d3a00d701ecb78",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6321a03ce75076e6",
+      "_key": "!actors.items!0798a1adc9bb5c4d.6321a03ce75076e6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "269eef5034082e93",
+      "_key": "!actors.items!0798a1adc9bb5c4d.269eef5034082e93",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Electronics",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0c4c80ef393808dd",
+      "_key": "!actors.items!0798a1adc9bb5c4d.0c4c80ef393808dd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Impersonation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "impersonation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "daf314ba1df7b722",
+      "_key": "!actors.items!0798a1adc9bb5c4d.daf314ba1df7b722",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "Spoof",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "39b7b587dbbd83c6",
+      "_key": "!actors.items!0798a1adc9bb5c4d.39b7b587dbbd83c6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cb35dc373563a206",
+      "_key": "!actors.items!0798a1adc9bb5c4d.cb35dc373563a206",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "323323a4edcc1f78",
+      "_key": "!actors.items!0798a1adc9bb5c4d.323323a4edcc1f78",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Criminal",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6abf3e654677d69f",
+      "_key": "!actors.items!0798a1adc9bb5c4d.6abf3e654677d69f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c97a0b7d41ed8d5b",
+      "_key": "!actors.items!0798a1adc9bb5c4d.c97a0b7d41ed8d5b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "236c11ac01ff1430",
+      "_key": "!actors.items!0798a1adc9bb5c4d.236c11ac01ff1430",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Programming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "programming",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "Forknapping",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c3281c2f0b6168bf",
+      "_key": "!actors.items!0798a1adc9bb5c4d.c3281c2f0b6168bf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2e4b26f7572afcde",
+      "_key": "!actors.items!0798a1adc9bb5c4d.2e4b26f7572afcde",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0bbb6c8833ccf9c1",
+      "_key": "!actors.items!0798a1adc9bb5c4d.0bbb6c8833ccf9c1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Thrown Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "throwingWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d316e7184bc6f444",
+      "_key": "!actors.items!0798a1adc9bb5c4d.d316e7184bc6f444",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "f82c4ba54b03930c",
+      "name": "Laser Pulser",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "beamWeapons",
+        "ap": 0,
+        "dv": "2d10",
+        "damageType": "energy",
+        "addDB": false,
+        "modes": "SA",
+        "ammo": {
+          "value": 100,
+          "max": 100
+        },
+        "range": "30 / 100 / 150 / 250",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "Moderate",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>ranged Laser Pulser 40 (DV 2d10, Ammo 100)</p><p>Laser weapons use focused beams of light to inflict damage on the target by burning into it and causing it’s outer surface to vaporize and expand, creating an explosive effect. The laser beam is pulsed in order to bite into the target before the beam is diffused. Pulsers are vulnerable to atmospheric effects like dust, mist, smoke, or rain, however—the gamemaster should reduce their effective range categories as appropriate. Note that laser pulses are invisible in the normal visual spectrum (but are visible to characters with enhanced vision). Pulsers are medium-sized (p. 297) and fire in semi-auto mode.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 339.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0798a1adc9bb5c4d.f82c4ba54b03930c"
+    },
+    {
+      "_id": "f7eca2c7d03291cf",
+      "name": "Plasmaburst Grenade",
+      "type": "weapon",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "throwingWeapons",
+        "ap": -6,
+        "dv": "3d10 + 10",
+        "damageType": "energy",
+        "addDB": false,
+        "modes": "SS",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "range": "SOM ÷ 5 / SOM ÷ 2 / SOM / SOM × 3",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "blast",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "High",
+        "quantity": 1,
+        "munition": {
+          "kind": "grenade",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>ranged Plasmaburst Grenade 40 (AP −6, DV 3d10 + 10)</p><p>Also called “hellballs,” these munitions release a burst of plasma upon detonation that causes searing heat and fire damage across the area of effect without the devastating shockwaves of explosions that might rebound in an enclosed environment and/or breach a habitat’s infrastructure.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 341.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0798a1adc9bb5c4d.f7eca2c7d03291cf"
+    },
+    {
+      "_id": "b1650516c59e08be",
+      "name": "Light Body Armor",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "energy": 10,
+        "kinetic": 10,
+        "equipped": true,
+        "accessory": false,
+        "cost": "Low",
+        "description": "<p>These high performance armor outfits protect the wearer from head to toe. An integrated armor vest is supplemented with increased protection on the limbs and joints, while still managing to be flexible and non-restrictive. Body armor is typically worn by security and police forces, and supplemented with a helmet. It provides an Armor Value of 10/10.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 312.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 22000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!0798a1adc9bb5c4d.b1650516c59e08be"
+    }
+  ],
+  "effects": [],
+  "folder": "cab7c189bf2296af",
+  "sort": 16000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Omri Melech",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

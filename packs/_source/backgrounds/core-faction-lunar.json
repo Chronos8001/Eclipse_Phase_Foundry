@@ -1,0 +1,52 @@
+{
+  "_id": "e6285e8cbafa1036",
+  "_key": "!items!e6285e8cbafa1036",
+  "name": "Lunar",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>You hail from Luna, the original off-Earth colony world. Now overpopulated and in decline, Luna is one of the few places where people still cling to oldEarth ethnic and national identities. Your home is also within sight of Earth, a constant reminder that encourages many “Loonies” to be Reclaimers, deploring the hypercorp interdiction and arguing that you have a right to return to Earth, terraform it, and re-establish it as a living homeworld.</p><p>Advantages: +10 to one Language: [Field] of your choice, +20 Networking: Hypercorps skill, +10 Networking: Ecologists skill Disadvantages: None Common Morphs: Cases, Exalts, Flats, Splicers, Synths</p><p><em>Source: Eclipse Phase Core Rulebook, p. 134.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Hypercorps",
+        "value": 20
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Ecologists",
+        "value": 10
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to one Language: [Field] of your choice",
+    "restrictions": "",
+    "morphs": "Cases, Exalts, Flats, Splicers, Synths",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 21000,
+  "ownership": {
+    "default": 0
+  }
+}

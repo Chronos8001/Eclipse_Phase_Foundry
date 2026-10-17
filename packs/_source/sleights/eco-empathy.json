@@ -1,0 +1,33 @@
+{
+  "_id": "eab98dce4266cd9b",
+  "_key": "!items!eab98dce4266cd9b",
+  "name": "Eco-Empathy",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "ecoEmpathy",
+    "psiType": "chi",
+    "activation": "active",
+    "action": "complex",
+    "range": "self",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>An async with this sleight can attempt to gain an intuitive understanding of non-sentient, non-terrestrial organisms occupying a producer niche in the local ecosystem (e.g., alien plant and fungus analogues). If the character succeeds in a COG x 2 Test, they gain a basic understanding of the organism’s place in the local ecosystem, as well as whether it’s safe and nutritious for transhuman consumption. The information gained is of a general and qualitative nature and doesn’t include any data that would normally be gained by chemical or genetic analysis. For example, an eco-empathic async could tell that a given plant thrives only in riparian zones, relies on local insect analogs for pollination, and has tubers that become edible if well cooked. They would not be able to tell that the same plant has over a thousand chromosomes, that it exudes a chemical that is physically addicting to the insects, or that the tubers contain high concentrations of a toxic lectin that breaks down and becomes harmless if boiled.</p><p><em>Source: Transhuman, p. 154.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 46000,
+  "ownership": {
+    "default": 0
+  }
+}

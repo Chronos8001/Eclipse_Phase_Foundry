@@ -1,0 +1,332 @@
+{
+  "_id": "ca8be7811cc6b67d",
+  "_key": "!actors!ca8be7811cc6b67d",
+  "name": "Mantis Worm",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 5,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 1,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 5,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": -10
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1–2 Swarms</p><p>Mantis worms are small, aquatic creatures native to the exoplanet Sacrebleu. Each adult worm is approximately 10–16 centimeters in length, with a sharp pointed head, large sensory whiskers, a pair of mantis-like forelegs, and two other pairs of legs on its torso. Their backs are covered in a set of bristly spines. Mantis worms live in large, hive-like colonies, built out of a sort of solidified gelatin they secrete, usually found at depths of less than 10 meters. Mantis worms swim with an undulating motion, much like an eel, but are capable of pushing themselves forward in short bursts at great speeds. They are carnivorous scavengers, often feeding off of corpses, but will also attack prey in great numbers. Swarms of mantis worms will propel themselves, torpedo-like, towards their victims, even attacking targets in shallow waters or near the shoreline, propelling themselves several meters out of the water. They will pierce the skin, pushing their heads inside, while grappling with their arms. They then belch out an acidic mucus inside the body that dissolves skin, organ, and muscle tissue into a sort of slurry that they feed on. This effect is quite painful. Their spines make them extremely dangerous to pull out, leaving gaping tear wounds. Attacking en masse, they can even overwhelm large creatures, who quickly succumb to the pain and numerous bite wounds. Though many mantis worms also die, their corpses become food for surviving worms. They can survive for short periods on land, skittering about on their legs. When attacked in the water, or to defend their hives, mantis worms will secrete their mucus, creating an acidic cloud within the water that is strong enough to drive away predators.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Ware:</strong> Enhanced Hearing, Enhanced Smell, Poison Gland</p><p><strong>Notes:</strong> Mantis worms are immune to acid/ corrosive attacks.</p><p><strong>Swarm:</strong> Mantis worms follow the rules for swarms (Swarms, p. 168). Stats given are for the swarm, not individual worms.</p><p><strong>Acid Plume:</strong> Threatened swarms release a plume of acid in the water, extending 5 meters around the swarm.Anyone caught in this plume suffers DV 1d10 ÷ 2 each turn and must make a SOM x 2 Test or flee (negated by Pain Tolerance).</p><p><em>Initiative printed: 6 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 0, Death Rating 50.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 128.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Mantis Worm (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 50,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20 Swim, 2/8 Walker",
+        "implants": "Enhanced Hearing, Enhanced Smell, Poison Gland",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "03e62be9cf1c84eb",
+      "_key": "!actors.items!ca8be7811cc6b67d.03e62be9cf1c84eb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "372be502bf838505",
+      "_key": "!actors.items!ca8be7811cc6b67d.372be502bf838505",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Scrounging",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "scrounging",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a735297c4aa6df91",
+      "_key": "!actors.items!ca8be7811cc6b67d.a735297c4aa6df91",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Swimming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "swimming",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b356f76eee7f8d2b",
+      "_key": "!actors.items!ca8be7811cc6b67d.b356f76eee7f8d2b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ef29a8c48883d8fe",
+      "_key": "!actors.items!ca8be7811cc6b67d.ef29a8c48883d8fe",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ae1fc104a3e8628e",
+      "_key": "!actors.items!ca8be7811cc6b67d.ae1fc104a3e8628e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "Hearing/Smell",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f832a27c66a10d90",
+      "_key": "!actors.items!ca8be7811cc6b67d.f832a27c66a10d90",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 80,
+        "ap": 0,
+        "dv": "1d10 + 15",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite: 80, target’s Fray is halved, DV 1d10 + 15, synthmorphs take half damage (round down). Biomorph targets that take at least 5 damage must make a SOM x 2Test or be overcome with pain (negated by PainTolerance), taking no other actions but to flee or remove worms for the next 10 minutes, and will continue to take DV 1d10 (armor does not apply) eachActionTurn until the attached worms are removed. Removing the worms requires 4 ComplexActions (others may assist), during which the victim must remain free from the swarm (else it resets), and inflicts DV 1d10 + 2 (armor does not apply).</p>"
+      },
+      "_id": "4f5af916112b94df",
+      "_key": "!actors.items!ca8be7811cc6b67d.4f5af916112b94df",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 40000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Mantis Worm",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

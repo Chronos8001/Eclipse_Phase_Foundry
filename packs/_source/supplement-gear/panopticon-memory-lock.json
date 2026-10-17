@@ -1,0 +1,20 @@
+{
+  "_id": "bdf4c625bb6fde1b",
+  "_key": "!items!bdf4c625bb6fde1b",
+  "name": "Memory Lock",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "memoryLock",
+    "cost": "Low",
+    "description": "<p>This implant, when activated, prevents information from being stored in the subject’s long-term memory or from being recorded via lifelog, mnemonic augmentation, or other sensory link. It also temporarily blocks up-to-the second cortical stack backups. The individual will retain short-term memories, but for no more than a few minutes. This implant is usually a requirement for personal aides, consultants, and other underlings of powerful people. The implants can be remotely activated by the superior during confidential meetings or other secret affairs to ensure privacy and deniability. This implant is also a popular option among some personal couriers who intentionally retain no memories of the party that hired them in case they are intercepted.</p><p><em>Source: Eclipse Phase Panopticon, p. 149.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

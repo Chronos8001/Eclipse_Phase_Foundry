@@ -1,0 +1,67 @@
+{
+  "_id": "1bbd9a07145b346c",
+  "_key": "!actors!1bbd9a07145b346c",
+  "name": "Scorcher",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "2/4",
+    "maxVelocity": "12",
+    "mobility": "Walker",
+    "av": {
+      "energy": 25,
+      "kinetic": 20
+    },
+    "durability": 200,
+    "woundThreshold": 40,
+    "deathRating": 400,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "+10 SOM, Access Jacks, Enhanced Vision, Extra Limbs (6–10), Extreme Heat Shielding, Industrial Armor, Radar, Radiation Shielding, Sonar, Wrist-Mounted Tools",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Scorchers are a tank-like mining shell used by both corporate mining operations and nomadic sifters on Mercury. Scorchers are designed to operate on Mercury’s terminus and night-side, but they can also survive the planet’s day-side extreme heat conditions. Due to their extensive heat and radiation shielding and cooling systems, scorchers are heavy and slow. Four sturdy legs carry their bulky 3-meter frames, while two manipulator arms allow the morph to carry and manipulate tools. Four additional tool-arm sockets allow for customized equipment such as shovels, drills, pneumatic hammers, and similar mining/construction tools to be attached.</p><p><em>Source: Eclipse Phase Sunward, p. 170.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "9047c9e532eaea58",
+  "sort": 2000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Scorcher",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

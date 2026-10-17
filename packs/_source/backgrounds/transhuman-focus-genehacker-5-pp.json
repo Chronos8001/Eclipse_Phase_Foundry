@@ -1,0 +1,106 @@
+{
+  "_id": "f1ef5d88cbd66ecb",
+  "_key": "!items!f1ef5d88cbd66ecb",
+  "name": "Genehacker (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You’re a biohacker. You meddle with genetics and biotechnology to see what you can create, to improve life and help overcome biological flaws, or simply to keep your biological future in your own hands.</p><p><strong>Suggested Motivations:</strong> +Artistic Expression, +Morphological Freedom, +Research, +Science!, +Uplift Rights</p><p><strong>5 PP:</strong> +1 Moxie · +5 COG, +50 r-rep · Academics: (Genetics) 50,Academics: (Choose One) 40,Animal Handling 40, Interest: (Choose One) 30, Interfacing 20, Investigation 30, Medicine: (Choose One) 50, Medicine: (Choose Two) 40, Networking: Scientists 20, Perception 30, Profession: Lab Tech 40</p><p><em>Source: Eclipse Phase Transhuman, p. 32.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Genetics",
+        "value": 50
+      },
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "animalHandling",
+        "name": "Animal Handling",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "(Choose Two)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Scientists",
+        "value": 20
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Lab Tech",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "r",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Artistic Expression, +Morphological Freedom, +Research, +Science!, +Uplift Rights"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 193000,
+  "ownership": {
+    "default": 0
+  }
+}

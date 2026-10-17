@@ -1,0 +1,20 @@
+{
+  "_id": "f252ce178cd8a7b4",
+  "_key": "!items!f252ce178cd8a7b4",
+  "name": "Cyberbrain",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "cyberbrain",
+    "augType": "standard",
+    "cost": "Moderate, but included for free in all synthetic morphs and pods",
+    "description": "<p>Cybernetic brains are where the ego (or controlling AI) resides in synthmorphs and pods. Modeled on biological brains, cyberbrains have a holistic architecture and serve as the command node and central processing point for sensory input and decision-making. Only one ego or AI may “inhabit” a cyberbrain at a time; to accommodate extras, mesh inserts (p. 300) or a ghostrider module (p. 307) must be used. Since cyberbrains store memories digitally, they have the equivalent of mnemonic augmentation (p. 307). They also have a built-in puppet sock (p. 307) may be remote-controlled, though this option may be removed by those who value their security. Cyberbrains are vulnerable to brainhacking (p. 261) and other forms of electronic infiltration/attack. Cyberbrains come equipped with two or more pairs of external access jacks (p. 306), usually located at the base of the skull, which allow for direct wired connections.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 300.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

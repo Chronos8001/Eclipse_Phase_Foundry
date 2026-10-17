@@ -1,0 +1,58 @@
+{
+  "_id": "095cee13b06c2faf",
+  "_key": "!items!095cee13b06c2faf",
+  "name": "Spy (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are a covert agent, skilled at infiltrating the opposition to ferret out secrets or further your own agenda.</p><p><strong>Suggested Motivations:</strong> +Secret Identity, –Secrets</p><p><strong>1 PP:</strong> Deception 40, Infiltration 30, Profession: Spycraft 30</p><p><em>Source: Eclipse Phase Transhuman, p. 36.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Spycraft",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Secret Identity, –Secrets"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 236000,
+  "ownership": {
+    "default": 0
+  }
+}

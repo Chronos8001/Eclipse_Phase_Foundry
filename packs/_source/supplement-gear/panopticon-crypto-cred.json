@@ -1,0 +1,29 @@
+{
+  "_id": "120260b6a2dd5643",
+  "_key": "!items!120260b6a2dd5643",
+  "name": "Crypto-Cred",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "cryptoCred",
+    "cost": "",
+    "description": "<p>Crypto-cred is anonymous, encrypted currency. It is used by those who wish to purchase black market goods, hide their transactions, launder money, or avoid taxes. It is illegal in some habitats, but remains in heavy use, especially with criminal cartels. Acquiring crypto-cred is as simple as buying it with credit via an anonymized transaction with a secure crypto-cred server. The encrypted crypto-credits can then be signed over to other parties, who can redeem them through a similar service. There is a 10% fee to exchange cryptocred with credit and vice versa, but there is no cost to exchanging crypto-cred between people.</p><p><em>Source: Eclipse Phase Panopticon, p. 154.</em></p>",
+    "category": "service",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 50000,
+  "ownership": {
+    "default": 0
+  }
+}

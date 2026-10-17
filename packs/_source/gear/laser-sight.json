@@ -1,0 +1,29 @@
+{
+  "_id": "fa29dc56e62dc3c8",
+  "_key": "!items!fa29dc56e62dc3c8",
+  "name": "Laser Sight",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "laserSight",
+    "category": "weaponAccessory",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This underbarrel laser emits a beam that places a glowing red dot on the target to assist targeting. Apply a +10 modifier to Attack Tests (not cumulative with a smartlink modifier). Laser sights may also be used to paint a target for laser-guided smart ammo or seekers. Infrared and ultraviolet lasers are also available, so that the dot is only visible to characters able to see in those spectrums.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 342.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 124000,
+  "ownership": {
+    "default": 0
+  }
+}

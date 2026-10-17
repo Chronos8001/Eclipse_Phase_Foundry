@@ -1,0 +1,29 @@
+{
+  "_id": "db7ff606a5c2c2c1",
+  "_key": "!items!db7ff606a5c2c2c1",
+  "name": "Disassembly Tools",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "disassemblyTools",
+    "category": "scavenger",
+    "quantity": 1,
+    "cost": "High",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>These tools are useful for salvage ops, breaking down wrecks, or dissembling anything from a habitat room to a vehicle or synthmorph. They include plasma torches, laser cutters, pneumatic jaws, and smart tools like spanners and wrenches that can be adapted to a wide array of connections and fittings.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 330.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 75000,
+  "ownership": {
+    "default": 0
+  }
+}

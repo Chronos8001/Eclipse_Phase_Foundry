@@ -1,0 +1,29 @@
+{
+  "_id": "1e395bc841d9fcad",
+  "_key": "!items!1e395bc841d9fcad",
+  "name": "Dazzler",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "dazzler",
+    "category": "espionage",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>The dazzler is a tiny laser system set on a rotating ball. When activated, it consistently spins and emits laser pulses in all directions. These laser pulses are not dangerous, but they detect the lenses of camera systems (including specs, viewers, and bot/ synthmorph sensors) and repeatedly zap them with laser pulses of varying strength to overload and dazzle them. For as long as a dazzler is active, any camera system (visual, infrared, and ultraviolet) within line of sight and within 200 meters is blinded.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 316.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 26000,
+  "ownership": {
+    "default": 0
+  }
+}

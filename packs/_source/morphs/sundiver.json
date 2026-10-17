@@ -39,12 +39,12 @@
     "cpCost": 70,
     "creditCost": "Expensive (minimum 40,000+)",
     "active": false,
-    "description": "<p>The sundiver is a synthetic morph designed for solar research and emergency rescue operations. Sundivers are sleek mechanisms, about six meters long. They look a little like ramjets, except for a pair of articulated arms that extend forward from the morph's pointed nose, allowing it to reach for and grasp objects. Because sundivers operate in the coronal environment, they are built to survive superheated plasma and shielded against radiation. Sundivers are equipped with a powerful electromagnetic propulsion system that allows them to skate along solar magnetic lines of force much like the surya do.</p><p><strong>Notes:</strong> Large Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 98.</em></p>"
+    "description": "<p>The sundiver is a synthetic morph designed for solar research and emergency rescue operations. Sundivers are sleek mechanisms, about six meters long. They look a little like ramjets, except for a pair of articulated arms that extend forward from the morph’s pointed nose, allowing it to reach for and grasp objects. Because sundivers operate in the coronal environment, they are built to survive superheated plasma and shielded against radiation. Sundivers are equipped with a powerful electromagnetic propulsion system that allows them to skate along solar magnetic lines of force much like the surya do.</p><p><strong>Notes:</strong> Large Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 98.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 113000,
+  "sort": 116000,
   "ownership": {
     "default": 0
   }

@@ -8,12 +8,14 @@
     "energy": 3,
     "kinetic": 3,
     "equipped": false,
-    "description": "<p>Accessoire : s'ajoute à l'armure portée (+E/+K).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": true,
+    "cost": "Trivial",
+    "description": "<p>This armor accessory is usually worn with body armor or a battle suit. Light helmets are open, whereas full helmets latch on and provide an environmental seal with a 12 hour supply of air. Light helmets provide an Armor Value bonus of +2/+2, whereas full helmets add +3/+3. Helmets are often equipped with an ecto (p. 325), a radio booster (p. 313), and sensors equal to specs (see p. 325).</p><p>Accessory: adds to worn armor without the layering penalty.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 312.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 9000,
+  "sort": 14000,
   "ownership": {
     "default": 0
   }

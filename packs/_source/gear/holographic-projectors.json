@@ -1,0 +1,29 @@
+{
+  "_id": "02c13faa951cb8b2",
+  "_key": "!items!02c13faa951cb8b2",
+  "name": "Holographic Projectors",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "holographicProjectors",
+    "category": "everyday",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>These devices are capable of projecting high-definition, ultra-realistic three-dimensional images and movies. From a distance (20+ meters), such holograms can be difficult to distinguish as fake, but up close they are easier to see for what they are (+20 Perception Test modifier). Holograms do not appear wavelengths other than visual light, and so are easily identified by anyone with enhanced vision.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 325.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 39000,
+  "ownership": {
+    "default": 0
+  }
+}

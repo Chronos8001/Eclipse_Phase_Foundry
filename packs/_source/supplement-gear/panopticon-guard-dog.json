@@ -1,0 +1,29 @@
+{
+  "_id": "833c31c96e2ac06d",
+  "_key": "!items!833c31c96e2ac06d",
+  "name": "Guard Dog",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "guardDog",
+    "cost": "High",
+    "description": "<p>These smart dogs are trained for security or policing purposes and upgraded with bioweave, enhanced vision, hardened skeleton, and reflex booster implants.</p><p><em>Source: Eclipse Phase Panopticon, p. 154.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 55000,
+  "ownership": {
+    "default": 0
+  }
+}

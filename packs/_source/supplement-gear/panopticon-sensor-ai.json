@@ -1,0 +1,84 @@
+{
+  "_id": "28c7a8f62c9d0300",
+  "_key": "!items!28c7a8f62c9d0300",
+  "name": "Sensor AI",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "sensorAi",
+    "cost": "Moderate",
+    "description": "<p>Sensor AIs are equipped in most off-the-shelf sensor systems. Skills: Hardware: Electronics 30, Infosec 20, Interests: [Sensor] Specs 80, Interfacing (Sensor) 40, Perception (Sensor) 40, Programming 20, Research 20.</p><p><em>Source: Eclipse Phase Panopticon, p. 157.</em></p>",
+    "category": "ai",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "cog": 10,
+      "coo": 10,
+      "int": 10,
+      "ref": 10,
+      "sav": 10,
+      "som": 10,
+      "wil": 10
+    },
+    "skills": [
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "Electronics",
+        "value": 30,
+        "specialization": ""
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 20,
+        "specialization": ""
+      },
+      {
+        "key": "interest",
+        "name": "Interests",
+        "field": "[Sensor] Specs",
+        "value": 80,
+        "specialization": ""
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 40,
+        "specialization": "Sensor"
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 40,
+        "specialization": "Sensor"
+      },
+      {
+        "key": "programming",
+        "name": "Programming",
+        "field": "",
+        "value": 20,
+        "specialization": ""
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 20,
+        "specialization": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 68000,
+  "ownership": {
+    "default": 0
+  }
+}

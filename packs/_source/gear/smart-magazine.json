@@ -1,0 +1,29 @@
+{
+  "_id": "178e9d2e35de4d94",
+  "_key": "!items!178e9d2e35de4d94",
+  "name": "Smart Magazine",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartMagazine",
+    "category": "weaponAccessory",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>A smart magazine allows the character to pick and choose what ammo round will be fired with each shot. This system leaves less room for bullets, however, so reduce the weapon’s ammunition capacity by half (round up). Smart magazines may be combined with extended magazines, in which case ammo capacity is normal.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 342.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 129000,
+  "ownership": {
+    "default": 0
+  }
+}

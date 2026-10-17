@@ -1,0 +1,27 @@
+{
+  "_id": "fde89e0d5c69e91c",
+  "_key": "!items!fde89e0d5c69e91c",
+  "name": "Hither",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "hither",
+    "category": "drug",
+    "substanceType": "bio",
+    "application": "D",
+    "onset": "1 minute",
+    "duration": "6 hours",
+    "addictionMod": "–10",
+    "addictionType": "physical",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>Want to ooze sexy like a pleasure morph on a hot tin roof? For those desiring that slinky je-nesais-quoi, Hither is the tool. Hither is a clear, slippery gel, sometimes with a faint, musky, floral scent. Hither is applied to parts of the body with large concentrations of sweat glands, where the skin quickly absorbs it. Hither is a mild euphoriant, imparting a feeling of confidence and you-know-you-want-it-ness to the user. It also stimulates abundant production of lust pheromones. The character gains a +10 bonus on Persuasion Tests against targets who are possible to seduce. At the gamemaster’s discretion, this extends to Deception, Impersonate, and Networking Tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 321.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  }
+}

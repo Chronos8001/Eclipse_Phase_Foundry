@@ -1,0 +1,34 @@
+{
+  "_id": "bab4031d5b9f1873",
+  "_key": "!items!bab4031d5b9f1873",
+  "name": "Radio Motion Detection",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "radioMotionDetection",
+    "cost": "Low",
+    "description": "<p>Technically known as variance-based radio tomographic imaging, this sensing technique can be used with any wireless radio devices. It is especially useful in urban areas, where wireless devices are everywhere. Because this system is passive, using existing signals, it does not alert the target. To detect motion in a target area, the software measures and analyzes the transmission and reception of radio signals originating on opposing sides of the target area. Variations in these signals detect movement in the area, which can be overlaid on a map of the area to pinpoint target locations. Since wireless radio signals penetrate walls and other obstructions, this can be used to identify unseen movement inside a structure, without giving away the scanning as t-rays or radar would. This method is roughly accurate to within 5 meters, −1 meter per 10 points of MoS on an Interfacing Test. Resolution is poor, with few details on the target provided.</p><p><em>Source: Eclipse Phase Panopticon, p. 156.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 66000,
+  "ownership": {
+    "default": 0
+  }
+}

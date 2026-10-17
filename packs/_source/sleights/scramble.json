@@ -1,0 +1,33 @@
+{
+  "_id": "ad9fb1da67f0ba2a",
+  "_key": "!items!ad9fb1da67f0ba2a",
+  "name": "Scramble",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "scramble",
+    "psiType": "gamma",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Scramble allows the async using the sleight to hide from another async using the Ego Sense or Omni Awareness sleights. Apply a +30 modifier to the defending async’s Opposed Test.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 228.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 35000,
+  "ownership": {
+    "default": 0
+  }
+}

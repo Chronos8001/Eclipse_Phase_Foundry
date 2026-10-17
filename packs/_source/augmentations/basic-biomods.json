@@ -1,0 +1,20 @@
+{
+  "_id": "b05c54da10d41988",
+  "_key": "!items!b05c54da10d41988",
+  "name": "Basic Biomods",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "basicBiomods",
+    "augType": "standard",
+    "cost": "Moderate, but included for free in most biomorphs",
+    "description": "<p>Almost universal in biomorphs, many habitats will not allow individuals to visit/immigrate if their biomorph does not possess these biomods in order to preserve public health. Basic biomods consists of a series of genetic tweaks, tailored virii, and bacteria that speed healing, greatly increase disease resistance, and impede aging. A morph with basic biomods heals twice as fast as an early 21st century human, gradually regrows lost body parts, is immune to all normal diseases (from cancer to the flu), and is largely immune to aging. In addition, the morph requires no more than 3-4 hours of sleep per night, is immune to ill-effects from longterm exposure to low or zero gravity, and does not naturally suffer from biological problems like depression, shock reactions after being injured, or allergies.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 300.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

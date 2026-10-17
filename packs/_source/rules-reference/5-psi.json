@@ -1,0 +1,33 @@
+{
+  "_id": "3b71e2e58897f64f",
+  "_key": "!journal!3b71e2e58897f64f",
+  "name": "5. Psi",
+  "folder": null,
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "pages": [
+    {
+      "_id": "737362a119a9ebc2",
+      "_key": "!journal.pages!3b71e2e58897f64f.737362a119a9ebc2",
+      "name": "Psi",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li>Niveau du trait Psi requis : chi 1, gamma 2, epsilon 3.</li><li>Portée Proche : 5 m (10 m contre un async), −10 par mètre au-delà.</li><li>Seuls les cerveaux biologiques sont visés : pas les synthomorphes, robots ni infomorphes.</li><li>Résister : test opposé de VOL × 2 ; +30 pour les pods ; défense psi totale +30.</li><li>Tension : 1d10 ÷ 2 (arrondi supérieur) + le modificateur du sleight, par cible.</li><li>Durée temporaire : VOL ÷ 5 (arrondi supérieur) tours, minutes ou heures.</li><li>Chaque sleight maintenu : −10 à tous les autres tests.</li></ul><table><thead><tr><th>Cible</th><th>Modificateur</th><th>Tension en plus</th></tr></thead><tbody><tr><td>Être conscient</td><td>0</td><td>0</td></tr><tr><td>Animal partiellement conscient</td><td>−20</td><td>+1</td></tr><tr><td>Animal non conscient</td><td>−30</td><td>+3</td></tr><tr><td>Alien</td><td>−20</td><td>+1</td></tr></tbody></table><p><em>Source : Eclipse Phase Core Rulebook, p. 220-228.</em></p>",
+        "format": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "system": {}
+    }
+  ]
+}

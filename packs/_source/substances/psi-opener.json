@@ -1,0 +1,27 @@
+{
+  "_id": "964520f80b317a99",
+  "_key": "!items!964520f80b317a99",
+  "name": "Psi-Opener",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "psiOpener",
+    "category": "psi",
+    "substanceType": "bio",
+    "application": "Inj, O",
+    "onset": "20 minutes",
+    "duration": "1 hour",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Expensive",
+    "quantity": 1,
+    "description": "<p>Psi-opener drugs are variants of the Watts-MacLeod strain with a temporary effect and which do not permanently alter the user’s brain. Psiopener temporarily imbues the user with the ability to use one particular sleight, regardless of whether or not they have the Psi trait. Each type of Psi-opener is customized for a particular sleight. While primarily intended for non-asyncs, non-asyncs may not possess Psi skills, so they must default to WIL. For this reason, Psi-Opener is often doubled up with Psike-out. Using Psi-opener is a mind-wrenching experience. Users are occasionally subject to hallucinations (gamemaster discretion). When the drug wears off, it inflicts 1d10 points of mental stress, +2 if the drug imbues a psi-gamma sleight.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 325.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 43000,
+  "ownership": {
+    "default": 0
+  }
+}

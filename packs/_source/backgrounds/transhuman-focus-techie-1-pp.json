@@ -1,0 +1,58 @@
+{
+  "_id": "852078f24d0a1dda",
+  "_key": "!items!852078f24d0a1dda",
+  "name": "Techie (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are the person who keeps the machines running—or knows how to shut them down.</p><p><strong>Suggested Motivations:</strong> +DIY, +Education, +Science!, +Sousveillance, +Technoprogressivism</p><p><strong>1 PP:</strong> Hardware: (Choose One) 40, Interfacing 30, Profession: (Choose One) 30</p><p><em>Source: Eclipse Phase Transhuman, p. 36.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+DIY, +Education, +Science!, +Sousveillance, +Technoprogressivism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 239000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "66001ab3d99aa1b8",
+  "_key": "!actors!66001ab3d99aa1b8",
+  "name": "Martian Trike",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "3",
+    "handling": 0,
+    "movement": "4/40",
+    "maxVelocity": "100",
+    "mobility": "",
+    "av": {
+      "energy": 15,
+      "kinetic": 10
+    },
+    "durability": 60,
+    "woundThreshold": 12,
+    "deathRating": 120,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This three-wheeled motorcycle is used for travel in the Martian wilds. An unpressurized pod protects the passengers from Martian storms, while smart wheels allow the bike to traverse difficult terrain. The trike is equipped with a headlight, radio booster, and radar.</p><p><em>Source: Eclipse Phase Sunward, p. 170.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "9047c9e532eaea58",
+  "sort": 9000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Martian Trike",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

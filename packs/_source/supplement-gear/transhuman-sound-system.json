@@ -1,0 +1,20 @@
+{
+  "_id": "f734ab2dce704b00",
+  "_key": "!items!f734ab2dce704b00",
+  "name": "Sound System",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "soundSystem",
+    "cost": "Trivial",
+    "description": "<p>The character can emit sound through several concealed speakers in the morph. The sound system can go up to 200 decibels and reach a much wider frequency than standard transhuman hearing can pick up.</p><p><em>Source: Eclipse Phase Transhuman, p. 199.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

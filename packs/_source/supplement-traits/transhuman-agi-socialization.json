@@ -1,0 +1,23 @@
+{
+  "_id": "052fb21ab1f3d444",
+  "_key": "!items!052fb21ab1f3d444",
+  "name": "AGI Socialization",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "agiSocialization",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>Only AGI characters may take this trait and only during character generation. The character is more adept at interpreting social cues than the average infolife. The character gains a +10 bonus on all Kinesics Tests made against transhumans. This bonus does not apply to other AGIs, uplifts, aliens, or exsurgents.</p><p><em>Source: Eclipse Phase Transhuman, p. 83.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "adb94c9f59d4d01a",
+  "_key": "!items!adb94c9f59d4d01a",
+  "name": "Sensory Boost",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "sensoryBoost",
+    "psiType": "chi",
+    "activation": "active",
+    "action": "quick",
+    "range": "self",
+    "duration": "temporary",
+    "durationUnit": "turns",
+    "strainMod": -2,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>An async uses this sleight to increase their natural or augmented sensory perception (sight, audio, smell, augmented) by enhanced cerebral processing, granting a +20 bonus modifier on sensory-based Perception Tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 225.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  }
+}

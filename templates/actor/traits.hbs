@@ -11,11 +11,30 @@
         <img src="{{item.img}}" alt="">
         <span class="name"><a data-action="itemToChat">{{item.name}}</a>{{#if (gt item.system.level 1)}} ({{localize "EP1E.Trait.level"}} {{item.system.level}}){{/if}}
           <small>{{localize (lookup @root.config.traitTypes item.system.traitType)}} · {{localize (lookup @root.config.traitScopes item.system.scope)}}</small></span>
-        <span class="value">{{item.system.cost}} CP</span>
+        {{#if item.system.automated}}<i class="fa-solid fa-gears automated" data-tooltip="EP1E.Trait.automated"></i>{{/if}}
+        <span class="value">{{item.system.levelCost}} CP</span>
         {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
       </li>
       {{else}}
       <li class="empty">{{localize "EP1E.Trait.none"}}</li>
+      {{/each}}
+    </ol>
+  </section>
+
+  <section class="panel backgrounds">
+    <header class="list-header">
+      <h3>{{localize "EP1E.Section.backgrounds"}}</h3>
+    </header>
+    <ol class="item-list">
+      {{#each backgrounds as |item|}}
+      <li class="item-row draggable" data-item-id="{{item.id}}">
+        <img src="{{item.img}}" alt="">
+        <span class="name"><a data-action="itemToChat">{{item.name}}</a>
+          <small>{{localize (concat "EP1E.Background.kind." item.system.kind)}}{{#if item.system.pp}} · {{item.system.pp}} PP{{/if}}</small></span>
+        {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "EP1E.Background.none"}}</li>
       {{/each}}
     </ol>
   </section>
@@ -25,12 +44,16 @@
       <h3>{{localize "EP1E.Section.sleights"}}</h3>
       {{#if editable}}<a class="add" data-action="createItem" data-type="sleight" data-tooltip="EP1E.Item.create"><i class="fa-solid fa-plus"></i></a>{{/if}}
     </header>
+    {{#if system.psi.level}}
+    <p class="hint">{{localize "EP1E.Psi.summary" level=system.psi.level armor=system.psi.armor defense=(ep1eSigned system.psi.defense)}}{{#if system.psi.sustained}} · {{localize "EP1E.Psi.sustainedPenalty" penalty=system.penalty.psi}}{{/if}}</p>
+    {{/if}}
     <ol class="item-list">
       {{#each sleights as |item|}}
-      <li class="item-row draggable" data-item-id="{{item.id}}">
+      <li class="item-row draggable sleight-{{item.system.activation}} {{#if item.system.active}}active{{/if}}" data-item-id="{{item.id}}">
         <img src="{{item.img}}" alt="">
-        <span class="name"><a class="rollable" data-action="rollItem" data-tooltip="EP1E.Sleight.useHint">{{item.name}}</a>
-          <small>{{localize (lookup @root.config.psiTypes item.system.psiType)}} · {{localize (lookup @root.config.actionTypes item.system.action)}}{{#if item.system.strainMod}} · {{localize "EP1E.Sleight.strain"}} {{item.system.strainMod}}{{/if}}</small></span>
+        <span class="name"><a class="rollable" data-action="rollItem" data-tooltip="{{#if item.system.active}}EP1E.Psi.endHint{{else}}EP1E.Sleight.useHint{{/if}}">{{item.name}}</a>
+          {{#if item.system.active}}<span class="status-badge warning">{{localize "EP1E.Sleight.inUse"}}{{#if item.system.remaining}} ({{item.system.remaining}}){{/if}}</span>{{/if}}
+          <small>{{localize (lookup @root.config.psiTypes item.system.psiType)}} · {{localize (lookup @root.config.psiActivations item.system.activation)}}{{#if (eq item.system.activation "active")}} · {{localize (lookup @root.config.actionTypes item.system.action)}} · {{localize (lookup @root.config.psiRanges item.system.range)}} · {{localize (lookup @root.config.psiDurations item.system.duration)}} · {{localize "EP1E.Sleight.strain"}} {{ep1eSigned item.system.strainMod}}{{/if}}</small></span>
         {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
       </li>
       {{else}}

@@ -1,0 +1,46 @@
+{
+  "_id": "7f9b0ae6fc8adafd",
+  "_key": "!items!7f9b0ae6fc8adafd",
+  "name": "Argonaut",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>You are part of a scientific techno-progressive movement that seeks to solve transhumanity’s injustices and inequalities with technology. You support universal access to technology and healthcare, open source models of production, morphological freedom, and democratization. You try to avoid factionalism and divisive politics, seeing transhumanity’s splintering as a hindrance to its perpetuation.</p><p>Advantages: +10 to two Technical, Academic: [Field], or Profession: [Field] skills; +20 Networking: Scientists Disadvantages: None Common Morphs: All</p><p><em>Source: Eclipse Phase Core Rulebook, p. 132.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Scientists",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to two Technical; Academic: [Field]; or Profession: [Field] skills",
+    "restrictions": "",
+    "morphs": "All",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

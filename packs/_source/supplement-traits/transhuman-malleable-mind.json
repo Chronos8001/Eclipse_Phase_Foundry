@@ -1,0 +1,23 @@
+{
+  "_id": "0aa654343f4a5970",
+  "_key": "!items!0aa654343f4a5970",
+  "name": "Malleable Mind",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "malleableMind",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP (Level 1), 20 CP (Level 2), 30 CP (Level 3)",
+    "description": "<p>Either through a natural quirk or psychosurgical conditioning, the character’s neural architecture is especially malleable and more readily accepts psychosurgical changes. Apply a −10 modifier per level to the character’s WIL x 3 Test when receiving voluntary psychosurgery (including neural pruning of forks). This modifier does not apply to involuntary psychosurgery.</p><p><em>Source: Eclipse Phase Transhuman, p. 85.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

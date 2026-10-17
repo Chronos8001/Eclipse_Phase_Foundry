@@ -1,0 +1,121 @@
+{
+  "_id": "04828a5b12c9e58b",
+  "_key": "!items!04828a5b12c9e58b",
+  "name": "Infolife: Humanities AGI (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You were designed to understand and interact with humans. Your programming is optimized for tasks such as personal assistance, marketing, caretaking, and psychology.</p><p><strong>Suggested Motivations:</strong> +AGI Rights, +Personal Development, +Philanthropy</p><p><strong>5 PP:</strong> +1 Moxie · +5 SAV, +50 Rep (Your Choice) · Academics: (Psychology or Sociology) 40,Art: Digital Art 40, Impersonation 30, Infosec 30, Interest: (Choose One) 40, Interfacing 50, Kinesics 50, Networking: (Choose One) 40, Persuasion 40, Profession: Psychotherapy 30, Protocol 30, Research 30 · Traits: Real World Naiveté, Social Stigma (AGI)</p><p><em>Source: Eclipse Phase Transhuman, p. 18.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Psychology or Sociology)",
+        "value": 40
+      },
+      {
+        "key": "art",
+        "name": "Art",
+        "field": "Digital Art",
+        "value": 40
+      },
+      {
+        "key": "impersonation",
+        "name": "Impersonation",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Psychotherapy",
+        "value": 30
+      },
+      {
+        "key": "protocol",
+        "name": "Protocol",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 5,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Real World Naiveté",
+        "level": 1
+      },
+      {
+        "name": "Social Stigma",
+        "level": 1
+      }
+    ],
+    "choices": "Social Stigma: AGI",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+AGI Rights, +Personal Development, +Philanthropy"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 42000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "1353fb476f9fac69",
+  "_key": "!items!1353fb476f9fac69",
+  "name": "You’re That Guy!",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "youReThatGuy",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>Sometime in the past, this character got their 5 minutes of mesh fame in a funny viral meme that swept the solar system. To this day, strangers who access the character’s social profile are likely to connect them to that meme. Though tedious for the character, there is a positive side effect, as these strangers remember the meme fondly and are more likely to help the character out. Once per game session, the gamemaster may decide that a stranger with whom the character is interacting and who has access to the character’s online public profile recognizes the character. The character receives a one-time +20 bonus to any social skill or Networking Test with that stranger.</p><p><em>Source: Eclipse Phase Panopticon, p. 145.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "315ebe0c4fba6ff6",
+  "sort": 81000,
+  "ownership": {
+    "default": 0
+  }
+}

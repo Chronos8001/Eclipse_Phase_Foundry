@@ -1,0 +1,67 @@
+{
+  "_id": "b521bcda2836f341",
+  "_key": "!actors!b521bcda2836f341",
+  "name": "Outsystem Hover",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "6",
+    "handling": 10,
+    "movement": "8/32",
+    "maxVelocity": "150",
+    "mobility": "",
+    "av": {
+      "energy": 30,
+      "kinetic": 20
+    },
+    "durability": 150,
+    "woundThreshold": 30,
+    "deathRating": 300,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Cryonic Protection, Laser Link, Radar, Radio",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Most vehicles designed for use on airless worlds have limited ranges because they are rockets that must carry along all of their fuel. However, with the exception of Io, all of the large and medium-sized outer system moons have large amounts of ice and other frozen volatiles on their surface. This vehicle employs a small reactor to convert both stored water and any local frozen volatiles into hot gases that it uses to propel itself. Using steam from its water tank to become airborne, the vehicle’s underside contains powerful heating elements that flash frozen volatiles on the ground beneath it into warm gas that the vehicle then uses to move itself along. Because it is surrounded by a cloud of roiling gas, this vehicle uses radar and t-ray sensors for navigation. Except for brief periods where it relies on stored reaction mass and can reach an altitude of up to 30 meters, it flies at a maximum altitude of 3 meters above the ground, and it has a top speed of up to 150 kph over any terrain. On any moon with either a thick atmosphere or where the surface is mostly ice or other frozen volatiles like frozen carbon dioxide or nitrogen, it can fly indefinitely. These vehicles are pressurized and contain life support that functions as long as the vehicle is resupplied with ice or other oxygen-containing substances at least once a month. The most common version of this vehicle holds six passengers and a small amount of cargo, but larger and more expensive versions also exist.</p><p><em>Source: Eclipse Phase Rimward, p. 194.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "469ab101da588cac",
+  "sort": 21000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Outsystem Hover",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

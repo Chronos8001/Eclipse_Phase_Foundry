@@ -1,0 +1,23 @@
+{
+  "_id": "875605ca2f1b9e09",
+  "_key": "!items!875605ca2f1b9e09",
+  "name": "Whole Body Apoptosis",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "wholeBodyApoptosis",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 0,
+    "costText": "Bonus: 0 CP",
+    "description": "<p>This morph has been genetically programmed to suffer a sudden and lethal massive cellular failure at some point in the future, usually within a given 10 year period, though it is possible to target a specific date, give or take a few months. This modification is favored by bioconservatives that wish to live healthy and die quickly and “naturally.” The cellular failure takes about 10 minutes to complete, giving the character time to stop what they are doing, send any final messages, or commit any other final acts. This trait may only be applied to biomorphs (including pods). Apoptosis may not be initiated voluntarily.</p><p><em>Source: Eclipse Phase Rimward, p. 188.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "15e92c880558b335",
+  "sort": 76000,
+  "ownership": {
+    "default": 0
+  }
+}

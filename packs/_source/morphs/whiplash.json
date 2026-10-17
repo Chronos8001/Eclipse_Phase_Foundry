@@ -33,18 +33,18 @@
     },
     "movement": "4/20",
     "implants": "Access Jacks, Basic Biomods, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Puppet Sock",
-    "advantages": "Tendril Attack (use Unarmed Combat skill, 1d10 + (SOM - 10) DV, +10 to disarming called shot attacks), +5 COO, +10 SOM, +5 to two other aptitudes of the player's choice",
+    "advantages": "Tendril Attack (use Unarmed Combat skill, 1d10 + (SOM ÷ 10) DV, +10 to disarming called shot attacks), +5 COO, +10 SOM, +5 to two other aptitudes of the player’s choice",
     "disadvantages": "Alien Biochemistry, Social Stigma (Alien), Social Stigma (Pod)",
     "skillBonuses": [],
     "cpCost": 50,
     "creditCost": "Expensive (rare; minimum 50,000+)",
     "active": false,
-    "description": "<p>Designed by autonomist xenobotanists as an experiment in developing a cyberbrain/planimal interface, whiplash pods are bioengineered from planimal stock found on Sunrise (see Exotic Life, p. 130, Gatecrashing), with other transgenic features (see Whiplash, p. 173, Gatecrashing). Whiplash pods are gaining some traction among gatecrashers due to their ability to blend in to arboreal environments. The primary modification made to the whiplash stock was to turn the entire organism upside down and orient the digestive portion of the organism horizontally, so that the whiplash's tri-lobed orifice faces forward. The whiplash's grasping roots were also converted into even more motile \"walking tentacles\" borrowed from other Sunrise planimals. Other adjustments include the addition of a pair of grasping limbs, each with four universally opposable digits; artificial sensing mods (providing transhuman-standard sensing ability); and a general toughening of the internal structure for rigidity and support. The barrel-like body remains very similar to the original planimal stock and, reorientation notwithstanding, the digestive system remains mostly unchanged. The ability to extend and retract the whiplash's feeding tendril was heavily enhanced, so now the tendril acts more like a two-meter-long chameleon-like tongue than a hanging food-trap.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 109.</em></p>"
+    "description": "<p>Designed by autonomist xenobotanists as an experiment in developing a cyberbrain/planimal interface, whiplash pods are bioengineered from planimal stock found on Sunrise (see Exotic Life, p. 130, Gatecrashing), with other transgenic features (see Whiplash, p. 173, Gatecrashing). Whiplash pods are gaining some traction among gatecrashers due to their ability to blend in to arboreal environments. The primary modification made to the whiplash stock was to turn the entire organism upside down and orient the digestive portion of the organism horizontally, so that the whiplash’s tri-lobed orifice faces forward. The whiplash’s grasping roots were also converted into even more motile “walking tentacles” borrowed from other Sunrise planimals. Other adjustments include the addition of a pair of grasping limbs, each with four universally opposable digits; artificial sensing mods (providing transhuman-standard sensing ability); and a general toughening of the internal structure for rigidity and support. The barrel-like body remains very similar to the original planimal stock and, reorientation notwithstanding, the digestive system remains mostly unchanged. The ability to extend and retract the whiplash’s feeding tendril was heavily enhanced, so now the tendril acts more like a two-meter-long chameleon-like tongue than a hanging food-trap.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 109.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 125000,
+  "sort": 128000,
   "ownership": {
     "default": 0
   }

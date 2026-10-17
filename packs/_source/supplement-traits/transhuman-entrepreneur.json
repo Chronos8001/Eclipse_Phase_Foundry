@@ -1,0 +1,23 @@
+{
+  "_id": "d457c454e123a52d",
+  "_key": "!items!d457c454e123a52d",
+  "name": "Entrepreneur",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "entrepreneur",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP (Level 1), 20 CP (Level 2), or 30 CP (Level 3)",
+    "description": "<p>This character is the owner or co-owner of their own small hypercorp, microcorp, or business franchise—or an active participant in an autonomist cooperative, collective, or work syndicate. This entity has its own reputation score in an appropriate social network; at the beginning of game play, this rep score equals the trait level x 20. As an owner/member, the character can call upon this rep score for favors, information, and goods, just as they would their own rep score. At the gamemster’s discretion, this venture can provide other benefits, such as enabling opportunities for smuggling, making official inquiries, or providing a cover for clandestine activities. Though a character can handle much of their management/participation in their businesses or cooperative work project via the mesh and forking, the gamemaster should ensure that the relationship is not strictly a one-way street and occasionally place obligations on the character to take care of business affairs. The gamemaster and player should work together to define the nature of the business/cooperative, such as what it focuses on, where it is based, and the other important participants. These ventures are more than just another resource for the character to call upon, as they can also be used to sew new plot seeds or create new roleplaying opportunities. The reputation score of this venture should fluctuate during game play, much like a player character’s. This may be in part due to the character’s actions, but could also result from economic or political factors outside the character’s control.</p><p><em>Source: Eclipse Phase Transhuman, p. 83.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "_id": "cebd10bb96f189b1",
+  "_key": "!actors!cebd10bb96f189b1",
+  "name": "Extractor",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 1–12</p><p>Extractors are the distant relatives of headhunter drones. The TITANs created these robots to infiltrate transhuman society, surprise and incapacitate their victims with needle-injected drugs or disablers, and then cut out and collect their cortical stacks. Looking like a cross between a centipede and a snake in metallic form, the standard extractor is one meter in length. They slither, crawl, climb, and skitter, using vents, drains, windows, and small holes to access even fortified positions. They also possess the ability to jump far distances and feature pop-out rotator blades for short bursts of copter flight. Their “mouths” are studded with retractable needles and cutting and sawing implements. They have been known to strangle targets and lay traps. Collected stacks are “swallowed” and stored in an internal storage space; each extractor has the capacity to carry 12 cortical stacks.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Traits:</strong> Small Size (−10 to hit)</p><p><strong>Ware:</strong> Direction Sense, Disabler (p. 316, EP), Drug Gland (Sedative), Eelware, Enhanced Hearing, Enhanced Vision, Grip Pads, Pneumatic Limbs, Puppet Sock,T-Ray Emitter</p><p><strong>Notes:</strong> There is a 40% chance that an extractor will be carrying 1d10 ÷ 2 cortical stacks collected from previous victims.</p><p><strong>ShockTouch:</strong> 60,touch attack,shock (p.204,EP)</p><p><strong>Leap:</strong> Extractors can horizontally jump 4 meters (running)/2 meters (standing) and vertically jump 2 meters; +1/0.25/0.25 meters (respectively) per 10 MoS on as FreerunningTest.</p><p><strong>Sedative:</strong> Injected, Onset Time: 1 Action Turn,</p><p><em>Initiative printed: 6 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 3, Death Rating 30.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 105.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Extractor (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 15,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 4,
+          "kinetic": 6
+        },
+        "movement": "8/30 Walker/Snake, 4/16 Rotorcraft",
+        "implants": "Direction Sense, Disabler (p. 316, EP), Drug Gland (Sedative), Eelware, Enhanced Hearing, Enhanced Vision, Grip Pads, Pneumatic Limbs, Puppet Sock,T-Ray Emitter",
+        "advantages": "Small Size (−10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "c5360ee6fc93ddec",
+      "_key": "!actors.items!cebd10bb96f189b1.c5360ee6fc93ddec",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a56806ced0ffe9b8",
+      "_key": "!actors.items!cebd10bb96f189b1.a56806ced0ffe9b8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Exotic Melee Weapon",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "exoticMelee",
+        "aptitude": "som",
+        "category": "active",
+        "field": "Strangle",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7c95d009cb69529c",
+      "_key": "!actors.items!cebd10bb96f189b1.7c95d009cb69529c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "flight",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6b42dfb13fd5070f",
+      "_key": "!actors.items!cebd10bb96f189b1.6b42dfb13fd5070f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b9481bce48880eac",
+      "_key": "!actors.items!cebd10bb96f189b1.b9481bce48880eac",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Medicine",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "medicine",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "Stack Popping",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "61c7cacd1c1ab045",
+      "_key": "!actors.items!cebd10bb96f189b1.61c7cacd1c1ab045",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e3dce76abca0ced8",
+      "_key": "!actors.items!cebd10bb96f189b1.e3dce76abca0ced8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "569f77617ef0fb96",
+      "_key": "!actors.items!cebd10bb96f189b1.569f77617ef0fb96",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "Hearing/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "422936879c8cc4a1",
+      "_key": "!actors.items!cebd10bb96f189b1.422936879c8cc4a1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Injection Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 40,
+        "ap": -4,
+        "dv": "1d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Injection Bite: 40, DV 1d10,AP −4, injects sedative (see below)</p>"
+      },
+      "_id": "c6adac873b28bcdb",
+      "_key": "!actors.items!cebd10bb96f189b1.c6adac873b28bcdb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Strangle",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": 0,
+        "dv": "2d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Strangle: 60 subdual attack (p. 204, EP); subdued biomorphs take DV 2d10 perActionTurn (armor does not protect); subdued synthmorphs may be incapacitated with the disabler.</p>"
+      },
+      "_id": "ca3ab2c6a3caf09e",
+      "_key": "!actors.items!cebd10bb96f189b1.ca3ab2c6a3caf09e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 14000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Extractor",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

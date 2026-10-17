@@ -1,0 +1,29 @@
+{
+  "_id": "bbecae7e111ae563",
+  "_key": "!items!bbecae7e111ae563",
+  "name": "Smart Raccoon",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartRaccoon",
+    "cost": "Moderate",
+    "description": "<p>Raccoon helpers are employed as personal assistant and for many of the same tasks as smart monkeys. Some are even trained to get along in free fall, though they are mostly found in habitats with real or spin gravity.</p><p><em>Source: Eclipse Phase Panopticon, p. 155.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 57000,
+  "ownership": {
+    "default": 0
+  }
+}

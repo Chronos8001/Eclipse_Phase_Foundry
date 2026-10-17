@@ -33,7 +33,7 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Efficient Digestion, Enhanced Respiration, Fat Storage, Medichines, Respirocytes, Temperature Tolerance (Improved Cold), Toxin Filters",
-    "advantages": "+5 REF, +5 SOM, +5 to one other aptitude of the player's choice (includes penalties for Efficient Digestion)",
+    "advantages": "+5 REF, +5 SOM, +5 to one other aptitude of the player’s choice (includes penalties for Efficient Digestion)",
     "disadvantages": "Uncanny Valley trait",
     "skillBonuses": [],
     "cpCost": 30,
@@ -44,7 +44,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 84000,
+  "sort": 85000,
   "ownership": {
     "default": 0
   }

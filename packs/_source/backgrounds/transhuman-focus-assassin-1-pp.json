@@ -1,0 +1,58 @@
+{
+  "_id": "ed954522645ceb20",
+  "_key": "!items!ed954522645ceb20",
+  "name": "Assassin (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Death doesn’t have the impact it used to, but sometimes it’s enough to simply get someone out of the way for a little while.</p><p><strong>Suggested Motivations:</strong> +Personal Career, +Privacy, +Survival</p><p><strong>1 PP:</strong> Kinetic Weapons 40, Profession:Assassin 30, Unarmed Combat 30</p><p><em>Source: Eclipse Phase Transhuman, p. 30.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Assassin",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Personal Career, +Privacy, +Survival"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 155000,
+  "ownership": {
+    "default": 0
+  }
+}

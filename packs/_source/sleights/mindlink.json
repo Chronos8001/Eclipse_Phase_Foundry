@@ -1,0 +1,33 @@
+{
+  "_id": "1130c89680c85306",
+  "_key": "!items!1130c89680c85306",
+  "name": "Mindlink",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "mindlink",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "quick",
+    "range": "touch",
+    "duration": "sustained",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 1,
+    "strainPerAP": false,
+    "skill": "control",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Mindlink allows two-way mental communication with a target. This may be used on more than one target simultaneously, in which case the async can act as a telepathic “server,” so that everyone mindlinked with the async may also telepathically communicate with each other (via the async, however, so they overhear). Language is still a factor in mindlinked communications, but this barrier may be overcome by transmitting sounds, images, emotions, and other sensations. Mindlink requires an Opposed Test against unwilling participants.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 227.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 30000,
+  "ownership": {
+    "default": 0
+  }
+}

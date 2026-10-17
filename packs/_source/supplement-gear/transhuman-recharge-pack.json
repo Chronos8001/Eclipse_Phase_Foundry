@@ -1,0 +1,20 @@
+{
+  "_id": "317bae9c3b094e03",
+  "_key": "!items!317bae9c3b094e03",
+  "name": "Recharge Pack",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "rechargePack",
+    "cost": "Low",
+    "description": "<p>This is a backpack-sized refueling station for swarmanoids, swarms, and microbots. A recharge pack is stocked with a nuclear battery, wireless transmission unit, and either fuel for internal rocket systems or compressed gas. It includes docking girders for microbots to latch on to while refueling.</p><p><em>Source: Eclipse Phase Transhuman, p. 214.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 39000,
+  "ownership": {
+    "default": 0
+  }
+}

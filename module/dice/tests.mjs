@@ -1,4 +1,15 @@
 import { DIFFICULTIES, SYSTEM_ID } from "../config.mjs";
+import { createMessage, defaultMessageMode, messageModeChoices } from "../helpers/chat.mjs";
+import { excellentBonus, shockedDamage } from "../rules/combat.mjs";
+import { psiExcellentBonus } from "../rules/psi.mjs";
+import { conditionEffect, setCondition } from "../helpers/effects.mjs";
+import { blastRecipients, renderTargets, resolveTargets, rollDefense, rollScatter, waiveDefense } from "./opposed.mjs";
+import { applyShockConditions, isBiological, rollShock, updateHealthConditions } from "./conditions.mjs";
+import { rollSeizureTest } from "./psi.mjs";
+import { scorchEffect } from "./mesh.mjs";
+import { rollAddictionTest } from "./substances.mjs";
+import { applyEgoResult, egoSummary } from "./ego.mjs";
+import { promptDerangement } from "./mental.mjs";
 
 const TEMPLATES = {
   dialog: `systems/${SYSTEM_ID}/templates/dialog/test.hbs`,
@@ -47,22 +58,25 @@ export function evaluateTest(test) {
 /*  Test dialog                                 */
 /* -------------------------------------------- */
 
-/**
- * Prompt for test modifiers.
- * @returns {Promise<object|null>} The submitted options, or null if cancelled.
- */
-async function promptTest(actor, { label, target, specialization, aptitude, multiplier }) {
-  const content = await render(TEMPLATES.dialog, {
+/** Context of the fields shared by every test dialog (templates/dialog/test-fields.hbs). */
+export function testDialogContext(actor, { label, target, specialization, aptitude, multiplier }) {
+  return {
     label, target, specialization, aptitude, multiplier,
     penalty: actor.system.penalty?.total ?? 0,
     moxie: actor.system.moxie.value,
     difficulties: DIFFICULTIES,
     multipliers: [1, 2, 3, 4, 5],
-    rollModes: Object.entries(CONFIG.Dice.rollModes).map(([value, mode]) => ({
-      value, label: (typeof mode === "string") ? mode : mode.label
-    })),
-    rollMode: getDefaultRollMode()
-  });
+    messageModes: messageModeChoices(),
+    messageMode: defaultMessageMode()
+  };
+}
+
+/**
+ * Prompt for test modifiers.
+ * @returns {Promise<object|null>} The submitted options, or null if cancelled.
+ */
+async function promptTest(actor, options) {
+  const content = await render(TEMPLATES.dialog, testDialogContext(actor, options));
   return foundry.applications.api.DialogV2.wait({
     window: { title: game.i18n.format("EP1E.Test.title", { label }), icon: "fa-solid fa-dice-d10" },
     classes: ["ep1e", "ep1e-dialog"],
@@ -92,12 +106,19 @@ async function promptTest(actor, { label, target, specialization, aptitude, mult
  * @param {string} [options.aptitude]      Aptitude key, offers a multiplier (e.g. SOM x 3)
  * @param {number} [options.multiplier]    Preset aptitude multiplier
  * @param {object} [options.attack]        Weapon attack data, enables the damage button
+ * @param {object} [options.defense]       Defense against an attack card: { attackId, tokenUuid }
+ * @param {object} [options.ego]           Ego test with an "apply" button (dice/ego.mjs): { kind, ... }
+ * @param {boolean} [options.ownPenalty=true] Apply the actor's wound, trauma and other penalties (false for a test
+ *                                          made with someone else's skill, such as a therapist's)
+ * @param {object} [options.input]         Preset dialog values (difficulty, modifier, specialized, ignoreMods, messageMode)
  * @param {boolean} [options.fastForward]  Skip the dialog
  */
 export async function rollSkillTest(actor, options = {}) {
-  const { label, attack = null } = options;
+  const { label, attack = null, defense = null, ego = null } = options;
   let base = options.target ?? 0;
-  let input = { difficulty: 0, modifier: 0, multiplier: options.multiplier ?? 1, specialized: false, ignoreMods: false };
+  let input = {
+    difficulty: 0, modifier: 0, multiplier: options.multiplier ?? 1, specialized: false, ignoreMods: false, ...options.input
+  };
   if ( !options.fastForward ) {
     const result = await promptTest(actor, { ...options, multiplier: input.multiplier });
     if ( !result ) return null;
@@ -106,7 +127,7 @@ export async function rollSkillTest(actor, options = {}) {
   const multiplier = options.aptitude ? Math.max(1, Number(input.multiplier) || 1) : 1;
   base *= multiplier;
 
-  const penalty = actor.system.penalty?.total ?? 0;
+  const penalty = (options.ownPenalty === false) ? 0 : (actor.system.penalty?.total ?? 0);
   const ignoreMods = !!input.ignoreMods && (actor.system.moxie.value > 0);
   const situational = (Number(input.difficulty) || 0) + (Number(input.modifier) || 0) + (input.specialized ? 10 : 0);
   const modifier = ignoreMods ? 0 : situational - penalty;
@@ -119,7 +140,9 @@ export async function rollSkillTest(actor, options = {}) {
     base, modifier, penalty: ignoreMods ? 0 : penalty, target,
     value: toPercentile(roll.total),
     moxie: ignoreMods ? "ignoreMods" : null,
-    attack
+    attack,
+    defense,
+    ego
   };
   if ( ignoreMods ) await actor.update({ "system.moxie.value": actor.system.moxie.value - 1 });
 
@@ -129,16 +152,7 @@ export async function rollSkillTest(actor, options = {}) {
     content: await renderTestCard(test),
     flags: { [SYSTEM_ID]: { test } }
   };
-  return ChatMessage.implementation.create(messageData, { rollMode: input.rollMode ?? getDefaultRollMode() });
-}
-
-/** The user's current roll visibility preference. */
-function getDefaultRollMode() {
-  try {
-    return game.settings.get("core", "rollMode");
-  } catch {
-    return CONST.DICE_ROLL_MODES?.PUBLIC ?? "publicroll";
-  }
+  return createMessage(messageData, input.messageMode);
 }
 
 /** Roll a test against a raw aptitude (defaulting, or APT x N tests). */
@@ -147,41 +161,27 @@ export function rollAptitudeTest(actor, key, options = {}) {
   return rollSkillTest(actor, { label, target: actor.system.aptitudes[key].value, aptitude: key, ...options });
 }
 
-/** Attack with a weapon: an opposed skill test whose card carries the damage roll. */
-export function rollAttack(actor, weapon, options = {}) {
-  const w = weapon.system;
-  const { target, label } = actor.system.getSkillTarget(w.skill);
-  return rollSkillTest(actor, {
-    label: `${weapon.name}${label ? ` (${label})` : ""}`,
-    target,
-    attack: {
-      weaponUuid: weapon.uuid,
-      name: weapon.name,
-      dv: w.dv,
-      ap: w.ap,
-      damageType: w.damageType,
-      db: w.addDB ? actor.system.stats.db : 0
-    },
-    ...options
-  });
-}
-
 /* -------------------------------------------- */
 /*  Chat cards                                  */
 /* -------------------------------------------- */
 
+/** Extra damage of an Excellent Success: +5/+10 for weapons, +5 for psi attacks (p. 228). */
+const attackBonus = (attack, margin) => (attack.psi ? psiExcellentBonus(margin) : excellentBonus(margin));
+
 export async function renderTestCard(test) {
   const result = evaluateTest(test);
-  let damageBonus = 0;
-  if ( test.attack && result.success ) damageBonus = result.margin >= 60 ? 10 : (result.margin >= 30 ? 5 : 0);
+  const damageBonus = (test.attack && result.success) ? attackBonus(test.attack, result.margin) : 0;
   return render(TEMPLATES.test, {
     test, result, damageBonus,
     outcomeLabel: `EP1E.Outcome.${result.outcome}`,
     canMoxie: !test.moxie,
     canUpgrade: !test.moxie && result.success && !result.critical,
     canIgnoreCrit: !test.moxie && !result.success && result.critical,
-    showDamage: !!test.attack && result.success && !!test.attack.dv,
-    armorDefeating: !!test.attack && result.success && result.critical
+    showDamage: !!test.attack && result.success && !!(test.attack.formula ?? test.attack.dv),
+    armorDefeating: !!test.attack && result.success && result.critical,
+    // A called shot needs an Excellent Success; otherwise it is a normal hit (p. 196)
+    calledShotMissed: !!test.attack?.calledShot && result.success && !result.excellent,
+    ego: test.ego ? egoSummary(test, result) : null
   });
 }
 
@@ -204,13 +204,18 @@ async function rollDamageFromTest(message) {
   const attack = test?.attack;
   if ( !attack ) return;
   const result = evaluateTest(test);
-  const bonus = result.margin >= 60 ? 10 : (result.margin >= 30 ? 5 : 0);
-  const parts = [attack.dv || "0"];
-  if ( attack.db ) parts.push(String(attack.db));
+  const bonus = attackBonus(attack, result.margin);
+  // Cards from before the attack dialog carry dv and db instead of a full formula
+  const parts = [attack.formula ?? attack.dv ?? "0"];
+  if ( !attack.formula && attack.db ) parts.push(String(attack.db));
   if ( bonus ) parts.push(String(bonus));
   const roll = await new Roll(parts.join(" + ")).evaluate();
   const actor = await fromUuid(test.actorUuid);
   return postDamageRoll(actor, roll, {
+    attackId: message.id,
+    shock: !!attack.shock,
+    armorDoubled: !!attack.armorDoubled,
+    stress: !!attack.stress,
     label: attack.name,
     ap: attack.ap,
     damageType: attack.damageType,
@@ -220,14 +225,21 @@ async function rollDamageFromTest(message) {
 }
 
 /** Post a damage roll card with an "apply" button. */
-export async function postDamageRoll(actor, roll, { label, ap = 0, damageType = "kinetic", armorDefeating = false, excellentBonus = 0, stress = false }) {
-  const damage = { label, total: roll.total, formula: roll.formula, ap, damageType, armorDefeating, excellentBonus, stress };
+export async function postDamageRoll(actor, roll, {
+  label, ap = 0, damageType = "kinetic", armorDefeating = false, armorHalved = false, armorDoubled = false,
+  excellentBonus = 0, stress = false, shock = false, attackId = null
+}) {
+  const damage = {
+    label, total: roll.total, formula: roll.formula, ap, damageType, armorDefeating, armorHalved, armorDoubled,
+    excellentBonus, stress, shock, attackId
+  };
   const content = await render(TEMPLATES.damage, {
     damage,
-    damageTypeLabel: CONFIG.EP1E.damageTypes[damageType],
+    // Psi attacks use "psi" (mental armor), which weapons do not offer
+    damageTypeLabel: `EP1E.DamageType.${damageType}`,
     tooltip: await roll.getTooltip()
   });
-  return ChatMessage.implementation.create({
+  return createMessage({
     speaker: ChatMessage.implementation.getSpeaker({ actor }),
     rolls: [roll],
     content,
@@ -245,49 +257,126 @@ function getTargetActors() {
   return tokens.map(t => t.actor).filter(a => a);
 }
 
-/** Apply a damage or stress payload to an actor and report the result in chat. */
-export async function applyToActor(actor, damage) {
+/** Whisper recipients for reports about an NPC: the GMs only. */
+export function gmWhisper(actor) {
+  return actor.hasPlayerOwner ? [] : ChatMessage.implementation.getWhisperRecipients("GM").map(u => u.id);
+}
+
+/**
+ * Apply a damage or stress payload to an actor and report the result in chat.
+ * Shock weapons roll the victim's shock test first (p. 204); the conditions that follow are set on the actor.
+ * @param {Actor} actor
+ * @param {object} damage               Damage card payload
+ * @param {object} [options]
+ * @param {number} [options.total]      DV for this actor (blasts lose damage with distance)
+ * @param {number} [options.distance]   Distance from a blast epicenter, for the report
+ * @param {Roll[]} [options.rolls]      Rolls to show with the report
+ */
+export async function applyToActor(actor, damage, { total = damage.total, distance = null, rolls = [] } = {}) {
+  let shock = null;
+  let shockImmune = false;
+  let dv = total;
+  if ( !damage.stress && damage.shock ) {
+    if ( isBiological(actor) ) {
+      shock = await rollShock(actor);
+      rolls = [...rolls, shock.roll];
+      dv = shockedDamage(total, shock);
+    }
+    else shockImmune = true;
+  }
   const result = damage.stress
-    ? await actor.applyStress({ sv: damage.total })
+    ? await actor.applyStress({ sv: total })
     : await actor.applyDamage({
-      dv: damage.total, ap: damage.ap, damageType: damage.damageType, armorDefeating: damage.armorDefeating
+      dv, ap: damage.ap, damageType: damage.damageType, armorDefeating: damage.armorDefeating,
+      armorHalved: damage.armorHalved, armorDoubled: damage.armorDoubled
     });
+  if ( !damage.stress ) {
+    if ( shock ) await applyShockConditions(actor, shock);
+    await updateHealthConditions(actor);
+  }
   const sys = actor.system;
   const content = await render(TEMPLATES.applied, {
-    actor, result, stress: !!damage.stress,
+    actor, result, stress: !!damage.stress, distance, shock, shockImmune,
     max: damage.stress ? sys.stats.luc : sys.stats.dur,
+    // Bots and vehicles: a Pilot Test to avoid crashing, and an automatic crash on 2+ wounds (p. 207)
+    vehicle: actor.type === "vehicle",
     knockdown: !damage.stress && (result.wounds >= 1),
     unconscious: !damage.stress && (result.wounds >= 2),
+    bleeding: !damage.stress && !!conditionEffect(actor, "bleeding"),
     status: sys.status,
     actorUuid: actor.uuid
   });
   return ChatMessage.implementation.create({
     speaker: ChatMessage.implementation.getSpeaker({ actor }),
     content,
-    whisper: actor.hasPlayerOwner ? [] : ChatMessage.implementation.getWhisperRecipients("GM").map(u => u.id)
+    rolls,
+    whisper: gmWhisper(actor)
   });
 }
 
-async function applyDamageFromCard(message) {
-  const damage = message.getFlag(SYSTEM_ID, "damage");
-  if ( !damage ) return;
-  const actors = getTargetActors();
-  if ( !actors.length ) return ui.notifications.warn("EP1E.Damage.noTarget", { localize: true });
-  for ( const actor of actors ) {
-    if ( actor.isOwner ) await applyToActor(actor, damage);
-    else if ( game.users.activeGM ) {
-      game.socket.emit(`system.${SYSTEM_ID}`, { action: "applyDamage", actorUuid: actor.uuid, damage });
-    }
-    else ui.notifications.warn("EP1E.Damage.noGM", { localize: true });
+/**
+ * Who a damage card applies to, as [{ actor, total, distance }]: everyone a blast reaches,
+ * the targets its attack hit, or, without targets on the attack (or on Shift+click),
+ * the user's targeted or controlled tokens.
+ */
+async function damageRecipients(damage, { manual = false } = {}) {
+  const asIs = actor => ({ actor, total: damage.total, distance: null });
+  const attackMessage = (!manual && damage.attackId) ? game.messages.get(damage.attackId) : null;
+  const targets = attackMessage ? resolveTargets(attackMessage) : [];
+  if ( !targets.length ) return getTargetActors().map(asIs);
+  const pending = targets.filter(t => t.state === "pending");
+  if ( pending.length ) {
+    ui.notifications.warn(game.i18n.format("EP1E.Opposed.pendingWarning", { names: pending.map(t => t.name).join(", ") }));
   }
+  const blast = blastRecipients(attackMessage, damage.total);
+  if ( blast ) return blast;
+  const hits = targets.filter(t => ["hit", "undefended"].includes(t.state));
+  return (await Promise.all(hits.map(t => fromUuid(t.actorUuid)))).filter(a => a).map(asIs);
 }
 
-/** Socket handler: the active GM applies damage on behalf of players. */
+async function applyDamageFromCard(message, { manual = false } = {}) {
+  const damage = message.getFlag(SYSTEM_ID, "damage");
+  if ( !damage ) return;
+  let recipients = await damageRecipients(damage, { manual });
+  if ( !recipients.length ) return ui.notifications.warn("EP1E.Damage.noTarget", { localize: true });
+  // Each actor takes a card's damage once, unless the user insists with Shift+click
+  const applied = new Set(message.getFlag(SYSTEM_ID, "applied") ?? []);
+  if ( !manual ) {
+    const already = recipients.filter(r => applied.has(r.actor.uuid));
+    if ( already.length ) {
+      ui.notifications.info(game.i18n.format("EP1E.Damage.alreadyApplied", { names: already.map(r => r.actor.name).join(", ") }));
+    }
+    recipients = recipients.filter(r => !applied.has(r.actor.uuid));
+  }
+  for ( const { actor, total, distance } of recipients ) {
+    if ( actor.isOwner ) await applyToActor(actor, damage, { total, distance });
+    else if ( game.users.activeGM ) {
+      game.socket.emit(`system.${SYSTEM_ID}`, { action: "applyDamage", actorUuid: actor.uuid, damage, total, distance });
+    }
+    else {
+      ui.notifications.warn("EP1E.Damage.noGM", { localize: true });
+      continue;
+    }
+    applied.add(actor.uuid);
+  }
+  if ( message.isOwner ) await message.setFlag(SYSTEM_ID, "applied", [...applied]);
+}
+
+/** Socket handler: the active GM acts on behalf of players. */
 export async function onSocketMessage(data) {
   if ( !game.users.activeGM?.isSelf ) return;
-  if ( data?.action !== "applyDamage" ) return;
-  const actor = await fromUuid(data.actorUuid);
-  if ( actor ) await applyToActor(actor, data.damage);
+  switch ( data?.action ) {
+    case "applyDamage": {
+      const actor = await fromUuid(data.actorUuid);
+      if ( actor ) await applyToActor(actor, data.damage, { total: data.total ?? data.damage.total, distance: data.distance ?? null });
+      break;
+    }
+    case "waiveDefense": {
+      const message = game.messages.get(data.messageId);
+      if ( message ) await waiveDefense(message, data.tokenUuid);
+      break;
+    }
+  }
 }
 
 /* -------------------------------------------- */
@@ -299,12 +388,17 @@ export function onRenderChatMessage(message, html) {
   const test = message.getFlag(SYSTEM_ID, "test");
   // Moxie buttons are only usable by the roller
   if ( test && !message.isOwner ) html.querySelectorAll(".moxie-actions").forEach(el => el.remove());
+  if ( test?.attack?.targets?.length ) renderTargets(message, html).then(() => activateButtons(message, html));
+  else activateButtons(message, html);
+}
+
+function activateButtons(message, html) {
   html.querySelectorAll("[data-ep-action]").forEach(button => {
     button.addEventListener("click", async event => {
       event.preventDefault();
       button.disabled = true;
       try {
-        await handleChatAction(message, button.dataset);
+        await handleChatAction(message, button.dataset, event);
       } finally {
         button.disabled = false;
       }
@@ -312,15 +406,55 @@ export function onRenderChatMessage(message, html) {
   });
 }
 
-async function handleChatAction(message, dataset) {
+async function handleChatAction(message, dataset, event) {
   switch ( dataset.epAction ) {
     case "moxie": return spendMoxie(message, dataset.mode);
     case "damage": return rollDamageFromTest(message);
-    case "apply": return applyDamageFromCard(message);
+    case "apply": return applyDamageFromCard(message, { manual: event.shiftKey });
+    case "defend": return rollDefense(message, dataset.tokenUuid, { fastForward: event.shiftKey });
+    case "waive": return waiveDefense(message, dataset.tokenUuid);
+    case "scatter": return rollScatter(message);
+    case "egoApply": return applyEgoResult(message);
+    case "derangement": {
+      const actor = await fromUuid(dataset.actorUuid);
+      if ( actor?.isOwner ) return promptDerangement(actor);
+      return;
+    }
+    case "egoBurn": return applyEgoResult(message, "burn");
+    case "scorchEffect": {
+      const test = message.getFlag(SYSTEM_ID, "test");
+      const target = test?.attack?.targets?.find(t => t.tokenUuid === dataset.tokenUuid);
+      const actor = target ? await fromUuid(target.actorUuid) : null;
+      if ( actor?.isOwner ) return scorchEffect(actor, test.attack.effect, { excellent: evaluateTest(test).excellent });
+      return;
+    }
+    case "addictionTest": {
+      const actor = await fromUuid(dataset.actorUuid);
+      const item = actor?.items.get(dataset.itemId);
+      if ( actor?.isOwner && item ) return rollAddictionTest(actor, item);
+      return;
+    }
+    case "crashTest": {
+      const actor = await fromUuid(dataset.actorUuid);
+      if ( !actor?.isOwner ) return;
+      const sys = actor.system;
+      return rollSkillTest(actor, {
+        label: game.i18n.localize("EP1E.Vehicle.crashTest"), target: sys.pilot + sys.handling, fastForward: true
+      });
+    }
+    case "seizureTest": {
+      const actor = await fromUuid(dataset.actorUuid);
+      if ( actor?.isOwner ) return rollSeizureTest(actor);
+      return;
+    }
     case "aptitudeTest": {
       const actor = await fromUuid(dataset.actorUuid);
       if ( !actor?.isOwner ) return;
-      return rollAptitudeTest(actor, dataset.aptitude, { multiplier: Number(dataset.multiplier) || 1 });
+      const test = await rollAptitudeTest(actor, dataset.aptitude, { multiplier: Number(dataset.multiplier) || 1 });
+      // Knockdown and unconsciousness tests (p. 207): failure sets the condition
+      const flag = test?.getFlag(SYSTEM_ID, "test");
+      if ( dataset.condition && flag && !evaluateTest(flag).success ) await setCondition(actor, dataset.condition);
+      return test;
     }
   }
 }

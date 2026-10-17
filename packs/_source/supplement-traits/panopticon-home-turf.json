@@ -1,0 +1,23 @@
+{
+  "_id": "cf81f6b7aa8b4aa5",
+  "_key": "!items!cf81f6b7aa8b4aa5",
+  "name": "Home Turf",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "homeTurf",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>This character knows a particular habitat like the back of their hand, paw, or tentacle, having grown up there or spent years familiarizing themselves. They receive an extra point of Moxie that may only be used for tests that apply to that habitat, such as navigating the best route, bypassing airlock controls, or hacking its infrastructure.</p><p><em>Source: Eclipse Phase Panopticon, p. 145.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "315ebe0c4fba6ff6",
+  "sort": 78000,
+  "ownership": {
+    "default": 0
+  }
+}

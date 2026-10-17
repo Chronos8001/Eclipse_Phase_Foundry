@@ -7,6 +7,10 @@ export const SYSTEM_ID = "ep1e";
 export const APTITUDES = ["cog", "coo", "int", "ref", "sav", "som", "wil"];
 
 export const REP_NETWORKS = ["at", "c", "e", "f", "g", "i", "r"];
+/** The Networking field that taps each reputation network (Reputation Networks table, Core p. 287). */
+export const REP_NETWORKING = {
+  at: "Autonomists", c: "Hypercorps", e: "Ecologists", f: "Media", g: "Criminals", i: "Firewall", r: "Scientists"
+};
 
 /**
  * Learned skills from the Complete Skill List (Core p. 176).
@@ -89,22 +93,80 @@ export const EP1E = {
     synthmorph: "EP1E.MorphType.synthmorph",
     infomorph: "EP1E.MorphType.infomorph"
   },
-  traitTypes: { positive: "EP1E.TraitType.positive", negative: "EP1E.TraitType.negative" },
+  traitTypes: { positive: "EP1E.TraitType.positive", negative: "EP1E.TraitType.negative", neutral: "EP1E.TraitType.neutral" },
   traitScopes: { ego: "EP1E.TraitScope.ego", morph: "EP1E.TraitScope.morph", both: "EP1E.TraitScope.both" },
+  backgroundKinds: { background: "EP1E.Background.kind.background", faction: "EP1E.Background.kind.faction", package: "EP1E.Background.kind.package" },
   weaponTypes: { melee: "EP1E.WeaponType.melee", ranged: "EP1E.WeaponType.ranged" },
+  areaShapes: {
+    none: "EP1E.AreaShape.none",
+    blast: "EP1E.AreaShape.blast",
+    uniform: "EP1E.AreaShape.uniform",
+    cone: "EP1E.AreaShape.cone"
+  },
+  munitionKinds: { none: "EP1E.MunitionKind.none", grenade: "EP1E.MunitionKind.grenade", seeker: "EP1E.MunitionKind.seeker" },
+  munitionSizes: { micro: "EP1E.MunitionSize.micro", mini: "EP1E.MunitionSize.mini", standard: "EP1E.MunitionSize.standard" },
   damageTypes: {
     kinetic: "EP1E.DamageType.kinetic",
     energy: "EP1E.DamageType.energy",
     none: "EP1E.DamageType.none"
   },
+  // Psi attacks are resisted by mental armor (Psi Shield); not offered on weapons
+  harmTypes: { damage: "EP1E.Sleight.harmDamage", stress: "EP1E.Sleight.harmStress" },
+  softwareCategories: {
+    program: "EP1E.Software.program",
+    ai: "EP1E.Software.ai",
+    scorcher: "EP1E.Software.scorcher",
+    skillsoft: "EP1E.Software.skillsoft"
+  },
+  vehicleCategories: {
+    robot: "EP1E.VehicleCategory.robot", aircraft: "EP1E.VehicleCategory.aircraft", groundcraft: "EP1E.VehicleCategory.groundcraft",
+    personal: "EP1E.VehicleCategory.personal", watercraft: "EP1E.VehicleCategory.watercraft",
+    spacecraft: "EP1E.VehicleCategory.spacecraft", other: "EP1E.VehicleCategory.other"
+  },
+  gearCategories: {
+    other: "EP1E.GearCategory.other", armorMod: "EP1E.GearCategory.armorMod", comms: "EP1E.GearCategory.comms",
+    surveillance: "EP1E.GearCategory.surveillance", espionage: "EP1E.GearCategory.espionage",
+    everyday: "EP1E.GearCategory.everyday", nanotech: "EP1E.GearCategory.nanotech", pet: "EP1E.GearCategory.pet",
+    scavenger: "EP1E.GearCategory.scavenger", service: "EP1E.GearCategory.service", survival: "EP1E.GearCategory.survival",
+    ammo: "EP1E.GearCategory.ammo", weaponAccessory: "EP1E.GearCategory.weaponAccessory",
+    server: "EP1E.GearCategory.server"
+  },
+  substanceCategories: {
+    drug: "EP1E.Substance.drug", nanodrug: "EP1E.Substance.nanodrug", narcoalgorithm: "EP1E.Substance.narcoalgorithm",
+    chemical: "EP1E.Substance.chemical", toxin: "EP1E.Substance.toxin", nanotoxin: "EP1E.Substance.nanotoxin",
+    pathogen: "EP1E.Substance.pathogen", psi: "EP1E.Substance.psi"
+  },
+  substanceTypes: { "": "—", chem: "EP1E.Substance.chem", bio: "EP1E.Substance.bio", nano: "EP1E.Substance.nano", electronic: "EP1E.Substance.electronic" },
+  addictionTypes: { "": "—", mental: "EP1E.Substance.mental", physical: "EP1E.Substance.physical", both: "EP1E.Substance.both" },
+  softwareHarms: { none: "EP1E.Software.harmNone", damage: "EP1E.Sleight.harmDamage", stress: "EP1E.Sleight.harmStress" },
+  scorchEffects: { "": "EP1E.Software.harmNone", nightmare: "EP1E.Mesh.nightmare", shutter: "EP1E.Mesh.shutter", spasm: "EP1E.Mesh.spasm" },
   augmentationTypes: {
+    standard: "EP1E.AugType.standard",
     bioware: "EP1E.AugType.bioware",
     cyberware: "EP1E.AugType.cyberware",
     nanoware: "EP1E.AugType.nanoware",
     meshware: "EP1E.AugType.meshware",
+    cosmetic: "EP1E.AugType.cosmetic",
+    robotic: "EP1E.AugType.robotic",
     other: "EP1E.AugType.other"
   },
   psiTypes: { chi: "EP1E.PsiType.chi", gamma: "EP1E.PsiType.gamma", epsilon: "EP1E.PsiType.epsilon" },
+  psiActivations: { active: "EP1E.Sleight.active", passive: "EP1E.Sleight.passive" },
+  psiRanges: { self: "EP1E.PsiRange.self", touch: "EP1E.PsiRange.touch", close: "EP1E.PsiRange.close" },
+  psiDurations: {
+    constant: "EP1E.PsiDuration.constant",
+    instant: "EP1E.PsiDuration.instant",
+    temporary: "EP1E.PsiDuration.temporary",
+    sustained: "EP1E.PsiDuration.sustained"
+  },
+  durationUnits: { turns: "EP1E.DurationUnit.turns", minutes: "EP1E.DurationUnit.minutes", hours: "EP1E.DurationUnit.hours" },
+  psiSkills: { "": "EP1E.Sleight.noSkill", control: "EP1E.Skill.control", psiAssault: "EP1E.Skill.psiAssault", sense: "EP1E.Skill.sense" },
+  psiCreatures: {
+    sentient: "EP1E.PsiCreature.sentient",
+    partial: "EP1E.PsiCreature.partial",
+    animal: "EP1E.PsiCreature.animal",
+    alien: "EP1E.PsiCreature.alien"
+  },
   actionTypes: {
     automatic: "EP1E.Action.automatic",
     quick: "EP1E.Action.quick",

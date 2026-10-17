@@ -1,0 +1,88 @@
+{
+  "_id": "d3963d6ec8e88b13",
+  "_key": "!items!d3963d6ec8e88b13",
+  "name": "Brinker (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Some folk just aren’t all that fond of too many other folk. Being in space and having to live cheek-to-jowl with others makes it kinda hard. Your fellow brinkers understand you need a little “me space” to go along with “me time.”</p><p><strong>Suggested Motivations:</strong> +Bioconservatism, +Exhumanism, +Privacy, +Religion, +Solitude, +Self Reliance</p><p><strong>3 PP:</strong> +50 Rep (Your Choice) · Free Fall 30, Gunnery 20, Hardware: Industrial 40, Interest: (Choose One) 40, Networking: (Choose One) 25, Pilot: (Spacecraft) 50, Profession: (Choose One) 50, Scrounging 40</p><p><em>Source: Eclipse Phase Transhuman, p. 24.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "gunnery",
+        "name": "Gunnery",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "Industrial",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 25
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Spacecraft",
+        "value": 50
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Bioconservatism, +Exhumanism, +Privacy, +Religion, +Solitude, +Self Reliance"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 96000,
+  "ownership": {
+    "default": 0
+  }
+}

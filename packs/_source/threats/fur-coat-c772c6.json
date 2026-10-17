@@ -1,0 +1,185 @@
+{
+  "_id": "c772c657acbf8bd0",
+  "_key": "!actors!c772c657acbf8bd0",
+  "name": "Fur Coat",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 1,
+        "mod": 0
+      },
+      "coo": {
+        "base": 1,
+        "mod": 0
+      },
+      "int": {
+        "base": 1,
+        "mod": 0
+      },
+      "ref": {
+        "base": 5,
+        "mod": 0
+      },
+      "sav": {
+        "base": 1,
+        "mod": 0
+      },
+      "som": {
+        "base": 1,
+        "mod": 0
+      },
+      "wil": {
+        "base": 1,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Type:</strong> Neogenetic</p><p><strong>Niche:</strong> Transhuman Habitats</p><p><strong>Numbers:</strong> 1</p><p>This outerwear is a living, designed organism.They may express fur, scales, quills, horns, or other features.They have tiny mouths and must be fed.They typically come with controls so that they wriggle, shiver, massage, purr, or prickle up on command.</p><p><strong>Traits:</strong> Small Size (–10 to hit)</p><p><em>Initiative printed: 1 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 3, Death Rating 5.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 157.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Fur Coat (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 15,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "1/2 Walker",
+        "implants": "",
+        "advantages": "Small Size (–10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "743f976eadff6172",
+      "_key": "!actors.items!c772c657acbf8bd0.743f976eadff6172",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 0,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ee372a094e2c9a4c",
+      "_key": "!actors.items!c772c657acbf8bd0.ee372a094e2c9a4c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 4,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5f83a3582c42d69a",
+      "_key": "!actors.items!c772c657acbf8bd0.5f83a3582c42d69a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "dc3626d7274902b1",
+  "sort": 76000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Fur Coat",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

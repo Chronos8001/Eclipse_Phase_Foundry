@@ -8,6 +8,10 @@
     <select name="system.scope">{{selectOptions config.traitScopes selected=system.scope localize=true}}</select>
   </div>
   <div class="form-group">
+    <label data-tooltip="EP1E.Trait.keyHint">{{localize "EP1E.Sleight.key"}}</label>
+    <input type="text" name="system.key" value="{{system.key}}">
+  </div>
+  <div class="form-group">
     <label>{{localize "EP1E.Trait.level"}}</label>
     <input type="number" name="system.level" value="{{system.level}}" min="0">
   </div>
@@ -20,4 +24,6 @@
   <label>{{localize "EP1E.Trait.costText"}}</label>
   <input type="text" name="system.costText" value="{{system.costText}}">
 </div>
-<p class="hint">{{localize "EP1E.Trait.effectHint"}}</p>
+{{#if system.automated}}<p class="hint"><i class="fa-solid fa-gears"></i> {{localize "EP1E.Trait.automatedHint"}}</p>
+{{else}}<p class="hint">{{localize "EP1E.Trait.effectHint"}}</p>{{/if}}
+<p class="hint">{{localize "EP1E.Trait.levelCost" cost=system.levelCost}}</p>

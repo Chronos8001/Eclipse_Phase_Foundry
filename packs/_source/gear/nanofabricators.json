@@ -1,0 +1,29 @@
+{
+  "_id": "fa91d6badc6d76ad",
+  "_key": "!items!fa91d6badc6d76ad",
+  "name": "Nanofabricators",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "nanofabricators",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Nanofabrication machines are universal assemblers that perform almost all of the manufacturing in the solar system. The user loads in raw materials and electronic plans and it can produce literally any manufactured good, from a weapon to an ultralight plane to a hot and delicious dinner. Many nanofabricators come equipped with a library of common-use blueprints (basic foods, standard clothing, common tools, etc.). Other blueprints must either be purchased online, self-programmed, or acquired through some other method (see Nanofabrication, p. 284). The largest nanofabrication units are more than 10 meters on a side and are used to produce small consumer goods in bulk as well as building large devices like orbital transfer vehicles. The availability and legality of nanofabricators varies widely throughout the system. In the inner system and Jovian Republic, cornucopia machines are commonly restricted and sometimes illegal, with licenses only available to hypercorps, military units, and other officials and elites. In these habitats, only more limited fabbers are available to the general populace. Additionally, blueprints are licensed and protected by copyright laws, and many nanofabricators feature pre-programmed restrictions that prevent them from using unlicensed blueprints as well as from manufacturing weapons, explosives, or other restricted items. Among the autonomists of the outer system, however, nanofabricators are commonly accessible, shared by everyone, and unrestricted. For rules on creating goods in a nanofabricator, see Nanofabrication, p. 284.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 327.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 50000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "0312cda10e3280db",
+  "_key": "!items!0312cda10e3280db",
+  "name": "Nanomask",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "nanomask",
+    "cost": "Low",
+    "description": "<p>This makeup nanobot application decorates the character’s face in changing artistic and aesthetic styles that also happen to deter the capabilities of facial recognition software. It provides a –30 modifier to attempts to identify the subject using facial recognition. Some habitats ban this accessory.</p><p><em>Source: Eclipse Phase Firewall, p. 175.</em></p>",
+    "category": "nanotech",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

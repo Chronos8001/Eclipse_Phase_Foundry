@@ -1,0 +1,23 @@
+{
+  "_id": "23f43bf68e585aa8",
+  "_key": "!items!23f43bf68e585aa8",
+  "name": "Minion/Partner",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "minionPartner",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 30,
+    "costText": "Cost: 30 CP",
+    "description": "<p>The character has a personal employee, assistant, intern, or other form of retainer on hand to help them out. This could range from a hired bodyguard to a personal secretary to a solo socialite entourage. The relationship also does not need to be hierarchical; the character could have a partner or other collaborator. This minion/partner should be developed in conjunction between the player and gamemaster and fully drawn up using the character creation rules, with their role and motivations spelled out. While most minions are in it for the money, and most partners share an interest or goal with the character, this NPC might also be motivated by loyalty, friendship, personal career interest, fandom, or to repay a debt or obligation. For the most part, the player should be allowed to run this NPC as a secondary character. The minion/ partner is an NPC, however, and the gamemaster may take control of the NPC at any time. The relationship must be maintained, else the minion/partner will part ways with the character. The character should occasionally have to address the minion’s or partner’s own needs, which can be exploited for roleplaying and plot purposes.</p><p><em>Source: Eclipse Phase Transhuman, p. 85.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

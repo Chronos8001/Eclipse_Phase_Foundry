@@ -1,0 +1,19 @@
+<div class="ep1e derangement-dialog">
+  <p>{{localize "EP1E.Mental.derangementFor" kind=kind}}</p>
+  <div class="form-group">
+    <label>{{localize "EP1E.Mental.derangement"}}</label>
+    <select name="trait">
+      {{#each options as |o|}}<option value="{{o.id}}">{{o.name}}</option>{{/each}}
+    </select>
+  </div>
+  {{#if current.length}}
+  <div class="form-group">
+    <label>{{localize "EP1E.Mental.replace"}}</label>
+    <select name="replace">
+      <option value="">{{localize "EP1E.Mental.replaceNone"}}</option>
+      {{#each current as |c|}}<option value="{{c.id}}">{{c.name}}</option>{{/each}}
+    </select>
+  </div>
+  {{/if}}
+  <p class="hint">{{localize "EP1E.Mental.derangementHint"}}</p>
+</div>

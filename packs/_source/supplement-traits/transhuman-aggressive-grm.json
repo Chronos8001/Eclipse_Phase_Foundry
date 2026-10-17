@@ -1,0 +1,23 @@
+{
+  "_id": "1ae20dc5a36ce79b",
+  "_key": "!items!1ae20dc5a36ce79b",
+  "name": "Aggressive GRM",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "aggressiveGrm",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>This trait is generally only found on uplift biomorphs, but might be included on any unusual high-end or custom biomorphs. A much more aggressive version of the genetic rights management used in rusters and other morphs that require maintenance through GSPs (see Planned Obsolescence, p. 165, Sunward), the genehacking used in creating this morph is atypical and includes many sections of suppressed effects and potential problems that make it difficult for anyone not familiar with the initial design to modify the morph. Unless “unlocked” by the designer through further genehacking, this morph is sterile, and will reject any biomods not listed as standard for the morph. Worse, due to the extensive and limiting manipulation of the morph’s DNA, it is much more prone to cancers and longevity issues than other morphs and has an average life expectancy of only 30–40 years. At the gamemaster’s discretion, Medicine Tests to modify or even heal this morph may suffer modifiers ranging from −10 to −30.</p><p><em>Source: Eclipse Phase Transhuman, p. 87.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 33000,
+  "ownership": {
+    "default": 0
+  }
+}

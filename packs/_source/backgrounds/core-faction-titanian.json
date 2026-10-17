@@ -1,0 +1,46 @@
+{
+  "_id": "09a195799cefb063",
+  "_key": "!items!09a195799cefb063",
+  "name": "Titanian",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>You are a participant in the Titanian Commonwealth’s socialist cyberdemocracy. Unlike other autonomist projects, Titanian joint efforts have assembled some impressive infrastructural projects as approved by the Titanian Plurality and pursued by state-owned microcorps.</p><p>Advantages: +10 to two Technical or Academic skills of your choice, +20 Networking: Autonomists skill Disadvantages: None Common Morphs: All</p><p><em>Source: Eclipse Phase Core Rulebook, p. 134.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Autonomists",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to two Technical or Academic skills of your choice",
+    "restrictions": "",
+    "morphs": "All",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 25000,
+  "ownership": {
+    "default": 0
+  }
+}

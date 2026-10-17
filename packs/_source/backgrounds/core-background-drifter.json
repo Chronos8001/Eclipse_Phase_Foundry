@@ -1,0 +1,52 @@
+{
+  "_id": "0464f9272eca5433",
+  "_key": "!items!0464f9272eca5433",
+  "name": "Drifter",
+  "type": "background",
+  "img": "icons/svg/village.svg",
+  "system": {
+    "description": "<p>You were raised with a social grouping that remained on the move throughout the Sol system. This could have been free traders, pirates, asteroid farmers, scavengers, or just migrant workers. You are used to roaming space travel between habitats and stations.</p><p>Advantages: +10 Navigation skill, +20 Pilot: Spacecraft skill, +10 Networking: [Field] skill of your choice Disadvantages: None Common Morphs: All, especially Bouncers and Hibernoids</p><p><em>Source: Eclipse Phase Core Rulebook, p. 131.</em></p>",
+    "kind": "background",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "navigation",
+        "name": "Navigation",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Spacecraft",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 Networking: [Field] skill of your choice",
+    "restrictions": "",
+    "morphs": "All, especially Bouncers and Hibernoids",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5d1fd729a9c1db00",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

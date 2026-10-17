@@ -1,0 +1,332 @@
+{
+  "_id": "3695cf951a2a7174",
+  "_key": "!actors!3695cf951a2a7174",
+  "name": "Skitter",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 10,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": -12
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1 Swarm</p><p>Skitters are insectoid microbots used en masse by the TITANs. Their primary use was as saboteurs: cutting power lines, destroying spimes and sensors, and disabling vehicles, servers, mesh nodes, and weapon emplacements. They were also used to create distractions, paint targets for artillery and missiles, jam radio and radar, set traps, and assault soldiers and civilians. Skitters were often deployed behind enemy lines by drones in aerogel bubbles or simply mass produced from hacked nanofabbers. Individual skitter bots are only about 6 centimeters in length, but they are deployed in swarms of hundreds or even thousands. Each bot has 6 long primary legs, as well as 3 pairs of smaller limbs for finer manipulation, set fore, middle, and aft. They are well equipped with a range of micro tools and devices to accomplish their tasks.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Ware:</strong> 360-Degree Vision, Chemical Sniffer, Electrical Sense, Enhanced Hearing, Enhanced Vision, Gas-Jet System, Injectors, Jaws, Laser Link, Micro-Tools, Skinlink, Ultrasound Link</p><p><strong>Microswarm:</strong> Skitters follow the rules for (Swarms, p. 168). Stats given are for a standard swarm unit, not individual microbots.</p><p><strong>Blinding Lasers:</strong> Skitter swarms may deploy lasers to blind cameras much like a dazzler (p. 316, EP). These lasers will blind characters as well for 1 minute unless they make a REF x 3Test. Anti-glare cyberware protects against blinding.</p><p><strong>Breach Armor:</strong> 65, target’s Fray is halved. Further melee attacks by the swarm ignore armor.</p><p><strong>Harry:</strong> 65, target’s Fray is halved.The swarm harries a target by clustering around eyes and orifices, buzzing around, etc.The target suffers a −10 modifier to all actions (−30 if MoS is 30+).</p><p><strong>Injectors:</strong> 65, 1 DV, injects toxin, 5 doses.Toxin: Injected, Onset: 1 Action Turn, Duration: 2 minutes/6 hours (medichines reduce by half), victims suffer incapacitating seizures for 2 minutes followed by active hallucinations for 6 hours. Hallucinating characters act completely randomly/are under GM control. A SOM x 2 Test negates the seizures and reduces the intensity of the hallucinations to a −20 modifier to all actions.</p><p><strong>Sabotage:</strong> DV 1d10 each Action Turn (no defense, armor applies but is reduced) to all synthmorphs and non-biological devices touched by and targeted by the swarm.</p><p><strong>Jam Radio/Radar:</strong> See Radio Jamming, p. 262, EP.</p><p><em>Initiative printed: 6 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 0, Death Rating 60.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 135.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Skitter (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 60,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 4,
+          "kinetic": 4
+        },
+        "movement": "2/16 Walker/Hopper, 4/32 Thrust Vector",
+        "implants": "360-Degree Vision, Chemical Sniffer, Electrical Sense, Enhanced Hearing, Enhanced Vision, Gas-Jet System, Injectors, Jaws, Laser Link, Micro-Tools, Skinlink, Ultrasound Link",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "419d5c636247aab1",
+      "_key": "!actors.items!3695cf951a2a7174.419d5c636247aab1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Exotic Melee Weapon",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "exoticMelee",
+        "aptitude": "som",
+        "category": "active",
+        "field": "Swarm",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3b0ec0be67524429",
+      "_key": "!actors.items!3695cf951a2a7174.3b0ec0be67524429",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d66b17672f934c69",
+      "_key": "!actors.items!3695cf951a2a7174.d66b17672f934c69",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ec1088021fe5ff2c",
+      "_key": "!actors.items!3695cf951a2a7174.ec1088021fe5ff2c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "22bb70ce3e9ae581",
+      "_key": "!actors.items!3695cf951a2a7174.22bb70ce3e9ae581",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d4ef298b51b03e17",
+      "_key": "!actors.items!3695cf951a2a7174.d4ef298b51b03e17",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "Hearing/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "31f0a5fc83759164",
+      "_key": "!actors.items!3695cf951a2a7174.31f0a5fc83759164",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 65,
+        "ap": 0,
+        "dv": "1d10 + 2",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite: 65, DV 1d10 + 2, opponent’s Fray is halved</p>"
+      },
+      "_id": "68a1740cd5644ccb",
+      "_key": "!actors.items!3695cf951a2a7174.68a1740cd5644ccb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 48000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Skitter",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "a9cbcbde979e074f",
+  "_key": "!items!a9cbcbde979e074f",
+  "name": "Tracker Dye",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "trackerDye",
+    "category": "chemical",
+    "substanceType": "",
+    "application": "",
+    "onset": "",
+    "duration": "",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Trivial",
+    "quantity": 1,
+    "description": "<p>This liquid is colorless at normal light but becomes recognizable under pre-specified different wavelengths (such as infrared or ultraviolet).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 323.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 29000,
+  "ownership": {
+    "default": 0
+  }
+}

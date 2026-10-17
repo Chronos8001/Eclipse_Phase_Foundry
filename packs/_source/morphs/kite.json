@@ -33,18 +33,18 @@
     },
     "movement": "Ionic 12/40, Thrust Vector 8/40, Walker 2/8, Winged 8/32",
     "implants": "Access Jacks, Anti- Glare, Basic Mesh Inserts, Chemical Sniffer, Cortical Stack, Cyberbrain, Direction Sense, Enhanced Hearing, Enhanced Vision, Lidar, Mnemonic Augmentation, Radar, Shape Adjusting, T-Ray Emitter, Wings",
-    "advantages": "+5 to one aptitude of the player's choice, Armor (2/2)",
+    "advantages": "+5 to one aptitude of the player’s choice, Armor (2/2)",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 30,
     "creditCost": "High",
     "active": false,
-    "description": "<p>This small shape-shifting synthetic shell is capable of flight no matter the atmospheric environment--or lack thereof. Its default mode is turbofan-driven rotorcraft; its light weight allows it to fly and hover even in thin atmospheres and heavy gravities. In streamlined ionic mode, it can travel at high speeds and maneuver in hurricane-force winds. In vacuum, it can drive itself with thrust-vector nozzles. Sometimes called \"multifliers,\" kites are popular among gatecrashers and gatehoppers due to their adaptability and usefulness for aerial recon and surveys.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 53.</em></p>"
+    "description": "<p>This small shape-shifting synthetic shell is capable of flight no matter the atmospheric environment—or lack thereof. Its default mode is turbofan-driven rotorcraft; its light weight allows it to fly and hover even in thin atmospheres and heavy gravities. In streamlined ionic mode, it can travel at high speeds and maneuver in hurricane-force winds. In vacuum, it can drive itself with thrust-vector nozzles. Sometimes called “multifliers,” kites are popular among gatecrashers and gatehoppers due to their adaptability and usefulness for aerial recon and surveys.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 53.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 66000,
+  "sort": 67000,
   "ownership": {
     "default": 0
   }

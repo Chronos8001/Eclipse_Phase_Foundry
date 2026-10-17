@@ -1,0 +1,20 @@
+{
+  "_id": "3d498fd341c07c6d",
+  "_key": "!items!3d498fd341c07c6d",
+  "name": "Neural Enhancers",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "neuralEnhancers",
+    "cost": "Expensive",
+    "description": "<p>This active nanotechnology bonds with the morph’s neural structures, creating a series of specialized cognitive subprocessors that enhance the user’s intelligence. It provides users with a +5 modifier to COG. However, enhancing intelligence is a difficult process and this enhancement is based on techniques used on existing morphs. It has no effect if used on a morph that has a COG modifier of +10 or more. This augmentation can be used on biomorphs, pods, and synthmorphs.</p><p><em>Source: Eclipse Phase Rimward, p. 189.</em></p>",
+    "augType": "nanoware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

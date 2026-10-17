@@ -1,0 +1,88 @@
+{
+  "_id": "d2c4740b41539cfc",
+  "_key": "!items!d2c4740b41539cfc",
+  "name": "Sapient (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You support the full assimilation of uplifts and AGIs into transhumanity.</p><p><strong>Suggested Motivations:</strong> +AGI Rights, +Sapient Cause, +Uplift Rights, –Bioconservatism</p><p><strong>3 PP:</strong> +50 Rep (Your Choice) · Interest: (Choose One) 50, Interest: (Choose One) 40, Kinesics 40, Medicine: Uplifts 20, Networking: (Choose One) 30, Persuasion 40, Protocol 50, Psychosurgery 25</p><p><em>Source: Eclipse Phase Transhuman, p. 27.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Uplifts",
+        "value": 20
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "protocol",
+        "name": "Protocol",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "psychosurgery",
+        "name": "Psychosurgery",
+        "field": "",
+        "value": 25
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+AGI Rights, +Sapient Cause, +Uplift Rights, –Bioconservatism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 130000,
+  "ownership": {
+    "default": 0
+  }
+}

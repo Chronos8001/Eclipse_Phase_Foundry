@@ -33,7 +33,7 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, High-G Adaptation",
-    "advantages": "+15 SOM (includes implant bonuses), +5 to one other aptitude of the player's choice",
+    "advantages": "+15 SOM (includes implant bonuses), +5 to one other aptitude of the player’s choice",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 50,

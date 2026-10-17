@@ -1,0 +1,20 @@
+{
+  "_id": "ffcc6de98aefef20",
+  "_key": "!items!ffcc6de98aefef20",
+  "name": "Internal-Rocket System",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "internalRocketSystem",
+    "cost": "Expensive",
+    "description": "<p>The microbots are modified with a high-pressure combustible fuel system, permitting short, high-intensity bursts of acceleration. It is intended for use in microgravity or with another propulsion system. It provides a Movement Rate of 4/40 and continuous flight time of 20 minutes before refueling.</p><p><em>Source: Eclipse Phase Transhuman, p. 213.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 34000,
+  "ownership": {
+    "default": 0
+  }
+}

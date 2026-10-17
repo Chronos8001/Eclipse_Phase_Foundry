@@ -1,0 +1,588 @@
+{
+  "_id": "74056c68ae71a100",
+  "_key": "!actors!74056c68ae71a100",
+  "name": "Jane Erdos",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 20,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 3,
+      "max": 3
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Simian Surgeon Liberated from her hypercorp “parents” during the Fall, Dr. Erdos managed to overcome anti-uplift prejudice and achieve an education and measure of respect as an uplift research scientist within the Consortium. Hired by Provolve, she found herself the unwilling poster child of a PR campaign by the hypercorp to increase their reputation in the uplift community. Unfortunately, she was deeply unhappy at her work since she felt like she was seldom permitted to do any real research and spent most of her time at press events. She was also constantly surveiled by an Oversight handler who made sure she didn’t do or say anything that might portray Provolve or the Consortium in a negative light. During a press junket on Erato, Jane decided she’d had enough and slipped her handler. Unsure of what to do next, she ran into a group of scum from Stars and blurted out her plight. Sympathetic, they sneaked her aboard the swarm. Over the next few weeks, Jane made herself useful by healing a number of small 14 medical complaints aboard Three Sheets to the Wind and rapidly gained reputation. Recently, she was invited aboard The Stars Our Destination itself and given the codes for the medical and research facilities, since there were few others in the flotilla who could make good use of them.</p><p><strong>Morph:</strong> Neo-hominid</p><p><strong>Motivation:</strong> +Compassion +Privacy –Oversight</p><p><strong>Active Skills:</strong> Climbing 55, Hardware: Implants 65, Infosec 35, Kinesics 60, Medicine: First Aid 45, Medicine: Surgery 70, Networking: Media 25, Networking: Scientist 65, Networking: Scum 65, Perception 75, Persuasion 60, Psychosurgery 35, Research 70</p><p><strong>Knowledge Skills:</strong> Academics: Biology 60, Academics: Neurology 80, Language: Hindi (Native) 85, Language: English 45</p><p><strong>Rep:</strong> @-rep 45, f-rep 10, r-rep 30</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts, Cortical Stack, Eidetic Memory, Enhanced Vision, Enhanced Hearing, Math Boost, Medichines, Mental Speed, Nanophages, Prehensile Feet, Wrist- Mounted Tools</p><p><strong>Gear:</strong> Cleaner Nanoswarm, Comfurt, Dr. Bot, Ego Bridge, Nanobandages</p><p><strong>Armor:</strong> 3/4 (Armor Clothing)</p><p><strong>Roleplaying:</strong> Jane still feels like she has to prove her usefulness to the swarm and does anything she can to help out in a given situation. However, she is fiercely protective of her privacy and has a curtainedoff area at the back of the Stars medical bay that she has requested no one else go in to.</p><p><strong>Appearance:</strong> Jane is an uplifted chimpanzee and is a bit larger than a human child. She keeps her black fur trimmed back from her face and usually wears a lab coat even when not working.</p><p><em>Printed: INIT 7 (10), SPD 1, LUC 40, TT 8, IR 80, DUR 30, WT 6, DR 45.</em></p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 15.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Compassion +Privacy –Oversight"
+    }
+  },
+  "items": [
+    {
+      "_id": "5193edcef4e161c1",
+      "name": "Neo-Hominid",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 25,
+          "coo": 25,
+          "int": 25,
+          "ref": 25,
+          "sav": 25,
+          "som": 25,
+          "wil": 25
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 5,
+          "int": 5,
+          "ref": 0,
+          "sav": 0,
+          "som": 5,
+          "wil": 0
+        },
+        "durability": 30,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Prehensile Feet",
+        "advantages": "+5 COO, +5 INT, +5 SOM, +5 to one other aptitude of the player’s choice, +10 Climbing skill",
+        "disadvantages": "",
+        "skillBonuses": [
+          {
+            "key": "climbing",
+            "value": 10
+          }
+        ],
+        "cpCost": 25,
+        "creditCost": "Expensive",
+        "active": true,
+        "description": "<p>(BONOBOS, CHIMPS, ORANGUTANS) Neo-hominids include both uplifted chimpanzees, bonobos, and orangutans. All feature enhanced intelligence and bipedal frames. They walk upright, though some (particularly neo-orangutans) are known to knuckle-walk or switch to all fours when injured or in times of stress. All are great climbers, and their prehensile feet help both with climbing and maneuvering in microgravity environments. They retain the body hair of their forebears, though it is a common cultural practice to dye, stylize, or otherwise manipulate their hair in certain communities. Transgenic vocal systems allow them to speak as humans do.</p><p><strong>Notes:</strong> Non-Human Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 63.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!74056c68ae71a100.5193edcef4e161c1"
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1181d0f08537f3ac",
+      "_key": "!actors.items!74056c68ae71a100.1181d0f08537f3ac",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Implants",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0fa53f8fb0822d6d",
+      "_key": "!actors.items!74056c68ae71a100.0fa53f8fb0822d6d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "977c9b4f6c9f8e25",
+      "_key": "!actors.items!74056c68ae71a100.977c9b4f6c9f8e25",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b5e22951d45656de",
+      "_key": "!actors.items!74056c68ae71a100.b5e22951d45656de",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Medicine",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "medicine",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "First Aid",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7144905575d69a2b",
+      "_key": "!actors.items!74056c68ae71a100.7144905575d69a2b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Medicine",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "medicine",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Surgery",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "66541578715223cd",
+      "_key": "!actors.items!74056c68ae71a100.66541578715223cd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Media",
+        "ranks": 5,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cd14bea9868d979e",
+      "_key": "!actors.items!74056c68ae71a100.cd14bea9868d979e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Scientist",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "62a70700da7208b6",
+      "_key": "!actors.items!74056c68ae71a100.62a70700da7208b6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Scum",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e4dba77869cd6fa0",
+      "_key": "!actors.items!74056c68ae71a100.e4dba77869cd6fa0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1c0d215d2082e116",
+      "_key": "!actors.items!74056c68ae71a100.1c0d215d2082e116",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "55658161188c2f23",
+      "_key": "!actors.items!74056c68ae71a100.55658161188c2f23",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Psychosurgery",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "psychosurgery",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "099e46928fb443e4",
+      "_key": "!actors.items!74056c68ae71a100.099e46928fb443e4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "96f45fa913283666",
+      "_key": "!actors.items!74056c68ae71a100.96f45fa913283666",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Biology",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9d45bfe5c33ba2fa",
+      "_key": "!actors.items!74056c68ae71a100.9d45bfe5c33ba2fa",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Neurology",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f5d4d058a31fdfee",
+      "_key": "!actors.items!74056c68ae71a100.f5d4d058a31fdfee",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Hindi",
+        "ranks": 70,
+        "mod": 0,
+        "specialization": "Native",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9f443e21d15c56da",
+      "_key": "!actors.items!74056c68ae71a100.9f443e21d15c56da",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "English",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7db980707b769db3",
+      "_key": "!actors.items!74056c68ae71a100.7db980707b769db3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "faf8cff86c047f12",
+      "name": "Armor Clothing",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "energy": 3,
+        "kinetic": 4,
+        "equipped": true,
+        "accessory": false,
+        "cost": "Trivial",
+        "description": "<p>The extra-resilient organoweave fibers and fullerene materials that offer basic protection against kinetic and energy weapons can be woven in with normal smart materials to create a wide range of discreet armor clothing that provides a subtle level of security. Such protective garments are indistinguishable from regular clothing and come in all styles and designs. Armor clothing provides an Armor Value of 3/4.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!74056c68ae71a100.faf8cff86c047f12"
+    }
+  ],
+  "effects": [],
+  "folder": "0345dc02520ce0d4",
+  "sort": 36000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Jane Erdos",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

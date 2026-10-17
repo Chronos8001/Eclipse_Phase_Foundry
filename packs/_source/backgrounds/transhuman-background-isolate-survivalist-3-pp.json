@@ -1,0 +1,94 @@
+{
+  "_id": "988d508bc4d73dcc",
+  "_key": "!items!988d508bc4d73dcc",
+  "name": "Isolate: Survivalist (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your family feared trouble on Earth, so they established a bunker off-world. They were right. Now they fear that trouble may return and engulf the entire solar system.</p><p><strong>Suggested Motivations:</strong> +Bioconservatism, +Religion, +Survival, –Autonomists</p><p><strong>3 PP:</strong> +1 Moxie · Academics: (Choose One) 20, Free Fall 30, Hardware: (Choose One) 40, Interest: (Choose One) 30, Kinetic Weapons 50, Medicine: Paramedic 30, Pilot: (Choose One) 30, Profession: (Choose One) 40, Seeker Weapons 15</p><p><em>Source: Eclipse Phase Transhuman, p. 19.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Paramedic",
+        "value": 30
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "seekerWeapons",
+        "name": "Seeker Weapons",
+        "field": "",
+        "value": 15
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Bioconservatism, +Religion, +Survival, –Autonomists"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 53000,
+  "ownership": {
+    "default": 0
+  }
+}

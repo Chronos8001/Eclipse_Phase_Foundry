@@ -1,0 +1,100 @@
+{
+  "_id": "92f7033aa344e379",
+  "_key": "!items!92f7033aa344e379",
+  "name": "Academic (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You devote your efforts to the pursuit of knowledge.</p><p><strong>Suggested Motivations:</strong> +Education, +Open Source, +Personal Career, +Personal Development</p><p><strong>5 PP:</strong> +5 COG · +50 r-rep · Academics: (Choose One) 50,Academics: (Choose Two) 40, Investigation 50, Language: (Choose One) 30, Networking: (Choose One) 30, Networking: Scientists 50, Perception 30, Persuasion 30, Profession: Instruction 50, Research 45</p><p><em>Source: Eclipse Phase Transhuman, p. 29.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose Two)",
+        "value": 40
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Scientists",
+        "value": 50
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Instruction",
+        "value": 50
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 45
+      }
+    ],
+    "aptitudes": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "r",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Education, +Open Source, +Personal Career, +Personal Development"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 151000,
+  "ownership": {
+    "default": 0
+  }
+}

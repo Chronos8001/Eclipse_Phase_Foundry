@@ -3,8 +3,8 @@
   <section class="panel defense">
     <h3>{{localize "EP1E.Section.defense"}}</h3>
     <div class="defense-row">
-      <button type="button" data-action="rollFray" data-ranged="false"><i class="fa-solid fa-person-running"></i> {{localize "EP1E.Combat.frayMelee"}} <strong>{{fray}}</strong></button>
-      <button type="button" data-action="rollFray" data-ranged="true"><i class="fa-solid fa-person-falling-burst"></i> {{localize "EP1E.Combat.frayRangedShort"}} <strong>{{ep1eHalf fray}}</strong></button>
+      <button type="button" data-action="rollFray" data-ranged="false"><i class="fa-solid fa-person-running"></i> {{localize "EP1E.Combat.frayMelee"}} <strong>{{fray.melee}}</strong></button>
+      <button type="button" data-action="rollFray" data-ranged="true"><i class="fa-solid fa-person-falling-burst"></i> {{localize "EP1E.Combat.frayRangedShort"}} <strong>{{fray.ranged}}</strong></button>
       <div class="stat armor"><label>{{localize "EP1E.Stat.armor"}}</label><span>{{system.armor.energy}} / {{system.armor.kinetic}}</span></div>
       <div class="stat"><label>{{localize "EP1E.Stat.db"}}</label><span>{{ep1eSigned system.stats.db}}</span></div>
       <div class="stat"><label>{{localize "EP1E.Stat.spd"}}</label><span>{{system.stats.spd}}</span></div>
@@ -45,6 +45,10 @@
           <td>
             {{#if row.item.system.ammo.max}}
             <input type="number" value="{{row.item.system.ammo.value}}" min="0" data-item-field="system.ammo.value" {{#unless @root.editable}}disabled{{/unless}}> / {{row.item.system.ammo.max}}
+            {{#if @root.editable}}<a data-action="reload" data-tooltip="EP1E.Reload.reload"><i class="fa-solid fa-rotate"></i></a>{{/if}}
+            {{#if row.loaded}}<small>{{row.loaded}}</small>{{/if}}
+            {{else if row.thrown}}
+            <input type="number" value="{{row.item.system.quantity}}" min="0" data-item-field="system.quantity" data-tooltip="EP1E.Gear.quantity" {{#unless @root.editable}}disabled{{/unless}}>
             {{/if}}
           </td>
           <td><small>{{row.item.system.range}}</small></td>
@@ -75,6 +79,7 @@
       <li class="empty">{{localize "EP1E.Armor.none"}}</li>
       {{/each}}
     </ol>
+    {{#if system.penalty.armor}}<p class="hint warning">{{localize "EP1E.Armor.layers" count=system.armor.layers}} {{ep1eSigned (ep1eNeg system.penalty.armor)}}</p>{{/if}}
     {{#if activeMorph.system.armor.energy}}<p class="hint">{{localize "EP1E.Armor.morph"}} : {{activeMorph.system.armor.energy}} / {{activeMorph.system.armor.kinetic}}</p>
     {{else if activeMorph.system.armor.kinetic}}<p class="hint">{{localize "EP1E.Armor.morph"}} : {{activeMorph.system.armor.energy}} / {{activeMorph.system.armor.kinetic}}</p>{{/if}}
   </section>

@@ -1,0 +1,27 @@
+{
+  "_id": "742d603cfc1867ef",
+  "_key": "!items!742d603cfc1867ef",
+  "name": "Neuropath",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "neuropath",
+    "category": "nanotoxin",
+    "substanceType": "nano",
+    "application": "D, Inj, O",
+    "onset": "3 Action Turns",
+    "duration": "8 hours",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Moderate",
+    "quantity": 1,
+    "description": "<p>These nanobots are designed to stimulate the pain receptors of a morph on a systemic level to cause agony and impairment. While most neuropaths target biological receptors, variants are available that induce comparable (phantom) pain stimulations in the cyberbrains of synthmorphs to create an equivalent effect. The affected character must succeed in a WIL x 3 Test or become incapacitated. Even if they succeed, they suffer –30 from the inflicted agony. Any form of pain resistance that allows a character to ignore wound modifiers will negate the neuropath pain modifier by an appropriate amount.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 324.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 38000,
+  "ownership": {
+    "default": 0
+  }
+}

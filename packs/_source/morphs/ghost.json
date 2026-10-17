@@ -33,7 +33,7 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Adrenal Boost, Enhanced Vision, Grip Pads",
-    "advantages": "+10 COO, +5 REF, +5 SOM, +5 WIL, +5 to one other aptitude of the player's choice",
+    "advantages": "+10 COO, +5 REF, +5 SOM, +5 WIL, +5 to one other aptitude of the player’s choice",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 70,

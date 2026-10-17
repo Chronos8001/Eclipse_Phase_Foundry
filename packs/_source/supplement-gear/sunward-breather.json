@@ -1,0 +1,29 @@
+{
+  "_id": "cfc0bfb4b3955a85",
+  "_key": "!items!cfc0bfb4b3955a85",
+  "name": "Breather",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "breather",
+    "cost": "Low",
+    "description": "<p>Martian breathers are the size of a small backpack and use solar cells, nanobots, and a water reservoir to turn atmospheric CO2 into O2 and methane (CH4). A CO2 scrubber also recycles the oxygen. As long as the character wearing the breather spends two hours a day in sunlight and feeds the unit a kilo of water a day (chunks of ice or even permafrost work fine), they may subsist on the Martian atmosphere indefinitely. Another part of the unit continually extracts atmospheric nitrogen and adds it to the mix as a buffer gas. A backup power supply powers the unit for up to 24 hours in darkness or dust storms, and a backup tank holds up to 8 hours of breathable air.</p><p><em>Source: Eclipse Phase Sunward, p. 167.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

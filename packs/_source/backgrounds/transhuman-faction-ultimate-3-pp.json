@@ -1,0 +1,88 @@
+{
+  "_id": "bf7cf556b2ce3a88",
+  "_key": "!items!bf7cf556b2ce3a88",
+  "name": "Ultimate (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You pursue the pinnacles of transhuman achievement, physically, mentally, and spiritually.</p><p><strong>Suggested Motivations:</strong> +Hypercapitalism, +Personal Development, +Ultimates, –Bioconservatism</p><p><strong>3 PP:</strong> +50 c-rep · Academics: (Choose One) 50,Academics: (Choose One) 40, Blades 25, Climbing 30, Freerunning 40, Intimidation 30, Kinetic Weapons 30, Unarmed Combat 50</p><p><em>Source: Eclipse Phase Transhuman, p. 28.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "blades",
+        "name": "Blades",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "c",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Hypercapitalism, +Personal Development, +Ultimates, –Bioconservatism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 146000,
+  "ownership": {
+    "default": 0
+  }
+}

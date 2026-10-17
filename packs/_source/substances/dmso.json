@@ -1,0 +1,27 @@
+{
+  "_id": "d5f91c7d83008f0e",
+  "_key": "!items!d5f91c7d83008f0e",
+  "name": "DMSO",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "dmso",
+    "category": "chemical",
+    "substanceType": "",
+    "application": "",
+    "onset": "",
+    "duration": "",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Trivial",
+    "quantity": 1,
+    "description": "<p>This chemical acts as a carrier, allowing other chemicals to be absorbed through the skin. It allows any chemical agent to be applied dermally.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 323.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  }
+}

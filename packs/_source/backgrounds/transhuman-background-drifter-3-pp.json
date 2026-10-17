@@ -1,0 +1,94 @@
+{
+  "_id": "12a38a85bca38e35",
+  "_key": "!items!12a38a85bca38e35",
+  "name": "Drifter (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You may be a Martian nomad, an original scum swarm pioneer, a free trader, or just a wanderer. Your people have always gone where the work was, first on Earth and then into space, where hands or your kind of skills were needed. You may not be as highly specialized as some people, but you know a little about a lot of things and have picked up what you need to get by. *Martian nomads may exchange Free Fall for Climbing or Freerunning skill.</p><p><strong>Suggested Motivations:</strong> +Exploration, +Hard Work, +Pragmatism, +Survival</p><p><strong>3 PP:</strong> +1 Moxie · Free Fall* 40, Hardware: (Choose One) 30, Interest: (Choose One) 20, Kinetic Weapons 20, Language: (Choose One) 30, Navigation 20, Networking: (Choose One) 35, Profession: (Choose One) 40, Scrounging 50</p><p><em>Source: Eclipse Phase Transhuman, p. 16.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "navigation",
+        "name": "Navigation",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 35
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exploration, +Hard Work, +Pragmatism, +Survival"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

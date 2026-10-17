@@ -8,6 +8,10 @@
     <select name="system.skill">{{selectOptions skillChoices selected=system.skill}}</select>
   </div>
   <div class="form-group">
+    <label data-tooltip="EP1E.Weapon.ratingHint">{{localize "EP1E.Weapon.rating"}}</label>
+    <input type="number" name="system.rating" value="{{system.rating}}" min="0">
+  </div>
+  <div class="form-group">
     <label>{{localize "EP1E.Weapon.dv"}}</label>
     <input type="text" name="system.dv" value="{{system.dv}}" placeholder="2d10 + 2">
   </div>
@@ -37,6 +41,40 @@
   <div class="form-group">
     <label>{{localize "EP1E.Weapon.range"}}</label>
     <input type="text" name="system.range" value="{{system.range}}" placeholder="10 / 30 / 50 / 70">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Weapon.area"}}</label>
+    <span class="pair">
+      <select name="system.area.shape">{{selectOptions config.areaShapes selected=system.area.shape localize=true}}</select>
+      <input type="number" name="system.area.radius" value="{{system.area.radius}}" min="0" data-tooltip="EP1E.Weapon.radiusHint">
+    </span>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Weapon.munition"}}</label>
+    <span class="pair">
+      <select name="system.munition.kind">{{selectOptions config.munitionKinds selected=system.munition.kind localize=true}}</select>
+      <select name="system.munition.size">{{selectOptions config.munitionSizes selected=system.munition.size localize=true}}</select>
+    </span>
+  </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Weapon.launcherHint">{{localize "EP1E.Weapon.launcher"}}</label>
+    <input type="text" name="system.launcher" value="{{system.launcher}}" placeholder="micro, mini">
+  </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Weapon.shockHint">{{localize "EP1E.Weapon.shock"}}</label>
+    <input type="checkbox" name="system.shock" {{checked system.shock}}>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Weapon.twoHanded"}}</label>
+    <input type="checkbox" name="system.twoHanded" {{checked system.twoHanded}}>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Gear.quantity"}}</label>
+    <input type="number" name="system.quantity" value="{{system.quantity}}" min="0">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Gear.cost"}}</label>
+    <input type="text" name="system.cost" value="{{system.cost}}">
   </div>
   <div class="form-group">
     <label>{{localize "EP1E.Item.equipped"}}</label>

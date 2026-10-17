@@ -33,7 +33,7 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack",
-    "advantages": "+5 SOM, +5 to one other aptitude of the player's choice",
+    "advantages": "+5 SOM, +5 to one other aptitude of the player’s choice",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 20,
@@ -44,7 +44,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 80000,
+  "sort": 81000,
   "ownership": {
     "default": 0
   }

@@ -1,0 +1,29 @@
+{
+  "_id": "d6d71ec4d10090e0",
+  "_key": "!items!d6d71ec4d10090e0",
+  "name": "Extended Magazine",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "extendedMagazine",
+    "category": "weaponAccessory",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This ammunition case has an increased capacity. Increase the weapon’s ammo capacity by +50%. Only available for firearms and seekers.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 342.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 120000,
+  "ownership": {
+    "default": 0
+  }
+}

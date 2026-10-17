@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/upgrade.svg",
   "system": {
+    "key": "rapidHealer",
     "traitType": "positive",
     "scope": "morph",
     "level": 1,
     "cost": 10,
     "costText": "Cost: 10 CP",
-    "description": "<p>The morph recovers from damage more quickly. Reduce the timeframes for healing by half, as noted on the Healing table, p. 208. This trait is only available to biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The morph recovers from damage more quickly. Reduce the timeframes for healing by half, as noted on the Healing table, p. 208. This trait is only available to biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 147.</em></p>"
   },
   "effects": [],
   "flags": {},

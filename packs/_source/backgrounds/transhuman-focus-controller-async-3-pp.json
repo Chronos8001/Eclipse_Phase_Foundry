@@ -1,0 +1,91 @@
+{
+  "_id": "ab05c9b02a0beb95",
+  "_key": "!items!ab05c9b02a0beb95",
+  "name": "Controller Async (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your infection enables you to invade and influence the minds of others.</p><p><strong>Suggested Motivations:</strong> +Exploration, +Neurodiversity, +Self Control</p><p><strong>3 PP:</strong> +50 Rep (Your Choice) · Academics: Psychology 40, Control 50, Deception 25, Perception 30, Persuasion 35, Profession: (Psychotherapy) 50, Psychosurgery 20 · Traits: Psi (Level 2), Mental Disorder (Choose Two) · +4 Sleights (Your Choice)</p><p><em>Source: Eclipse Phase Transhuman, p. 31.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Psychology",
+        "value": 40
+      },
+      {
+        "key": "control",
+        "name": "Control",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Psychotherapy",
+        "value": 50
+      },
+      {
+        "key": "psychosurgery",
+        "name": "Psychosurgery",
+        "field": "",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Psi",
+        "level": 2
+      },
+      {
+        "name": "Mental Disorder",
+        "level": 1
+      }
+    ],
+    "choices": "Mental Disorder: Choose Two; +4 Sleights (Your Choice)",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exploration, +Neurodiversity, +Self Control"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 171000,
+  "ownership": {
+    "default": 0
+  }
+}

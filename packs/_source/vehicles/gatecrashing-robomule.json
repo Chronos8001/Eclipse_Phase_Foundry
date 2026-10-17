@@ -1,0 +1,67 @@
+{
+  "_id": "cf9e5a3ce23290a0",
+  "_key": "!actors!cf9e5a3ce23290a0",
+  "name": "Robomule",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/20",
+    "maxVelocity": "35",
+    "mobility": "Walker",
+    "av": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "durability": 40,
+    "woundThreshold": 8,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Extra Limbs (6), Headlights, Maker",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Many experienced gatecrashers agree that this is one of the single most useful devices they could take along. Robomules are simple drones that are designed to carry up to 250 kg of cargo over almost any terrain. Roughly human-sized, but horizontal and equipped with 6 legs, robomules are powered by nuclear batteries that allow them to operate for 3 years. Its legs are made from advanced smart materials that change form depending upon the terrain. As a result, it can move as easily over thick mud or dry sand as it can along a well paved road. The legs can also transform into flippers that allow the robomule to swim. When swimming or moving over thick mud, robomules can also deploy reusable flotation bladders that allow it to float even when stationary. The upper surface of the robomule is made of smart materials that can produce straps and webbing to hold almost any cargo. It can even create a large sealed pod that can hold up to 2 cubic meters of cargo and protect it from the external environment, including vacuum. A robomule can move at a speed of 35 km/hour on solid unbroken terrain, 25 km/hour over rough and uneven terrain, and 15 km/hour when swimming or moving over thick mud or dry sand. Robomules are equipped with a radio booster and a maker that can provide sufficient food and pure water to supply up to four transhuman biomorphs indefinitely, as long as sufficient raw materials are available. More than one badly injured gatecrasher has climbed on top of their robomule and instructed it to hold onto them and move at top speed back to the gate.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 162.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 39000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Robomule",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

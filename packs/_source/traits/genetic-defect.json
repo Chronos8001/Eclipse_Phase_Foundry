@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
+    "key": "geneticDefect",
     "traitType": "negative",
     "scope": "morph",
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 CP or 20 CP",
-    "description": "<p>The morph is not genefixed, and in fact suffers from a genetic disorder or other impairing mutation. The player and gamemaster should agree on a defect appropriate to their game. Some possibilities include: heart disease, diabetes, cystic fibrosis, sickle-cell disease, hypertension, hemophilia, or color blindness. A genetic disorder that creates minor complications and/or occasional health problems would be worth 10 CP, a defect that significantly impairs the character's regular functioning or that inflicts chronic health problems is worth 20 CP. The gamemaster must determine the exact effects of the disorder on gameplay, as appropriate. This trait is only available for flats.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The morph is not genefixed, and in fact suffers from a genetic disorder or other impairing mutation. The player and gamemaster should agree on a defect appropriate to their game. Some possibilities include: heart disease, diabetes, cystic fibrosis, sickle-cell disease, hypertension, hemophilia, or color blindness. A genetic disorder that creates minor complications and/or occasional health problems would be worth 10 CP, a defect that significantly impairs the character’s regular functioning or that inflicts chronic health problems is worth 20 CP. The gamemaster must determine the exact effects of the disorder on gameplay, as appropriate. This trait is only available for flats.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 149.</em></p>"
   },
   "effects": [],
   "flags": {},

@@ -1,0 +1,123 @@
+{
+  "_id": "1340fdd59fee4e77",
+  "_key": "!items!1340fdd59fee4e77",
+  "name": "Uplift: Standard Specimen (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Though you must deal with prejudice, you are proof of the success of transhumanity’s uplift project. *Replace Climbing skill with any skill more appropriate to the uplift type (Flight for neo-avians, Swimming for neo-octopi, Freerunning for neanderthals, etc).</p><p><strong>Suggested Motivations:</strong> +Mercurial Cause +Sapient Cause +Uplift Rights, –Uplift Slavery</p><p><strong>5 PP:</strong> +1 Moxie · +5 COO, +50 Rep (Your Choice) · Academics: (Choose One) 40, Climbing* 50, Fray 20, Interest: (Choose One) 40, Interfacing 30, Intimidation 30, Kinesics 40, Language: (Choose One) 30, Networking: (Choose One) 40, Persuasion 30, Profession: (Choose One) 40, Protocol 30, Unarmed Combat 20 · Traits: Social Stigma: (Uplift)</p><p><em>Source: Eclipse Phase Transhuman, p. 22.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "protocol",
+        "name": "Protocol",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Social Stigma",
+        "level": 1
+      }
+    ],
+    "choices": "Social Stigma: Uplift",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Mercurial Cause +Sapient Cause +Uplift Rights, –Uplift Slavery"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 84000,
+  "ownership": {
+    "default": 0
+  }
+}

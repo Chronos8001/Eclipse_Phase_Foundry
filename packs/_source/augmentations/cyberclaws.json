@@ -1,0 +1,20 @@
+{
+  "_id": "327a4b7efcbeba34",
+  "_key": "!items!327a4b7efcbeba34",
+  "name": "Cyberclaws",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "cyberclaws",
+    "augType": "cyberware",
+    "cost": "Low",
+    "description": "<p>The bones on the back of the morph’s hand are bonded to smart material claws. These claws can extend through concealed ports in the morph’s skin and extend 6 inches past the morph’s knuckles. These razor-sharp weapons inflict 1d10 + 3 + (SOM ÷ 10) damage and have an AP of –2. If combined with eelware (p. 304), they can also inflict electric shocks. Likewise, cyberclaws can also deliver poison or nanotoxins secreted from a poison gland (p. 305) or implanted nanotoxins.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 307.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 52000,
+  "ownership": {
+    "default": 0
+  }
+}

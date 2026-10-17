@@ -1,0 +1,33 @@
+{
+  "_id": "76e71c1a6ab9abdb",
+  "_key": "!items!76e71c1a6ab9abdb",
+  "name": "Savant Calculation",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "savantCalculation",
+    "psiType": "chi",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The character possesses an incredible facility with intuitive mathematics. They can do everything from calculate the odds exactly when gambling to predicting precisely where a leaf falling from a tree will land by observing the landscape and local wind currents. The character specializes in calculation involving the activity of complex chaotic systems and so can calculate answers that even the fastest computers could not, including things like patterns of rubble distribution from an explosion. However, this mathematic facility is largely intuitive, so the character does not know the equations they are solving, they merely know the solution to the problem. This sleight also provides a +30 modifier to any skill tests involving math (which the character is calculating, not a computer).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 225.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  }
+}

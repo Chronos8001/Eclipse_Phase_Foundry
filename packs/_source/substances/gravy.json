@@ -1,0 +1,27 @@
+{
+  "_id": "3a090c6e58799899",
+  "_key": "!items!3a090c6e58799899",
+  "name": "Gravy",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "gravy",
+    "category": "nanodrug",
+    "substanceType": "nano",
+    "application": "Inj, O",
+    "onset": "",
+    "duration": "special",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>Gravy assists characters in acclimating to high gravity environments. It comes in a variety of flavors and is often added as a sauce to food. For Gravy to be 100% effective, the character must begin using it in advance. Reduce penalties for high-gravity acclimation by 20.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 321.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "a5368f7a4b6f294c",
+  "_key": "!items!a5368f7a4b6f294c",
+  "name": "Indenture (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You either won a lottery for the poor, where the prize was to go off-world, or you died during the Fall. Either way, you found yourself working away in virtual slavery to a hypercorp. You worked hard constructing habitats, mining asteroids, or terraforming Mars.</p><p><strong>Suggested Motivations:</strong> +Hard Work, +Survival, –Hypercorps, –Indentured Service</p><p><strong>1 PP:</strong> +1 Moxie · Hardware: (Choose One) 40, Language: (Choose One) 15, Profession: (Choose One) 30</p><p><em>Source: Eclipse Phase Transhuman, p. 18.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 15
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Hard Work, +Survival, –Hypercorps, –Indentured Service"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 34000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "_id": "18a25cbda761b934",
+  "_key": "!actors!18a25cbda761b934",
+  "name": "Chrysacid Exsurgent",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 5,
+        "mod": 0
+      },
+      "coo": {
+        "base": 30,
+        "mod": 0
+      },
+      "int": {
+        "base": 25,
+        "mod": 0
+      },
+      "ref": {
+        "base": 30,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 25,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 3
+    },
+    "biography": "<p><strong>Threat Level:</strong> Orange</p><p><strong>Numbers:</strong> 1–6</p><p>A modified hibernoid biomorph infected with the chrynalus exsurgent strain.</p><p>Chrysacids are the spiny limb-like growths that sprout from those infected with the chrynalus strain of the exsurgent virus (p. 174). Infected biomorphs always express chrysacid polyps, though they are also known to grow from infected synthmorphs and sometimes other devices and structures to which the nanoplague has spread. The chrysacids that burst from the skin/shell at the second stage of infection are called spurs. These take the form of chitinous segmented limbs and palpi, similar to those found on arthropods, often studded with spikes and hook-like protrusions. They sport near-monomolecular edges capable of piercing armor and spreading infection. Spurs are capable of limited movement but have no way of sensing their environment. Each nightmarish appendage has a mind of its own. In the third stage of infection, chrysacid spurs grow and elongate into limbs, sometimes up to 2 meters in length. Though still attached to whatever they have sprouted from, they are capable of autonomous movement and possess photosensitive cells to “see” and detect movement. They attack by slicing their targets or grabbing and pinching. The exsurgent victims—reduced to pure animal instinct—attack anything they see along with their new appendages. As the limbs grow, the victims become less vehicle and more passenger as their own movement becomes impaired and they are dragged about by the sprawling, chitinous limbs. Eventually, morphs are so run through by chrysacids that they are torn asunder. Stage four chrysacids break off from their original source and scurry about as independent critters called spiders. Spiders have both photosensitive and motion-sensing capabilities. They practice rudimentary predatory tactics, hunting from darkness in the hopes of infecting new hosts with a bite or pinch.</p><p><strong>Stress Test:</strong> SV 1d10, +3 if character known pre-infection</p><p><strong>Ware:</strong> Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack, Enhanced Hearing, Enhanced Smell, Enhanced Respiration, Grip Pads, Hibernation</p><p><strong>Notes:</strong> Adjust stats, enhancements, and gear as appropriate for morph/NPC.At the GM’s discretion, exsurgents in the second stage of infection may retain enough intelligence to use complex weapons and tools, such as guns.</p><p><em>Initiative printed: 11 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 7, Death Rating 53.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 100.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Chrysacid Exsurgent (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 20,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 5,
+          "kinetic": 5
+        },
+        "movement": "4/16 Walker (3/12 in Stage Three)",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack, Enhanced Hearing, Enhanced Smell, Enhanced Respiration, Grip Pads, Hibernation",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "7781d68b0e9b00ed",
+      "_key": "!actors.items!18a25cbda761b934.7781d68b0e9b00ed",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d112f39fb5a9f6a0",
+      "_key": "!actors.items!18a25cbda761b934.d112f39fb5a9f6a0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Clubs",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "clubs",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "20d6b7fed4e4f931",
+      "_key": "!actors.items!18a25cbda761b934.20d6b7fed4e4f931",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 0,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "028ed5e4ab8098a6",
+      "_key": "!actors.items!18a25cbda761b934.028ed5e4ab8098a6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "592c476f74d26b4e",
+      "_key": "!actors.items!18a25cbda761b934.592c476f74d26b4e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 0,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c3a370777d34508a",
+      "_key": "!actors.items!18a25cbda761b934.c3a370777d34508a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 5,
+        "mod": 0,
+        "specialization": "Hearing/Smell",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1a077d0eb2b0fee3",
+      "_key": "!actors.items!18a25cbda761b934.1a077d0eb2b0fee3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Club",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": 0,
+        "dv": "1d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Club Attack: 50, DV 1d10 + 4</p>"
+      },
+      "_id": "7612e0c8813dd4ed",
+      "_key": "!actors.items!18a25cbda761b934.7612e0c8813dd4ed",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 5000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Chrysacid Exsurgent",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "266c613f0d65444c",
+  "_key": "!items!266c613f0d65444c",
+  "name": "Comfurt",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "comfurt",
+    "category": "drug",
+    "substanceType": "bio",
+    "application": "O",
+    "onset": "20 minutes",
+    "duration": "12 hours",
+    "addictionMod": "–10",
+    "addictionType": "mental",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>This tasty yogurt treat blocks stress hormones, stabilizes mood, and relieves anxiety, allowing them to ignore the effect of 1 trauma and temporarily boosting Lucidity by +5. Any stress suffered while the drug is in effect is taken from the bonus Lucidity first. Comfurt also provides a +10 bonus when resisting attempts to manipulate the user’s emotions. Excessive use of Comfurt can lead to chronic itchiness caused by histamine release.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 320.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "e5d3b35c7b9c1d9e",
+      "_key": "!items.effects!266c613f0d65444c.e5d3b35c7b9c1d9e",
+      "name": "Comfurt",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.mods.traumasIgnored",
+          "mode": 2,
+          "type": "add",
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.mods.luc",
+          "mode": 2,
+          "type": "add",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -18,7 +18,20 @@
     },
     "range": "",
     "equipped": false,
-    "description": "<p>+ choc (p. 204).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "shock": true,
+    "area": {
+      "shape": "none",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "Low",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>When activated, these gloves deliver an incapacitating shock along with every punch or grab. Note that the effect is the same whether wearing one glove or two.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>"
   },
   "effects": [],
   "flags": {},

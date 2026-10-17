@@ -1,0 +1,23 @@
+{
+  "_id": "f574ebc7371ee37d",
+  "_key": "!items!f574ebc7371ee37d",
+  "name": "Solar Survival Suit",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "key": "solarSurvivalSuit",
+    "cost": "Expensive",
+    "description": "<p>Solar survival suits are hard suits with special modifications, equivalent to the coronal adaptation trait (p. 164). The survival suit also possesses an extremely powerful emergency beacon, strong enough to punch through the sun’s electromagnetic background roar. The built-in maker provides enough air, water, and food for the wearer to survive indefinitely. Solar survival suits provide armor of AV 20/15. In the event that a survivor is subjected to a coronal mass ejection, the suit’s effectiveness is drastically reduced. Subjected to high density plasma with temperatures reaching tens of millions Kelvins, the suit will only protect the wearer for a few seconds at best—just long enough for a survivor to access their cortical stack’s emergency farcaster before being vaporized.</p><p><em>Source: Eclipse Phase Sunward, p. 168.</em></p>",
+    "energy": 20,
+    "kinetic": 15,
+    "equipped": false,
+    "accessory": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  }
+}

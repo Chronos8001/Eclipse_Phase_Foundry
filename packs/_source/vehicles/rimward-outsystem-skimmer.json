@@ -1,0 +1,67 @@
+{
+  "_id": "40b9cff255ec3f43",
+  "_key": "!actors!40b9cff255ec3f43",
+  "name": "Outsystem Skimmer",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "8",
+    "handling": 20,
+    "movement": "12/200",
+    "maxVelocity": "NA",
+    "mobility": "",
+    "av": {
+      "energy": 20,
+      "kinetic": 20
+    },
+    "durability": 320,
+    "woundThreshold": 80,
+    "deathRating": 640,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Cryonic Protection, Laser Link, Radar, Radio",
+    "cost": "Expensive, min 60,000",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Powered by a small fusion reactor, this vehicle contains as a miniature plasma rocket that’s designed to produce up to 0.25 g thrust by lowering efficiency and increasing reaction mass use. Skimmers can use either hydrogen, methane, or water as reaction mass, allowing them to swiftly and easily refuel on almost any moon. They are also quite small, being lentilshaped disks eight meters in diameter and five meters thick. Skimmers can carry up to eight passengers and twelve tons of cargo. They can typically make a journey of up to one million kilometers in 10 hours, with fuel left to take off or land from any moon, asteroid, or other small body in the solar system. These vehicles are popular with couriers, smugglers, traders, and other residents of the outer system. Their life support functions for 30 days before it requires additional input, but they are rarely used for one-way journeys longer than five million kilometers, which take two full days.</p><p><em>Source: Eclipse Phase Rimward, p. 195.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "469ab101da588cac",
+  "sort": 22000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Outsystem Skimmer",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

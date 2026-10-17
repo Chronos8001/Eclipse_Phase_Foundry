@@ -1,0 +1,51 @@
+{
+  "_id": "1375e7e6b72b158d",
+  "_key": "!items!1375e7e6b72b158d",
+  "name": "Bioweave Armor (Heavy)",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "bioweaveArmorHeavy",
+    "augType": "bioware",
+    "cost": "Moderate",
+    "description": "<p>Heavy bioweave armor involves lacing the morph’s skin with a denser and thicker network of the same fibers. The morph’s skin becomes thicker and somewhat less flexible except at the joints. The morph’s skin also has an unusually smooth look, and a distinctively smooth and tough-feeling texture. This provides an Armor rating of 3/4 without decreasing the morph’s mobility. The character’s sense of touch, however, is significantly reduced (–20 modifier) except on their hands, feet, and face. This armor is cumulative with worn armor.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 303.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "9936eb374f93029d",
+      "_key": "!items.effects!1375e7e6b72b158d.9936eb374f93029d",
+      "name": "Bioweave Armor (Heavy)",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.mods.energyArmor",
+          "mode": 2,
+          "type": "add",
+          "value": "3",
+          "priority": null
+        },
+        {
+          "key": "system.mods.kineticArmor",
+          "mode": 2,
+          "type": "add",
+          "value": "4",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  }
+}

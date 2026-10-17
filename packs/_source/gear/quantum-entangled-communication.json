@@ -1,0 +1,29 @@
+{
+  "_id": "2566374d09dba7a9",
+  "_key": "!items!2566374d09dba7a9",
+  "name": "Quantum Entangled Communication",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "quantumEntangledCommunication",
+    "category": "comms",
+    "quantity": 1,
+    "cost": "",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>The rarest form of communications is quantum entangled (QE) communication. QE communication is instantaneous and works over any distance, but is also very limited. QE communication requires pairs of entangled particles known as qubits. To use QE, large number of pairs of qubits are created and then separated from each other. Millions of these separated pairs of particles are stored in special containers known as qubit reservoirs. If two QE communicators each have a qubit reservoir containing qubits that are each entangled with qubits in the other communicator’s qubit reservoir, then characters can use the two QE communicators to commutate with one another instantaneously. Characters can use QE to instantly communicate between any two locations, even if one character is in the solar system and the other has passed through a Pandora gate and is standing on a planet 500 light years away. Each bit of data transmitted between these two QE comms uses up one qubit. Once all of the qubits are used up, the two QE comms can no longer communicate with each other until they each get a new batch of entangled qubits. Qubits are expensive to produce, contain, and transport, making this an exceedingly expensive form of communication. As a result, extremely high bandwidth communications like full sensory AR and egocasting cannot be performed using QE communication.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 315.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "cd9c4bba7e2288cf",
+  "_key": "!items!cd9c4bba7e2288cf",
+  "name": "Solitary",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "solitary",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>This trait is only available to neo-octopi uplifts. Like its pre-sapient kin, this uplift prefers solitude and has not been fully socialized. As a result, they can only tolerate 2 hours of direct interaction (physical or virtual) with others before they need a break and some alone time (at least 2 hours). If forced into a situation where they must interact or exist in close proximity to others for more than 2 hours, they suffer a cumulative −10 modifier to all Social Skill Tests per 2-hour period, up to a maximum of −30. After 6 hours, they must a WIL x 3 Test to keep their composure and not react towards those around them with aggression, hostility, or even violence. This trait is usually taken in conjunction with the Hardening (Isolation) trait.</p><p><em>Source: Eclipse Phase Transhuman, p. 93.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 66000,
+  "ownership": {
+    "default": 0
+  }
+}

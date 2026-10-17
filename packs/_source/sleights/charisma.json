@@ -1,0 +1,33 @@
+{
+  "_id": "62dfb96c5c58b4c6",
+  "_key": "!items!62dfb96c5c58b4c6",
+  "name": "Charisma",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "charisma",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "quick",
+    "range": "touch",
+    "duration": "temporary",
+    "durationUnit": "minutes",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "control",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The async uses this sleight to influence the target’s mind on a subconscious level, so that the target perceives them to be charming, magnetic, and persuasive. If the async beats the target in an Opposed Test, they gain a +30 modifier on all subsequent Social Skill Tests for the chosen duration.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 226.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 21000,
+  "ownership": {
+    "default": 0
+  }
+}

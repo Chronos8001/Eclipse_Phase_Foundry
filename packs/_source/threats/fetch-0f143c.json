@@ -1,0 +1,535 @@
+{
+  "_id": "0f143c7d14886365",
+  "_key": "!actors!0f143c7d14886365",
+  "name": "Fetch",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 40,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 40,
+        "mod": 0
+      },
+      "ref": {
+        "base": 30,
+        "mod": 0
+      },
+      "sav": {
+        "base": 30,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 40,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Ultraviolet</p><p><strong>Numbers:</strong> 1</p><p>A fetch is a delta fork of a TITAN ASI, trimmed down to maneuver among transhuman mesh networks and morphs. Though exceptionally smart and capable, pruning down a superintelligence’s mind to that size is much like lobotomizing a god. Even for the TITANs, this is risky and requires finesse. As a result, fetches can be unstable, erratic, and unpredictable, more so the longer they operate independently from their parent mind. The exsurgent virus may have additional unforeseen side effects on TITAN mind-states. Nevertheless, fetches are brilliant hackers, engineers, and tacticians, easily equal to transhumanity&#x27;s best. They are clever, forward-thinking, and devious foes. Most fetches were created for specific tasks that required direct oversight, but were too unimportant for the greater TITAN minds to attend to personally. They also managed longterm projects and situations too dangerous for direct TITAN involvement. Some continue far beyond their operational parameters, others linger on to attend to unexpected deviations. A few remain trapped or hidden within hardware, having survived the battles of the Fall, while others still operate under direct TITAN command. Transhuman opponents frequently mistake fetches for actual TITANs. Fetches prefer infomorph forms, managing minion AIs and controlling both synthetic and biological servants via puppet socks. A fetch mastermind deploying a squad of TITAN machines is a terrifying affair. They ensconce themselves in high-end servers, using mobile servers as missions require. If they must sleeve, they prefer mentons and other enhanced-intelligence morphs, and will upgrade the shell’s mental capacity.</p><p><strong>Stress Test:</strong> SV 1d10 + 3</p><p><strong>Ware:</strong> Active Countermeasures,Autodelete, Eidetic Memory, Hacking Alert, Increased Speed, Math Boost, Mental Speed, Mnemonic Augmentation, Panopticon, Persistence</p><p><strong>Common Traits:</strong> Anomalous Mind, Digital Ghost, Edited Memories, Emotive Blindness, Expert, Machine Intuition, Modified Behavior, Neural Damage, Overwhelmed By Emotions, Real World Naiveté</p><p><strong>Exsurgent Infection:</strong> Fetches carry the digital exsurgent virus and will attempt to infect infomorphs and cyberbrains.</p><p><em>Initiative printed: 7 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 10, Death Rating 75.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 110.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Fetch (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 50,
+        "speedMod": 3,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "",
+        "implants": "Active Countermeasures,Autodelete, Eidetic Memory, Hacking Alert, Increased Speed, Math Boost, Mental Speed, Mnemonic Augmentation, Panopticon, Persistence",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "0cc283b95fce8d40",
+      "_key": "!actors.items!0f143c7d14886365.0cc283b95fce8d40",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics (Choose Three)",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 100,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "41e3fb8f7dd2c50d",
+      "_key": "!actors.items!0f143c7d14886365.41e3fb8f7dd2c50d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2b71a08ba6f50f9f",
+      "_key": "!actors.items!0f143c7d14886365.2b71a08ba6f50f9f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Impersonation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "impersonation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9c7868ed936fd2b7",
+      "_key": "!actors.items!0f143c7d14886365.9c7868ed936fd2b7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c7f3a7c8be604c55",
+      "_key": "!actors.items!0f143c7d14886365.c7f3a7c8be604c55",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest (Choose Two)",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 100,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "11db19c867d92fd7",
+      "_key": "!actors.items!0f143c7d14886365.11db19c867d92fd7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "42424280527705c9",
+      "_key": "!actors.items!0f143c7d14886365.42424280527705c9",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d291cb6c918c6936",
+      "_key": "!actors.items!0f143c7d14886365.d291cb6c918c6936",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language (Choose Five)",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 100,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9afc4ca0f5da6bda",
+      "_key": "!actors.items!0f143c7d14886365.9afc4ca0f5da6bda",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ab480cad7687f1a1",
+      "_key": "!actors.items!0f143c7d14886365.ab480cad7687f1a1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession (Choose Two)",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 80,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2d2df6238dcf4497",
+      "_key": "!actors.items!0f143c7d14886365.2d2df6238dcf4497",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Programming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "programming",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0530e410c81372f1",
+      "_key": "!actors.items!0f143c7d14886365.0530e410c81372f1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3307f47fb8d250ad",
+      "_key": "!actors.items!0f143c7d14886365.3307f47fb8d250ad",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9b87a006f091eb54",
+      "_key": "!actors.items!0f143c7d14886365.9b87a006f091eb54",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "plus three other skills appropriate to their mission at",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 80,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "afc8918dece0f0ee",
+      "_key": "!actors.items!0f143c7d14886365.afc8918dece0f0ee",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f17ed7e4ae1c8268",
+      "_key": "!actors.items!0f143c7d14886365.f17ed7e4ae1c8268",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4dc79959b5f5ad0f",
+      "_key": "!actors.items!0f143c7d14886365.4dc79959b5f5ad0f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 19000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Fetch",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

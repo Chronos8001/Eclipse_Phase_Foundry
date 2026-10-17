@@ -1,0 +1,23 @@
+{
+  "_id": "c6792c31d8afab9d",
+  "_key": "!items!c6792c31d8afab9d",
+  "name": "Dominant Strain",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "dominantStrain",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>This trait is only available to asyncs. The Watts- MacLeod virus has a special hold on the async and aggressively resists attempts by other strains of the exsurgent virus to gain a foothold in the character. Instead of the usual –20 penalty to resist infection, the character gains a +10 bonus. Any time they must make such a test, however, they immediately suffer the effects of a derangement for 1d10 hours after the test is resolved as the Watts-MacLeod strain asserts itself. They incur no stress along with this derangement, but multiple tests to resist infection may, at the gamemaster’s discretion, incur additional derangements.</p><p><em>Source: Eclipse Phase Transhuman, p. 83.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "3802864da2dfb251",
+  "_key": "!items!3802864da2dfb251",
+  "name": "Gliding Membrane",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "glidingMembrane",
+    "cost": "Low",
+    "description": "<p>Gliding membranes are thin, muscular sheets that stretch from wrist to ankle, that allow the character to glide through the air. For human-sized morphs in standard Earth or Venusian gravity (1 g), these gliding membranes allow the glider to maintain a glide ratio of 10:1, so it can glide 10 meters for every meter of altitude it loses. In low-gravity environments, this ratio doubles to 20:1 or more. Gliding membranes provide a +10 modifier to Free Fall Tests made to cross long distances. Gliding membranes can also be used to ride thermal updrafts, allowing the morph to ascend to higher altitudes. Use the Flight skill to make tests when using gliding membranes. Gliding membranes can be wrapped around the morph’s arms, legs, and torso when not being used, allowing the morph to move and wear clothes normally when not gliding.</p><p><em>Source: Eclipse Phase Sunward, p. 166.</em></p>",
+    "augType": "bioware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

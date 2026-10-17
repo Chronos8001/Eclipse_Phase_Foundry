@@ -1,0 +1,27 @@
+{
+  "_id": "f9e6920ede002b20",
+  "_key": "!items!f9e6920ede002b20",
+  "name": "Alpha",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "alpha",
+    "category": "drug",
+    "substanceType": "bio",
+    "application": "Inh",
+    "onset": "1 minute",
+    "duration": "2 hours",
+    "addictionMod": "–10",
+    "addictionType": "mental",
+    "cost": "High",
+    "quantity": 1,
+    "description": "<p>Alpha is a more subtle version of BringIt, popular with hypercorp execs, street thugs, and anyone else who wants to come across as a domineering asshole. The pharm designer who invented it had a retro sensibility (and maybe a sick sense of humor); Alpha is typically synthesized as a sparkling white powder designed to be snorted. Alpha stimulates production of threat pheromones, but less bluntly than BringIt. Alpha imparts confidence, a feeling of power, and alertness. Users can function without sleep for 4 days, after which point they need to catch up with at least 4 hours of sleep (remember morphs with basic biomods require less sleep). Dosed characters receive a +20 modifier on Intimidation Tests and +10 on Persuasion and Networking Tests where attitude is a factor (gamemaster discretion). These bonuses only apply to characters within 2 meters of the Alpha user. On the downside, alpha users are impatient, unfocused assholes. At the gamemaster’s discretion, Social skill modifiers may be reversed to penalties with certain types of people. Additionally, Alpha users suffer –10 on all COG skill tests related to memory drugs and coherent or logical thinking. Long-term users may suffer the COG penalty even when not on the drug; on it, they may be worse.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 320.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

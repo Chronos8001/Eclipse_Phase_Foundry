@@ -1,0 +1,20 @@
+{
+  "_id": "17c1cff1e8f2b730",
+  "_key": "!items!17c1cff1e8f2b730",
+  "name": "Synthetic Mask",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "syntheticMask",
+    "augType": "robotic",
+    "cost": "Moderate",
+    "description": "<p>The synthmorph is equipped with a realistic outer casing of faux-skin and carefully sculpted to pass as a biomorph (perhaps even a particular person). The morph can cry, spit, have sex, and will even bleed if cut. Only a detailed physical examination or a radar, terahertz, or x-ray scan will detect the synthmorph’s true nature, and even then such exams/scans suffer a –30 modifier.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 102000,
+  "ownership": {
+    "default": 0
+  }
+}

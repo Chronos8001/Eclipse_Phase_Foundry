@@ -1,0 +1,23 @@
+{
+  "_id": "edcb6997d4661d56",
+  "_key": "!items!edcb6997d4661d56",
+  "name": "Professional Courtesy",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "professionalCourtesy",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 5,
+    "costText": "Cost: 5 CP",
+    "description": "<p>Although higher-ups in your organization probably aren’t thrilled about it, you’ve run into the operatives and field agents of another faction or conspiracy often enough that you’ve earned some leeway with them. Choose a group engaged in covert ops, intelligence work, or paramilitary actions: when encountering agents of that group in the context of a mission, you gain a +10 bonus on all social tests against them, as they treat you with grudging respect—or at least more tolerance than they otherwise would for a member of your organization. Discuss with your gamemaster to detail what your character did to gain the respect of this other group. This trait does not guarantee safety or cooperation between you and members of the chosen organization, only some additional consideration between professionals. Depending on the particulars of an encounter, it may provide some shared information, a moment of détente to face a common foe, or the chance to determine how to stay out of each others’ way.</p><p><em>Source: Eclipse Phase Firewall, p. 173.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "7f3ebf3c224a27b4",
+  "sort": 95000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "50b45ded8c0be0a7",
+  "_key": "!items!50b45ded8c0be0a7",
+  "name": "Morph Fever Resistance",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "morphFeverResistance",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>This trait is only available to asyncs. The async does not suffer stress effects from extended periods sleeved in a pod, synth, or infomorph.</p><p><em>Source: Eclipse Phase Transhuman, p. 85.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  }
+}

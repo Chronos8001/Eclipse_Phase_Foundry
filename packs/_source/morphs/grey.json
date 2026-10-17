@@ -33,13 +33,13 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Clean Metabolism, Cortical Stack, Eidetic Memory, Emotional Dampers, Enhanced Vision, Math Boost",
-    "advantages": "+5 COG, +5 WIL, +5 to one other aptitude of the player's choice",
+    "advantages": "+5 COG, +5 WIL, +5 to one other aptitude of the player’s choice",
     "disadvantages": "Uncanny Valley trait",
     "skillBonuses": [],
     "cpCost": 25,
     "creditCost": "Expensive (minimum 30,000+)",
     "active": false,
-    "description": "<p>Originally created as part of a fad based on 20th-century images of aliens, the grey morph soon became popular with eccentric scientists and engineers. This morph's slender and weak-looking body stands only 1.5 meters tall, short compared to modern transhumans. Its distinctive large head and eyes strike many transhumans as disturbing.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 42.</em></p>"
+    "description": "<p>Originally created as part of a fad based on 20th-century images of aliens, the grey morph soon became popular with eccentric scientists and engineers. This morph’s slender and weak-looking body stands only 1.5 meters tall, short compared to modern transhumans. Its distinctive large head and eyes strike many transhumans as disturbing.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 42.</em></p>"
   },
   "effects": [],
   "flags": {},

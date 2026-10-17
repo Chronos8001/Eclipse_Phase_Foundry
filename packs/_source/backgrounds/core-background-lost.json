@@ -1,0 +1,52 @@
+{
+  "_id": "34e900f021a26cbf",
+  "_key": "!items!34e900f021a26cbf",
+  "name": "Lost",
+  "type": "background",
+  "img": "icons/svg/village.svg",
+  "system": {
+    "description": "<p>You are a legacy of one of the most infamous debacles since the Fall. As a member of the “Lost generation,” you went through an accelerated-growth childhood, somehow surviving where others of your kind died, went insane, or were persecuted (see The Lost, p. 233). Your background is a social stigma, but it does provide you with certain advantages ... and burdens.</p><p>Advantages: +20 to two Knowledge skills of your choice, Psi trait (Level 1) Disadvantages: Mental Disorder (choose two , this includes the one from Psi) trait, Social Stigma (Lost) trait, must start with Futura morph Common Morphs: Futuras</p><p><em>Source: Eclipse Phase Core Rulebook, p. 131.</em></p>",
+    "kind": "background",
+    "group": "",
+    "pp": 0,
+    "skills": [],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Psi",
+        "level": 1
+      },
+      {
+        "name": "Mental Disorder",
+        "level": 1
+      },
+      {
+        "name": "Social Stigma",
+        "level": 1
+      }
+    ],
+    "choices": "+20 to two Knowledge skills of your choice; Mental Disorder: choose two , this includes the one from Psi; Social Stigma: Lost",
+    "restrictions": "must start with Futura morph",
+    "morphs": "Futuras",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5d1fd729a9c1db00",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

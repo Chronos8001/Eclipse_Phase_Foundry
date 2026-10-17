@@ -1,0 +1,20 @@
+{
+  "_id": "f101be04f9262617",
+  "_key": "!items!f101be04f9262617",
+  "name": "Cybercortex",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "cybercortex",
+    "cost": "Low",
+    "description": "<p>Similar but less sophisticated than a cyberbrain, a cybercortex is a limited artificial version of the neocortex for smart animals. A cybercortex is not sufficient to raise an animal to sapience, but it does boost the animal’s ability to learn, comprehend instructions/ commands, and reason. Apply a +10 modifier to Animal Handling Tests with this animal. The cybercortex also overrides many instinctive behaviors that would be undesirable in a service animal.</p><p><em>Source: Eclipse Phase Panopticon, p. 148.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

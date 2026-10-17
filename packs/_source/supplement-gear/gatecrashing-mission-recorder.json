@@ -1,0 +1,29 @@
+{
+  "_id": "8a67b11b4343301f",
+  "_key": "!items!8a67b11b4343301f",
+  "name": "Mission Recorder",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "missionRecorder",
+    "cost": "Trivial",
+    "description": "<p>A mission recorder is a simple mini-sized spime designed to record live lifelog, XP-cast, or other sensor feeds from gatecrashing teams. Standard protocol is to leave mission recorders at an easyto-find location on or next to a Pandora gate, so that search-and-rescue teams can find and analyze the recordings. Mission recorders are often hooked up to radio boosters, laser links or other tools for increasing their reception range for gatecrashing teams that stray far afield.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 154.</em></p>",
+    "category": "comms",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

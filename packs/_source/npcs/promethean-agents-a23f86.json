@@ -1,0 +1,714 @@
+{
+  "_id": "a23f864964ac41b6",
+  "_key": "!actors!a23f864964ac41b6",
+  "name": "Promethean Agents",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 30,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 30,
+        "mod": 0
+      },
+      "ref": {
+        "base": 30,
+        "mod": 0
+      },
+      "sav": {
+        "base": 20,
+        "mod": 0
+      },
+      "som": {
+        "base": 20,
+        "mod": 0
+      },
+      "wil": {
+        "base": 30,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Rather than interacting directly via a fork, some Prometheans prefer to ride shotgun with an agent representative. These avatars are AGIs that have been programmed by the Prometheans for specific tasks—in a sense they are the Prometheans’ children. The advantage to operating through such agents is that each is a unique individual, and thus much less able to be identified by other ASIs through any tell-tale behavioral signatures, as a fork might. Agents are programmed to be completely loyal to their progenitor and its agenda, but they are also instilled with a range of distinctive personality quirks that make them somewhat unpredictable. While in the field, the Promethean (or a fork) will watch over the agent’s shoulder via the live XP feed through their mesh inserts and occasionally seize control via implanted puppet socks.</p><p><strong>Skills:</strong> Academics: (Choose Three) 80, Deception 70, Impersonation 60, Infosec 90, Interest: (Choose Two) 80, Interfacing 95, Kinesics 80, Language: (Choose Three) 90, Perception 80, Persuasion 60, Profession: (Choose Two) 80, Protocol 60, Research 80, plus three other skills at 70 as appropriate to the situation</p><p><strong>Common Traits:</strong> AGI Affinity, Anomalous Mind, Digital Ghost, Edited Memories, Emotive Blindness, Expert, Identifiable Quirk, Malleable Mind, Modified Behavior, Overwhelmed By Emotions, Real World Naiveté</p><p><em>Printed: .</em></p><p><em>Source: Eclipse Phase Firewall, p. 171.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": ""
+    }
+  },
+  "items": [
+    {
+      "name": "Promethean Agents (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "infomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 0,
+        "initMod": 0,
+        "speedMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "",
+        "implants": "",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "74b80c27724ee0b5",
+      "_key": "!actors.items!a23f864964ac41b6.74b80c27724ee0b5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "dec0eb6eb98ac23d",
+      "name": "AGI Affinity",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "agiAffinity",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 5,
+        "costText": "Cost: 5 CP",
+        "description": "<p>The character has spent a significant amount of time around AGIs, to the point where socializing with an AGI is far easier. The character gains a +10 modifier on Social Skill Tests against AGIs as well as characters with the Real World Naiveté trait.</p><p><em>Source: Eclipse Phase Transhuman, p. 82.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.dec0eb6eb98ac23d"
+    },
+    {
+      "_id": "c8a614d3b4bf8679",
+      "name": "Anomalous Mind",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "anomalousMind",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 20,
+        "costText": "Bonus: 20 CP",
+        "description": "<p>Found almost exclusively in AGIs, uplifts, and the subjects of highly experimental pyschosurgical procedures, your mental patterns are dramatically outside the norm of transhumanity. The uniqueness of their mental map makes psychosurgery, routine backup, and resleeving difficult and risky. Any attempts to perform psychosurgery on the character suffer a −10 penalty and automatically cause 1 SV in addition to any other results and regardless of the success or failure of a procedure. Also, backing up and resleeving are not automatic (pp. 268–271, EP) and require active management of the process. Any technician operating the ego bridge during such procedures must succeed on a Psychosurgery Test or the backup/ sleeving attempt will fail.</p><p><em>Source: Eclipse Phase Transhuman, p. 87.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.c8a614d3b4bf8679"
+    },
+    {
+      "_id": "fc1b9ecc75fe8934",
+      "name": "Digital Ghost",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "digitalGhost",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>The character has an intuitive knack for keeping their computer intrusions out of the spotlight. Once per game session, the hacker may prevent a Severe Failure or Critical Failure from downgrading their status on a hacked system (see Failing Tests, p. 257, EP).</p><p><em>Source: Eclipse Phase Transhuman, p. 83.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.fc1b9ecc75fe8934"
+    },
+    {
+      "_id": "3904f81adaa84370",
+      "name": "Edited Memories",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "editedMemories",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>At some point in the character’s past, the character had certain memories strategically removed or otherwise lost to them. This may have been done to intentionally forget an unpleasant or shameful experience or to make a break with the past. The memory may also have been lost by an unexpected death (with no recent backup), or it may have been erased against the character’s will. Whatever the case, the memory should bear some importance, and there should exist either evidence of what happened or NPCs who know the full story. This is a tool the gamemaster can use to haunt the character at some future point with ghosts from their past.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 149.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.3904f81adaa84370"
+    },
+    {
+      "_id": "23e75a9d21aae615",
+      "name": "Emotive Blindness",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "emotiveBlindness",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>This trait is only available to AGIs and uplifts. This character has difficulty reading the finer points of social cues, body language, expressions, emoting, and so forth for any transhuman outside of its own species. Apply a −10 modifier to Kinesics Tests used against anyone not of the same species as the character.</p><p><em>Source: Eclipse Phase Transhuman, p. 89.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.23e75a9d21aae615"
+    },
+    {
+      "_id": "886504c0931909ac",
+      "name": "Expert",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "expert",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>The character is a legend in the use of one particular skill. The character may raise one learned skill over 80, to a maximum of 90, during character creation. This trait does not actually increase the skill, it just raises the maximum. This trait may only be taken once.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.886504c0931909ac"
+    },
+    {
+      "_id": "3642520299afbcda",
+      "name": "Identifiable Quirk",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "identifiableQuirk",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>Transhumans may be able to switch bodies and travel the entire solar system to start a new life, but some things can’t be left behind. The character has a unique behavioral quirk that makes identification easy, no matter the morph in which they are sleeved. Attempts to identify this character through Kinesics or similar skills gain a +10 bonus. This quirk could be a nervous twitch of the lips, distinct accent, noticeable laugh, or unusual gait. The character suffers a −30 modifier to all Impersonation Tests against targets aware of the character’s quirk.</p><p><em>Source: Eclipse Phase Transhuman, p. 90.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.3642520299afbcda"
+    },
+    {
+      "_id": "e3321a0f2ca81eb5",
+      "name": "Malleable Mind",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "malleableMind",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP (Level 1), 20 CP (Level 2), 30 CP (Level 3)",
+        "description": "<p>Either through a natural quirk or psychosurgical conditioning, the character’s neural architecture is especially malleable and more readily accepts psychosurgical changes. Apply a −10 modifier per level to the character’s WIL x 3 Test when receiving voluntary psychosurgery (including neural pruning of forks). This modifier does not apply to involuntary psychosurgery.</p><p><em>Source: Eclipse Phase Transhuman, p. 85.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.e3321a0f2ca81eb5"
+    },
+    {
+      "_id": "d77c14ced80dfa15",
+      "name": "Modified Behavior",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "modifiedBehavior",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 5,
+        "costText": "Bonus: 5 (Level 1), 10 (Level 2), or 20 (Level 3) CP",
+        "description": "<p>The character has been conditioned via timeaccelerated behavioral control psychosurgery. This is common among ex-felons, who have been conditioned to respond to a specific idea or activity with vehement horror and disgust, but may have occurred for some other reason or even been self-inflicted. At Level 1, the chosen behavior is either limited or boosted, at Level 2 it is either blocked or encouraged, and at Level 3 it is expunged or enforced (see p. 231 for details). This trait should only be allowed for behaviors that are either limited or, if encouraged, impact the character in a negative way.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.d77c14ced80dfa15"
+    },
+    {
+      "_id": "afeb16aea23902ab",
+      "name": "Overwhelmed by Emotions",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "overwhelmedByEmotions",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>This trait is only available to AGIs. The character has a particularly difficult time adjusting to hormonal urges and emotions when sleeved in biomorphs. The character suffers a −10 modifier when resisting any form of emotional manipulation, including Intimidation and most Persuasion Tests. Additionally the character suffers a −10 modifier to Stress Tests involving emotions, fear, or pain. At the gamemaster’s discretion, certain intense emotions or rushes may temporarily overwhelm the character; if they fail a WIL x 3 Test, they are disoriented and must spend a Complex Action to regain their wits. Gamemasters should not allow this trait for characters that are unlikely to ever sleeve into biomorphs—or should at least occasionally put them in situations that force them into one. Endocrine control does not completely mitigate these effects, though some of the modifiers may cancel out.</p><p><em>Source: Eclipse Phase Transhuman, p. 91.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.afeb16aea23902ab"
+    },
+    {
+      "_id": "bcf468641b0213ba",
+      "name": "Real World Naiveté",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "realWorldNaivet",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>Due to their background, the character has very limited personal experience with the real (physical) world—or they have spent so much time in simulspace that their functioning in real life is impaired. They lack an understanding of many physical properties, social cues, and other factors that people with standard human upbringings take for granted. This lack of common sense may lead the character to misunderstand how a device works or to misinterpret someone’s body language. Once per game session, the gamemaster may intentionally mislead the character when giving them a description about some thing or some social interaction. This falsehood represents the character’s misunderstanding of the situation, and should be roleplayed appropriately, even if the player realizes the character’s mistake. This trait should only be available to characters with the infolife or re-instantiated backgrounds, though the gamemaster may allow it for characters who have extensive virtual reality/XP use in their personal histories.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!a23f864964ac41b6.bcf468641b0213ba"
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Choose Three",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1ca1e55d5ab8b9a1",
+      "_key": "!actors.items!a23f864964ac41b6.1ca1e55d5ab8b9a1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "14fee88351c15e7c",
+      "_key": "!actors.items!a23f864964ac41b6.14fee88351c15e7c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Impersonation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "impersonation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "64addfa40775f5b0",
+      "_key": "!actors.items!a23f864964ac41b6.64addfa40775f5b0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7b7ba9755f07db26",
+      "_key": "!actors.items!a23f864964ac41b6.7b7ba9755f07db26",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Choose Two",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "24755cefea624016",
+      "_key": "!actors.items!a23f864964ac41b6.24755cefea624016",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "14f93cdffb853c1e",
+      "_key": "!actors.items!a23f864964ac41b6.14f93cdffb853c1e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a2c702fd26194f5b",
+      "_key": "!actors.items!a23f864964ac41b6.a2c702fd26194f5b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Choose Three",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ee72659e7f126d93",
+      "_key": "!actors.items!a23f864964ac41b6.ee72659e7f126d93",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8b1aea1538f12f3a",
+      "_key": "!actors.items!a23f864964ac41b6.8b1aea1538f12f3a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "99389bcfe804f9aa",
+      "_key": "!actors.items!a23f864964ac41b6.99389bcfe804f9aa",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 22000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Choose Two",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "92d2450ed2c19e7a",
+      "_key": "!actors.items!a23f864964ac41b6.92d2450ed2c19e7a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 23000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a021a4cfb59eea48",
+      "_key": "!actors.items!a23f864964ac41b6.a021a4cfb59eea48",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 24000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "63f0e6b6f6a374cc",
+      "_key": "!actors.items!a23f864964ac41b6.63f0e6b6f6a374cc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 25000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "10ee5cff085c4619",
+  "sort": 7000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Promethean Agents",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

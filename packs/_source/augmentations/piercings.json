@@ -1,0 +1,20 @@
+{
+  "_id": "fbf0959ccca0c9bf",
+  "_key": "!items!fbf0959ccca0c9bf",
+  "name": "Piercings",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "piercings",
+    "augType": "cosmetic",
+    "cost": "Trivial",
+    "description": "<p>Name any part of the body and someone’s figured out a way to pierce it, probably multiple times. Hoops, barbells, plugs, and chains are extremely common, often made of shapechanging smart materials.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 71000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "f2ea9609ad8fccc1",
+  "_key": "!items!f2ea9609ad8fccc1",
+  "name": "Adrenal Boost",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "adrenalBoost",
+    "augType": "bioware",
+    "cost": "High",
+    "description": "<p>This adrenal gland enhancement supercharges the character’s adrenal response to situations that invoke stress, pain, or strong emotions (fear, anger, lust, hate). When activated, the concentrated burst of norepinephrine accelerates heart rate and blood flow and burns carbohydrates. In game terms, this allows the character to ignore the –10 modifier from 1 wound and temporarily increases REF by +10 (also boosting REF-linked skills and Initiative). These modifiers apply until the character has calmed down (if the character also has endocrine control, p. 304, then adrenal boosts can be activated and deactivated at will, and the negated wounds are cumulative).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 302.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "7cec243a538e7dfc",
+      "_key": "!items.effects!d62fa7014d7eb674.7cec243a538e7dfc",
+      "name": "Adrenal Boost (active)",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.mods.woundsIgnored",
+          "mode": 2,
+          "type": "add",
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.aptitudes.ref.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

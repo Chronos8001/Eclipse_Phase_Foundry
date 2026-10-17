@@ -33,7 +33,7 @@
     },
     "movement": "Swim 16/40",
     "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced Hearing, Oxygen Reserve",
-    "advantages": "+5 COO, +5 INT, +5 SOM, +5 to one other aptitude of the player's choice, +40 Swimming skill, Ramming Attack (2d10 DV, use Unarmed Combat skill), Bite Attack (4d10 DV, sperm whales only, use Unarmed Combat skill)",
+    "advantages": "+5 COO, +5 INT, +5 SOM, +5 to one other aptitude of the player’s choice, +40 Swimming skill, Ramming Attack (2d10 DV, use Unarmed Combat skill), Bite Attack (4d10 DV, sperm whales only, use Unarmed Combat skill)",
     "disadvantages": "Neo-whales lack a sense of smell",
     "skillBonuses": [
       {
@@ -49,7 +49,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 83000,
+  "sort": 84000,
   "ownership": {
     "default": 0
   }

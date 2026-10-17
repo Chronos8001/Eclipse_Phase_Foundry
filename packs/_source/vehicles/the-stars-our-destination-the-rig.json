@@ -1,0 +1,67 @@
+{
+  "_id": "add10335470f6d31",
+  "_key": "!actors!add10335470f6d31",
+  "name": "The Rig",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "Crew 22,117, capacity 30,000",
+    "handling": -30,
+    "movement": "",
+    "maxVelocity": "",
+    "mobility": "",
+    "av": {
+      "energy": 20,
+      "kinetic": 20
+    },
+    "durability": 500,
+    "woundThreshold": 100,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Drive: Fusion Rockets",
+    "cost": "",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p><strong>LaFrance Rig.</strong></p><p>The “Rig” got its start as the old living habitats for the HAL aerospace facility. During the strike, they were fitted with upgraded propulsion systems and moved into a lower orbit for rescue operations. New sections were added on wherever they would fit to accommodate the influx of refugees. Additional rockets were strapped on to the ad-hoc LaFrance rig, enabling the structure to leave Earth orbit under its own power. Over time, even more sections and support elements have been bolted on to the Rig, many of them decorated with garish colors and murals on their exterior. Inside the Rig, twisting spar corridors and floatways open into large air-filled gardens, work and support modules, or habitation chambers with pressure doors that lead to more twisting corridors and chambers. The Rig’s internal power plants and life support systems have undergone repeated upgrades to account for the new modules attached to them. Though it looks unsafe, the core infrastructure is sound. However, individual modules and floatways are subject to leaks and blowouts, so most inhabitants wear smart fabric vacsuits or make sure there is something nearby to grab in an emergency.</p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 10.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "f02f6bd6727f6953",
+  "sort": 70000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "The Rig",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "8811b86403bc798e",
+  "_key": "!items!8811b86403bc798e",
+  "name": "Gas-Jet System",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "gasJetSystem",
+    "cost": "Moderate",
+    "description": "<p>The microbots are modified to support a high-pressure gas-jet propulsion system, intended for use in microgravity or with another propulsion system such as rotors. It provides a Movement Rate of 4/32 and a continuous flight time of ten minutes before refueling.</p><p><em>Source: Eclipse Phase Transhuman, p. 213.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 32000,
+  "ownership": {
+    "default": 0
+  }
+}

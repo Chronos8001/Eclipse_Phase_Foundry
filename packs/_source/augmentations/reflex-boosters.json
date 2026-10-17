@@ -1,0 +1,51 @@
+{
+  "_id": "621806fd6edf7f51",
+  "_key": "!items!621806fd6edf7f51",
+  "name": "Reflex Boosters",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "reflexBoosters",
+    "augType": "cyberware",
+    "cost": "Expensive",
+    "description": "<p>The morph’s spinal column and nervous system is rewired with superconducting materials, boosting transmission speed. This raises the character’s REF by +10 and improves Speed by +1.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 308.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "8fcc28ac99ce4c43",
+      "_key": "!items.effects!621806fd6edf7f51.8fcc28ac99ce4c43",
+      "name": "Reflex Boosters",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.aptitudes.ref.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.mods.spd",
+          "mode": 2,
+          "type": "add",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 58000,
+  "ownership": {
+    "default": 0
+  }
+}

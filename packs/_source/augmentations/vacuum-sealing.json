@@ -1,0 +1,20 @@
+{
+  "_id": "7d9a01a3d0f64fad",
+  "_key": "!items!7d9a01a3d0f64fad",
+  "name": "Vacuum Sealing",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "vacuumSealing",
+    "augType": "bioware",
+    "cost": "High",
+    "description": "<p>To possess this augmentation, the character must also possess some form of bioware armor or carapace armor. The morph has been specially designed to survive the effects of vacuum. The character’s skin resists vacuum as well as protecting the wearer from temperatures from –75 to 100 C. In addition, the character’s mouth, nose, and other orifices can seal sufficiently well to resist vacuum, and the morph possesses a special membrane that extends over their eyes, allowing the character to see in vacuum without risking any eye damage. This augmentation is usually combined with either the enhanced respiration or oxygen storage augmentation, or both together.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 306.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 40000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "750e423f1ad785d2",
+  "_key": "!items!750e423f1ad785d2",
+  "name": "Mental Speed",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "mentalSpeed",
+    "augType": "nanoware",
+    "cost": "High",
+    "description": "<p>With this nanoware system, nanobots alter the character’s neural architecture and augment the functioning of their neurons. The character can deliberately speed up their mind to think and also receive and process sensory information far faster than ordinary humans. Time seems to subjectively slow down for the character, allowing them to carefully plan their next action, even if they only have a split second to do so. With this system active, the character can discern things occurring too fast for a normal human to perceive, such as the individual frames of an old analog film or understanding sounds that were accelerated to many times their normal speed. The character can also read 10 times faster than normal and can track the paths of bullets and similar fast-moving objects with a successful Perception Test. When using this augmentation, the character gains two extra Complex Actions during each Action Phase that may only be used for mental actions. The character also receives a +30 Initiative bonus. The character thinks at normal speed whenever this nanoware is inactive. This nanoware is incompatible with any other augmentation that provides any form of extra actions, such as multi-tasking. This augmentation can be used as often as desired, but actively using it renders ordinary conversation and social interactions difficult and requires concentration to maintain.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 308.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "1e234b6c2e333204",
+      "_key": "!items.effects!750e423f1ad785d2.1e234b6c2e333204",
+      "name": "Mental Speed",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.mods.init",
+          "mode": 2,
+          "type": "add",
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 61000,
+  "ownership": {
+    "default": 0
+  }
+}

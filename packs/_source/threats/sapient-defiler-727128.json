@@ -1,0 +1,470 @@
+{
+  "_id": "72712890e3f89d5b",
+  "_key": "!actors!72712890e3f89d5b",
+  "name": "Sapient Defiler",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 25,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1–3</p><p>Sapient defilers are the original exhumans, taken on the defiler form.Their morphs are the same as feral defilers, but they are more fiendish adversaries.</p><p>Victims stung by defilers are unaware they have been injected with eggs. For the first 2 days, they show no symptoms, and Medicine Tests suffer a −30 modifier to detect the parasitoids. On the third day, they suffer intense cramping and pain, taking DV 2d10 every hour as the larvae feed on their organs.This damage cannot be healed until the parasitoids are removed. Removing them is a Medicine Task Action (1 hour).There is a 30% chance that attempting to eradicate the larvae will force them to rapidly chew out and evacuate the body (inflicting DV 2d10). Otherwise the larvae eat their way out once the victim has died, consuming the corpse before scurrying off.</p><p>Larval defilers ensconce themselves in a cocoon, taking 1 week to transform into an adult.The cocoon itself offers 15/10 Armor, but the defilers inside are helpless and vulnerable during the metamorphosis (Durability 5).</p><p><strong>Stress Test:</strong> SV 1d10 + 3</p><p><strong>Ware:</strong> Access Jacks,Acid Gland,Adrenal Boost, Carapace Armor (8/13), Cortical Stack, Cyberbrain, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Hibernation, Muscle Augmentation, Prehensile Tail,Temperature Tolerance,Toxin Filters,Vacuum Sealing</p><p><strong>Notes:</strong> Sapient defilers may have additional enhancements or gear as appropriate.</p><p><strong>Weapon:</strong> Acid 50, Free Fall 60, Freerunning 50,</p><p><strong>Hardware:</strong> Electronics 40,Hardware:Industrial 50, Infiltration 60, Infosec 40, Intimidation 60, KineticWeapons 60, Swimming 40, Unarmed Combat 50 (Claw/Sting 60)</p><p><strong>Fear Pheromones:</strong> Defilers emit pheromones tailored to trigger fear and flight responses in human biomorphs.Apply a +10 to Intimidation Tests when applicable.At the gamemaster’s discretion, close proximity to a defiler may provoke a WIL x 3 Test; if the human fails, they must flee for at least 2 Action Turns.</p><p><em>Initiative printed: 8 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 12, Death Rating 90.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 103.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Sapient Defiler (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 60,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 8,
+          "kinetic": 13
+        },
+        "movement": "4/24 Walker",
+        "implants": "Access Jacks,Acid Gland,Adrenal Boost, Carapace Armor (8/13), Cortical Stack, Cyberbrain, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Hibernation, Muscle Augmentation, Prehensile Tail,Temperature Tolerance,Toxin Filters,Vacuum Sealing",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "aa71582d4c783031",
+      "_key": "!actors.items!72712890e3f89d5b.aa71582d4c783031",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Blades",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "blades",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c7b24fd5c4c85b71",
+      "_key": "!actors.items!72712890e3f89d5b.c7b24fd5c4c85b71",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "12dfd6827ee3a659",
+      "_key": "!actors.items!72712890e3f89d5b.12dfd6827ee3a659",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8d62ebcf5921e811",
+      "_key": "!actors.items!72712890e3f89d5b.8d62ebcf5921e811",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "Hearing/Smell/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "14417cef9f327f15",
+      "_key": "!actors.items!72712890e3f89d5b.14417cef9f327f15",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Sting",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -4,
+        "dv": "2d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Sting: 60, DV 2d10 + 3,AP −4; on an MoS of 30+ targets are impaled (treat as subdual, p. 204, EP) and injected with defiler eggs.</p>"
+      },
+      "_id": "266a3eb467f9f964",
+      "_key": "!actors.items!72712890e3f89d5b.266a3eb467f9f964",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -2,
+        "dv": "3d10 +5",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Claws: 60, DV 3d10 +5,AP −2</p>"
+      },
+      "_id": "150995f18a3d8e77",
+      "_key": "!actors.items!72712890e3f89d5b.150995f18a3d8e77",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": -8,
+        "dv": "2d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite: 50, DV 2d10 + 3,AP −8</p>"
+      },
+      "_id": "df3c8f6d2cefd79b",
+      "_key": "!actors.items!72712890e3f89d5b.df3c8f6d2cefd79b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Acid Spit",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 50,
+        "ap": 0,
+        "dv": "3d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Acid Spit: 50, cone area effect, DV 3d10 + 3, plus DV 1d10 every turn for 3 additional Action Turns. Kinetic armor applies, but the AV is reduced by the DV absorbed. Range 5/10/15/20. Usable once per 12 hours.</p>"
+      },
+      "_id": "ef93f5a3d744c724",
+      "_key": "!actors.items!72712890e3f89d5b.ef93f5a3d744c724",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Railgun SMG",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 60,
+        "ap": -5,
+        "dv": "2d10 + 5",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Railgun SMG: 60, DV 2d10 + 5,AP −5, SA/BF/FA,Ammo 60</p>"
+      },
+      "_id": "aafb5e80f399f308",
+      "_key": "!actors.items!72712890e3f89d5b.aafb5e80f399f308",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 12000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Sapient Defiler",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

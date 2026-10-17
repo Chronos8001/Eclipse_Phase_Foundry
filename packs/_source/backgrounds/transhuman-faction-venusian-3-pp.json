@@ -1,0 +1,88 @@
+{
+  "_id": "aafb2339db3dcfe8",
+  "_key": "!items!aafb2339db3dcfe8",
+  "name": "Venusian (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You call the aerostats of the Venusian clouds your home.</p><p><strong>Suggested Motivations:</strong> +Hypercapitalism, +Personal Development, +Uplift Rights</p><p><strong>3 PP:</strong> +1 Moxie · +50 c-rep · Academic: (Choose One) 50, Beam Weapons 25, Kinesics 30, Navigation 25, Networking: Hypercorps 40, Pilot: Aircraft 40, Profession: (Choose One) 40, Protocol 30</p><p><em>Source: Eclipse Phase Transhuman, p. 28.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academic",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "beamWeapons",
+        "name": "Beam Weapons",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "navigation",
+        "name": "Navigation",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Hypercorps",
+        "value": 40
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Aircraft",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "protocol",
+        "name": "Protocol",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "c",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Hypercapitalism, +Personal Development, +Uplift Rights"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 148000,
+  "ownership": {
+    "default": 0
+  }
+}

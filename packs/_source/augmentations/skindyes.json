@@ -1,0 +1,20 @@
+{
+  "_id": "c7b1247116a8366a",
+  "_key": "!items!c7b1247116a8366a",
+  "name": "Skindyes",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "skindyes",
+    "augType": "cosmetic",
+    "cost": "Trivial",
+    "description": "<p>Dye jobs are available in all conceivable colors and patterns.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 74000,
+  "ownership": {
+    "default": 0
+  }
+}

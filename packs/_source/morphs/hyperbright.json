@@ -33,7 +33,7 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack, Eidetic Memory, Endocrine Control, Grip Pads, Hyper-Linguist, Math Boost, Mental Speed, Prehensile Feet",
-    "advantages": "+15 COG, +10 INT, +5 WIL, +5 to one other aptitude of the player's choice Disadvantage: Addiction (minor, to comfurt), Fast Metabolism, Uncanny Valley",
+    "advantages": "+15 COG, +10 INT, +5 WIL, +5 to one other aptitude of the player’s choice Disadvantage: Addiction (minor, to comfurt), Fast Metabolism, Uncanny Valley",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 70,

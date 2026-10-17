@@ -1,0 +1,20 @@
+{
+  "_id": "eb2936e2c48a0591",
+  "_key": "!items!eb2936e2c48a0591",
+  "name": "Optogenetics Module",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "optogeneticsModule",
+    "cost": "Low",
+    "description": "<p>This implant is designed to be used in biomorphs like the freeman (p. 191) that are genetically modified to make their neurons sensitive to light. This module establishes a network within the brain to manipulate these neurons with selective pulses of light. Whomever controls the optogenetics module (usually a monitor module muse or remote overseer) can trigger neuronal activity as desired. In game terms, the module can activate one of the following effects: • It can compel one specific behavior in the same manner as behavioral control, emotional control, or tasping psychosurgery (pp. 231–232, EP). • The module can impede or even cut off one specific source of sensory input as desired, thus the character can be made blind or deaf, for example, with a command. • Selective activation or inhibition of certain neurons can also aid or deter the treatment of either addiction or mental stress and disorders: apply a modifier between +20 or −20 as desired by the module’s controller to psychotherapy (p. 215, EP) and addiction (p. 318, EP) tests. • The module can trigger unconsciousness in the target ego (requiring a WIL x 3 Test at −30 to resist). Each module can only trigger one effect. Multiple modules can be installed within a morph. Installation of this module includes the genetic modification to make the targeted neurons sensitive to light.</p><p><em>Source: Eclipse Phase Transhuman, p. 197.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  }
+}

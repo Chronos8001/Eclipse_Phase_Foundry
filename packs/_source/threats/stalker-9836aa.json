@@ -1,0 +1,445 @@
+{
+  "_id": "9836aad81c1a0d3a",
+  "_key": "!actors!9836aad81c1a0d3a",
+  "name": "Stalker",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 25,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 25,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Ultraviolet</p><p><strong>Numbers:</strong> 2–12</p><p>Stalkers is the term given to an unusually insectoid and alien TITAN machine design. Stalkers seem to have been specifically sculpted to invoke fear in transhumans. They move with an interesting upright quadruped stance, using four jointed legs radially set around the torso. A small and malevolent-looking mantis-like head tops a bulging torso. Their pair of arms are ridged with vicious-looking serrations and spikes, which they use for murderous purposes. A set of retractable tentacle-chains also deploy from the torso, used as prehensile limbs and for whip-like attacks. The TITANs wielded stalkers as assassins and elite tactical squads. They were ideal for surgical strikes that required highly competent killing machines able to move in stealth and infiltrate transhuman buildings. Though they often carry traditional weaponry, stalkers have two built-in systems that deserve special note. When surrounded by enemies in close quarters, stalkers are known to spin their entire torsos at high speeds, whipping their tentacle chains around them in lethal, amputating arcs. Their torsos are also equipped with an area-denial infrasonic weapon with devastating effects on biomorphs.</p><p><strong>Stress Test:</strong> SV 1d10 + 3</p><p><strong>Ware:</strong> Chameleon Skin, Eelware, Electrical Sense, Enhanced Hearing, Enhanced Vision, Magnetic System, Neurachem (Level 2), Structural Enhancement,Thermal Dampening Armor Mod,T-Ray Emitter</p><p><strong>Gear:</strong> Covert Ops Tool, 3 Splash Grenades with various nanoswarms</p><p><strong>Infrasonic Emitter:</strong> All biomorphs within 30 meters must make a SOM Test or be nauseated and disoriented, suffering −30 to all actions for 1 minute.This test must be taken again if exposed for more than a minute.Additionally, for each full minute a biomorph is exposed (nauseated or not), they suffer DV 1d10 + 2, no defense.This effect works through walls, ground, and water, but not vacuum.</p><p><strong>Weapon:</strong> Tentacle-Chain 80, Free Fall 40, Freerunning 60, Hardware: Electronics 60, Infiltration 65, Infosec 60, Intimidation 80, Kinetic Weapons 70, Unarmed Combat 75</p><p><em>Initiative printed: 8 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 15, Death Rating 150.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 140.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Stalker (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 75,
+        "speedMod": 2,
+        "initMod": 0,
+        "armor": {
+          "energy": 20,
+          "kinetic": 25
+        },
+        "movement": "4/20 Walker",
+        "implants": "Chameleon Skin, Eelware, Electrical Sense, Enhanced Hearing, Enhanced Vision, Magnetic System, Neurachem (Level 2), Structural Enhancement,Thermal Dampening Armor Mod,T-Ray Emitter",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "392ac02a38b13cd7",
+      "_key": "!actors.items!9836aad81c1a0d3a.392ac02a38b13cd7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7b6542aff1581979",
+      "_key": "!actors.items!9836aad81c1a0d3a.7b6542aff1581979",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6cd0aa8476df4ebf",
+      "_key": "!actors.items!9836aad81c1a0d3a.6cd0aa8476df4ebf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "Hearing/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9e800dc9a73df0e7",
+      "_key": "!actors.items!9836aad81c1a0d3a.9e800dc9a73df0e7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Arm Blade",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 75,
+        "ap": -4,
+        "dv": "2d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Arm Blade: 75, DV 2d10 + 4,AP −4</p>"
+      },
+      "_id": "7d8da511093da9b6",
+      "_key": "!actors.items!9836aad81c1a0d3a.7d8da511093da9b6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kick",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 75,
+        "ap": 0,
+        "dv": "3d10 + 2",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Kick: 75, DV 3d10 + 2</p>"
+      },
+      "_id": "ff0a8718221f0dab",
+      "_key": "!actors.items!9836aad81c1a0d3a.ff0a8718221f0dab",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Tentacle-Chain",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 80,
+        "ap": -6,
+        "dv": "2d10 + 2",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Tentacle-Chain: 80, DV 2d10 + 2,AP −6, Reach (+10). On an MoS of 30+, target is subdued (p. 204, EP).</p>"
+      },
+      "_id": "30d252b576aa1130",
+      "_key": "!actors.items!9836aad81c1a0d3a.30d252b576aa1130",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Chain Whirlwind",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 80,
+        "ap": -8,
+        "dv": "3d10 + 6",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Chain Whirlwind: 80, DV 3d10 + 6,AP −8, Reach (+10). Strikes all targets within 2 meters of the stalker simultaneously.</p>"
+      },
+      "_id": "c8878432135630c3",
+      "_key": "!actors.items!9836aad81c1a0d3a.c8878432135630c3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Plasma Rifle",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 70,
+        "ap": -8,
+        "dv": "3d10 + 20",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Plasma Rifle: 70, DV 3d10 + 20 DV, AP −8, SA,Ammo 10</p>"
+      },
+      "_id": "67cec0ba43120c24",
+      "_key": "!actors.items!9836aad81c1a0d3a.67cec0ba43120c24",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 53000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Stalker",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

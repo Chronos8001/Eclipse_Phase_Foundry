@@ -1,0 +1,43 @@
+{
+  "_id": "5d79e4d2e65dd39b",
+  "_key": "!items!5d79e4d2e65dd39b",
+  "name": "Seeker Rifle",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "seekerWeapons",
+    "ap": 0,
+    "dv": "",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SA",
+    "ammo": {
+      "value": 12,
+      "max": 12
+    },
+    "range": "",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "none",
+      "radius": 0
+    },
+    "twoHanded": true,
+    "cost": "High",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "micro, mini",
+    "description": "<p>The seeker rifle comes in a bullpup configuration and fires either micromissiles or minimissiles in semi-auto mode. It is a two-handed weapons.</p><p>Ammo: 12 micromissile/6 minimissile.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 339.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 48000,
+  "ownership": {
+    "default": 0
+  }
+}

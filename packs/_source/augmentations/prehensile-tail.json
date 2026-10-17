@@ -1,0 +1,20 @@
+{
+  "_id": "8ba44f150c77f950",
+  "_key": "!items!8ba44f150c77f950",
+  "name": "Prehensile Tail",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "prehensileTail",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>A long (1.5 meters) prehensile tail is added to the morph’s backside, extending out from the tailbone. This tail is prehensile and may be used to grab, hold, and even manipulate objects. The character can control the tail’s movements with concentration, but it otherwise tends to move on its own. The tail also improves the character’s balance; apply a +10 to any Physical skill tests where balance is a factor.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 305.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 35000,
+  "ownership": {
+    "default": 0
+  }
+}

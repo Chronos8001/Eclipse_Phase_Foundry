@@ -1,0 +1,44 @@
+{
+  "_id": "da9a2cbd9c9bb2a5",
+  "_key": "!items!da9a2cbd9c9bb2a5",
+  "name": "Cyberlimb Plus",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "cyberlimbPlus",
+    "augType": "cyberware",
+    "cost": "High",
+    "description": "<p>More extravagant cyberlimb models are also available, though they require more severe body alteration to accommodate. These limbs apply a +5 SOM bonus per limb (maximum +10). They may be replacement limbs or “extra” limbs anchored in the body’s skeletal frame. These cyberlimbs may not be masked.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 308.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "c05cfc923da8480b",
+      "_key": "!items.effects!da9a2cbd9c9bb2a5.c05cfc923da8480b",
+      "name": "Cyberlimb Plus",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.aptitudes.som.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 54000,
+  "ownership": {
+    "default": 0
+  }
+}

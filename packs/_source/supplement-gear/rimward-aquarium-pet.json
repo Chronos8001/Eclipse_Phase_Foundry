@@ -1,0 +1,29 @@
+{
+  "_id": "8f6a0ba788fee0a1",
+  "_key": "!items!8f6a0ba788fee0a1",
+  "name": "Aquarium Pet",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "aquariumPet",
+    "cost": "",
+    "description": "<p>Not so much a pet as a prison, aquarium pets are transgenic aquarium animals such as koi, plecos, or axolotls that have been implanted with a ghostrider module. The ghostrider module has no control over the animal’s body but is fully wired into its sensorium as if it were living a real-time XP recording. An ego “sleeved” into an aquarium pet experiences being a fish, from the sensation of swimming to autonomic drives such as hunger and urination. Many of these sensations, such as the pleco’s rasping at the soft aquarium wood to which it clings with its sucker-like mouth or the koi’s constant rifling of filthy bottom gravel with its mouth, are deeply revolting to most transhumans. In addition, the animals used often have good hearing, meaning the sleeved ego can make out conversations outside the tank.</p><p><em>Source: Eclipse Phase Rimward, p. 191.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

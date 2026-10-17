@@ -8,12 +8,14 @@
     "energy": 5,
     "kinetic": 5,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "Low",
+    "description": "<p>Everyone living in a sealed habitat owns at least one of these suits. They come in a variety of forms. Inexpensive versions are typically lightweight jumpsuits made of simple smart fabric that adjusts to fit and folds up small enough to fit into a coat pocket. The best models include suits of high-end smart clothing that can transform into a vacsuit and an advanced nanotech generator the size of a large orange that deploy nanobots that cover the user and fit together into a vacuum suit. Both can transform into a vacsuit in 2 full Action Turns and do so either on command or if their sensors reveal that life support is needed. All models include a lightweight belt or torc containing a miniature oxygen tank and advanced rebreather unit that provides 3 hours of air. However, the suits contain no food or water recycling. All models include an ecto (p. 325) and a headlight, but typically little else beyond atmosphere sensors to let the wearer know when it is safe to take off the suit. They protect the wearer from temperatures from –75 to 100 C. These vacuum suits also provide an Armor rating of 5/5 and instantly self-seal breaches unless more than 20 points of damage are inflicted at once.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 333.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 15000,
+  "sort": 26000,
   "ownership": {
     "default": 0
   }

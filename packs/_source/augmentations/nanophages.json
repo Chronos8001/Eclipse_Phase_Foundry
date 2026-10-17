@@ -1,0 +1,20 @@
+{
+  "_id": "fb78372c072c4077",
+  "_key": "!items!fb78372c072c4077",
+  "name": "Nanophages",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "nanophages",
+    "augType": "nanoware",
+    "cost": "Moderate",
+    "description": "<p>These nanobots patrol the body, alert for signs of intrusive nanodrugs or -toxins and destroying them before they have more than a minor effect. Nanophages provide automatic immunity against nanodrugs and nanotoxins unless they are specifically commanded to stand down by the user, via their mesh implants.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 309.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 62000,
+  "ownership": {
+    "default": 0
+  }
+}

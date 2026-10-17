@@ -1,0 +1,112 @@
+{
+  "_id": "9c6b13f5a8e676a9",
+  "_key": "!items!9c6b13f5a8e676a9",
+  "name": "Smart Animal Handler (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You raise and care for the smart animals that are a vital part of many transhuman settlements.</p><p><strong>Suggested Motivations:</strong> +Nano-ecology, +Research, +Uplift Rights</p><p><strong>5 PP:</strong> +1 Moxie · +5 INT, +50 Rep (Your Choice) · Academics: (Zoology) 40,Academics: (Choose One) 30,Animal Handling 50, Fray 30, Intimidation 30, Kinesics 30, Medicine: Veterinary 50, Networking: (Choose One) 30, Perception 30, Profession: Smart Animal Training 50, Profession: (Choose One) 30, Scrounging 30</p><p><em>Source: Eclipse Phase Transhuman, p. 35.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Zoology",
+        "value": 40
+      },
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "animalHandling",
+        "name": "Animal Handling",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Veterinary",
+        "value": 50
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Smart Animal Training",
+        "value": 50
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Nano-ecology, +Research, +Uplift Rights"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 229000,
+  "ownership": {
+    "default": 0
+  }
+}

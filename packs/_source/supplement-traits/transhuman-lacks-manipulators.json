@@ -1,0 +1,23 @@
+{
+  "_id": "4082e14a165a3614",
+  "_key": "!items!4082e14a165a3614",
+  "name": "Lacks Manipulators",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "lacksManipulators",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>This morph lacks hands or other limbs with a fine manipulation capability. It is a common trait with quadrupeds (as well as certain smart animals). A morph with this trait may not be able to manipulate objects at all or may only be able to do so with a very limited capacity. Some morphs can hold small-sized or smaller tools, weapons, and other objects between their paws or in their mouths, for example, but unless these items have been specifically designed to operate with this morphology, the character will suffer a −30 modifier to use or may not be able to use them at all (gamemaster discretion). Objects that don’t require physical manipulation, such as tools controlled by wireless commands, may be used normally. Some morphs with this trait— particularly quadrupeds—may be unable to hold an object between their paws and move at the same time or may require a SOM x 3 Test to retain their balance while standing upright to hold something.</p><p><em>Source: Eclipse Phase Transhuman, p. 90.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 53000,
+  "ownership": {
+    "default": 0
+  }
+}

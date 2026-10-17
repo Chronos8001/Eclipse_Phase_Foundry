@@ -1,0 +1,82 @@
+{
+  "_id": "057822776a5ad8a8",
+  "_key": "!items!057822776a5ad8a8",
+  "name": "Scum (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You proudly call the exotic, edgy, and lawless ships of a scum swarm your home.</p><p><strong>Suggested Motivations:</strong> +Anarchism, +Hedonism, +Individualism, +Morphological Freedom</p><p><strong>3 PP:</strong> +1 Moxie · +50 @-rep · Art: (Choose One) 50, Free Fall 40, Interest: (Choose One) 40, Kinesics 40, Medicine: Biosculpting 30, Networking (Autonomists) 50, Persuasion 30</p><p><em>Source: Eclipse Phase Transhuman, p. 27.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "art",
+        "name": "Art",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Biosculpting",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Autonomists",
+        "value": 50
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "at",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Anarchism, +Hedonism, +Individualism, +Morphological Freedom"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 132000,
+  "ownership": {
+    "default": 0
+  }
+}

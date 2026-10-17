@@ -1,0 +1,44 @@
+{
+  "_id": "690ca73936a5ef04",
+  "_key": "!items!690ca73936a5ef04",
+  "name": "Shape Adjusting",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "shapeAdjusting",
+    "augType": "robotic",
+    "cost": "High",
+    "description": "<p>This shell is made from smart materials that allow it to alter its shape, altering its height, width, circumference, and external features, while retaining the same mass. This modification is typically employed to reshape the morph into special configurations adapted to specific tasks (for example, lengthening to crawl through a tunnel, widening its base for stability, expanding to reach out and attach to multiple access point simultaneously, and so on). This mod also allows the morph to change its features for disguise purposes; apply a +30 modifier to Disguise Tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "97df32e2c583cd54",
+      "_key": "!items.effects!690ca73936a5ef04.97df32e2c583cd54",
+      "name": "Shape Adjusting",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.disguise",
+          "mode": 2,
+          "type": "add",
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 99000,
+  "ownership": {
+    "default": 0
+  }
+}

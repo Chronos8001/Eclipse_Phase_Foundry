@@ -1,0 +1,34 @@
+{
+  "_id": "5ebfbb456a201912",
+  "_key": "!items!5ebfbb456a201912",
+  "name": "Copylock",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "copylock",
+    "cost": "Low",
+    "description": "<p>This plug-in has two uses. The first prevents an infomorph from voluntarily copying/forking itself. This also prevents the ego from resleeving into a physical morph. This is a common plug-in used on forks, indentures, or people that really don’t trust themselves. This feature can be disabled with the proper passcode used by the installer. The second use is to make it more difficult for an active infomorph to be involuntarily copied. This is a common precaution infomorphs take when running on untrusted devices against the threat of forknapping (p. 149). Anyone that brainhacks this infomorph and attempts to make an involuntary copy suffers a –30 penalty to the Infosec Test needed to accomplish this task (in addition to the normal –30 modifier for brainhacking). Either of these features can be disabled with the proper passcode used by the installer.</p><p><em>Source: Eclipse Phase Transhuman, p. 139.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

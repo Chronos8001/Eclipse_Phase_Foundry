@@ -1,0 +1,20 @@
+{
+  "_id": "56fee9804581047e",
+  "_key": "!items!56fee9804581047e",
+  "name": "Modularized Gear",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "modularizedGear",
+    "cost": "One Cost Category Higher Than Gear Cost",
+    "description": "<p>Allows any small-sized or smaller item of equipment to be directly integrated into the flexbot’s body. Modularized gear can’t be dropped, pickpocketed, or disarmed. A flexbot with the shape adjusting enhancement may retract modular gear into its body, making it extremely difficult to detect. Tests to find retracted modular gear using penetrative scans such as t-rays are at a −30. Such gear is impossible to detect via visual inspection alone. No more than three pieces of modular gear may be installed on a given appendage. Devices requiring fine manipulation or aim, such as laser links and covert operation tools, must be installed on a limb with a full range of manipulative motion to be useful.</p><p><em>Source: Eclipse Phase Transhuman, p. 211.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 29000,
+  "ownership": {
+    "default": 0
+  }
+}

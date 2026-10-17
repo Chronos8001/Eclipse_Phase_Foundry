@@ -1,0 +1,67 @@
+{
+  "_id": "0780a06b81634537",
+  "_key": "!actors!0780a06b81634537",
+  "name": "Crasher Truck",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "6",
+    "handling": -10,
+    "movement": "8/40",
+    "maxVelocity": "200",
+    "mobility": "",
+    "av": {
+      "energy": 16,
+      "kinetic": 16
+    },
+    "durability": 200,
+    "woundThreshold": 40,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "High",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This vehicle is designed as a less expensive version of the GEV (p. 348, EP). It possesses all of the capabilities and equipment found on the GEV, except that it lacks the metallic-hydrogen rocket and thus is incapable of movement in space. However, its smart matter mobility system allows it to move over land with either wheels or legs and both on and under the water. It is designed to operate as long as its nuclear battery functions. For gatecrashers who cannot afford a GEV, a crasher truck is the safest and most well equipped option. A crasher truck’s life support system functions for three months without any external inputs and, like the GEV, this vehicle’s life support system functions indefinitely if the characters have access to any source of hydrogen and oxygen (including either ice or thin poisonous atmospheres).</p><p><em>Source: Eclipse Phase Gatecrashing, p. 163.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 26000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Crasher Truck",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

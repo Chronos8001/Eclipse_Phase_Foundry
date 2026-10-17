@@ -1,0 +1,33 @@
+{
+  "_id": "8cdccc0e7b672606",
+  "_key": "!items!8cdccc0e7b672606",
+  "name": "Psychic Rend",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "psychicRend",
+    "psiType": "gamma",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>An exsurgent with this sleight inflicts an additional +1d10 DV with the Psychic Stab sleight. At the GM's discretion, this sleight may be taken up to three times with a cumulative effect.</p><p><em>Source: X-Risks, p. 179.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 55000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -8,12 +8,14 @@
     "energy": 18,
     "kinetic": 18,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "Expensive",
+    "description": "<p>The battle suit powered exoskeleton features a military-grade fullerene armor shell with flexible aerogel for thermal insulation and a diamond-hardened exterior designed to resist even potent ballistic and energy-based weapons. The suit also enhances the wearer’s strength and mobility, applying a +10 bonus to strength-based tests, inflicting an extra +1d10 damage and AP of –2 on melee attacks, and doubling the distance by which the character may jump. Battlesuits are completely sealed to protect the wearer from environmental factors, and fitted with life support features and a maker (p. 327) capable of recycling all wastes and producing air for up to 48 hours and food and water indefinitely. Battle suits are equipped with each an ecto (p. 325), a radio booster (p. 313), and sensors equal to specs (see p. 325). These suits have an Armor Value of 18/18 (not cumulative with any other armor) and protect the wearer from temperatures from –175 to 140 C.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 344.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 20000,
+  "sort": 3000,
   "ownership": {
     "default": 0
   }

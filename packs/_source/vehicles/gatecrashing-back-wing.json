@@ -1,0 +1,67 @@
+{
+  "_id": "b5a5c547db460eb6",
+  "_key": "!actors!b5a5c547db460eb6",
+  "name": "Back Wing",
+  "type": "vehicle",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "category": "aircraft",
+    "passengers": "1",
+    "handling": 0,
+    "movement": "8/40",
+    "maxVelocity": "250",
+    "mobility": "",
+    "av": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "durability": 30,
+    "woundThreshold": 6,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>The back wing is a wearable powered glider. Designed to be the smallest and most portable airplane possible, this device allows gatecrashers to fly with ease and without the necessity of spending time assembling a vehicle or having to carry a portable plane in a large and awkward container. The backwing is packaged as backpack-like garment made of smart fabric. When activated (usually via mesh command), it forms into a rigid wing with a span of 8 meters in 1 Action Turn. The back wing also includes a small metallichydrogen rocket as part of the pack that can produce 8 minutes of thrust. At 1 g, 6 Action Turns of thrust will lift the wearer 100 meters above the ground. The remaining thrust can be used in combination with the wing to keep the wearer airborne for as long as 8-10 hours, using brief bursts of rocket power whenever the vehicle goes below a certain altitude. The only disadvantage of this device is that it has a mass of 25 kilograms.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 163.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 25000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Back Wing",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wing.svg"
+    }
+  }
+}

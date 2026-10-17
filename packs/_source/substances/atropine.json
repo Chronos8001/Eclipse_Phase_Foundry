@@ -1,0 +1,27 @@
+{
+  "_id": "3f426243a8244c36",
+  "_key": "!items!3f426243a8244c36",
+  "name": "Atropine",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "atropine",
+    "category": "chemical",
+    "substanceType": "",
+    "application": "",
+    "onset": "",
+    "duration": "",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Trivial",
+    "quantity": 1,
+    "description": "<p>Though poisonous in large doses, atropine is an effective antidote against nerve agents like BTX2 and Nervex. Easily synthesized in a maker, atropine will avert the effect whether taken soon before or after dosage by a nerve agent.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 323.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  }
+}

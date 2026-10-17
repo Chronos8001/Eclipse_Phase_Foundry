@@ -1,0 +1,33 @@
+{
+  "_id": "03fef8ffefd82ea7",
+  "_key": "!items!03fef8ffefd82ea7",
+  "name": "Drive Emotion",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "driveEmotion",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "temporary",
+    "durationUnit": "turns",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "control",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight allows the async to stimulate cortical areas of the target’s brain related to emotion. This allows the async to induce, amplify, or tone down specific emotions, thereby manipulating the target. If the async beats the target in an Opposed Test, they will act in accordance with the emotion for the duration and under certain circumstances may suffer from certain penalties (up to +/–30), as determined by the gamemaster. For example, an async might receive a +30 Intimidation Test modifier against a target imbued with fear.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 226.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  }
+}

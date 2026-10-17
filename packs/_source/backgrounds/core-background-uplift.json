@@ -1,0 +1,52 @@
+{
+  "_id": "45475b5361fa787c",
+  "_key": "!items!45475b5361fa787c",
+  "name": "Uplift",
+  "type": "background",
+  "img": "icons/svg/village.svg",
+  "system": {
+    "description": "<p>You are not even human. You were born as an uplifted animal: chimpanzee, gorilla, orangutan, parrot, raven, crow, or octopus.</p><p>Advantages: +10 Fray skill, +10 Perception skill, +20 to two Knowledge skills of your choice Disadvantages: Must choose an uplift morph to start Common Morphs: Neo-Avian, Neo-Hominid, Octomorph</p><p><em>Source: Eclipse Phase Core Rulebook, p. 132.</em></p>",
+    "kind": "background",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 10
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+20 to two Knowledge skills of your choice",
+    "restrictions": "Must choose an uplift morph to start",
+    "morphs": "Neo-Avian, Neo-Hominid, Octomorph",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5d1fd729a9c1db00",
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  }
+}

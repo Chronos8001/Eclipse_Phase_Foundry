@@ -1,0 +1,63 @@
+{
+  "_id": "b6e382b2e378a952",
+  "_key": "!items!b6e382b2e378a952",
+  "name": "Uplift: Standard Specimen (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Though you must deal with prejudice, you are proof of the success of transhumanity’s uplift project. *Replace Climbing skill with any skill more appropriate to the uplift type (Flight for neo-avians, Swimming for neo-octopi, Freerunning for neanderthals, etc).</p><p><strong>Suggested Motivations:</strong> +Mercurial Cause +Sapient Cause +Uplift Rights, –Uplift Slavery</p><p><strong>1 PP:</strong> +1 Moxie · Academics: (Choose One) 30, Climbing* 45, Interfacing 20 · Traits: Social Stigma (Uplift)</p><p><em>Source: Eclipse Phase Transhuman, p. 22.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 45
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Social Stigma",
+        "level": 1
+      }
+    ],
+    "choices": "Social Stigma: Uplift",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Mercurial Cause +Sapient Cause +Uplift Rights, –Uplift Slavery"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 82000,
+  "ownership": {
+    "default": 0
+  }
+}

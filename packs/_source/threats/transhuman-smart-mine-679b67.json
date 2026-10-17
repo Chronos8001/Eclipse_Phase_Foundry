@@ -1,0 +1,357 @@
+{
+  "_id": "679b6761aa8221a8",
+  "_key": "!actors!679b6761aa8221a8",
+  "name": "Transhuman Smart Mine",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 10,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 10,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Type:</strong> Tech</p><p><strong>Niche:</strong> Earth, Quarantine Zones, Derelict Habs</p><p><strong>Numbers:</strong> 5–10</p><p>Models used in pre-Fall military conflicts had puppet socks to enable piloting by soldiers in the field. Smart mines operational today have gone wild artificial (p. 151), either following the last orders of their masters or pursuing random glitches in their AI.</p><p><strong>Traits:</strong> Small Size (−10 to hit)</p><p><strong>Ware:</strong> 360-Degree Vision, Basic Mesh Inserts, Chameleon Skin, Cyberbrain, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Lidar, Puppet Sock, Radar</p><p><strong>Volatile:</strong> Smart mines that suffer a wound have a 20% chance of exploding: DV 1d10 + 2 per charge,AP −4, blast area effect.</p><p><em>Initiative printed: 5 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 4, Death Rating 40.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 163.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Transhuman Smart Mine (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 20,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/12 Walker",
+        "implants": "360-Degree Vision, Basic Mesh Inserts, Chameleon Skin, Cyberbrain, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Lidar, Puppet Sock, Radar",
+        "advantages": "Small Size (−10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "4ac2d737c480545f",
+      "_key": "!actors.items!679b6761aa8221a8.4ac2d737c480545f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Demolitions",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "demolitions",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7a08bde45935f856",
+      "_key": "!actors.items!679b6761aa8221a8.7a08bde45935f856",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3cbcf46fb41c1d9f",
+      "_key": "!actors.items!679b6761aa8221a8.3cbcf46fb41c1d9f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cc3d9c59ee905307",
+      "_key": "!actors.items!679b6761aa8221a8.cc3d9c59ee905307",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1abfefe607ecbe6a",
+      "_key": "!actors.items!679b6761aa8221a8.1abfefe607ecbe6a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "Suicide Strike",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "572e1eb8b6094c06",
+      "_key": "!actors.items!679b6761aa8221a8.572e1eb8b6094c06",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f045a9d87dfd89b7",
+      "_key": "!actors.items!679b6761aa8221a8.f045a9d87dfd89b7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "Hearing/Smell/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8f24dcdf27c5ffac",
+      "_key": "!actors.items!679b6761aa8221a8.8f24dcdf27c5ffac",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Suicide Strike",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": -4,
+        "dv": "2d10 +4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Suicide Strike: 50, DV 2d10 +4 per charge,AP −4, ignores armor with an MoS of 30+, blast area effect, −2 DV per meter. If the target’s Wound Threshold and/or Armor Value exceed 10, the mine will detonate an additional charge (for each). Each mine carries 6 charges. Extra charges are ejected. For every 2 wounds inflicted, there is a 20% chance of a crippled or amputated limb; victims losing legs move at a quarter their normal movement rate until healed or repaired (pp. 208 and 327, EP).</p>"
+      },
+      "_id": "c5e825942e6f6b33",
+      "_key": "!actors.items!679b6761aa8221a8.c5e825942e6f6b33",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "dc3626d7274902b1",
+  "sort": 100000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Transhuman Smart Mine",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

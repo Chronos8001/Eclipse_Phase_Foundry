@@ -1,0 +1,23 @@
+{
+  "_id": "a6e7cc35f1cf2ae1",
+  "_key": "!items!a6e7cc35f1cf2ae1",
+  "name": "Intuitive Cracker",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "intuitiveCracker",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP (Level 1) or 20 CP (Level 2)",
+    "description": "<p>When it comes to brute-force hacking, this character has an intuitive sense for finding and deploying the right exploit tool for the job. Reduce the base timeframe for brute-force hacking (p. 257, EP) by 20% per level. Since brute-forcing a system is normally a Task Action with a 20 Action Turn timeframe, at Level 1 this timeframe is reduced to 16 Action Turns and at Level 2 it is reduced to 12 Action Turns. As usual, every 10 points of MoS on the Infosec Test may reduce this another 10%; these and other reductions (such as from Speed and extra actions; p. 96) are added together before they are applied to the timeframe.</p><p><em>Source: Eclipse Phase Transhuman, p. 84.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_id": "8d999dbd10344ba7",
+  "_key": "!items!8d999dbd10344ba7",
+  "name": "Autodelete",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "autodelete",
+    "cost": "Low",
+    "description": "<p>Though infomorphs can voluntarily delete themselves, there are some cases where a device’s permissions may not allow it or the infomorph may be trapped on a lockbox (p. 146). To prevent capture, interrogation, or slavery, the infomorph can activate the autodelete plug-in as a Quick Action, which then attempts to delete the ego, even if it is running on a device that would not ordinarily permit it to do so. Auto-delete plug-ins may also be programmed to activate in response to certain inputs: for example, a perceived code phrase, a detected cyberbrain hack attack attempt, a designated time period, or upon failure to receive a periodic message. To successfully delete the ego on a system where deletion privileges are denied, the installer of the plug-in must make a successful Infosec Test. If the system is actively monitored, this is a Variable Opposed Infosec Test against the monitor. If only the installer succeeds, the infomorph is deleted immediately. If both the installer and monitor succeed, the infomorph is corrupted but not fully deleted. At the gamemaster’s discretion, the ego may still be treated as a gamma fork or its digital remains prodded and analyzed via Psychosurgery with a –30 modifier. If the monitor alone succeeds, the auto-deletion fails and will not work again on that device. If both fail, continue to make the test again each Action Phase until one or both succeed. Forknappers and interrogators routinely check their victims for this plug-in (p. 148), so it is usually concealed with a digital veil (below). A detected plug-in may be eliminated via standard brainhacking (p. 148). This plug-in is commonly used on forks—often without their knowledge. Some polities, in fact, legally require forks to be equipped with this plug-in.</p><p><em>Source: Eclipse Phase Transhuman, p. 139.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

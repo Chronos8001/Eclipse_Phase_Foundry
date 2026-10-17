@@ -1,0 +1,33 @@
+{
+  "_id": "7f6d467b046b36f7",
+  "_key": "!items!7f6d467b046b36f7",
+  "name": "Anti-Electronics Field",
+  "type": "sleight",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "key": "antiElectronicsField",
+    "psiType": "epsilon",
+    "activation": "active",
+    "action": "complex",
+    "range": "close",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>All electronics within Close range of the exsurgent mysteriously fail as if electrical power is simply negated. This effectively disables synthmorphs and pods and leaves other characters without access to their devices or implants.</p><p>Psi-epsilon: the book leaves action, range, duration and effects to the gamemaster.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 372.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 58000,
+  "ownership": {
+    "default": 0
+  }
+}

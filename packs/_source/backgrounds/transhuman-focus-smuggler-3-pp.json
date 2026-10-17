@@ -1,0 +1,88 @@
+{
+  "_id": "8f586ba99e366902",
+  "_key": "!items!8f586ba99e366902",
+  "name": "Smuggler (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>There is an art to getting unapproved merchandise into and out of high security habitats, and you are a virtuoso. Even inner system habs hold restrictive views on unfettered capitalism. You don’t consider yourself a criminal so much as a subtle expediter of market forces, an angel of supply come to make a bargain with the devil of demand.</p><p><strong>Suggested Motivations:</strong> +Personal Career, +Survival, +Wealth, –Authority</p><p><strong>3 PP:</strong> +50 Rep (Your Choice) · Deception 40, Interest: Black Markets 40, Kinesics 25, Networking: (Choose One) 40, Networking: (Choose One) 20, Perception 30, Persuasion 50, Profession: (Smuggling) 50</p><p><em>Source: Eclipse Phase Transhuman, p. 35.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "Black Markets",
+        "value": 40
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Smuggling",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Personal Career, +Survival, +Wealth, –Authority"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 231000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -33,7 +33,7 @@
     },
     "movement": "Swim 16/48",
     "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced Hearing, Oxygen Reserve",
-    "advantages": "+5 COO, +5 INT, +5 SOM, +5 to one other aptitude of the player's choice, +40 Swimming skill, Ramming Attack (1d10 DV, use Unarmed Combat skill)",
+    "advantages": "+5 COO, +5 INT, +5 SOM, +5 to one other aptitude of the player’s choice, +40 Swimming skill, Ramming Attack (1d10 DV, use Unarmed Combat skill)",
     "disadvantages": "Neo-dolphins lack a sense of smell",
     "skillBonuses": [
       {
@@ -49,7 +49,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 75000,
+  "sort": 76000,
   "ownership": {
     "default": 0
   }

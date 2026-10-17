@@ -1,0 +1,46 @@
+{
+  "_id": "21e9234f89a7a042",
+  "_key": "!items!21e9234f89a7a042",
+  "name": "Fall Evacuee",
+  "type": "background",
+  "img": "icons/svg/village.svg",
+  "system": {
+    "description": "<p>You were born and raised on Earth and evacuated during the horrors of the Fall, leaving your old life (and possibly your friends, family, and loved ones) behind you. You were lucky enough to survive with your body intact and continue to make a life for yourself out in the system.</p><p>Advantages: +10 Pilot: Groundcraft skill, +10 Networking: [Field] skill of your choice, +1 Moxie Disadvantages: Only 2,500 Starting Credit (can still buy credit with CP) Common Morphs: Flats, Splicers</p><p><em>Source: Eclipse Phase Core Rulebook, p. 131.</em></p>",
+    "kind": "background",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Groundcraft",
+        "value": 10
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": -2500,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 Networking: [Field] skill of your choice",
+    "restrictions": "Only 2,500 Starting Credit (can still buy credit with CP)",
+    "morphs": "Flats, Splicers",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5d1fd729a9c1db00",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

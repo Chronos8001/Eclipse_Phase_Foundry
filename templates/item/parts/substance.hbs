@@ -1,0 +1,38 @@
+<div class="form-grid">
+  <div class="form-group">
+    <label>{{localize "EP1E.Substance.category"}}</label>
+    <select name="system.category">{{selectOptions config.substanceCategories selected=system.category localize=true}}</select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Substance.type"}}</label>
+    <select name="system.substanceType">{{selectOptions config.substanceTypes selected=system.substanceType localize=true}}</select>
+  </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Substance.applicationHint">{{localize "EP1E.Substance.application"}}</label>
+    <input type="text" name="system.application" value="{{system.application}}" placeholder="Inh, Inj, O">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Substance.onset"}}</label>
+    <input type="text" name="system.onset" value="{{system.onset}}" placeholder="20 minutes">
+  </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Substance.durationHint">{{localize "EP1E.Substance.duration"}}</label>
+    <input type="text" name="system.duration" value="{{system.duration}}" placeholder="8 hours">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Substance.addiction"}}</label>
+    <span class="pair">
+      <input type="text" name="system.addictionMod" value="{{system.addictionMod}}" placeholder="–10">
+      <select name="system.addictionType">{{selectOptions config.addictionTypes selected=system.addictionType localize=true}}</select>
+    </span>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Gear.quantity"}}</label>
+    <input type="number" name="system.quantity" value="{{system.quantity}}" min="0">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Gear.cost"}}</label>
+    <input type="text" name="system.cost" value="{{system.cost}}">
+  </div>
+</div>
+<p class="hint">{{localize "EP1E.Substance.hint"}}</p>

@@ -33,7 +33,7 @@
     },
     "movement": "Walker 6/40 quadruped, 4/20 biped",
     "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Extra Limbs (6 Arms/Legs), Grip Pads, Mnemonic Augmentation, Pneumatic Limbs (2 Hind Legs), Prehensile Feet, Shape Adjusting, Telescoping Limbs (4 Lower Arms/Legs)",
-    "advantages": "6 Arms/Legs, +10 SOM, +5 to two other aptitudes of the player's choice, Armor 8/8",
+    "advantages": "6 Arms/Legs, +10 SOM, +5 to two other aptitudes of the player’s choice, Armor 8/8",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 70,
@@ -44,7 +44,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 120000,
+  "sort": 123000,
   "ownership": {
     "default": 0
   }

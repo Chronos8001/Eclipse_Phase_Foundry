@@ -1,0 +1,23 @@
+{
+  "_id": "b292a72c0e3da86a",
+  "_key": "!items!b292a72c0e3da86a",
+  "name": "Drug Exception",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "drugException",
+    "traitType": "positive",
+    "scope": "both",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>The character or morph has an unusual resistance to addiction for one particular biological or chemical drug (but not nanodrugs or narcoalgorithms). Addiction Tests for using that drug or resisting an addiction craving are made with a +20 modifier. Furthermore, the character halves the penalty for minor and moderate addiction to that drug, but still suffers full penalties from major addiction.</p><p><em>Source: Eclipse Phase Transhuman, p. 83.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

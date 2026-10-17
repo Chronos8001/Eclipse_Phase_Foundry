@@ -1,0 +1,20 @@
+{
+  "_id": "044f91864d0af4f7",
+  "_key": "!items!044f91864d0af4f7",
+  "name": "Magnetic System",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "magneticSystem",
+    "augType": "robotic",
+    "cost": "Low",
+    "description": "<p>A magnetic system allows the shell to cling to most ferrous materials. This enables the character to walk in zero-G situations by magnetically adhering surfaces, hang upside down, and hold onto devices without letting them drop or drift away. The shell receives a +30 modifier whenever maintaining a magnetic hold on something.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 95000,
+  "ownership": {
+    "default": 0
+  }
+}

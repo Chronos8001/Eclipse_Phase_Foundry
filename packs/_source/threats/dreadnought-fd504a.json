@@ -1,0 +1,692 @@
+{
+  "_id": "fd504a556c86d742",
+  "_key": "!actors!fd504a556c86d742",
+  "name": "Dreadnought",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 30,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 30,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 30,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Ultraviolet</p><p><strong>Numbers:</strong> 1–6</p><p>Dreadnoughts are six-legged insectoid tanks, heavily armed and armored. They serve as the shock troops of the Rortians, exhumans bent on conquering the gate network and returning to the solar system to spread their synthetic, hive-mind fascism by force. Unlike a fenrir morph, where each subsystem is typically run by a separate ego coordinating with others through a hard-linked tacnet, dreadnoughts are run by a single mass mind. Each mental unit is composed of up to a dozen egos—usually exhumans, but sometimes forcibly incorporated captured egos. The psychosurgical processes required to prune, implant skills, and meld these minds to operate as a single would be considered exceptionally unethical and dangerous by most transhumans, but such is the Rortian obsession with hive-mind states. The unique mind structure and cyberbrain architecture required to operate a dreadnought is unsuitable for transhuman minds to sleeve or hack. It’s unclear if the ego gestalt provides any tactical benefits over traditional transhuman heavy armor or if it merely fits with the Rortians’ mad philosophy of exhumanism. Evidence suggests Rortians deploy dreadnoughts in their assaults in the same way they do everything else: en masse. When the exhumans find a transhuman colony accessible from their home gate, they send as many dreadnoughts through as possible to establish a beachhead. If the initial assault isn’t repelled, any transhumans on the other side can expect a violent death followed by forced uploading and psychosurgical incorporation into a dreadnought’s hive mind.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Traits:</strong> Large Size (+10 to hit)</p><p><strong>Ware:</strong> 360-Degree Vision,Access Jacks, Anti-Glare, Basic Mesh Inserts, Combat Armor (Heavy), Cortical Stack (Experimental), Cyberbrain (Experimental), Dead Switch, Enhanced Vision, Magnetic System, Pneumatic Limbs, Radar, Reactive Armor Coating, Reflex Boosters, Structural Enhancement,T-Ray Emitter,Weapon Mounts (4, articulated)</p><p><strong>Special Neural Architecture:</strong> Attempting to sleeve or mentally access the dreadnought’s cyberbrain inflicts SV 1d10.</p><p><em>Initiative printed: 8 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 15, Death Rating 150.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 104.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Dreadnought (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 75,
+        "speedMod": 1,
+        "initMod": 0,
+        "armor": {
+          "energy": 37,
+          "kinetic": 37
+        },
+        "movement": "3/15 Walker, 2/10 Vectored Thrust",
+        "implants": "360-Degree Vision,Access Jacks, Anti-Glare, Basic Mesh Inserts, Combat Armor (Heavy), Cortical Stack (Experimental), Cyberbrain (Experimental), Dead Switch, Enhanced Vision, Magnetic System, Pneumatic Limbs, Radar, Reactive Armor Coating, Reflex Boosters, Structural Enhancement,T-Ray Emitter,Weapon Mounts (4, articulated)",
+        "advantages": "Large Size (+10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "1cf447773969cca6",
+      "_key": "!actors.items!fd504a556c86d742.1cf447773969cca6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "eb24aecda19a4feb",
+      "_key": "!actors.items!fd504a556c86d742.eb24aecda19a4feb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ee888b565c203ac9",
+      "_key": "!actors.items!fd504a556c86d742.ee888b565c203ac9",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "09860efd77d0c351",
+      "_key": "!actors.items!fd504a556c86d742.09860efd77d0c351",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Robotics",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ab7216e38ddd1412",
+      "_key": "!actors.items!fd504a556c86d742.ab7216e38ddd1412",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1284ca30e5452e01",
+      "_key": "!actors.items!fd504a556c86d742.1284ca30e5452e01",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6d3e1927a787e3eb",
+      "_key": "!actors.items!fd504a556c86d742.6d3e1927a787e3eb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1a52dc50fecf3861",
+      "_key": "!actors.items!fd504a556c86d742.1a52dc50fecf3861",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Seeker Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "seekerWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c2506da4aba4c40f",
+      "_key": "!actors.items!fd504a556c86d742.c2506da4aba4c40f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b77e8710d2c95257",
+      "_key": "!actors.items!fd504a556c86d742.b77e8710d2c95257",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 0,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "636338fea7019f5f",
+      "_key": "!actors.items!fd504a556c86d742.636338fea7019f5f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2a952d65e0647a40",
+      "_key": "!actors.items!fd504a556c86d742.2a952d65e0647a40",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Cannon",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 60,
+        "ap": 0,
+        "dv": "8d10 + 20",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Cannon: 60, DV 8d10 + 20, area effect, Range 500/1,000/3,000/5,000,Ammo 30</p>"
+      },
+      "_id": "7db777c48b29fac2",
+      "_key": "!actors.items!fd504a556c86d742.7db777c48b29fac2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "HEAP Seeker Missiles",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 60,
+        "ap": -8,
+        "dv": "6d10 + 24",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>HEAP Seeker Missiles: 60, DV 6d10 + 24, AP −8, area effect (−4/m), Range 300/1,000/3,000/10,000 meters,Ammo 12</p>"
+      },
+      "_id": "6a47fbeca1644ec3",
+      "_key": "!actors.items!fd504a556c86d742.6a47fbeca1644ec3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Thermobaric Seeker Missiles",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 60,
+        "ap": -10,
+        "dv": "6d10 + 10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Thermobaric Seeker Missiles: 60,DV 6d10 + 10, AP −10, uniform 10-meter area effect, Range 300/1,000/3,000/10,000 meters,Ammo 12</p>"
+      },
+      "_id": "5b030c455d442b47",
+      "_key": "!actors.items!fd504a556c86d742.5b030c455d442b47",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Railgun Automatic Rifle",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 60,
+        "ap": -9,
+        "dv": "2d10 + 8",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Railgun Automatic Rifle: 60, DV 2d10 + 8, AP −9, SA/BF/FA, Range 150/250/500/900 meters,Ammo 300</p>"
+      },
+      "_id": "909edc2320d99899",
+      "_key": "!actors.items!fd504a556c86d742.909edc2320d99899",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Particle Beam Bolter",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 50,
+        "ap": -2,
+        "dv": "2d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Particle Beam Bolter: 50, DV 2d10 + 4,AP −2, SA, Range 30/100/150/300,Ammo Unlimited</p>"
+      },
+      "_id": "8c8df03c73c80eda",
+      "_key": "!actors.items!fd504a556c86d742.8c8df03c73c80eda",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Cyberclaws",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": -2,
+        "dv": "2d10 + 6",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Cyberclaws: 50, DV 2d10 + 6,AP −2</p>"
+      },
+      "_id": "a061d6e135e827d1",
+      "_key": "!actors.items!fd504a556c86d742.a061d6e135e827d1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 13000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Dreadnought",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

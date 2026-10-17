@@ -1,0 +1,27 @@
+{
+  "_id": "cdee0e99f6a7c9e9",
+  "_key": "!items!cdee0e99f6a7c9e9",
+  "name": "Halcyon (Wild)",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "halcyonWild",
+    "cost": "High",
+    "description": "<p>These tiny, vaguely bird-shaped injectors each hold 1d10 doses of a powerful euphoriant. Its psychological effects are similar to comfurt or juice, with a bit of hither’s tactile effects (see pp. 319–321, EP). Halcyons can sometimes be extracted from the rest cradles in TITAN bunkers where they were used to keep exsurgents docile. Needles previously used on exsurgents are an infection risk. Weirdly, undepleted halcyons “breed.” If two or more are left in a sealed container where they can’t be observed, a third will eventually appear. This has driven down the price of halcyons even as their numbers have been depleted out in the “wild” of the Zone. Still, there remain some aficionados who claim “wild” halcyons give a better high and will pay more for them. Characters on halcyon get a +10 on WIL Tests against fear or stress (+15 for wild-caught halcyons). (Type unknown: neither toxin filters nor medichines prevent its effects; characters with both may attempt a SOM x 2 Test to shake them off.)</p><p><em>Source: Eclipse Phase Zone Stalkers, p. 15.</em></p>",
+    "category": "drug",
+    "substanceType": "",
+    "application": "Inj",
+    "onset": "1 minute",
+    "duration": "12 hours",
+    "addictionMod": "–20",
+    "addictionType": "physical",
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5dd151933780efa2",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

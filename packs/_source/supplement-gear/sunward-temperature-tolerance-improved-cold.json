@@ -1,0 +1,20 @@
+{
+  "_id": "a17e6b8e7bfb4aa0",
+  "_key": "!items!a17e6b8e7bfb4aa0",
+  "name": "Temperature Tolerance (Improved Cold)",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "temperatureToleranceImprovedCold",
+    "cost": "Moderate",
+    "description": "<p>The morph is treated as having the Temperature Tolerance biomod (p. 305, EP), but with an even greater resistance to low temperatures. The morph can tolerate temperatures as low as –80 C without ill effects.</p><p><em>Source: Eclipse Phase Sunward, p. 166.</em></p>",
+    "augType": "bioware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

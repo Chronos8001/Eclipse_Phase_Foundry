@@ -8,12 +8,14 @@
     "energy": 7,
     "kinetic": 7,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "Moderate",
+    "description": "<p>These suits resemble light vacsuits made from thicker and more durable materials that resist tearing and provides the wearer with light armor. They are fitted with more substantial life support belts that includes a maker (p. 327) capable of recycling all wastes and producing air for up to 48 hours and food and water indefinitely. The best suits are made of smart materials that can transform from standard clothing to vacuum suits in a single Action Turn, and will do so automatically if life support is needed. Each suit also contains an ecto (p. 325), a radio booster (p. 313), and sensors equal to specs (see p. 325). These suits have an Armor rating of 7/7 and protect the wearer from temperatures from –175 to 140 C. They can almost instantly seal any hole unless more than 30 points of damage are inflicted at once.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 333.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 16000,
+  "sort": 27000,
   "ownership": {
     "default": 0
   }

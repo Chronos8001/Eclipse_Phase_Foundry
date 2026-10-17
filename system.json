@@ -2,7 +2,7 @@
   "id": "ep1e",
   "title": "Eclipse Phase (1st Edition)",
   "description": "Système non officiel pour Eclipse Phase, 1re édition : fiches de personnage, morphs, tests d100, combat, dégâts, stress et Moxie. Eclipse Phase est une marque de Posthuman Studios ; le contenu de jeu est publié sous licence Creative Commons BY-NC-SA 3.0.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -51,19 +51,123 @@
       "type": "Item",
       "system": "ep1e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "augmentations",
+      "label": "Augmentations (Core)",
+      "path": "packs/augmentations",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "gear",
+      "label": "Gear (Core)",
+      "path": "packs/gear",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "substances",
+      "label": "Drugs and Toxins (Core)",
+      "path": "packs/substances",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "supplement-gear",
+      "label": "Gear (Supplements)",
+      "path": "packs/supplement-gear",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "software",
+      "label": "Software (Core)",
+      "path": "packs/software",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "vehicles",
+      "label": "Robots and Vehicles",
+      "path": "packs/vehicles",
+      "type": "Actor",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "threats",
+      "label": "Threats and Creatures (X-Risks)",
+      "path": "packs/threats",
+      "type": "Actor",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "npcs",
+      "label": "NPCs and Creatures (Core, Supplements, Scenarios)",
+      "path": "packs/npcs",
+      "type": "Actor",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "rules-reference",
+      "label": "Rules Reference (French)",
+      "path": "packs/rules-reference",
+      "type": "JournalEntry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "supplement-traits",
+      "label": "Traits (Transhuman, Sunward, Rimward, Gatecrashing, Panopticon, Firewall)",
+      "path": "packs/supplement-traits",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "mental-health",
+      "label": "Derangements and Mental Disorders (Core, Transhuman)",
+      "path": "packs/mental-health",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds, Factions and Packages (Core, Transhuman)",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "sleights",
+      "label": "Psi Sleights (Core, Transhuman, X-Risks)",
+      "path": "packs/sleights",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     }
   ],
   "packFolders": [
     {
       "name": "Eclipse Phase",
       "sorting": "m",
-      "packs": ["morphs", "traits", "weapons", "armor"]
+      "packs": ["rules-reference", "morphs", "traits", "supplement-traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights", "vehicles", "threats", "npcs", "backgrounds", "mental-health"]
     }
   ],
   "documentTypes": {
     "Actor": {
       "character": { "htmlFields": ["biography", "notes"] },
-      "npc": { "htmlFields": ["biography", "notes"] }
+      "npc": { "htmlFields": ["biography", "notes"] },
+      "vehicle": { "htmlFields": ["biography", "notes"] }
     },
     "Item": {
       "skill": { "htmlFields": ["description"] },
@@ -73,7 +177,10 @@
       "armor": { "htmlFields": ["description"] },
       "gear": { "htmlFields": ["description"] },
       "augmentation": { "htmlFields": ["description"] },
-      "sleight": { "htmlFields": ["description"] }
+      "sleight": { "htmlFields": ["description"] },
+      "software": { "htmlFields": ["description"] },
+      "substance": { "htmlFields": ["description"] },
+      "background": { "htmlFields": ["description"] }
     }
   },
   "socket": true,

@@ -34,12 +34,12 @@
     "movement": "Walker 4/16",
     "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation",
     "advantages": "Armor (4/4)",
-    "disadvantages": "-5 to one chosen aptitude, Lemon trait, Social Stigma (Clanking Masses) trait",
+    "disadvantages": "–5 to one chosen aptitude, Lemon trait, Social Stigma (Clanking Masses) trait",
     "skillBonuses": [],
     "cpCost": 5,
     "creditCost": "Moderate",
     "active": false,
-    "description": "<p>Cases are mass-produced robotic shells, an affordable remorphing option for infugees. They are available in many varieties to suit a client's taste. Most case morphs are vaguely anthropomorphic, with a thin framework body standing just shorter than an average human.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 15.</em></p>"
+    "description": "<p>Cases are mass-produced robotic shells, an affordable remorphing option for infugees. They are available in many varieties to suit a client’s taste. Most case morphs are vaguely anthropomorphic, with a thin framework body standing just shorter than an average human.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 15.</em></p>"
   },
   "effects": [],
   "flags": {},

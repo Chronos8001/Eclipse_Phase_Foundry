@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/upgrade.svg",
   "system": {
+    "key": "firstImpression",
     "traitType": "positive",
     "scope": "ego",
     "level": 1,
     "cost": 10,
     "costText": "Cost: 10 CP",
-    "description": "<p>The character has a way of charming or otherwise making a good impression the first time they interact with someone. This innate social lubricant allows them to more readily deal with new contacts and slip right into new social environments. Apply a +10 modifier on social skill tests when the character is interacting with another character for the first time only.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The character has a way of charming or otherwise making a good impression the first time they interact with someone. This innate social lubricant allows them to more readily deal with new contacts and slip right into new social environments. Apply a +10 modifier on social skill tests when the character is interacting with another character for the first time only.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
   },
   "effects": [],
   "flags": {},

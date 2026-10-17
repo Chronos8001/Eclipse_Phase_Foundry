@@ -1,0 +1,27 @@
+{
+  "_id": "35cb5bb271c42d25",
+  "_key": "!items!35cb5bb271c42d25",
+  "name": "Scrapper’s Gel",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "scrapperSGel",
+    "category": "chemical",
+    "substanceType": "",
+    "application": "",
+    "onset": "",
+    "duration": "",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>This goo turns into a potent acid when given an electrical charge. It comes in a gel-like state and may be smeared like jelly, and may even be used in space. In acid form, scrapper’s gel does 1d10 + 5 DV per Action Turn to anything it touches, unless the material has been treated against acid. Armor will protect against this acid at first, but the acid will eat through the armor, so that it will no longer protect after its full armor value has been reached.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 323.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

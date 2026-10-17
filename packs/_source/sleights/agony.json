@@ -1,0 +1,33 @@
+{
+  "_id": "18604ec44640b6d3",
+  "_key": "!items!18604ec44640b6d3",
+  "name": "Agony",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "agony",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "sustained",
+    "durationUnit": "turns",
+    "strainMod": 2,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "psiAssault",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight stimulates the target’s nerve fibers, triggering intense pain throughout their body. They must succeed in a SOM x 3 Test to take an action; if they succeed they still suffer a −30 modifier (reduce this to −10 with an Excellent Success; ignore it with a critical). Each level of Pain Tolerance reduces the modifier by −10 and provides a +10 to the SOM x 3 Test.</p><p><em>Source: X-Risks, p. 178.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 49000,
+  "ownership": {
+    "default": 0
+  }
+}

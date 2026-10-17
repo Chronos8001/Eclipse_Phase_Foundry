@@ -1,0 +1,23 @@
+{
+  "_id": "09798692e1add577",
+  "_key": "!items!09798692e1add577",
+  "name": "Derangement: Tremors (Moderate)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>You shake violently, making it difficult to hold things or stay still.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 2,
+    "cost": 0,
+    "costText": "Derangement (Moderate), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

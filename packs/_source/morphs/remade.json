@@ -33,7 +33,7 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Clean Metabolism, Cortical Stack, Eidetic Memory, Enhanced Respiration, Temperature Tolerance, Toxin Filters",
-    "advantages": "+10 COG, +5 SAV, +10 SOM, +5 to two other aptitudes of the player's choice",
+    "advantages": "+10 COG, +5 SAV, +10 SOM, +5 to two other aptitudes of the player’s choice",
     "disadvantages": "Uncanny Valley trait",
     "skillBonuses": [],
     "cpCost": 60,
@@ -44,7 +44,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 93000,
+  "sort": 94000,
   "ownership": {
     "default": 0
   }

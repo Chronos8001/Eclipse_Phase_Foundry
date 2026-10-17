@@ -52,7 +52,7 @@
       <div class="stat rollable" data-action="rollStat" data-stat="lucidity" data-tooltip="EP1E.Stat.lucHint"><label>{{localize "EP1E.Stat.luc"}}</label><span>{{system.stats.luc}}</span></div>
       <div class="stat" data-tooltip="EP1E.Stat.ttHint"><label>{{localize "EP1E.Stat.tt"}}</label><span>{{system.stats.tt}}</span></div>
       <div class="stat" data-tooltip="EP1E.Stat.irHint"><label>{{localize "EP1E.Stat.ir"}}</label><span>{{system.stats.ir}}</span></div>
-      <div class="stat" data-tooltip="EP1E.Stat.initHint"><label>{{localize "EP1E.Stat.init"}}</label><span>{{system.stats.init}}</span></div>
+      <div class="stat" data-tooltip="EP1E.Stat.initHint"><label>{{localize "EP1E.Stat.init"}}</label><span>{{initiative}}</span></div>
       <div class="stat" data-tooltip="EP1E.Stat.spdHint"><label>{{localize "EP1E.Stat.spd"}}</label><span>{{system.stats.spd}}</span></div>
       <div class="stat" data-tooltip="EP1E.Stat.dbHint"><label>{{localize "EP1E.Stat.db"}}</label><span>{{ep1eSigned system.stats.db}}</span></div>
       <div class="stat armor" data-tooltip="EP1E.Stat.armorHint"><label>{{localize "EP1E.Stat.armor"}}</label><span>{{system.armor.energy}} / {{system.armor.kinetic}}</span></div>
@@ -72,6 +72,8 @@
         <label>{{localize "EP1E.Mods.kineticArmor"}}<input type="number" name="system.mods.kineticArmor" value="{{system.mods.kineticArmor}}"></label>
         <label>{{localize "EP1E.Mods.woundsIgnored"}}<input type="number" name="system.mods.woundsIgnored" value="{{system.mods.woundsIgnored}}" min="0"></label>
         <label>{{localize "EP1E.Mods.traumasIgnored"}}<input type="number" name="system.mods.traumasIgnored" value="{{system.mods.traumasIgnored}}" min="0"></label>
+        <label data-tooltip="EP1E.Mods.actionsHint">{{localize "EP1E.Mods.actions"}}<input type="number" name="system.mods.actions" value="{{system.mods.actions}}" step="10"></label>
+        <label data-tooltip="EP1E.Mods.defenseHint">{{localize "EP1E.Mods.defense"}}<input type="number" name="system.mods.defense" value="{{system.mods.defense}}" step="10"></label>
       </div>
     </details>
   </section>
@@ -94,6 +96,9 @@
       <div class="buttons">
         <button type="button" data-action="applyHarm" data-kind="damage"><i class="fa-solid fa-heart-crack"></i> {{localize "EP1E.Damage.applyDamage"}}</button>
         <button type="button" data-action="rollStat" data-stat="shock"><i class="fa-solid fa-bolt"></i> {{localize "EP1E.Combat.shockTest"}}</button>
+        <button type="button" data-action="fall"><i class="fa-solid fa-person-falling"></i> {{localize "EP1E.Harm.fall"}}</button>
+        <button type="button" data-action="heal" data-tooltip="EP1E.Mental.healHint"><i class="fa-solid fa-bed-pulse"></i> {{localize "EP1E.Mental.heal"}}</button>
+        <button type="button" data-action="medicalCare" data-tooltip="EP1E.Mental.medicalHint"><i class="fa-solid fa-kit-medical"></i> {{localize "EP1E.Mental.medicalCare"}}</button>
       </div>
       {{/if}}
     </section>
@@ -115,7 +120,21 @@
       <div class="buttons">
         <button type="button" data-action="applyHarm" data-kind="stress"><i class="fa-solid fa-brain"></i> {{localize "EP1E.Damage.applyStress"}}</button>
         <button type="button" data-action="rollStat" data-stat="willpower"><i class="fa-solid fa-shield-halved"></i> {{localize "EP1E.Aptitude.wil"}} × 2</button>
+        <button type="button" data-action="stressTest" data-tooltip="EP1E.Mental.stressTestHint"><i class="fa-solid fa-brain"></i> {{localize "EP1E.Mental.stressTest"}}</button>
+        <button type="button" data-action="derangement"><i class="fa-solid fa-head-side-virus"></i> {{localize "EP1E.Mental.derangement"}}</button>
+        <button type="button" data-action="mentalHealing" data-tooltip="EP1E.Mental.mentalHealingHint"><i class="fa-solid fa-leaf"></i> {{localize "EP1E.Mental.mentalHealing"}}</button>
+        <button type="button" data-action="disorderHealing" data-tooltip="EP1E.Mental.disorderHealingHint"><i class="fa-solid fa-seedling"></i> {{localize "EP1E.Mental.disorderHealing"}}</button>
+        <button type="button" data-action="therapy"><i class="fa-solid fa-couch"></i> {{localize "EP1E.Mental.therapy"}}</button>
+        <button type="button" data-action="surgery"><i class="fa-solid fa-microchip"></i> {{localize "EP1E.Mental.surgery"}}</button>
       </div>
+      {{/if}}
+      {{#if system.hardening.length}}
+      <ul class="hardening">
+        {{#each system.hardening as |h i|}}
+        <li>{{h.source}} : {{h.successes}}/5{{#if (gte h.successes 5)}} <strong>{{localize "EP1E.Mental.hardenedShort"}}</strong>{{/if}}
+          {{#if @root.editable}}<a data-action="removeHardening" data-index="{{i}}" data-tooltip="EP1E.Mental.removeHardening"><i class="fa-solid fa-xmark"></i></a>{{/if}}</li>
+        {{/each}}
+      </ul>
       {{/if}}
     </section>
   </div>

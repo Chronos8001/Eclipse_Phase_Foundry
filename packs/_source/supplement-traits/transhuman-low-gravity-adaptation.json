@@ -1,0 +1,23 @@
+{
+  "_id": "ecfda56835d1fa71",
+  "_key": "!items!ecfda56835d1fa71",
+  "name": "Low-Gravity Adaptation",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "lowGravityAdaptation",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>The morph is adapted to live in low gravity (0.15 g or less) and struggles in higher-gravity environments. Treat the character as suffering the effects of high gravity (p. 199, EP) for every full 0.2 g over 0.15. For example, while the character would operate fine on Luna or Titan, on Mars or Mercury (both 0.38 g) the character would be treated as if suffering the effects of 1 wound. On Venus (0.9 g), the character would be treated as if suffering the effects of 3 wounds. For each of these high gravity increments, also reduce the character’s Walking Rate by 1 and their Running Rate by 4. While even low-gravityadapted bodies can sustain the stress of high gravity (over 1 g) for temporary periods, the gamemaster may rule that long-term exposure to higher gravity may result in the accumulation of actual wounds, not just wound effects. This trait may not be applied to morphs with the High-G Adaptation trait.</p><p><em>Source: Eclipse Phase Transhuman, p. 91.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 55000,
+  "ownership": {
+    "default": 0
+  }
+}

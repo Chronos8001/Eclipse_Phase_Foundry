@@ -1,0 +1,112 @@
+{
+  "_id": "8151b6bb911920ec",
+  "_key": "!items!8151b6bb911920ec",
+  "name": "Covert Ops (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are skilled at sneaking into places you don’t belong for high-threat missions.</p><p><strong>Suggested Motivations:</strong> +Explosions, +Survival, –TITAN Tech</p><p><strong>5 PP:</strong> +5 COO · +50 Rep (Your Choice) · Blades 30, Climbing 30, Demolitions 30, Fray 30, Infiltration 50, Infosec 25, Interest: (Choose Two) 30, Kinetic Weapons 40, Languages: (Choose One) 40, Perception 20, Profession: Squad Tactics 50, Unarmed Combat 40</p><p><em>Source: Eclipse Phase Transhuman, p. 31.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "blades",
+        "name": "Blades",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "demolitions",
+        "name": "Demolitions",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose Two)",
+        "value": 30
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "language",
+        "name": "Languages",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Squad Tactics",
+        "value": 50
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Explosions, +Survival, –TITAN Tech"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 175000,
+  "ownership": {
+    "default": 0
+  }
+}

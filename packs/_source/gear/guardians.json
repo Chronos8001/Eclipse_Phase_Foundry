@@ -1,0 +1,29 @@
+{
+  "_id": "3f282712c6c3b885",
+  "_key": "!items!3f282712c6c3b885",
+  "name": "Guardians",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "guardians",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Guardians watch for and attack other unauthorized swarms. Guardians inflict 1d10 ÷ 2 damage (round up) on other swarms they come into contact with per Action Turn.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 329.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 65000,
+  "ownership": {
+    "default": 0
+  }
+}

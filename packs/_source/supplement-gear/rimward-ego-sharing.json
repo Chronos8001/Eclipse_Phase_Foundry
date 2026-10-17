@@ -1,0 +1,20 @@
+{
+  "_id": "5c8a16b12367d51d",
+  "_key": "!items!5c8a16b12367d51d",
+  "name": "Ego Sharing",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "egoSharing",
+    "cost": "Expensive",
+    "description": "<p>This enhancement allows more than one ego to access the internal systems and controlling functions of a single synthmorph, bot, or vehicle at one time. Each ego requires its own cyberbrain. Command responsibilities are usually divided into appropriate sectors of control. For example, one ego is responsible for physical movement, another handles data analysis, a third operates weapon controls, and so on. Each ego acts on its own Initiative; the morph may only move on one ego’s action and each weapon system and enhancement may only be actively used by one ego per Combat Turn, though other egos may passively access data from enhancements and systems used by others. Morph aptitude modifiers and bonuses from enhancements apply to all egos equally. No Speed-boosting enhancements may be used with this morph.</p><p><em>Source: Eclipse Phase Rimward, p. 190.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

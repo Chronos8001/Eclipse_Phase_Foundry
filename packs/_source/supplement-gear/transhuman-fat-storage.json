@@ -1,0 +1,20 @@
+{
+  "_id": "159dc30d7da9be81",
+  "_key": "!items!159dc30d7da9be81",
+  "name": "Fat Storage",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "fatStorage",
+    "cost": "High",
+    "description": "<p>This augmentation is based on traits displayed by camels to store and use fatty tissue as efficiently as possible. The character’s fat tissue stores water far more efficiently than normal, which allows the character to survive three times as long as normal without food or water. The effects of this implant stack with efficient digestion, but are not compatible with the personal power plant implant. The character’s fat tissue can be moved around the character’s body to a certain degree, which can help the character survive extreme temperatures. In high temperatures, the fat can be concentrated as back humps to minimize the insulation that fat provides, while in extremely cold environments, the fat can be spread around to maximize insulation. This extends the character’s maximum temperature tolerance by +10%, which stacks with the effect of temperature tolerance augmentations.</p><p><em>Source: Eclipse Phase Transhuman, p. 197.</em></p>",
+    "augType": "bioware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

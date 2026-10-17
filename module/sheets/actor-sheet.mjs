@@ -1,12 +1,33 @@
 import { APTITUDES, REP_NETWORKS, SKILLS, SYSTEM_ID, skillChoices } from "../config.mjs";
 import { SkillData } from "../data/item.mjs";
-import { postDamageRoll, rollAptitudeTest, rollSkillTest } from "../dice/tests.mjs";
+import { applyToActor, postDamageRoll, rollAptitudeTest, rollSkillTest } from "../dice/tests.mjs";
+import { fallingDamage, initiativeScore, shockTarget } from "../rules/combat.mjs";
+import { initiativeRule } from "../documents/actor.mjs";
+import { reloadWeapon } from "../dice/attack.mjs";
+import { createAIActor, hackSystem, removeIntrusion, scorch, subvertSystem, updateIntrusion } from "../dice/mesh.mjs";
+import { ALERTS, statusModifier } from "../rules/mesh.mjs";
+import { creationSummary, promptRez } from "../dice/advancement.mjs";
+import * as mentalDice from "../dice/mental.mjs";
+import { ItemSummaries } from "../helpers/summaries.mjs";
+import { endIntegration, favorStatus, mergeFork, promptFavor, promptFork, promptResleeve, rollBackupTest } from "../dice/ego.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
 const TextEditor = () => foundry.applications.ux.TextEditor.implementation;
 
 const T = path => `systems/${SYSTEM_ID}/templates/actor/${path}.hbs`;
+
+/**
+ * An actor's skills in sheet order: alphabetical, or the order the player dragged them into (skills added since come
+ * last, alphabetically).
+ */
+function sortedSkills(actor) {
+  const label = (a, b) => a.system.label.localeCompare(b.system.label, game.i18n.lang);
+  const skills = actor.items.filter(i => i.type === "skill");
+  if ( actor.getFlag(SYSTEM_ID, "skillOrder") !== "manual" ) return skills.sort(label);
+  return skills.sort((a, b) => ((a.sort || Infinity) - (b.sort || Infinity)) || label(a, b));
+}
+const PSI_ORDER = ["chi", "gamma", "epsilon"];
 
 export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
 
@@ -25,16 +46,46 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       editItem: EPActorSheet.#onEditItem,
       deleteItem: EPActorSheet.#onDeleteItem,
       toggleEquipped: EPActorSheet.#onToggleEquipped,
+      reload: EPActorSheet.#onReload,
+      hack: EPActorSheet.#onHack,
+      subvert: EPActorSheet.#onSubvert,
+      scorch: EPActorSheet.#onScorch,
+      removeIntrusion: EPActorSheet.#onRemoveIntrusion,
+      createAIActor: EPActorSheet.#onCreateAIActor,
       sleeve: EPActorSheet.#onSleeve,
+      resleeveTests: EPActorSheet.#onResleeveTests,
+      backupTest: EPActorSheet.#onBackupTest,
+      fork: EPActorSheet.#onFork,
+      merge: EPActorSheet.#onMerge,
+      favor: EPActorSheet.#onFavor,
+      spendRez: EPActorSheet.#onSpendRez,
+      heal: EPActorSheet.#onMentalAction,
+      medicalCare: EPActorSheet.#onMentalAction,
+      stressTest: EPActorSheet.#onMentalAction,
+      derangement: EPActorSheet.#onMentalAction,
+      mentalHealing: EPActorSheet.#onMentalAction,
+      disorderHealing: EPActorSheet.#onMentalAction,
+      therapy: EPActorSheet.#onMentalAction,
+      surgery: EPActorSheet.#onMentalAction,
+      removeHardening: EPActorSheet.#onRemoveHardening,
       itemToChat: EPActorSheet.#onItemToChat,
       applyHarm: EPActorSheet.#onApplyHarm,
+      fall: EPActorSheet.#onFall,
       resetMoxie: EPActorSheet.#onResetMoxie,
       createEffect: EPActorSheet.#onCreateEffect,
       editEffect: EPActorSheet.#onEditEffect,
       deleteEffect: EPActorSheet.#onDeleteEffect,
-      toggleEffect: EPActorSheet.#onToggleEffect
+      toggleEffect: EPActorSheet.#onToggleEffect,
+      toggleSummary: EPActorSheet.#onToggleSummary,
+      sortSkills: EPActorSheet.#onSortSkills
     }
   };
+
+  /** Item descriptions shown under their row. */
+  #summaries = new ItemSummaries(this);
+
+  /** Text of the skill filter, kept across renders. */
+  #skillFilter = "";
 
   static PARTS = {
     header: { template: T("header") },
@@ -45,6 +96,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     equipment: { template: T("equipment"), scrollable: [""] },
     traits: { template: T("traits"), scrollable: [""] },
     ego: { template: T("ego"), scrollable: [""] },
+    mesh: { template: T("mesh"), scrollable: [""] },
     effects: { template: T("effects"), scrollable: [""] }
   };
 
@@ -57,6 +109,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         { id: "equipment", icon: "fa-solid fa-toolbox" },
         { id: "traits", icon: "fa-solid fa-brain" },
         { id: "ego", icon: "fa-solid fa-id-card" },
+        { id: "mesh", icon: "fa-solid fa-network-wired" },
         { id: "effects", icon: "fa-solid fa-bolt" }
       ],
       initial: "main",
@@ -74,7 +127,8 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const actor = this.document;
     const system = actor.system;
     const byType = type => actor.items.filter(i => i.type === type).sort((a, b) => (a.sort - b.sort) || a.name.localeCompare(b.name));
-    const skills = byType("skill").sort((a, b) => a.system.label.localeCompare(b.system.label, game.i18n.lang));
+    const skills = sortedSkills(actor);
+    const fray = system.getSkillTarget("fray").target;
 
     Object.assign(context, {
       actor, system,
@@ -100,22 +154,51 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         }))
       })),
       weaponRows: byType("weapon").map(item => {
-        const { target, label } = system.getSkillTarget(item.system.skill);
-        return { item, target, skillLabel: label || "—" };
+        const w = item.system;
+        const { target, label } = system.getSkillTarget(w.skill);
+        return {
+          item, target, skillLabel: label || "—",
+          // Launcher munition or kinetic ammunition type
+          loaded: actor.items.get(w.ammo.loaded)?.name ?? null,
+          // Grenades and missiles are counted by quantity
+          thrown: w.munition.kind !== "none"
+        };
       }),
       armor: byType("armor"),
       gear: byType("gear"),
       augmentations: byType("augmentation"),
       traits: byType("trait"),
-      sleights: byType("sleight"),
+      backgrounds: byType("background"),
+      software: byType("software"),
+      substances: byType("substance"),
+      intrusions: system.intrusions.map(i => ({
+        ...i, alert: ALERTS[i.status], modifier: statusModifier(i.status),
+        privilegeLabel: `EP1E.Mesh.privilege.${i.privileges}`
+      })),
+      intrusionStatuses: Object.fromEntries(["hidden", "covert", "spotted", "locked"].map(k => [k, `EP1E.Mesh.status.${k}`])),
+      sleights: byType("sleight").sort((a, b) => PSI_ORDER.indexOf(a.system.psiType) - PSI_ORDER.indexOf(b.system.psiType)),
       effects: Array.from(actor.allApplicableEffects?.() ?? actor.effects),
-      fray: system.getSkillTarget("fray").target,
+      manualSkillOrder: actor.getFlag(SYSTEM_ID, "skillOrder") === "manual",
+      // INIT on the scale of the world's Initiative rule
+      initiative: initiativeScore(system.stats.init, 0, initiativeRule()),
+      tracks: [
+        { key: "damage", label: "EP1E.Stat.damage", hint: "EP1E.Track.damageHint", value: system.damage.value, max: system.stats.dur,
+          count: system.wounds.value, countLabel: "EP1E.Stat.wounds", icon: "fa-heart-crack" },
+        { key: "stress", label: "EP1E.Stat.stress", hint: "EP1E.Track.stressHint", value: system.stress.value, max: system.stats.luc,
+          count: system.trauma.value, countLabel: "EP1E.Stat.trauma", icon: "fa-brain" }
+      ].map(track => ({ ...track, over: (track.max > 0) && (track.value >= track.max),
+        pct: (track.max > 0) ? Math.min(100, Math.round((100 * track.value) / track.max)) : 0 })),
+      fray: { melee: fray + system.mods.defense, ranged: Math.floor(fray / 2) + system.mods.defense },
       woundSlots: Array.from({ length: Math.max(system.wounds.value, 0) }),
       enriched: {
         biography: await TextEditor().enrichHTML(system.biography, { relativeTo: actor, secrets: actor.isOwner }),
         notes: await TextEditor().enrichHTML(system.notes, { relativeTo: actor, secrets: actor.isOwner })
       },
-      systemFields: system.schema.fields
+      systemFields: system.schema.fields,
+      favorStatus: favorStatus(actor),
+      creation: creationSummary(actor),
+      isFork: !!system.fork.kind,
+      forkKind: system.fork.kind ? `EP1E.Ego.forkKind.${system.fork.kind}` : ""
     });
     return context;
   }
@@ -134,6 +217,40 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     this.element.querySelectorAll("[data-item-field]").forEach(input => {
       input.addEventListener("change", this.#onItemFieldChange.bind(this));
     });
+    this.element.querySelectorAll("[data-intrusion-field]").forEach(input => {
+      input.addEventListener("change", this.#onIntrusionFieldChange.bind(this));
+    });
+    // Skill filter: hides the rows whose name does not match, without submitting the form
+    const filter = this.element.querySelector(".skill-filter");
+    if ( filter ) {
+      filter.value = this.#skillFilter;
+      filter.addEventListener("input", event => {
+        this.#skillFilter = event.currentTarget.value;
+        this.#filterSkills();
+      });
+      filter.addEventListener("change", event => event.stopPropagation());
+      this.#filterSkills();
+    }
+    await this.#summaries.restore();
+  }
+
+  #filterSkills() {
+    const words = this.#skillFilter.trim().toLowerCase().split(/\s+/).filter(w => w);
+    this.element.querySelectorAll(".skill-table tbody tr[data-item-id]").forEach(row => {
+      const item = this.document.items.get(row.dataset.itemId);
+      const text = `${item?.name ?? ""} ${item?.system.field ?? ""} ${item?.system.specialization ?? ""}`.toLowerCase();
+      row.hidden = !words.every(w => text.includes(w));
+      if ( row.nextElementSibling?.classList.contains("item-summary") ) row.nextElementSibling.hidden = row.hidden;
+    });
+  }
+
+  async #onIntrusionFieldChange(event) {
+    event.stopPropagation();
+    const input = event.currentTarget;
+    const id = input.closest("[data-intrusion-id]")?.dataset.intrusionId;
+    let value = input.type === "checkbox" ? input.checked : input.value;
+    if ( input.type === "number" ) value = Number(value) || 0;
+    if ( id ) await updateIntrusion(this.document, id, { [input.dataset.intrusionField]: value });
   }
 
   async #onItemFieldChange(event) {
@@ -144,6 +261,21 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     let value = input.type === "checkbox" ? input.checked : input.value;
     if ( input.type === "number" ) value = Number(value) || 0;
     await item.update({ [input.dataset.itemField]: value });
+  }
+
+  /**
+   * Skills dropped on the sheet are put in the dropped-on skill's place (alphabetical order until then); other items
+   * use the usual sort.
+   * @override
+   */
+  async _onSortItem(event, item) {
+    const target = this.document.items.get(event.target.closest("[data-item-id]")?.dataset.itemId);
+    if ( (item.type !== "skill") || (target?.type !== "skill") ) return super._onSortItem(event, item);
+    if ( (target.id === item.id) || (target.system.category !== item.system.category) ) return [];
+    const list = sortedSkills(this.document).filter(s => (s.system.category === item.system.category) && (s.id !== item.id));
+    list.splice(list.findIndex(s => s.id === target.id), 0, item);
+    await this.document.setFlag(SYSTEM_ID, "skillOrder", "manual");
+    return this.document.updateEmbeddedDocuments("Item", list.map((s, i) => ({ _id: s.id, sort: (i + 1) * 10 })));
   }
 
   /* -------------------------------------------- */
@@ -165,6 +297,15 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   /*  Actions                                     */
   /* -------------------------------------------- */
 
+  /** Back to the alphabetical order of the skills. */
+  static #onSortSkills() {
+    return this.document.unsetFlag(SYSTEM_ID, "skillOrder");
+  }
+
+  static #onToggleSummary(event, target) {
+    return this.#summaries.toggle(target);
+  }
+
   static #onRollAptitude(event, target) {
     return rollAptitudeTest(this.document, target.dataset.aptitude, { fastForward: event.shiftKey });
   }
@@ -176,10 +317,11 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   /** Fray defense; halved against ranged attacks (Core p. 191). */
   static #onRollFray(event, target) {
     const ranged = target.dataset.ranged === "true";
-    const { target: value, label } = this.document.system.getSkillTarget("fray");
+    const sys = this.document.system;
+    const { target: value, label } = sys.getSkillTarget("fray");
     return rollSkillTest(this.document, {
       label: ranged ? game.i18n.format("EP1E.Combat.frayRanged", { label }) : label,
-      target: ranged ? Math.floor(value / 2) : value,
+      target: (ranged ? Math.floor(value / 2) : value) + sys.mods.defense,
       fastForward: event.shiftKey
     });
   }
@@ -191,7 +333,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const tests = {
       lucidity: { label: game.i18n.localize("EP1E.Stat.luc"), target: sys.stats.luc },
       willpower: { label: `${game.i18n.localize("EP1E.Aptitude.wil")} × 2`, target: sys.aptitudes.wil.value * 2 },
-      shock: { label: game.i18n.localize("EP1E.Combat.shockTest"), target: sys.stats.dur + sys.armor.energy }
+      shock: { label: game.i18n.localize("EP1E.Combat.shockTest"), target: shockTarget(sys.stats.dur, sys.damage.value, sys.armor.energy) }
     };
     const test = tests[stat];
     if ( test ) return rollSkillTest(this.document, { ...test, fastForward: event.shiftKey });
@@ -248,9 +390,98 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     return item?.update({ "system.equipped": !item.system.equipped });
   }
 
-  static #onSleeve(event, target) {
+  static #onHack() {
+    return hackSystem(this.document);
+  }
+
+  static #onSubvert(event, target) {
+    return subvertSystem(this.document, target.closest("[data-intrusion-id]")?.dataset.intrusionId);
+  }
+
+  /** Scorch the ego of a hacked cyberbrain with one of the actor's scorchers. */
+  static async #onScorch(event, target) {
+    const id = target.closest("[data-intrusion-id]")?.dataset.intrusionId;
+    const programs = this.document.items.filter(i => (i.type === "software") && (i.system.category === "scorcher"));
+    if ( !programs.length ) return ui.notifications.warn("EP1E.Mesh.noScorcher", { localize: true });
+    let programId = programs[0].id;
+    if ( programs.length > 1 ) {
+      const options = programs.map(i => `<option value="${i.id}">${i.name}</option>`).join("");
+      const result = await foundry.applications.api.DialogV2.prompt({
+        window: { title: game.i18n.localize("EP1E.Mesh.scorch") },
+        classes: ["ep1e", "ep1e-dialog"],
+        content: `<div class="form-group"><label>${game.i18n.localize("EP1E.Software.scorcher")}</label><select name="program">${options}</select></div>`,
+        ok: { label: "EP1E.Mesh.scorch", callback: (ev, button) => new foundry.applications.ux.FormDataExtended(button.form).object },
+        rejectClose: false
+      });
+      if ( !result ) return;
+      programId = result.program;
+    }
+    return scorch(this.document, id, programId);
+  }
+
+  static async #onRemoveIntrusion(event, target) {
+    const id = target.closest("[data-intrusion-id]")?.dataset.intrusionId;
+    if ( id ) return removeIntrusion(this.document, id);
+  }
+
+  static #onCreateAIActor(event, target) {
     const item = this._getItem(target);
-    if ( item ) return this.document.sleeve(item.id);
+    if ( item ) return createAIActor(item, { owner: this.document });
+  }
+
+  static #onReload(event, target) {
+    const item = this._getItem(target);
+    if ( item ) return reloadWeapon(item);
+  }
+
+  /** Sleeve into a morph; sleeving into a new one offers the resleeving tests (Shift+click: without them). */
+  static async #onSleeve(event, target) {
+    const item = this._getItem(target);
+    if ( !item ) return;
+    const sleeving = !item.system.active;
+    await this.document.sleeve(item.id);
+    if ( !sleeving ) return;
+    await endIntegration(this.document);
+    if ( !event.shiftKey ) return promptResleeve(this.document, item);
+  }
+
+  static #onResleeveTests() {
+    return promptResleeve(this.document, this.document.system.activeMorph);
+  }
+
+  static #onBackupTest() {
+    return rollBackupTest(this.document);
+  }
+
+  static #onFork() {
+    return promptFork(this.document);
+  }
+
+  static #onMerge() {
+    return mergeFork(this.document);
+  }
+
+  /** Healing and mental health actions (dice/mental.mjs), by the button's data-action. */
+  static #onMentalAction(event, target) {
+    const actions = {
+      heal: mentalDice.promptHealing, medicalCare: mentalDice.promptMedicalCare, stressTest: mentalDice.promptStressTest,
+      derangement: mentalDice.promptDerangement, mentalHealing: mentalDice.rollMentalHealing,
+      disorderHealing: mentalDice.rollDisorderHealing, therapy: mentalDice.promptTherapy, surgery: mentalDice.promptSurgery
+    };
+    return actions[target.dataset.action]?.(this.document);
+  }
+
+  static #onRemoveHardening(event, target) {
+    const list = this.document.system.hardening.filter((h, i) => i !== Number(target.dataset.index));
+    return this.document.update({ "system.hardening": list });
+  }
+
+  static #onSpendRez() {
+    return promptRez(this.document);
+  }
+
+  static #onFavor(event, target) {
+    return promptFavor(this.document, target.dataset.network ?? null);
   }
 
   static #onItemToChat(event, target) {
@@ -288,6 +519,26 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       armorDefeating: !!result.armorDefeating,
       stress
     });
+  }
+
+  /** Falling damage (p. 197), resisted by half the kinetic armor. */
+  static async #onFall() {
+    const result = await foundry.applications.api.DialogV2.prompt({
+      window: { title: game.i18n.localize("EP1E.Harm.fall"), icon: "fa-solid fa-person-falling" },
+      classes: ["ep1e", "ep1e-dialog"],
+      content: `<div class="form-group"><label>${game.i18n.localize("EP1E.Harm.fallDistance")}</label>
+        <input type="number" name="meters" value="3" min="0" step="0.5" autofocus></div>
+        <p class="hint">${game.i18n.localize("EP1E.Harm.fallHint")}</p>`,
+      ok: { label: "EP1E.Damage.roll", callback: (ev, button) => new foundry.applications.ux.FormDataExtended(button.form).object },
+      rejectClose: false
+    });
+    if ( !result ) return;
+    const formula = fallingDamage(Number(result.meters) || 0);
+    if ( !formula ) return ui.notifications.info("EP1E.Harm.fallHarmless", { localize: true });
+    const roll = await new Roll(formula).evaluate();
+    return applyToActor(this.document, {
+      label: game.i18n.localize("EP1E.Harm.fall"), total: roll.total, ap: 0, damageType: "kinetic", armorHalved: true
+    }, { rolls: [roll] });
   }
 
   static async #onCreateEffect() {

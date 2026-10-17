@@ -1,0 +1,29 @@
+{
+  "_id": "3352750857321dcb",
+  "_key": "!items!3352750857321dcb",
+  "name": "Air Mask",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "airMask",
+    "cost": "Trivial; Low for larger air tank",
+    "description": "<p>This simple face-covering breathing mask comes with a small-sized air tank with enough air for 2 hours. A medium-sized air tank version, good for 12 hours, is also available.</p><p><em>Source: Eclipse Phase Panopticon, p. 157.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 70000,
+  "ownership": {
+    "default": 0
+  }
+}

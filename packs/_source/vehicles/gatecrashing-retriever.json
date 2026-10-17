@@ -1,0 +1,67 @@
+{
+  "_id": "2819a74f4643afe4",
+  "_key": "!actors!2819a74f4643afe4",
+  "name": "Retriever",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/20",
+    "maxVelocity": "30",
+    "mobility": "Walker",
+    "av": {
+      "energy": 14,
+      "kinetic": 12
+    },
+    "durability": 60,
+    "woundThreshold": 12,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "360-Degree Vision, Access Jacks, Diamond Axe, Disassembly Tools, Eelware, Enhanced Smell, Enhanced Hearing, Enhanced Vision, Headlights, Healing Vat, Image Recognition Software, Lidar, Light Combat Armor, Maker, Nanobandages (2), Repair Spray (2), Shelter Dome, 4 Weapon Mounts (Swivel with Agonizer, Shredder, Sprayer with NotWater and Slip, and Stunner)",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Retrievers are small car-sized search-and-rescue robots. Sent in when gatecrashers have failed to check in at their gate on time, retrievers specialize in tracking down survivors, helping injured or brokendown transhumans, and rescuing them from danger. Retrievers are quintapedal walkers, with each sturdy leg doubling as an excavation shovel if necessary or as an inclined treadmill to pull injured persons into a built-in healing vat. Retrievers also feature a pair of manipulative arms which can be used to grasp objects, remove debris, or pull injured people to safety. Retrievers also carry fire-fighting gear and a small array of medical equipment for dealing with multiple injuries. They can also carry smaller bots such as recon hoppers or snakes, should the situation require smaller units for scouting out survivors. If necessary, retrievers are equipped with weaponry to defend gatecrashers from hostile life or other threats. XU FU SYNTHMORPH n p. 152 They are programmed to use themselves as shields in order to protect transhumans from further harm. Standard retriever AIs have Academics: Engineering 40, Beam Weapons 40, Fray 40, Investigation 40, Medicine: Paramedic 40, Navigation 40, Perception 40, and Spray Weapons 40.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 162.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 38000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Retriever",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

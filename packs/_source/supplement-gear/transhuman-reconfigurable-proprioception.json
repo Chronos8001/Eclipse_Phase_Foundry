@@ -1,0 +1,20 @@
+{
+  "_id": "900e4268f68a67f8",
+  "_key": "!items!900e4268f68a67f8",
+  "name": "Reconfigurable Proprioception",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "reconfigurableProprioception",
+    "cost": "Expensive",
+    "description": "<p>Flexbots with the reconfigurable proprioception enhancement can instantaneously reconfigure the location and degrees of freedom in their joints, allowing amazing feats of balance and movement. The flexbot receives a +20 modifier on all Escape Artist Tests, a +10 on Freerunning Tests, and a +10 on Fray Tests against melee attacks and thrown weapons. Flexbots with this mod can even use their multi-jointed limb structure to get around opponents’ guards in melee, like a flail. The bot gains a +10 on melee attacks and can ignore some physical obstacles (e.g., taking a swing at an opponent who’s ducked around a corner). This bonus applies only against opponents who are defending themselves.</p><p><em>Source: Eclipse Phase Transhuman, p. 211.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 30000,
+  "ownership": {
+    "default": 0
+  }
+}

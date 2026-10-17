@@ -1,0 +1,43 @@
+<div class="form-grid">
+  <div class="form-group">
+    <label>{{localize "EP1E.Software.category"}}</label>
+    <select name="system.category">{{selectOptions config.softwareCategories selected=system.category localize=true}}</select>
+  </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Mesh.qualityHint">{{localize "EP1E.Software.quality"}}</label>
+    <input type="number" name="system.quality" value="{{system.quality}}" min="-30" max="30" step="10">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Gear.cost"}}</label>
+    <input type="text" name="system.cost" value="{{system.cost}}">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Sleight.key"}}</label>
+    <input type="text" name="system.key" value="{{system.key}}">
+  </div>
+  {{#if (eq system.category "scorcher")}}
+  <div class="form-group">
+    <label>{{localize "EP1E.Software.harm"}}</label>
+    <span class="pair">
+      <input type="text" name="system.damage" value="{{system.damage}}" placeholder="1d10 + 5">
+      <select name="system.harm">{{selectOptions config.softwareHarms selected=system.harm localize=true}}</select>
+    </span>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Software.effect"}}</label>
+    <select name="system.effect">{{selectOptions config.scorchEffects selected=system.effect localize=true}}</select>
+  </div>
+  {{/if}}
+</div>
+{{#if (eq system.category "ai")}}
+<h4>{{localize "EP1E.Software.aiStats"}}</h4>
+<table class="aptitude-table compact">
+  <thead><tr>{{#each aptitudes as |a|}}<th>{{localize a.abbr}}</th>{{/each}}</tr></thead>
+  <tbody><tr>{{#each aptitudes as |a|}}<td><input type="number" name="system.aptitudes.{{a.key}}" value="{{lookup ../system.aptitudes a.key}}" min="0" max="20"></td>{{/each}}</tr></tbody>
+</table>
+<ul class="ai-skills">
+  {{#each system.skills as |s|}}<li>{{s.name}}{{#if s.field}}: {{s.field}}{{/if}} {{s.value}}{{#if s.specialization}} ({{s.specialization}}){{/if}}</li>{{/each}}
+</ul>
+<button type="button" data-action="createAIActor"><i class="fa-solid fa-robot"></i> {{localize "EP1E.Software.createActor"}}</button>
+<p class="hint">{{localize "EP1E.Software.aiHint"}}</p>
+{{/if}}

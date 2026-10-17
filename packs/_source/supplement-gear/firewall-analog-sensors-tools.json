@@ -1,0 +1,29 @@
+{
+  "_id": "73491a37699cbd59",
+  "_key": "!items!73491a37699cbd59",
+  "name": "Analog Sensors/Tools",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "analogSensorsTools",
+    "cost": "Trivial",
+    "description": "<p>Given the digital characteristics of the exsurgent virus and the potential of sensory-based basilisk hacks, some agents and researchers have resorted to using archaic analog gear for specific missions and tasks deemed high-risk. Specific examples of analog gear include film-based cameras, tape-based audio recorders, VCRs, wired-based phone lines, analog radio devices, and low-resolution and filtered microphones, speakers, and video displays. While such gear is cheap and easily nanofabricated, it is clumsier, slower, more difficult to use, more prone to malfunction, relies on physical media, and is generally a pain in the ass to work with. Characters using analog gear typically suffer –20 or –30 to skill tests. On the positive side, such methods usually provide +10 to +30 bonuses against basilisk hacks (gamemaster’s discretion), if not immunity.</p><p><em>Source: Eclipse Phase Firewall, p. 176.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  }
+}

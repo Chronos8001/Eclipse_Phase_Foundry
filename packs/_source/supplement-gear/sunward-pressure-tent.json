@@ -1,0 +1,29 @@
+{
+  "_id": "5d9e0dd5a344a88d",
+  "_key": "!items!5d9e0dd5a344a88d",
+  "name": "Pressure Tent",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "pressureTent",
+    "cost": "Moderate",
+    "description": "<p>This is a collapsible shelter for two or four people, plus gear. Pressure tents contain heating and will inflate with a breathable atmosphere using a breatherlike device. The two person version has a cost of [Low]; the four person version</p><p><em>Source: Eclipse Phase Sunward, p. 168.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

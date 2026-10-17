@@ -1,0 +1,20 @@
+{
+  "_id": "cd87f2167bdea03a",
+  "_key": "!items!cd87f2167bdea03a",
+  "name": "Radiation sense",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "radiationSense",
+    "augType": "cyberware",
+    "cost": "Low",
+    "description": "<p>The character can sense the presence and approximate source of all forms of dangerous radiation, including neutrons, charged particles, and cosmic rays.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 306.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 43000,
+  "ownership": {
+    "default": 0
+  }
+}

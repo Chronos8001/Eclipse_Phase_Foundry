@@ -1,0 +1,23 @@
+{
+  "_id": "bac80c6cb9841c7c",
+  "_key": "!items!bac80c6cb9841c7c",
+  "name": "Not a Team Player",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "notATeamPlayer",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>This character is socially awkward, self-centered, or has such low self esteem that they simply do not work well others. The character does not benefit from teamwork bonuses when others try to aid them, and if they attempt to aid someone else (whether voluntarily or forced), they will apply a −10 modifier to the test rather than aiding with a +10.</p><p><em>Source: Eclipse Phase Transhuman, p. 91.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 58000,
+  "ownership": {
+    "default": 0
+  }
+}

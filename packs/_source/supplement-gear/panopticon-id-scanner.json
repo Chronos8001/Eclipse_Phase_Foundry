@@ -1,0 +1,29 @@
+{
+  "_id": "7b3a958847e7e043",
+  "_key": "!items!7b3a958847e7e043",
+  "name": "ID Scanner",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "idScanner",
+    "cost": "Low",
+    "description": "<p>This small hand-held device is used to read the nanotat IDs carried by most morphs (p. 279, EP). It scans the nanobots, decodes the data, and compares the information against linked online databases. To truly be effective, this device must have mesh access to ID databases.</p><p><em>Source: Eclipse Phase Panopticon, p. 153.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 39000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "98ec45f566cc923f",
+  "_key": "!items!98ec45f566cc923f",
+  "name": "Strip Memory/Skill",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "stripMemorySkill",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "temporary",
+    "durationUnit": "hours",
+    "strainMod": 2,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "psiAssault",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Strip allows the exsurgent to suppress certain memories in the target’s mind. This can be used to block memories of certain events or even the victim’s identity. The process is not exact, however, and so the memories may not be fully suppressed and/or related memories may also be blocked; the gamemaster decides on the effect as determined by the MoS. Strip can also be used to temporarily erase a specific skill from the target’s mind, preventing them from using or even defaulting to that ability while so affected.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 371.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 44000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "_id": "39b646c3e208706e",
+  "_key": "!items!39b646c3e208706e",
+  "name": "Techie (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are the person who keeps the machines running—or knows how to shut them down.</p><p><strong>Suggested Motivations:</strong> +DIY, +Education, +Science!, +Sousveillance, +Technoprogressivism</p><p><strong>5 PP:</strong> +1 Moxie · +5 COG, +50 Rep (Your Choice) · Academics: (Choose One) 40, Fray 15, Hardware: (Choose One) 50, Hardware: (Choose One) 40, Interest: (Choose One) 30, Interfacing 45, Infosec 25, Language: (Choose One) 30, Networking: (Choose One) 35, Pilot: (Choose One) 30, Profession: (Choose One) 50, Programming 40</p><p><em>Source: Eclipse Phase Transhuman, p. 36.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 15
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 45
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 35
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "programming",
+        "name": "Programming",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+DIY, +Education, +Science!, +Sousveillance, +Technoprogressivism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 241000,
+  "ownership": {
+    "default": 0
+  }
+}

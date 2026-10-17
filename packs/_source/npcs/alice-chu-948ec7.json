@@ -1,0 +1,607 @@
+{
+  "_id": "948ec7af4ef99b76",
+  "_key": "!actors!948ec7af4ef99b76",
+  "name": "Alice Chu",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 2,
+      "max": 2
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Swarm Elder Alice Chu was one of the founding members of the Eat-Drink-Fuck collective that aided the HAL strikers. Before the Fall, Alice was part of one of the most wanted anarchist cells in China. She spent several years in prison under horrific conditions before being liberated during the conflicts that preceded the Fall. While many of the other old collective members have moved on to pursue other interests, Alice has remained with EDF and the swarm. Along with Singh and Andropov, she has become a respected voice of wisdom in the fleet. She is often delegated the responsibility of dealing with outside authorities on behalf of the fleet—primarily because she is one of the few EDF members who can talk to hypercorp and socialite elites at length without totally losing her shit.</p><p><strong>Morph:</strong> Bouncer</p><p><strong>Motivation:</strong> +Responsibility +Discretion –Planetary Consortium</p><p><strong>Active Skills:</strong> Demolitions 55, Fray 65, Free Fall 55, Freerunning 45, Investigation 65, Kinesics 75, Kinetic Weapons 75, Networking: Autonomists 85, Perception 75, Persuasion 60, Unarmed Combat 55</p><p><strong>Knowledge Skills:</strong> Interests: Taoism 35, Interests: Political Philosophy 65, Language: Cantonese 70, Language: Hindi 40, Language: Mandarin (Native) 90, Professional: Organizational Logistics 55</p><p><strong>Traits:</strong> Limber (Level 1), Mental Disorder (PTSD)</p><p><strong>Reputation:</strong> @-rep 85, g-rep 20, c-rep 30</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts, Cortical Stack, Grip Pads, Oxygen Reserve, Prehensile Feet, Prehensile Tail</p><p><strong>Roleplaying:</strong> Despite often being placed in a spokesperson/delegate role, Alice is very concerned about being perceived as a leader. She takes care not to act in any way that hasn’t been authorized by a collective or swarm decision. Given her prominent stature, she tends to excuse herself from much of the EDF’s anti-Consortium subversive activities for better deniability. Her primary concern is the health and safety of the fleet—she is acutely aware of the various threats to the swarm, both internal and external. Alice still occasionally suffers PTSD from her time in prison, though she is quite adept at hiding this from prying eyes.</p><p><strong>Appearance:</strong> Chu’s bouncer is a genetically modified version of her original body with strong ethnic Han features, close-cropped straight black hair, and a small frame made for navigating narrow corridors. She frequently uses and waves her tail about when talking with non-scum in an attempt to unsettle them.</p><p><em>Printed: INIT 8, SPD 1, LUC 40, TT 8, IR 80, DUR 35, WT 7, DR 53.</em></p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 12.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Responsibility +Discretion –Planetary Consortium"
+    }
+  },
+  "items": [
+    {
+      "_id": "470cc3773df1f170",
+      "name": "Bouncer",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 30,
+          "coo": 30,
+          "int": 30,
+          "ref": 30,
+          "sav": 30,
+          "som": 30,
+          "wil": 30
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 5,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 5,
+          "wil": 0
+        },
+        "durability": 35,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Grip Pads, Oxygen Reserve, Prehensile Feet",
+        "advantages": "Limber (Level 1) trait, +5 COO, +5 SOM, +5 to one other aptitude of the player’s choice",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 40,
+        "creditCost": "Expensive",
+        "active": true,
+        "description": "<p>Bouncers are humans genetically adapted for zero-g and microgravity environments. Their legs are more limber, and their feet can grasp as well as their hands.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 13.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!948ec7af4ef99b76.470cc3773df1f170"
+    },
+    {
+      "_id": "d0f7a172fa981f3a",
+      "name": "Limber",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "limber",
+        "traitType": "positive",
+        "scope": "morph",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
+        "description": "<p>The morph is especially flexible and supple, capable of graceful contortions and interesting positions. At Level 1, the character can smoke with their toes, do the splits, and squeeze into small, cramped spaces. At Level 2, they are double-jointed escape artists. Each level provides a +10 modifier to escaping from bonds, fitting into narrow confines, and other acts relying on contortion or flexibility. This trait is only available to biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!948ec7af4ef99b76.d0f7a172fa981f3a"
+    },
+    {
+      "_id": "0eabf9c2b28ceec4",
+      "name": "Mental Disorder",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "mentalDisorder",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>You have a psychological disorder from a previous traumatic experience in your life. Choose one of the disorders listed on p. 211.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!948ec7af4ef99b76.0eabf9c2b28ceec4"
+    },
+    {
+      "name": "Demolitions",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "demolitions",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "77f54b1538f1a24d",
+      "_key": "!actors.items!948ec7af4ef99b76.77f54b1538f1a24d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "adf8015a32ecda2e",
+      "_key": "!actors.items!948ec7af4ef99b76.adf8015a32ecda2e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d523aae34123d7f5",
+      "_key": "!actors.items!948ec7af4ef99b76.d523aae34123d7f5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3afd833993af6765",
+      "_key": "!actors.items!948ec7af4ef99b76.3afd833993af6765",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f30deb735961879b",
+      "_key": "!actors.items!948ec7af4ef99b76.f30deb735961879b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "84b450ba1c63f774",
+      "_key": "!actors.items!948ec7af4ef99b76.84b450ba1c63f774",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1b3703520ec74de8",
+      "_key": "!actors.items!948ec7af4ef99b76.1b3703520ec74de8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Autonomists",
+        "ranks": 70,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ad3546ef56a1287e",
+      "_key": "!actors.items!948ec7af4ef99b76.ad3546ef56a1287e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "edc2d2f03f6b1ae2",
+      "_key": "!actors.items!948ec7af4ef99b76.edc2d2f03f6b1ae2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d560797476539818",
+      "_key": "!actors.items!948ec7af4ef99b76.d560797476539818",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6d6f00c991a83d81",
+      "_key": "!actors.items!948ec7af4ef99b76.6d6f00c991a83d81",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interests",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Taoism",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "99a006e2231bcf87",
+      "_key": "!actors.items!948ec7af4ef99b76.99a006e2231bcf87",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interests",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Political Philosophy",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "797fff2181f4f84d",
+      "_key": "!actors.items!948ec7af4ef99b76.797fff2181f4f84d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Cantonese",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d4e83b13c9bd4d63",
+      "_key": "!actors.items!948ec7af4ef99b76.d4e83b13c9bd4d63",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Hindi",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5fcb9835a1891a57",
+      "_key": "!actors.items!948ec7af4ef99b76.5fcb9835a1891a57",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Mandarin",
+        "ranks": 70,
+        "mod": 0,
+        "specialization": "Native",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b9a4a87eea20516a",
+      "_key": "!actors.items!948ec7af4ef99b76.b9a4a87eea20516a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Professional",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Organizational Logistics",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9a87dec84e250e4a",
+      "_key": "!actors.items!948ec7af4ef99b76.9a87dec84e250e4a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "0345dc02520ce0d4",
+  "sort": 31000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Alice Chu",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

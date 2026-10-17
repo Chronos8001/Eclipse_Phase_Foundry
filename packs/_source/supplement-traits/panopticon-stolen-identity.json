@@ -1,0 +1,23 @@
+{
+  "_id": "3622ec5c1c248f10",
+  "_key": "!items!3622ec5c1c248f10",
+  "name": "Stolen Identity",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "stolenIdentity",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>Someone stole this character’s identity and took advantage of their name, reputation, background—the works. Though this happened in the past, the situation was never fully resolved and the character is plagued with collateral difficulties from the theft. The gamemaster and player should work out details of the incident together, and the gamemaster should use this to occasionally hinder the character or create complications. For example, the character may have to deal with criminal charges against them in one habitat, angry thugs looking for payback on another, and so on.</p><p><em>Source: Eclipse Phase Panopticon, p. 147.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "315ebe0c4fba6ff6",
+  "sort": 88000,
+  "ownership": {
+    "default": 0
+  }
+}

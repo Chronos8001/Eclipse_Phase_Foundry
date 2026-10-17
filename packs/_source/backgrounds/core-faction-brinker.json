@@ -1,0 +1,46 @@
+{
+  "_id": "c77f6464469bd357",
+  "_key": "!items!c77f6464469bd357",
+  "name": "Brinker",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>You or your faction is reluctant to deal with the rest of the transhumanity and the various goings-on in the rest of the system. Your particular grouping may have sought out selfimposed isolation, to pursue their own interests, or they may have been exiled for their unpopular beliefs. Or you may simply be a loner who prefers the vast emptiness of space to socializing with others. You might be a religious cultist, a primitivist, a utopian, or something altogether uninterested in transhumanity.</p><p>Advantages: +10 Pilot: Spacecraft skill, +10 to a skill of your choice, +20 to a Networking: [Field] skill of your choice Disadvantages: None Common Morphs: All</p><p><em>Source: Eclipse Phase Core Rulebook, p. 133.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Spacecraft",
+        "value": 10
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to a skill of your choice; +20 to a Networking: [Field] skill of your choice",
+    "restrictions": "",
+    "morphs": "All",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  }
+}

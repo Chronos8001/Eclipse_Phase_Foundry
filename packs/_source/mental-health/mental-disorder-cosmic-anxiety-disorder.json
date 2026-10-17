@@ -1,0 +1,23 @@
+{
+  "_id": "2d158e60b353df63",
+  "_key": "!items!2d158e60b353df63",
+  "name": "Mental Disorder (Cosmic Anxiety Disorder)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>Faced with the possibility of an incomprehensibly advanced alien civilization exterminating transhumanity from afar, the sufferer exhibits symptoms of extreme anxiety or even phobias. The symptoms may overlap with general anxiety disorder (p. 213, EP) and be treated as such. Other characters may suffer from panic attacks or reactions of extreme terror when confronted by the reality of advanced alien civilizations.</p><p>Suggested Game Effects: When faced with TITAN artifacts or war machines, the character may experience panic attacks where they tremble or have difficulty breathing, leaving them unable to act. Alternately, they may exhibit terror, fleeing from the stimulus.</p><p><em>Source: Eclipse Phase Transhuman, p. 155.</em></p>",
+    "key": "mentalDisorder",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "da96dca306df51eb",
+  "sort": 45000,
+  "ownership": {
+    "default": 0
+  }
+}

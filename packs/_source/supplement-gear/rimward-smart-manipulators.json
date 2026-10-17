@@ -1,0 +1,29 @@
+{
+  "_id": "aa6bdcca88cd26df",
+  "_key": "!items!aa6bdcca88cd26df",
+  "name": "Smart Manipulators",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartManipulators",
+    "cost": "High",
+    "description": "<p>When not in use, this device resembles a small fivekilogram backpack. It contains a nuclear battery, advanced smart materials, and an AI that allows users to operate this device as easily as their own arms or legs. When activated, the device can create a wide array of tools and manipulators. It can sprout a pair of wings that allow the user to fly at speeds of up to 100 kph in one atmosphere or more of pressure if the gravity is 0.15 g or lower. It can also create gliding membranes that duplicate the augmentation with the same name (p. 166, Sunward). In addition, the device allows the user to create a number of highly flexible limbs equal to their COO/5, which can each reach as far as seven meters. Each of these limbs can be sculpted to end in a hand, grip pad, cyberclaws, knife, shock baton, flex cutter, or any tool that can be created by the wrist-mounted tools augmentation (p. 309, EP). Alternatively, each limb can duplicate the abilities of a length of electronic rope (p. 332, EP) up to 30 meters long that can end in a grip pad if desired. These items are very popular with users who work in zero gravity or very low gravity environments.</p><p><em>Source: Eclipse Phase Rimward, p. 191.</em></p>",
+    "category": "everyday",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

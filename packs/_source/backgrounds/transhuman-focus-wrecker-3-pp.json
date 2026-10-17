@@ -1,0 +1,88 @@
+{
+  "_id": "3085bd5451885fde",
+  "_key": "!items!3085bd5451885fde",
+  "name": "Wrecker (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are optimized for killing machines. You either excelled at fighting TITAN constructs during the Fall or you continue to hunt them down in the aftermath.</p><p><strong>Suggested Motivations:</strong> +Explosions, +Survival, –TITANs</p><p><strong>3 PP:</strong> +50 Rep (Your Choice) · Demolitions 40, Fray 25, Infiltration 30, Interest: (TITAN Tech) 50, Kinetic Weapons 30, Perception 30, Profession: Squad Tactics 40, Seeker Weapons 50</p><p><em>Source: Eclipse Phase Transhuman, p. 36.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "demolitions",
+        "name": "Demolitions",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "TITAN Tech",
+        "value": 50
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Squad Tactics",
+        "value": 40
+      },
+      {
+        "key": "seekerWeapons",
+        "name": "Seeker Weapons",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Explosions, +Survival, –TITANs"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 246000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "512b84e8065ba080",
+  "_key": "!items!512b84e8065ba080",
+  "name": "Microwave Link",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "microwaveLink",
+    "cost": "Moderate",
+    "description": "<p>The microbots in this swarm communicate by microwave signals. Their effective communication range remains 50 meters within standard atmospheres, 200 meters in vacuum. This makes the swarm immune to radio-frequency jamming, but they can be jammed in a similar manner with a microwave link or radar device. Swarms using microwave links are more detectable (+30 to spot) to anything equipped with radar.</p><p><em>Source: Eclipse Phase Transhuman, p. 214.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 38000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "7826491bbb2e2558",
+  "_key": "!actors!7826491bbb2e2558",
+  "name": "Sentry Bot",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/16",
+    "maxVelocity": "35",
+    "mobility": "Tracked",
+    "av": {
+      "energy": 14,
+      "kinetic": 12
+    },
+    "durability": 75,
+    "woundThreshold": 15,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "+5 REF, 360-Degree Vision, Access Jacks, Anti-Glare, Eelware, Enhanced Hearing, Enhanced Vision, Headlights, Image Recognition Software, Lidar, Light Combat Armor, Neurachem, T-Ray Emitter, 4 Weapon Mounts (2 Fixed with Agonizer and Seeker Rifle, 2 Swivel with Laser Pulser and Shredder)",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Sentry bots come in many makes and models; the version described here is typical of its kind. Maneuvering on four multi-directional smart treads, this transhuman-sized bot is armored and loaded with weaponry. Used throughout the solar system for security and defensive purposes, gatecrashers often bring sentry bots along as a line of defense against hostile life or other threats. This line of bots is equipped with four weapon mounts, carrying by default a laser pulser, agonizer, shredder, and seeker rifle. The beam weapons are continuously powered by the robot’s nuclear battery, while the ammo bins have enough capacity for 1,000 shredder flechettes and 20 minimissiles. Sentry AIs have Beam Weapons 40, Fray 40, Perception 40, Seeker weapons 40, and Spray Weapons 40.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 162.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 40000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Sentry Bot",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

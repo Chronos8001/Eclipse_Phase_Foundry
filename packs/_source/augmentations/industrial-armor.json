@@ -1,0 +1,20 @@
+{
+  "_id": "98a2ea1d5ca285e6",
+  "_key": "!items!98a2ea1d5ca285e6",
+  "name": "Industrial Armor",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "industrialArmor",
+    "augType": "robotic",
+    "cost": "Moderate",
+    "description": "<p>The shell is equipped with protection against collisions, extreme weather, industrial accidents, and similar wear-and-tear. Increase the bot’s built-in Armor rating to 10/10.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 77000,
+  "ownership": {
+    "default": 0
+  }
+}

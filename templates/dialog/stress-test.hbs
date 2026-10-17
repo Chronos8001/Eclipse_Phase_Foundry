@@ -1,0 +1,21 @@
+<div class="ep1e stress-dialog">
+  <div class="form-group">
+    <label>{{localize "EP1E.Mental.situationLabel"}}</label>
+    <select name="situation">
+      {{#each situations as |s|}}<option value="{{s.key}}">{{localize s.label}} ({{s.sv}})</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Mental.svHint">{{localize "EP1E.Mental.sv"}}</label>
+    <input type="text" name="sv" placeholder="1d10 + 2">
+  </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Mental.sourceHint">{{localize "EP1E.Mental.source"}}</label>
+    <input type="text" name="source">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Test.modifier"}}</label>
+    <input type="number" name="modifier" value="0" step="10">
+  </div>
+  {{#if hardened.length}}<p class="hint">{{localize "EP1E.Mental.hardenedList"}} {{#each hardened as |h|}}{{h}}{{#unless @last}}, {{/unless}}{{/each}}</p>{{/if}}
+</div>

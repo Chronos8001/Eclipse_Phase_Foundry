@@ -1,0 +1,38 @@
+<div class="ep1e test-dialog hack-dialog">
+  <p class="test-base">{{skillLabel}} : <strong>{{target}}</strong></p>
+  <div class="form-group">
+    <label>{{localize "EP1E.Mesh.target"}}</label>
+    <input type="text" name="target" placeholder="{{localize "EP1E.Mesh.targetHint"}}" autofocus>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Mesh.method"}}</label>
+    <select name="method">
+      <option value="standard">{{localize "EP1E.Mesh.methodStandard"}}</option>
+      <option value="bruteForce">{{localize "EP1E.Mesh.methodBruteForce"}}</option>
+      <option value="spoof">{{localize "EP1E.Mesh.methodSpoof"}}</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Mesh.privileges"}}</label>
+    <select name="privileges">
+      {{#each privileges as |p|}}<option value="{{p.key}}">{{localize p.label}}{{#if p.modifier}} ({{ep1eSigned p.modifier}}){{/if}}</option>{{/each}}
+    </select>
+  </div>
+  <p class="hint">{{localize "EP1E.Mesh.exploitQuality"}} : {{#if (ne exploit null)}}{{ep1eSigned exploit}}{{else}}{{localize "EP1E.Mesh.none"}}{{/if}} ·
+    {{localize "EP1E.Mesh.spoofQuality"}} : {{#if (ne spoof null)}}{{ep1eSigned spoof}}{{else}}{{localize "EP1E.Mesh.none"}}{{/if}}</p>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Mesh.qualityHint">{{localize "EP1E.Mesh.firewall"}}</label>
+    <select name="firewall">
+      {{#each qualities as |q|}}<option value="{{q.value}}" {{#if q.selected}}selected{{/if}}>{{ep1eSigned q.value}}</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Mesh.monitorHint">{{localize "EP1E.Mesh.monitor"}}</label>
+    <input type="number" name="monitor" value="0" min="0">
+  </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Mesh.cyberbrainHint">{{localize "EP1E.Mesh.cyberbrain"}}</label>
+    <input type="checkbox" name="cyberbrain">
+  </div>
+  {{> "systems/ep1e/templates/dialog/test-fields.hbs"}}
+</div>

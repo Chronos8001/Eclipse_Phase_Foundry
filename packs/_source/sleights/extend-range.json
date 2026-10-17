@@ -1,0 +1,33 @@
+{
+  "_id": "9338161a2529503d",
+  "_key": "!items!9338161a2529503d",
+  "name": "Extend Range",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "extendRange",
+    "psiType": "gamma",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The range increments of this creature’s psi sleights increase by one (Touch becomes Close, Close extends to 10 meters). This effect is cumulative with the range increase against other asyncs (Touch extends to 10 meters, Close to 15 meters). This sleight is so far exclusive to flesh parties (p. 111), immolator mothers (p. 122), and void crawlers (p. 145).</p><p><em>Source: X-Risks, p. 179.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 52000,
+  "ownership": {
+    "default": 0
+  }
+}

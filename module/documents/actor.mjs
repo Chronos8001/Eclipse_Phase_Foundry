@@ -1,5 +1,15 @@
-import { APTITUDES, SKILLS } from "../config.mjs";
+import { APTITUDES, SKILLS, SYSTEM_ID } from "../config.mjs";
 import { SkillData } from "../data/item.mjs";
+import { fallingArmor, initiativeScore } from "../rules/combat.mjs";
+
+/** The world's Initiative rule (Core, or the supplements' 1d10 scale). */
+export function initiativeRule() {
+  try {
+    return game.settings.get(SYSTEM_ID, "initiativeRule");
+  } catch {
+    return "core";
+  }
+}
 
 export class EPActor extends Actor {
 
@@ -16,7 +26,8 @@ export class EPActor extends Actor {
       }
     }
     updates["prototypeToken.bar1.attribute"] = "damage";
-    updates["prototypeToken.bar2.attribute"] = "stress";
+    // Robots and vehicles have no mental health track
+    if ( this.type !== "vehicle" ) updates["prototypeToken.bar2.attribute"] = "stress";
     this.updateSource(updates);
   }
 
@@ -35,7 +46,7 @@ export class EPActor extends Actor {
     for ( const k of APTITUDES ) data[k] = sys.aptitudes[k].value;
     Object.assign(data, sys.stats ?? {});
     // Wounds and traumas lower the Initiative score (Core p. 189)
-    data.initiative = (sys.stats?.init ?? 0) - (sys.penalty?.total ?? 0);
+    data.initiative = initiativeScore(sys.stats?.init ?? 0, sys.penalty?.initiative ?? 0, initiativeRule());
     data.penalty = sys.penalty?.total ?? 0;
     return data;
   }
@@ -55,10 +66,14 @@ export class EPActor extends Actor {
    * @param {number} [opts.ap=0]          Armor penetration (negative number)
    * @param {string} [opts.damageType]    kinetic | energy | none
    * @param {boolean} [opts.armorDefeating] Critical hit: armor is ignored
+   * @param {boolean} [opts.armorHalved]  Armor counts for half, rounded down (falls, p. 197)
+   * @param {boolean} [opts.armorDoubled] Armor counts double (plastic ammunition, p. 337)
    */
-  async applyDamage({ dv, ap = 0, damageType = "kinetic", armorDefeating = false }) {
+  async applyDamage({ dv, ap = 0, damageType = "kinetic", armorDefeating = false, armorHalved = false, armorDoubled = false }) {
     const sys = this.system;
-    const baseArmor = (damageType === "none") ? 0 : (sys.armor[damageType] ?? 0);
+    let baseArmor = (damageType === "none") ? 0 : (sys.armor[damageType] ?? 0);
+    if ( armorHalved ) baseArmor = fallingArmor(baseArmor);
+    if ( armorDoubled ) baseArmor *= 2;
     const armor = armorDefeating ? 0 : Math.max(0, baseArmor + ap);
     const damage = Math.max(0, dv - armor);
     const wt = sys.stats.wt;

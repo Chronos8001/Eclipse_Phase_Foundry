@@ -1,0 +1,82 @@
+{
+  "_id": "bd850b2207295202",
+  "_key": "!items!bd850b2207295202",
+  "name": "Argonaut (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Scientific progress can be a two-edged sword. The fact that the argonauts embrace both the wonder and the dangers of new technologies and work towards their responsible use is one of the reasons you joined up.</p><p><strong>Suggested Motivations:</strong> +Open Source, +Research, +Technoprogressivism</p><p><strong>3 PP:</strong> +1 Moxie · +50 r-rep · Academics: (Choose One) 50, Interest: (Choose One) 30, Investigation 40, Profession: (Choose One) 40, Networking: Scientists 40, Programming 40, Research 40</p><p><em>Source: Eclipse Phase Transhuman, p. 23.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Scientists",
+        "value": 40
+      },
+      {
+        "key": "programming",
+        "name": "Programming",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "r",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Open Source, +Research, +Technoprogressivism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 88000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "775c582ff2702bc2",
+  "_key": "!items!775c582ff2702bc2",
+  "name": "Slip",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "slip",
+    "category": "chemical",
+    "substanceType": "",
+    "application": "",
+    "onset": "",
+    "duration": "",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>This liquid is almost entirely frictionless. When spread around an area (commonly used in splash grenades), anyone attempting to walk or run on the affected surface must make a COO Test or fall down. Likewise, any coated surface becomes extremely hard to grip onto, requiring a SOM Test to hang on. Anyone attempting to grapple a slip-soaked character suffers a –30 modifier.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 323.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 28000,
+  "ownership": {
+    "default": 0
+  }
+}

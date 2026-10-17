@@ -1,0 +1,44 @@
+{
+  "_id": "5bbb24e7b73f6fb7",
+  "_key": "!items!5bbb24e7b73f6fb7",
+  "name": "Frag Grenade",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "throwingWeapons",
+    "ap": -4,
+    "dv": "3d10 + 6",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "SS",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "SOM ÷ 5 / SOM ÷ 2 / SOM / SOM × 3",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "blast",
+      "radius": 0,
+      "falloff": 2
+    },
+    "twoHanded": false,
+    "cost": "Moderate",
+    "quantity": 1,
+    "munition": {
+      "kind": "grenade",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>Fragmentation explosives spread a cloud of lethal flechettes over the area of effect. They are resisted with kinetic armor.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 341.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 52000,
+  "ownership": {
+    "default": 0
+  }
+}

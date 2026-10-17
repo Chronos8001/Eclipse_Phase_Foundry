@@ -8,12 +8,14 @@
     "energy": 6,
     "kinetic": 12,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "Expensive",
+    "description": "<p>These powered exoskeletons are larger (roughly twice human-sized) and built for heavy-use industrial purposes, such as handling heavy/large objects. The wearer is partially encapsulated to protect them from debris and industrial accidents. Hyperdense exoskeletons provide no movement bonus, but provide a +30 bonus to strength-based tests and inflict an extra +3d10 damage and –5 AP on physical attacks. They have an Armor Value of 6/12.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 344.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 22000,
+  "sort": 15000,
   "ownership": {
     "default": 0
   }

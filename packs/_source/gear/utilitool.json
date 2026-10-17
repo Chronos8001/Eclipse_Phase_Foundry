@@ -1,0 +1,29 @@
+{
+  "_id": "fdd314b71a21a7e2",
+  "_key": "!items!fdd314b71a21a7e2",
+  "name": "Utilitool",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "utilitool",
+    "category": "everyday",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This hand tool includes a specialized small nanobot generator. In its basic form, a utilitool is the size and shape of a large fountain pen. It can transform into almost any tool, however, from a wrench, knife, or powered screwdriver to a rotary grinder or pair of pliers. Some inexpensive utilitools are optimized for specialized tasks, like cooking or wilderness survival, but more expensive models become almost any imaginable hand tool. Utilitools are normally mentally controlled using the character’s basic mesh inserts. Characters without such implants can control the tool via voice commands and touch controls. Characters using a utilitool gain a +10 modifier to skills involving repairing or modifying devices with mechanical parts, opening locks, disarming alarm systems, or performing first aid.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 326.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 46000,
+  "ownership": {
+    "default": 0
+  }
+}

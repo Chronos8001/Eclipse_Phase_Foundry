@@ -1,0 +1,285 @@
+{
+  "_id": "461440d1a5e3c40e",
+  "_key": "!actors!461440d1a5e3c40e",
+  "name": "Neurode",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 40,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 40,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 30,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 40,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1–4</p><p>Neurodes seek to boot-strap themselves to new levels of consciousness. They sleeve into over-sized amorphic clusters of neuronal and epithelial cells, encased in a hard carapace shell with four legs and a pair of arms. It would be a mistake to call their genius “crude,” but their methods certainly are. Their sheer mass of cerebral tissue and neural connections makes neurodes capable of calculations far beyond a typical transhuman. Newer “brain box” designs embrace a quadruped pod design and incorporate chains of networked cyberbrains into the brain blob. Over time, the intelligence gap between neurodes and transhumans is only getting wider. These exhumans value intelligence so far above all else that their morphs have little combat utility. Some do not even have sensory organs, relying on sensor inputs and mesh access. Conflict with neurodes consists of combat with drones, other exhumans, and transhumans manipulated into protecting the neurode’s interests. Neurodes wield their intelligence as their primary weapon, with layer-upon-layer of deception, false leads, tactical anticipation, traps of every conceivable kind, and imaginative fail-safe options. The extreme and reckless psychosurgery necessary for sleeving into a neurode often results in an array of mental illnesses. Neurodes are typically solitary, preferring to keep their mind enhancement secrets to themselves, but sometimes work in small teams.</p><p><strong>Stress Test:</strong> SV 1d10</p><p><strong>Traits:</strong> Mental Disorder (Choose One-Three), Modified Behavior (Increased Rationality, Suppressed Emotions)</p><p><strong>Ware:</strong> Access Jacks, Carapace Armor, Circadian Regulation, Direction Sense, Eidetic Memory, Endocrine Control, Hyper Linguist, Math Boost, Medichines, Multi-Tasking, Oracle, Skillware</p><p><strong>Hardware:</strong> Robotics 60, Infiltration 40, Infosec 65, Interfacing 80, Intimidation 60, Investigation 80, Kinesics 80, Medicine: Brain Surgery 80, Persuasion 80, Programming 80, Psychosurgery 80, Seeker Weapons 60, Unarmed Combat 40</p><p><strong>Pod Variant Ware:</strong> Add Cyberbrains (2–8), Mnemonic Augmentation</p><p><strong>Note:</strong> Neurodes will have protection in the form of other exhumans, leftover specials, drone defenders, traps, and other NPCs.As a last resort they will have access to a hardsuit (p. 334, EP) modified for their form and several pre-planned escape routes.</p><p><em>Initiative printed: 12 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 7, Death Rating 53.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 129.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Neurode (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 35,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 11,
+          "kinetic": 11
+        },
+        "movement": "4/16 Walker",
+        "implants": "Access Jacks, Carapace Armor, Circadian Regulation, Direction Sense, Eidetic Memory, Endocrine Control, Hyper Linguist, Math Boost, Medichines, Multi-Tasking, Oracle, Skillware",
+        "advantages": "Mental Disorder (Choose One-Three), Modified Behavior (Increased Rationality, Suppressed Emotions)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "a861292ec0ed1eca",
+      "_key": "!actors.items!461440d1a5e3c40e.a861292ec0ed1eca",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Neuroscience",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4f9f222cbe61d467",
+      "_key": "!actors.items!461440d1a5e3c40e.4f9f222cbe61d467",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7f8e196485881aff",
+      "_key": "!actors.items!461440d1a5e3c40e.7f8e196485881aff",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3b942b34bcc1ccb2",
+      "_key": "!actors.items!461440d1a5e3c40e.3b942b34bcc1ccb2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f99694696e1e2493",
+      "_key": "!actors.items!461440d1a5e3c40e.f99694696e1e2493",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cbba8ec7070713cb",
+      "_key": "!actors.items!461440d1a5e3c40e.cbba8ec7070713cb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f9ef12051e27b9be",
+      "_key": "!actors.items!461440d1a5e3c40e.f9ef12051e27b9be",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 41000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Neurode",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

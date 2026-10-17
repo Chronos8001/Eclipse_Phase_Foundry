@@ -1,0 +1,27 @@
+{
+  "_id": "4967d3b46111c0f3",
+  "_key": "!items!4967d3b46111c0f3",
+  "name": "Linkstate",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "linkstate",
+    "category": "narcoalgorithm",
+    "substanceType": "electronic",
+    "application": "",
+    "onset": "",
+    "duration": "",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>This software actually connects the user to a peer-to-peer network, where it randomly connects to other linkstate users and samples a bit of their XP feed and randomly accessed memories—typically just enough to provide context, but not enough to acquire private personal details. These inputs are spliced together, their emotional inputs amplified, and then the entire package is spiked with some hormonal circuit triggers and artificial synaesthesia. The effect is a mind-blowing mixed sampling of people’s lives, mashed together in a sensory soup, that hits the mind with a euphoric rush. Linkstate users are catatonic while under the effects (typical sessions run 3-4 hours), but afterwards they often report that they have flashbacks of events in other people’s lives.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 323.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "dae0271a3ad9816f",
+  "_key": "!items!dae0271a3ad9816f",
+  "name": "Civilian Analyst",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "civilianAnalyst",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP (Level 1), 20 CP (Level 2)",
+    "description": "<p>The character is a civilian analyst in a large intelligence agency such as the Titanian Ministry of State’s Civilian Intelligence Directorate or the Planetary Consortium’s Oversight. At Level 2, the character is a manager coordinating the work of 3–5 other analysts and a few dozen AIs, or a senior non-manager. For each level, the character receives a +10 on all Networking Tests within their agency. The character is actively employed there and is expected to put in at least 6 hours of work four days a week (if Titanian) or 8 hours a day five days a week (if Jovian, Venusian, Lunar, or Martian). In some polities, the character may be able to work remotely. This trait may be a poor choice for Jovian characters, as most Jovian intel analysts are confined to the Castle, with very limited freedom of movement. Also note that characters making frequent requests for secret information not related to their job functions will draw scrutiny.</p><p><em>Source: Eclipse Phase Firewall, p. 172.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "7f3ebf3c224a27b4",
+  "sort": 91000,
+  "ownership": {
+    "default": 0
+  }
+}

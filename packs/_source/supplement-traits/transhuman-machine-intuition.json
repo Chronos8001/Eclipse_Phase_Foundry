@@ -1,0 +1,23 @@
+{
+  "_id": "c7088423bbb79233",
+  "_key": "!items!c7088423bbb79233",
+  "name": "Machine Intuition",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "machineIntuition",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>This trait is only available to AGIs. The AGI is so attuned to dealing with machines that it has an intuitive knack for discovering the actual source of electronic or programming problems. Apply a +10 modifier to Interfacing, Hardware, or Programming Tests that involve diagnosing a technical problem or repairing it.</p><p><em>Source: Eclipse Phase Transhuman, p. 85.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

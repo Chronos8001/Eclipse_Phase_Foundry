@@ -1,0 +1,20 @@
+{
+  "_id": "65fa6ce01e755386",
+  "_key": "!items!65fa6ce01e755386",
+  "name": "Rotorcraft",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "rotorcraft",
+    "augType": "robotic",
+    "cost": "Low",
+    "description": "<p>Rotating blades create lift, allowing the shell to move and hover like a helicopter. Most models use tilt-rotors or tilt-wings so that the rotorblades may be moved forward (for faster propellerlike propulsion) and for better maneuverability in zero-G. This system does not work in vacuum.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 84000,
+  "ownership": {
+    "default": 0
+  }
+}

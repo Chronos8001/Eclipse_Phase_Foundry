@@ -1,0 +1,88 @@
+{
+  "_id": "8b5697fdc4e1de6e",
+  "_key": "!items!8b5697fdc4e1de6e",
+  "name": "Skimmer (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You have raced the winds in the upper clouds of the ice giants.</p><p><strong>Suggested Motivations:</strong> +Hard Work, +Independence, +Thrill Seeking</p><p><strong>3 PP:</strong> +50 Rep (Your Choice) · Flight 40, Gunnery 30, Interest: (Choose One) 40, Navigation 35, Networking: (Choose One) 30, Pilot:Aircraft 40, Pilot: Spacecraft 30, Profession: Gas Mining 50</p><p><em>Source: Eclipse Phase Transhuman, p. 27.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "flight",
+        "name": "Flight",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "gunnery",
+        "name": "Gunnery",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "navigation",
+        "name": "Navigation",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Aircraft",
+        "value": 40
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Spacecraft",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Gas Mining",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Hard Work, +Independence, +Thrill Seeking"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 138000,
+  "ownership": {
+    "default": 0
+  }
+}

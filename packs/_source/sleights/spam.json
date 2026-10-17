@@ -1,0 +1,33 @@
+{
+  "_id": "0a5abfd069ac1aa1",
+  "_key": "!items!0a5abfd069ac1aa1",
+  "name": "Spam",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "spam",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "temporary",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "psiAssault",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The sleight allows the async to overload and flood one of the target’s sensory cortices (chosen by the async), spamming them with confusing and distracting sensory input and thereby impairing them. If the async wins the Opposed Test, the target suffers a –10 modifier to all tests the duration of the sleight (doubled to –20 if the async scores an Excellent Success).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 228.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 37000,
+  "ownership": {
+    "default": 0
+  }
+}

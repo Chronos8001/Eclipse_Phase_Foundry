@@ -1,0 +1,118 @@
+{
+  "_id": "1c073cb9f25e9708",
+  "_key": "!items!1c073cb9f25e9708",
+  "name": "Street Rat (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You were raised in a gang, syndicate family, or cartel workforce. You are used to the ways of violence and routing around the law.</p><p><strong>Suggested Motivations:</strong> +Black Markets, +Cartel/Gang/Family, +Survival, +Wealth, –Law and Order, –Police</p><p><strong>5 PP:</strong> +1 Moxie · +5 SOM, 50 Rep (Your Choice) · Clubs 30, Deception 25, Fray 30, Infiltration 25, Interest: (Choose One) 40, Interest: (Choose One) 30, Intimidation 40, Language: (Choose One) 40, Networking: Criminals 40, Palming 20, Pilot: Groundcraft 30, Profession: (Choose One) 40, Unarmed Combat 40</p><p><em>Source: Eclipse Phase Transhuman, p. 21.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "clubs",
+        "name": "Clubs",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Criminals",
+        "value": 40
+      },
+      {
+        "key": "palming",
+        "name": "Palming",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Groundcraft",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Black Markets, +Cartel/Gang/Family, +Survival, +Wealth, –Law and Order, –Police"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 75000,
+  "ownership": {
+    "default": 0
+  }
+}

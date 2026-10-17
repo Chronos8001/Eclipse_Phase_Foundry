@@ -1,0 +1,67 @@
+{
+  "_id": "7d2d30b23e29583a",
+  "_key": "!actors!7d2d30b23e29583a",
+  "name": "Spider Hand",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "2/8",
+    "maxVelocity": "12",
+    "mobility": "Walker",
+    "av": {
+      "energy": 2,
+      "kinetic": 2
+    },
+    "durability": 10,
+    "woundThreshold": 2,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Cyberclaws, Grip Pads, Pneumatic Limbs",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Named for the way it scurries and jumps like a spider, this robotic hand is normally used by neo-avians, neooctopi, and neo-cetaceans who need a human hand design and/or some additional strength to handle certain tasks. It should be noted that the hand does not possess the leverage of a body behind it, so there are limitations to what it can do, though it can extend a meter-long brace for stabilization and support. They have an effective SOM of 10.</p><p><em>Source: Eclipse Phase Panopticon, p. 158.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "aa4874aab6c3c707",
+  "sort": 54000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Spider Hand",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

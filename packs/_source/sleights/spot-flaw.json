@@ -1,0 +1,33 @@
+{
+  "_id": "10832b9783689e93",
+  "_key": "!items!10832b9783689e93",
+  "name": "Spot Flaw",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "spotFlaw",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "self",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "sense",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": true,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The async intuitively understands a weak point in a structure, device, body, or opponent’s defenses. If they succeed in a COG x 3 Test, they gain a +30 on their next attempt to exploit that flaw. This could be applied to a called shot, a Demolitions Test to plant explosives, or a Hardware: Electronics Test to disable a communications array, and so on. This sleight is so far exclusive to those infected by the vittrad exovirus strain (p. 178).</p><p><em>Source: X-Risks, p. 180.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 57000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
+    "key": "socialStigma",
     "traitType": "negative",
     "scope": "both",
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 CP",
-    "description": "<p>An unfortunate aspect of the character's background means that they suffer from a stigma in certain social situations. They may be sleeved in a morph viewed with repugnance, be a survivor of the infamous Lost generation, or may be an AGI in a post-Fall society plagued by fear of artificial intelligence. In social situations where the character's nature is known to someone who view that nature with distaste, fear, or repugnance, they suffer a -10 to -30 modifier (gamemaster's discretion) to social skill tests.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>An unfortunate aspect of the character’s background means that they suffer from a stigma in certain social situations. They may be sleeved in a morph viewed with repugnance, be a survivor of the infamous Lost generation, or may be an AGI in a post-Fall society plagued by fear of artificial intelligence. In social situations where the character’s nature is known to someone who view that nature with distaste, fear, or repugnance, they suffer a –10 to –30 modifier (gamemaster’s discretion) to social skill tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
   },
   "effects": [],
   "flags": {},

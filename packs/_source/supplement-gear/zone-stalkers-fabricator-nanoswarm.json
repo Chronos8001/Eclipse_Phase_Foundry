@@ -1,0 +1,29 @@
+{
+  "_id": "48ba3bed2ef3c673",
+  "_key": "!items!48ba3bed2ef3c673",
+  "name": "Fabricator Nanoswarm",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "fabricatorNanoswarm",
+    "cost": "Expensive (Minimum 100,000)",
+    "description": "<p>Found in canister-shaped hives, these swarms are a somewhat more tame version of self-replicating nanoswarms (p. 383, EP). Rather than indiscriminately breaking down everything around them for feedstock, they appear to have some criteria regarding how much entropy an object possesses. They ignore structures, working devices, and organisms, but will absorb things like a pile of dirt, a corpse, or spent ammunition. No one has learned how to program them yet—a task complicated by the swarms’ attempts to establish compatibility by installing the exsurgent virus on nearby systems when activated. Left to their own devices, they’ll start building things their programming deems useful (for some TITAN-skewed value of “useful”). Despite this behavior, inactive swarms are prized by researchers.</p><p><em>Source: Eclipse Phase Zone Stalkers, p. 15.</em></p>",
+    "category": "other",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5dd151933780efa2",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

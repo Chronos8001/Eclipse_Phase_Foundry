@@ -1,0 +1,67 @@
+{
+  "_id": "9cd8aa9ecfdeaee5",
+  "_key": "!actors!9cd8aa9ecfdeaee5",
+  "name": "Mars Buggy",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "2–6",
+    "handling": 10,
+    "movement": "8/32",
+    "maxVelocity": "40/90/110",
+    "mobility": "",
+    "av": {
+      "energy": 30,
+      "kinetic": 20
+    },
+    "durability": 150,
+    "woundThreshold": 30,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "High",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>One of the most ubiquitous vehicles on Mars is the so-called Mars buggy, a four-wheeled vehicle with large balloon tires that is designed for use both on roads and on almost any terrain. Mars buggies can travel at speed of up to 110 kph on roads, 90 kph over relatively flat terrain, and up to 40 kph on jagged and rocky terrain. They can maintain these speeds because smart materials in both the suspension and the tires reshape themselves to adapt to uneven conditions and their nuclear batteries give them an effectively unlimited range. Most Mars buggies are enclosed but unpressurized. Similar vehicles are used on Luna and Titan, however, though the passenger compartments of these vehicles includes life support Aircraft Battlesuit Exowalker Hyperdense Exoskeleton Transporter Trike vehicles—exoskeletons Passenger Capacity 1 1 Handling — — Movement Rate 8/32 8/40 Max Velocity 30 40 Armor 18/18 2/4 — 8/20 6/12 +10 8/40 2/4 +10 8/40 2/4 Durability 60 30 Wound Threshold 12 6 gear that provides the occupants with air for at least 100 hours. Buggies are powered by nuclear batteries and come in a variety of sizes, from small two-person buggies to large trucks. Mars buggies come equipped with headlights, radio boosters, and a vehicle radar system.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 344.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 6000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Mars Buggy",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

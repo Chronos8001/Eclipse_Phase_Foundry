@@ -1,0 +1,29 @@
+{
+  "_id": "c825c917bce0d794",
+  "_key": "!items!c825c917bce0d794",
+  "name": "Homing",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "homing",
+    "category": "ammo",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>When fired with a smartlink system, the bullet identifies the target and uses nanosensors to lock on, correcting the bullet’s trajectory with surface alterations and tiny vectored nozzles. Apply a +10 modifier to the Attack Test, cumulative with aiming and smartlink modifiers. Homing bullets may also be used for indirect fire (p. 195).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 338.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 115000,
+  "ownership": {
+    "default": 0
+  }
+}

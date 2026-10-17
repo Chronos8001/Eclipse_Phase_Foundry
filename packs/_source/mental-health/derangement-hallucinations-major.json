@@ -1,0 +1,23 @@
+{
+  "_id": "b95eee1593f38aa8",
+  "_key": "!items!b95eee1593f38aa8",
+  "name": "Derangement: Hallucinations (Major)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>You see, hear, or otherwise sense things that aren’t really there.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 3,
+    "cost": 0,
+    "costText": "Derangement (Major), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  }
+}

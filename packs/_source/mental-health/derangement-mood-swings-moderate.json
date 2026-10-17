@@ -1,0 +1,23 @@
+{
+  "_id": "7165dd70ce62c902",
+  "_key": "!items!7165dd70ce62c902",
+  "name": "Derangement: Mood Swings (Moderate)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>You lose control of your emotions. You switch from ecstasy to tears and back to rage without warning.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 2,
+    "cost": 0,
+    "costText": "Derangement (Moderate), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

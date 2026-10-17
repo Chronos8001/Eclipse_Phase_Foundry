@@ -8,12 +8,14 @@
     "energy": 3,
     "kinetic": 2,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "Low",
+    "description": "<p>Smart skin is an advanced nanofluid that covers the wearer’s skin. It resembles liquid mercury but retains the texture and flexibility of normal skin until activated, at which point the material becomes rigid enough to protect the wearer and armor values Armor Clothing Armor Vest Battle Suit Powered Exoskeleton Bioweave Armor (Light) Bioweave Armor (Heavy) Body Armor (Light) Body Armor (Heavy) Carapace Armor Crash Suit (Inactive) Crash Suit (Active) Exowalker Hard Suit Helmet (Light) Helmet (Full) Hyperdense Exoskeleton Riot Shield Second Skin Smart Skin Smart Vac Clothing Spray Armor Synthmorph Industrial Armor Synthmorph Combat Armor (Light) 14 12 310 Synthmorph Combat Armor (Heavy) 16 16 310 Transporter Exoskeleton Trike Exoskeleton Vacsuit (Light) Vacsuit (Standard) distribute the kinetic energy (though still flexible enough at the joints not to impede movement). A specialized hive, worn by the character, replenishes the nanobots and stores them when not in use. Deploying the nanobots across the body takes a full Action Turn. Smart skin has an Armor Value of 3/2, and may be worn with other armor without penalty.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 312.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 12000,
+  "sort": 18000,
   "ownership": {
     "default": 0
   }

@@ -1,0 +1,20 @@
+{
+  "_id": "ef82d0a1034488f6",
+  "_key": "!items!ef82d0a1034488f6",
+  "name": "Failsafe",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "failsafe",
+    "cost": "Low",
+    "description": "<p>This augmentation must be used in combination with the nanophages nanoware (p. 309, EP) and cortical stack (p. 300, EP). This implant is specifically designed for users who regularly risk exsurgent infection and do not want to be a danger to others. If a strain of the exsurgent virus manages to overcome the nanophages, the failsafe goes into action. As soon as the nanophage defenses reach a point where they are certain to be overwhelmed, the failsafe disconnects the user’s cortical stack and isolates it, keeping it free from any exsurgent infection. It then physically ejects the cortical stack from the user’s body for easy retrieval (ejected stacks typically fall 1d10 ÷ 2 meters away). The failsafe also immediately triggers a swift and potent neurotoxin, killing the user’s body and destroying their brain. The synthmorph equivalent shuts down the body and securely erases the cyberbrain. In either case, the result is a swift and painless death. If the user has the emergency farcaster augmentation installed in this morph, the failsafe triggers it instead of ejecting the stack and activating the neurotoxin/cyberbrain erasure.</p><p><em>Source: Eclipse Phase Firewall, p. 174.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

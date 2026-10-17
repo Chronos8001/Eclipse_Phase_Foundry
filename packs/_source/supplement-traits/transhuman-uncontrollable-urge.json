@@ -1,0 +1,23 @@
+{
+  "_id": "e749d312deb3917e",
+  "_key": "!items!e749d312deb3917e",
+  "name": "Uncontrollable Urge",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "uncontrollableUrge",
+    "traitType": "negative",
+    "scope": "both",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>The ego or morph has an overwhelming primal drive that is not properly filtered by the brain, such as the urge for hunting, hiding food, mating, marking territory, driving off competitors (or, for the rare synthmorph, cleaning, serving, or shutting down when not in use), and so on. When presented with triggering stimuli, the character must pass a WIL x 3 Test to resist acting out the compulsion immediately. While resisting the compulsion, the character suffers a −10 to all actions. Uncontrollable drives are poorly received in most circles. This trait is most common among uplifts.</p><p><em>Source: Eclipse Phase Transhuman, p. 94.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 70000,
+  "ownership": {
+    "default": 0
+  }
+}

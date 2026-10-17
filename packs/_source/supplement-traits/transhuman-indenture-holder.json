@@ -1,0 +1,23 @@
+{
+  "_id": "89175157c8d9fe19",
+  "_key": "!items!89175157c8d9fe19",
+  "name": "Indenture Holder",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "indentureHolder",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 30,
+    "costText": "Cost: 30 CP",
+    "description": "<p>The character currently owns the indenture contract of another ego. The person subject to indenture could be anyone from a Fall infugee to a criminal working off the damages of an assault charge. The indenture itself could have been voluntarily arranged with the character, awarded by a court, or the character could have bought it through IndEX (p. 162). The terms and conditions that will end the indenture should be clearly determined as a set credit amount, levels of favors expended, or provision of specific services. It is recommended that the contractual services are reasonably likely to be completed within 6 months. Players and gamemasters should collaborate to establish the relationship the character has with the indenture and the exact skills and reputations of the NPC. Gamemasters should be very careful that this trait is not abused, and remember that, as the indenture holder, the character also has some responsibilities to the NPC. Physical harm, mental trauma, and illegal activities could negate the terms of indenture and may have serious repercussions for the character. Should the character treat their indenture well, they could become a trusted ally, but ill treatment could make them into an enemy (p. 149, EP).</p><p><em>Source: Eclipse Phase Transhuman, p. 84.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

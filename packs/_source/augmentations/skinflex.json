@@ -1,0 +1,44 @@
+{
+  "_id": "36bbb343197d79ba",
+  "_key": "!items!36bbb343197d79ba",
+  "name": "Skinflex",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "skinflex",
+    "augType": "nanoware",
+    "cost": "Moderate",
+    "description": "<p>This disguise implant allows the user to restructure their facial features and musculature and alter skin tone and hair color. The entire process takes a mere 20 minutes. Skinflex adds +30 to Disguise Tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 309.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "05c15986d23fc2a8",
+      "_key": "!items.effects!36bbb343197d79ba.05c15986d23fc2a8",
+      "name": "Skinflex",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.disguise",
+          "mode": 2,
+          "type": "add",
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 66000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "_id": "fa4fa4b5594c778b",
+  "_key": "!items!fa4fa4b5594c778b",
+  "name": "Psike-Out",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "psikeOut",
+    "category": "psi",
+    "substanceType": "chem",
+    "application": "Inj, O",
+    "onset": "1 minute",
+    "duration": "1 hour",
+    "addictionMod": "–10",
+    "addictionType": "mental",
+    "cost": "Expensive",
+    "quantity": 1,
+    "description": "<p>Psike-out bolsters an async’s psi abilities. Apply a +20 modifier to the async’s Psi skill tests for the drug’s duration. However, also apply +2 to all strain DVs for the drug’s duration. Psike-out is mentally addictive, with an Addiction Modifier of –10.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 325.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "aa6ca724494e4a52",
+      "_key": "!items.effects!fa4fa4b5594c778b.aa6ca724494e4a52",
+      "name": "Psike-Out",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.control",
+          "mode": 2,
+          "type": "add",
+          "value": "20",
+          "priority": null
+        },
+        {
+          "key": "system.skillMods.psiAssault",
+          "mode": 2,
+          "type": "add",
+          "value": "20",
+          "priority": null
+        },
+        {
+          "key": "system.skillMods.sense",
+          "mode": 2,
+          "type": "add",
+          "value": "20",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 44000,
+  "ownership": {
+    "default": 0
+  }
+}

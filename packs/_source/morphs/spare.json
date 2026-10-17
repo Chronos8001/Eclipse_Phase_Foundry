@@ -39,12 +39,12 @@
     "cpCost": 5,
     "creditCost": "Moderate",
     "active": false,
-    "description": "<p>Spare morphs are small, cheap, lightweight, synthetic shells designed to be used as a replacement should someone's original morph be killed or destroyed. A cortical stack (retrieved from the character's previous morph; see p. 268, EP) can be easily plugged into the spare morph, effectively resleeving them (they must make Integration, Alienation, and Continuity Tests as normal; see pp. 270-272, EP). Once plugged in, it takes only 3 Action Turns for the cortical stack's data to be read and checked for integrity and the ego to run inside the spare's cyberbrain. Spares are designed for portability. Packed as a flat disc 15 centimeters in diameter and with a mass of 2 kilograms, when activated they pop into a spherical shape with 6 slender and retractable 20-centimeter limbs (3 arms and 3 legs). They are a common piece of equipment for gatecrashing teams.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 92.</em></p>"
+    "description": "<p>Spare morphs are small, cheap, lightweight, synthetic shells designed to be used as a replacement should someone’s original morph be killed or destroyed. A cortical stack (retrieved from the character’s previous morph; see p. 268, EP) can be easily plugged into the spare morph, effectively resleeving them (they must make Integration, Alienation, and Continuity Tests as normal; see pp. 270-272, EP). Once plugged in, it takes only 3 Action Turns for the cortical stack’s data to be read and checked for integrity and the ego to run inside the spare’s cyberbrain. Spares are designed for portability. Packed as a flat disc 15 centimeters in diameter and with a mass of 2 kilograms, when activated they pop into a spherical shape with 6 slender and retractable 20-centimeter limbs (3 arms and 3 legs). They are a common piece of equipment for gatecrashing teams.</p><p><strong>Notes:</strong> Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 92.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 106000,
+  "sort": 109000,
   "ownership": {
     "default": 0
   }

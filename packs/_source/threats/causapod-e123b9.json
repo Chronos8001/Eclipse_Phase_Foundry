@@ -1,0 +1,379 @@
+{
+  "_id": "e123b9c242ebf2c6",
+  "_key": "!actors!e123b9c242ebf2c6",
+  "name": "Causapod",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 5,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 1,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 5,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 1–4</p><p>Causapods are an interesting example of successful genetic design gone awry. The original causapod was the winner of a Tharsis League contest to create a new neogenetic creature—a new life form created from scratch (or at least with a minimum threshold of original design; a certain degree of chimerical traits were allowed) and adapted for Mars. Best described as “land octopi,” causapods are multi-limbed, with 4 primary limbs and 6 smaller ones under their mantle. They can skitter along quickly and rapidly climb surfaces they can dig their spikes into. They feature strong jaws which they can use for scooping up lizards or digging up worms, both found in areas with abundant Martian fauna. Breathing vents enable them to survive in the Martian atmosphere, and adaptive coloration provides camouflage among the rocks and soil. As the contest winner, the causapod’s neogenetic templates were open-sourced. Unexpectedly, the creature’s look became a major hit on the mesh, popularized with “mandibular crawdiddy” memes. This spurred intense interest from various biohacker circles, who quickly ran amok with the open-source designs. Hundreds of variants were genehacked together, many with absurd or dangerous traits: phosphorescent, chittering, slick, acid-spitting, armored/spiked, and even exploding.Anon-affiliated biohackers released some of these dangerous variants for real-life griefing purposes, including harassment of metacelebrities and interference with Consortium development plans. Numerous causapod species now live free in the Martian wilds, and some have been known to attack people.</p><p><strong>Stress Test:</strong> SV (1d10 ÷ 2, round down) − 2</p><p><strong>Ware:</strong> Chameleon Skin, Eelware, Enhanced Hearing, Enhanced Smell, Enhanced Respiration, Poison Gland,Temperature Tolerance</p><p><strong>Armored Spike Variant:</strong> Carapace Armor 9/9, Rushing Spike Attack 40, 2d10 DV,AP −2</p><p><strong>Exploding Variant:</strong> Whenever the causapod takes a wound, there is a 40% chance it will explode, killing it and inflicting DV 2d10 + 4, blast area effect, resisted with energy armor.</p><p><strong>Other Variants:</strong> Gamemasters should add bioware and biological attacks and traits as they feel appropriate.</p><p><em>Initiative printed: 8 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 5, Death Rating 37.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 98.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Causapod (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 25,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 4,
+          "kinetic": 2
+        },
+        "movement": "6/30 Walker",
+        "implants": "Chameleon Skin, Eelware, Enhanced Hearing, Enhanced Smell, Enhanced Respiration, Poison Gland,Temperature Tolerance",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "c3502605c9670522",
+      "_key": "!actors.items!e123b9c242ebf2c6.c3502605c9670522",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "34e09a2fdbfda840",
+      "_key": "!actors.items!e123b9c242ebf2c6.34e09a2fdbfda840",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "033abfc35331130b",
+      "_key": "!actors.items!e123b9c242ebf2c6.033abfc35331130b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Scrounging",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "scrounging",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0237dd3c97693540",
+      "_key": "!actors.items!e123b9c242ebf2c6.0237dd3c97693540",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "Bite",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4fe42d7f21541a3a",
+      "_key": "!actors.items!e123b9c242ebf2c6.4fe42d7f21541a3a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "80a5d40ceb5400ff",
+      "_key": "!actors.items!e123b9c242ebf2c6.80a5d40ceb5400ff",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "Hearing/Smell",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a8bf145c94a12f92",
+      "_key": "!actors.items!e123b9c242ebf2c6.a8bf145c94a12f92",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 50,
+        "ap": -2,
+        "dv": "1d10 + 5",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Bite: 50, DV 1d10 + 5,AP −2</p>"
+      },
+      "_id": "9812e25be319b9bb",
+      "_key": "!actors.items!e123b9c242ebf2c6.9812e25be319b9bb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Caustic Spit Variant",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 40,
+        "ap": 0,
+        "dv": "1d10 + 3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Caustic Spit Variant: 40, DV 1d10 + 3 for 3 Action Turns, kinetic armor applies, but the AV is reduced by the DV absorbed. Range 5/10/15/20</p>"
+      },
+      "_id": "48e2e568198a2a22",
+      "_key": "!actors.items!e123b9c242ebf2c6.48e2e568198a2a22",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 4000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Causapod",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

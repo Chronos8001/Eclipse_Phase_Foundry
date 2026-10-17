@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/upgrade.svg",
   "system": {
+    "key": "eideticMemory",
     "traitType": "positive",
     "scope": "both",
     "level": 1,
     "cost": 10,
     "costText": "Cost: 10 CP",
-    "description": "<p>Much like a computer, the character has perfect memory recall. They can remember anything they have sensed, often even from a single glance. This works the same as the eidetic memory implant (p. 301).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>Much like a computer, the character has perfect memory recall. They can remember anything they have sensed, often even from a single glance. This works the same as the eidetic memory implant (p. 301).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
   },
   "effects": [],
   "flags": {},

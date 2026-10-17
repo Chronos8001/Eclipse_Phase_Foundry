@@ -1,0 +1,33 @@
+{
+  "_id": "45551bef590f265c",
+  "_key": "!journal!45551bef590f265c",
+  "name": "7. Ego, forks et réputation",
+  "folder": null,
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "pages": [
+    {
+      "_id": "0118adee37ef7637",
+      "_key": "!journal.pages!45551bef590f265c.0118adee37ef7637",
+      "name": "Ego, forks et réputation",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Resleeving</h2><ul><li>Intégration : SOM × 3 de l'ego (sans les bonus du morphe). Aliénation : INT × 3. Continuité : VOL × 3.</li><li>Aliénation ratée : 1 stress par 10 points de ME (double sur un échec critique).</li></ul><table><thead><tr><th>Test d'intégration</th><th>Effet</th></tr></thead><tbody><tr><td>Succès critique</td><td>Le morphe convient parfaitement : +1 Moxie pour cette séance.</td></tr><tr><td>Succès</td><td>−10 aux actions physiques, 1 jour</td></tr><tr><td>Échec</td><td>−10 aux actions physiques, 2 jours + 1 par 10 points de ME</td></tr><tr><td>Échec grave</td><td>−10 à toutes les actions, 2 jours + 1 par 10 points de ME</td></tr><tr><td>Échec critique</td><td>−30 aux actions physiques, jusqu'au prochain morphe</td></tr></tbody></table><table><thead><tr><th>Situation</th><th>Modificateur</th></tr></thead><tbody><tr><td>Familier : ce morphe précis, très utilisé</td><td>+30</td></tr><tr><td>Clone du morphe précédent</td><td>+20</td></tr><tr><td>Type de morphe d’origine</td><td>+20</td></tr><tr><td>Trait Adaptability (niveau 2)</td><td>+20</td></tr><tr><td>Trait Adaptability (niveau 1)</td><td>+10</td></tr><tr><td>Type de morphe déjà utilisé</td><td>+10</td></tr><tr><td>Premier resleeving</td><td>−10</td></tr><tr><td>IAG dans un corps physique</td><td>−10</td></tr><tr><td>Uplift dans un corps qui n’est pas de son espèce</td><td>−10</td></tr><tr><td>Synthomorphe</td><td>−10</td></tr><tr><td>Changement de sexe (par rapport au morphe précédent)</td><td>−10</td></tr><tr><td>Morphe très modifié</td><td>−10</td></tr><tr><td>Trait Morphing Disorder (niveau 1)</td><td>−10</td></tr><tr><td>Trait Morphing Disorder (niveau 2)</td><td>−20</td></tr><tr><td>Infomorphe (pas pour une IAG) (aliénation seulement)</td><td>−20</td></tr><tr><td>Fork (aliénation seulement)</td><td>−20</td></tr><tr><td>Trait Morphing Disorder (niveau 3)</td><td>−30</td></tr><tr><td>Morphe exotique (octomorphe, néo-aviaire, novacrabe, swarmanoïde…)</td><td>−30</td></tr></tbody></table><table><thead><tr><th>Continuité</th><th>Stress</th></tr></thead><tbody><tr><td>Pile corticale : mort paisible ou sans relief</td><td>1d10 ÷ 2</td></tr><tr><td>Pile corticale : mort soudaine ou violente</td><td>1d10</td></tr><tr><td>Sauvegarde archivée : trou de mémoire de moins d’un jour</td><td>1d10 ÷ 2</td></tr><tr><td>Sauvegarde archivée : trou de mémoire de plus d’un jour</td><td>1d10</td></tr><tr><td>Transfert direct avec continuité</td><td>aucun</td></tr><tr><td>Transfert direct sans continuité</td><td>1d10 ÷ 2</td></tr><tr><td>Le personnage est un fork</td><td>2</td></tr></tbody></table><p>Ne pas savoir ce qui s'est passé : +2 stress. La MR du test de continuité retire 1 stress par 10 points, la ME en ajoute 1.</p><h2>Forks</h2><table><thead><tr><th>Fork</th><th>Aptitudes</th><th>LUC</th><th>INIT</th><th>Compétences actives</th><th>Connaissances</th><th>Moxie</th></tr></thead><tbody><tr><td>fork alpha</td><td>0</td><td>0</td><td>0</td><td>toutes</td><td>toutes</td><td>inchangée</td></tr><tr><td>fork bêta</td><td>−5</td><td>−10</td><td>−20</td><td>60 max.</td><td>toutes</td><td>1</td></tr><tr><td>fork delta</td><td>−10</td><td>−20</td><td>−40</td><td>5 au plus, 40 max.</td><td>5 au plus, 80 max.</td><td>0</td></tr></tbody></table><h2>Fusion</h2><table><thead><tr><th>Séparés depuis</th><th>Modificateur</th><th>Réussite</th><th>Échec</th></tr></thead><tbody><tr><td>moins de 1 h</td><td>+30</td><td>aucun stress, un ego sans couture, souvenirs des deux intacts</td><td>1d10 ÷ 2 - 1 (min. 0) stress, souvenirs intacts</td></tr><tr><td>1 h à 4 h</td><td>+20</td><td>aucun stress, un lien solide, souvenirs intacts</td><td>1d10 ÷ 2 stress, souvenirs intacts</td></tr><tr><td>4 h à 12 h</td><td>+10</td><td>1 stress, souvenirs intacts</td><td>1d10 ÷ 2 (arrondi supérieur) stress, légère perte de mémoire</td></tr><tr><td>12 h à 1 j</td><td>0</td><td>2 stress, souvenirs intacts</td><td>1d10 ÷ 2 (arrondi supérieur) + 2 stress, perte de mémoire modérée</td></tr><tr><td>1 j à 3 j</td><td>−10</td><td>3 stress, souvenirs intacts</td><td>1d10 + 2 stress, perte de mémoire importante</td></tr><tr><td>3 j à 7 j</td><td>−20</td><td>4 stress, souvenirs intacts</td><td>1d10 + 4 stress, perte de mémoire importante</td></tr><tr><td>7 j et plus</td><td>−30</td><td>5 stress, légère perte de mémoire</td><td>1d10 + 6 stress, grave perte de mémoire</td></tr></tbody></table><h2>Réputation et faveurs</h2><p>Niveau de rep : 1 par tranche de 20 points (0-19 : niveau 1). Test de Networking du réseau : ±10 par niveau d'écart entre la rep et la faveur ; brûler de la rep donne +1 par point (+30 au plus).</p><table><thead><tr><th>Faveur</th><th>Délai</th><th>Rep brûlée si pas rechargée</th><th>Recharge</th></tr></thead><tbody><tr><td>Niveau 1</td><td>1 minute</td><td>0</td><td>1 h</td></tr><tr><td>Niveau 2</td><td>30 minutes</td><td>1</td><td>1 j</td></tr><tr><td>Niveau 3</td><td>1 heure</td><td>5</td><td>7 j</td></tr><tr><td>Niveau 4</td><td>1 jour</td><td>10</td><td>30 j</td></tr><tr><td>Niveau 5</td><td>3 jours</td><td>20</td><td>90 j</td></tr></tbody></table><p><em>Source : Eclipse Phase Core Rulebook, p. 268-289.</em></p>",
+        "format": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "system": {}
+    }
+  ]
+}

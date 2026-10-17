@@ -1,0 +1,34 @@
+{
+  "_id": "1abde5ddbfb95a60",
+  "_key": "!items!1abde5ddbfb95a60",
+  "name": "Sniffer",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "sniffer",
+    "category": "program",
+    "quality": 0,
+    "cost": "Moderate",
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "cog": 10,
+      "coo": 10,
+      "int": 10,
+      "ref": 10,
+      "sav": 10,
+      "som": 10,
+      "wil": 10
+    },
+    "skills": [],
+    "description": "<p>Sniffer programs collect all of the transmission that pass to, from, or through the device they are running on. See Sniffing, p. 252.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

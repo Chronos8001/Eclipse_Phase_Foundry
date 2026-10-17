@@ -1,0 +1,29 @@
+{
+  "_id": "6ceef5fe54bcd716",
+  "_key": "!items!6ceef5fe54bcd716",
+  "name": "Flat Camera",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "flatCamera",
+    "cost": "Moderate; High for hyperspectral",
+    "description": "<p>Flat cameras rely on an array of tiny, networked micro-lensed imagers. With no large lens, these systems are flat and so are easily mounted on walls, ceilings, shell exteriors, and other surfaces. They are difficult (−20 modifier) to visually spot, but are detectable with lens spotter systems. Flat cameras are available in standard visual, infrared, and ultraviolet wavelengths, or a pricier hyperspectral model.</p><p><em>Source: Eclipse Phase Panopticon, p. 152.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 35000,
+  "ownership": {
+    "default": 0
+  }
+}

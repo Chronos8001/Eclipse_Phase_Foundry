@@ -1,0 +1,20 @@
+{
+  "_id": "b3c1c522d5e88135",
+  "_key": "!items!b3c1c522d5e88135",
+  "name": "Sense Filter",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "senseFilter",
+    "cost": "Low",
+    "description": "<p>This implant enables a character with a biological hyperspectral enhanced sense (enhanced hearing, smell, or vision) to filter out certain wavelengths and inputs like an equivalent technological sensor device. Normally a person with enhanced vision would experience terahertz, infrared, standard visual, ultraviolet, and gamma ray frequencies all at once. With this implant, however, they can tune out some wavelengths, ignoring them while still seeing the others. The same effect applies to audio or olfactory input, and the filter also allows the user to isolate specific noises or smells, canceling out sensory clutter or focusing on a specific source. This implant must be acquired separately for each sense.</p><p><em>Source: Eclipse Phase Panopticon, p. 149.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

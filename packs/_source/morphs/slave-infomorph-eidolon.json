@@ -22,7 +22,7 @@
       "ref": 0,
       "sav": 0,
       "som": 0,
-      "wil": 0
+      "wil": -10
     },
     "durability": 0,
     "speedMod": 2,
@@ -34,7 +34,7 @@
     "movement": "",
     "implants": "Copylock, Mnemonic Augmentation",
     "advantages": "",
-    "disadvantages": "Modified Behavior (Level 2: Blocked disobedience to a particular person/group), -10 WIL",
+    "disadvantages": "Modified Behavior (Level 2: Blocked disobedience to a particular person/group), −10 WIL",
     "skillBonuses": [],
     "cpCost": 5,
     "creditCost": "Moderate",

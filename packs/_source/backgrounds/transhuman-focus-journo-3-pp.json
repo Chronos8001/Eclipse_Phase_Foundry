@@ -1,0 +1,88 @@
+{
+  "_id": "b39417a9df1b77b3",
+  "_key": "!items!b39417a9df1b77b3",
+  "name": "Journo (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are a walking recorder, seeking out the news and broadcasting what you find to the mesh.</p><p><strong>Suggested Motivations:</strong> +Sousveillance, +Transparency, –Censorship</p><p><strong>3 PP:</strong> +50 Rep (Your Choice) · Art: Performance 40, Intimidation 20, Investigation 40, Networking: (Choose One) 20, Persuasion 50, Perception 35, Profession: Journalism 50, Research 40</p><p><em>Source: Eclipse Phase Transhuman, p. 33.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "art",
+        "name": "Art",
+        "field": "Performance",
+        "value": 40
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Journalism",
+        "value": 50
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Sousveillance, +Transparency, –Censorship"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 204000,
+  "ownership": {
+    "default": 0
+  }
+}

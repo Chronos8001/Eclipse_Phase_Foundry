@@ -1,0 +1,106 @@
+{
+  "_id": "e39b2b291410a85e",
+  "_key": "!items!e39b2b291410a85e",
+  "name": "Smuggler (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>There is an art to getting unapproved merchandise into and out of high security habitats, and you are a virtuoso. Even inner system habs hold restrictive views on unfettered capitalism. You don’t consider yourself a criminal so much as a subtle expediter of market forces, an angel of supply come to make a bargain with the devil of demand.</p><p><strong>Suggested Motivations:</strong> +Personal Career, +Survival, +Wealth, –Authority</p><p><strong>5 PP:</strong> +1 Moxie · +5 INT, +50 Rep (Your Choice) · Academics: (Choose One) 30, Deception 40, Fray 30, Interest: Black Markets 40, Interest: (Choose One) 30, Kinesics 25, Networking: (Choose Two) 40, Perception 30, Persuasion 50, Profession: (Smuggling) 50, Protocol 25</p><p><em>Source: Eclipse Phase Transhuman, p. 35.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "Black Markets",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose Two)",
+        "value": 40
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Smuggling",
+        "value": 50
+      },
+      {
+        "key": "protocol",
+        "name": "Protocol",
+        "field": "",
+        "value": 25
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Personal Career, +Survival, +Wealth, –Authority"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 232000,
+  "ownership": {
+    "default": 0
+  }
+}

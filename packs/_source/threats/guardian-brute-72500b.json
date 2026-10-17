@@ -1,0 +1,501 @@
+{
+  "_id": "72500b9dc88c2c86",
+  "_key": "!actors!72500b9dc88c2c86",
+  "name": "Guardian: Brute",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 10,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 10,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 1–8</p><p>Built to defend exhuman habitats, guardians are designed to absorb the initial attack of any raid and draw fire away from actual exhumans. They are typically built as menacing and muscled warriors with large melee weapons and heavy armor, sometimes with extra limbs, spikes, and other horrifying add-ons.They are usually the least disturbing of the specials because exhumans want them to be actually useful in a battle.They are still designed to deceive enemies, however. Some guardians will have nonfunctional replicas of plasma weapons or seeker rifles mounted on them, to fool enemies into wasting their ammo on the special rather than the exhumans. Most brutes are piloted by limited AIs, though sometimes they host exhuman forks or are remote controlled via puppet sock.</p><p><strong>Stress Test:</strong> SV 1d10</p><p><strong>Traits:</strong> Mental Disorder (Insane)</p><p><strong>Common Ware:</strong> Access Jacks, Bodysculpting, Cyberbrain, Cyberclaws, Enhanced Hearing, Enhanced Vision, Hardened Skeleton, Medichines, Oxygen Reserve, Puppet Sock, T-Ray Emitter,Vacuum Sealing</p><p><strong>Bullet Magnet:</strong> Brutes are modified to soak as much damage as possible.They may ignore the effects of 2 wounds.</p><p><strong>Decoy Weapons:</strong> Brutes are sometimes equipped or implanted with obvious but fake heavy weapons systems, such as seekers or plasma rifles.These may be spotted as fake with a Perception Test at −30.</p><p><strong>Intimidating:</strong> Brutes receive a +20 modifier on Intimidation Tests.</p><p><em>Initiative printed: 4 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 12, Death Rating 90.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 126.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Guardian: Brute (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 60,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 16,
+          "kinetic": 17
+        },
+        "movement": "4/20 Walker",
+        "implants": "Access Jacks, Bodysculpting, Cyberbrain, Cyberclaws, Enhanced Hearing, Enhanced Vision, Hardened Skeleton, Medichines, Oxygen Reserve, Puppet Sock, T-Ray Emitter,Vacuum Sealing",
+        "advantages": "Mental Disorder (Insane)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "a6caa513b6e26acd",
+      "_key": "!actors.items!72500b9dc88c2c86.a6caa513b6e26acd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Blades",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "blades",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e457fd6105f97645",
+      "_key": "!actors.items!72500b9dc88c2c86.e457fd6105f97645",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "06d259cbedfbf5be",
+      "_key": "!actors.items!72500b9dc88c2c86.06d259cbedfbf5be",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "747b44455bbc3d82",
+      "_key": "!actors.items!72500b9dc88c2c86.747b44455bbc3d82",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a2cc6d17c2a2bbc1",
+      "_key": "!actors.items!72500b9dc88c2c86.a2cc6d17c2a2bbc1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "bc272a159bc6f0f3",
+      "_key": "!actors.items!72500b9dc88c2c86.bc272a159bc6f0f3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "09d63ea2efebe8d1",
+      "_key": "!actors.items!72500b9dc88c2c86.09d63ea2efebe8d1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "57f0dfea63fbd867",
+      "_key": "!actors.items!72500b9dc88c2c86.57f0dfea63fbd867",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "84d5d8422ff93f26",
+      "_key": "!actors.items!72500b9dc88c2c86.84d5d8422ff93f26",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "Hearing/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1e4b46a5dd0fe5dc",
+      "_key": "!actors.items!72500b9dc88c2c86.1e4b46a5dd0fe5dc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Diamond Ax",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 40,
+        "ap": -3,
+        "dv": "2d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Diamond Ax: 40, DV 2d10 + 4,AP −3</p>"
+      },
+      "_id": "3daa496ccbc28884",
+      "_key": "!actors.items!72500b9dc88c2c86.3daa496ccbc28884",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 40,
+        "ap": -2,
+        "dv": "1d10 + 4",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Claws: 40, DV 1d10 + 4,AP −2</p>"
+      },
+      "_id": "1f856334e2c628cd",
+      "_key": "!actors.items!72500b9dc88c2c86.1f856334e2c628cd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "SMG",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 40,
+        "ap": -2,
+        "dv": "2d10 +3",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>SMG: 40, DV 2d10 +3,AP −2, SA/BF/FA,Ammo 80</p>"
+      },
+      "_id": "3c55b2cbf60789fc",
+      "_key": "!actors.items!72500b9dc88c2c86.3c55b2cbf60789fc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 36000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Guardian: Brute",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "9a95d6e053ff4065",
+  "_key": "!items!9a95d6e053ff4065",
+  "name": "Portable QE Comm",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "portableQeComm",
+    "category": "comms",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This is a handheld FTL communications device. The actual communications unit can be made as small as desired, but must be large enough to connect to or hold a qubit reservoir. Because qubit reservoirs are relatively large and must be replaced, they are rarely implanted. Some miniature farcasters are designed so that users can also attach qubit reservoirs to enable them to be used for both light speed and FTL communication.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 315.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  }
+}

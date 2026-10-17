@@ -1,0 +1,23 @@
+{
+  "_id": "ec838d40dfe0f99f",
+  "_key": "!items!ec838d40dfe0f99f",
+  "name": "Social Animal",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "socialAnimal",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 15,
+    "costText": "Cost: 15 CP",
+    "description": "<p>This trait is only available to hominid and cetacean uplifts. The species of origin for these uplifts naturally forms tightly bonded social groups, and that characteristic has been enhanced along with their intelligence. Whenever characters with this background are around family or close associates, they feel a strong sense of security and purpose that grants a +10 bonus on all Stress Tests.</p><p><em>Source: Eclipse Phase Transhuman, p. 86.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

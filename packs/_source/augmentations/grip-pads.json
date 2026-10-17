@@ -1,0 +1,44 @@
+{
+  "_id": "4edac25873308b4d",
+  "_key": "!items!4edac25873308b4d",
+  "name": "Grip Pads",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "gripPads",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The morph possesses specialized pads on its palms, lower arms, shins, and the bottoms of its feet. Designed to emulate the pads on gecko feet, characters can support themselves on a wall or ceiling by placing any two of these pads against any surface not made from a material specially designed to resist this augmentation. Characters can climb any surface and move easily across ceilings that can support their weight. Apply a +30 modifier to Climbing Tests. The pads must be free to touch the surface the character is climbing (no gloves). The nature of these pads is obvious to anyone looking at them, but they do not impair the character’s sense of touch or manual dexterity. If combined with the vacuum sealing augmentation, the character can even stick to surfaces in the vacuum of space.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 305.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "69eee0e71e905e65",
+      "_key": "!items.effects!4edac25873308b4d.69eee0e71e905e65",
+      "name": "Grip Pads",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.climbing",
+          "mode": 2,
+          "type": "add",
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 29000,
+  "ownership": {
+    "default": 0
+  }
+}

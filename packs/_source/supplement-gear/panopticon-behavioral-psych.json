@@ -1,0 +1,34 @@
+{
+  "_id": "70c8018244625739",
+  "_key": "!items!70c8018244625739",
+  "name": "Behavioral Psych",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "behavioralPsych",
+    "cost": "High",
+    "description": "<p>When provided with data on a particular person and their activities, this software can build a psychological profile. The larger the data set—sensor scans, mesh activity, public profile, relationship maps, location tracking, medical history, lifelogs—the deeper and more accurate the analysis. Treat this as an Academics: Psychology skill of 80 or apply a +20 modifier to a character using this software to aid a psychology or behavior-related analysis test.</p><p><em>Source: Eclipse Phase Panopticon, p. 156.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 61000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "5b421aace24b8a7d",
+  "_key": "!items!5b421aace24b8a7d",
+  "name": "Mental Disorder (Schizophrenia)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>While schizophrenia is generally acknowledged as a genetic disorder that has an onset in early adulthood, it also seems to develop in a number of egos that undergo frequent morph changes. It has been theorized that this is due to some sort of repetitive error in the download process. Regardless, it remains a rare, yet persistent danger of dying and being brought back. Schizophrenia is a psychotic disorder where the subject loses their ability to discern reality from unreality. This can involve delusions, hallucinations (often in support of the delusions), and fragmented or disorganized speech. The subject will not be aware of these behaviors and will perceive themselves as functioning normally, often to the point of becoming paranoid that others are somehow involved in a grand deception.</p><p>Suggested Game Effects: Schizophrenia represents a total break from reality. A character that is schizophrenic may see and hear things and act on those delusions and hallucinations while seeing attempts by their friends to stop or explain to them as part of a wider conspiracy. Adding to this is the difficulty of communicating coherently. Characters that have become schizophrenic are only marginally functional and only for short periods of time until they have the disorder treated.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 214.</em></p>",
+    "key": "mentalDisorder",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e020f92043509ff9",
+  "sort": 42000,
+  "ownership": {
+    "default": 0
+  }
+}

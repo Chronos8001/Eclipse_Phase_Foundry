@@ -1,0 +1,29 @@
+{
+  "_id": "e3c2a04fc284ebaf",
+  "_key": "!items!e3c2a04fc284ebaf",
+  "name": "Lens Crazer",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "lensCrazer",
+    "cost": "High",
+    "description": "<p>A more offensive version of the dazzler (p. 316, EP), the crazer does not simply dazzle and overload the cameras it detects. It attempts to crater, pit, and scratch their lenses, effectively ruining their optic systems. Once activated, the crazer takes one Action Turn to detect lenses, then begins systematically zapping them. Stationary cameras are targeted first. For combat situations, treat the crazer as if it has Beam Weapons 40, Initiative 5, and a Speed of 3. It will use its actions to aim; modifiers for laser sights and called shots cancel out. Its laser fires in SA mode. Though it only inflicts 2 DV with its attacks, targeted optics will suffer −30 on Perception Tests after the first hit and will be blind after the second hit. These effects last until repaired.</p><p><em>Source: Eclipse Phase Panopticon, p. 151.</em></p>",
+    "category": "espionage",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 21000,
+  "ownership": {
+    "default": 0
+  }
+}

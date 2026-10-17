@@ -1,0 +1,29 @@
+{
+  "_id": "6e7b01018b69e67a",
+  "_key": "!items!6e7b01018b69e67a",
+  "name": "Nanotat Eraser",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "nanotatEraser",
+    "cost": "Expensive",
+    "description": "<p>This illegal nanoswarm treatment is specifically designed to penetrate the fingertips of morphs and eradicate all signs of the nanotat ID it carries. Erasing a nanotat ID takes about 5 minutes and itches like crazy. Though usually applied to a specific person as a treatment, criminals and terrorists have sometimes deployed nanotat-erasing nanoswarms in public areas, surreptitiously erasing the IDs from unsuspecting people as a means of confusing security forces engaged in an ego hunt.</p><p><em>Source: Eclipse Phase Panopticon, p. 152.</em></p>",
+    "category": "nanotech",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 30000,
+  "ownership": {
+    "default": 0
+  }
+}

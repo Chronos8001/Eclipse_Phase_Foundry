@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
+    "key": "frail",
     "traitType": "negative",
     "scope": "morph",
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 (Level 1) or 20 (Level 2) CP",
-    "description": "<p>This morph is not as resilient as others of its type. Its Durability is reduced by 5 per level. This also reduces Wound Threshold by 1 or 2, respectively.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>This morph is not as resilient as others of its type. Its Durability is reduced by 5 per level. This also reduces Wound Threshold by 1 or 2, respectively.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 149.</em></p>"
   },
   "effects": [],
   "flags": {},

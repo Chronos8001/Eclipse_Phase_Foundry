@@ -1,0 +1,23 @@
+{
+  "_id": "3520d0a81a40cab7",
+  "_key": "!items!3520d0a81a40cab7",
+  "name": "Spacecraft",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "spacecraft",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 30,
+    "costText": "Cost: 30 CP",
+    "description": "<p>Buying a personal spacecraft is far beyond the means of most characters. This trait, however, puts a spacecraft in the character’s hands, with certain conditions. This trait may only be taken with gamemaster approval and it is best only considered for campaigns where regular space travel is likely to be a major element. Somehow, the character is responsible for a bulk carrier, GEV, LLOTV, scum barge, SLOTV, or standard transport. How and why this occurred— and what strings are attached—should be worked out between the player and gamemaster. The character could be an employed pilot or captain, placed in charge of a hypercorp-owned vessel. Perhaps they are borrowing a ship belonging to a criminal cartel, hyperelite dynasty, or anarchist collective. Maybe they built the ship on their own, but placed themselves permanently in the debt of an esoteric brinker group or smuggling crew to get the materials they needed. The ship may even be stolen, with a bounty out for its recapture. Whatever the circumstances, the character should occasionally be obligated to meet or avoid the needs and demands of the ships’ rightful owners, its passengers, and its crew. For example, the character may have salvaged a derelict vessel and converted it into a refugee barge during the Fall, but must now deal with the scum squatters that have effectively taken it over. Operating a ship also comes with a host of logistical issues, from acquiring reaction mass to making deals for passengers and cargo to somehow funding an inexhaustible list of critical repairs. Keeping the ship operational could become a campaign unto itself.</p><p><em>Source: Eclipse Phase Transhuman, p. 86.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 28000,
+  "ownership": {
+    "default": 0
+  }
+}

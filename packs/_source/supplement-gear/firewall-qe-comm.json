@@ -1,0 +1,20 @@
+{
+  "_id": "a078f8c65dbe9cf8",
+  "_key": "!items!a078f8c65dbe9cf8",
+  "name": "QE Comm",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "qeComm",
+    "cost": "Expensive",
+    "description": "<p>This is an implanted version of the portable QE comm (p. 315, EP) with a low-capacity qubit reservor. Due to the size of the qubit reservoir, it must usually be implanted in the thoracic cavity. Though uncommon, this implant is sometimes used by moles that require a covert method of communication.</p><p><em>Source: Eclipse Phase Firewall, p. 174.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

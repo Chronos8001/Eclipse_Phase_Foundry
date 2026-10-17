@@ -1,0 +1,29 @@
+{
+  "_id": "98708a2447d4d809",
+  "_key": "!items!98708a2447d4d809",
+  "name": "Cuffband",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "cuffband",
+    "category": "espionage",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This smart plastic loop restricts around a prisoner’s limbs when activated. If the prisoner struggles, it will tighten more. Cuffbands will inform the user if they are cut or loosened and are electronically-controlled, so the user can release the prisoner remotely. Some cuffband variants including a shock system (treat as a shock baton, p. 334) to zap and restrain unruly prisoners.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 316.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 25000,
+  "ownership": {
+    "default": 0
+  }
+}

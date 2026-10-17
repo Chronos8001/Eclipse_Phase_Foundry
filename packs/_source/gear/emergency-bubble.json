@@ -1,0 +1,29 @@
+{
+  "_id": "7efeafc1dd2714ea",
+  "_key": "!items!7efeafc1dd2714ea",
+  "name": "Emergency Bubble",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "emergencyBubble",
+    "category": "survival",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Commonly used as a last resort “life raft” on spaceships, an emergency bubble is made of advanced smart materials and comes in a portable package that can be quickly inflated (1 Action Turn) around the user, usually inside an airlock. The bubble has a 5-meter diameter and can comfortably accommodate 4 people. It maintains 1 atmosphere of pressure in a vacuum, protect the inhabitants from temperatures ranging from –175 to 140 C, and provide light, breathable air and water and food recycling for up to four human-sized inhabitants, using its built in maker (p. 327). It features a simple airlock, carries an emergency distress beacon (below), and can be transparent, opaque, or polarized. It is powered by a small nuclear battery and also includes comfortable inflatable furniture.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 332.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 92000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "1106f51da0ea770a",
+  "_key": "!actors!1106f51da0ea770a",
+  "name": "Caretaker",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/20",
+    "maxVelocity": "30",
+    "mobility": "Wheeled",
+    "av": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "durability": 25,
+    "woundThreshold": 5,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Chem Sniffer, Image Recognition Software, Lidar",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Caretaker bots look after smart animals so the owner doesn’t have to. They feed and water them, take them for walks, play games, encourage exercise, and clean up their messes. They also keep in touch with the animals’ keeper AIs (if they have them) and otherwise track and monitor their activities and health. Caretakers can also teach animals from a repertoire of common commands and skills. Caretakers tend to be boxy and wheeled, with two arms and various attachments for cleaning, grooming, leashing, etc. Each caretaker is customized for a specific animal species. Caretakers have Animal Handling 40, Interests: [Animal Species] 80, and Profession: Animal Care 80.</p><p><em>Source: Eclipse Phase Panopticon, p. 157.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "aa4874aab6c3c707",
+  "sort": 50000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Caretaker",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

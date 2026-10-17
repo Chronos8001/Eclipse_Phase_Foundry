@@ -1,0 +1,27 @@
+{
+  "_id": "9b2a7d6d2eaff244",
+  "_key": "!items!9b2a7d6d2eaff244",
+  "name": "Hydra",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "hydra",
+    "cost": "Low",
+    "description": "<p>Hydra only affects neo-octopi physiology. Specifically, it provides a euphoric sense of detachment to the ego while also boosting the autonomous activity and unconscious reflexiveness of neo-octopi arms, which already tend to act on their own accord. Though it does not (usually) impact the ego’s control over their arms, any arms that are idle simply do their own thing. The gamemaster decides if and when these arms act and what they do (or, for more fun, you can assign an arm to each other player). The arms mostly act reflexively—recoiling from danger, grasping on to nearby objects—but sometimes act as if with intelligent direction, striking opponents, snatching forgotten objects, opening doors, etc. The arms use the octomorph’s Initiative and skills.</p><p><em>Source: Eclipse Phase Panopticon, p. 151.</em></p>",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "Inj, O",
+    "onset": "20 minutes",
+    "duration": "3 hours",
+    "addictionMod": "–10",
+    "addictionType": "physical",
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 26000,
+  "ownership": {
+    "default": 0
+  }
+}

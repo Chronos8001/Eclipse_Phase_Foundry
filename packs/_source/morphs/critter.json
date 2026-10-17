@@ -34,12 +34,12 @@
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Claws, Cortical Stack, Cyberbrain, Enhanced Hearing, Enhanced Smell, Mnemonic Augmentation, Puppet Sock",
     "advantages": "+5 REF, +5 COO",
-    "disadvantages": "Lacks Manipulators trait, quadrupeds have a difficult time in microgravity (-30 to Free Fall Tests)",
+    "disadvantages": "Lacks Manipulators trait, quadrupeds have a difficult time in microgravity (–30 to Free Fall Tests)",
     "skillBonuses": [],
     "cpCost": 15,
     "creditCost": "Expensive",
     "active": false,
-    "description": "<p>Critters are pods either genetically blended from multiple animal species or simply biosculpted to appear as such. Originally popular among those looking for smarter and distinctive AI-operated pets, they've since expanded to patrol duty and beyond. Critter pods come in almost every conceivable type of animal shape, from cats to skunks to chimerical lizard-hyena hybrids. The vast majority are quadruped and stick close to the animal type's body plan, though anthropomorphic models are also available and there is a great deal of bodysculpted variety. Currently popular in the inner system is the bastet, a composite of several wild cat species that resembles a tawny panther or lion, often with intricate patterns based on Egyptian hieroglyphs in their fur. Some users prefer smaller models of this morph with the Reduced Size trait (p. 93, Transhuman).</p><p><strong>Notes:</strong> Non-Human Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 22.</em></p>"
+    "description": "<p>Critters are pods either genetically blended from multiple animal species or simply biosculpted to appear as such. Originally popular among those looking for smarter and distinctive AI-operated pets, they’ve since expanded to patrol duty and beyond. Critter pods come in almost every conceivable type of animal shape, from cats to skunks to chimerical lizard-hyena hybrids. The vast majority are quadruped and stick close to the animal type’s body plan, though anthropomorphic models are also available and there is a great deal of bodysculpted variety. Currently popular in the inner system is the bastet, a composite of several wild cat species that resembles a tawny panther or lion, often with intricate patterns based on Egyptian hieroglyphs in their fur. Some users prefer smaller models of this morph with the Reduced Size trait (p. 93, Transhuman).</p><p><strong>Notes:</strong> Non-Human Biochemistry trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 22.</em></p>"
   },
   "effects": [],
   "flags": {},

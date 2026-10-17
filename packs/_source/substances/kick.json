@@ -1,0 +1,58 @@
+{
+  "_id": "bc0ddd1ac7823933",
+  "_key": "!items!bc0ddd1ac7823933",
+  "name": "Kick",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "kick",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "Inh, Inj, O",
+    "onset": "3 Action Turns",
+    "duration": "2 hours",
+    "addictionMod": "–10",
+    "addictionType": "physical",
+    "cost": "Moderate",
+    "quantity": 1,
+    "description": "<p>Kick is a strong stimulant that increases the user’s response time and puts them on edge. The character gains +10 REF and +1 Speed for the duration of the drug. Characters under the influence of Kick are twitchy, however, reacting in a jumpy, cat-like fashion to sudden or unexpected stimuli. At the gamemaster’s discretion, they must make a WIL x 2 Test or react without thinking towards unexpected noises or other surprises. Long-term users suffer –5 COO.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 319.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "a1588858e066c5f9",
+      "_key": "!items.effects!bc0ddd1ac7823933.a1588858e066c5f9",
+      "name": "Kick",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.aptitudes.ref.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.mods.spd",
+          "mode": 2,
+          "type": "add",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "333a6636f2950bd6",
+  "_key": "!items!333a6636f2950bd6",
+  "name": "Impaired Hearing",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "impairedHearing",
+    "traitType": "negative",
+    "scope": "morph",
+    "level": 1,
+    "cost": 5,
+    "costText": "Bonus: 5 CP",
+    "description": "<p>This trait is only available to octomorphs. This morph lacks the transgenic hearing modifications of modern octomorph designs. The morph can only hear</p><p><em>Source: Eclipse Phase Panopticon, p. 145.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "315ebe0c4fba6ff6",
+  "sort": 84000,
+  "ownership": {
+    "default": 0
+  }
+}

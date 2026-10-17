@@ -1,0 +1,29 @@
+{
+  "_id": "cfd02a64b3fb61ea",
+  "_key": "!items!cfd02a64b3fb61ea",
+  "name": "Hibernation Pod",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "hibernationPod",
+    "cost": "Moderate",
+    "description": "<p>In the outer system, distances are long and conditions are harsh. In emergencies, individuals may be isolated for weeks or months. To avoiding running out of life support or suffering the effects of extreme cold and severe boredom, users can rely on this device. Before it is activated, this pod comes in a small pouch containing a miniature nuclear battery, a supply of medical stasis nanobots, life support foam, and an emergency broadcast transmitter. This pouch has a mass of 3 kg and is approximately the size of a thick hardback novel. To active it, users open it, pull the smart material fabric around themselves, and activate the nanobots and the foam. Within 2 minutes, the device becomes a rigid pod 1 meter wide and thick and 2.4 meters long, filled with both the now solid foam and the user. The user can choose to either become unconscious or radically slow down their thoughts. The pod automatically awakens the user within one minute of entering a habitable atmosphere or if they receive a message. This device works on all biomorphs and pods and keeps them safe for up to one decade. Lacking the need for food or air, synthmorphs do not require this device.</p><p><em>Source: Eclipse Phase Rimward, p. 193.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

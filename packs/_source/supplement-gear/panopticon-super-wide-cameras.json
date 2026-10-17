@@ -1,0 +1,29 @@
+{
+  "_id": "db03438f361a8797",
+  "_key": "!items!db03438f361a8797",
+  "name": "Super-Wide Cameras",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "superWideCameras",
+    "cost": "Moderate; High for hyperspectral",
+    "description": "<p>Carried by aerial drones and orbital satellites or mounted at high infrastructure points like habitat domes or the axis points of cylinder habitats, these cameras can view an area up to 300 square kilometers in size down to 0.1 meter resolution. They can view in standard visual, near infrared, or ultraviolet; hyperspectral versions are also available.</p><p><em>Source: Eclipse Phase Panopticon, p. 153.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 46000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "ec5c31fb1e8240f9",
+  "_key": "!items!ec5c31fb1e8240f9",
+  "name": "Bio-Defense Unit",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "bioDefenseUnit",
+    "cost": "High",
+    "description": "<p>Though it is unlikely that gatecrashers will catch an alien disease, they are more likely to suffer (sometimes severe) allergic reactions to alien compounds or encounter alien life or environments that are poisonous, acidic, or otherwise harmful. In order to create a safe zone for an encampment in an alien environment, gatecrashers may deploy a bio-defense unit (BDU). This device consists of an advanced nanotech hive that deploys a nanobot swarm over a small area, specifically designed to destroy and break down all life or other complex organic molecules that are alien or toxic/dangerous to transhumans. The nanobots produced by this unit have no effect on any Earthderived life or on any safe compounds they produce. However, all known alien life possesses biochemistries that are highly distinctive and so a BDU can easily destroy all non-Earth life without risking any harm to gatecrashers or any pets, test animals, or biological compounds they bring with them from the solar system. The operator can also add specific alien life forms and compounds to the list of targets that the BDU will specifically not attack. The BDU is a small 15-centimeter hemisphere that contains the hive and a swarm of nanobots. When activated, the swarm deploys over an area 20 meters in diameter (or less if the operator desires). Users can combine multiple BDUs to clear larger areas. Within the designated area, the nanobots destroy and break down all alien life and remove every trace of alien biological activity, leaving behind only sterile soil, bare rock, and pure water. In addition to removing potential toxins, the BDU also clears an area of even the sturdiest alien plants that might interfere with setting up camp. Alien life that wanders into the protected area automatically suffers 1d10 ÷ 2 DV per Action Turn. If the creature has armor this will be eaten away first. This damage continues as long as the creature remains within the protected area. This process is sufficiently painful that almost all alien life swiftly flees the protected area. Outside of the safe zone, the nanobots deactivate and break down.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 157.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

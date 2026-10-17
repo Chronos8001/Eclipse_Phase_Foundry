@@ -1,0 +1,29 @@
+{
+  "_id": "e218762bf5483ba5",
+  "_key": "!items!e218762bf5483ba5",
+  "name": "Electrogravitics Net",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "electrograviticsNet",
+    "category": "survival",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Also called a safety net, this failsafe system uses electric fields to counter gravity when falling. While the system is not able to actually levitate heavy objects, it will slow down a fall enough that the user can land safely if the gravitational force is not too high (the fall height is not greater than 50 meters in 1G). Generating these electric fields consumes a lot of energy, so the net is only charged for one use only and needs to be recharged afterwards.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 332.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 90000,
+  "ownership": {
+    "default": 0
+  }
+}

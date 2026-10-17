@@ -1,0 +1,51 @@
+{
+  "_id": "31f220b91adfe5cc",
+  "_key": "!items!31f220b91adfe5cc",
+  "name": "Endocrine Control",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "endocrineControl",
+    "augType": "bioware",
+    "cost": "High",
+    "description": "<p>This augmentation modifies the morph’s endocrine system, giving the character fine control over their hormone output. This allows the character to completely control their appetite and emotions and to regulate pain. They receive a +30 modifier against the effects of hunger, fear, and any forms of emotional manipulation, such as the Drive Emotion sleight. This augmentation also allows character to lie with perfect conviction and to completely fool all methods of lie detection that do not rely on the target’s neural output; apply a +20 modifier to Deception Tests. It also allows the character to remain awake for 48 hours without penalty, but after this time the character begins experiencing normal fatigue. Finally, the ability to regulate pain reception allows the character to ignore the –10 modifier from 1 wound.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 304.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "83072d87fb3afff3",
+      "_key": "!items.effects!31f220b91adfe5cc.83072d87fb3afff3",
+      "name": "Endocrine Control",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.mods.woundsIgnored",
+          "mode": 2,
+          "type": "add",
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.skillMods.deception",
+          "mode": 2,
+          "type": "add",
+          "value": "20",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 25000,
+  "ownership": {
+    "default": 0
+  }
+}

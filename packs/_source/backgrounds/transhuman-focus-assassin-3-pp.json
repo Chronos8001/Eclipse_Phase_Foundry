@@ -1,0 +1,88 @@
+{
+  "_id": "c96968a4cca6dd14",
+  "_key": "!items!c96968a4cca6dd14",
+  "name": "Assassin (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Death doesn’t have the impact it used to, but sometimes it’s enough to simply get someone out of the way for a little while.</p><p><strong>Suggested Motivations:</strong> +Personal Career, +Privacy, +Survival</p><p><strong>3 PP:</strong> +50 Rep (Your Choice) · Blades 25, Fray 30, Infiltration 40, Kinetic Weapons 50, Language: (Choose One) 40, Perception 20, Profession: Assassin 50, Unarmed Combat 40</p><p><em>Source: Eclipse Phase Transhuman, p. 30.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "blades",
+        "name": "Blades",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Assassin",
+        "value": 50
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Personal Career, +Privacy, +Survival"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 156000,
+  "ownership": {
+    "default": 0
+  }
+}

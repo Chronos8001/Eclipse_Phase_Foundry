@@ -1,0 +1,51 @@
+{
+  "_id": "3a5e2a857343c8da",
+  "_key": "!items!3a5e2a857343c8da",
+  "name": "Klar",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "klar",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "O",
+    "onset": "20 minutes",
+    "duration": "8 hours",
+    "addictionMod": "",
+    "addictionType": "mental",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>Klar boosts alertness and enhances clarity and perception. Users report a feeling of being “elevated” to a higher level. They receive +5 INT while the drug lasts.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 318.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "60cf602cdf26213b",
+      "_key": "!items.effects!3a5e2a857343c8da.60cf602cdf26213b",
+      "name": "Klar",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.aptitudes.int.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "5343ec37cbbc6c0f",
+  "_key": "!actors!5343ec37cbbc6c0f",
+  "name": "Three Sheets to the Wind",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "Crew 16,771, capacity 20,000",
+    "handling": 0,
+    "movement": "",
+    "maxVelocity": "",
+    "mobility": "",
+    "av": {
+      "energy": 70,
+      "kinetic": 70
+    },
+    "durability": 1500,
+    "woundThreshold": 300,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Drive: None",
+    "cost": "",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p><strong>Scum Barge.</strong></p><p>Three Sheets to the Wind had a similar illustrious start. The largest surviving segment of a torus destroyed during the Fall, this piece of infrastructure was rescued by scavengers working with the HAL strikers and converted into temporary zero-g living facilities. Like Dayuejin, it was towed from Earth orbit and has remained part of the swarm ever since. Three Sheets to the Wind is currently towed by Angry Pirate (p. 10).</p><p>The two barges are the most noticeable ships in the swarm due to their immense size and shape and the fact that they are riots of colors, lighting up the depths of space with vibrant reds and yellows and greens. Neither truly qualifies as a ship, since they do not have the means for self-propulsion and must be towed.</p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 8.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "f02f6bd6727f6953",
+  "sort": 60000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Three Sheets to the Wind",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

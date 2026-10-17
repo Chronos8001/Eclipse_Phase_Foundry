@@ -1,0 +1,58 @@
+{
+  "_id": "e2e4d5ed755c1af5",
+  "_key": "!items!e2e4d5ed755c1af5",
+  "name": "Dealer (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are a free trader, black marketeer, or hypercorp salesperson. You have what it takes to close the deal.</p><p><strong>Suggested Motivations:</strong> +Hard Work, +Hypercapitalism, +Personal Career</p><p><strong>1 PP:</strong> Kinesics 30, Profession: (Choose One) 30, Persuasion 40</p><p><em>Source: Eclipse Phase Transhuman, p. 31.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Hard Work, +Hypercapitalism, +Personal Career"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 176000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "351d3d302e536e41",
+  "_key": "!actors!351d3d302e536e41",
+  "name": "Thruster Pack",
+  "type": "vehicle",
+  "img": "icons/svg/wingfoot.svg",
+  "system": {
+    "category": "personal",
+    "passengers": "1",
+    "handling": -10,
+    "movement": "4/20",
+    "maxVelocity": "40",
+    "mobility": "",
+    "av": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "durability": 30,
+    "woundThreshold": 6,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Worn for EVA duties, this thruster pack uses vectored thrust nozzles, allowing a character to maneuver in open space. This is not a jetpack and does not produce enough thrust for atmospheric movement.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 345.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 9000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Thruster Pack",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wingfoot.svg"
+    }
+  }
+}

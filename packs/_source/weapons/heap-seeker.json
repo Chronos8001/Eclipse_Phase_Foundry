@@ -1,0 +1,44 @@
+{
+  "_id": "a88f2c6c625aad98",
+  "_key": "!items!a88f2c6c625aad98",
+  "name": "HEAP Seeker",
+  "type": "weapon",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "seekerWeapons",
+    "ap": -8,
+    "dv": "3d10 + 12",
+    "damageType": "kinetic",
+    "addDB": false,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "blast",
+      "radius": 0,
+      "falloff": 4
+    },
+    "twoHanded": false,
+    "cost": "Moderate",
+    "quantity": 1,
+    "munition": {
+      "kind": "seeker",
+      "size": "mini"
+    },
+    "launcher": "",
+    "description": "<p>A design only available for seekers (not grenades), HEAP warheads use high explosives to blast a path for a penetrating round. HEAPs lose –4 damage per meter distance from the blast, as opposed to the usual –2.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 341.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 60000,
+  "ownership": {
+    "default": 0
+  }
+}

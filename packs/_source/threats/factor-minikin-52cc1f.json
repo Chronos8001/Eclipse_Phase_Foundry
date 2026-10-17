@@ -1,0 +1,285 @@
+{
+  "_id": "52cc1f3a74badcab",
+  "_key": "!actors!52cc1f3a74badcab",
+  "name": "Factor Minikin",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 10,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 5,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 4–6</p><p>Factor colonies spawn smaller individuals referred to as minikin, about half the size of other Factors. These minikin fulfill menial or high-risk tasks.They are sapient but high specialized, focused on their task, and easily sacrificed. Minikin are never used to communicate or interface with transhumans.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2</p><p><strong>Traits:</strong> Direction Sense (Magnetoception)</p><p><strong>Ware:</strong> Chameleon Skin, Enhanced Vision (Infrared Only), Grip Pads</p><p><strong>Notes:</strong> Factors are immune to psi sleights.</p><p><strong>Hardware:</strong> Industrial 40, Unarmed Combat 30</p><p><strong>Immunity to Kinetic Damage:</strong> Factors take minimum DV from kinetic weapons and blades.</p><p><strong>Melding:</strong> Factors may meld together into larger forms. Use the highest stat, +1 per additional minikin (to a maximum +10). Durability, Wound Threshold, and Death Rating are added together (to a maximum x5).</p><p><strong>Regeneration:</strong> Factors regenerate 2 damage per Action Turn; wounds may not be regenerated.</p><p><em>Initiative printed: 3 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 2, Death Rating 15.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 109.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Factor Minikin (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 10,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "3/12 Walker",
+        "implants": "Chameleon Skin, Enhanced Vision (Infrared Only), Grip Pads",
+        "advantages": "Direction Sense (Magnetoception)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "9562214f661e28b0",
+      "_key": "!actors.items!52cc1f3a74badcab.9562214f661e28b0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "48d4603e95960f3f",
+      "_key": "!actors.items!52cc1f3a74badcab.48d4603e95960f3f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Exotic Skill",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Trap-Making",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "284e90ea91a8eb11",
+      "_key": "!actors.items!52cc1f3a74badcab.284e90ea91a8eb11",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "fb73fe6f82327972",
+      "_key": "!actors.items!52cc1f3a74badcab.fb73fe6f82327972",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Aerospace",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "683acd774dd96933",
+      "_key": "!actors.items!52cc1f3a74badcab.683acd774dd96933",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d3bae94af54533d5",
+      "_key": "!actors.items!52cc1f3a74badcab.d3bae94af54533d5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "19dc9023db0fd0b9",
+      "_key": "!actors.items!52cc1f3a74badcab.19dc9023db0fd0b9",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 18000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Factor Minikin",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

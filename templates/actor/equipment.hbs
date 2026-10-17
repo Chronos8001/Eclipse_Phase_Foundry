@@ -19,6 +19,26 @@
     </ol>
   </section>
 
+  <section class="panel substances">
+    <header class="list-header">
+      <h3>{{localize "EP1E.Section.substances"}}</h3>
+      {{#if editable}}<a class="add" data-action="createItem" data-type="substance" data-tooltip="EP1E.Item.create"><i class="fa-solid fa-plus"></i></a>{{/if}}
+    </header>
+    <ol class="item-list">
+      {{#each substances as |item|}}
+      <li class="item-row draggable" data-item-id="{{item.id}}">
+        <img src="{{item.img}}" alt="">
+        <span class="name"><a class="rollable" data-action="rollItem" data-tooltip="EP1E.Substance.takeHint">{{item.name}}</a>
+          <small>{{localize (lookup @root.config.substanceCategories item.system.category)}}{{#if item.system.duration}} · {{item.system.duration}}{{/if}}</small></span>
+        <input class="qty" type="number" value="{{item.system.quantity}}" min="0" data-item-field="system.quantity" data-tooltip="EP1E.Gear.quantity" {{#unless @root.editable}}disabled{{/unless}}>
+        {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "EP1E.Substance.none"}}</li>
+      {{/each}}
+    </ol>
+  </section>
+
   <section class="panel gear">
     <header class="list-header">
       <h3>{{localize "EP1E.Section.gear"}}</h3>
@@ -28,7 +48,7 @@
       {{#each gear as |item|}}
       <li class="item-row draggable" data-item-id="{{item.id}}">
         <img src="{{item.img}}" alt="">
-        <span class="name"><a data-action="itemToChat">{{item.name}}</a> {{#if item.system.cost}}<small>{{item.system.cost}}</small>{{/if}}</span>
+        <span class="name"><a data-action="itemToChat">{{item.name}}</a> <small>{{#if (ne item.system.category "other")}}{{localize (lookup @root.config.gearCategories item.system.category)}}{{/if}}{{#if item.system.cost}} · {{item.system.cost}}{{/if}}</small></span>
         <input class="qty" type="number" value="{{item.system.quantity}}" min="0" data-item-field="system.quantity" data-tooltip="EP1E.Gear.quantity" {{#unless @root.editable}}disabled{{/unless}}>
         {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
       </li>

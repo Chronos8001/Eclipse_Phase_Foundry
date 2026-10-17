@@ -1,0 +1,33 @@
+{
+  "_id": "6e16ef4a7b1eee8c",
+  "_key": "!journal!6e16ef4a7b1eee8c",
+  "name": "4. Stress et santé mentale",
+  "folder": null,
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "pages": [
+    {
+      "_id": "741107c19988f2f4",
+      "_key": "!journal.pages!6e16ef4a7b1eee8c.741107c19988f2f4",
+      "name": "Stress et santé mentale",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li>Lucidité (LUC) = VOL × 2 ; seuil de traumatisme (ST) = LUC ÷ 5 (arrondi supérieur) ; seuil de folie = LUC × 2.</li><li>Test de stress : VOL × 3 ; réussi, aucun stress (règle optionnelle de X-Risks : la moitié).</li><li>Un traumatisme par tranche complète de ST dans un même stress ; chaque traumatisme donne −10 à tous les tests.</li><li>1er traumatisme : dérangement mineur ; 2e et 3e : aggravation (modéré, majeur) ou nouveau mineur ; 4e et suivants : le dérangement majeur devient un trouble.</li><li>Un dérangement dure 1d10 ÷ 2 heures, ou jusqu'à des soins psychiatriques.</li><li>Stress ≥ LUC : hors de contrôle ; stress ≥ seuil de folie : folie permanente.</li><li>Endurcissement : 5 tests réussis contre une même source rendent insensible, à −1 Moxie (maximum).</li></ul><h2>Expériences stressantes</h2><table><thead><tr><th>Situation</th><th>Stress</th></tr></thead><tbody><tr><td>Échec retentissant dans la poursuite d’une motivation</td><td>1d10 ÷ 2</td></tr><tr><td>Impuissance</td><td>1d10 ÷ 2</td></tr><tr><td>Trahison par un ami de confiance</td><td>1d10 ÷ 2</td></tr><tr><td>Isolement prolongé</td><td>1d10 ÷ 2</td></tr><tr><td>Violence extrême (témoin)</td><td>1d10 ÷ 2</td></tr><tr><td>Violence extrême (auteur)</td><td>1d10</td></tr><tr><td>Se savoir sur le point de mourir</td><td>1d10</td></tr><tr><td>Vivre la mort de quelqu’un en XP</td><td>1d10</td></tr><tr><td>Perdre un être cher</td><td>1d10 ÷ 2</td></tr><tr><td>Voir mourir un être cher</td><td>1d10 + 2</td></tr><tr><td>Être responsable de la mort d’un être cher</td><td>1d10 + 5</td></tr><tr><td>Découvrir une scène de meurtre atroce</td><td>1d10</td></tr><tr><td>Torture (témoin)</td><td>1d10 + 2</td></tr><tr><td>Torture (souffrance modérée)</td><td>2d10 + 3</td></tr><tr><td>Torture (souffrance grave)</td><td>3d10 + 5</td></tr><tr><td>Rencontrer des extraterrestres (non conscients)</td><td>1d10 ÷ 2</td></tr><tr><td>Rencontrer des extraterrestres (conscients)</td><td>1d10</td></tr><tr><td>Rencontrer des extraterrestres hostiles</td><td>1d10 + 3</td></tr><tr><td>Rencontrer une technologie très avancée</td><td>1d10 ÷ 2</td></tr><tr><td>Rencontrer une technologie modifiée par l’exsurgent</td><td>1d10 ÷ 2</td></tr><tr><td>Rencontrer des transhumains infectés par l’exsurgent</td><td>1d10</td></tr><tr><td>Rencontrer des formes de vie exsurgentes</td><td>1d10 + 3</td></tr><tr><td>Assister à des sleights psi-epsilon</td><td>1d10 + 2</td></tr></tbody></table><h2>Guérison</h2><ul><li>Naturelle : chaque mois sans nouveau stress, un test de VOL × 3 soigne 1d10 de stress, ou 1 traumatisme une fois le stress soigné.</li><li>Psychothérapie (test de Psychothérapie, −10 par trouble, +30 après une psychochirurgie réussie) : 1 stress par 1 h, puis 1 traumatisme par 8 h, puis 1 trouble par 40 h.</li></ul><h2>Psychochirurgie</h2><p>Test de Psychochirurgie opposé à VOL × 3 du sujet s'il résiste. Le stress s'applique quel que soit le résultat : moitié sur une réussite excellente, aucun sur un critique, double sur un échec grave, plus un traumatisme sur un échec critique.</p><table><thead><tr><th>Procédure</th><th>Modificateur</th><th>Stress</th><th>Durée</th></tr></thead><tbody><tr><td>Contrôle du comportement</td><td>limiter/renforcer −10, bloquer/encourager −20, supprimer/imposer −30</td><td>1d10 ÷ 2 (arrondi supérieur)</td><td>1 semaine</td></tr><tr><td>Masquage du comportement</td><td>−20</td><td>1d10 ÷ 2 (arrondi supérieur)</td><td>1 semaine</td></tr><tr><td>Apprentissage profond</td><td>+20</td><td>aucun</td><td>temps d'apprentissage ÷ 2</td></tr><tr><td>Contrôle émotionnel</td><td>limiter/renforcer −10, bloquer/encourager −20, supprimer/imposer −30</td><td>1d10 ÷ 2 (arrondi supérieur) + 2</td><td>1 semaine</td></tr><tr><td>Interrogatoire</td><td>+30</td><td>1d10</td><td>1 semaine</td></tr><tr><td>Édition de la mémoire</td><td>consentant −10, forcé −30</td><td>1d10 ÷ 2 (arrondi supérieur)</td><td>1 semaine (2 pour ajouter)</td></tr><tr><td>Édition de la personnalité</td><td>mineure −10, modérée −20, majeure −30</td><td>1d10 ÷ 2 (arrondi supérieur) + 3</td><td>1 semaine</td></tr><tr><td>Psychotorture</td><td>+30</td><td>1d10</td><td>par jour</td></tr><tr><td>Psychothérapie</td><td>0</td><td>aucun</td><td>variable</td></tr><tr><td>Empreinte de compétence</td><td>0</td><td>1</td><td>1 semaine par +10</td></tr><tr><td>Suppression de compétence</td><td>−10</td><td>1</td><td>1 jour par −10</td></tr><tr><td>Tasping</td><td>+10</td><td>aucun</td><td>1 jour</td></tr></tbody></table><table><thead><tr><th>Condition</th><th>Test</th><th>Stress</th></tr></thead><tbody><tr><td>Diagnostic préalable insuffisant</td><td>−30</td><td>+1</td></tr><tr><td>Protocoles de sécurité ignorés</td><td>+20</td><td>× 2</td></tr><tr><td>Accélération du temps en simulspace</td><td>−20</td><td>+2</td></tr><tr><td>Sujet IA, IAG ou uplift</td><td>−20</td><td>+1</td></tr></tbody></table><p><em>Source : Eclipse Phase Core Rulebook, p. 209-215, 229-233.</em></p>",
+        "format": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "system": {}
+    }
+  ]
+}

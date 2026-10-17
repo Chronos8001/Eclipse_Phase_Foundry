@@ -1,0 +1,11 @@
+<div class="ep1e test-dialog defense-dialog">
+  <p class="test-base">{{localize "EP1E.Opposed.against" name=attackName}}</p>
+  <div class="form-group">
+    <label>{{localize "EP1E.Opposed.skill"}}</label>
+    <select name="skill">
+      {{#each options as |o|}}<option value="{{o.key}}">{{o.label}}{{#if o.halved}} ÷ 2{{/if}} : {{o.value}}</option>{{/each}}
+    </select>
+  </div>
+  {{#if fullDefense}}<p class="hint">{{#if psi}}{{localize "EP1E.Condition.psiDefense"}}{{else}}{{localize "EP1E.Condition.fullDefense"}}{{/if}}</p>{{/if}}
+  {{> "systems/ep1e/templates/dialog/test-fields.hbs"}}
+</div>

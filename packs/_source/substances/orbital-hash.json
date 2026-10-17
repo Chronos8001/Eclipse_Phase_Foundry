@@ -1,0 +1,51 @@
+{
+  "_id": "53f61669cdb0a3ec",
+  "_key": "!items!53f61669cdb0a3ec",
+  "name": "Orbital Hash",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "orbitalHash",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "Inh",
+    "onset": "3 minutes",
+    "duration": "3 hours",
+    "addictionMod": "",
+    "addictionType": "mental",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>Good ol’ reefer—but grown in space using powerful lighting and post-singularity hydroponics. Because space is at a premium in habitats and scum barges, blocks of hashish are the preferred mode of transport and delivery. However, for the wealthy and on planets, buds in leaf form are not uncommon. Hash allows the character to ignore the effects of 1 trauma, but inflicts a –10 penalty on all memory-related tests and Knowledge Skill Tests. Hash users exhibit bloodshot eyes, lethargic behaviors, and the munchies.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 320.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "f57cc0450b4c5e71",
+      "_key": "!items.effects!53f61669cdb0a3ec.f57cc0450b4c5e71",
+      "name": "Orbital Hash",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.mods.traumasIgnored",
+          "mode": 2,
+          "type": "add",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

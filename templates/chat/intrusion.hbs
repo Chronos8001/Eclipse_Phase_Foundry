@@ -1,0 +1,21 @@
+<div class="ep1e chat-card intrusion-card">
+  <header class="card-header"><h3>{{title}}</h3></header>
+  {{#if monitor}}
+  <p class="{{#if monitor.success}}warning{{/if}}">{{localize "EP1E.Mesh.monitorRoll" value=(ep1ePad monitor.value) target=monitor.target}} —
+    {{#if monitor.success}}{{localize "EP1E.Outcome.success"}}{{else}}{{localize "EP1E.Outcome.failure"}}{{/if}}</p>
+  {{/if}}
+  {{#if note}}<p>{{note}}</p>
+  {{else if subversion}}
+  <p>{{#if won}}{{localize "EP1E.Mesh.subverted"}}{{else}}{{localize "EP1E.Mesh.notSubverted"}}{{/if}}</p>
+  {{#if changed}}<p class="status-line status-{{status}}">{{localize "EP1E.Mesh.statusNow"}} : <strong>{{localize (concat "EP1E.Mesh.status." status)}}</strong></p>{{/if}}
+  {{#if crash}}<p class="hint">{{crash}}</p>{{/if}}
+  {{else if status}}
+  <p class="status-line status-{{status}}">{{localize "EP1E.Mesh.statusNow"}} : <strong>{{localize (concat "EP1E.Mesh.status." status)}}</strong></p>
+  <p class="hint">{{localize (concat "EP1E.Mesh.statusHint." status)}}</p>
+  {{else if retry}}
+  <p class="warning">{{localize "EP1E.Mesh.retry"}}</p>
+  {{else}}
+  <p class="danger">{{localize "EP1E.Mesh.failed"}}</p>
+  {{/if}}
+  {{#if timeframe}}<p class="hint">{{timeframe}}</p>{{/if}}
+</div>

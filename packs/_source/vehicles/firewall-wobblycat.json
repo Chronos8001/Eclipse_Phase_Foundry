@@ -1,0 +1,67 @@
+{
+  "_id": "0d5dcaac91d596cd",
+  "_key": "!actors!0d5dcaac91d596cd",
+  "name": "Wobblycat",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "12/60",
+    "maxVelocity": "60",
+    "mobility": "Walker/Hopper",
+    "av": {
+      "energy": 4,
+      "kinetic": 4
+    },
+    "durability": 15,
+    "woundThreshold": 3,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Enhancements (Surveillance Loadout):360-Degree Vision, Access Jacks, Chameleon Coating, COT Tool, Enhanced Hearing, Enhanced Vision, Grip Pads, Lidar, Radar, Radar Absorbent T-Ray Emitter, Wobblycat AI Enhancements (Explosive Loadout): Superthermite Charge, Thermobaric Warhead (as Missile, but detonates inside bot), Wobblycat AI Enhancements (Nonlethal Loadout): Seeker Pistol (Micromissile) with Gas, Overload, or Splash Micromissiles (10), Wobblycat AI",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>These fast-moving, cat-like bots are about 50 centimeters long (less the tail) and made of stealth materials. They fulfill a surveillance and occasionally antipersonnel role in urban operations. Wobblycats can run, jump, or climb unseen into areas where a humansized infiltrator would never be able to go, but with much greater speed than nanoswarms. The normal loadout for a Wobblycat is a suite of surveillance gear, but in an urban warfare or counterterrorism role, they can be loaded with explosives or non-lethal grenades instead. The Explosive loadout (below) destroys the bot when detonated.</p><p><em>Source: Eclipse Phase Firewall, p. 176.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "e1db12cbd0aa4b7d",
+  "sort": 56000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Wobblycat",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

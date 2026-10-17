@@ -1,0 +1,23 @@
+{
+  "_id": "2ec314242dc0e8e0",
+  "_key": "!items!2ec314242dc0e8e0",
+  "name": "Frail Sanity",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "frailSanity",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP (Level 1) or 20 CP (Level 20)",
+    "description": "<p>This ego’s mind is not as resilient as others. Its Lucidity is reduced by 5 per level. This also reduces Trauma Threshold by 1 or 2, respectively.</p><p><em>Source: Eclipse Phase Transhuman, p. 90.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 48000,
+  "ownership": {
+    "default": 0
+  }
+}

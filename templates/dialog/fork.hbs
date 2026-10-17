@@ -1,0 +1,11 @@
+<div class="ep1e fork-dialog">
+  <div class="form-group">
+    <label>{{localize "EP1E.Ego.forkKindLabel"}}</label>
+    <select name="kind">
+      {{#each kinds as |k|}}<option value="{{k.key}}">{{localize k.label}}</option>{{/each}}
+    </select>
+  </div>
+  <p class="hint">{{localize "EP1E.Ego.forkHint"}}</p>
+  <label class="checkbox"><input type="checkbox" name="longTerm"> {{localize "EP1E.Ego.longTerm"}}</label>
+  <label class="checkbox"><input type="checkbox" name="fromBackup"> {{localize "EP1E.Ego.fromBackup"}}</label>
+</div>

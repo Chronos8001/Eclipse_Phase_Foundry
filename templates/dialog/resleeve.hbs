@@ -1,0 +1,19 @@
+<div class="ep1e resleeve-dialog">
+  <p class="hint">{{localize "EP1E.Ego.resleeveHint"}}</p>
+  <fieldset>
+    <legend>{{localize "EP1E.Ego.modifiers"}}</legend>
+    <div class="checkbox-grid">
+      {{#each modifiers as |m|}}
+      <label><input type="checkbox" name="mod.{{m.key}}" {{#if m.checked}}checked{{/if}}> {{localize m.label}} ({{ep1eSigned m.value}}{{#if m.alienation}}, {{localize "EP1E.Ego.alienationOnly"}}{{/if}})</label>
+      {{/each}}
+    </div>
+  </fieldset>
+  <div class="form-group">
+    <label>{{localize "EP1E.Ego.situationLabel"}}</label>
+    <select name="situation">
+      {{#each situations as |s|}}<option value="{{s.key}}" {{#if s.selected}}selected{{/if}}>{{localize s.label}}</option>{{/each}}
+    </select>
+  </div>
+  <label class="checkbox"><input type="checkbox" name="notKnowing"> {{localize "EP1E.Ego.notKnowing"}}</label>
+  {{#if infomorph}}<p class="hint">{{localize "EP1E.Ego.infomorphNoIntegration"}}</p>{{/if}}
+</div>

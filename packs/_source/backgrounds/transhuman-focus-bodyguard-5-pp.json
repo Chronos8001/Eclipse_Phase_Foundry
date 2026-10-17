@@ -1,0 +1,106 @@
+{
+  "_id": "5da79546cc81c97b",
+  "_key": "!items!5da79546cc81c97b",
+  "name": "Bodyguard (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You protect your clients from harm and the stress and inconvenience of death. More often, you protect them from pestering fans, activists, or others that seek their attention.</p><p><strong>Suggested Motivations:</strong> +Duty, +Privacy, +Survival</p><p><strong>5 PP:</strong> +5 REF · +50 Rep (Your Choice) · Beam Weapons 30, Fray 30, Interest: (Choose Two) 30, Intimidation 30, Kinesics 50, Kinetic Weapons 30, Language: (Choose One) 40, Medicine: Paramedic 25, Perception 50, Profession: Bodyguard 50, Unarmed Combat 50</p><p><em>Source: Eclipse Phase Transhuman, p. 30.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "beamWeapons",
+        "name": "Beam Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose Two)",
+        "value": 30
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Paramedic",
+        "value": 25
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Bodyguard",
+        "value": 50
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Duty, +Privacy, +Survival"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 160000,
+  "ownership": {
+    "default": 0
+  }
+}

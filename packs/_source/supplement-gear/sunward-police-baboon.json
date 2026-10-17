@@ -1,0 +1,29 @@
+{
+  "_id": "35bcbab4c7a9027e",
+  "_key": "!items!35bcbab4c7a9027e",
+  "name": "Police Baboon",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "policeBaboon",
+    "cost": "High",
+    "description": "<p>Police baboons are transgenic Cape baboons modified for obedience, heightened intelligence, and longer attention spans. Still of only (enhanced) animal intelligence, they are typically fielded in groups of two to seven with police handlers. Working as a police baboon handler is an extremely dangerous job, as the baboons have been known to turn as a pack upon their handler in mentally stressful situations, such as when attacked with sensory or nerve agents, or more rarely when subjected to psi or encounters with exsurgents. Nonetheless, baboon units remain popular with police commanders for tracking, crowd control, and guarding prisoners. Baboons are frighteningly strong, and a pack of them can easily immobilize most prisoners—or tear them apart, if commanded. They are sometimes equipped with body armor and clubs. They are adapted to breathe Martian atmosphere.</p><p><em>Source: Eclipse Phase Sunward, p. 168.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

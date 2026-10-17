@@ -1,0 +1,58 @@
+{
+  "_id": "f1f4ff2fba81ae21",
+  "_key": "!items!f1f4ff2fba81ae21",
+  "name": "Martial Arts (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><strong>1 PP:</strong> Blades 30, Throwing Weapons 30, Unarmed Combat 40</p><p><em>Source: Eclipse Phase Transhuman, p. 37.</em></p>",
+    "kind": "package",
+    "group": "customization",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "blades",
+        "name": "Blades",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "throwingWeapons",
+        "name": "Throwing Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "f9eeb169f0911366",
+  "sort": 259000,
+  "ownership": {
+    "default": 0
+  }
+}

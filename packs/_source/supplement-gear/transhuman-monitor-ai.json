@@ -1,0 +1,77 @@
+{
+  "_id": "b4a814323cc5a257",
+  "_key": "!items!b4a814323cc5a257",
+  "name": "Monitor AI",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "monitorAi",
+    "cost": "High",
+    "description": "<p>These AIs are designed to surveil their subject and keep them from engaging in any proscribed activities. Skills: Academics: Psychology 60, Infosec 40, Interfacing 30, Perception 30, Profession: Surveillance 60, Research 30.</p><p><em>Source: Eclipse Phase Transhuman, p. 199.</em></p>",
+    "category": "ai",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "cog": 10,
+      "coo": 10,
+      "int": 10,
+      "ref": 10,
+      "sav": 10,
+      "som": 10,
+      "wil": 10
+    },
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Psychology",
+        "value": 60,
+        "specialization": ""
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 40,
+        "specialization": ""
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 30,
+        "specialization": ""
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30,
+        "specialization": ""
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Surveillance",
+        "value": 60,
+        "specialization": ""
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 30,
+        "specialization": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  }
+}

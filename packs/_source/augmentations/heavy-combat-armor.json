@@ -1,0 +1,20 @@
+{
+  "_id": "cfc49884439ac627",
+  "_key": "!items!cfc49884439ac627",
+  "name": "Heavy Combat Armor",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "heavyCombatArmor",
+    "augType": "robotic",
+    "cost": "High",
+    "description": "<p>The synthmorph’s frame is loaded with armor that offers protection from heavy weapons for serious combat operations. This modification is bulky and noticeable; the bot frame is encased in a heavy-duty carapace. It increases the bot’s built-in Armor to 16/16. The shell’s mobility systems and power output are also enhanced to deal with the extra load.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 76000,
+  "ownership": {
+    "default": 0
+  }
+}

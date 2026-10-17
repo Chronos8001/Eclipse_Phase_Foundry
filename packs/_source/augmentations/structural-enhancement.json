@@ -1,0 +1,20 @@
+{
+  "_id": "3045becc3c70017f",
+  "_key": "!items!3045becc3c70017f",
+  "name": "Structural Enhancement",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "structuralEnhancement",
+    "augType": "robotic",
+    "cost": "Moderate",
+    "description": "<p>This modification bolsters the shell’s structural integrity, boosting its ability to take damage. Increase Durability by 10 and Wound Threshold by 2.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  }
+}

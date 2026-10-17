@@ -1,0 +1,16 @@
+<div class="ep1e reload-dialog">
+  <p class="hint">{{localize "EP1E.Weapon.ammo"}} : {{ammo.value}} / {{ammo.max}}</p>
+  <div class="form-group">
+    <label>{{localize "EP1E.Weapon.munition"}}</label>
+    <select name="munition">
+      {{#each munitions as |m|}}<option value="{{m.id}}" {{#if m.selected}}selected{{/if}}>{{m.name}} ({{m.quantity}})</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Reload.size"}}</label>
+    <select name="size">
+      {{#each sizes as |s|}}<option value="{{s.key}}" {{#if s.selected}}selected{{/if}}>{{localize s.label}}</option>{{/each}}
+    </select>
+  </div>
+  <p class="hint">{{localize "EP1E.Reload.hint"}}</p>
+</div>

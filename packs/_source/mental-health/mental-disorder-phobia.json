@@ -1,0 +1,23 @@
+{
+  "_id": "523e82f72e3daec2",
+  "_key": "!items!523e82f72e3daec2",
+  "name": "Mental Disorder (Phobia)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>Phobias are a minor type of mental anxiety disorder based on an irrational fear of a particular situation or thing. Phobic characters will go to great lengths to avoid their particular fear—they must make a WIL x 3 Test to even stay within proximity, otherwise they will flee the area. If forced into close proximity with their fear, they will suffer 1 SV per hour and take a −10 modifier to all of their actions. If they are trapped in close proximity to the source of their fear, they will suffer (1d10 ÷ 2) SV per hour and</p><p><em>Source: Eclipse Phase Transhuman, p. 92.</em></p>",
+    "key": "mentalDisorder",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "da96dca306df51eb",
+  "sort": 47000,
+  "ownership": {
+    "default": 0
+  }
+}

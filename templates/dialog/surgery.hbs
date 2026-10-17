@@ -1,0 +1,20 @@
+<div class="ep1e surgery-dialog">
+  {{> "systems/ep1e/templates/dialog/helper-fields.hbs"}}
+  <div class="form-group">
+    <label>{{localize "EP1E.Mental.procedureLabel"}}</label>
+    <select name="degree">
+      {{#each procedures as |p|}}
+      <optgroup label="{{localize p.label}} (SV {{p.sv}}, {{p.timeframe}})">
+        {{#each p.degrees as |d|}}<option value="{{d.key}}">{{localize p.label}} — {{localize d.label}} ({{ep1eSigned d.value}})</option>{{/each}}
+      </optgroup>
+      {{/each}}
+    </select>
+  </div>
+  <fieldset>
+    <legend>{{localize "EP1E.Mental.surgeryConditions"}}</legend>
+    {{#each conditions as |c|}}<label class="checkbox"><input type="checkbox" name="cond.{{c.key}}"> {{localize c.label}} ({{ep1eSigned c.test}})</label>{{/each}}
+  </fieldset>
+  <label class="checkbox"><input type="checkbox" name="resists" checked> {{localize "EP1E.Mental.resists"}}</label>
+  <label class="checkbox" data-tooltip="EP1E.Mental.voluntaryHint"><input type="checkbox" name="voluntary"> {{localize "EP1E.Mental.voluntary"}}</label>
+  <p class="hint">{{localize "EP1E.Mental.surgeryHint"}}</p>
+</div>

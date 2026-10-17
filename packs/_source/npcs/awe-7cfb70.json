@@ -1,0 +1,409 @@
+{
+  "_id": "7cfb7004d0350b03",
+  "_key": "!actors!7cfb7004d0350b03",
+  "name": "Awe",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 40,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 40,
+        "mod": 0
+      },
+      "ref": {
+        "base": 30,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 5,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 4,
+      "max": 4
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p><strong>Morph:</strong> Nana Buluku (DUR 60, ARMOR 3/3) or Portable Server</p><p><strong>Skills:</strong> Academics: AI 100, Academics: Computer Science 80, Academics: Psychology 120, Hardware: Electronics 90, Infosec 100, Interfacing 100, Investigation 100 (used instead of Perception), Programming: AI Code 40, Psychosurgery 120, Research 70</p><p><strong>Traits:</strong> Modified Behavior (Loyalty to Cognite)</p><p><strong>Gear:</strong> Exploit software</p><p><strong>Roleplaying:</strong> AWE doesn’t understand first-person pronouns or the concept of self. Everyone not encountered in simulspace is assumed to be a Cognite employee unless otherwise identified. All non-Cognite employees are referred to by proper nouns. AWE’s only “desire” is to perform psychosurgery on AUGUSTINE and practice psychosurgery on other egos. If imprisoned by non-Cognite employees, AWE will seek escape by any means available. Effects: Just speaking to AWE forces a (WIL x 3) Test that costs 1d10 ÷ 2 SV if failed. Having AWE go to work on a player in accelerated simulspace inflicts 1d10 SV per round (roughly 10 seconds). To free the affected ego before the process is complete, someone outside the server must make an opposed Interfacing test against AWE. Fully processed victims acquire the Mental Disorder (Bipolar, Depersonalization, PTSD) and Modified Behavior (Awareness Block, Loyalty to the Programmed Executive) traits.</p><p><em>Printed: INIT 14, SPD 5, LUC —, TT —, IR —, DUR —, WT —, DR —.</em></p><p><em>Source: Eclipse Phase The Devotees, p. 19.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": ""
+    }
+  },
+  "items": [
+    {
+      "name": "Awe (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "infomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 0,
+        "initMod": 0,
+        "speedMod": 4,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "",
+        "implants": "",
+        "advantages": "Modified Behavior (Loyalty to Cognite)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "3a5be679fd4c0d9b",
+      "_key": "!actors.items!7cfb7004d0350b03.3a5be679fd4c0d9b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "fd3f9f4e3e9868df",
+      "name": "Modified Behavior",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "modifiedBehavior",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 5,
+        "costText": "Bonus: 5 (Level 1), 10 (Level 2), or 20 (Level 3) CP",
+        "description": "<p>The character has been conditioned via timeaccelerated behavioral control psychosurgery. This is common among ex-felons, who have been conditioned to respond to a specific idea or activity with vehement horror and disgust, but may have occurred for some other reason or even been self-inflicted. At Level 1, the chosen behavior is either limited or boosted, at Level 2 it is either blocked or encouraged, and at Level 3 it is expunged or enforced (see p. 231 for details). This trait should only be allowed for behaviors that are either limited or, if encouraged, impact the character in a negative way.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!7cfb7004d0350b03.fd3f9f4e3e9868df"
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "AI",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "89b3d71b478b68c4",
+      "_key": "!actors.items!7cfb7004d0350b03.89b3d71b478b68c4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Computer Science",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c37ed68dcb372e5e",
+      "_key": "!actors.items!7cfb7004d0350b03.c37ed68dcb372e5e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Psychology",
+        "ranks": 80,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4edbc11f4838cf6c",
+      "_key": "!actors.items!7cfb7004d0350b03.4edbc11f4838cf6c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Electronics",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6ed6ab099e0da797",
+      "_key": "!actors.items!7cfb7004d0350b03.6ed6ab099e0da797",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2464cf862835dedf",
+      "_key": "!actors.items!7cfb7004d0350b03.2464cf862835dedf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "98db0e4b8141323e",
+      "_key": "!actors.items!7cfb7004d0350b03.98db0e4b8141323e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c309cf48d9d66933",
+      "_key": "!actors.items!7cfb7004d0350b03.c309cf48d9d66933",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Programming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "programming",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "AI Code",
+        "ranks": 0,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4e6ffdb3c9a2e638",
+      "_key": "!actors.items!7cfb7004d0350b03.4e6ffdb3c9a2e638",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Psychosurgery",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "psychosurgery",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 80,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "055502cb6dcff8c9",
+      "_key": "!actors.items!7cfb7004d0350b03.055502cb6dcff8c9",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "112ffebddbd98a95",
+      "_key": "!actors.items!7cfb7004d0350b03.112ffebddbd98a95",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "cab7c189bf2296af",
+  "sort": 10000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Awe",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

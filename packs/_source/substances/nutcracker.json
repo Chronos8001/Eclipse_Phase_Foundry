@@ -1,0 +1,27 @@
+{
+  "_id": "4c3785c3276ffef5",
+  "_key": "!items!4c3785c3276ffef5",
+  "name": "Nutcracker",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "nutcracker",
+    "category": "nanotoxin",
+    "substanceType": "nano",
+    "application": "Inj, O",
+    "onset": "Immediate",
+    "duration": "6 hours",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "High",
+    "quantity": 1,
+    "description": "<p>Nutcrackers are nanobots designed to locate, migrate, and decompose the synthdiamond case of a cortical stack within a morph by attacking its crystal lattice. This process takes approximately 6 hours, after which the cortical stack is destroyed. These nanobots also attack the cortical stack’s connections to the (cyber)brain and brain-mapping nanobots. After 1 hour, the victim will be aware that their cortical stack is threatened. After 3 hours, all connections will be severed and the cortical stack will no longer be able to back up the character.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 324.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 39000,
+  "ownership": {
+    "default": 0
+  }
+}

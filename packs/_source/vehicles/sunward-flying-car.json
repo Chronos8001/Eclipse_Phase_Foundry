@@ -1,0 +1,67 @@
+{
+  "_id": "4772522665c9f8c4",
+  "_key": "!actors!4772522665c9f8c4",
+  "name": "Flying Car",
+  "type": "vehicle",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "category": "aircraft",
+    "passengers": "4",
+    "handling": 0,
+    "movement": "8/40 (ground)",
+    "maxVelocity": "30/180 (ground)",
+    "mobility": "",
+    "av": {
+      "energy": 20,
+      "kinetic": 10
+    },
+    "durability": 150,
+    "woundThreshold": 30,
+    "deathRating": 300,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>These highly-efficient, methane-powered, turbofan vectored-thrust vehicles are common on Mars, especially in the cities and larger settlements. The vehicle is the size of a small sedan, and the fans fold into the body when not in use, enabling it to also operate as a ground car. On the ground, they have a maximum velocity of 180 kph on roads, but only 60 kph off-road. Flying car cabins are pressurized, heated, equipped with radar and a radio booster, and provide life support for biomorphs unequipped to breath Martian atmosphere. Air: movement —, max velocity 200.</p><p><em>Source: Eclipse Phase Sunward, p. 168.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "9047c9e532eaea58",
+  "sort": 4000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Flying Car",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wing.svg"
+    }
+  }
+}

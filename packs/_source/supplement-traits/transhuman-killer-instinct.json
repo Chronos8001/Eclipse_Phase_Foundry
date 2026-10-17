@@ -1,0 +1,23 @@
+{
+  "_id": "216f0e2d629609e7",
+  "_key": "!items!216f0e2d629609e7",
+  "name": "Killer Instinct",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "killerInstinct",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 15,
+    "costText": "Cost: 15 CP",
+    "description": "<p>This trait is only available to uplifts, and is most common in those from octopus or orca genestock. During uplift the most predatory aspect of the character’s psyche was left largely intact, and this has left them comfortable with bloodletting. The character does not take stress from committing extreme violence in situations they feel are justified and necessary, and they receive a +30 modifier on Stress Tests when witnessing extreme violence committed by others.</p><p><em>Source: Eclipse Phase Transhuman, p. 85.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  }
+}

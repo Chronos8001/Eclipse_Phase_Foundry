@@ -1,0 +1,20 @@
+{
+  "_id": "fb3de76d31d41f18",
+  "_key": "!items!fb3de76d31d41f18",
+  "name": "Hidden Compartment",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "hiddenCompartment",
+    "augType": "robotic",
+    "cost": "Low",
+    "description": "<p>The shell has a concealed aperture for a shielded interior compartment, ideal for storing valuables or smuggling contraband. Apply a –30 modifier to detect this compartment either manually or with sensor scans.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 94000,
+  "ownership": {
+    "default": 0
+  }
+}

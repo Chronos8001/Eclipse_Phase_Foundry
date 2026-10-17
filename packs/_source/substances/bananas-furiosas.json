@@ -1,0 +1,27 @@
+{
+  "_id": "dde999b2503f471e",
+  "_key": "!items!dde999b2503f471e",
+  "name": "Bananas Furiosas",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "bananasFuriosas",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "O",
+    "onset": "20 minutes",
+    "duration": "1 day",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>This drug reverses some of the effects of de-ionizing radiation on the cells of the body. Although a pill form is available, it most commonly comes in large bunches of bright orange-red bananas. Bananas reduce the severity of a radiation dosage (gamemaster determines effect).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 319.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  }
+}

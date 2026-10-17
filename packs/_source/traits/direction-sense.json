@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/upgrade.svg",
   "system": {
+    "key": "directionSense",
     "traitType": "positive",
     "scope": "ego",
     "level": 1,
     "cost": 5,
     "costText": "Cost: 5 CP",
-    "description": "<p>Somehow the character always knows which way is up, north, etc., even when blinded. The character receives a +10 modifier for figuring out complex directions, reading maps, and remembering or retracing a path they have taken.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>Somehow the character always knows which way is up, north, etc., even when blinded. The character receives a +10 modifier for figuring out complex directions, reading maps, and remembering or retracing a path they have taken.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 145.</em></p>"
   },
   "effects": [],
   "flags": {},

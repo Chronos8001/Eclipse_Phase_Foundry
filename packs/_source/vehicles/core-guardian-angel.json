@@ -1,0 +1,67 @@
+{
+  "_id": "92b816098c860da2",
+  "_key": "!actors!92b816098c860da2",
+  "name": "Guardian Angel",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "8/40",
+    "maxVelocity": "80",
+    "mobility": "Rotor",
+    "av": {
+      "energy": 14,
+      "kinetic": 12
+    },
+    "durability": 40,
+    "woundThreshold": 8,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "+5 REF, 360-Degree Vision, Access Jacks, Chameleon Skin, Eelware, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Lidar, Light Combat Armor, Neurachem, T-Ray Emitter",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Similar to gnats, guardian angel rotorcraft hover around their charges, keeping a watchful eye out to protect them from threats.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 345.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 15000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Guardian Angel",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

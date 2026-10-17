@@ -1,0 +1,20 @@
+{
+  "_id": "5c9b63a72fc9f73a",
+  "_key": "!items!5c9b63a72fc9f73a",
+  "name": "Hand Laser",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "handLaser",
+    "augType": "cyberware",
+    "cost": "Moderate",
+    "description": "<p>The morph has a weapon-grade laser implanted in its forearm, with a flexible waveguide leading to a lens located between the first two knuckles on the morph’s dominant hand. The laser fires from this waveguide, inflicting 2d10 damage with 0 AP. The laser is powered by a small nuclear battery located in the morph’s torso, good for 50 shots before it must be recharged like other beam weapon batteries (p. 338).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 308.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 55000,
+  "ownership": {
+    "default": 0
+  }
+}

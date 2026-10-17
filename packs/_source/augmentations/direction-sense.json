@@ -1,0 +1,20 @@
+{
+  "_id": "124bf635128d920e",
+  "_key": "!items!124bf635128d920e",
+  "name": "Direction Sense",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "directionSense",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The character has an innate sense of direction and distance using advanced inertial navigation. The character can arbitrarily define any point as “north” and keep track of which direction that is, as well as knowing approximately how far they have come. Characters with this augmentation can always retrace any route they have taken, only experiencing difficulty with three-dimensional routes lacking navigational markers (such as deep space or undersea; apply a –30 modifier). Since positioning inside habitats by anyone with basic mesh inserts is an automatic affair, only characters venturing to remote locations require this augmentation.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 301.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

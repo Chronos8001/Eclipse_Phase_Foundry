@@ -1,0 +1,67 @@
+{
+  "_id": "a860ed3da5035286",
+  "_key": "!actors!a860ed3da5035286",
+  "name": "Mobility Frame",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "1",
+    "handling": 10,
+    "movement": "8/32",
+    "maxVelocity": "32",
+    "mobility": "",
+    "av": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "durability": 25,
+    "woundThreshold": 5,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>To many gatecrashers, the most reliable form of movement is walking. This device is a lightweight partial exoskeleton consisting of a comfortably designed framework of narrow bars and tiny motors that straps onto the wearer’s waist, legs, and feet. It allows the wearer to run and walk both faster and with less effort. Characters wearing a mobility frame can walk or run for twice as long as normal without suffering any additional fatigue. Wearing a mobility frame also allows the wearer to add +4 meters per turn walking and +12 meters per turn running. Mobility frames include balanceenhancing software that adds +20 to any roll to avoid tripping, falling, or losing balance. This device is powered by a small nuclear battery that allow it to operate continuously for three years. The device weighs 11 kg.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 164.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 31000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Mobility Frame",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

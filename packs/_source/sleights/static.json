@@ -1,0 +1,33 @@
+{
+  "_id": "e8fbc24a3c9bf43f",
+  "_key": "!items!e8fbc24a3c9bf43f",
+  "name": "Static",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "static",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "close",
+    "duration": "sustained",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>None The async generates an anti-psi jamming field, impeding any use of ranged sleights within their range. All such ranged sleights suffer a –30 modifier. This sleight has no effect on self or touch-range sleights.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 228.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 38000,
+  "ownership": {
+    "default": 0
+  }
+}

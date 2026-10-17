@@ -1,0 +1,67 @@
+{
+  "_id": "b5b28400496ae74a",
+  "_key": "!actors!b5b28400496ae74a",
+  "name": "Microlight",
+  "type": "vehicle",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "category": "aircraft",
+    "passengers": "1",
+    "handling": 20,
+    "movement": "8/40",
+    "maxVelocity": "100",
+    "mobility": "",
+    "av": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "durability": 30,
+    "woundThreshold": 10,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This ultra-light personal aircraft is not much more than a strut-based wing, an airframe, and an electric propeller engine. They are ideal for getting around inside large habitats with enclosed airspace.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 343.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 1000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Microlight",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wing.svg"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "5ed7aafa357c0f62",
+  "_key": "!items!5ed7aafa357c0f62",
+  "name": "Kong",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "kong",
+    "cost": "Low",
+    "description": "<p>Kong is a potent drug cocktail that boosts the aggressiveness of non-human primates. Uplifts and smart animals under the influence of kong must make a WIL x 3 Test or automatically attack anyone that exhibits threatening behavior. Kong users can ignore the effects of 1 wound, receive a +5 SOM bonus and a +10 bonus on melee attacks, but suffer a −5 INT modifier. Once engaged in violence, the affected primate must make a WIL x 3 Test to not automatically attack the next nearest target. Attempts to control primates under the influence of kong suffer a −30 modifier to their Animal Handling Tests. Once the effects of this drug wear off, the user suffers −5 SOM for an equivalent duration.</p><p><em>Source: Eclipse Phase Panopticon, p. 151.</em></p>",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "Inh, Inj, O",
+    "onset": "3 Action Turns",
+    "duration": "1 hour",
+    "addictionMod": "–10",
+    "addictionType": "physical",
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

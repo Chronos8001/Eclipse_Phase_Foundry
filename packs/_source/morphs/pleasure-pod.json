@@ -33,18 +33,18 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Clean Metabolism, Cortical Stack, Cyberbrain, Enhanced Pheromones, Mnemonic Augmentation, Puppet Sock, Sex Switch",
-    "advantages": "+5 INT, +5 SAV, +5 to one aptitude of the player's choice",
+    "advantages": "+5 INT, +5 SAV, +5 to one aptitude of the player’s choice",
     "disadvantages": "Social Stigma (Pleasure Pod) trait",
     "skillBonuses": [],
     "cpCost": 20,
     "creditCost": "High",
     "active": false,
-    "description": "<p>Pleasure pods are exactly what they seem--faux humans designed purely for intimate entertainment purposes. Pleasure pods have extra nerve clusters in their erogenous zones, fine motor control over certain muscle groups, enhanced pheromones, sanitized metabolisms, and the genetics for purring. Naturally, they are crafted for good looks and charisma and enhanced in other areas as well. Pleasure pods are capable of switching their sex at will to male, female, hermaphrodite, neuter, or other intersex variations.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 76.</em></p>"
+    "description": "<p>Pleasure pods are exactly what they seem—faux humans designed purely for intimate entertainment purposes. Pleasure pods have extra nerve clusters in their erogenous zones, fine motor control over certain muscle groups, enhanced pheromones, sanitized metabolisms, and the genetics for purring. Naturally, they are crafted for good looks and charisma and enhanced in other areas as well. Pleasure pods are capable of switching their sex at will to male, female, hermaphrodite, neuter, or other intersex variations.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 76.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 90000,
+  "sort": 91000,
   "ownership": {
     "default": 0
   }

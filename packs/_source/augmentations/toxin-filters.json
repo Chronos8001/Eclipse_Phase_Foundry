@@ -1,0 +1,20 @@
+{
+  "_id": "6cdbbeb15684daf8",
+  "_key": "!items!6cdbbeb15684daf8",
+  "name": "Toxin Filters",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "toxinFilters",
+    "augType": "bioware",
+    "cost": "Moderate",
+    "description": "<p>The morph gains an improved liver and kidneys and biological filters in its lungs. Characters with this augmentation are immune to all chemical and biological toxins, including everything from recreational chemicals to nerve agents to spoiled food. In addition, the character can safely and comfortably Synthmorphs and Bioware Though bioware is preferred and more common, many types of bioware can be mimicked with cybernetics. This is especially useful for synthmorphs/ robots, which cannot be enhanced with bioware. The following bioware items may be replicated as cybernetics for synthmorphs and robots: • Chameleon Skin • Drug Glands • Eelware • Emotional Dampers • Enhanced Senses (All) • Grip Pads • Mental Augmentations (All) • Muscle Augmentation • Neurachem • Poison Glands • Prehensile Feet • Prehensile Tail n breathe smoke and drink salt water. Unlike medichines, toxin immunity prevents the character from experiencing even brief harm or discomfort from a toxin (medichines merely rapidly repair damage caused by the toxin and then remove it from the morph). This augmentation provides no resistance to concentrated acid, nanotechnological attacks, or similar destructive agents. Some characters with this augmentation learn to enjoy the taste of various chemical toxins like cyanide or arsenic.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 305.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 39000,
+  "ownership": {
+    "default": 0
+  }
+}

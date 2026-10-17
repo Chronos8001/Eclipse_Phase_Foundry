@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/upgrade.svg",
   "system": {
+    "key": "painTolerance",
     "traitType": "positive",
     "scope": "both",
     "level": 1,
     "cost": 10,
     "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
-    "description": "<p>The character has a high threshold for pain tolerance and is better at ignoring the effects of pain on their abilities and concentration. Level 1 allows them to ignore the -10 modifier from 1 wound. Level 2 allows them to ignore the -10 modifiers from 2 wounds. This trait is only available for biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The character has a high threshold for pain tolerance and is better at ignoring the effects of pain on their abilities and concentration. Level 1 allows them to ignore the –10 modifier from 1 wound. Level 2 allows them to ignore the –10 modifiers from 2 wounds. This trait is only available for biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
   },
   "effects": [],
   "flags": {},

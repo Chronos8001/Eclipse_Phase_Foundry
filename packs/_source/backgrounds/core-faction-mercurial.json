@@ -1,0 +1,39 @@
+{
+  "_id": "2563a7f90cc9c049",
+  "_key": "!items!2563a7f90cc9c049",
+  "name": "Mercurial",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>Your faction has no interest in co-opting their true natures in order to become more “human.” You might be an AGI that does not necessarily intertwine its destiny with transhumanity, or an uplift that seeks to preserve and promote non-human life (or at least your own species). You might even be an infomorph or posthuman who has strayed so far from transhuman interests and values that you now consider yourself to be forging a unique new path of life.</p><p>Advantages: +10 to any two skills of your choice, +20 to a Networking: [Field] skill of your choice Disadvantages: None Common Morphs: Infomorphs, Synths, uplift morphs</p><p><em>Source: Eclipse Phase Core Rulebook, p. 134.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to any two skills of your choice; +20 to a Networking: [Field] skill of your choice",
+    "restrictions": "",
+    "morphs": "Infomorphs, Synths, uplift morphs",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

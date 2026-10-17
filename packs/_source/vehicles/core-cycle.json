@@ -1,0 +1,67 @@
+{
+  "_id": "672319a99e032698",
+  "_key": "!actors!672319a99e032698",
+  "name": "Cycle",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "1–3",
+    "handling": 20,
+    "movement": "4/40",
+    "maxVelocity": "120",
+    "mobility": "",
+    "av": {
+      "energy": 12,
+      "kinetic": 10
+    },
+    "durability": 50,
+    "woundThreshold": 10,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Because of the high cost of enclosing a habitat and providing life support, space is at a premium in all cities except some of the newest cities on Mars. As a result, there is rarely room for large roads or the cars that once carpeted the roads of Earthly cities. Instead, the ubiquitous modern vehicle is the cycle, which is designed to drive down narrow streets only a little wider than sidewalks in Earth cities. There are many different varieties of cycle. Some have only a single wheel and are gyro-stabilized, but most have two wheels and resemble old Earth motorcycles. In some, the driver and passenger are enclosed by a streamlined pod. These vehicles are powered by superconducting batteries, have a range of 600 km and a top speed of 120 kph, but must usually drive more slowly in crowded streets. Cycles are all equipped with radio boosters, headlights, and a portable radar sensor. Tires are solid state (not inflated), or in some cases smart spokes capable of handling stairs. Some luxury versions have limited life-support in the small cabin, capable of providing air for the passengers for up to 10 hours.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 344.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 5000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Cycle",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

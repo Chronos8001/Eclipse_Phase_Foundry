@@ -1,0 +1,29 @@
+{
+  "_id": "ac47fe791508921d",
+  "_key": "!items!ac47fe791508921d",
+  "name": "Smart Plankton",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartPlankton",
+    "cost": "Moderate",
+    "description": "<p>Smart plankton is a nanoswarm variant of smart dust (p. 316, EP) designed for underwater use. The plankton nanobots are designed for aquatic movement and can communicate via flashing lights and infrasound. Like smart dust, smart plankton can record video, audio (including infrasound and ultrasound), water temperature, chemical traces, as well as movement and other data.</p><p><em>Source: Eclipse Phase Panopticon, p. 152.</em></p>",
+    "category": "nanotech",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 31000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "f0a544516d57bf81",
+  "_key": "!items!f0a544516d57bf81",
+  "name": "Cyberlimb",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "cyberlimb",
+    "augType": "cyberware",
+    "cost": "Moderate",
+    "description": "<p>In an age when arms and legs can easily be regrown, many people consider cybernetic prostheses to be vulgar and distasteful. The Scum and others, however, treat them as iconic symbols of self-expression. Standard replacement cyberlimbs function the same as their biological equivalents, though that particular limb receives a +3/+3 Armor bonus when targeted specifically (this bonus does not apply to synthmorphs). Cyberlimbs may be masked to look real (see Synthetic Mask, p. 311), and may also feature small compartments for hiding/storing small objects.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 307.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 53000,
+  "ownership": {
+    "default": 0
+  }
+}

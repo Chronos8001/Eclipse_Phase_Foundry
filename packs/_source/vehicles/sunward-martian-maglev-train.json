@@ -1,0 +1,67 @@
+{
+  "_id": "aa76810a749b9065",
+  "_key": "!actors!aa76810a749b9065",
+  "name": "Martian Maglev Train",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "groundcraft",
+    "passengers": "30–60",
+    "handling": 0,
+    "movement": "4/40",
+    "maxVelocity": "500",
+    "mobility": "",
+    "av": {
+      "energy": 20,
+      "kinetic": 15
+    },
+    "durability": 150,
+    "woundThreshold": 30,
+    "deathRating": 300,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Not Available",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>These trains use magnetic levitation systems for propulsion. Passenger and sleeper cars are airlocked, pressurized, and heated, whereas cargo cars are not, except for cars handling sensitive cargo. While basic systems (doors, windows, entertainment systems, makers) are meshed and may be controlled or exploited per standard mesh rules, control systems (life support, brakes, acceleration, magnetic dynamos, security doors) are on an air-gapped hardwired network and require physical access to hack.</p><p><em>Source: Eclipse Phase Sunward, p. 169.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "9047c9e532eaea58",
+  "sort": 7000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Martian Maglev Train",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

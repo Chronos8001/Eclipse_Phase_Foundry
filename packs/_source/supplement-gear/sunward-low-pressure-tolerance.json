@@ -1,0 +1,20 @@
+{
+  "_id": "3d5bc3d37f723945",
+  "_key": "!items!3d5bc3d37f723945",
+  "name": "Low Pressure Tolerance",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "lowPressureTolerance",
+    "cost": "Low",
+    "description": "<p>The morph can tolerate extremely low atmospheric pressures, such as those found at high altitudes on Mars, with no ill effects. Morphs with this mod are also somewhat more resistant to vacuum exposure and are able to spend up to five minutes in hard vacuum without incurring damage. However, morphs without respirocytes or an oxygen reserve still suffer asphyxiation.</p><p><em>Source: Eclipse Phase Sunward, p. 166.</em></p>",
+    "augType": "bioware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

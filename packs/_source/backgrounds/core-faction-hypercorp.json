@@ -1,0 +1,52 @@
+{
+  "_id": "ee81ff78443e573b",
+  "_key": "!items!ee81ff78443e573b",
+  "name": "Hypercorp",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>You hail from a habitat controlled by the hypercorps. You might be a hypercapitalist entrepeneur, a hedonistic socialite, or a lowly vacworker, but you accept that certain liberties must be sacrificed for security and freedom.</p><p>Advantages: +10 Protocol skill, +20 Networking: Hypercorps skill, +10 to any Networking: [Field] skill Disadvantages: None Common Morphs: Exalts, Olympians, Splicers, Sylphs</p><p><em>Source: Eclipse Phase Core Rulebook, p. 133.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "protocol",
+        "name": "Protocol",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Hypercorps",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to any Networking: [Field] skill",
+    "restrictions": "",
+    "morphs": "Exalts, Olympians, Splicers, Sylphs",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

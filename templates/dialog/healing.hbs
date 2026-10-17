@@ -1,0 +1,19 @@
+<div class="ep1e healing-dialog">
+  <div class="form-group">
+    <label>{{localize "EP1E.Mental.hours"}}</label>
+    <input type="number" name="hours" value="24" min="0">
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Mental.careLabel"}}</label>
+    <select name="care">
+      {{#each cares as |c|}}<option value="{{c.key}}" {{#if c.selected}}selected{{/if}}>{{localize c.label}}</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "EP1E.Mental.conditionLabel"}}</label>
+    <select name="condition">
+      {{#each conditions as |c|}}<option value="{{c.key}}">{{localize c.label}}</option>{{/each}}
+    </select>
+  </div>
+  <p class="hint">{{localize "EP1E.Mental.healingHint"}}</p>
+</div>

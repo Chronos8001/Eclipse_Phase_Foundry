@@ -1,0 +1,576 @@
+{
+  "_id": "bbb48665c9fc9887",
+  "_key": "!actors!bbb48665c9fc9887",
+  "name": "Factor Gestalt",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 30,
+        "mod": 0
+      },
+      "coo": {
+        "base": 30,
+        "mod": 0
+      },
+      "int": {
+        "base": 30,
+        "mod": 0
+      },
+      "ref": {
+        "base": 30,
+        "mod": 0
+      },
+      "sav": {
+        "base": 25,
+        "mod": 0
+      },
+      "som": {
+        "base": 35,
+        "mod": 0
+      },
+      "wil": {
+        "base": 30,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Ultraviolet</p><p><strong>Numbers:</strong> 1</p><p>Factors achieved dominance through cunning, but intelligence wasn’t always enough. To survive against stronger predators, Factors evolved the means to form a gestalt, a form of weaponized collectivism. Factors already meld into singular colony organisms capable of multitasking and group consciousness. The gestalt uses this same ability to exponentially increase a colony&#x27;s killing power. Transhumanity has never witnessed a gestalt. Gestalts take the form of giant slime molds, their size based on the number of available Factors and the threat presented. Gestalts can shoot keratin shards that pierce armor to deliver a poisonous payload and extend numerous tentacles hardened to a terrifying sharpness. They exude a choking, blinding haze and can produce potent toxins. Kinetic weapons remain impotent against them, but the gestalt&#x27;s regenerative capabilities are phenomenal.</p><p><strong>Stress Test:</strong> SV 1d10 + 3</p><p><strong>Traits:</strong> Direction Sense (Magnetoception),Very Large Size (+30 to hit)</p><p><strong>Ware:</strong> Chameleon Skin, Electrical Sense, Enhanced Vision (Infrared Only), Grip Pads</p><p><strong>Poison:</strong> Injected, Onset Time: 1 Action Turn, Duration 1ActionTurn/10 minutes,victims take DV 2d10 + 5 and are incapacitated with convulsions;a SOM x 3Test halves the damage and replaces convulsions with a −20 modifier to all actions.Medichines reduce the duration by half.</p><p><strong>Dust Cloud:</strong> Factor gestalts are surrounded by a miasma of Factor dust, extending to a 30 meter radius.This dust impedes visibility (−20), reduces laser pulser ranges by half, and biomorphs must make a SOM x 3 Test or suffer −10 due to coughing and choking.</p><p><strong>Immunity to Kinetic Damage:</strong> Factors take minimum DV from kinetic weapons and blades.</p><p><strong>Poison Glands:</strong> Gestalts can generate poison glands to secrete/exhale new toxins besides Factors dust, emulating the effects of other neurotoxins. Growing a new poison gland takes about 1 hour.</p><p><strong>Regeneration:</strong> Gestalts regenerate 1d10 damage per Action Turn; wounds may not be regenerated.</p><p><em>Initiative printed: 8 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 40, Death Rating 300.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 107.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Factor Gestalt (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 200,
+        "speedMod": 1,
+        "initMod": 0,
+        "armor": {
+          "energy": 15,
+          "kinetic": 10
+        },
+        "movement": "5/25 Walker",
+        "implants": "Chameleon Skin, Electrical Sense, Enhanced Vision (Infrared Only), Grip Pads",
+        "advantages": "Direction Sense (Magnetoception),Very Large Size (+30 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "6f31b7fd91c7912f",
+      "_key": "!actors.items!bbb48665c9fc9887.6f31b7fd91c7912f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "climbing",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6cb1a75001b84e05",
+      "_key": "!actors.items!bbb48665c9fc9887.6cb1a75001b84e05",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Exotic Ranged Weapon",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "exoticRanged",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "Factor Dust",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "15e889511e6405fa",
+      "_key": "!actors.items!bbb48665c9fc9887.15e889511e6405fa",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Exotic Ranged Weapon",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "exoticRanged",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "Keratin Shard",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b643fa2bb31cf586",
+      "_key": "!actors.items!bbb48665c9fc9887.b643fa2bb31cf586",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Exotic Skill",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Trap-Making",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0bd81fb4499e5ab2",
+      "_key": "!actors.items!bbb48665c9fc9887.0bd81fb4499e5ab2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d58ef8f8af9f34b3",
+      "_key": "!actors.items!bbb48665c9fc9887.d58ef8f8af9f34b3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ff9970ba5fdd3c78",
+      "_key": "!actors.items!bbb48665c9fc9887.ff9970ba5fdd3c78",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cc3dd5e472e3c61e",
+      "_key": "!actors.items!bbb48665c9fc9887.cc3dd5e472e3c61e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "225c61188d7f0fbe",
+      "_key": "!actors.items!bbb48665c9fc9887.225c61188d7f0fbe",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 5,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8b76634bc27a6d76",
+      "_key": "!actors.items!bbb48665c9fc9887.8b76634bc27a6d76",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e5c3159f4953d09c",
+      "_key": "!actors.items!bbb48665c9fc9887.e5c3159f4953d09c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "dc9a3ecebe058b60",
+      "_key": "!actors.items!bbb48665c9fc9887.dc9a3ecebe058b60",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d7dc51ee2cd24619",
+      "_key": "!actors.items!bbb48665c9fc9887.d7dc51ee2cd24619",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Factor Dust",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 75,
+        "ap": 0,
+        "dv": "1d10",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Factor Dust: 75, cone area effect, Range 10 (2 targets) / 30 (4 targets) / 50 (6 targets) / 70 (6 targets). Toxin: Inhalation, Onset Time: 1 Action Turn, Duration: 5 turns/2 hours; victims suffer severe coughing and respiratory distress, DV 1d10 per turn for 5 Action Turns, −20 to all actions for 2 hours; medichines reduce DV by half and modifier duration to 15 minutes.</p>"
+      },
+      "_id": "23d277e57d9e809e",
+      "_key": "!actors.items!bbb48665c9fc9887.23d277e57d9e809e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Poison Keratin Shard",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 60,
+        "ap": -8,
+        "dv": "2d10 + 2",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Poison Keratin Shard: 60, DV 2d10 + 2, AP −8, SA, Range 10/20/40/60;</p>"
+      },
+      "_id": "b26bf217be2a2360",
+      "_key": "!actors.items!bbb48665c9fc9887.b26bf217be2a2360",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Tentacle Whip",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 70,
+        "ap": -5,
+        "dv": "3d10 + 12",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Tentacle Whip: 70, DV 3d10 + 12,AP −5, Reach (+20); struck targets may be subdued with a Quick Action (p. 204, EP)</p>"
+      },
+      "_id": "ce334125ac6dd46f",
+      "_key": "!actors.items!bbb48665c9fc9887.ce334125ac6dd46f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 16000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Factor Gestalt",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

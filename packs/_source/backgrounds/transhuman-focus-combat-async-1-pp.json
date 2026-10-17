@@ -1,0 +1,61 @@
+{
+  "_id": "0e2f7fe55050d8b3",
+  "_key": "!items!0e2f7fe55050d8b3",
+  "name": "Combat Async (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your psi abilities have been honed to a killing edge.</p><p><strong>Suggested Motivations:</strong> +Neurodiversity, +Self Control, +Survival, –Bloodlust</p><p><strong>1 PP:</strong> Profession: Squad Tactics 30, Psi Assault 30 · Traits: Psi (Level 2), Mental Disorder (Choose Two) · +3 Sleights (Your Choice)</p><p><em>Source: Eclipse Phase Transhuman, p. 30.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Squad Tactics",
+        "value": 30
+      },
+      {
+        "key": "psiAssault",
+        "name": "Psi Assault",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Psi",
+        "level": 2
+      },
+      {
+        "name": "Mental Disorder",
+        "level": 1
+      }
+    ],
+    "choices": "Mental Disorder: Choose Two; +3 Sleights (Your Choice)",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Neurodiversity, +Self Control, +Survival, –Bloodlust"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 164000,
+  "ownership": {
+    "default": 0
+  }
+}

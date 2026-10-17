@@ -1,0 +1,67 @@
+{
+  "_id": "f1ab9cc4ec599666",
+  "_key": "!actors!f1ab9cc4ec599666",
+  "name": "Diving Sled",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "watercraft",
+    "passengers": "2",
+    "handling": -20,
+    "movement": "4/16",
+    "maxVelocity": "20",
+    "mobility": "",
+    "av": {
+      "energy": 5,
+      "kinetic": 5
+    },
+    "durability": 40,
+    "woundThreshold": 8,
+    "deathRating": 80,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Cryonic Protection, Headlights, Hydrostatic Pressure Adaptation, Sonar",
+    "cost": "Low",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>This deep sea sled can pull along 2 passengers or 1 passenger with cargo.</p><p><em>Source: Eclipse Phase Rimward, p. 194.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "469ab101da588cac",
+  "sort": 18000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Diving Sled",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

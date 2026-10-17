@@ -1,0 +1,58 @@
+{
+  "_id": "191ece0a0fb60d12",
+  "_key": "!items!191ece0a0fb60d12",
+  "name": "Athletics (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><strong>1 PP:</strong> Climbing 30, Freerunning 40, Swimming 30</p><p><em>Source: Eclipse Phase Transhuman, p. 37.</em></p>",
+    "kind": "package",
+    "group": "customization",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "swimming",
+        "name": "Swimming",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "f9eeb169f0911366",
+  "sort": 251000,
+  "ownership": {
+    "default": 0
+  }
+}

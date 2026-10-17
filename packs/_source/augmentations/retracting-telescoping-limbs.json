@@ -1,0 +1,20 @@
+{
+  "_id": "a5d9de24e02b18c9",
+  "_key": "!items!a5d9de24e02b18c9",
+  "name": "Retracting/Telescoping Limbs",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "retractingTelescopingLimbs",
+    "augType": "robotic",
+    "cost": "Low",
+    "description": "<p>The shell’s limbs can either be retracted completely inside it’s frame and/or extended for extra length (usually up to 1 or 2 meters extra). Telescoping limbs may give the shell a reach advantage in melee combat (p. 204).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 98000,
+  "ownership": {
+    "default": 0
+  }
+}

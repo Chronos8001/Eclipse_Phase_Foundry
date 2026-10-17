@@ -1,0 +1,125 @@
+{
+  "_id": "34e9dd062bb4f3d3",
+  "_key": "!items!34e9dd062bb4f3d3",
+  "name": "Lost: Masked Normalcy (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You survived the Lost project damaged but intact—or at least able to mask your inner demons from others. You are not as gifted—or as explosive—an async as some of the others, but you are also better at keeping yourself under control.</p><p><strong>Suggested Motivations:</strong> +Acceptance +Privacy +Self Control</p><p><strong>5 PP:</strong> +1 Moxie · +50 Rep (Your Choice) · Academics: (Choose One) 40, Fray 20, Free Fall 30, Impersonation 40, Interest: (Choose One) 40, Interfacing 30, Kinesics 45, Language: (Choose One) 40, Persuasion 50, Profession: (Choose One) 30, Protocol 30, Sense: 50 · Traits: Psi (Level 2), Mental Disorder (Choose Three), On The Run · +6 Sleights: Choose 4 psi-chi, 2 psi-gamma</p><p><em>Source: Eclipse Phase Transhuman, p. 20.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "impersonation",
+        "name": "Impersonation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 45
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "protocol",
+        "name": "Protocol",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "sense",
+        "name": "Sense",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Psi",
+        "level": 2
+      },
+      {
+        "name": "Mental Disorder",
+        "level": 1
+      },
+      {
+        "name": "On The Run",
+        "level": 1
+      }
+    ],
+    "choices": "Mental Disorder: Choose Three; +6 Sleights: Choose 4 psi-chi; 2 psi-gamma",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Acceptance +Privacy +Self Control"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 60000,
+  "ownership": {
+    "default": 0
+  }
+}

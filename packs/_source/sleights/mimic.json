@@ -1,0 +1,33 @@
+{
+  "_id": "ca6f8d4c85b9550a",
+  "_key": "!items!ca6f8d4c85b9550a",
+  "name": "Mimic",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "mimic",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "quick",
+    "range": "close",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "sense",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>In a setting where changing your body and face is not unusual, people learn to recognize habits and personality quirks more often. The async must use this sleight on a target and succeed in a Success Test. If successful, the async acquires an “imprint” of the target’s mind that they can take advantage of when impersonating that ego. The async then receives a +30 bonus on Impersonation Tests when mimicking the target’s behavior and social cues.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 227.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 29000,
+  "ownership": {
+    "default": 0
+  }
+}

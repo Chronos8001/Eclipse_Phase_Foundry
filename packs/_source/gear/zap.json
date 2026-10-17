@@ -1,0 +1,29 @@
+{
+  "_id": "eb9ed253953e8661",
+  "_key": "!items!eb9ed253953e8661",
+  "name": "Zap",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "zap",
+    "category": "ammo",
+    "quantity": 1,
+    "cost": "Trivial",
+    "ammo": {
+      "ap": 2,
+      "dv": "",
+      "half": true,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": true
+    },
+    "description": "<p>Zap rounds are rubber or gel bullets that create an electric charge upon firing in a piezoelectric like manner to stun the target effectively with both the bullet and the electric shock.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 338.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 111000,
+  "ownership": {
+    "default": 0
+  }
+}

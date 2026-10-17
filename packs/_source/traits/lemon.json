@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
+    "key": "lemon",
     "traitType": "negative",
     "scope": "morph",
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 CP",
-    "description": "<p>This trait is only available for synthetic morphs. This particular morph has some unfixable flaws. Once per game session (preferably at a time that will maximize drama or hilarity), the gamemaster can call for the character to make a MOX x 10 Test (using their current Moxie score). If the character fails, the morph immediately suffers 1 wound resulting from some mechanical failure, electrical glitch, or other breakdown. This wound may be repaired as normal.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>This trait is only available for synthetic morphs. This particular morph has some unfixable flaws. Once per game session (preferably at a time that will maximize drama or hilarity), the gamemaster can call for the character to make a MOX x 10 Test (using their current Moxie score). If the character fails, the morph immediately suffers 1 wound resulting from some mechanical failure, electrical glitch, or other breakdown. This wound may be repaired as normal.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
   },
   "effects": [],
   "flags": {},

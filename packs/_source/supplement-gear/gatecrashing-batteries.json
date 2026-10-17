@@ -1,0 +1,29 @@
+{
+  "_id": "8859fbb6b78935c8",
+  "_key": "!items!8859fbb6b78935c8",
+  "name": "Batteries",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "batteries",
+    "cost": "Trivial",
+    "description": "<p>As described on p. 299, EP, power source technology in Eclipse Phase is far advanced from modern day. While these batteries are powerful and long-lived, and power is readily available in the inner system, gatecrashers occasionally test the limits of these capabilities, have technical problems, or even run across alien relics that they hope to power. For this reason, batteries are often brought along as a precautionary measure on short trips and are required gear on longer missions. Standard Batteries: Standard batteries are microsized, high-density, ultra-capacity, room-temperature superconductors good for hundreds of hours of operation. They are adapted to receive power from wireless energy transmitters or they can be replenished rapidly by attaching them to a recharger.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 155.</em></p>",
+    "category": "everyday",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  }
+}

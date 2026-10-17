@@ -1,0 +1,23 @@
+{
+  "_id": "7f6c9b22b028be6f",
+  "_key": "!items!7f6c9b22b028be6f",
+  "name": "Derangement: Hunger (Minor)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>You are suddenly consumed by an irrational yet overwhelming desire to eat something—perhaps even something unusual.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 210.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 0,
+    "costText": "Derangement (Minor), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

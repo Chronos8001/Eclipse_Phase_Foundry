@@ -1,4 +1,5 @@
 import { APTITUDES, SYSTEM_ID, skillChoices } from "../config.mjs";
+import { createAIActor } from "../dice/mesh.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ItemSheetV2 } = foundry.applications.sheets;
@@ -16,7 +17,8 @@ export class EPItemSheet extends HandlebarsApplicationMixin(ItemSheetV2) {
       createEffect: EPItemSheet.#onCreateEffect,
       editEffect: EPItemSheet.#onEditEffect,
       deleteEffect: EPItemSheet.#onDeleteEffect,
-      toggleEffect: EPItemSheet.#onToggleEffect
+      toggleEffect: EPItemSheet.#onToggleEffect,
+      createAIActor: EPItemSheet.#onCreateAIActor
     }
   };
 
@@ -125,6 +127,11 @@ export class EPItemSheet extends HandlebarsApplicationMixin(ItemSheetV2) {
 
   static #onDeleteEffect(event, target) {
     return this._getEffect(target)?.delete();
+  }
+
+  /** Create an NPC from an AI program, owned by the program's owner if any. */
+  static #onCreateAIActor() {
+    return createAIActor(this.document, { owner: this.document.actor });
   }
 
   static #onToggleEffect(event, target) {

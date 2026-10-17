@@ -1,0 +1,33 @@
+{
+  "_id": "8ceaa9e16e447e14",
+  "_key": "!journal!8ceaa9e16e447e14",
+  "name": "6. Mesh et piratage",
+  "folder": null,
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "pages": [
+    {
+      "_id": "798ab6e4df5f5556",
+      "_key": "!journal.pages!8ceaa9e16e447e14.798ab6e4df5f5556",
+      "name": "Mesh et piratage",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li>Intrusion : test d'Infosec contre le pare-feu, opposé au moniteur si le système est surveillé.</li><li>Piratage en force : +30, 1 minute, toujours repéré (verrouillé).</li><li>Cyberbrain : −30 pour pirater et subvertir.</li><li>Intrus caché : +30 pour subvertir le système.</li><li>Après un test sur le système : échec grave, le statut baisse d'un cran ; échec critique, verrouillé.</li><li>Verrouillage : l'intrus verrouillé se défend à −20.</li><li>Script : Programmation ÷ 10 étapes. Planter une IA : 2 tests opposés réussis de suite (3 pour une AGI ou un infomorphe).</li></ul><table><thead><tr><th>Privilèges visés</th><th>Modificateur</th></tr></thead><tbody><tr><td>Public</td><td>0</td></tr><tr><td>Utilisateur</td><td>0</td></tr><tr><td>Sécurité</td><td>−20</td></tr><tr><td>Admin</td><td>−30</td></tr></tbody></table><table><thead><tr><th>Statut</th><th>Alerte</th><th>Modificateur</th></tr></thead><tbody><tr><td>Caché</td><td>Aucune</td><td>0</td></tr><tr><td>Discret</td><td>Aucune</td><td>0</td></tr><tr><td>Repéré</td><td>Passive</td><td>−10</td></tr><tr><td>Verrouillé</td><td>Active</td><td>−20</td></tr></tbody></table><p>Qualité du matériel et des logiciels : de -30 (relique) à +30 (dernier cri).</p><p><em>Source : Eclipse Phase Core Rulebook, p. 246-262.</em></p>",
+        "format": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "system": {}
+    }
+  ]
+}

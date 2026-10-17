@@ -1,0 +1,23 @@
+{
+  "_id": "7f1a983990532b0e",
+  "_key": "!items!7f1a983990532b0e",
+  "name": "Crasher Suit",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "key": "crasherSuit",
+    "cost": "Expensive",
+    "description": "<p>Recently developed by Omnicor, this is a high-end version of a standard vacsuit customized for a gatecrasher’s needs. It has all of the features of a standard smart fabric vacsuit (p. 333, EP) except that it provides 10/10 armor and is equipped with wrist-mounted tools (p. 309, EP) and a Life-Support Pack (p. 159). The suit’s gauntlets and boots are also hardened and provide an extra +1d10 DV on melee attacks.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 157.</em></p>",
+    "energy": 10,
+    "kinetic": 10,
+    "equipped": false,
+    "accessory": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  }
+}

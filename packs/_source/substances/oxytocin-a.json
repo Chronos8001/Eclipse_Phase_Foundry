@@ -1,0 +1,27 @@
+{
+  "_id": "dc9e57646dfc9795",
+  "_key": "!items!dc9e57646dfc9795",
+  "name": "Oxytocin-A",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "oxytocinA",
+    "category": "toxin",
+    "substanceType": "bio",
+    "application": "Inh, Inj",
+    "onset": "3 minutes",
+    "duration": "2 hours",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>A genetically-improved variant of oxytocin, this drug induces trust in the recipient. Drugged characters suffer a –30 modifier on all WIL and Kinesics Tests where trust is a factor. Medichines provide immunity.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 324.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 34000,
+  "ownership": {
+    "default": 0
+  }
+}

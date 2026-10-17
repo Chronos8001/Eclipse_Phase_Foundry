@@ -1,0 +1,27 @@
+{
+  "_id": "b5aa4cde9d9c6a02",
+  "_key": "!items!b5aa4cde9d9c6a02",
+  "name": "Degen",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "degen",
+    "category": "pathogen",
+    "substanceType": "",
+    "application": "",
+    "onset": "",
+    "duration": "",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Expensive",
+    "quantity": 1,
+    "description": "<p>Characters exposed to this degenerative neurological disease must make a DUR x 2 Test or become infected. Medichines will defeat the disease, but others will not show signs of infection for 1 week, when the symptoms of a rapidly progressing dementia will become clear: memory loss, personality changes, and hallucinations. If untreated, Degen will progress for another week with more serious symptoms, including speech impediments, jerky movements, loss of balance and coordination, and even seizures. This is reflected by a 5 point loss in all aptitudes per day (after the first week). When any aptitude reaches 0, the character dies. Degen is notorious for its effect in corrupting cortical stack backups before infection symptoms manifest.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 324.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 40000,
+  "ownership": {
+    "default": 0
+  }
+}

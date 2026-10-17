@@ -35,9 +35,18 @@ IMG = {"biomorph": "icons/svg/mystery-man.svg", "pod": "icons/svg/mystery-man-bl
        "synthmorph": "icons/svg/cog.svg", "infomorph": "icons/svg/daze.svg"}
 
 
+def signed(text):
+    """Integer of "+5", "-5", "–5" or "−5" (the book prints en dashes and minus signs)."""
+    return int(re.sub(r"^[–−]", "-", text))
+
+
 def page_text(p):
-    out = subprocess.run(["pdftotext", "-f", str(p), "-l", str(p), PDF, "-"], capture_output=True)
-    return out.stdout.decode("utf-8", errors="replace").replace("�", "-")
+    out = subprocess.run(["pdftotext", "-enc", "UTF-8", "-f", str(p), "-l", str(p), PDF, "-"], capture_output=True)
+    text = out.stdout.decode("utf-8", errors="replace").replace("�", "-")
+    # Jenkin (p. 52) spells the label "Credit Costs"
+    text = text.replace("Credit Costs:", "Credit Cost:")
+    # "ROVER (SPACE FIGHTER VARIANT) This..." -> "SPACE FIGHTER VARIANT This..." (the base is the previous morph)
+    return re.sub(r"^[A-Z][A-Z' -]+ \(([A-Z][A-Z' -]+ VARIANT)\) ", r"\1 ", text, flags=re.M)
 
 
 def page_type(lines, p):
@@ -110,15 +119,15 @@ def parse_stats(fields, base=None):
         m = re.match(r"\d+", fields["Durability"])
         s["durability"] = int(m.group()) if m else 0
     if "Speed Modifier" in fields:
-        m = re.match(r"[+-]?\d+", fields["Speed Modifier"])
-        s["speedMod"] = int(m.group()) if m else 0
+        m = re.match(r"[+\-–−]?\d+", fields["Speed Modifier"])
+        s["speedMod"] = signed(m.group()) if m else 0
     if "Advantages" in fields:
         adv = fields["Advantages"]
         s["advantages"] = f"{s['advantages']} — Variant: {adv}" if base else adv
         bonus = dict(s["aptitudeBonus"]) if base else {a: 0 for a in APTS}
         # Ignore conditional bonuses written in parentheses, e.g. "(+20 with Reflex Booster)"
-        for val, apt in re.findall(r"(?<!\()([+-]\d+) (COG|COO|INT|REF|SAV|SOM|WIL)\b", re.sub(r"\([^)]*\)", "", adv)):
-            bonus[apt.lower()] += int(val)
+        for val, apt in re.findall(r"(?<!\()([+\-–−]\d+) (COG|COO|INT|REF|SAV|SOM|WIL)\b", re.sub(r"\([^)]*\)", "", adv)):
+            bonus[apt.lower()] += signed(val)
         s["aptitudeBonus"] = bonus
         skills = []
         for v, name in re.findall(r"\+(\d+) ([A-Z][a-z]+(?: [A-Z][a-z]+)?) skill", adv):
@@ -132,6 +141,9 @@ def parse_stats(fields, base=None):
     if "Disadvantages" in fields:
         dis = fields["Disadvantages"]
         s["disadvantages"] = f"{s['disadvantages']} — Variant: {dis}".strip(" —") if base else dis
+        # Penalties to a named aptitude ("−5 WIL"; "−5 to one chosen aptitude" is left to the player)
+        for val, apt in re.findall(r"(?<!\()([\-–−]\d+) (COG|COO|INT|REF|SAV|SOM|WIL)\b", re.sub(r"\([^)]*\)", "", dis)):
+            s["aptitudeBonus"][apt.lower()] += signed(val)
     if not re.search(r"Armor \(?\d+/\d+", s["advantages"]):
         for implant, (e, k) in IMPLANT_ARMOR.items():
             if implant in s["implants"]:

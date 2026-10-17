@@ -1,0 +1,20 @@
+{
+  "_id": "9507602e7c1e2217",
+  "_key": "!items!9507602e7c1e2217",
+  "name": "Enhanced Respiration (Specific)",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "enhancedRespirationSpecific",
+    "cost": "Low",
+    "description": "<p>The Enhanced Respiration bioware on p. 305 of the Eclipse Phase core rulebook is partly what allows rusters to breathe the atmosphere of Mars. There are many exoplanets with atmospheres that are not breathable by normal transhumans, but that are close enough that they would be with a bit of modification (see What Worlds Are Breathable?, p. 170). On some of these planets, rusters with standard enhanced respiration could breathe the air, but on others a different version of this biomod, specific to the atmosphere in question, may be called for.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 152.</em></p>",
+    "augType": "bioware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

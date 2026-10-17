@@ -1,0 +1,29 @@
+{
+  "_id": "0dc862475956eddc",
+  "_key": "!items!0dc862475956eddc",
+  "name": "Animal Training",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "animalTraining",
+    "cost": "Moderate per month",
+    "description": "<p>Smart animals take well to training, but not everyone has the time, inclination, or patience to do it right. Professional animal trainers provide this service, teaching them commands and new skills. See Smart Animal Training, p. 175, for estimated timeframes.</p><p><em>Source: Eclipse Phase Panopticon, p. 154.</em></p>",
+    "category": "service",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 48000,
+  "ownership": {
+    "default": 0
+  }
+}

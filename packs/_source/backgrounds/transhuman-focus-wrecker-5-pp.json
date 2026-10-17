@@ -1,0 +1,112 @@
+{
+  "_id": "8a1956c52b5b11bd",
+  "_key": "!items!8a1956c52b5b11bd",
+  "name": "Wrecker (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are optimized for killing machines. You either excelled at fighting TITAN constructs during the Fall or you continue to hunt them down in the aftermath.</p><p><strong>Suggested Motivations:</strong> +Explosions, +Survival, –TITANs</p><p><strong>5 PP:</strong> +1 Moxie · +5 COO, +50 Rep (Your Choice) · Demolitions 40, Fray 40, Infiltration 30, Infosec 20, Interest: (TITAN Tech) 50, Interest: (Choose One) 30, Kinetic Weapons 40, Perception 30, Profession:Wrecking Machines 30, Profession: Squad Tactics 40, Seeker Weapons 50,Throwing Weapons 30</p><p><em>Source: Eclipse Phase Transhuman, p. 36.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "demolitions",
+        "name": "Demolitions",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "TITAN Tech",
+        "value": 50
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Wrecking Machines",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Squad Tactics",
+        "value": 40
+      },
+      {
+        "key": "seekerWeapons",
+        "name": "Seeker Weapons",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "throwingWeapons",
+        "name": "Throwing Weapons",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Explosions, +Survival, –TITANs"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 247000,
+  "ownership": {
+    "default": 0
+  }
+}

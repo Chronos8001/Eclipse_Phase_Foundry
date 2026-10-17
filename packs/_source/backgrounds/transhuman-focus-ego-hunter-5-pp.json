@@ -1,0 +1,112 @@
+{
+  "_id": "e12e1680ced986b1",
+  "_key": "!items!e12e1680ced986b1",
+  "name": "Ego Hunter (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You specialize in tracking people down who don’t want to be found, no matter what morph they are currently sleeved in.</p><p><strong>Suggested Motivations:</strong> +Justice, +Self Reliance, +The Hunt</p><p><strong>5 PP:</strong> +5 INT · +50 Rep (Your Choice) · Fray 25, Infosec 30, Interest: (Choose Two) 30, Investigation 40, Kinesics 50, Language: (Choose One) 40, Networking: (Choose One) 20, Perception 20, Profession: Skip Tracing 50, Research 50, Spray Weapons 30, Unarmed Combat 30</p><p><em>Source: Eclipse Phase Transhuman, p. 31.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose Two)",
+        "value": 30
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Skip Tracing",
+        "value": 50
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "sprayWeapons",
+        "name": "Spray Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Justice, +Self Reliance, +The Hunt"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 181000,
+  "ownership": {
+    "default": 0
+  }
+}

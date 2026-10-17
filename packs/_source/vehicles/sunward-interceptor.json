@@ -1,0 +1,67 @@
+{
+  "_id": "13c3d684703d4db2",
+  "_key": "!actors!13c3d684703d4db2",
+  "name": "Interceptor",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "12/200",
+    "maxVelocity": "NA",
+    "mobility": "Thrust Vector",
+    "av": {
+      "energy": 20,
+      "kinetic": 20
+    },
+    "durability": 150,
+    "woundThreshold": 50,
+    "deathRating": 300,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "+10 COO, +10 SOM, 360-degree Vision, Enhanced Vision, Lidar, Heavy Combat Armor, Medichines, Neurachem (Level 2), Oracles, Radar, Structural Reinforcement, T-Ray Emitter, Weapon Mounts with railgun machine guns with armor-piercing ammo, 2 particle beam bolters, and a missile launcher loaded with HEAP missiles.",
+    "cost": "Not Available",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Interceptors are robotic spacecraft that are used as part of the cordon around Earth. Clearly of cuttingedge design, interceptors have no external markings to indicate their manufacturer, which suggests that they are deployed by a Planetary Consortium military-tech project. Interceptors are extremely fast, extremely agile, very well armored, and heavily armed. They carry multiple lasers and railguns on swivel-mounts to fire in any direction and are equipped with a missile launcher and explosive missiles. Attempts by scavengers and other parties to capture interceptors have so far failed due to a built-in self-destruction system— the magnitude of the blast suggesting an anti-matter charge.</p><p><em>Source: Eclipse Phase Sunward, p. 169.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "9047c9e532eaea58",
+  "sort": 1000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Interceptor",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "64dbee3efb21a883",
+  "_key": "!items!64dbee3efb21a883",
+  "name": "Exhuman (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are a supporter of discarding humanity’s genetic shackles and elevating yourself to a newer, improved physical form.</p><p><strong>Suggested Motivations:</strong> +Exhumanism, +Morphological Freedom, +Personal Development, +Research</p><p><strong>1 PP:</strong> Interest: Exhumans 30, Medicine: Biosculpting 40, Psychosurgery 30</p><p><em>Source: Eclipse Phase Transhuman, p. 24.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "Exhumans",
+        "value": 30
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Biosculpting",
+        "value": 40
+      },
+      {
+        "key": "psychosurgery",
+        "name": "Psychosurgery",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exhumanism, +Morphological Freedom, +Personal Development, +Research"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 101000,
+  "ownership": {
+    "default": 0
+  }
+}

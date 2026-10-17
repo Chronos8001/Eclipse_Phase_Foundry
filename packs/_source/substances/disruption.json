@@ -1,0 +1,27 @@
+{
+  "_id": "9bb274bb3a812797",
+  "_key": "!items!9bb274bb3a812797",
+  "name": "Disruption",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "disruption",
+    "category": "nanotoxin",
+    "substanceType": "nano",
+    "application": "Inj, O",
+    "onset": "Immediate",
+    "duration": "8 hours",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Moderate",
+    "quantity": 1,
+    "description": "<p>This nanotoxin attacks the myelin sheath on nerves, disrupting nerve impulses and inflicting symptoms of multiple sclerosis. Every hour the morph suffers a –5 modifier to COO, REF, and COG. If any aptitudes are reduced to zero,the morph is effectively paralyzed and catatonic.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 324.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 36000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/upgrade.svg",
   "system": {
+    "key": "naturalImmunity",
     "traitType": "positive",
     "scope": "morph",
     "level": 1,
     "cost": 10,
     "costText": "Cost: 10 CP",
-    "description": "<p>The morph has a natural immunity to a specific drug, disease, or toxin. When afflicted with that specific chemical, poison, or pathogen, the character remains unaffected. At the gamemaster's discretion, this immunity may not apply to certain agents. It may not be applied to nanodrugs or nanotoxins. This trait is only available to biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The morph has a natural immunity to a specific drug, disease, or toxin. When afflicted with that specific chemical, poison, or pathogen, the character remains unaffected. At the gamemaster’s discretion, this immunity may not apply to certain agents. It may not be applied to nanodrugs or nanotoxins. This trait is only available to biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
   },
   "effects": [],
   "flags": {},

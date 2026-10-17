@@ -1,0 +1,29 @@
+{
+  "_id": "bf08adb4030bdb26",
+  "_key": "!items!bf08adb4030bdb26",
+  "name": "Bug",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "bug",
+    "category": "ammo",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 1,
+      "dv": "-1d10",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Bug rounds are equipped with a microbug and medical sensor nanobots. They attempt to gather information on the target’s location (via standard mesh tracking), health (querying the target’s medichines), and surroundings (typically hindered by being inside the target’s body). They will transmit status reports in a pre-programmed manner via the mesh or a prechosen frequency band either continuously or in preset intervals.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 337.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 101000,
+  "ownership": {
+    "default": 0
+  }
+}

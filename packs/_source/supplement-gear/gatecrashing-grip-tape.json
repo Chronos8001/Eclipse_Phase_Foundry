@@ -1,0 +1,29 @@
+{
+  "_id": "02fd2fa77833e0ea",
+  "_key": "!items!02fd2fa77833e0ea",
+  "name": "Grip Tape",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "gripTape",
+    "cost": "Trivial",
+    "description": "<p>This sticky nanotape can be applied to almost any surface, allowing items to be stuck in place with the adhesive power of grip pads. Pulling in a parallel direction is very difficult, but items are easily released by pulling up (perpendicular) to the surface instead.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 155.</em></p>",
+    "category": "everyday",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  }
+}

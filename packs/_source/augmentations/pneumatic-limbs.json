@@ -1,0 +1,44 @@
+{
+  "_id": "2a6e58bfecf4d2a2",
+  "_key": "!items!2a6e58bfecf4d2a2",
+  "name": "Pneumatic Limbs",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "pneumaticLimbs",
+    "augType": "robotic",
+    "cost": "Low",
+    "description": "<p>The limbs are equipped with pneumatic cylinder systems that can generate up to 1,500 pounds of thrust. This allows the shell to push off and make impressive jumps (a synth of human size/weight can leap over 2 meters up). Apply a +20 to Freerunning Tests. A pneumatic limb used to strike an opponent in unarmed combat inflicts an extra 1d10 damage.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "174386d7f06020c8",
+      "_key": "!items.effects!2a6e58bfecf4d2a2.174386d7f06020c8",
+      "name": "Pneumatic Limbs",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.freerunning",
+          "mode": 2,
+          "type": "add",
+          "value": "20",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 97000,
+  "ownership": {
+    "default": 0
+  }
+}

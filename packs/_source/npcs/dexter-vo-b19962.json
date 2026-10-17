@@ -1,0 +1,804 @@
+{
+  "_id": "b199626f813ba5f1",
+  "_key": "!actors!b199626f813ba5f1",
+  "name": "Dexter Vo",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 25,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 30,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 5,
+      "max": 5
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "luc": -30
+    },
+    "biography": "<p>Though the Glory virus transformed Vo into a drone, he remains the functional boss of the gang and is the only one who still retains a semblance of sanity and lucidity. Vo is 114 years old, an Earth survivor who brought his syndicate to space through clever dealmaking and ruthless brutality. 23 Vo was the second-ranked boss in the White Khanhs before he became infected with Glory and orchestrated a series of bloody betrayals that eliminated all of the other significant bosses. Vo is one of the few exsurgent Khanhs retaining a cortical stack and maintaining regular backups. Gamemasters who wish to use him as a recurring villain can equip him with an emergency farcaster system (p. 306, EP). Dexter’s teeth have been filed sharper to better accommodate his cannibalistic diet.</p><p><strong>Active Skills:</strong> Beam Weapons 60, Blades 30, Deception 80, Fray 80, Free Fall 70, Impersonation 80, Infiltration 40, Infosec 70, Intimidation 70, Investigation 70 (Logical Deduction), Kinesics 80, Kinetic Weapons 70, Networking: Guanxi 50, Perception 70, Persuasion 80, Pilot: Spacecraft 65, Protocol 60, Research 40, Unarmed Combat 60</p><p><strong>Knowledge Skills:</strong> Language: Cantonese 50, Language: Thai 60, Language: Vietnamese 80</p><p><strong>Traits:</strong> Eidetic Memory, Mental Disorder (Cannibalism), Uncanny Valley</p><p><strong>Implants:</strong> Basic BioMods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Medichines, Oxygen Reserve</p><p><strong>Gear:</strong> Armor Clothing (6/7), Light Vac Suit, Plasma Gun (AP -10, DV 3d10 + 12, Mode SS), Specs</p><p><strong>Roleplaying:</strong> Vo is ruthless, bloodthirsty, and psychopathic. He will use any means at his disposal to eliminate the characters, even sacrificing drones.</p><p><em>Printed: INIT 70, SPD 1, LUC 30, TT 6, IR 60, DUR 40, WT 8, DR 60.</em></p><p><em>Source: Eclipse Phase Glory, p. 24.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": ""
+    }
+  },
+  "items": [
+    {
+      "name": "Dexter Vo (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 40,
+        "initMod": 0,
+        "speedMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "",
+        "implants": "Basic BioMods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Medichines, Oxygen Reserve",
+        "advantages": "Eidetic Memory, Mental Disorder (Cannibalism), Uncanny Valley",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "c6797318f560687c",
+      "_key": "!actors.items!b199626f813ba5f1.c6797318f560687c",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "8cf157b7dc54c5a2",
+      "name": "Eidetic Memory",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "eideticMemory",
+        "traitType": "positive",
+        "scope": "both",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>Much like a computer, the character has perfect memory recall. They can remember anything they have sensed, often even from a single glance. This works the same as the eidetic memory implant (p. 301).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b199626f813ba5f1.8cf157b7dc54c5a2"
+    },
+    {
+      "_id": "02f6fd400457ea6d",
+      "name": "Mental Disorder",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "mentalDisorder",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>You have a psychological disorder from a previous traumatic experience in your life. Choose one of the disorders listed on p. 211.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b199626f813ba5f1.02f6fd400457ea6d"
+    },
+    {
+      "_id": "905061f5bb246427",
+      "name": "Uncanny Valley",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "uncannyValley",
+        "traitType": "negative",
+        "scope": "morph",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>There is a point where synthetic human looks become uncannily realistic and human-seeming, but they remain just different enough that their looks seem creepy or even repulsive—a phenomenon called the “uncanny valley.” Morphs whose looks fall into this range suffer a –10 modifier on social skill tests when dealing with humans. This modifier does not apply to interactions with xenomorphs or those with the infolife or uplift backgrounds.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!b199626f813ba5f1.905061f5bb246427"
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b23c5aece380e882",
+      "_key": "!actors.items!b199626f813ba5f1.b23c5aece380e882",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Blades",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "blades",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "eb84ebf29ad7ec7e",
+      "_key": "!actors.items!b199626f813ba5f1.eb84ebf29ad7ec7e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f286274aa10d9920",
+      "_key": "!actors.items!b199626f813ba5f1.f286274aa10d9920",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9c55cf138c1173e4",
+      "_key": "!actors.items!b199626f813ba5f1.9c55cf138c1173e4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "872ec65c18679cc2",
+      "_key": "!actors.items!b199626f813ba5f1.872ec65c18679cc2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Impersonation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "impersonation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1189fccede549bf7",
+      "_key": "!actors.items!b199626f813ba5f1.1189fccede549bf7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d07041a09306c9b0",
+      "_key": "!actors.items!b199626f813ba5f1.d07041a09306c9b0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "511fb4a7d318e2a1",
+      "_key": "!actors.items!b199626f813ba5f1.511fb4a7d318e2a1",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f543678e29668d7b",
+      "_key": "!actors.items!b199626f813ba5f1.f543678e29668d7b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "Logical Deduction",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "182b9a58d84584dd",
+      "_key": "!actors.items!b199626f813ba5f1.182b9a58d84584dd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "853d87c217b4243d",
+      "_key": "!actors.items!b199626f813ba5f1.853d87c217b4243d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e84a49542f4af5fb",
+      "_key": "!actors.items!b199626f813ba5f1.e84a49542f4af5fb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Guanxi",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6095049d18e01b5d",
+      "_key": "!actors.items!b199626f813ba5f1.6095049d18e01b5d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ed5ceab6ba7557c7",
+      "_key": "!actors.items!b199626f813ba5f1.ed5ceab6ba7557c7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5d30582f89d3030b",
+      "_key": "!actors.items!b199626f813ba5f1.5d30582f89d3030b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Pilot",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "pilot",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "Spacecraft",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b0c1f4610c1a211b",
+      "_key": "!actors.items!b199626f813ba5f1.b0c1f4610c1a211b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "40742f82bbc138de",
+      "_key": "!actors.items!b199626f813ba5f1.40742f82bbc138de",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "57838230b4ac1814",
+      "_key": "!actors.items!b199626f813ba5f1.57838230b4ac1814",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 22000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b96411c076a06931",
+      "_key": "!actors.items!b199626f813ba5f1.b96411c076a06931",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 23000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Cantonese",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "bf2d802a59076812",
+      "_key": "!actors.items!b199626f813ba5f1.bf2d802a59076812",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 24000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Thai",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2c105a5d26630a44",
+      "_key": "!actors.items!b199626f813ba5f1.2c105a5d26630a44",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 25000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Vietnamese",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "92162b18e52b98ea",
+      "_key": "!actors.items!b199626f813ba5f1.92162b18e52b98ea",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 26000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Plasma Gun",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "beamWeapons",
+        "ap": -10,
+        "dv": "3d10 + 12",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "rating": 0,
+        "description": "<p>Plasma Gun (AP -10, DV 3d10 + 12, Mode SS)</p>"
+      },
+      "_id": "67819fb5fa1f45fd",
+      "_key": "!actors.items!b199626f813ba5f1.67819fb5fa1f45fd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 27000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "f3497fd65709500d",
+  "sort": 29000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Dexter Vo",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

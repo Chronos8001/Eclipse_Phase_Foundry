@@ -1,0 +1,728 @@
+{
+  "_id": "113399e640682d0b",
+  "_key": "!actors!113399e640682d0b",
+  "name": "Doctor Mindfuck",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 25,
+        "mod": 0
+      },
+      "coo": {
+        "base": 25,
+        "mod": 0
+      },
+      "int": {
+        "base": 30,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 20,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 5,
+      "max": 5
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Neurodivergent Psychosurgeon Dr. Boris Simic was a well-off psychosurgeon working for the Serbian government. Specifically employed as a loyalty tester, he gained an incredible amount of insight into the inner thoughts of bureaucrats and career politicos. When TITAN nanoviruses hit Eastern Europe, he was reassigned to help government officials who had contracted mind-altering infections. In the course of his work, Simic fell victim to one of these plagues, suffering from severe mood swings. Considered a liability, he was ineligible for evacuation. Betrayed by his own government, Simic managed to bribe his way on board a refugee shuttle that barely made it into orbit. Rescued by HAL strikers, Simic stayed with the refugees when the swarm departed Earth. Simic adopted well to the scum lifestyle, engaging in heavy petal use as a way of coping with his traumatic experiences and letting go of many of his former inhibitions. He quickly turned his talents towards experimental procedures and offered his services to anyone desiring a recreational mental alteration. Though his attempts to counter his own neurological damage have failed—and may even have exacerbated his condition—there is no question that he is skilled at shaping minds. Many scum make regular trips to his offices, seeking new mind-sets, new outlooks on life, or just a new type of trip. Over the years, Simic adopted the nickname many of the scum were using for him, and now introduces himself as Dr. Mindfuck to everyone he meets. In recent years, Dr. Mindfuck has become an outspoken critic of the EDF and Alice Chu. He consistently calls them out as the “hidden leadership” and “secret elites” of the fleet, noting the similarities to the mindsets of the many bureaucrats and politicos he dealt with in the past. Though he has few close friends and is not part of a collective, Dr. Mindfuck has earned some respect and allies for his outspokenness. Some of these supporters see actual wisdom in his critiques, while others just see him as a useful tool in the political dynamics of the fleet.</p><p><strong>Morph:</strong> Remade</p><p><strong>Motivation:</strong> +Recreational Psychosurgery +Drug Use –Informal Hierarchies</p><p><strong>Active Skills:</strong> Deception 70, Fray 40, Free Fall 50, Infosec 40, Interfacing 50, Intimidation 50, Kinesics 65, Medicine: Psychiatry 70, Networking: Autonomists 45, Networking: Criminal 45, Persuasion 50, Protocol 45, Psychosurgery 80</p><p><strong>Knowledge Skills:</strong> Academic: Neurology 75, Academic: Psychology 55, Interests: Petals 50, Language: Serbian (Native) 100, Language: English 50, Language: Russian 40, Profession: Psychosurgeon 65</p><p><strong>Rep:</strong> @-rep 40, g-rep 30</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Clean Metabolism, Cortical Stack, Eidetic Memory, Enhanced respiration, Medichines, Nanophages, Temperature Tolerance, Toxin Filters</p><p><strong>Traits:</strong> Low Pain Tolerance, Modified Behavior (Numerous and Changing; GM Discretion), Neural Damage (Mood Swings), Uncanny Valley</p><p><strong>Gear:</strong> Ego bridge, assorted petals</p><p><strong>Roleplaying:</strong> Dr. Mindfuck’s susceptibility to mood swings makes him an interesting person to be around—he quite suddenly can go from normal to severely depressed to morbid to ecstatically excited. He tends to come across as unstable and mentally different. He is in the habit of altering his mental state on a regular basis with self-psychosurgery, meaning that he often seems like a different person from week to week. He also has a habit of talking to his muse out loud, which is sometimes confusing to those around him.</p><p><strong>Appearance:</strong> Dr. Mindfuck acquired a remade morph on the cheap, due to it suffering from defective design (the Low Pain Tolerance trait). He has covered his entire body in nanotattoos which constantly shift and evolve according to his moods.</p><p><em>Printed: INIT 10, SPD 1, LUC 40, TT 8, IR 80, DUR 40, WT 8, DR 60.</em></p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 13.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Recreational Psychosurgery +Drug Use –Informal Hierarchies"
+    }
+  },
+  "items": [
+    {
+      "_id": "bdb9e78ebe11bdda",
+      "name": "Remade",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 10,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 5,
+          "som": 10,
+          "wil": 0
+        },
+        "durability": 40,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Clean Metabolism, Cortical Stack, Eidetic Memory, Enhanced Respiration, Temperature Tolerance, Toxin Filters",
+        "advantages": "+10 COG, +5 SAV, +10 SOM, +5 to two other aptitudes of the player’s choice",
+        "disadvantages": "Uncanny Valley trait",
+        "skillBonuses": [],
+        "cpCost": 60,
+        "creditCost": "Expensive (minimum 40,000+)",
+        "active": true,
+        "description": "<p>The remade are completely redesigned humans: humans 2.0. Their cardiovascular systems are stronger, the digestive tract has been sanitized and restructured to eliminate flaws, and they have otherwise been optimized for good health, smarts, and longevity with numerous transgenic mods. The remade are popular with the ultimates faction. The remade look close to human, but are different in very noticeable and sometimes eerie ways: taller, lack of hair, slightly larger craniums, wider eyes, smaller noses, smaller teeth, and elongated digits.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 79.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!113399e640682d0b.bdb9e78ebe11bdda"
+    },
+    {
+      "_id": "413d7e9fbd525bd1",
+      "name": "Low Pain Tolerance",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "lowPainTolerance",
+        "traitType": "negative",
+        "scope": "both",
+        "level": 1,
+        "cost": 20,
+        "costText": "Bonus: 20 CP",
+        "description": "<p>Pain is the character’s enemy. The character has a very low threshold for pain tolerance and is more severely impaired when suffering. Increase the modifier for each wound take by an additional –10 (so the character suffers –20 with one wound, –40 with another, and –60 with a third). Additionally, the character suffers a –30 modifier on any test involving pain resistance. This morph version of this trait is only available for biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!113399e640682d0b.413d7e9fbd525bd1"
+    },
+    {
+      "_id": "1deedd5359d772cb",
+      "name": "Modified Behavior",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "modifiedBehavior",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 5,
+        "costText": "Bonus: 5 (Level 1), 10 (Level 2), or 20 (Level 3) CP",
+        "description": "<p>The character has been conditioned via timeaccelerated behavioral control psychosurgery. This is common among ex-felons, who have been conditioned to respond to a specific idea or activity with vehement horror and disgust, but may have occurred for some other reason or even been self-inflicted. At Level 1, the chosen behavior is either limited or boosted, at Level 2 it is either blocked or encouraged, and at Level 3 it is expunged or enforced (see p. 231 for details). This trait should only be allowed for behaviors that are either limited or, if encouraged, impact the character in a negative way.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!113399e640682d0b.1deedd5359d772cb"
+    },
+    {
+      "_id": "7feba18ed2f375c0",
+      "name": "Neural Damage",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "neuralDamage",
+        "traitType": "negative",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>The character has suffered some type of neurological damage that simply cannot be cured. The affliction is now part of the character’s ego and remains with them even when remorphing. This damage may have been inherited, it may have resulted from a poorly designed morph or implant, or it may have been inflicted by one of the TITAN nanovirii that targeted neural systems during the Fall (p. 384). The gamemaster and player should agree on a specific disorder appropriate to their game. Some possibilities are: • Partial aphasia (difficulty communicating or using words) • Color blindness • Amusica (inability to make or understand music) • Synaesthesia • Logorrhoea (excessive use of words) • Loss of face recognition • Loss of depth perception (double range modifiers) • Repetitive behavior • Mood swings • The inability to shift attention quickly The gamemaster may decide to inflict modifiers resulting from this affliction as appropriate.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!113399e640682d0b.7feba18ed2f375c0"
+    },
+    {
+      "_id": "6550b1008e511dd7",
+      "name": "Uncanny Valley",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "uncannyValley",
+        "traitType": "negative",
+        "scope": "morph",
+        "level": 1,
+        "cost": 10,
+        "costText": "Bonus: 10 CP",
+        "description": "<p>There is a point where synthetic human looks become uncannily realistic and human-seeming, but they remain just different enough that their looks seem creepy or even repulsive—a phenomenon called the “uncanny valley.” Morphs whose looks fall into this range suffer a –10 modifier on social skill tests when dealing with humans. This modifier does not apply to interactions with xenomorphs or those with the infolife or uplift backgrounds.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!113399e640682d0b.6550b1008e511dd7"
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d5af411d269c68f9",
+      "_key": "!actors.items!113399e640682d0b.d5af411d269c68f9",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "fb5eadd88f781cd2",
+      "_key": "!actors.items!113399e640682d0b.fb5eadd88f781cd2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cbf1b9fab573f849",
+      "_key": "!actors.items!113399e640682d0b.cbf1b9fab573f849",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 5,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b7d8a747ff0f10a0",
+      "_key": "!actors.items!113399e640682d0b.b7d8a747ff0f10a0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5352833f1a238017",
+      "_key": "!actors.items!113399e640682d0b.5352833f1a238017",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b22bfbd268fd3627",
+      "_key": "!actors.items!113399e640682d0b.b22bfbd268fd3627",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b8c7a3374895ad31",
+      "_key": "!actors.items!113399e640682d0b.b8c7a3374895ad31",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Medicine",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "medicine",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Psychiatry",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9a33d6f501345b64",
+      "_key": "!actors.items!113399e640682d0b.9a33d6f501345b64",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Autonomists",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b773eab07080e747",
+      "_key": "!actors.items!113399e640682d0b.b773eab07080e747",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Criminal",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "970ae128497e1dbf",
+      "_key": "!actors.items!113399e640682d0b.970ae128497e1dbf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2f360cc2acef7a7f",
+      "_key": "!actors.items!113399e640682d0b.2f360cc2acef7a7f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "13d5ef7c72dffcaf",
+      "_key": "!actors.items!113399e640682d0b.13d5ef7c72dffcaf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Psychosurgery",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "psychosurgery",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0c4ea66794b0e7a2",
+      "_key": "!actors.items!113399e640682d0b.0c4ea66794b0e7a2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academic",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Neurology",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "047d0c4897cf7cdc",
+      "_key": "!actors.items!113399e640682d0b.047d0c4897cf7cdc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academic",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Psychology",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cae1b76c2f7cf44f",
+      "_key": "!actors.items!113399e640682d0b.cae1b76c2f7cf44f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interests",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Petals",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4ec5c6f2fcab47aa",
+      "_key": "!actors.items!113399e640682d0b.4ec5c6f2fcab47aa",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Serbian",
+        "ranks": 70,
+        "mod": 0,
+        "specialization": "Native",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "09ca6b693443e44d",
+      "_key": "!actors.items!113399e640682d0b.09ca6b693443e44d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 22000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "English",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c27118ab8f325bb6",
+      "_key": "!actors.items!113399e640682d0b.c27118ab8f325bb6",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 23000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Russian",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b6941049f7ebdc1a",
+      "_key": "!actors.items!113399e640682d0b.b6941049f7ebdc1a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 24000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Psychosurgeon",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "519fc317b3b9ba51",
+      "_key": "!actors.items!113399e640682d0b.519fc317b3b9ba51",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 25000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "0345dc02520ce0d4",
+  "sort": 34000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Doctor Mindfuck",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "_id": "67aaa27511c9ba77",
+  "_key": "!items!67aaa27511c9ba77",
+  "name": "Earth Survivor (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Unlike a small percentage of transhumanity, you did not escape off-world during the Fall, nor were you lucky enough to be killed. You survived for years, eking out an existence in the post-apocalyptic desolation of Earth while hiding from, and even fighting, the machines and twisted transhuman puppets that still lurked there. Only recently was your body rescued by scrappers or reclaimers or your egocast unwisely accepted by a trusting receiver.</p><p><strong>Suggested Motivations:</strong> +Survival, +/–Reclaiming Earth, –TITANs</p><p><strong>5 PP:</strong> +2 Moxie · +5 WIL · Animal Handling 20, Demolitions 20, Fray 25, Freerunning 30, Interest: (Choose One) 30, Infiltration 40, Kinetic Weapons 40, Language: (Choose One) 40, Pilot: Groundcraft 25, Profession: (Choose One) 40, Profession: (Post-Apocalyptic Survival) 40, Scrounging 50, Seeker Weapons 30 · Traits: Neural Damage</p><p><em>Source: Eclipse Phase Transhuman, p. 17.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "animalHandling",
+        "name": "Animal Handling",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "demolitions",
+        "name": "Demolitions",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Groundcraft",
+        "value": 25
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Post-Apocalyptic Survival",
+        "value": 40
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "seekerWeapons",
+        "name": "Seeker Weapons",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 5
+    },
+    "moxie": 2,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Neural Damage",
+        "level": 1
+      }
+    ],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Survival, +/–Reclaiming Earth, –TITANs"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 21000,
+  "ownership": {
+    "default": 0
+  }
+}

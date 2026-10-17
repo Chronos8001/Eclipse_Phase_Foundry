@@ -8,7 +8,9 @@
     "energy": 3,
     "kinetic": 4,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "Trivial",
+    "description": "<p>The extra-resilient organoweave fibers and fullerene materials that offer basic protection against kinetic and energy weapons can be woven in with normal smart materials to create a wide range of discreet armor clothing that provides a subtle level of security. Such protective garments are indistinguishable from regular clothing and come in all styles and designs. Armor clothing provides an Armor Value of 3/4.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
   },
   "effects": [],
   "flags": {},

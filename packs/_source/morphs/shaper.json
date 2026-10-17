@@ -33,18 +33,18 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Chameleon Skin, Clean Metabolism, Cortical Stack, Cyberbrain, Emotional Dampers, Gait Masking, Mnemonic Augmentation, Nanotat ID Flux, Puppet Sock, Sex Switch, Skinflex",
-    "advantages": "+5 INT, +5 SAV, +5 to one other aptitude of the player's choice",
+    "advantages": "+5 INT, +5 SAV, +5 to one other aptitude of the player’s choice",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 45,
     "creditCost": "Expensive (minimum 40,000)",
     "active": false,
-    "description": "<p>Shapers are the ultimate disguise morph. Constructed as pods, the default shaper look is intentionally generic, based on the computer-generated composite average look of the solar system's residents. They lack the distinctive seam lines applied to most pod morph designs. The skinflex system allows the morph to quickly change its outward appearance. Additional modifications help the morph evade or fool sensor and biometric systems. Shapers are a favorite tool for spies and are excellent for infiltration or fooling surveillance. They are often remotely operated via puppet sock. Shapers are illegal in many habitats.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 90.</em></p>"
+    "description": "<p>Shapers are the ultimate disguise morph. Constructed as pods, the default shaper look is intentionally generic, based on the computer-generated composite average look of the solar system’s residents. They lack the distinctive seam lines applied to most pod morph designs. The skinflex system allows the morph to quickly change its outward appearance. Additional modifications help the morph evade or fool sensor and biometric systems. Shapers are a favorite tool for spies and are excellent for infiltration or fooling surveillance. They are often remotely operated via puppet sock. Shapers are illegal in many habitats.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 90.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 104000,
+  "sort": 107000,
   "ownership": {
     "default": 0
   }

@@ -1,0 +1,112 @@
+{
+  "_id": "574a9ce8d8d181eb",
+  "_key": "!items!574a9ce8d8d181eb",
+  "name": "Colonist: Security Staff (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You secured pre-Fall colonies, keeping the rabble in line and guarding against hostile elements.</p><p><strong>Suggested Motivations:</strong> +Law and Order, +Survival, –Criminals, –Autonomists</p><p><strong>5 PP:</strong> +1 Moxie · +5 SOM, +50 Rep (Your Choice) · Academics: (Choose One) 40, Beam Weapons 50, Fray 25, Free Fall* 40, Clubs 35, Interest: (Choose One) 30, Intimidation 40, Investigation 20, Language: (Choose One) 30, Networking: (Choose One) 30, Profession: Security Ops 50, Unarmed Combat 40</p><p><em>Source: Eclipse Phase Transhuman, p. 15.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "beamWeapons",
+        "name": "Beam Weapons",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "clubs",
+        "name": "Clubs",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Security Ops",
+        "value": 50
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Law and Order, +Survival, –Criminals, –Autonomists"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  }
+}

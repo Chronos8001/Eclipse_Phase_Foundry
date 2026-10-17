@@ -1,0 +1,29 @@
+{
+  "_id": "176a559d77e25cb7",
+  "_key": "!items!176a559d77e25cb7",
+  "name": "Scour Rings",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "scourRings",
+    "cost": "Expensive",
+    "description": "<p>An unknown number of scour rings were discovered on the sub-arctic beach of an unnamed exoplanet devoid of other interesting features. It appeared that they were scattered from the air at least a hundred thousand years ago, and had embedded themselves in the hard crystalline sands. The gatecrashers who found them turned them into Pathfinder for the reward. Soon thereafter, the rings were stolen from Pathfinder’s labs by an unknown party. Several have since shown up, available on the black market. Each ring is 35 centimeters in diameter and 4.5 centimeters in width, leaving a central “hole” 26 centimeters in diameter. They are about 1 centimeter thick, with a lozenge-shaped cross-sectional profile. The external edges are as sharp as a conventional combat knife. When shaken hard, a scour ring will activate and a colorless, slightly refractive energy field will project across the inner space of the ring, looking much like a luminescent soap bubble. Anything passed through this energy field is instantly disassembled into its constituent atoms, giving off eerie blue Cherenkov radiation in the process. Once an object of at least 1 kilogram has passed through the scour ring and been disassembled, the energy field deactivates and the ring becomes inert until shaken again. If a character or creature passes a limb or other body part through an activated ring, the gamemaster determines the damage inflicted as appropriate to the situation. As a rule of thumb, inflict 2d10 + 5 DV (armor has no effect) and an automatic wound. Anything passed through the ring is destroyed.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 165.</em></p>",
+    "category": "other",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 38000,
+  "ownership": {
+    "default": 0
+  }
+}

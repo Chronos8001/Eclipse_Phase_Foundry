@@ -1,0 +1,67 @@
+{
+  "_id": "cf620fdb2f3489b9",
+  "_key": "!actors!cf620fdb2f3489b9",
+  "name": "Manipulator Cuff",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "2/8",
+    "maxVelocity": "8",
+    "mobility": "Tracked",
+    "av": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "durability": 5,
+    "woundThreshold": 1,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Electrical Sense, Enhanced Vision, Fractal Digits, Grip Pads, Mobile Lab, Nanoscopic Vision, Shape Adjusting, Telescoping Limb, Utilitool",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Manipulator cuffs are common tools among xenoarcheologists. This robot is primarily designed to be worn as a forearm cuff on the outside of a vacsuit. It carries a utilitool and a mobile lab, and so is useful for a variety of technical, repair, and research tasks. It can be controlled by a combination of arm movements or standard wireless mesh signals. It can also protrude a telescoping manipulator with a 2-meter reach, allowing the cuff or the wearer to lift, move, and work with objects from a small distance. This extension is shape-adjusting and can bend, flex, and squeeze through openings only 2 millimeters wide. The primary body of the robot can also detach from the forearm cuff and move on its own power, maneuvering on a pair of flexible treads. Using haptic signals, the remote mobile feels like an extension of the user’s hand and can be manipulated with hand movements (or via standard mesh commands or jamming).</p><p><em>Source: Eclipse Phase Gatecrashing, p. 160.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 34000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Manipulator Cuff",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

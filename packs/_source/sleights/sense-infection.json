@@ -1,0 +1,33 @@
+{
+  "_id": "e9ae0845cffafed4",
+  "_key": "!items!e9ae0845cffafed4",
+  "name": "Sense Infection",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "senseInfection",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "close",
+    "duration": "instant",
+    "durationUnit": "turns",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "sense",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The async may determine whether a target is infected with a biological nanovirus or nanoplague strain of the exsurgent virus with a Sense Test. If successful, the character automatically knows if the target is an async. Other strains of the virus may, at the gamemaster’s discretion, provide a foreboding of their modus operandi. In no case is the name of the strain revealed (strains are named by Firewall, not by themselves), but research or inquiries with the Eye might allow the character to identify the feeling they get with a known, named strain.</p><p><em>Source: Transhuman, p. 154.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 47000,
+  "ownership": {
+    "default": 0
+  }
+}

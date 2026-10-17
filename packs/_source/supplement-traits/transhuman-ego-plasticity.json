@@ -1,0 +1,23 @@
+{
+  "_id": "1ea821220d1481fc",
+  "_key": "!items!1ea821220d1481fc",
+  "name": "Ego Plasticity",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "egoPlasticity",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP (Level 1), 20 CP (Level 2), or 30 CP (Level 3)",
+    "description": "<p>Merging forks can be stressful under the best of circumstances, but some people handle the process better than others. Per level, the character gains a +10 modifier on all Merging Tests and suffers −1 SV when merging forks.</p><p><em>Source: Eclipse Phase Transhuman, p. 83.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "82210531b58fd229",
+  "_key": "!items!82210531b58fd229",
+  "name": "Fake Ego ID",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "fakeEgoId",
+    "category": "service",
+    "quantity": 1,
+    "cost": "High",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This forged ID will pass in most inner system and Jovian Republic habitats, and sometimes others.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 85000,
+  "ownership": {
+    "default": 0
+  }
+}

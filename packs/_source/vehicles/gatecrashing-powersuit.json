@@ -1,0 +1,67 @@
+{
+  "_id": "ea2f8e6b10aa6890",
+  "_key": "!actors!ea2f8e6b10aa6890",
+  "name": "Powersuit",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "other",
+    "passengers": "1",
+    "handling": 0,
+    "movement": "8/32",
+    "maxVelocity": "32",
+    "mobility": "",
+    "av": {
+      "energy": 10,
+      "kinetic": 10
+    },
+    "durability": 45,
+    "woundThreshold": 9,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "High",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>The powersuit is a sealed exoskeleton, ideal for exploring worlds with hostile atmospheres. Like other skeletons, the powersuit boosts the wearer’s strength, movement, and jumping abilities. It provides a +10 bonus to strength-based tests, doubles jumping distance, and inflicts +3 DV on unarmed attacks. The life support maker can provide food and water indefinitely and air for 48 hours (indefinitely if the wearer adds ice, water, or operates in an atmosphere from which oxygen can be extracted). Powersuits are equipped with a radio booster and specs.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 164.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 32000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Powersuit",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

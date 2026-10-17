@@ -1,0 +1,20 @@
+{
+  "_id": "381bddd96b94bc8e",
+  "_key": "!items!381bddd96b94bc8e",
+  "name": "Bodysculpting",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "bodysculpting",
+    "augType": "cosmetic",
+    "cost": "Low",
+    "description": "<p>If your morph’s enhanced physique isn’t enough, you can take it further with custom bodysculpting such as as elongated ears or fingers, nose alteration, hair addition/removal, feathers, exotic eyes, snakeskin, endowed genitalia, and more unusual physical alterations.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 309.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 69000,
+  "ownership": {
+    "default": 0
+  }
+}

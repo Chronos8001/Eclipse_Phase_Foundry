@@ -1,0 +1,27 @@
+{
+  "_id": "f7ad46dd24058e65",
+  "_key": "!items!f7ad46dd24058e65",
+  "name": "BTX",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "btx",
+    "category": "toxin",
+    "substanceType": "chem",
+    "application": "D, Inj, O",
+    "onset": "1 Action Turn",
+    "duration": "3 Action Turns/1 hour",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "High",
+    "quantity": 1,
+    "description": "<p>BTX-squared (also called Frog Bite) is a genetically-enhanced variant of the extremely potent cardiotoxic and neurotoxic batrachotoxin. It leads to fast paralysis and cardiac arrest that usually kills the target within a few Action Turns. Affected characters suffer 2d10 + 10 damage a turn for 3 Action Turns; medichines reduce this damage by half. They must also make a SOM x 2 Test (+30 with medichines) or be paralyzed for 1 hour.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 323.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 30000,
+  "ownership": {
+    "default": 0
+  }
+}

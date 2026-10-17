@@ -1,0 +1,67 @@
+{
+  "_id": "e5c1376e8fe0811e",
+  "_key": "!actors!e5c1376e8fe0811e",
+  "name": "Small Jet",
+  "type": "vehicle",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "category": "aircraft",
+    "passengers": "6",
+    "handling": 20,
+    "movement": "",
+    "maxVelocity": "650-900",
+    "mobility": "",
+    "av": {
+      "energy": 30,
+      "kinetic": 20
+    },
+    "durability": 200,
+    "woundThreshold": 30,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Methane-powered jet planes are one of the most common forms of fast transport on Mars and Venus. Similar planes are used on Titan, except that they carry both liquid methane and liquid oxygen. These jets range in size from huge vehicles the size of late 20th-century airliners to small planes designed to carry half a dozen passengers. All jets are made using smart materials, so that their wings and frames can adapt to a wide range of speeds and altitudes. One common small jet has similar versions in use on Venus, Mars, and Titan, has a single jet engine and has a life support system capable of providing air for up to 100 hours. The Venusian and Martian versions both have a top speed of 900 kph, a wingspan of 11 m, and a maximum range of 5,000 km. The version designed for Titan has a wingspan of 8 m, a top speed of 650 kph, and a range of 4,000 km. Jets are equipped with headlights, radio boosters, and radar with a range of up to 250 km.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 343.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 4000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Small Jet",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wing.svg"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "68bffa5038e49458",
+  "_key": "!items!68bffa5038e49458",
+  "name": "Omni Awareness",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "omniAwareness",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "quick",
+    "range": "close",
+    "duration": "temporary",
+    "durationUnit": "minutes",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "sense",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>An async with Omni Awareness is hypersensitive to other biological life that is observing them. During this sleight’s duration, the async makes a Sense Test that is opposed by any life that has focused their attention on them within the sleight’s range; if successful, the async knows they are being watched, but not by whom or what. It does, however, apply a +30 Perception bonus to spot the observer. This sleight does not register partial attention or fleeting attention, or simple perception of the async, it only notices targets who are actively observing (even if they are concealing their observation). This sleight is effective in spotting a tail, as well as finding potential mates in a bar.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 227.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 31000,
+  "ownership": {
+    "default": 0
+  }
+}

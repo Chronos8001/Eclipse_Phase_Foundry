@@ -1,0 +1,29 @@
+{
+  "_id": "f13a9d6ad118b2dc",
+  "_key": "!items!f13a9d6ad118b2dc",
+  "name": "Reactive",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "reactive",
+    "category": "ammo",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": -2,
+      "dv": "+2",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>The casing on these projectiles is made of reactive materials that release a large amount of energy when subjected to a sudden shock or impact— such as striking a target. In other words, they explode or superheat when they hit.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 338.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 107000,
+  "ownership": {
+    "default": 0
+  }
+}

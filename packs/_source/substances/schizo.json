@@ -1,0 +1,27 @@
+{
+  "_id": "c337f69a8379a224",
+  "_key": "!items!c337f69a8379a224",
+  "name": "Schizo",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "schizo",
+    "category": "nanodrug",
+    "substanceType": "nano",
+    "application": "Inj",
+    "onset": "",
+    "duration": "1 day",
+    "addictionMod": "",
+    "addictionType": "mental",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>Schizo is a nanodrug that mirrors the effects of paranoid schizophrenia. It is popular in some hyperelite social circles as a truly daring and intriguing experience. A dose of schizo looks like a disposable antique razor blade. Making an incision in the skin releases a swarm of nanobots that travel to the central nervous system and induce the effects of the drug. While in effect, the character is severely paranoid and hears voices. How this plays out is at the discretion of the gamemaster, but should include irrational fears, unusual compulsions based on the instructions of the voice or voices, and a strong possibility that the character will behave in a violent or destructive fashion. The character may make WIL x 3 Tests to avoid violent acts against objects or strangers. Friends and trusted acquaintances are probably less likely to be targets of violence (+30 modifier to avoid hurting people the character cares about or destroying important possessions). Note that the character’s muse is unaffected by Schizo and can make efforts to babysit the character. Characters who take Schizo suffer 1d10 mental stress.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 321.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

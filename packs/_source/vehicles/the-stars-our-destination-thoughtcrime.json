@@ -1,0 +1,67 @@
+{
+  "_id": "d1f5192e747a9967",
+  "_key": "!actors!d1f5192e747a9967",
+  "name": "Thoughtcrime",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "Crew 187, capacity 750",
+    "handling": -30,
+    "movement": "",
+    "maxVelocity": "",
+    "mobility": "",
+    "av": {
+      "energy": 15,
+      "kinetic": 15
+    },
+    "durability": 1000,
+    "woundThreshold": 250,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Drive: Fusion Rockets",
+    "cost": "",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p><strong>Factory Ship.</strong></p><p>This inelegant hulking mass houses the heart and soul of the Stars swarm: their industrial nanofabrication facilities. The Thoughtcrime contains four cavernous cargo bays that each have a fabricator capable of producing finished goods or components as large as ten meters to a side. Two of these fabricators are housed in a rotating part of the ship, ideal for processes that require gravity. These fabricators are mostly used to manufacture repair parts for the fleet though they can also produce the autonomous kill vehicles (AKVs) the flotilla uses for defense at the rate of one per week if needed. The Thoughtcrime also constructs cheap cases and other synthetic morphs for members of the fleet who need a shell. Because it is the primary manufacturer of bulk goods for the swarm, all salvage and scrap that the Boytoy and We Come To Probe You! collect is usually dumped into the Thoughtcrime’s bulk bays. This scrap is then sorted into heaps that litter the decks and bulkheads of the ship, leaving visitors with the impression they have arrived aboard a mobile scrap heap. The Thoughtcrime is the primary hangout of Lena Andropov, the swarm’s chief engineer, and her crew of nanoengineers. Most of the crew favor synthetic shells for their work and for the ease of maintenance these types of bodies afford. While there are nearly two hundred of them aboard the ship, it can often feel empty due to the sheer size of the Thoughtcrime and the amount of junk laying around. Cases and other synthetic morphs and equipment can be manufactured in a matter of hours, though the demands on the fabricators usually means there is a three day wait or longer. Lena and the other nanoengineers may be willing to bump someone in line if their @-rep or r-rep is significant and they make a convincing argument.</p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 9.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "f02f6bd6727f6953",
+  "sort": 65000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Thoughtcrime",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

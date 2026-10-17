@@ -1,4 +1,5 @@
 import { APTITUDES, SKILLS } from "../config.mjs";
+import { isAutomated, levelCosts } from "../rules/traits.mjs";
 
 const { SchemaField, NumberField, StringField, BooleanField, HTMLField, ArrayField } = foundry.data.fields;
 
@@ -25,6 +26,8 @@ export class SkillData extends BaseItemData {
       category: choice(["active", "knowledge"], "active"),
       field: text(),
       ranks: int(0, { min: 0 }),
+      // Ranks given for free by the background, faction or native tongue: they cost no CP (Core p. 135)
+      free: int(0, { min: 0 }),
       mod: int(0),
       specialization: text(),
       noDefault: new BooleanField({ initial: false })
@@ -89,12 +92,22 @@ export class TraitData extends BaseItemData {
   static defineSchema() {
     return {
       ...super.defineSchema(),
-      traitType: choice(["positive", "negative"], "positive"),
+      // Rules read some traits by key (psi, psiDefense...), whatever their displayed name
+      key: text(),
+      // Neutral: neither positive nor negative, no CP (Alien Biochemistry, Gatecrashing p. 153)
+      traitType: choice(["positive", "negative", "neutral"], "positive"),
       scope: choice(["ego", "morph", "both"], "ego"),
       level: int(1, { min: 0 }),
       cost: int(0, { min: 0 }),
       costText: text()
     };
+  }
+
+  /** CP of the trait at its level: the book's cost of that level, else the cost field. */
+  prepareDerivedData() {
+    const costs = levelCosts(this.costText);
+    this.levelCost = (this.traitType === "neutral") ? 0 : (costs[Math.max(1, this.level) - 1] ?? this.cost);
+    this.automated = isAutomated(this.key);
   }
 }
 
@@ -106,14 +119,35 @@ export class WeaponData extends BaseItemData {
       ...super.defineSchema(),
       weaponType: choice(["melee", "ranged"], "melee"),
       skill: text("unarmedCombat"),
+      // Attack rating printed in a creature's stat block: used instead of the skill when above 0
+      rating: int(0, { min: 0 }),
       ap: int(0),
       dv: text("1d10"),
       damageType: choice(["kinetic", "energy", "none"], "kinetic"),
       addDB: new BooleanField({ initial: false }),
       modes: text(),
-      ammo: new SchemaField({ value: int(0, { min: 0 }), max: int(0, { min: 0 }) }),
+      // Launchers: loaded is the id of the embedded munition item they are loaded with, size its size
+      ammo: new SchemaField({ value: int(0, { min: 0 }), max: int(0, { min: 0 }), loaded: text(), size: text() }),
       range: text(),
-      equipped: new BooleanField({ initial: false })
+      equipped: new BooleanField({ initial: false }),
+      // Shock weapons call for a DUR + Energy armor test (Core p. 204)
+      shock: new BooleanField({ initial: false }),
+      area: new SchemaField({
+        shape: choice(["none", "blast", "uniform", "cone"], "none"),
+        radius: int(0, { min: 0 }),
+        // DV lost per meter from the epicenter (p. 193); HEAP loses 4
+        falloff: int(2, { min: 0 })
+      }),
+      twoHanded: new BooleanField({ initial: false }),
+      cost: text(),
+      quantity: int(1, { min: 0 }),
+      // Grenades and seeker missiles (Core p. 341)
+      munition: new SchemaField({
+        kind: choice(["none", "grenade", "seeker"], "none"),
+        size: choice(["micro", "mini", "standard"], "standard")
+      }),
+      // Munition sizes a launcher fires ("micro, mini")
+      launcher: text()
     };
   }
 }
@@ -126,7 +160,10 @@ export class ArmorData extends BaseItemData {
       ...super.defineSchema(),
       energy: int(0),
       kinetic: int(0),
-      equipped: new BooleanField({ initial: false })
+      equipped: new BooleanField({ initial: false }),
+      // Accessories (helmets, shields...) add to worn armor without the layering penalty (Core p. 194)
+      accessory: new BooleanField({ initial: false }),
+      cost: text()
     };
   }
 }
@@ -137,8 +174,20 @@ export class GearData extends BaseItemData {
   static defineSchema() {
     return {
       ...super.defineSchema(),
+      key: text(),
+      category: choice(["other", "armorMod", "comms", "surveillance", "espionage", "everyday", "nanotech", "pet",
+        "scavenger", "service", "survival", "ammo", "weaponAccessory", "server"], "other"),
       quantity: int(1, { min: 0 }),
-      cost: text()
+      cost: text(),
+      // Kinetic ammunition (Core p. 337): modifiers to the weapon's AP and DV
+      ammo: new SchemaField({
+        ap: int(0),
+        dv: text(),
+        half: new BooleanField({ initial: false }),
+        noDamage: new BooleanField({ initial: false }),
+        armorDoubled: new BooleanField({ initial: false }),
+        shock: new BooleanField({ initial: false })
+      })
     };
   }
 }
@@ -149,7 +198,9 @@ export class AugmentationData extends BaseItemData {
   static defineSchema() {
     return {
       ...super.defineSchema(),
-      augType: choice(["bioware", "cyberware", "nanoware", "meshware", "other"], "bioware"),
+      key: text(),
+      // standard: included in most morphs; cosmetic: body mods; robotic: synthmorph and bot enhancements (Core pp. 300-312)
+      augType: choice(["standard", "bioware", "cyberware", "nanoware", "meshware", "cosmetic", "robotic", "other"], "bioware"),
       cost: text()
     };
   }
@@ -161,12 +212,127 @@ export class SleightData extends BaseItemData {
   static defineSchema() {
     return {
       ...super.defineSchema(),
+      key: text(),
       psiType: choice(["chi", "gamma", "epsilon"], "chi"),
+      // Active sleights are used (and cause strain); passive ones are always on (Core p. 221)
+      activation: choice(["active", "passive"], "passive"),
       action: choice(["automatic", "quick", "complex", "task"], "automatic"),
-      range: text(),
+      range: choice(["self", "touch", "close"], "self"),
+      duration: choice(["constant", "instant", "temporary", "sustained"], "constant"),
+      durationUnit: choice(["turns", "minutes", "hours"], "turns"),
+      strainMod: int(0),
+      // Mindlink: +N strain per target after the first; Penetration: 1 strain per point of AP
+      strainPerTarget: int(0, { min: 0 }),
+      strainPerAP: new BooleanField({ initial: false }),
+      skill: text(),
+      // Psi attack harm (roll data, e.g. 1d10 + ceil(@wil / 10)), as physical damage or mental stress
+      damage: text(),
+      harm: choice(["damage", "stress"], "damage"),
+      exsurgent: new BooleanField({ initial: false }),
+      // A temporary or sustained sleight in use, and the Action Turns left for a temporary one
+      active: new BooleanField({ initial: false }),
+      remaining: int(0, { min: 0 })
+    };
+  }
+
+  /** Version 0.1 stored range, duration and strain modifier as free text. */
+  static migrateData(source) {
+    if ( typeof source.strainMod === "string" ) {
+      source.strainMod = Number(source.strainMod.replace(/[–−]/g, "-").match(/[+-]?\s*\d+/)?.[0].replace(/\s/g, "") ?? 0);
+    }
+    if ( (typeof source.range === "string") && !["self", "touch", "close"].includes(source.range) ) {
+      source.range = source.range.toLowerCase().match(/self|touch|close/)?.[0] ?? "self";
+    }
+    if ( (typeof source.duration === "string") && !["constant", "instant", "temporary", "sustained"].includes(source.duration) ) {
+      const text = source.duration.toLowerCase();
+      source.duration = text.match(/constant|instant|sustained/)?.[0] ?? (text.startsWith("temp") ? "temporary" : "constant");
+      if ( source.duration === "temporary" ) source.durationUnit = text.includes("hour") ? "hours" : (text.includes("minute") ? "minutes" : "turns");
+    }
+    return super.migrateData(source);
+  }
+
+  /** Sleights in use count down; constant and passive ones are always on. */
+  get isActive() {
+    return (this.activation === "passive") || (this.duration === "constant") || this.active;
+  }
+}
+
+/* -------------------------------------------- */
+
+/** Programs, AIs, scorchers and skillsofts (Core pp. 331-332). */
+export class SoftwareData extends BaseItemData {
+  static defineSchema() {
+    return {
+      ...super.defineSchema(),
+      // Rules find programs by key (exploit, spoof, firewall...), whatever their displayed name
+      key: text(),
+      category: choice(["program", "ai", "scorcher", "skillsoft"], "program"),
+      // Mesh gear quality (p. 247): -30 to +30, applied to tests made with the program
+      quality: int(0, { min: -30, max: 30 }),
+      cost: text(),
+      // Scorchers: harm on a successful attack, or a special effect resolved by a WIL x 2 Test
+      damage: text(),
+      harm: choice(["none", "damage", "stress"], "none"),
+      effect: choice(["", "nightmare", "shutter", "spasm"], ""),
+      // AIs: aptitudes and skills of the program, used to create the AI actor
+      aptitudes: new SchemaField(Object.fromEntries(APTITUDES.map(k => [k, int(10, { min: 0 })]))),
+      skills: new ArrayField(new SchemaField({
+        key: text(), name: text(), field: text(), value: int(0, { min: 0 }), specialization: text()
+      }))
+    };
+  }
+}
+
+/* -------------------------------------------- */
+
+/** Drugs, chemicals, toxins, pathogens and narcoalgorithms (Core pp. 317-325). */
+export class SubstanceData extends BaseItemData {
+  static defineSchema() {
+    return {
+      ...super.defineSchema(),
+      key: text(),
+      category: choice(["drug", "nanodrug", "narcoalgorithm", "chemical", "toxin", "nanotoxin", "pathogen", "psi"], "drug"),
+      substanceType: choice(["", "chem", "bio", "nano", "electronic"], ""),
+      // Application methods (D dermal, Inh, Inj, O oral), onset and duration as printed
+      application: text(),
+      onset: text(),
       duration: text(),
-      strainMod: text(),
-      skill: text()
+      addictionMod: text(),
+      addictionType: choice(["", "mental", "physical", "both"], ""),
+      cost: text(),
+      quantity: int(1, { min: 0 })
+    };
+  }
+}
+
+/* -------------------------------------------- */
+
+/**
+ * Backgrounds and factions (Core pp. 131-134) and packages (Transhuman pp. 13-41): dropped on a character, their
+ * fixed bonuses are applied (dice/backgrounds.mjs); choices ("+10 to two skills of your choice") stay as text.
+ */
+export class BackgroundData extends BaseItemData {
+  static defineSchema() {
+    return {
+      ...super.defineSchema(),
+      kind: choice(["background", "faction", "package"], "background"),
+      // Packages: their group (background, faction, focus, customization) and Package Points (1, 3 or 5)
+      group: text(),
+      pp: int(0, { min: 0 }),
+      // Skill ranks given; key "" for a skill outside the Complete Skill List
+      skills: new ArrayField(new SchemaField({ key: text(), name: text(), field: text(), value: int(0) })),
+      aptitudes: new SchemaField(Object.fromEntries(APTITUDES.map(k => [k, int(0)]))),
+      moxie: int(0),
+      credit: int(0),
+      rep: int(0),
+      // The network of that Rep ("at", "c"...), or "" when the player chooses
+      repNetwork: text(),
+      traits: new ArrayField(new SchemaField({ name: text(), level: int(1, { min: 0 }) })),
+      // What the player chooses, the restrictions, the common morphs and motivations, as printed
+      choices: text(),
+      restrictions: text(),
+      morphs: text(),
+      motivations: text()
     };
   }
 }

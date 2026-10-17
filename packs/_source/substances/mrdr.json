@@ -1,0 +1,72 @@
+{
+  "_id": "a8f8d181cd0e4052",
+  "_key": "!items!a8f8d181cd0e4052",
+  "name": "MRDR",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "mrdr",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "O",
+    "onset": "20 minutes",
+    "duration": "1 hour",
+    "addictionMod": "–10",
+    "addictionType": "physical",
+    "cost": "Low",
+    "quantity": 1,
+    "description": "<p>MRDR is a straightforward and brutal combat drug. It increases pain tolerance, speed, and strength. The character receives +10 SOM, +1 Speed, +10 Durability, and may ignore the –10 modifier of one wound. Any damage incurred while under the effects of the drug is taken from the bonus Durability first. MRDR users are easily identifiable by the broken blood vessels in their eyes, tense posture, and visible tension in the muscles of the face, arms, and legs. Long-term users suffer –5 SOM.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 319.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "ad22dd28818464b0",
+      "_key": "!items.effects!a8f8d181cd0e4052.ad22dd28818464b0",
+      "name": "MRDR",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.aptitudes.som.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.mods.spd",
+          "mode": 2,
+          "type": "add",
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.mods.dur",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.mods.woundsIgnored",
+          "mode": 2,
+          "type": "add",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  }
+}

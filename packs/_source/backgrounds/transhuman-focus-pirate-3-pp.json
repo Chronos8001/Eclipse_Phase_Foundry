@@ -1,0 +1,100 @@
+{
+  "_id": "7aa1cbbe6828c51c",
+  "_key": "!items!7aa1cbbe6828c51c",
+  "name": "Pirate (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Traveling wasn’t something you did because you wanted to see new places and people. More often than not, you needed to skip out of a habitat to avoid arrest. Soon enough, your talent at evading authorities was parlayed into a more profitable career “liberating” cargo from automated haulers and finding the best place to sell the goods.</p><p><strong>Suggested Motivations:</strong> +Survival, +Thrill Seeking, +Wealth, –Authority</p><p><strong>3 PP:</strong> +1 Moxie · +50 g-rep · Fray 20, Gunnery 20, Infiltration 30, Interest: (Choose One) 30, Kinetic Weapons 20, Networking: Criminals 20, Perception 20, Pilot: Spacecraft 40, Profession: Piracy 50, Scrounging 30</p><p><em>Source: Eclipse Phase Transhuman, p. 34.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "gunnery",
+        "name": "Gunnery",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Criminals",
+        "value": 20
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Spacecraft",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Piracy",
+        "value": 50
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "g",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Survival, +Thrill Seeking, +Wealth, –Authority"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 210000,
+  "ownership": {
+    "default": 0
+  }
+}

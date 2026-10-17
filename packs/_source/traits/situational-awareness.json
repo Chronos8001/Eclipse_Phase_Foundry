@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/upgrade.svg",
   "system": {
+    "key": "situationalAwareness",
     "traitType": "positive",
     "scope": "ego",
     "level": 1,
     "cost": 10,
     "costText": "Cost: 10 CP",
-    "description": "<p>The character is very good at maintaining continuous partial awareness of the goings-on in their immediate environment. In game terms, they do not suffer the Distracted modifier on Perception Tests to notice things even when their attention is focused elsewhere, or when making Quick Perception Tests during combat.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>The character is very good at maintaining continuous partial awareness of the goings-on in their immediate environment. In game terms, they do not suffer the Distracted modifier on Perception Tests to notice things even when their attention is focused elsewhere, or when making Quick Perception Tests during combat.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 148.</em></p>"
   },
   "effects": [],
   "flags": {},

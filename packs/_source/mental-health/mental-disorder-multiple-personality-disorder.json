@@ -1,0 +1,23 @@
+{
+  "_id": "3413d528ba5763ae",
+  "_key": "!items!3413d528ba5763ae",
+  "name": "Mental Disorder (Multiple Personality Disorder)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>This is the development of a separate, distinct personality from the original or control personality. The personalities may or may not be aware of each other and “conscious” during the actions of the other personality. Usually there is some sort of trigger that results in the emergence of the non-control personality. Most subjects have only a single extra personality, but it is not unheard of to have several personalities. It is important to note that these are distinct individual personalities and not just crude caricatures of the Dr. Jekyll/Mr. Hyde sort. Each personality sees itself as a distinct person with their own wants, needs, and motivations. Additionally, they are usually unaware of the experiences of the others, though there is some basic information sharing (such as language and core skill sets).</p><p>Suggested Game Effects: When the player is under the effects of another personality, they should be treated as an NPC. In some rare cases the player and the gamemaster can work out the second personality and allow the player to roleplay this. This does not however constitute an entire new character that can be “turned on” at will.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 214.</em></p>",
+    "key": "mentalDisorder",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e020f92043509ff9",
+  "sort": 39000,
+  "ownership": {
+    "default": 0
+  }
+}

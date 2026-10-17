@@ -1,0 +1,29 @@
+{
+  "_id": "090cd2870811e55d",
+  "_key": "!items!090cd2870811e55d",
+  "name": "Maker",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "maker",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "Low to Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Makers are specially-designed to produce food and drink for the user. Raw materials can be provided by the addition of any water-containing liquid and collected biomass like leftover food, grass, dirt, dead animals, or transhuman waste. Some models are built into standard vacsuits. Makers can produce water and various flavored beverages, as well as ration bars or thick pudding-like edible gels. With adequate raw material, a maker can indefinitely provide food and drink for up to three transhumans. Most units, however, have a very limited range of flavors and textures that are widely considered to be fairly bad. Models with a wider and better range of flavors and textures are more expensive, but produce food that is considered adequate or occasionally good.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 328.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 53000,
+  "ownership": {
+    "default": 0
+  }
+}

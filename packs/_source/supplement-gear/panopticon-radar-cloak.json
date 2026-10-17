@@ -1,0 +1,29 @@
+{
+  "_id": "53cdd0b0809bfb42",
+  "_key": "!items!53cdd0b0809bfb42",
+  "name": "Radar Cloak",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "radarCloak",
+    "cost": "High",
+    "description": "<p>This cloak works like the invisibility cloak (p. 316, EP), except that it bends radar frequencies and makes the wearer invisible to radar sensors.</p><p><em>Source: Eclipse Phase Panopticon, p. 151.</em></p>",
+    "category": "espionage",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  }
+}

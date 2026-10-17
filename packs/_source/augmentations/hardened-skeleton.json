@@ -1,0 +1,51 @@
+{
+  "_id": "888e8398942c24bc",
+  "_key": "!items!888e8398942c24bc",
+  "name": "Hardened Skeleton",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "hardenedSkeleton",
+    "augType": "cyberware",
+    "cost": "High",
+    "description": "<p>The morph’s skeleton has been laced with strengthening materials. Apply a +5 DUR and +5 SOM bonus.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 308.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "e4524a1aad40bba7",
+      "_key": "!items.effects!888e8398942c24bc.e4524a1aad40bba7",
+      "name": "Hardened Skeleton",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.mods.dur",
+          "mode": 2,
+          "type": "add",
+          "value": "5",
+          "priority": null
+        },
+        {
+          "key": "system.aptitudes.som.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 56000,
+  "ownership": {
+    "default": 0
+  }
+}

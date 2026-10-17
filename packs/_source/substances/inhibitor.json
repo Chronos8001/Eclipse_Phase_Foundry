@@ -1,0 +1,51 @@
+{
+  "_id": "c098bd6388e7bd41",
+  "_key": "!items!c098bd6388e7bd41",
+  "name": "Inhibitor",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "inhibitor",
+    "category": "psi",
+    "substanceType": "chem",
+    "application": "Inj, O",
+    "onset": "3 Action Turns",
+    "duration": "6 hours",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "High",
+    "quantity": 1,
+    "description": "<p>Inhibitor is a cocktail of neurochemicals that block some brain receptor and transmitter functions in an attempt to reduce psi-waves and block or impair sleights. This drug is commonly used to restrain async prisoners from using their abilities. A drugged character must make a WIL x 2 Test. If they fail, they lose all psi abilities for the drug’s duration. If they succeed, they suffer a –30 impairment on Psi skills and all strain is doubled. Inhibitor has an unfortunate side effect of doping the character down, however; apply a –10 modifier to their COG. Inhibitor-influenced characters tend to have a glazed, dopey expression and have difficulty getting excited or emotional.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 325.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "f624fef5b6cd8233",
+      "_key": "!items.effects!c098bd6388e7bd41.f624fef5b6cd8233",
+      "name": "Inhibitor",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.aptitudes.cog.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "-10",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 42000,
+  "ownership": {
+    "default": 0
+  }
+}

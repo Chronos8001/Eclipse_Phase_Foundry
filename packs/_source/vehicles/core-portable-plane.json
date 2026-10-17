@@ -1,0 +1,67 @@
+{
+  "_id": "2e5f141af6caa2e9",
+  "_key": "!actors!2e5f141af6caa2e9",
+  "name": "Portable Plane",
+  "type": "vehicle",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "category": "aircraft",
+    "passengers": "2",
+    "handling": 10,
+    "movement": "",
+    "maxVelocity": "200–250",
+    "mobility": "",
+    "av": {
+      "energy": 10,
+      "kinetic": 6
+    },
+    "durability": 50,
+    "woundThreshold": 10,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "High",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Powered by superconducting batteries and with an exceedingly small but powerful electric motor, this light but durable propeller plane is made of smart materials that allow it to be swiftly folded up into a small portable package. Different versions are designed for flight on Mars, Titan, or Venus, each taking 10 minutes to assemble or disassemble. The Martian version unpacks into an airplane with a wingspan of 11 m with a top speed of 250 kph and a cruising speed of 220 kph and a range of 1,300 km. The Venusian version has a wingspan of 9 m, a top speed of 200 kph and a range of 1,000 km. The version designed for use on Titan has a wingspan of 8 m and has a top speed of 200 kph and a range of 2,000 km. In all versions, the two occupants ride in an inflatable and insulated pressurized bubble with a life support system capable of providing clean air and comfortable temperatures for 20 hours on Mars and Venus, and 15 hours on Titan.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 343.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "27f6c10a524d6508",
+  "sort": 2000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Portable Plane",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wing.svg"
+    }
+  }
+}

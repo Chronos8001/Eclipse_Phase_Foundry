@@ -1,0 +1,29 @@
+{
+  "_id": "10547dd8bc25fcf8",
+  "_key": "!items!10547dd8bc25fcf8",
+  "name": "Fiberoptic Microphone",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "fiberopticMicrophone",
+    "cost": "Low",
+    "description": "<p>Similar to the fiber eye surveillance camera, the fiberoptic mic is a flexible and mesh-controllable length of fiberoptic cable that can fit through cracks, small holes, etc. This device measures the laser reflections off of a sound-sensitive reflective diaphragm, recording audio that is transmitted back through the fiberoptic cable. Unlike standard microphones, fiberoptic mics are not effected by environmental heat, moisture, or magnetic fields. They have effective noise-canceling functions, high fidelity, and can record infrasound and ultrasound. Apply a +10 modifier to hearing-based Perception Tests. Fiberoptic mics are sometimes strung throughout habitat infrastructure to monitor seismic vibrations in walls and other surfaces.</p><p><em>Source: Eclipse Phase Panopticon, p. 152.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 34000,
+  "ownership": {
+    "default": 0
+  }
+}

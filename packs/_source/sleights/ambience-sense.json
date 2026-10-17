@@ -1,0 +1,33 @@
+{
+  "_id": "52a28341018fd4cc",
+  "_key": "!items!52a28341018fd4cc",
+  "name": "Ambience Sense",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "ambienceSense",
+    "psiType": "chi",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>This sleight provides the async with an instinctive sense about an area and any potential threats nearby. The async receives a +10 modifier to all Investigation, Perception, Scrounging, and Surprise Tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 223.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

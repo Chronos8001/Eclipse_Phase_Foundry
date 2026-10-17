@@ -1,0 +1,88 @@
+{
+  "_id": "876ad39d959af44f",
+  "_key": "!items!876ad39d959af44f",
+  "name": "Criminal (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>As long as there are people there will always be rules, and where there are rules there are opportunities to make a tidy profit providing the sorts of things those rules prohibit. You prefer to think of yourself as a facilitator for those who want to get around these restrictions.</p><p><strong>Suggested Motivations:</strong> +Survival, +Thrill Seeking, +Wealth, –Law and Order</p><p><strong>3 PP:</strong> +50 g-rep · Deception 30, Infiltration 30, Interest: Criminal Groups 50, Intimidation 40, Networking: Criminals 40, Palming 30, Profession: (Choose One) 40, Unarmed Combat 35</p><p><em>Source: Eclipse Phase Transhuman, p. 24.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "Criminal Groups",
+        "value": 50
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Criminals",
+        "value": 40
+      },
+      {
+        "key": "palming",
+        "name": "Palming",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 35
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "g",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Survival, +Thrill Seeking, +Wealth, –Law and Order"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 98000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "fd74d36305237ac2",
+  "_key": "!items!fd74d36305237ac2",
+  "name": "Animal Keeper AI",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "animalKeeperAi",
+    "cost": "Moderate",
+    "description": "<p>Like a muse for smart animals, this AI overwatches a critter’s activities, directs it as needed, and alerts the owners to any emergencies or other problems. If the animal is equipped with a puppet sock, it can also jam it like a biodrone. COO 20. Skills: Animal Handling (Animal Type) 40, Interests: [Animal Type] 80, Interfacing 20, Perception 30, Research 20.</p><p><em>Source: Eclipse Phase Panopticon, p. 155.</em></p>",
+    "category": "ai",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "cog": 10,
+      "coo": 20,
+      "int": 10,
+      "ref": 10,
+      "sav": 10,
+      "som": 10,
+      "wil": 10
+    },
+    "skills": [
+      {
+        "key": "animalHandling",
+        "name": "Animal Handling",
+        "field": "",
+        "value": 40,
+        "specialization": "Animal Type"
+      },
+      {
+        "key": "interest",
+        "name": "Interests",
+        "field": "[Animal Type]",
+        "value": 80,
+        "specialization": ""
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 20,
+        "specialization": ""
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30,
+        "specialization": ""
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 20,
+        "specialization": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 60000,
+  "ownership": {
+    "default": 0
+  }
+}

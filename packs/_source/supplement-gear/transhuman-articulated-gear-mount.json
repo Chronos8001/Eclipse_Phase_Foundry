@@ -1,0 +1,20 @@
+{
+  "_id": "b575bc33d7106b17",
+  "_key": "!items!b575bc33d7106b17",
+  "name": "Articulated Gear Mount",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "articulatedGearMount",
+    "cost": "Low",
+    "description": "<p>Similar to an articulated weapon mount, this mount allows a piece of modularized gear to be manipulated independent of the flexbot’s limbs.</p><p><em>Source: Eclipse Phase Transhuman, p. 210.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 26000,
+  "ownership": {
+    "default": 0
+  }
+}

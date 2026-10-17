@@ -1,0 +1,51 @@
+{
+  "_id": "29d0416c09c98753",
+  "_key": "!items!29d0416c09c98753",
+  "name": "Carapace Armor",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "carapaceArmor",
+    "augType": "bioware",
+    "cost": "Moderate",
+    "description": "<p>Carapace armor combines bioweave armor with hard but flexible plates of a chitin-ceramic hybrid material modeled on the microscopic structure and texture of arthropod exoskeletons. This armor is obvious and has a somewhat crocodilian or insectoid appearance (character’s choice). The morph is completely hairless as well. This provides an Armor rating of 11/11. This armor is not cumulative with worn armor.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 303.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "169a2ab937f8cf89",
+      "_key": "!items.effects!29d0416c09c98753.169a2ab937f8cf89",
+      "name": "Carapace Armor",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.mods.energyArmor",
+          "mode": 2,
+          "type": "add",
+          "value": "11",
+          "priority": null
+        },
+        {
+          "key": "system.mods.kineticArmor",
+          "mode": 2,
+          "type": "add",
+          "value": "11",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

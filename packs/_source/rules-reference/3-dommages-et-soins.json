@@ -1,0 +1,33 @@
+{
+  "_id": "15f0277fda7b1b55",
+  "_key": "!journal!15f0277fda7b1b55",
+  "name": "3. Dommages et soins",
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "pages": [
+    {
+      "_id": "19065e9017dd88c8",
+      "_key": "!journal.pages!15f0277fda7b1b55.19065e9017dd88c8",
+      "name": "Dommages et soins",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li>Seuil de blessure (SB) = DUR ÷ 5 ; seuil de mort = DUR × 1,5 (biomorphes), × 2 (synthomorphes).</li><li>L'armure (énergie ou cinétique) réduit les dommages ; la pénétration d'armure la réduit.</li><li>Une blessure par tranche complète de SB dans un même coup ; chaque blessure donne −10 à tous les tests.</li><li>Dommages ≥ DUR : hors de combat ; dommages ≥ seuil de mort : mort.</li><li>Un biomorphe blessé dont les dommages dépassent la DUR saigne : 1 point par tour.</li></ul><h2>Guérison naturelle</h2><table><thead><tr><th>Soins</th><th>1d10 dommages</th><th>1 blessure</th></tr></thead><tbody><tr><td>Sans biomods de base</td><td>24 h</td><td>7 j</td></tr><tr><td>Biomods de base</td><td>12 h</td><td>3 j</td></tr><tr><td>Nanobandage</td><td>2 h</td><td>1 j</td></tr><tr><td>Médichines</td><td>1 h</td><td>12 h</td></tr></tbody></table><p>Conditions mauvaises : durées doublées ; difficiles : triplées, et les blessures ne guérissent pas. Les blessures ne guérissent qu'une fois les dommages soignés.</p><p><em>Source : Eclipse Phase Core Rulebook, p. 207-208.</em></p>",
+        "format": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "system": {}
+    }
+  ]
+}

@@ -18,7 +18,20 @@
     },
     "range": "",
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "shock": false,
+    "area": {
+      "shape": "none",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "Low",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>The blade of this machete-like weapon is made of a memory polymer. When deactivated, the blade is limp and flexible, and may even be rolled up or otherwise easily concealed. When activated, however, the blade stiffens and sharpens into a vicious slashing weapon.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>"
   },
   "effects": [],
   "flags": {},

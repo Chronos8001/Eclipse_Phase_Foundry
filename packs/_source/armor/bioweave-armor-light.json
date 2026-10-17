@@ -1,0 +1,22 @@
+{
+  "_id": "f06a05ccdb0aae02",
+  "_key": "!items!f06a05ccdb0aae02",
+  "name": "Bioweave Armor (Light)",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "energy": 2,
+    "kinetic": 3,
+    "equipped": false,
+    "accessory": false,
+    "cost": "Low",
+    "description": "<p>Bioweave armor involves lacing the morph’s skin with artificial spider silk biological fibers. This provides an Armor rating of 2/3 without changing the appearance, texture, or sensitivity of the morph’s skin. This armor is cumulative with worn armor.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 302.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

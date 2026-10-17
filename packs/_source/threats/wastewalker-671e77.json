@@ -1,0 +1,429 @@
+{
+  "_id": "671e779092e666c9",
+  "_key": "!actors!671e779092e666c9",
+  "name": "Wastewalker",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 30,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 2,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Orange</p><p><strong>Numbers:</strong> 4–8</p><p>Smooth white masks, floating out of shadows and flame, looking inexplicably hungry through doll’s eyes and expressionless dashes of mouths—the wastewalkers on the march were the last sight of many transhumans. These exsurgent cyborgs were employed by the TITANs as elite infantry during the Fall. Wastewalkers are intelligent and tactically minded, and they frequently commanded other exsurgents and TITAN puppets as shock troops, indirect fire spotters, and cannon fodder. The masks themselves are the infection vector. Wastewalkers (or other TITAN minions) restrain captured biomorphs and force them to wear the mask until it melds to the face, beginning the transformation. Incorporation into the wastewalker social structure takes place within the hour, and the new exsurgent begins following orders from the tribe’s alpha. The victim grows tall and wiry over the course of days: the virus stretching and perverting the joints of the fingers, arms, and legs. Claws extrude from the nails and elbows, poking out of the featureless black polymer armor that slowly replaces the skin. Thin cylinders protrude from a hump on the back, each housing a hive of fabricator or disassembler nanoswarms. Excess body mass from the transformation moves to the hump and is used as feedstock. No one has ever successfully recovered an ego from a biomorph infected with the wastewalker strain. Since the departure of the TITANs, feral wastewalkers look to their tribe’s alpha for orders. They communicate in bursts of encrypted digital static. Groups survive by hunting small animals, gathering vegetation, and assaulting any transhumans foolish enough to come close. In especially lean times, wastewalkers go dormant and allow their hives to feed on surrounding materials.</p><p><strong>Stress Test:</strong> SV 1d10</p><p><strong>Ware:</strong> Chameleon Skin, Claws, Efficient Digestion, Enhanced Hearing, Enhanced Respiration, Enhanced Vision, Medichines, Neurachem (Level 1), Skinlink, Specialized Hives (1 Disassembler, 1 Fabricator),Temperature Tolerance, Toxin Filters</p><p><strong>Gear:</strong> Nanobandages, Smoke Grenades (4), Spindle and Climber, Utilitool</p><p><em>Initiative printed: 6 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 10, Death Rating 100.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 148.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Wastewalker (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 50,
+        "speedMod": 1,
+        "initMod": 0,
+        "armor": {
+          "energy": 14,
+          "kinetic": 8
+        },
+        "movement": "4/20 Walker",
+        "implants": "Chameleon Skin, Claws, Efficient Digestion, Enhanced Hearing, Enhanced Respiration, Enhanced Vision, Medichines, Neurachem (Level 1), Skinlink, Specialized Hives (1 Disassembler, 1 Fabricator),Temperature Tolerance, Toxin Filters",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "745ff59db6d19cc5",
+      "_key": "!actors.items!671e779092e666c9.745ff59db6d19cc5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4d13789220c06cdf",
+      "_key": "!actors.items!671e779092e666c9.4d13789220c06cdf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c108c2712ea4a1db",
+      "_key": "!actors.items!671e779092e666c9.c108c2712ea4a1db",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "69d833e89d7b1efe",
+      "_key": "!actors.items!671e779092e666c9.69d833e89d7b1efe",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Small Unit Tactics",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "cc195c9448884bd8",
+      "_key": "!actors.items!671e779092e666c9.cc195c9448884bd8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Throwing Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "throwingWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "fcede6452f7d9acf",
+      "_key": "!actors.items!671e779092e666c9.fcede6452f7d9acf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "27f7b874d75b4843",
+      "_key": "!actors.items!671e779092e666c9.27f7b874d75b4843",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "312900ec1142e362",
+      "_key": "!actors.items!671e779092e666c9.312900ec1142e362",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "Hearing/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1658eaaba383fa88",
+      "_key": "!actors.items!671e779092e666c9.1658eaaba383fa88",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 40,
+        "ap": -1,
+        "dv": "1d10 + 2",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Claws: 40, DV 1d10 + 2,AP −1</p>"
+      },
+      "_id": "3c0b1fb4a1f2e972",
+      "_key": "!actors.items!671e779092e666c9.3c0b1fb4a1f2e972",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Railgun SMG",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 80,
+        "ap": -5,
+        "dv": "2d10 + 5",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Railgun SMG: 80, DV 2d10 + 5,AP −5, SA/BF/FA,Ammo 100 Frag Grenades (x4): 70, DV 3d10 + 6, AP −4, sticky</p>"
+      },
+      "_id": "8b25adbe316e31e7",
+      "_key": "!actors.items!671e779092e666c9.8b25adbe316e31e7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 61000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Wastewalker",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

@@ -33,18 +33,18 @@
     },
     "movement": "Walker 4/20",
     "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Eidetic Memory, Mnemonic Augmentation, Synthetic Mask (this negates the Social Stigma (Clanking Masses) and Uncanny Valley traits)",
-    "advantages": "+10 SOM, +5 COG, +5 to two other aptitudes of the player's choice, Armor 8/8",
+    "advantages": "+10 SOM, +5 COG, +5 to two other aptitudes of the player’s choice, Armor 8/8",
     "disadvantages": "Social Stigma (Clanking Masses) trait, Uncanny Valley trait",
     "skillBonuses": [],
     "cpCost": 55,
     "creditCost": "Expensive (minimum 40,000+)",
     "active": false,
-    "description": "<p>This version of the steel morph is equipped with the synthetic mask enhancement, making the shell look like a human biomorph. This version is uncommon, as most Steel Liberators view biological masking as a form of \"selling out.\" It is used both by Lunars who are stuck sleeving into a synthmorph, but whom don't want to suffer discrimination, and by Steel Liberator activists looking to infiltrate biochauvinists and other opponent groups.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 97.</em></p>"
+    "description": "<p>This version of the steel morph is equipped with the synthetic mask enhancement, making the shell look like a human biomorph. This version is uncommon, as most Steel Liberators view biological masking as a form of “selling out.” It is used both by Lunars who are stuck sleeving into a synthmorph, but whom don’t want to suffer discrimination, and by Steel Liberator activists looking to infiltrate biochauvinists and other opponent groups.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 97.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 112000,
+  "sort": 115000,
   "ownership": {
     "default": 0
   }

@@ -1,0 +1,29 @@
+{
+  "_id": "85c38427da8a4bbf",
+  "_key": "!items!85c38427da8a4bbf",
+  "name": "Rust Hound",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "rustHound",
+    "cost": "High",
+    "description": "<p>Rust hounds are large, transgenic dogs. In addition to being able to breathe the Martian atmosphere, they’re able to smell it and are sometimes used as trackers.</p><p><em>Source: Eclipse Phase Sunward, p. 168.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c65046ec99239352",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

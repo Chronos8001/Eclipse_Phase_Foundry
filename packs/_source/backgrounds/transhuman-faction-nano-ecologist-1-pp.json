@@ -1,0 +1,58 @@
+{
+  "_id": "0063623d600a9bb6",
+  "_key": "!items!0063623d600a9bb6",
+  "name": "Nano-Ecologist (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You support the use of nanotechnology as a less-invasive means of terraforming and transforming alien worlds.</p><p><strong>Suggested Motivations:</strong> +Exploration, +Nano-ecology, +Research, +Technoprogressivism</p><p><strong>1 PP:</strong> Academics: (Ecology or Nanotechnology) 30, Freerunning 30, Programming 40</p><p><em>Source: Eclipse Phase Transhuman, p. 26.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Ecology or Nanotechnology)",
+        "value": 30
+      },
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "programming",
+        "name": "Programming",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exploration, +Nano-ecology, +Research, +Technoprogressivism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 115000,
+  "ownership": {
+    "default": 0
+  }
+}

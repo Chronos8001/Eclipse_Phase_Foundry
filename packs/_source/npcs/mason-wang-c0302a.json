@@ -1,0 +1,889 @@
+{
+  "_id": "c0302a8db1722aac",
+  "_key": "!actors!c0302a8db1722aac",
+  "name": "Mason Wang",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 25,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 20,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 1,
+      "max": 1
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Anarchist Hacker</p><p><strong>Morph:</strong> Hibernoid</p><p><strong>Motivation:</strong> +Horticulture +Reclaiming Earth +Hacking</p><p><strong>Active Skills:</strong> Deception 70, Fray 60, Freefall 60, Gunnery 30, Hardware: Robotics 70, Infosec 70, Interfacing 70, Kinesics 40, Networking: Autonomists 60, Networking: Hypercorps 50, Networking: Scientists 80, Perception 50, Pilot: Groundcraft 25, Programming 80, Unarmed Combat 40</p><p><strong>Knowledge Skills:</strong> Academics: Computer Science 70, Interest: Locus Society 60, Language: English 70, Language: Mandarin 80, Profession: Engineering 70, Profession: Viral Marketing 40</p><p><strong>Reputation:</strong> @-rep 50, c-rep 30, r-rep 60</p><p><strong>Traits:</strong> Addiction (Sex, Minor), First Impression, Math Wiz, Striking Looks</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack, Electrical Sense, Emergency Farcaster, Enhanced Pheromones, Hibernation, Mnemonic Augmentation, Multitasking, Skinlink</p><p><strong>Gear:</strong> Nanodetectors, Quantum Computer (Software: AR Illusions, Exploit, Facial/Image Recognition, Tracking), Smart Vac Clothing, Specs, Wristmounted Tools</p><p><strong>Roleplaying:</strong> Wang is doing the outer system anarchist lifestyle like he just invented it, which can make him come off as an insufferable douchebag to real anarchists, scumborn, and others born outsystem. Nonetheless, he’s a hot commodity in Locus at present, with substantial rep; his prodigious programming skills and apparent sincerity are sufficient to redeem him in some quarters. He is an extremely sharp and ambitious businessman, but will often ask disarmingly naive and seemingly irrelevant questions. Some of his naiveté is calculated, and some is genuine, born of deep immaturity and insecurity. Wang is essentially selfish, ruthless, and calculating, but desperately wants to believe otherwise of himself.</p><p><em>Printed: INIT 70, SPD 1, LUC 20, TT 4, IR 40, DUR 35, WT 7, DR 53.</em></p><p><em>Source: Eclipse Phase Glory, p. 21.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Horticulture +Reclaiming Earth +Hacking"
+    }
+  },
+  "items": [
+    {
+      "_id": "4ecefd6ec1f48cc7",
+      "name": "Hibernoid",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 25,
+          "coo": 25,
+          "int": 25,
+          "ref": 25,
+          "sav": 25,
+          "som": 25,
+          "wil": 25
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 5,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 35,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack, Hibernation",
+        "advantages": "+5 INT, +5 to one other aptitude of the player’s choice",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 25,
+        "creditCost": "Expensive",
+        "active": true,
+        "description": "<p>Hibernoids are transgenic-modified humans with heavily altered sleep patterns and metabolic processes. Hibernoids have a decreased need for sleep, requiring only 1–2 hours a day on average. They also have the ability to trigger a form of voluntary hibernation, effectively stopping their metabolism and need for oxygen. Hibernoids make excellent long-duration space travelers and habtechs, but these morphs are also favored by personal aides and hypercapitalists with non-stop lifestyles.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 46.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c0302a8db1722aac.4ecefd6ec1f48cc7"
+    },
+    {
+      "_id": "b0ffe427a0c843df",
+      "name": "Addiction",
+      "type": "trait",
+      "img": "icons/svg/downgrade.svg",
+      "system": {
+        "key": "addiction",
+        "traitType": "negative",
+        "scope": "both",
+        "level": 1,
+        "cost": 5,
+        "costText": "Bonus: 5 CP (Minor), 10 CP (Moderate), or 20 CP (Major)",
+        "description": "<p>Addiction comes in two forms: mental (affecting the ego) and physical (affecting the biomorph). The character or morph is addicted to a drug (p. 317), stimulus (XP), or activity (mesh use) to a degree that impacts the character’s physical or mental health. Players and gamemasters should work together to agree on addictions that are appropriate for their game. Addiction comes in three levels of severity: minor, moderate, or major: Minor: A minor addiction is largely kept under control—it does not ruin the character’s life, though it may create some difficulties. The character may not even recognize or admit they have a problem. The character must indulge the addiction at least once a week, though they can go for longer without too much difficulty. If they fail to get their weekly dose, they suffer a –10 modifier on all actions until they get their fix. Moderate: A moderate addiction is in full swing. The character obviously has a problem, and must satisfy the addiction at least once a day. If they fail to do so, they may suffer mood swings, compulsive behavior, physical sickness, or other side effects until they indulge their craving. Apply a –20 modifier to all of the character’s actions until they get their fix. Additionally, a character with this level of addiction suffers a –5 DUR penalty. Major: A character with a major addiction is on the rapid road to ruin. They face cravings every 6 hours, and suffer a –10 DUR penalty as their health is affected. If they fail to get their regular dosage, they suffer a –30 modifier on all actions until they do. If their life hasn’t already been ruined by their obsession, it soon will be.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 148.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c0302a8db1722aac.b0ffe427a0c843df"
+    },
+    {
+      "_id": "ecbdc9f265d40a06",
+      "name": "First Impression",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "firstImpression",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>The character has a way of charming or otherwise making a good impression the first time they interact with someone. This innate social lubricant allows them to more readily deal with new contacts and slip right into new social environments. Apply a +10 modifier on social skill tests when the character is interacting with another character for the first time only.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c0302a8db1722aac.ecbdc9f265d40a06"
+    },
+    {
+      "_id": "db8944ed46b4624f",
+      "name": "Math Wiz",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "mathWiz",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>The character can perform any feat of calculation, including the most complex and advanced mathematics, instantly and with great precision, with the same ease an unmodified human can add 2 + 3. The character can calculate odds with great precision, find correlations in numerical data, and perform similar tasks with great ease. Apply a +30 modifier on tests involving math calculations.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c0302a8db1722aac.db8944ed46b4624f"
+    },
+    {
+      "_id": "f58f386dd4fe4b14",
+      "name": "Striking Looks",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "strikingLooks",
+        "traitType": "positive",
+        "scope": "morph",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
+        "description": "<p>In an age where biosculpting is easy, good looks are both cheap and commonplace. This morph, however, possesses a physical look that can only be described as striking and unusual, but also somehow alluring and fascinating—even the gorgeous and chiseled glitterati take notice. On social skill tests where the character’s beauty may affect the outcome, they receive a +10 (for Level 1) or +20 (for Level 2) modifier. This modifier is ineffective against xenomorphs or those with the infolife or uplift backgrounds. This trait is only available to biomorphs. This modifier may be purchased for uplift morphs, but at half the cost, and it is only effective against characters with that specific uplift background (i.e., neo-avians, neo-hominids, etc.). The one drawback to this trait is that the character is more easily noticed and remembered.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 148.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c0302a8db1722aac.f58f386dd4fe4b14"
+    },
+    {
+      "_id": "b6882ae17fa6f94f",
+      "name": "AR Illusions",
+      "type": "software",
+      "img": "icons/svg/hanging-sign.svg",
+      "system": {
+        "key": "arIllusions",
+        "category": "program",
+        "quality": 0,
+        "cost": "Moderate",
+        "damage": "",
+        "harm": "none",
+        "effect": "",
+        "aptitudes": {
+          "cog": 10,
+          "coo": 10,
+          "int": 10,
+          "ref": 10,
+          "sav": 10,
+          "som": 10,
+          "wil": 10
+        },
+        "skills": [],
+        "description": "<p>These databases of AR clips can be used to create realistic illusions in someone’s entoptic display. See Augmented Reality Illusions, p. 259.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c0302a8db1722aac.b6882ae17fa6f94f"
+    },
+    {
+      "_id": "21a0fc8cccbe6476",
+      "name": "Exploit",
+      "type": "software",
+      "img": "icons/svg/hanging-sign.svg",
+      "system": {
+        "key": "exploit",
+        "category": "program",
+        "quality": 0,
+        "cost": "High",
+        "damage": "",
+        "harm": "none",
+        "effect": "",
+        "aptitudes": {
+          "cog": 10,
+          "coo": 10,
+          "int": 10,
+          "ref": 10,
+          "sav": 10,
+          "som": 10,
+          "wil": 10
+        },
+        "skills": [],
+        "description": "<p>Exploits are hacker tools that take advantage of known vulnerabilities in other software. They are required for intrusion attempts (p. 254).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c0302a8db1722aac.21a0fc8cccbe6476"
+    },
+    {
+      "_id": "972cac3267412c08",
+      "name": "Facial/Image Recognition",
+      "type": "software",
+      "img": "icons/svg/hanging-sign.svg",
+      "system": {
+        "key": "facialImageRecognition",
+        "category": "program",
+        "quality": 0,
+        "cost": "Low",
+        "damage": "",
+        "harm": "none",
+        "effect": "",
+        "aptitudes": {
+          "cog": 10,
+          "coo": 10,
+          "int": 10,
+          "ref": 10,
+          "sav": 10,
+          "som": 10,
+          "wil": 10
+        },
+        "skills": [],
+        "description": "<p>This program can be used to take an image and run a pattern-matching search among public archives. Similar version of this program exist for other biometrics: gait recognition, vocal recognition, etc.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c0302a8db1722aac.972cac3267412c08"
+    },
+    {
+      "_id": "fec89b4d0f19ca2e",
+      "name": "Tracking",
+      "type": "software",
+      "img": "icons/svg/hanging-sign.svg",
+      "system": {
+        "key": "tracking",
+        "category": "program",
+        "quality": 0,
+        "cost": "Moderate",
+        "damage": "",
+        "harm": "none",
+        "effect": "",
+        "aptitudes": {
+          "cog": 10,
+          "coo": 10,
+          "int": 10,
+          "ref": 10,
+          "sav": 10,
+          "som": 10,
+          "wil": 10
+        },
+        "skills": [],
+        "description": "<p>This software is used to track people by their presence online. See Scanning, Tracking, and Monitoring, p. 251.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!c0302a8db1722aac.fec89b4d0f19ca2e"
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "95a5b70fcd940547",
+      "_key": "!actors.items!c0302a8db1722aac.95a5b70fcd940547",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "495f4a093be970f4",
+      "_key": "!actors.items!c0302a8db1722aac.495f4a093be970f4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freefall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a0ab157f424e25de",
+      "_key": "!actors.items!c0302a8db1722aac.a0ab157f424e25de",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Gunnery",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "gunnery",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c3ff043246b95033",
+      "_key": "!actors.items!c0302a8db1722aac.c3ff043246b95033",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Robotics",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9c12c6a9b470fa56",
+      "_key": "!actors.items!c0302a8db1722aac.9c12c6a9b470fa56",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "17ae464fd54acd49",
+      "_key": "!actors.items!c0302a8db1722aac.17ae464fd54acd49",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "19504bdce149c06a",
+      "_key": "!actors.items!c0302a8db1722aac.19504bdce149c06a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0003598005557267",
+      "_key": "!actors.items!c0302a8db1722aac.0003598005557267",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Autonomists",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f231fdb1e2b32e7f",
+      "_key": "!actors.items!c0302a8db1722aac.f231fdb1e2b32e7f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Hypercorps",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0ce20e3291d456b0",
+      "_key": "!actors.items!c0302a8db1722aac.0ce20e3291d456b0",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Scientists",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2f768c8220fea237",
+      "_key": "!actors.items!c0302a8db1722aac.2f768c8220fea237",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "a83ef409bde42846",
+      "_key": "!actors.items!c0302a8db1722aac.a83ef409bde42846",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Pilot",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "pilot",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "Groundcraft",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "478d2b93d253c34a",
+      "_key": "!actors.items!c0302a8db1722aac.478d2b93d253c34a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 22000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Programming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "programming",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "aefe4217022b0672",
+      "_key": "!actors.items!c0302a8db1722aac.aefe4217022b0672",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 23000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7e82b36ca3adb96f",
+      "_key": "!actors.items!c0302a8db1722aac.7e82b36ca3adb96f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 24000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Computer Science",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e0609f7a332f7517",
+      "_key": "!actors.items!c0302a8db1722aac.e0609f7a332f7517",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 25000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Locus Society",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "36d976474f3cc7eb",
+      "_key": "!actors.items!c0302a8db1722aac.36d976474f3cc7eb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 26000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "English",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "50aa26235ffa186f",
+      "_key": "!actors.items!c0302a8db1722aac.50aa26235ffa186f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 27000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Mandarin",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d5b9ed7ac47afed3",
+      "_key": "!actors.items!c0302a8db1722aac.d5b9ed7ac47afed3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 28000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Engineering",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "53645da9cb434e9b",
+      "_key": "!actors.items!c0302a8db1722aac.53645da9cb434e9b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 29000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Viral Marketing",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "18888b8c9f880e14",
+      "_key": "!actors.items!c0302a8db1722aac.18888b8c9f880e14",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 30000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "f3497fd65709500d",
+  "sort": 25000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Mason Wang",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

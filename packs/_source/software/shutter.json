@@ -1,0 +1,34 @@
+{
+  "_id": "06d4afcb2c7f70a6",
+  "_key": "!items!06d4afcb2c7f70a6",
+  "name": "Shutter",
+  "type": "software",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "key": "shutter",
+    "category": "scorcher",
+    "quality": 0,
+    "cost": "High",
+    "damage": "",
+    "harm": "none",
+    "effect": "shutter",
+    "aptitudes": {
+      "cog": 10,
+      "coo": 10,
+      "int": 10,
+      "ref": 10,
+      "sav": 10,
+      "som": 10,
+      "wil": 10
+    },
+    "skills": [],
+    "description": "<p>Shutters target the victim’s sensory cortices, inflicting a –30 modifier to one chosen sense. Double this modifier if the attacking hacker scored an Excellent Success. This modifier reduces at the rate of 10 points per Action Turn.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 332.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

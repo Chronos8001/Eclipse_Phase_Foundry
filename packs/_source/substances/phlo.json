@@ -1,0 +1,58 @@
+{
+  "_id": "43ab9bb46179724f",
+  "_key": "!items!43ab9bb46179724f",
+  "name": "Phlo",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "phlo",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "O",
+    "onset": "20 minutes",
+    "duration": "1 hour",
+    "addictionMod": "–10",
+    "addictionType": "physical",
+    "cost": "Moderate",
+    "quantity": 1,
+    "description": "<p>Phlo increases alertness and coordination, making the user more graceful and nimble in a fray. The character gains +5 COO and +10 on Perception Tests for the duration of the drug. Everything feels possible to a character on Phlo, and so they are vulnerable to being goaded into actions that might be foolish or dangerous (apply a –10 modifier to appropriate Social Skill Tests).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 319.</em></p>"
+  },
+  "effects": [
+    {
+      "_id": "aedc78628002f6f9",
+      "_key": "!items.effects!43ab9bb46179724f.aedc78628002f6f9",
+      "name": "Phlo",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.aptitudes.coo.mod",
+          "mode": 2,
+          "type": "add",
+          "value": "5",
+          "priority": null
+        },
+        {
+          "key": "system.skillMods.perception",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

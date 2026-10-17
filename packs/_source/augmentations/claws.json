@@ -1,0 +1,20 @@
+{
+  "_id": "13d21308eff2d5d3",
+  "_key": "!items!13d21308eff2d5d3",
+  "name": "Claws",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "claws",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The morph has retractable claws like those of a cat. These claws do not interfere with the character’s manual dexterity and are razor sharp. However, they are relatively small and only do 1d10 + 1 + (SOM ÷ 10) damage, with an AP of –1. As a result, they are legal in almost all habitats and are considered tools as much as weapons.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 304.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  }
+}

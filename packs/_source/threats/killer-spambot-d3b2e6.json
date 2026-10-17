@@ -1,0 +1,332 @@
+{
+  "_id": "d3b2e6f3a5e99f21",
+  "_key": "!actors!d3b2e6f3a5e99f21",
+  "name": "Killer Spambot",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 5,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 5,
+        "mod": 0
+      },
+      "sav": {
+        "base": 5,
+        "mod": 0
+      },
+      "som": {
+        "base": 5,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Red</p><p><strong>Numbers:</strong> 1–3</p><p>Spambots occupy and defend the best server available (pp. 144–145, Transhuman).</p><p>During the Fall, some corporations devoted their own resources to fight the TITANs. Among these efforts were misguided initiatives to re-purpose commercial malware and spambot software to fight TITAN mesh control. These expert AI systems deployed the type of aggressive cross-site scripting and rootkit-style exploits used by their adware/malware/ spyware to infiltrate and embed themselves within targeted systems. Since the TITANs relied on processing power, these killer spambots launched coordinated attacks to flood TITAN-infected machines with bogus traffic, slowing them down or crashing them entirely. Though the TITANs often filtered out or diverted spam floods and denial-of-service attacks, the sheer volume had an impact. The spambots’ own machine-learning algorithms adapted to TITAN defenses, but then began countering TITAN machinery in ways the researchers did not anticipate. Many corporations lost control of their creations. Some spambots even built hardware to combat the TITANs&#x27; physical assets. While most killer spambots were destroyed, many still lurk in the wild, particularly on isolated and legacy systems. These have evolved into mesh threats of their own, ruthlessly targeting interlopers on networks that they have “secured.” A few manipulate robotic minions, though their ability to differentiate between TITAN and transhuman threats has long since eroded. When a spambot hacks access to a device or server, it also attempts to hack all nearby networked devices: peripherals, spimes, tools, even morphs. They are particularly fond of hacking nanofabbers, which they will then use to construct robot minions (detailed on p. 162).</p><p><strong>Ware:</strong> Digital Veil, Increased Speed, Persistence</p><p><strong>DoS Attack:</strong> 80, target must be traced first (p. 258, EP). Opposed Infosec Test; if successful, target is −1 Speed and has a 10% chance of suffering a glitch (p. 144, Transhuman). See DoS Attacks, p. 147 and 149, Transhuman.</p><p><strong>Lockout:</strong> 80, target must be zeroed in and locked first (p. 257, EP). Opposed Infosec Test with intruder at −20; if successful, target intruder is locked out of system (p. 258, EP)</p><p><strong>Hidden Privileges:</strong> Spambots have hidden intruder status (p. 256, EP) to their home server and all local devices, giving them admin rights and +30 to all subversion tests.</p><p><strong>Legacy System:</strong> Many spambots rely on software that is years out of date.They suffer a −10 to −30 modifier when hacking more modern systems; however, the same modifier is applied to those attempting to hack them.</p><p><strong>Spam Mist:</strong> Everyone within mesh range suffers a −30 Perception modifier due to AR spam overload.This may be cleared with an Interfacing Test at −30, but will return after 10 minutes as the spam compensates for the filtering; see Traffic Filters and Mist, p. 248, EP. Alternatively,AR may be turned off, but this will disable tacnets and hinder other gear.</p><p><em>Initiative printed: 4 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 0, Death Rating 0.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 124.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Killer Spambot (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "infomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 0,
+        "speedMod": 3,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "N/A",
+        "implants": "Digital Veil, Increased Speed, Persistence",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "81f08583e6a0ad6d",
+      "_key": "!actors.items!d3b2e6f3a5e99f21.81f08583e6a0ad6d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "db41c059d6d0e7a9",
+      "_key": "!actors.items!d3b2e6f3a5e99f21.db41c059d6d0e7a9",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4160c75dd422d976",
+      "_key": "!actors.items!d3b2e6f3a5e99f21.4160c75dd422d976",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Programming",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "programming",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9cc5b4028ebfda3e",
+      "_key": "!actors.items!d3b2e6f3a5e99f21.9cc5b4028ebfda3e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7b43fcdcb590172b",
+      "_key": "!actors.items!d3b2e6f3a5e99f21.7b43fcdcb590172b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "2aa0adf5fd6ddb76",
+      "_key": "!actors.items!d3b2e6f3a5e99f21.2aa0adf5fd6ddb76",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "531cb3fd7fd578df",
+      "_key": "!actors.items!d3b2e6f3a5e99f21.531cb3fd7fd578df",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Brainhack",
+      "type": "weapon",
+      "img": "icons/svg/claw.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "unarmedCombat",
+        "rating": 80,
+        "ap": 0,
+        "dv": "1d10 + 5",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Brainhack: 80, see Cyberbrain Hacking, p. 261, EP. Targets are inflicted with bedlam (SV 1d10) or cauterizer (DV 1d10 + 5) scorchers (p. 332, EP).</p>"
+      },
+      "_id": "8959082c035a58fb",
+      "_key": "!actors.items!d3b2e6f3a5e99f21.8959082c035a58fb",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 34000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Killer Spambot",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

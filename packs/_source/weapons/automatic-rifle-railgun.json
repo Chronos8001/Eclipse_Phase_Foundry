@@ -18,12 +18,25 @@
     },
     "range": "225 / 375 / 750 / 1350",
     "equipped": false,
-    "description": "<p>Batterie : 200 tirs.</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "shock": false,
+    "area": {
+      "shape": "none",
+      "radius": 0
+    },
+    "twoHanded": true,
+    "cost": "Moderate",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>Automatic rifles use rifle ammunition and have greater range and penetration than SMGs. They fire in semi-auto, burst fire, or full auto modes. They are two-handed weapons.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 336.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 27000,
+  "sort": 28000,
   "ownership": {
     "default": 0
   }

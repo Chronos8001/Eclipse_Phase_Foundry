@@ -1,0 +1,23 @@
+{
+  "_id": "ef5c7314382d00e5",
+  "_key": "!items!ef5c7314382d00e5",
+  "name": "Coronal Adaptation",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "coronalAdaptation",
+    "traitType": "positive",
+    "scope": "morph",
+    "level": 1,
+    "cost": 30,
+    "costText": "Cost: 30 CP",
+    "description": "<p>For biomorphs, this radical alteration enables the subject’s metabolism to live off solar energy, using medichines to repair radiation damage. This same metabolism also generates powerful electromagnetic fields that protect the character from the intense temperatures and radiation in the coronal environment and even enable the character to sail the solar winds. Morphs with this adaptation cannot survive outside the coronal environment (or similar environments) for more than a few days without extensive medical support. Coronal adaptation can only be applied to morphs that also have medichines (p. 308, EP). For synthmorphs, this adaptation restructures the morph’s composition with heat-resistant materials capable of surviving superheated plasma and shielded against radiation. The shell is also equipped with refractive metamaterials and a perfectly mirrored surface, giving it an albedo of nearly one. The reflective surface protects the wearer from well over 99% of the radiant energy that falls upon it, but a powerful cooling system and extensive radiation shielding are required for the minuscule percentage of energy that slips through. Generated electromagnetic fields also protect the morph and enable propulsion along solar magnetic lines. This adaptation provides a +10 modifier to the biomorph’s Free Fall skill tests in the presence of strong electromagnetic fields. It also provides 10 points of Energy armor against heat and electromagnetic-based attacks (such as lasers, microwaves, and plasma weapons, but not explosions).</p><p><em>Source: Eclipse Phase Sunward, p. 164.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "3546d7a90ee695f2",
+  "sort": 71000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "_id": "d5e2bfadd9227b36",
+  "_key": "!items!d5e2bfadd9227b36",
+  "name": "Jovian (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are one of the last remnants of true humanity in the galaxy. The rest of these so-called transhumans have allowed themselves to become corrupted by the machines that brought about the fall of humanity and forced the evacuation of Earth. It is up to you and your fellows to make sure humanity survives.</p><p><strong>Suggested Motivations:</strong> +Bioconservatism, +Jovian Republic, –AGI Rights, –Transhumanism, –Uplift Rights</p><p><strong>3 PP:</strong> +1 Moxie · +50 c-rep · Academics: Military Science 30, Intimidation 25, Kinetic Weapons 40, Language: (English or Spanish) 40, Networking: Hypercorps 40, Profession: Military Ops 30, Seeker Weapons 40, Unarmed Combat 35</p><p><em>Source: Eclipse Phase Transhuman, p. 25.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Military Science",
+        "value": 30
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(English or Spanish)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Hypercorps",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Military Ops",
+        "value": 30
+      },
+      {
+        "key": "seekerWeapons",
+        "name": "Seeker Weapons",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 35
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "c",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Bioconservatism, +Jovian Republic, –AGI Rights, –Transhumanism, –Uplift Rights"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 108000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "c794125f942dec7d",
+  "_key": "!items!c794125f942dec7d",
+  "name": "Derangement: Paralysis (Major)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>You are so shocked by the trauma that you are effectively frozen, incapable of making decisions or taking action.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 3,
+    "cost": 0,
+    "costText": "Derangement (Major), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "f30d59a32e576cdc",
+  "_key": "!items!f30d59a32e576cdc",
+  "name": "Multitasking",
+  "type": "sleight",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "key": "multitasking",
+    "psiType": "chi",
+    "activation": "passive",
+    "action": "automatic",
+    "range": "self",
+    "duration": "constant",
+    "durationUnit": "turns",
+    "strainMod": 0,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>The async can handle vast amounts of information without overload and can perform more than one mental task at once. The character receives an extra Complex Action each Action Phase that may only be used for mental or mesh actions.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 224.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "_id": "11172f061fe00e2a",
+  "_key": "!items!11172f061fe00e2a",
+  "name": "Uplift: Feral (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The uplift process did not “humanize” you as much as other uplifts. Your natural instincts dominate your behavior far more than any attempts to socialize you to human norms.</p><p><strong>Suggested Motivations:</strong> +Mercurial Cause, +Survival, +Uplift Rights, –Hypercorps, –Uplift Slavery</p><p><strong>5 PP:</strong> +2 Moxie · +5 REF · Art: (Choose One) 30, Climbing* 50, Fray 40, Infiltration 50, Interest: (Choose Three) 40, Intimidation 50, Networking: (Choose One) 30, Scrounging 20, Unarmed Combat 50 · Traits:Anomalous Mind, Heightened Instinct, Social Stigma (Uplift)</p><p><em>Source: Eclipse Phase Transhuman, p. 22.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "art",
+        "name": "Art",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose Three)",
+        "value": 40
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 5,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 2,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Anomalous Mind",
+        "level": 1
+      },
+      {
+        "name": "Heightened Instinct",
+        "level": 1
+      },
+      {
+        "name": "Social Stigma",
+        "level": 1
+      }
+    ],
+    "choices": "Social Stigma: Uplift",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Mercurial Cause, +Survival, +Uplift Rights, –Hypercorps, –Uplift Slavery"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 81000,
+  "ownership": {
+    "default": 0
+  }
+}

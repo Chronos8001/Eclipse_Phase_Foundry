@@ -1,0 +1,23 @@
+{
+  "_id": "b714c80f1060e406",
+  "_key": "!items!b714c80f1060e406",
+  "name": "Skill Artifact",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "skillArtifact",
+    "traitType": "positive",
+    "scope": "morph",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP (Level 1) or 20 CP (Level 2)",
+    "description": "<p>The morph has latent skills stored in muscle memory or as higher-level data that refuses to be erased. This is especially common for exotic or alien morphs. At level 1, the morph has a single Active skill at a rating of 30 (plus aptitude) or a single Knowledge skill at 40 (plus aptitude). Level 2 adds a second skill. This new skill suppresses the ego’s pre-existing rating in that skill, similar to a skillware system. These skills cannot be changed or turned off as long as the ego is sleeved in that morph. This does not reduce the number of skills that can be used as part of a skillware system. This trait may not be bought more than once.</p><p><em>Source: Eclipse Phase Transhuman, p. 86.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 26000,
+  "ownership": {
+    "default": 0
+  }
+}

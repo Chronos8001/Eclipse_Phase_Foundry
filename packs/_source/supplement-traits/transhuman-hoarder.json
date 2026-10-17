@@ -1,0 +1,23 @@
+{
+  "_id": "55a77a309cc156a2",
+  "_key": "!items!55a77a309cc156a2",
+  "name": "Hoarder",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "hoarder",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP",
+    "description": "<p>With the limitations on living space and need for resource management in all but the wealthiest habs, most transhumans are used to living with a minimal number of personal possessions. The flexibility and multi-purpose nature of most objects and availability of information, entertainment, and communication over digital or VR services all allow this to work well, but hoarders have a psychological compulsion to keep things that they don’t need and serve no purpose. Particularly common among corvid uplifts and some Fall survivors that lost everything, characters with this trait have a hard time giving away or disposing of things. Unless their behavior is somehow managed, they will accumulate overwhelming collections of junk. Each day, the character must make a WIL x 3 Test to keep their compulsion under control. If they fail, they will keep any objects they would normally throw away or recycle (food packaging, drink bulbs, broken or useless objects like dead ectos, ammunition clips, and the like) and must acquire one new item that day; all of those items will be added to their hoard. Hoarders can force themselves to ignore this compulsion for a day by taking one point of stress damage. If they ever attempt to clean out their hoard voluntarily, or if the hoard is significantly reduced (by catastrophe or by hab maintenance workers forcibly removing it), the character takes (1d10 ÷ 2) + 2 SV.</p><p><em>Source: Eclipse Phase Transhuman, p. 90.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 49000,
+  "ownership": {
+    "default": 0
+  }
+}

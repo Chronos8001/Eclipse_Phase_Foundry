@@ -1,0 +1,37 @@
+<div class="ep1e rez-dialog">
+  <p class="hint">{{localize "EP1E.Advance.available" points=available}}</p>
+  <div class="form-group">
+    <label>{{localize "EP1E.Advance.kindLabel"}}</label>
+    <select name="kind">
+      {{#each kinds as |k|}}<option value="{{k.key}}">{{localize k.label}}</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group" data-for="aptitude">
+    <label>{{localize "EP1E.Advance.kind.aptitude"}}</label>
+    <select name="aptitude">
+      {{#each aptitudes as |a|}}<option value="{{a.key}}">{{localize a.label}} ({{a.value}})</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group" data-for="skill specialization">
+    <label>{{localize "EP1E.Advance.kind.skill"}}</label>
+    <select name="skill">
+      {{#each skills as |s|}}<option value="{{s.id}}">{{s.label}} ({{s.total}})</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group" data-for="specialization">
+    <label>{{localize "EP1E.Skill.specialization"}}</label>
+    <input type="text" name="specialization">
+  </div>
+  <div class="form-group" data-for="rep">
+    <label>{{localize "EP1E.Ego.network"}}</label>
+    <select name="network">
+      {{#each networks as |n|}}<option value="{{n.key}}">{{localize n.label}} ({{n.value}})</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group" data-for="aptitude skill moxie rep credit sleight">
+    <label>{{localize "EP1E.Advance.points"}}</label>
+    <input type="number" name="points" value="1" min="1">
+  </div>
+  <p class="rez-cost"></p>
+  <p class="hint">{{localize "EP1E.Advance.hint"}}</p>
+</div>

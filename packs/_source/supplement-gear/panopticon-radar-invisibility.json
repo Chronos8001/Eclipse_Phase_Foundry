@@ -1,0 +1,20 @@
+{
+  "_id": "6ebadb974812f2a3",
+  "_key": "!items!6ebadb974812f2a3",
+  "name": "Radar Invisibility",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "radarInvisibility",
+    "cost": "Expensive",
+    "description": "<p>This shell is coated with a layer of radar-transparent metamaterials with a negative refractive index. It is effectively invisible to radar waves; they simply bend around the shell as if it were not there. The shell cannot be detected by radar, but is visible at other frequencies. This mod is not compatible with the invisibility, radar absorbent, or reduced signature mods, nor may it be used in conjunction with an invisibility cloak. Shells with this mod cannot detect radar themselves.</p><p><em>Source: Eclipse Phase Panopticon, p. 150.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  }
+}

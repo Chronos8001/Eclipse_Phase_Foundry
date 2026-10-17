@@ -1,0 +1,23 @@
+{
+  "_id": "eae857cb305e93dd",
+  "_key": "!items!eae857cb305e93dd",
+  "name": "Mental Disorder (Attention Deficit Hyperactivity Disorder (ADHD))",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>This disorder manifests as a marked inability to focus on any one task for an extended period of time, and also an inability to notice details in most situations. Sufferers may find themselves starting multiple tasks, beginning a new one after only a cursory attempt at the prior task. ADHD suffers may also have a manic edge that manifests as confidence in their ability to get a given job done, even though they will quickly lose all interest in it.</p><p>Suggested Game Effects: Perception and related skill penalties. Increased difficulty modifiers to task actions, particularly as the action drags on.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 212.</em></p>",
+    "key": "mentalDisorder",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e020f92043509ff9",
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "2b42da88f1253e60",
+  "_key": "!items!2b42da88f1253e60",
+  "name": "Splash Grenade",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "throwingWeapons",
+    "ap": 0,
+    "dv": "",
+    "damageType": "none",
+    "addDB": false,
+    "modes": "SS",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "SOM ÷ 5 / SOM ÷ 2 / SOM / SOM × 3",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "uniform",
+      "radius": 10,
+      "falloff": 2
+    },
+    "twoHanded": false,
+    "cost": "Trivial",
+    "quantity": 1,
+    "munition": {
+      "kind": "grenade",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>Splash rounds carry a payload like capsule ammo, but are designed to break upon impact rather than penetrating, splashing their contents on the target’s exterior. Splash rounds are typically loaded with paint, taggant nanobots, tracker dye, and similar substances.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 341.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 65000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "a6d19efe168339e4",
+  "_key": "!actors!a6d19efe168339e4",
+  "name": "Recon Flyer",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/20",
+    "maxVelocity": "20",
+    "mobility": "Microlight",
+    "av": {
+      "energy": 0,
+      "kinetic": 0
+    },
+    "durability": 5,
+    "woundThreshold": 1,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "360-Degree Vision, Access Jacks, Chem Sniffer, Enhanced Hearing, Enhanced Vision, Image Recognition Software, Radiation Sense",
+    "cost": "Trivial (single bot)/Moderate (swarm of 50)",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Micro-sized recon flyers are equipped with hydrogenfilled balloons for lift while small turbofans provide propulsion. They are packaged with their gas bags deflated, but when activated fill up and take off quickly. Like other recon bots they are equipped with image recognition software and are useful for locating lost or hidden items. They are typically deployed as an airborne microswarm.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 161.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 35000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Recon Flyer",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

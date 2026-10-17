@@ -1,0 +1,67 @@
+{
+  "_id": "567bf81d8269d02f",
+  "_key": "!actors!567bf81d8269d02f",
+  "name": "Portable Server",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "4/16",
+    "maxVelocity": "16",
+    "mobility": "Wheeled",
+    "av": {
+      "energy": 6,
+      "kinetic": 6
+    },
+    "durability": 40,
+    "woundThreshold": 8,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Access Jacks, Hidden Compartment x2, Puppet Sock, Radio Booster, Retracting Limbs (2), Server (Capacity: 10) Note: Small Size trait (p. 95) DEVICE Peripheral Cheap Personal Computer Durable Personal Computer Server Hardened Server",
+    "cost": "High",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Created specifically for gatecrashing and other types of remote operation, this device is essentially a mobile server. The server itself is a squat cylinder, roughly the size of a modern piece of carry-on luggage, carried within a protective frame. It may be raised out of the frame for direct access. It features a wheeled mobility system capable of handling stairs and minor obstacles, a radio booster for communications range, and a pair of hidden compartments that are each capable of housing one small robot. It also possesses simple visual and auditory sensors and a small speaker, and a pair of thin retractable limbs for handling objects when remote controlled. It follows the normal rules for bots and vehicles. The server has the capacity for 10 infomorphs.</p><p><em>Source: Eclipse Phase Transhuman, p. 146.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "efc64caaca632cea",
+  "sort": 57000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Portable Server",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

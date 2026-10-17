@@ -1,0 +1,29 @@
+{
+  "_id": "8f2a0fee5f8ce222",
+  "_key": "!items!8f2a0fee5f8ce222",
+  "name": "Subverbee Swarm",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "subverbeeSwarm",
+    "cost": "Expensive",
+    "description": "<p>Subverbees create a distributed processing network hidden in a hab’s gardener wasp swarms, cleaner nanoswarms, or other systems. The subverbees “inoculate” the targeted system with tiny processors that piggyback onto the mesh connections of their hosts. The resulting processing network doesn’t have enough power to run AIs or simulspaces, but it can host a VPN, store data, and act as a concealed router for other mesh traffic.</p><p><em>Source: Eclipse Phase Firewall, p. 175.</em></p>",
+    "category": "nanotech",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

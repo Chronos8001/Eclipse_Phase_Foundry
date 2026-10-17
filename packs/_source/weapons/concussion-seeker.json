@@ -1,0 +1,44 @@
+{
+  "_id": "e2321e928e52e7c7",
+  "_key": "!items!e2321e928e52e7c7",
+  "name": "Concussion Seeker",
+  "type": "weapon",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "weaponType": "ranged",
+    "skill": "seekerWeapons",
+    "ap": 0,
+    "dv": "ceil(1d10 / 2)",
+    "damageType": "energy",
+    "addDB": false,
+    "modes": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "equipped": false,
+    "shock": false,
+    "area": {
+      "shape": "uniform",
+      "radius": 10,
+      "falloff": 2
+    },
+    "twoHanded": false,
+    "cost": "Moderate",
+    "quantity": 1,
+    "munition": {
+      "kind": "seeker",
+      "size": "mini"
+    },
+    "launcher": "",
+    "description": "<p>These devices emit a concussive blast designed to knock opponents off their feet and stun them. Any character caught within a base blast radius of 10 meters must make a SOM x 2 Test. If they fail, they are knocked down. If their MoF is 30+, they are additionally stunned until the end of the next Action Turn. Anyone caught in the blast radius suffers a –10 action modifier for the rest of that Action Turn.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 341.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 51000,
+  "ownership": {
+    "default": 0
+  }
+}

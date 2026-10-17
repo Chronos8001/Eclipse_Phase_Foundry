@@ -1,0 +1,67 @@
+{
+  "_id": "55178b658d873d91",
+  "_key": "!actors!55178b658d873d91",
+  "name": "Dayuejin",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "Crew 13,539, capacity 15,000",
+    "handling": 0,
+    "movement": "",
+    "maxVelocity": "",
+    "mobility": "",
+    "av": {
+      "energy": 25,
+      "kinetic": 25
+    },
+    "durability": 1000,
+    "woundThreshold": 200,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Drive: None",
+    "cost": "",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p><strong>Scum Barge.</strong></p><p>Dayuejin was one of the spacecraft under construction at the HAL facility when the strike took over. Originally intended to be an asteroid miner, it was never completed, and the ship’s partial hull was instead transformed into living quarters for refugees from Earth. When the swarm departed from orbit, they took the structure with, pulling it with a mining tug. Since then, the barge’s infrastructure has grown with additional modules bolted on to the outside. Dayuejin is currently towed by Disco Inferno (p. 10).</p><p>The two barges are the most noticeable ships in the swarm due to their immense size and shape and the fact that they are riots of colors, lighting up the depths of space with vibrant reds and yellows and greens. Neither truly qualifies as a ship, since they do not have the means for self-propulsion and must be towed.</p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 8.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "f02f6bd6727f6953",
+  "sort": 59000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Dayuejin",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

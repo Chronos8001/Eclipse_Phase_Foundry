@@ -1,0 +1,70 @@
+<div class="ep1e test-dialog attack-dialog">
+  <p class="test-base">{{skillLabel}} : <strong>{{target}}</strong></p>
+  {{#if targets.length}}
+  <p class="hint">{{localize "EP1E.Attack.targets"}} : {{#each targets as |t|}}{{t.name}}{{#unless @last}}, {{/unless}}{{/each}}</p>
+  {{else}}
+  <p class="hint warning">{{localize "EP1E.Attack.noTargets"}}</p>
+  {{/if}}
+
+  {{#if modes.length}}
+  <div class="form-group">
+    <label>{{localize "EP1E.Weapon.modes"}}</label>
+    <select name="mode">
+      {{#each modes as |m|}}<option value="{{m.mode}}" {{#if m.selected}}selected{{/if}}>{{localize m.label}} ({{m.ammo}})</option>{{/each}}
+    </select>
+  </div>
+  {{/if}}
+  {{#if canConcentrate}}
+  <div class="form-group">
+    <label data-tooltip="EP1E.Attack.concentratedHint">{{localize "EP1E.Attack.concentrated"}}</label>
+    <input type="checkbox" name="concentrated" checked>
+  </div>
+  {{/if}}
+  {{#if canBeamConcentrate}}
+  <div class="form-group">
+    <label data-tooltip="EP1E.Attack.beamConcentratedHint">{{localize "EP1E.Attack.beamConcentrated"}}</label>
+    <input type="checkbox" name="beamConcentrated">
+  </div>
+  {{/if}}
+  {{#if ammo}}
+  <p class="hint">{{localize "EP1E.Weapon.ammo"}} : {{ammo.value}} / {{ammo.max}}{{#if loaded}} ({{loaded}}){{/if}}</p>
+  {{/if}}
+  {{#if (ne thrownLeft null)}}
+  <p class="hint">{{localize "EP1E.Attack.thrownLeft" count=thrownLeft}}</p>
+  {{/if}}
+  {{#if area}}
+  <p class="hint">{{localize (concat "EP1E.AreaShape." area.shape)}}{{#if area.radius}} ({{area.radius}} m){{/if}}</p>
+  {{/if}}
+
+  {{#if ranged}}
+  <div class="form-group">
+    <label>{{localize "EP1E.Attack.range"}}{{#if (ne distance null)}} ({{distance}} m){{/if}}</label>
+    <select name="band">
+      {{#each bands as |b|}}
+      <option value="{{b.key}}" {{#if b.selected}}selected{{/if}}>{{localize b.label}}{{#if (ne b.modifier null)}} ({{ep1eSigned b.modifier}}){{/if}}{{#if b.max}} ≤ {{b.max}} m{{/if}}</option>
+      {{/each}}
+    </select>
+  </div>
+  {{#if cone}}<p class="hint">{{localize "EP1E.Attack.coneHint"}}</p>{{/if}}
+  {{else}}
+  <div class="form-group">
+    <label data-tooltip="EP1E.Attack.extraWeaponsHint">{{localize "EP1E.Attack.extraWeapons"}}</label>
+    <input type="number" name="extraWeapons" value="0" min="0" max="3">
+  </div>
+  {{/if}}
+  <div class="form-group">
+    <label data-tooltip="EP1E.Attack.extraTargetsHint">{{localize "EP1E.Attack.extraTargets"}}</label>
+    <input type="number" name="extraTargets" value="0" min="0">
+  </div>
+
+  {{#each groups as |g|}}
+  <fieldset class="combat-mods">
+    <legend>{{localize g.title}}</legend>
+    {{#each g.mods as |m|}}
+    <label class="checkbox"><input type="checkbox" name="mods.{{m.key}}"> {{localize m.label}} <small>{{ep1eSigned m.value}}</small></label>
+    {{/each}}
+  </fieldset>
+  {{/each}}
+
+  {{> "systems/ep1e/templates/dialog/test-fields.hbs"}}
+</div>

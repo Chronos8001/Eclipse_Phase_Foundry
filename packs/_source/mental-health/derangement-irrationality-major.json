@@ -1,0 +1,23 @@
+{
+  "_id": "d600b45488ffc698",
+  "_key": "!items!d600b45488ffc698",
+  "name": "Derangement: Irrationality (Major)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>You are so jarred by the stress that your capacity for logical judgment breaks down. You are angered by imaginary offenses, hold unreasonable expectations, or otherwise accept things with unconvincing evidence.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 3,
+    "cost": 0,
+    "costText": "Derangement (Major), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  }
+}

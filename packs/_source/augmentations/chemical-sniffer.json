@@ -1,0 +1,20 @@
+{
+  "_id": "7a85995d672bcd93",
+  "_key": "!items!7a85995d672bcd93",
+  "name": "Chemical Sniffer",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "chemicalSniffer",
+    "augType": "robotic",
+    "cost": "Moderate",
+    "description": "<p>This sensor detects molecules in the air and analyzes their chemical composition. It enables Chemistry Tests to determine the presence of gases, including toxins and other fumes. It can also detect the presence of explosives and firearms.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 311.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 104000,
+  "ownership": {
+    "default": 0
+  }
+}

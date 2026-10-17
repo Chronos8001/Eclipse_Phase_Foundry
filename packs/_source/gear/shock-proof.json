@@ -1,0 +1,29 @@
+{
+  "_id": "d2cbbfe18644bb5d",
+  "_key": "!items!d2cbbfe18644bb5d",
+  "name": "Shock Proof",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "shockProof",
+    "category": "armorMod",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Shock proof armor is electronically insulated to discharge and reduce the effect of shock weapons. Apply an additional +10 modifier when resisting the DV and effects of shock weapons (p. 204).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 313.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

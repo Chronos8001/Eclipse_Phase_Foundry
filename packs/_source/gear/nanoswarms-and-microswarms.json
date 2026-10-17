@@ -1,0 +1,29 @@
+{
+  "_id": "298e3a8ea9e6365c",
+  "_key": "!items!298e3a8ea9e6365c",
+  "name": "Nanoswarms and Microswarms",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "nanoswarmsAndMicroswarms",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Swarms are colonies of nanobots or larger microbots created in a hive, programmed with specific instructions, and then set free to perform a set task. Each swarm is composed of hundreds or thousands of nanobots or microbots, ranging in size from a microbe to a small insect. Nanobots are typically invisible to the naked eye, though they can be detected with a nanodetector (p. 326) or nanoscopic vision (p. 311). Microbots are more noticeable but still quite small, usually the size of a grain of sand or a dust mote, or occasionally as big as a flea. Individual bots in a swarm are directed by nanocomputers, with behavioral routines modeled on biological insect and animal swarms. These swarms stick together and work as a whole, communicating with nanoradios, nanolasers, or chemical cues, and sharing information between each bot in the swarm. Note that nanoswarms don’t invade inside living bodies (though they may attack externally)—internal nano is handled by nanoware (p. 308), nanodrugs (p. 321), and nanotoxins (p. 324). Nanobots and microbots may be designed with all manner of miniaturized propulsion systems (see Mobility Systems, p. 310), with the exception of ionic drives. They are powered by tiny batteries or solar cells. Their tiny sensors are very effective at allowing them to identify materials and objects, and so to target discriminatingly. Nanobots or microbots could, for example, be programmed to ignore metal objects, certain types of plants, specific morphs, females, or specific individuals. Swarms may either be released directly from a hive or from pre-packaged programmable canisters. Swarms must be programmed before they are released. The programming first determines how long the swarm is active. This timeframe is open-ended, though most swarms deteriorate into ineffectiveness after 2 weeks unless they are replenished by a hive. The programming then sets what area the swarm is to occupy. This is also open to interpretation and can vary from “coat this person” to “spread out to a diameter of 20 meters” to “find the nearest chemical traces and track them to their source.” Finally, programming sets any other parameters for the swarm’s mission—for example, if it should ignore certain materials, if it should send a report at a predetermined time, or if it should self-destruct into harmless dust when it has completed a certain task. Programming is generally handled as a Simple Success Test using Programming (Nanoswarm) skill. Failure simply infers that the programming is imperfect, and so the swarm may not operate completely as planned. An actual Programming (Nanoswarm) Success Test is only called for if the swarm’s programming is substantially complex or if the character seeks to have the swarm act outside of its usual set functions. The bots in each swarm are specially equipped for the task they are designed for, however, so attempting to drastically repurpose a swarm may be difficult or pointless at the gamemaster’s discretion. Swarms may also be teleoperated, controlled, and/ or (re)programmed once they are released, via radio or laser link. Swarms are treated as a whole. The standard swarm size is enough to cover a 10 x 10 x 10 meter cube, and this is the standard “unit” of swarm released by a canister or hive. Swarms may be larger, but they are treated as individual swarm units. Each swarm has a Durability of 50 and is immune to wounds. Most attacks against a swarm simply inflict 1 point of damage. Area-effect weapons, plasma rifles, and fire inflict 1d10 damage, plasma grenades do full damage. EMP weapons (p. 340) are very effective against swarms, inflicting 2d10 + 5 damage and a -10 modifier to all tests due to their damaging effects on the swarm’s communication abilities until repaired. Swarms are not affected by vacuum.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 328.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 58000,
+  "ownership": {
+    "default": 0
+  }
+}

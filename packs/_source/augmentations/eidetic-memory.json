@@ -1,0 +1,20 @@
+{
+  "_id": "d1e80213ecdba957",
+  "_key": "!items!d1e80213ecdba957",
+  "name": "Eidetic Memory",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "eideticMemory",
+    "augType": "bioware",
+    "cost": "Low",
+    "description": "<p>The character can remember everything that ever happened to them, in detail, with no long term memory loss. For example, they can recite a page they read in a book a month ago, recall a string of 200 random characters they viewed a year ago, or even tell you what they had for breakfast on a particular date a decade ago. However, they can only remember things they paid attention to. The character will not remember the contents of a note on someone’s desk if they merely glanced at it; they must specifically have read it. No effort is required to use this augmentation, the character merely needs to attempt to remember a specific fact.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 301.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

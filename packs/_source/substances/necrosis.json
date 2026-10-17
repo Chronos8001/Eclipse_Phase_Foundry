@@ -1,0 +1,27 @@
+{
+  "_id": "b8bae017e5f60006",
+  "_key": "!items!b8bae017e5f60006",
+  "name": "Necrosis",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "necrosis",
+    "category": "nanotoxin",
+    "substanceType": "nano",
+    "application": "Inj, O",
+    "onset": "3 Action Turns",
+    "duration": "1 minute",
+    "addictionMod": "",
+    "addictionType": "",
+    "cost": "Moderate",
+    "quantity": 1,
+    "description": "<p>Necrosis nanobots attack the walls of cells inside the body, killing tissue. This nanotoxin inflicts 1d10 ÷ 2 damage per Action Turn for one minute, after which the nanobots disable and flush from the body. Necrosis only affects biomorphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 324.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 37000,
+  "ownership": {
+    "default": 0
+  }
+}

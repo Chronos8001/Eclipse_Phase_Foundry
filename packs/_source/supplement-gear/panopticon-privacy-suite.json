@@ -1,0 +1,29 @@
+{
+  "_id": "cc1371dd3cb21b9d",
+  "_key": "!items!cc1371dd3cb21b9d",
+  "name": "Privacy Suite",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "privacySuite",
+    "cost": "Low per hour",
+    "description": "<p>Privacy suite services are offered by many restaurants, night clubs, hotels, and similar businesses who frequently have clientèle that desire a private space for meetings or other functions. These suites function similar to privacy pods (p. 151) and are regularly scoured for bugs. In some habitats, automated privacy hotels offer these suites as a walk-in or reserved service.</p><p><em>Source: Eclipse Phase Panopticon, p. 154.</em></p>",
+    "category": "service",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 52000,
+  "ownership": {
+    "default": 0
+  }
+}

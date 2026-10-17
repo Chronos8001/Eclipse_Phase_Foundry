@@ -1,0 +1,23 @@
+{
+  "_id": "8b79bad85ac8c362",
+  "_key": "!items!8b79bad85ac8c362",
+  "name": "Untarnished Reputation",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "untarnishedReputation",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 15,
+    "costText": "Cost: 15 CP",
+    "description": "<p>Through fame, a lifetime of achievement, or some lucky quirk, the character’s reputation in one particular social network is very difficult to assail. Choose one reputation network. Any test to attack the character’s reputation in that network suffers a −30 modifier, and any rep losses in that network are automatically halved. This does not apply if the character burns their own rep.</p><p><em>Source: Eclipse Phase Transhuman, p. 87.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 32000,
+  "ownership": {
+    "default": 0
+  }
+}

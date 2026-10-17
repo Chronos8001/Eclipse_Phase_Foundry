@@ -1,0 +1,34 @@
+{
+  "_id": "7aeb2e763a50d3bd",
+  "_key": "!items!7aeb2e763a50d3bd",
+  "name": "Hacking Alert",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "hackingAlert",
+    "cost": "Low",
+    "description": "<p>This plug-in launches a suite of running processes running that monitor the simulated mind-state and keep track of any lost time, inconsistencies in events, or other evidence of involuntary brainhacking or psychosurgery. If the character is mind hacked or subjected to involuntary psychosurgery, the hidden/ covert intruder or psychosurgeon must make an Infosec or Psychosurgery Test at –30. Cyberbrain hackers suffer the usual –30 subversion modifier, but a hidden intruder receives their standard +30 bonus. If the test does not score an Excellent Success (MoS 30+), the victim is alerted immediately (or when they next awake). Alerted infomorphs do not receive information on what has been changed (beyond the obvious), they are only informed that their mind was involuntarily altered. Note that psychosurgery or memory hacking can be used to make a victim forget the hacking alert warnings. Unless the hacking alert plug-in is also disabled or hacked, however, it will retain a log of the warnings.</p><p><em>Source: Eclipse Phase Transhuman, p. 140.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

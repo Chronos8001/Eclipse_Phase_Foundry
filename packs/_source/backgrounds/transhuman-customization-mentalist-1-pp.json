@@ -1,0 +1,39 @@
+{
+  "_id": "585e9f0b8535ec46",
+  "_key": "!items!585e9f0b8535ec46",
+  "name": "Mentalist (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><strong>1 PP:</strong> (Choose Two Psi Skills) 40 · +4 sleights (Your Choice)</p><p><em>Source: Eclipse Phase Transhuman, p. 37.</em></p>",
+    "kind": "package",
+    "group": "customization",
+    "pp": 1,
+    "skills": [],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "(Choose Two Psi Skills) 40; +4 sleights (Your Choice)",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "f9eeb169f0911366",
+  "sort": 260000,
+  "ownership": {
+    "default": 0
+  }
+}

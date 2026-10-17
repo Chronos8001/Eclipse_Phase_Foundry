@@ -1,0 +1,29 @@
+{
+  "_id": "aac6d1fbf070f0c0",
+  "_key": "!items!aac6d1fbf070f0c0",
+  "name": "Healing Vats",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "healingVats",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "High",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Healing vats were the first type of nanotech medicine developed and remain the most powerful medical devices in common use. With the exception of a few exceptionally deadly nanoplagues, a healing vat can cure any disease and heal any injury. As long as the patient is alive when they are place in the healing vat, they will not only survive, but emerge without a scratch. A healing vat can even take a severed head (as long as it has been stabilized by medichines or nanotech first aid) and regrow an entire body based on the head’s genetics. If the patient’s body or medical records healing vat table Injury Healing normal damage to a character who has taken 3 or fewer wounds. Restoring major lost body parts like arms or legs, or healing dying or nearly dead character who has taken 4 wounds. Restoring recently dead character who was placed in medical stasis to avoid death, but who is mostly intact. Restoring recently dead character who is placed in medical stasis to avoid death, and who is missing most of their body. Augmentation Minor implants and bioware, minor cosmetic changes like alterations in skin color, eye color or shape, or hair color, texture or distribution, minor alterations to face shape or body fat distribution. Major brain and neural implants, nanoware or bioware, sex changes, changing height by no more than 5% or weight by no more than 20%. Major physical modifications like adding limbs or radical changes to height and weight. healing time 2 hours per wound (min. 1 hour for 0 wounds) 12 hours per wound 1 day per wound 3 days per wound 1 hour 12 hours 3 days contain information about their implants, bioware, or advanced nanotechnology, all of these modifications are also fully restored. Few people suffer injuries serious enough to require a healing vat. Most are used as a safe and easy way to perform bodysculpting or to install implants or bioware. Healing vats use specialized nanomachines to either alter the patient’s body or integrate implants or bioware. One advantage of using a healing vat is that no additional healing time is needed, the patient leaves the vat fully recovered from the augmentation and ready to go. Every hospital, clinic, bodyshop, and augmentation parlor has several healing vats. The time required by a healing vat varies with the severity of the damage it is healing or the extent of the modification being made, as noted on the Healing Vat table, p. 327.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 326.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 48000,
+  "ownership": {
+    "default": 0
+  }
+}

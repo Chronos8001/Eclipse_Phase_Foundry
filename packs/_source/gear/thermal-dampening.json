@@ -1,0 +1,29 @@
+{
+  "_id": "ed1b4866ff54b906",
+  "_key": "!items!ed1b4866ff54b906",
+  "name": "Thermal Dampening",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "thermalDampening",
+    "category": "armorMod",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Thermal dampening obfuscates heat signatures by converting body heat into electric energy. It makes the target more difficult to spot with thermal sensors; apply a –30 modifier for Perception Tests.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 313.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  }
+}

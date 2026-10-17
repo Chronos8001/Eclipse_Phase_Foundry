@@ -1,0 +1,23 @@
+{
+  "_id": "cbfcad575726bb5a",
+  "_key": "!items!cbfcad575726bb5a",
+  "name": "Tenure",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "tenure",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>The character holds a tenured professorship at a university such as Titan Autonomous University or the University of Mars. This position gives them privileged access to the university’s resources, funds, and grad assistants. The character receives a +20 bonus on Networking Tests involving the university and its staff. Additionally, favors such as goods, services, and information acquired via those university network connections are one favor level lower. These bonuses do not extend outside the university’s influence. The tenured character will, of course, be expected to occasionally produce research results or other findings or pieces of work to validate their exploitation of university resources.</p><p><em>Source: Eclipse Phase Transhuman, p. 86.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "eb8ac9260c4d518f",
+  "sort": 30000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "075f1f0387685877",
+  "_key": "!items!075f1f0387685877",
+  "name": "Ultraviolet Vision",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "ultravioletVision",
+    "cost": "Trivial",
+    "description": "<p>This is a minor enhancement, simply adding perception of ultraviolet frequencies (p. 303, EP) to the character’s visual capabilities. Neo-avians have natural ultraviolet vision by default.</p><p><em>Source: Eclipse Phase Panopticon, p. 148.</em></p>",
+    "augType": "bioware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

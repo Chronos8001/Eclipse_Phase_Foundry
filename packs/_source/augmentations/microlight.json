@@ -1,0 +1,20 @@
+{
+  "_id": "4f819292e3716e01",
+  "_key": "!items!4f819292e3716e01",
+  "name": "Microlight",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "microlight",
+    "augType": "robotic",
+    "cost": "Low",
+    "description": "<p>Popular in low-grav and microgravity environments, microlights encompass several types of ultralight or lighter-than-air systems, such as powered paragliders, autogyros, balloons, aerostats, and blimps. These systems do not work in vacuum.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 82000,
+  "ownership": {
+    "default": 0
+  }
+}

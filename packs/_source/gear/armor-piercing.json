@@ -1,0 +1,29 @@
+{
+  "_id": "81f186fa98a585c2",
+  "_key": "!items!81f186fa98a585c2",
+  "name": "Armor-Piercing",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "armorPiercing",
+    "category": "ammo",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": -5,
+      "dv": "-2",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This tungsten-carbide ammunition penetrates armor effectively.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 337.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  }
+}

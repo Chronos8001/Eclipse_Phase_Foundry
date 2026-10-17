@@ -1,0 +1,118 @@
+{
+  "_id": "a12a428e6af4cbcc",
+  "_key": "!items!a12a428e6af4cbcc",
+  "name": "Isolate: Survivalist (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your family feared trouble on Earth, so they established a bunker off-world. They were right. Now they fear that trouble may return and engulf the entire solar system.</p><p><strong>Suggested Motivations:</strong> +Bioconservatism, +Religion, +Survival, –Autonomists</p><p><strong>5 PP:</strong> +1 Moxie · +5 INT or WIL · Academics: (Choose One) 30,Animal Handling 20, Demolitions 20, Fray 20, Free Fall 30, Hardware: (Choose One) 40, Interest: (Choose One) 40, Kinetic Weapons 50, Medicine: Paramedic 30, Navigation 20, Pilot: (Choose One) 30, Profession: (Choose Two) 40, Seeker Weapons 25</p><p><em>Source: Eclipse Phase Transhuman, p. 19.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "animalHandling",
+        "name": "Animal Handling",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "demolitions",
+        "name": "Demolitions",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Paramedic",
+        "value": 30
+      },
+      {
+        "key": "navigation",
+        "name": "Navigation",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose Two)",
+        "value": 40
+      },
+      {
+        "key": "seekerWeapons",
+        "name": "Seeker Weapons",
+        "field": "",
+        "value": 25
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+5 INT or WIL",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Bioconservatism, +Religion, +Survival, –Autonomists"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 54000,
+  "ownership": {
+    "default": 0
+  }
+}

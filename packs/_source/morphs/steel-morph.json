@@ -33,7 +33,7 @@
     },
     "movement": "Walker 4/20",
     "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Eidetic Memory, Mnemonic Augmentation",
-    "advantages": "+10 SOM, +5 COG, +5 to two other aptitudes of the player's choice, Armor 8/8",
+    "advantages": "+10 SOM, +5 COG, +5 to two other aptitudes of the player’s choice, Armor 8/8",
     "disadvantages": "Social Stigma (Clanking Masses) trait, Uncanny Valley trait",
     "skillBonuses": [],
     "cpCost": 50,
@@ -44,7 +44,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 110000,
+  "sort": 113000,
   "ownership": {
     "default": 0
   }

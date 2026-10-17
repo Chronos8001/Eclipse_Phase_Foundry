@@ -1,0 +1,20 @@
+{
+  "_id": "9c1ce8715a6f69dc",
+  "_key": "!items!9c1ce8715a6f69dc",
+  "name": "Invisibility",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "invisibility",
+    "cost": "Expensive",
+    "description": "<p>This enhancement works much like the invisibility cloak (p. 316, EP). The shell is completely sealed within a layer of metamaterials with a negative refractive index, making it invisible to the microwave and ultraviolet wavelengths and everything in between. This modification can only be applied to shells on which the entire outer surface can be coated (ionic, roller, snake, thrust vector, walker, wheeled, winged). At the gamemaster’s discretion, this enhancement may not be applied to certain shells due to their configuration. Shells with this enhancement are effectively blinded, as they cannot use visual sensors (though they can view via meshed remote sensors), though they can also create temporary “windows” as with invisibility cloaks. This mod is not compatible with the radar absorbent, reduced signature, or radar invisibility mods.</p><p><em>Source: Eclipse Phase Panopticon, p. 149.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "0714728f6259989b",
+  "_key": "!items!0714728f6259989b",
+  "name": "Stasis Module",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "stasisModule",
+    "cost": "Low",
+    "description": "<p>This modification may be applied to any type of vacsuit or other fully enclosed suit of armor. When activated, it places the wearer in a medical stasis, preserving the body and mind. Characters in stasis cannot act and are considered unconscious. This module may be linked to the user’s mesh insert medical sensors, triggered to activate if the wearer’s Durability drops below a pre-set threshold.</p><p><em>Source: Eclipse Phase Rimward, p. 191.</em></p>",
+    "category": "armorMod",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "dd713cb32f83a183",
+  "_key": "!items!dd713cb32f83a183",
+  "name": "Fiber Eye",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "fiberEye",
+    "category": "espionage",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This is a flexible and electronically-controllable length of fiberoptic cable and viewer, which can be worked through cracks, under doors, and around corners to peep unobtrusively.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 316.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 28000,
+  "ownership": {
+    "default": 0
+  }
+}

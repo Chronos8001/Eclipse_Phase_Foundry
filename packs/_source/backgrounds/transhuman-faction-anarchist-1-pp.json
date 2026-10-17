@@ -1,0 +1,58 @@
+{
+  "_id": "14ebbc819ed5fb80",
+  "_key": "!items!14ebbc819ed5fb80",
+  "name": "Anarchist (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You’ve allied yourself with one of the many anarchist collectives working towards greater freedoms and independence.</p><p><strong>Suggested Motivations:</strong> +Anarchism, +Community,+Liberty, +Morphological Freedom, –Authority, –Hypercapitalism</p><p><strong>1 PP:</strong> Academics: Political Science 30, Kinetic Weapons 30, Networking: Autonomists 40</p><p><em>Source: Eclipse Phase Transhuman, p. 23.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Political Science",
+        "value": 30
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Autonomists",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Anarchism, +Community,+Liberty, +Morphological Freedom, –Authority, –Hypercapitalism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 85000,
+  "ownership": {
+    "default": 0
+  }
+}

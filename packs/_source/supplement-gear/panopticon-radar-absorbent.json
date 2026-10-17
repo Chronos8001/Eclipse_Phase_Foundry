@@ -1,0 +1,20 @@
+{
+  "_id": "adcda4e8f213085f",
+  "_key": "!items!adcda4e8f213085f",
+  "name": "Radar Absorbent",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "radarAbsorbent",
+    "cost": "Moderate",
+    "description": "<p>The shell is constructed with materials that either pass, absorb, or trap radar and terahertz waves, reducing its sensor signature. Though sensor processing has improved significantly, radar absorbent materials can still provide some protection from detection. Apply a −20 modifier to detect the shell with radar and terahertz frequencies. This mod is compatible with the reduced signature mod.</p><p><em>Source: Eclipse Phase Panopticon, p. 149.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

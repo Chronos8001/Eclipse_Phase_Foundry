@@ -1,0 +1,560 @@
+{
+  "_id": "b1dcc5f9c519cbec",
+  "_key": "!actors!b1dcc5f9c519cbec",
+  "name": "Factor Ambassador",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 10,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 10,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 20,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 1
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 1–4</p><p>Ambassador phenotypes are only distinguishable from other Factors by a loose arrangement of sensor nodules meant to approximate a face. This appearance was especially bioengineered to put transhumans at ease, though the Factors claim ambassadors are in charge of their negotiations with every alien species. Despite these efforts, most transhumans still find ambassadors unsightly and unnerving to interact with. Ambassador are cagey, even by Factor standards. Their sole purpose is to dissemble, delay, and trick transhumans into asymmetrical exchanges of information, concealing the colony’s motivations while acquiring as much transhuman technology as possible. Factors evolved practical intelligence for trapping larger, dangerous prey. The trickster mindset responsible for their survival has never left the species, growing more sophisticated over centuries. Conceptually, ambassadors find little difference between luring a beast onto a patch of poisoned lichen and convincing the Planetary Consortium to hand over plans for a new antimatter engine. Ambassadors are unlikely to engage in conflict without assistance from guardian phenotypes, but they possess the same Factor dust attack and resilience to kinetic weaponry as the rest of the species. Some carry implanted microwave agonizers and plasma grenades that they will deploy to prevent capture.</p><p><strong>Stress Test:</strong> SV 1d10</p><p><strong>Traits:</strong> Direction Sense (Magnetoception)</p><p><strong>Ware:</strong> Access Jacks, Chameleon Skin, Enhanced Vision (Infrared Only), Grip Pads, Poison Gland (Factor Dust Toxin)</p><p><strong>Notes:</strong> Factors are immune to psi sleights.</p><p><strong>Factor Dust:</strong> 45, cone area effect, Range 2/4/6/8.</p><p><strong>Toxin:</strong> Inhalation, Onset Time: 1 Action Turn,</p><p><strong>Embedded Agonizer:</strong> 40, inflicts pain, –20 to next action,WIL Test or flee.</p><p><strong>Roast Mode:</strong> DV 2d10,AP −5, SS,Ammo 50.</p><p><strong>Immunity to Kinetic Damage:</strong> Factors take minimum DV from kinetic weapons and blades.</p><p><strong>Implanted Plasma Grenade:</strong> DV 3d10 + 10, AP −6, inflicts double damage to Ambassador; remaining damage is applied as normal area effect to bystanders.</p><p><strong>Melding:</strong> Factors may meld together into larger forms. Use the highest stat, +2 per additional Factor (to a maximum +10). Durability,Wound Threshold, and Death Rating are added together (to a maximum x5).</p><p><strong>Regeneration:</strong> Factors regenerate 2 damage per Action Turn; wounds may not be regenerated.</p><p><em>Initiative printed: 6 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 7, Death Rating 45.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 106.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Factor Ambassador (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 30,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/16 Walker",
+        "implants": "Access Jacks, Chameleon Skin, Enhanced Vision (Infrared Only), Grip Pads, Poison Gland (Factor Dust Toxin)",
+        "advantages": "Direction Sense (Magnetoception)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "f2233b3fa497591b",
+      "_key": "!actors.items!b1dcc5f9c519cbec.f2233b3fa497591b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Art",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "art",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Sculpture",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "62e23e1c3ac1a0b7",
+      "_key": "!actors.items!b1dcc5f9c519cbec.62e23e1c3ac1a0b7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b44933a21af9a860",
+      "_key": "!actors.items!b1dcc5f9c519cbec.b44933a21af9a860",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7824b8152e5e94b7",
+      "_key": "!actors.items!b1dcc5f9c519cbec.7824b8152e5e94b7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Exotic Ranged Weapon",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "exoticRanged",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "Factor Dust",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7225b5b7e102e342",
+      "_key": "!actors.items!b1dcc5f9c519cbec.7225b5b7e102e342",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Exotic Skill",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Trap-Making",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4c650b060bafdde5",
+      "_key": "!actors.items!b1dcc5f9c519cbec.4c650b060bafdde5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "774bfdf43fa889ec",
+      "_key": "!actors.items!b1dcc5f9c519cbec.774bfdf43fa889ec",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hardware",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "hardware",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "Electronics",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "393eadf8d9443b17",
+      "_key": "!actors.items!b1dcc5f9c519cbec.393eadf8d9443b17",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "50e64c8c961d3ca2",
+      "_key": "!actors.items!b1dcc5f9c519cbec.50e64c8c961d3ca2",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Transhumanity",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "857933aede838b66",
+      "_key": "!actors.items!b1dcc5f9c519cbec.857933aede838b66",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "db5f6740abd2479d",
+      "_key": "!actors.items!b1dcc5f9c519cbec.db5f6740abd2479d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "929db8363025e878",
+      "_key": "!actors.items!b1dcc5f9c519cbec.929db8363025e878",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c63f0ad051bd05ec",
+      "_key": "!actors.items!b1dcc5f9c519cbec.c63f0ad051bd05ec",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1308fa64e4ec8594",
+      "_key": "!actors.items!b1dcc5f9c519cbec.1308fa64e4ec8594",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c9252cf36b8312bf",
+      "_key": "!actors.items!b1dcc5f9c519cbec.c9252cf36b8312bf",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f91ed10a82bd7a0a",
+      "_key": "!actors.items!b1dcc5f9c519cbec.f91ed10a82bd7a0a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 15,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0351f6699384da77",
+      "_key": "!actors.items!b1dcc5f9c519cbec.0351f6699384da77",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7c71c0556eea1a0f",
+      "_key": "!actors.items!b1dcc5f9c519cbec.7c71c0556eea1a0f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 15000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Factor Ambassador",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

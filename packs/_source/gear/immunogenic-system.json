@@ -1,0 +1,29 @@
+{
+  "_id": "ee12173ca2b42899",
+  "_key": "!items!ee12173ca2b42899",
+  "name": "Immunogenic System",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "immunogenicSystem",
+    "category": "armorMod",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>The immunogenic mod adds an active nanobot swarm, maintained by a specialized hive, that coats the outer layer of armor and also the non-armored parts of the wearer’s morph. It acts as an outer immune system designed to neutralize toxic agents and nanotoxins with which it comes into contact. This provides immunity to drugs, toxins, and nanotoxins applied dermally, such as with a slap patch or splash grenade. It has no effect on inhaled, oral, or injected drugs (including coated weapons).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 313.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -5,12 +5,13 @@
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
+    "key": "morphingDisorder",
     "traitType": "negative",
     "scope": "ego",
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 (Level 1), 20 (Level 2), or 30 (Level 3) CP",
-    "description": "<p>Adapting to new morphs is particularly challenging for this character. The character suffers a -10 modifier per level on Integration Tests and Alienation Tests (p. 272).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "description": "<p>Adapting to new morphs is particularly challenging for this character. The character suffers a –10 modifier per level on Integration Tests and Alienation Tests (p. 272).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
   },
   "effects": [],
   "flags": {},

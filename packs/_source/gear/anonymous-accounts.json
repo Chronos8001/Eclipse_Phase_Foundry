@@ -1,0 +1,29 @@
+{
+  "_id": "e3805bdcf73c9abe",
+  "_key": "!items!e3805bdcf73c9abe",
+  "name": "Anonymous Accounts",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "anonymousAccounts",
+    "category": "service",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>These accounts are crucial for anyone who wants to be discreet with their online transactions. See Anonymous Account Services, p. 252.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 330.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 79000,
+  "ownership": {
+    "default": 0
+  }
+}

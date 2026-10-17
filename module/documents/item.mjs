@@ -1,4 +1,8 @@
-import { rollAttack, rollSkillTest } from "../dice/tests.mjs";
+import { rollSkillTest } from "../dice/tests.mjs";
+import { rollAttack } from "../dice/attack.mjs";
+import { useSleight } from "../dice/psi.mjs";
+import { takeSubstance } from "../dice/substances.mjs";
+import { createMessage } from "../helpers/chat.mjs";
 
 export class EPItem extends Item {
 
@@ -27,14 +31,10 @@ export class EPItem extends Item {
         });
       case "weapon":
         return rollAttack(this.actor, this, options);
-      case "sleight": {
-        const { target, label } = this.actor.system.getSkillTarget(this.system.skill);
-        return rollSkillTest(this.actor, {
-          label: label ? `${this.name} (${label})` : this.name,
-          target: label ? target : this.actor.system.aptitudes.wil.value,
-          ...options
-        });
-      }
+      case "sleight":
+        return useSleight(this.actor, this, options);
+      case "substance":
+        return takeSubstance(this);
       default:
         return this.toChat();
     }
@@ -45,6 +45,6 @@ export class EPItem extends Item {
     const TextEditor = foundry.applications.ux.TextEditor.implementation;
     const content = `<div class="ep1e chat-card item-card"><header><img src="${this.img}" alt=""><h3>${this.name}</h3></header>`
       + `${await TextEditor.enrichHTML(this.system.description ?? "", { relativeTo: this })}</div>`;
-    return ChatMessage.implementation.create({ speaker: ChatMessage.implementation.getSpeaker({ actor: this.actor }), content });
+    return createMessage({ speaker: ChatMessage.implementation.getSpeaker({ actor: this.actor }), content });
   }
 }

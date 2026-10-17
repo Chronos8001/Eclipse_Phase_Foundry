@@ -1,0 +1,357 @@
+{
+  "_id": "d42bb9cadaa31f17",
+  "_key": "!actors!d42bb9cadaa31f17",
+  "name": "Loper",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 5,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 20,
+        "mod": 0
+      },
+      "sav": {
+        "base": 1,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 5,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Orange</p><p><strong>Numbers:</strong> 3–8</p><p>Lopers are panther-sized quadrupeds that incorporate pursuit-predator traits.They are exceptionally fast and skilled at tracking and target recognition. Griefers send lopers to hunt real-world targets; the victims are pinned and “globbed” with a payload of freeze foam or worse. Barsoomian cells program lopers to chase down Tharsis League vehicles, drop caltrops, and mess with the Red Eden project. Loper blueprints and software are available on illicit bot-hacker mesh sites, and so numerous variants are deployed in the wild, including lopers modified as contraband couriers or equipped with explosive payloads for assassination.</p><p>The booming hacker lab culture on Mars inspires experimentation with robotic shells and nonstandard, low-level AIs. The AIs range from animal mind imprints and “uplifted” complex systems to non-human mindsets and the artistic, weird, and flat-out bizarre. Some projects lead to interesting results and even breakthroughs in ALI development; many more are hindered by improper programming and a lack of understanding of non-human mind-state implementation; quite a few are simply disasters. A significant number of these experiments escape, are abandoned, or are intentionally set free. A booming population of wild artificials now haunts the Martian wilderness and dome-city back alleys. These feral bots form animal-like packs, claim territory, and even hunt and compete with Martian wildlife or other wild bots. On occasion, they sabotage machinery or attack transhumans. Collector wild artificials are detailed on p. 156.</p><p><strong>Ware:</strong> Enhanced Vision, Lidar, Pneumatic Limbs</p><p><strong>Pneumatic Bite:</strong> DV 2d10 + 1</p><p><strong>Freeze-Foam Glob:</strong> 40, cone area effect, Range 5/10/15/20, target must make a REF x 3 Test or be incapacitated in quick-hardening foam (Armor 10/Durability 20) for 12 hours.</p><p><strong>Smuggler Variant:</strong> Chameleon Skin, Hidden Compartment,Thermal Dampening</p><p><strong>Caltrop Variant:</strong> Deploys caltrops over a 5-meter radius. Characters or wheeled vehicles/bots that move through the area without spotting the caltrops (Perception Test at −30) suffer DV 1d10 + 3 (armor does not protect); vehicles must must a Pilot Test or crash.</p><p><strong>Explosive Variant:</strong> Hidden Compartment, DV 6d10 + 20,AP −4, blast area effect</p><p><em>Initiative printed: 8 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 7, Death Rating 70.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 151.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "Loper (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 35,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 7,
+          "kinetic": 10
+        },
+        "movement": "6/48 Walker",
+        "implants": "Enhanced Vision, Lidar, Pneumatic Limbs",
+        "advantages": "",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "463cd2008637e6f8",
+      "_key": "!actors.items!d42bb9cadaa31f17.463cd2008637e6f8",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "b2dc4afa6721ec23",
+      "_key": "!actors.items!d42bb9cadaa31f17.b2dc4afa6721ec23",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "bc876b3a41f49106",
+      "_key": "!actors.items!d42bb9cadaa31f17.bc876b3a41f49106",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Scrounging",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "scrounging",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9f9da7ed6d51903d",
+      "_key": "!actors.items!d42bb9cadaa31f17.9f9da7ed6d51903d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "SprayWeapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "6af7e3b7c9dd47b3",
+      "_key": "!actors.items!d42bb9cadaa31f17.6af7e3b7c9dd47b3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ce278a426a4ee93a",
+      "_key": "!actors.items!d42bb9cadaa31f17.ce278a426a4ee93a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "960bc67c40acb699",
+      "_key": "!actors.items!d42bb9cadaa31f17.960bc67c40acb699",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 10,
+        "mod": 0,
+        "specialization": "Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "fdfe3c2f677272d5",
+      "_key": "!actors.items!d42bb9cadaa31f17.fdfe3c2f677272d5",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Pinning Leap",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "exoticRanged",
+        "rating": 50,
+        "ap": 0,
+        "dv": "2d10 + 1",
+        "damageType": "kinetic",
+        "addDB": false,
+        "modes": "",
+        "range": "",
+        "ammo": {
+          "value": 0,
+          "max": 0,
+          "loaded": "",
+          "size": ""
+        },
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0,
+          "falloff": 2
+        },
+        "twoHanded": false,
+        "cost": "",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>Pinning Leap: 50, DV 2d10 + 1, if loper moved at least 5 meters before attack and MoS exceeds target’s Durability, the target is knocked down and pinned (Subdual, p. 204, EP).</p>"
+      },
+      "_id": "8bb5304582fc5144",
+      "_key": "!actors.items!d42bb9cadaa31f17.8bb5304582fc5144",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 64000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Loper",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

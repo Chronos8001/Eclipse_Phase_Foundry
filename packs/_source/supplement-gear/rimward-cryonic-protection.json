@@ -1,0 +1,20 @@
+{
+  "_id": "8eb155f8036173b3",
+  "_key": "!items!8eb155f8036173b3",
+  "name": "Cryonic Protection",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "cryonicProtection",
+    "cost": "Low",
+    "description": "<p>Even synthmorphs can have difficulty with the cryonic temperatures found in the outer system. While almost any synthmorph can operate normally for at least an hour at these temperatures, longer exposure can cause materials to get brittle and joints to lock up, especially in an atmosphere thick enough to conduct heat away from the morph. This augmentation uses the morph’s nuclear battery to slightly warm its surface, while also coating the morph with a thin layer of insulation. Cryonic protection allows synthmorphs to operate indefinitely in the coldest temperatures found in the solar system.</p><p><em>Source: Eclipse Phase Rimward, p. 190.</em></p>",
+    "augType": "robotic"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0dd63f4842e527a6",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

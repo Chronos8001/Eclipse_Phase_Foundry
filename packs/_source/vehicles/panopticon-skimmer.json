@@ -1,0 +1,67 @@
+{
+  "_id": "1c4d81635bcc45e6",
+  "_key": "!actors!1c4d81635bcc45e6",
+  "name": "Skimmer",
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "category": "robot",
+    "passengers": "",
+    "handling": 0,
+    "movement": "12/200",
+    "maxVelocity": "NA",
+    "mobility": "Thrust Vector",
+    "av": {
+      "energy": 12,
+      "kinetic": 12
+    },
+    "durability": 100,
+    "woundThreshold": 20,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "360-Degree Vision, Access Jacks, Chem Sniffer, Enhanced Vision, Lidar, Radar, Radiation Sense",
+    "cost": "Expensive",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>Habitats in orbit around the gas giants—Jupiter, Saturn, Uranus, and Neptune—operate craft specifically designed to fill their tanks with atmospheric gases, like hydrogen and helium, and rocket back to the habitat for offloading. This is the primary method for collecting helium-3 for fusion reactors. Atmospheric mining craft—skimmers—must be adapted for their particular environment to safely operate. For example, Jovian skimmers require larger engines to overcome the planet’s gravity well and heavier shielding for electronics. Even virtual crew operating the skimmer require some protection for their digital systems. Saturnian skimmers must deploy retractable stabilizers to maintain control in the high winds. Nuclear thermal rockets are common amongst all skimmers because of their high thrust-to-weight ratio and ability to use the ambient atmosphere as reaction mass.</p><p><em>Source: Eclipse Phase Panopticon, p. 158.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "aa4874aab6c3c707",
+  "sort": 53000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Skimmer",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg"
+    }
+  }
+}

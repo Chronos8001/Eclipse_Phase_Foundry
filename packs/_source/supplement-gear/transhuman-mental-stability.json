@@ -1,0 +1,34 @@
+{
+  "_id": "bda5af674e2b1ab7",
+  "_key": "!items!bda5af674e2b1ab7",
+  "name": "Mental Stability",
+  "type": "software",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "mentalStability",
+    "cost": "Expensive",
+    "description": "<p>This upgrade bolsters the mind’s capacity to handle mental shocks and makes it less vulnerable to emotional distress. The user’s Lucidity increases by +5, which also increases Trauma Threshold by +1 and Insanity Rating by +10. This upgrade has no effect on the user’s WIL or their rolls to resist stress. The user is no more likely than before to be able to resist mental stress. However, they can now handle more mental stress before suffering any form of instability.</p><p><em>Source: Eclipse Phase Transhuman, p. 141.</em></p>",
+    "category": "program",
+    "quality": 0,
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "COG": 10,
+      "COO": 10,
+      "INT": 10,
+      "REF": 10,
+      "SAV": 10,
+      "SOM": 10,
+      "WIL": 10
+    },
+    "skills": []
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  }
+}

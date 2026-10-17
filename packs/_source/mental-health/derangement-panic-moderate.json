@@ -1,0 +1,23 @@
+{
+  "_id": "c2048108f8398144",
+  "_key": "!items!c2048108f8398144",
+  "name": "Derangement: Panic (Moderate)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>You are overwhelmed by fear or anxiety and immediately seek to distance yourself from the cause of the stress.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 2,
+    "cost": 0,
+    "costText": "Derangement (Moderate), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  }
+}

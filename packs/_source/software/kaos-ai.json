@@ -1,0 +1,84 @@
+{
+  "_id": "1eea479cb6a930f8",
+  "_key": "!items!1eea479cb6a930f8",
+  "name": "Kaos AI",
+  "type": "software",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "key": "kaosAi",
+    "category": "ai",
+    "quality": 0,
+    "cost": "Expensive",
+    "damage": "",
+    "harm": "none",
+    "effect": "",
+    "aptitudes": {
+      "cog": 10,
+      "coo": 10,
+      "int": 10,
+      "ref": 20,
+      "sav": 10,
+      "som": 10,
+      "wil": 10
+    },
+    "skills": [
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "Electronics",
+        "value": 40,
+        "specialization": ""
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 40,
+        "specialization": ""
+      },
+      {
+        "key": "interfacing",
+        "name": "Interface",
+        "field": "",
+        "value": 40,
+        "specialization": ""
+      },
+      {
+        "key": "profession",
+        "name": "Professional",
+        "field": "Security System",
+        "value": 80,
+        "specialization": ""
+      },
+      {
+        "key": "programming",
+        "name": "Programming",
+        "field": "",
+        "value": 40,
+        "specialization": ""
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 20,
+        "specialization": ""
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30,
+        "specialization": ""
+      }
+    ],
+    "description": "<p>Kaos AIs are used by hackers and covert ops teams to create distractions and sabotage systems. REF 20. Skills: Hardware: Electronics 40, Infosec 40, Interface 40, Professional: Security System 80, Programming 40, Research 20, Perception 30 plus one weapon skill at 40.</p><p>Not created automatically: plus one weapon skill at 40.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 332.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  }
+}

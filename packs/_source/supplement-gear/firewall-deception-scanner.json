@@ -1,0 +1,29 @@
+{
+  "_id": "5a9715103ca737fc",
+  "_key": "!items!5a9715103ca737fc",
+  "name": "Deception Scanner",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "deceptionScanner",
+    "cost": "Low",
+    "description": "<p>This device is used to scan a subject’s brain activity for patterns indicating deception. There are two versions, digital and analog. The digital scanner model plugs into the access jacks of a pod or synthmorph or establishes a wireless connection with the morph’s basic mesh inserts. With analog scanners, a band is placed around the subject’s head to measure brain activity with fMRI. The analog version only works on morphs with biological brains (meaning it doesn’t work on pods or cyberbrained biomorphs but does work on biocore morphs). The subject’s responses to questioning are matched against a database of patterns known to indicate deception. In game terms, the scanner makes an Opposed Test, pitting its Perception 60 against the target’s Deception skill; success indicates it detects falsehoods. Deception scanners can be used to monitor a subject’s response patterns over time to increase their likelihood of spotting lies. For each hour a scanner is used on the same subject, apply a cumulative +10 modifier to its Perception Test, up to a maximum of +30. Note that subjects who are emotionally distressed, suffer from mental disorders, or have undergone physical exertion are harder to read; gamemasters should apply a –10 to –30 to the Perception Test as they feel appropriate. Subjects with edited memories may be unaware they are telling falsehoods and will not fail the test. In many jurisdictions, failure on a deception scanner is not enough to gain a conviction and can’t be used in court, as they are known to be only partially reliable and sometimes return false positives. It is, however, used as a legal justification for engaging in psychosurgery to explore the subject’s memories. Digital detection scanners have no effect against targets with truth filter cyberware. However, the scanner can be used to detect the presence of truth filter cyberware with a successful Interfacing Test at –30.</p><p><em>Source: Eclipse Phase Firewall, p. 176.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

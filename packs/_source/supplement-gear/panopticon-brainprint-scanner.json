@@ -1,0 +1,29 @@
+{
+  "_id": "5eb699227cdca0a3",
+  "_key": "!items!5eb699227cdca0a3",
+  "name": "Brainprint Scanner",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "brainprintScanner",
+    "cost": "Moderate",
+    "description": "<p>This portable skullcap extrudes ultra-sensitive nanoelectrodes into the scalp, then plays media to the subject via a visor and ear plugs. It takes approximately 5 minutes to thoroughly scan a subject’s brain patterns in response to the media, producing a verifiable brainprint which can then be authenticated against a meshed database entry.</p><p><em>Source: Eclipse Phase Panopticon, p. 152.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 32000,
+  "ownership": {
+    "default": 0
+  }
+}

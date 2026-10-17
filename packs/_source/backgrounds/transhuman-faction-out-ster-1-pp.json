@@ -1,0 +1,58 @@
+{
+  "_id": "12c93f91bf7423e9",
+  "_key": "!items!12c93f91bf7423e9",
+  "name": "Out’ster (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are a denizen of the dark depths of space in the outer Kuiper Belt, delving into your own virtual worlds.</p><p><strong>Suggested Motivations:</strong> +AGI Rights, +Exploration, +Morphological Freedom, +Research</p><p><strong>1 PP:</strong> Free Fall 30, Interest: Simulspace 30, Interfacing 40</p><p><em>Source: Eclipse Phase Transhuman, p. 26.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "Simulspace",
+        "value": 30
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+AGI Rights, +Exploration, +Morphological Freedom, +Research"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 119000,
+  "ownership": {
+    "default": 0
+  }
+}

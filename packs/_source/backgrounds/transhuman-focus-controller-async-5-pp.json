@@ -1,0 +1,115 @@
+{
+  "_id": "d41b137ffccb73ad",
+  "_key": "!items!d41b137ffccb73ad",
+  "name": "Controller Async (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your infection enables you to invade and influence the minds of others.</p><p><strong>Suggested Motivations:</strong> +Exploration, +Neurodiversity, +Self Control</p><p><strong>5 PP:</strong> +5 WIL, +50 Rep (Your Choice) · Academics: Psychology 40, Control 50, Deception 40, Intimidation 25, Interest: (Choose One) 30, Language: (Choose One) 30, Perception 30, Persuasion 45, Profession: (Psychotherapy) 50, Psychosurgery 25, Sense 25 · Traits: Psi (Level 2), Mental Disorder (Choose Two) · +6 Sleights (Your Choice)</p><p><em>Source: Eclipse Phase Transhuman, p. 31.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Psychology",
+        "value": 40
+      },
+      {
+        "key": "control",
+        "name": "Control",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 45
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Psychotherapy",
+        "value": 50
+      },
+      {
+        "key": "psychosurgery",
+        "name": "Psychosurgery",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "sense",
+        "name": "Sense",
+        "field": "",
+        "value": 25
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 5
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Psi",
+        "level": 2
+      },
+      {
+        "name": "Mental Disorder",
+        "level": 1
+      }
+    ],
+    "choices": "Mental Disorder: Choose Two; +6 Sleights (Your Choice)",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exploration, +Neurodiversity, +Self Control"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 172000,
+  "ownership": {
+    "default": 0
+  }
+}

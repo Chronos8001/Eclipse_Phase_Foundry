@@ -1,0 +1,20 @@
+{
+  "_id": "447469c8daca8912",
+  "_key": "!items!447469c8daca8912",
+  "name": "High-G Adaptation",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "highGAdaptation",
+    "cost": "Moderate",
+    "description": "<p>This augmentation is specifically designed to allow a morph to operate in environments where gravity is significantly greater than Earth’s. The morph’s heart and circulatory system are strengthened and its skeleton altered in composition and proportion to be harder, slightly thicker, and considerably more durable. The morph’s muscle density is also increased and tendons and ligaments bolstered for improved efficiency in higher gravity. Apply a +5 Durability and +5 SOM bonus. In addition, the character suffers no negative modifiers from gravities up to 2 g, and reduces all penalties for higher gravities by 1 g.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 152.</em></p>",
+    "augType": "bioware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

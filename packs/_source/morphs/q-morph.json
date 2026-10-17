@@ -33,7 +33,7 @@
     },
     "movement": "Walker 2/4",
     "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Direction Sense, Echolocation, Enhanced Vision, Extreme Heat Shielding, Extreme Pressure Adaptation, Mnemonic Augmentation, Radar, T-Ray Emitter, Wrist-Mounted Tools",
-    "advantages": "High Temperature Operation trait, 8 limbs, Claw Attack (DV 2d10), -5 COO, +10 SOM, +5 to one other aptitude of the player's choice, Armor 18/18",
+    "advantages": "High Temperature Operation trait, 8 limbs, Claw Attack (DV 2d10), –5 COO, +10 SOM, +5 to one other aptitude of the player’s choice, Armor 18/18",
     "disadvantages": "Only works on the Venusian surface or in similar hot and high pressure environments",
     "skillBonuses": [],
     "cpCost": 100,
@@ -44,7 +44,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 91000,
+  "sort": 92000,
   "ownership": {
     "default": 0
   }

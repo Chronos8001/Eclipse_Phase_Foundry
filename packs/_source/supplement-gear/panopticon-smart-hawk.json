@@ -1,0 +1,29 @@
+{
+  "_id": "e6ae85165d56a24d",
+  "_key": "!items!e6ae85165d56a24d",
+  "name": "Smart Hawk",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "smartHawk",
+    "cost": "Moderate",
+    "description": "<p>Enhanced versions of peregrine falcons and other predatory birds are common in large, open habitats, and the hobby of falconry has made a comeback. Some smart falcons have been trained for surveillance or security purposes, tracking or finding subjects from overhead.</p><p><em>Source: Eclipse Phase Panopticon, p. 155.</em></p>",
+    "category": "pet",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 56000,
+  "ownership": {
+    "default": 0
+  }
+}

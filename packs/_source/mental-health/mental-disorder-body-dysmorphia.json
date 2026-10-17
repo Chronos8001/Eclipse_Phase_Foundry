@@ -1,0 +1,23 @@
+{
+  "_id": "f618f69b472a0234",
+  "_key": "!items!f618f69b472a0234",
+  "name": "Mental Disorder (Body Dysmorphia)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>Subjects afflicted with this disorder believe that they are so unspeakably hideous that they are unable to interact with others or function normally for fear of ridicule and humiliation at their appearance. They tend to be very secretive and reluctant to seek help because they are afraid others will think them vain— or they may feel too embarrassed to do so. Ironically, BDD is often misunderstood as a vanity-driven obsession, whereas it is quite the opposite; people with BDD believe themselves to be irrevocably ugly or defective. A similar disorder, gender identity disorder, where the patient is upset with their entire sexual biology, often precipitates BDD-like feelings. Gender identity disorder is directed specifically at external sexually dimorphic features, which are in constant conflict with the patient’s internal psychiatric gender.</p><p>Suggested Game Effects: Because of the nature of Eclipse Phase and the ability to swap out and modify a body, this is a fairly common disorder. It is suggested that characters with this suffer increased or prolonged resleeving penalties since they are unable to fully adjust to the reality of their new morph.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 212.</em></p>",
+    "key": "mentalDisorder",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e020f92043509ff9",
+  "sort": 30000,
+  "ownership": {
+    "default": 0
+  }
+}

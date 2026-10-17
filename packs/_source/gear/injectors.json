@@ -1,0 +1,29 @@
+{
+  "_id": "547b6fce2ae1cba4",
+  "_key": "!items!547b6fce2ae1cba4",
+  "name": "Injectors",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "injectors",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "Moderate",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Injector microswarms are equipped with tiny needles and a drug payload. A biological target affected by an injector swarm suffers 1 point of damage and the effects of the carried drug, chemical, or toxin.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 329.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 63000,
+  "ownership": {
+    "default": 0
+  }
+}

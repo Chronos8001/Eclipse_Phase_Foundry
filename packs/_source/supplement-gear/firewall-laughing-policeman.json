@@ -1,0 +1,27 @@
+{
+  "_id": "7f585839154291f0",
+  "_key": "!items!7f585839154291f0",
+  "name": "Laughing Policeman",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "laughingPoliceman",
+    "cost": "Moderate",
+    "description": "<p>This drug is a potent euphoriant used by Titanian intelligence for interrogations. It stimulates feelings of trust and well-being in the user, giving their interrogators a +20 bonus on Deception and Persuasion Tests to extract information.</p><p><em>Source: Eclipse Phase Firewall, p. 175.</em></p>",
+    "category": "drug",
+    "substanceType": "chem",
+    "application": "Inj",
+    "onset": "20 minutes",
+    "duration": "4 hours",
+    "addictionMod": "+10",
+    "addictionType": "physical",
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "efc93dd14e9530a8",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

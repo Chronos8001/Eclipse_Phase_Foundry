@@ -1,0 +1,23 @@
+{
+  "_id": "1710ad558d9a55c7",
+  "_key": "!items!1710ad558d9a55c7",
+  "name": "Mental Disorder (Alien Sensory Disorder)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>The character’s mind attempts to use an alien sensory organ the character doesn’t have, becomes confused, and as a result may short-circuit the neural pathways of existing sense.</p><p>Suggested Game Effects: If the async rolls a critical failure on the use of a psi sleight or if they take more than 3 DV from a single use of a sleight, there’s a 50% chance that instead of taking the damage, one of their basic 5 senses, determined at random, is temporarily disabled. The sensory organs themselves continue to function; the effect is at the interface between sensory input and the brain. Therefore, implants using that sense are also disabled. For example, if sight is lost, the effect is to the visual cortex of the brain, so the character loses input from cybernetic eyes and the ability to view visual augmented reality input. The virus will re-route around the disabled sense in 1d10 ÷ 2 hours, but during this time, the character may receive disturbing phantom feedback on the new sensory channel.</p><p><em>Source: Eclipse Phase Transhuman, p. 155.</em></p>",
+    "key": "mentalDisorder",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "da96dca306df51eb",
+  "sort": 44000,
+  "ownership": {
+    "default": 0
+  }
+}

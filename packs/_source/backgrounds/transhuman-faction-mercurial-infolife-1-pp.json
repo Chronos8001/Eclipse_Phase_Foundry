@@ -1,0 +1,52 @@
+{
+  "_id": "db605d17f8912003",
+  "_key": "!items!db605d17f8912003",
+  "name": "Mercurial: Infolife (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You oppose the assimilation of AGIs into transhumanity, believing that each intelligence should forge their own path and culture.</p><p><strong>Suggested Motivations:</strong> +AGI Rights, +Mercurial Cause, –Assimilation, –Bioconservatism, –Sapient Cause</p><p><strong>1 PP:</strong> (Choose Any Skill) 40, Interest: Infolife Clades 30, Interfacing 30</p><p><em>Source: Eclipse Phase Transhuman, p. 25.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "Infolife Clades",
+        "value": 30
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "(Choose Any Skill) 40",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+AGI Rights, +Mercurial Cause, –Assimilation, –Bioconservatism, –Sapient Cause"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 111000,
+  "ownership": {
+    "default": 0
+  }
+}

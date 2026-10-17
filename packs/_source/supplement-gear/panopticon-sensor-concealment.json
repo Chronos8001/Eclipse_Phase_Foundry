@@ -1,0 +1,29 @@
+{
+  "_id": "d2a27c551c83571e",
+  "_key": "!items!d2a27c551c83571e",
+  "name": "Sensor Concealment",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "sensorConcealment",
+    "cost": "Low",
+    "description": "<p>Many sensors are hidden within everyday objects or constructed to look like something different so as not to be an obvious surveillance tool. This modification to a sensor device applies a −30 modifier to Perception Tests made to spot it and identify it as a sensor.</p><p><em>Source: Eclipse Phase Panopticon, p. 153.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 45000,
+  "ownership": {
+    "default": 0
+  }
+}

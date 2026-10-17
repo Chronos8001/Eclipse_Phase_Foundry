@@ -1,0 +1,115 @@
+{
+  "_id": "a041106d2279cfe3",
+  "_key": "!items!a041106d2279cfe3",
+  "name": "Infolife: Research AGI (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your software predecessors were programmed to gather and analyze data, assist in scientific projects, and conduct experiments on their own. AIs such as yourself are valued members of research projects, universities, and data analysis hypercorps.</p><p><strong>Suggested Motivations:</strong> +AGI Rights, +Education, +Research</p><p><strong>5 PP:</strong> +1 Moxie · +5 COG, +50 Rep (Your Choice) · Academics: (Choose Two) 40,Academics: (Choose One) 30, Hardware: (Choose One) 40, Infosec 30, Interfacing 40, Investigation 40, Networking: Scientists 30, Pilot: (Choose One) 30, Profession: (Choose One) 40, Programming 40, Research 50 · Traits: Real World Naiveté, Social Stigma (AGI)</p><p><em>Source: Eclipse Phase Transhuman, p. 19.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose Two)",
+        "value": 40
+      },
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Scientists",
+        "value": 30
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "programming",
+        "name": "Programming",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Real World Naiveté",
+        "level": 1
+      },
+      {
+        "name": "Social Stigma",
+        "level": 1
+      }
+    ],
+    "choices": "Social Stigma: AGI",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+AGI Rights, +Education, +Research"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 48000,
+  "ownership": {
+    "default": 0
+  }
+}

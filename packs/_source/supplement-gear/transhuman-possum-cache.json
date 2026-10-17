@@ -1,0 +1,20 @@
+{
+  "_id": "3b3b96c79088f016",
+  "_key": "!items!3b3b96c79088f016",
+  "name": "Possum Cache",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "possumCache",
+    "cost": "High",
+    "description": "<p>This augmentation may only be applied to morphs with a cyberbrain, ghostrider module, or monitor module. It enables an ego therein to continue using its access jacks, cyberbrain/module, and mesh inserts while hibernating or dead. It includes a backup power unit that kicks in when the cyberbrain or module stops receiving sufficient power from the morph’s body. The access jacks, cyberbrain/module, and mesh inserts may continue to operate for 48 hours after the morph hibernates or dies. If the morph has the multitasking augmentation, it continues to function, but all other augmentations are inactive and cannot be used. Egos active in a dead/hibernating morph via a possum cache retain the morph’s aptitude modifiers but do not suffer from the morph’s wound penalties. Operating in this mode is stressful due to sensory deprivation. Every 24 hours the ego runs on a possum cache, it must make a WIL x 3 Test. Failure inflicts 1d10 SV. If the morph was killed/destroyed by head trauma, or if it takes more than 5 DV of damage to its head after death, the cyberbrain is considered destroyed, or at least too damaged to function properly. Note that damage from popping a stack does not count toward this total, but damage from intentionally burning a stack out (e.g., with an agonizer) does. Death or voluntary entry into hibernation are the only circumstances under which this augmentation functions. In case of any other game effect that would render the morph unconscious, this augmentation has no benefit. If the morph contains multiple cyberbrains or modules, the augmentation must be bought separately for each.</p><p><em>Source: Eclipse Phase Transhuman, p. 197.</em></p>",
+    "augType": "cyberware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  }
+}

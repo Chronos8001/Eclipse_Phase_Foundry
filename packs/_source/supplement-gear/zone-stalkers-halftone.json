@@ -1,0 +1,27 @@
+{
+  "_id": "17714985ff5e02b9",
+  "_key": "!items!17714985ff5e02b9",
+  "name": "Halftone",
+  "type": "substance",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "key": "halftone",
+    "cost": "High",
+    "description": "<p>Found in small ampoules at some TITAN sites, the original use of halftones are unknown, but they’ve developed a following among jaded drug users. When rubbed on the skin, halftones induce visual hallucinations in shifting halftone patterns, while at the same time visibly creating the same patterns in subdermal smart pigments on the skin of the user. Characters on halftone get a −20 on all Perception Tests due to disorienting visual input but a +10 to WIL Tests against fear or stress. (Type unknown: neither toxin filters nor medichines prevent its effects; characters with both may attempt a SOM x 2 Test to shake them off.)</p><p><em>Source: Eclipse Phase Zone Stalkers, p. 16.</em></p>",
+    "category": "drug",
+    "substanceType": "",
+    "application": "D",
+    "onset": "1 minute",
+    "duration": "36–48 hours",
+    "addictionMod": "",
+    "addictionType": "mental",
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5dd151933780efa2",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

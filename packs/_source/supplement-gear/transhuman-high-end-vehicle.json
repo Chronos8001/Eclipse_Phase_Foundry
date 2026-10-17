@@ -1,0 +1,53 @@
+{
+  "_id": "465e12c53d1690ad",
+  "_key": "!items!465e12c53d1690ad",
+  "name": "High-End Vehicle",
+  "type": "gear",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "highEndVehicle",
+    "cost": "High to Expensive (rental per account per month)",
+    "description": "<p>This server is very common in infomorph-piloted rescue and emergency-services vehicles, lawenforcement vehicles, and military vehicles. Advantages: +10 Pilot: [Vehicle Type]</p><p><em>Source: Eclipse Phase Transhuman, p. 145.</em></p>",
+    "category": "server",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "254f0c204700fc8e",
+      "_key": "!items.effects!465e12c53d1690ad.254f0c204700fc8e",
+      "name": "High-End Vehicle (on the server)",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.pilot",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 49000,
+  "ownership": {
+    "default": 0
+  }
+}

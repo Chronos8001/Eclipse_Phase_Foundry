@@ -1,0 +1,67 @@
+{
+  "_id": "3ca7f630f198f908",
+  "_key": "!actors!3ca7f630f198f908",
+  "name": "Inflatable Boat",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "watercraft",
+    "passengers": "5",
+    "handling": 10,
+    "movement": "4/16",
+    "maxVelocity": "40",
+    "mobility": "",
+    "av": {
+      "energy": 8,
+      "kinetic": 5
+    },
+    "durability": 30,
+    "woundThreshold": 6,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "",
+    "cost": "Moderate",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p>One of the truths of gatecrashing is that it’s literally impossible to know what sort of problems or obstacles gatecrashers may encounter. While water travel is not usually necessary on most worlds, sometimes gatecrashers can only get to their destination by boat. An easily portable boat is an invaluable resource for gatecrashers. This vehicle is made from flexible but highly durable fullerenes. When inflated (which takes 1 minute), it is 4 meters long, 2 meters wide, and half a meter deep. It floats easily and can hold 750 kg of passengers and cargo. These boats are propelled by either a powerful electric motor that can power the boat for 4 hours or by smart material oars that fold up with the boat. Complete with motor and batteries, the boat weighs only 18 kg. When folded up (which takes 5 minutes), the boat fits into a medium-sized portable cube, half a meter to a side.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 164.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "860f52a598d4620d",
+  "sort": 28000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Inflatable Boat",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

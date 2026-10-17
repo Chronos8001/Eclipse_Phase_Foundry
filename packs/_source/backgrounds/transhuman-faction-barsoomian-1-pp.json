@@ -1,0 +1,58 @@
+{
+  "_id": "34a420597d127c1b",
+  "_key": "!items!34a420597d127c1b",
+  "name": "Barsoomian (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your times among the rural folk and nomads of Mars convinced you that Mars needs to be liberated from the hypercorps.</p><p><strong>Suggested Motivations:</strong> +Anarchism, +Barsoomian Movement, +Community, +Technoprogressivism, –Hypercorps</p><p><strong>1 PP:</strong> Navigation 30, Pilot: (Choose One) 40, Profession: (Choose One) 30</p><p><em>Source: Eclipse Phase Transhuman, p. 23.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "navigation",
+        "name": "Navigation",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Anarchism, +Barsoomian Movement, +Community, +Technoprogressivism, –Hypercorps"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 89000,
+  "ownership": {
+    "default": 0
+  }
+}

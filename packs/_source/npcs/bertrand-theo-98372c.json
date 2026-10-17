@@ -1,0 +1,523 @@
+{
+  "_id": "98372c759295d3d1",
+  "_key": "!actors!98372c759295d3d1",
+  "name": "Bertrand Theo",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 25,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 20,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 15,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 2,
+      "max": 2
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Leader of the Petro Nanchon</p><p><strong>Morph:</strong> Sylph</p><p><strong>Motivations:</strong> +Dignity +Profit −Rudeness</p><p><strong>Skills:</strong> Beam Weapons 40, Deception 60, Infosec 50, Interest: Hypercorp Politics 60, Interfacing 55, Investigation 65, Kinesics 70, Persuasion 60, Profession: Accounting 80, Protocol 70, Research 60,</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts, Cortical Stack, Clean Metabolism, Emotional Dampers, Enhanced Pheromones, Skinlink</p><p><strong>Traits:</strong> First Impression, Striking Looks (1)</p><p><strong>ranged:</strong> Microwave Agonizer 40 (AP 0/−5, DV pain/2d10, Mode SS, Ammo 100/50)</p><p><strong>Armor:</strong> 4/3 (Armored Clothing)</p><p><strong>Appearance:</strong> A well-built African morph in a sharp suit. His sweat smells faintly of strawberries.</p><p><strong>Roleplaying:</strong> Bertrand is perpetually annoyed. On Mars, he’s annoyed by the precautions required to dodge the attention brought by his bloodthirsty associates. On Legba, he’s annoyed at delicate hypercorp negotiations going to hell while he babysits psychos on a backwater rock. Theo may have undergone the Rite like everyone else, but he memory raped that girl because he was playing a role, just like any other negotiation. It wasn’t personal. He views those who enjoy the practice with disdain, and his patience with them grows thin. If it takes another act of violence for Nine Lives to turn the profits he thinks it’s capable of, he’s willing to sully himself one last time.</p><p><em>Printed: INIT 7, SPD 1, LUC 30, TT 6, IR 60, DUR 35, WT 7, DR 52.</em></p><p><em>Source: Eclipse Phase The Devotees, p. 26.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Dignity +Profit −Rudeness"
+    }
+  },
+  "items": [
+    {
+      "_id": "ad8c711b21dc3721",
+      "name": "Sylph",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 30,
+          "coo": 30,
+          "int": 30,
+          "ref": 30,
+          "sav": 30,
+          "som": 30,
+          "wil": 30
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 5,
+          "int": 0,
+          "ref": 0,
+          "sav": 10,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 35,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Clean Metabolism, Cortical Stack, Enhanced Pheromones",
+        "advantages": "Striking Looks (Level 1) trait, +5 COO, +10 SAV, +5 to one other aptitude of the player’s choice",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 40,
+        "creditCost": "Expensive",
+        "active": true,
+        "description": "<p>Sylph morphs are tailor-made for media icons, elite socialites, XP stars, models, and narcissists. Sylph gene sequences are specifically designed for distinctive good looks. Ethereal and elfin features are common, with slim and lithe bodies. Their metabolism has also been sanitized to eliminate unpleasant bodily odors and their pheromones adjusted for universal appeal.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 102.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!98372c759295d3d1.ad8c711b21dc3721"
+    },
+    {
+      "_id": "0ad6100fea8c1bd9",
+      "name": "First Impression",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "firstImpression",
+        "traitType": "positive",
+        "scope": "ego",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 CP",
+        "description": "<p>The character has a way of charming or otherwise making a good impression the first time they interact with someone. This innate social lubricant allows them to more readily deal with new contacts and slip right into new social environments. Apply a +10 modifier on social skill tests when the character is interacting with another character for the first time only.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!98372c759295d3d1.0ad6100fea8c1bd9"
+    },
+    {
+      "_id": "fbb6dd19ddb75557",
+      "name": "Striking Looks",
+      "type": "trait",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "key": "strikingLooks",
+        "traitType": "positive",
+        "scope": "morph",
+        "level": 1,
+        "cost": 10,
+        "costText": "Cost: 10 (Level 1) or 20 (Level 2) CP",
+        "description": "<p>In an age where biosculpting is easy, good looks are both cheap and commonplace. This morph, however, possesses a physical look that can only be described as striking and unusual, but also somehow alluring and fascinating—even the gorgeous and chiseled glitterati take notice. On social skill tests where the character’s beauty may affect the outcome, they receive a +10 (for Level 1) or +20 (for Level 2) modifier. This modifier is ineffective against xenomorphs or those with the infolife or uplift backgrounds. This trait is only available to biomorphs. This modifier may be purchased for uplift morphs, but at half the cost, and it is only effective against characters with that specific uplift background (i.e., neo-avians, neo-hominids, etc.). The one drawback to this trait is that the character is more easily noticed and remembered.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 148.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!98372c759295d3d1.fbb6dd19ddb75557"
+    },
+    {
+      "name": "Beam Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "beamWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "dc409540a396e396",
+      "_key": "!actors.items!98372c759295d3d1.dc409540a396e396",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "adc713a83f879f7b",
+      "_key": "!actors.items!98372c759295d3d1.adc713a83f879f7b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infosec",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infosec",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "38e9e0b7a5d56b36",
+      "_key": "!actors.items!98372c759295d3d1.38e9e0b7a5d56b36",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interest",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "interest",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Hypercorp Politics",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "8c4399a21c3aef77",
+      "_key": "!actors.items!98372c759295d3d1.8c4399a21c3aef77",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "acc3f5ab0477a407",
+      "_key": "!actors.items!98372c759295d3d1.acc3f5ab0477a407",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "c43e467e711f7f04",
+      "_key": "!actors.items!98372c759295d3d1.c43e467e711f7f04",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinesics",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kinesics",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "afcd799539b5b781",
+      "_key": "!actors.items!98372c759295d3d1.afcd799539b5b781",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "15c0816f43f74c75",
+      "_key": "!actors.items!98372c759295d3d1.15c0816f43f74c75",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Accounting",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "53124dc906b33d66",
+      "_key": "!actors.items!98372c759295d3d1.53124dc906b33d66",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "babfd0b973e422ff",
+      "_key": "!actors.items!98372c759295d3d1.babfd0b973e422ff",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e90c4906192e7e92",
+      "_key": "!actors.items!98372c759295d3d1.e90c4906192e7e92",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "e5063a3e8d00cbd8",
+      "name": "Microwave Agonizer",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "ranged",
+        "skill": "beamWeapons",
+        "ap": 0,
+        "dv": "",
+        "damageType": "energy",
+        "addDB": false,
+        "modes": "SA",
+        "ammo": {
+          "value": 100,
+          "max": 100
+        },
+        "range": "5 / 15 / 30 / 50",
+        "equipped": true,
+        "shock": false,
+        "area": {
+          "shape": "none",
+          "radius": 0
+        },
+        "twoHanded": false,
+        "cost": "Moderate",
+        "quantity": 1,
+        "munition": {
+          "kind": "none",
+          "size": "standard"
+        },
+        "launcher": "",
+        "description": "<p>ranged Microwave Agonizer 40 (AP 0/−5, DV pain/2d10, Mode SS, Ammo 100/50)</p><p>The agonizer fires millimeterwave beams that create an unpleasant burning sensation in skin (even through armor) and to metals. Agonizers have two settings. The first is an active denial setting that causes extreme burning pain in the target, inflicting –20 to the target’s actions and forcing them to move away from the beam on their next action unless they succeed in a WIL Test (targets with Level 1 Pain Tolerance or the equivalent only suffer a –10 modifier and roll WIL x 2). Synthetic morphs and biomorphs with Level 2 Pain Tolerance (or the equivalent) are immune to this weapon. The second setting (colloquially known as the “roast” setting) has the same effect of the first, but also actually burns the target, inflicting the listed damage. Originally developed for crowd control, the agonizer is also useful for repelling animals. The agonizer is small-sized (p. 297) and fires in semi-auto mode.</p><p>Table: pain (see description)</p><p><em>Source: Eclipse Phase Core Rulebook, p. 339.</em></p>",
+        "rating": 0
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!98372c759295d3d1.e5063a3e8d00cbd8"
+    },
+    {
+      "name": "Armored Clothing",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "energy": 4,
+        "kinetic": 3,
+        "accessory": false,
+        "cost": "",
+        "description": "",
+        "equipped": true
+      },
+      "_id": "5cfe860a2c440a22",
+      "_key": "!actors.items!98372c759295d3d1.5cfe860a2c440a22",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "cab7c189bf2296af",
+  "sort": 14000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Bertrand Theo",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

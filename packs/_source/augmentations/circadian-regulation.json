@@ -1,0 +1,20 @@
+{
+  "_id": "64f438659f120df7",
+  "_key": "!items!64f438659f120df7",
+  "name": "Circadian Regulation",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "circadianRegulation",
+    "augType": "bioware",
+    "cost": "Moderate",
+    "description": "<p>The morph only requires 2 hours of sleep to maintain health and function at peak mental capacity. The character dreams constantly while asleep and can both fall asleep and wake up almost instantly. In addition, the character can easily and with no ill-effects shift to a 2-day cycle, where they are awake for 44 hours and sleep for 4.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 304.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

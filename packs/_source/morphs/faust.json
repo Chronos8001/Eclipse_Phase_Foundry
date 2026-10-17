@@ -33,7 +33,7 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack, Eidetic Memory, Endocrine Control, Hyper-Linguist, Math Boost",
-    "advantages": "Psi Chameleon trait, Psi Defense (Level 1) trait, +10 COG, +10 WIL, +5 INT, +5 to one other aptitude of the player's choice",
+    "advantages": "Psi Chameleon trait, Psi Defense (Level 1) trait, +10 COG, +10 WIL, +5 INT, +5 to one other aptitude of the player’s choice",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 85,

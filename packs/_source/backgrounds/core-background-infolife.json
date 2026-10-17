@@ -1,0 +1,55 @@
+{
+  "_id": "e44c9b4dda537b35",
+  "_key": "!items!e44c9b4dda537b35",
+  "name": "Infolife",
+  "type": "background",
+  "img": "icons/svg/village.svg",
+  "system": {
+    "description": "<p>You entered existence as a digital consciousness— an artificial general intelligence (AGI). Your very existence is illegal in certain habitats (a legacy of those who place the Fall at the feet of rampant AIs). Unlike the seed AIs responsible for their Fall, your capacity for self-improvement is limited, though you do have full autonomy.</p><p>Advantages: +30 Interfacing skill, Computer skills (Infosec, Interfacing, Programming, Research) bought with Customization Points are half price Disadvantages: Real World Naiveté trait, Social Stigma (AGI) trait, may not purchase Psi trait, Social skills bought with Customization Points are double price Common Morphs: Infomorphs, synthetic morphs</p><p><em>Source: Eclipse Phase Core Rulebook, p. 131.</em></p>",
+    "kind": "background",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Real World Naiveté",
+        "level": 1
+      },
+      {
+        "name": "Social Stigma",
+        "level": 1
+      }
+    ],
+    "choices": "Computer skills (Infosec, Interfacing, Programming, Research) bought with Customization Points are half price; Social Stigma: AGI",
+    "restrictions": "may not purchase Psi trait; Social skills bought with Customization Points are double price",
+    "morphs": "Infomorphs, synthetic morphs",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5d1fd729a9c1db00",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

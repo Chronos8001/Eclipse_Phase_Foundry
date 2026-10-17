@@ -1,0 +1,10 @@
+  <div class="form-group">
+    <label>{{localize "EP1E.Mental.helper"}}</label>
+    <select name="helper">
+      {{#each helpers as |h|}}<option value="{{h.id}}" {{#if h.selected}}selected{{/if}}>{{h.name}} ({{h.rating}})</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group">
+    <label data-tooltip="EP1E.Mental.helperRatingHint">{{localize "EP1E.Mental.helperRating"}}</label>
+    <input type="number" name="rating" value="0" min="0">
+  </div>

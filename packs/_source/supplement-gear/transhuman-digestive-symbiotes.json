@@ -1,0 +1,20 @@
+{
+  "_id": "b9d8a0a2c87ec7e2",
+  "_key": "!items!b9d8a0a2c87ec7e2",
+  "name": "Digestive Symbiotes",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "digestiveSymbiotes",
+    "cost": "Low",
+    "description": "<p>The morph can survive on virtually any organic matter, be it grass, sawdust, or the sludge from a habitat’s recycling system. Digestive symbiotes also allow the consumption of rotten or spoiled food; in combination with basic biomods, they prevent normal foodborn illnesses. The symbiotes don’t eliminate toxins, however, nor do they make the stuff taste any better. At the gamemaster’s discretion, certain substances may requires a WIL x 3 Test to eat.</p><p><em>Source: Eclipse Phase Transhuman, p. 198.</em></p>",
+    "augType": "nanoware"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

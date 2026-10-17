@@ -1,0 +1,23 @@
+{
+  "_id": "bfd3b1c27d9b0161",
+  "_key": "!items!bfd3b1c27d9b0161",
+  "name": "Derangement: Frenzy (Major)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>You have a major freak out over the source of the stress and attack it.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 3,
+    "cost": 0,
+    "costText": "Derangement (Major), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "7a5544371093e8e5",
+  "_key": "!items!7a5544371093e8e5",
+  "name": "Military Intelligence",
+  "type": "trait",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "militaryIntelligence",
+    "traitType": "positive",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Cost: 10 CP",
+    "description": "<p>This trait may only be taken by characters with the Military Rank trait (below). Since all members of JSFI are commissioned officers, Jovian characters must have Military Rank of at least Level 2. The character is posted to their military’s intelligence service. This makes it possible for the character to use reputation to garner classified information at one Favor level lower than normal, but it also immerses the character in the spook world, limiting their movements and greatly complicating their collaboration with Firewall. Players taking this trait should consult with the gamemaster as to how their character is able to operate as part of Firewall at all with other spies looking over their shoulder.</p><p><em>Source: Eclipse Phase Firewall, p. 172.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "7f3ebf3c224a27b4",
+  "sort": 92000,
+  "ownership": {
+    "default": 0
+  }
+}

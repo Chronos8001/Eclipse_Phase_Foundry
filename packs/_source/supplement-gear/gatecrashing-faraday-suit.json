@@ -1,0 +1,29 @@
+{
+  "_id": "d598fdae351c9240",
+  "_key": "!items!d598fdae351c9240",
+  "name": "Faraday Suit",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "faradaySuit",
+    "cost": "Moderate",
+    "description": "<p>Originally designed for exploring habitats that had been attacked or largely destroyed by the TITANs, this device has also been adapted for use on highrisk gatecrashing missions where the gatecrashers suspect that they will encounter TITAN-created relics or aliens devices that might produce a variety of dangerous inputs. This suit covers the entire body in a climate-controlled garment with an outer surface that reflects all microwaves and radio waves (meaning they are +10 to detect with radar). The suit is lined with a superconductive charged wire mesh, effectively cocooning the user in a bubble from which they can neither send nor receive radio signals. This cuts the wearer off from the mesh and other data sources, but also protects them from hacking attacks and mesh – or radio-based basilisk hacks. In addition, the suit’s helmet is opaque on the exterior and soundproofed, preventing the viewer from seeing out in the normal and near-visual spectrums or hearing noises around them. The helmet is mounted with an external camera (visual and infrared) and microphone, however, that feed input inside the helmet (though still outside the Faraday mesh). The helmet’s built-in speaker and screen are designed to deliberately degrade information they display/emit, however, to impede potential hostile sensory inputs (+30 to tests to resist basilisk hacks). As a result, while wearing this suit, all sounds are somewhat distorted and vision is fuzzy and indistinct. While these limitations can be problematic, they also render the wearer immune (or at least resistant) to all known forms of incapacitating or mentally affecting inputs. All Faraday suits include radio links so that other team members can communicate with the wearer. However, these radios cannot be connected to the wearer’s basic implants. Instead, the wearer must use the deliberately low-grade microphone and speakers in the helmet to communicate with others. An actual old-fashioned keyboard mounted on the suit’s arm enables text messages in case audio signals are too degraded or full radio considered too dangerous. These measures minimize the chance that if one member of a team is affected by incapacitating inputs, they will be able to spread the memetic infection to the rest of the team. The helmets of Faraday suits are designed to retract into a barely noticeable collar. They can go from this state to a fully activated helmet within 1 Action Turn. Except in obviously dangerous situations, most users wear the helmets open, thus permitting them to use basic implants and ectos normally. Many users instruct their muse to automatically activate the helmet if they detect any potentially dangerous inputs to protect the wearer.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 158.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 26000,
+  "ownership": {
+    "default": 0
+  }
+}

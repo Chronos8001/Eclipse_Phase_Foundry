@@ -1,0 +1,10 @@
+<div class="ep1e therapy-dialog">
+  {{> "systems/ep1e/templates/dialog/helper-fields.hbs"}}
+  <div class="form-group">
+    <label>{{localize "EP1E.Mental.hours"}}</label>
+    <input type="number" name="hours" value="8" min="1">
+  </div>
+  <label class="checkbox"><input type="checkbox" name="psychosurgery" {{#if psychosurgery}}checked{{/if}}> {{localize "EP1E.Mental.afterSurgery"}}</label>
+  {{#if disorders}}<p class="hint">{{localize "EP1E.Mental.disorderPenalty" n=disorders penalty=penalty}}</p>{{/if}}
+  <p class="hint">{{localize "EP1E.Mental.therapyHint"}}</p>
+</div>

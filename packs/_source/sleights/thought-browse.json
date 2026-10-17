@@ -1,0 +1,33 @@
+{
+  "_id": "0d5e5e816dce06a8",
+  "_key": "!items!0d5e5e816dce06a8",
+  "name": "Thought Browse",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "thoughtBrowse",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "touch",
+    "duration": "sustained",
+    "durationUnit": "turns",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "sense",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Thought Browse is a less-intrusive form of mind reading which scans the target’s surface thoughts for certain “keywords” like a particular word, phrase, sound, or image chosen by the async. Rather than digging through the target’s ego as with the Deep Scan sleight, Thought Browse merely verifies whether a target has a particular person, place, event, or thing in mind, which can be used by a savvy investigator to draw conclusions without the need to invade the mind directly. Thought Browse may be sustained, allowing the async to continue scanning the target’s thoughts over time. The async must beat the target in an Opposed Test for each scanned item.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 228.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 40000,
+  "ownership": {
+    "default": 0
+  }
+}

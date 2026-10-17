@@ -8,12 +8,14 @@
     "energy": 2,
     "kinetic": 4,
     "equipped": false,
-    "description": "<p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "accessory": false,
+    "cost": "High",
+    "description": "<p>This exoskeleton framework includes a pair of vector-thrust turbofan engines, giving the user flight capabilities in gravity and increased maneuverability in zero-G. It provides partial protection to the wearer with an Armor Value of 2/4. Piloted with Pilot: Aircraft skill.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 344.</em></p>"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "sort": 23000,
+  "sort": 24000,
   "ownership": {
     "default": 0
   }

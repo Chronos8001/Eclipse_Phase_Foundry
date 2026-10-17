@@ -1,0 +1,52 @@
+{
+  "_id": "72fffb60bdcbaa3b",
+  "_key": "!items!72fffb60bdcbaa3b",
+  "name": "Hyperelite",
+  "type": "background",
+  "img": "icons/svg/village.svg",
+  "system": {
+    "description": "<p>You are privileged to have been raised as part of the immortal upper class that rules many inner system habitats and hypercorps. You were pampered with wealth and influence that most people can only dream of.</p><p>Advantages: +10 Protocol skill, +10,000 Credit, +20 Networking: Hypercorps skill Disadvantages: May not start with flat, splicer, or any pod, uplift, or synthetic morphs Common Morphs: Exalts, Sylphs</p><p><em>Source: Eclipse Phase Core Rulebook, p. 131.</em></p>",
+    "kind": "background",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "protocol",
+        "name": "Protocol",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Hypercorps",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 10000,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "May not start with flat; splicer; or any pod; uplift; or synthetic morphs",
+    "morphs": "Exalts, Sylphs",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5d1fd729a9c1db00",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

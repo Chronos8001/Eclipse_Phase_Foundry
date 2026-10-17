@@ -1,0 +1,29 @@
+{
+  "_id": "b5e8a5f382d970f1",
+  "_key": "!items!b5e8a5f382d970f1",
+  "name": "Oxygen Candles",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "oxygenCandles",
+    "cost": "Low for small; Moderate for medium-sized",
+    "description": "<p>In the event of a life support failure, a breathable atmosphere can be created in a pressurized space by using a solid-fuel oxygen generator. A standard portable medium-sized version produces 75 manhours of oxygen once ignited. A smaller pocket-sized version produces 15 man-hours.</p><p><em>Source: Eclipse Phase Panopticon, p. 157.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 71000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "e2a9ab481d86ef4c",
+  "_key": "!items!e2a9ab481d86ef4c",
+  "name": "Puppet Sock",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "puppetSock",
+    "augType": "cyberware",
+    "cost": "Moderate",
+    "description": "<p>This implanted computer allows the biomorph’s body (the “puppet”) to be controlled by another character (the “puppeteer”). While active, the puppet has no control over their body and is simply along for the ride (at the gamemaster’s discretion, puppets who are tormented by repeated or extensive loss of control may suffer mental stress). The puppeteer may directly “jam” the puppet or remote control it in the same way that robots and pods are teleoperated (p. 196). The puppeteer must either be ghost-riding the puppet (see the Ghostrider Module, p. 307) or have a direct communications link (via mesh, radio, laser, etc.).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 307.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 51000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "1dccafa926b070e3",
+  "_key": "!items!1dccafa926b070e3",
+  "name": "Taggants",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "taggants",
+    "category": "nanotech",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Taggants seek to lodge themselves onto everything in their area of dispersal. Each carries a unique identifier, so that if it is found later, the tagged person or object can be linked back to the point they were tagged. Taggants can be programmed to remain silent, only responding to query broadcasts made with the proper crypto codes, or they can be programmed to broadcast their location back to the deployer via the mesh.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 329.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 69000,
+  "ownership": {
+    "default": 0
+  }
+}

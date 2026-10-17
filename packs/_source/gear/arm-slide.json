@@ -1,0 +1,29 @@
+{
+  "_id": "630e16c35a245dcc",
+  "_key": "!items!630e16c35a245dcc",
+  "name": "Arm Slide",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "armSlide",
+    "category": "weaponAccessory",
+    "quantity": 1,
+    "cost": "Low",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>This slide-mount can hold a pistolsized weapon under a character’s sleeve, pushing the weapon into the character’s hand with an electronic signal or specific sequence of arm movements.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 342.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 119000,
+  "ownership": {
+    "default": 0
+  }
+}

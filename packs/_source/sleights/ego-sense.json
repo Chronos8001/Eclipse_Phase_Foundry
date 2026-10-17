@@ -1,0 +1,33 @@
+{
+  "_id": "9eb953523588b1ec",
+  "_key": "!items!9eb953523588b1ec",
+  "name": "Ego Sense",
+  "type": "sleight",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "egoSense",
+    "psiType": "gamma",
+    "activation": "active",
+    "action": "complex",
+    "range": "close",
+    "duration": "temporary",
+    "durationUnit": "turns",
+    "strainMod": -1,
+    "strainPerTarget": 0,
+    "strainPerAP": false,
+    "skill": "sense",
+    "damage": "",
+    "harm": "damage",
+    "exsurgent": false,
+    "active": false,
+    "remaining": 0,
+    "description": "<p>Ego Sense can be used to detect the presence and location of other sentient and biological life forms (i.e., egos) within the async’s range. To detect these life forms, the async makes a single Sense Test, opposed by each life form within range. The async may suffer a modifier for detecting small animals and insects, similar to the modifier applied for targeting them in ranged combat (see p. 193); likewise, a modifier for detecting larger life forms may also be applied. If successful, the async has detected that the life form is nearby. Every 10 full points of MoS will ascertain another piece of information regarding the detected life: direction from async, approximate size, type of creature, distance from async, etc. The async will know if the target moves, if they do so during the sleight’s duration.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 226.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 25000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "_id": "6c3466be2c29773a",
+  "_key": "!actors!6c3466be2c29773a",
+  "name": "TITAN Smart Mine",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 15,
+        "mod": 0
+      },
+      "coo": {
+        "base": 20,
+        "mod": 0
+      },
+      "int": {
+        "base": 15,
+        "mod": 0
+      },
+      "ref": {
+        "base": 15,
+        "mod": 0
+      },
+      "sav": {
+        "base": 10,
+        "mod": 0
+      },
+      "som": {
+        "base": 10,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 0,
+      "max": 0
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {
+      "wt": 0
+    },
+    "biography": "<p><strong>Threat Level:</strong> Yellow</p><p><strong>Numbers:</strong> 4–12</p><p>Most transhumans wish the existence of smart mines could be blamed on the TITANs. Sadly, smart mines were used in warfare long before the Fall. Though outlawed by every treaty and convention of warfare, smart mines were frequently deployed against civilian populations. The TITANs merely enhanced the design. Smart mines are roughly 3 decimeters long and move on spiderlike thin robotic legs. Their frame holds a compact sensor package and a payload of volate chemicals stored in interconnected sacs, housed underneath a cheap plastic shell that doubles as shrapnel. Smart mines maximize their resource-to-kill ratio. Deployed in packs, they coordinate ambushes on isolated targets. Their morph and armor recognition software calculates their payloads exactingly; their aim is to cripple and disable, not kill a target outright. Attacking en masse, when one of the bots manages to crawl onto a leg or arm (or similar crucial limb), it jettisons its extra chemical explosives (save those deemed necessary for the attack) for the others to pick up, mixes the volatile sacs together, and explodes in a shaped charge. Those injured by smart mines suffer amputation, burns, and smaller shrapnel wounds. Once a target is disabled, the remainder of the pack injects specialized medichines to cauterize wounds and prolong the victim’s suffering, then retreat and wait for the victim to call for help. They are known to torture those too stubborn to lure their comrades into a trap. Anyone attempting to help the wounded suffers the same ambush. The last mine in the pack will detonate all of its remaining charges. Surviving TITAN smart mines are exceptionally careful. As kamikazes, they must ration their numbers to inflict maximum casualties. Some swarms on Earth, Luna, Mars, and abandoned orbital weapons factories still have corrupted fabricators pumping out reinforcements. Entire areas are no-man’s-lands with dozens of spider bombs waiting under every pile of rubble.</p><p><strong>Stress Test:</strong> SV 1d10 ÷ 2 (round down)</p><p><strong>Traits:</strong> Small Size (−10 to hit)</p><p><strong>Ware:</strong> 360-Degree Vision, Chameleon Skin, Electrical Sense, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Laser Link, Lidar, Radar</p><p><strong>Suicide Strike:</strong> 60, inflicts exactly enough DV to cause 2 wounds (including armor).There is a 25% chance this cripples or amputates a limb; victims losing legs move at a quarter their normal movement rate until healed or repaired (pp. 208 and 327, EP).</p><p><strong>Volatile:</strong> Smart mines that suffer a wound have a 5% chance of exploding: DV 6d10 + 12, AP −4, blast area effect.</p><p><em>Initiative printed: 5 (X-Risks uses (INT + REF) ÷ 5); Wound Threshold 4, Death Rating 40.</em></p><p><em>Source: Eclipse Phase X-Risks, p. 138.</em></p>",
+    "notes": ""
+  },
+  "items": [
+    {
+      "name": "TITAN Smart Mine (body)",
+      "type": "morph",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "morphType": "synthmorph",
+        "aptitudeMax": {
+          "cog": 40,
+          "coo": 40,
+          "int": 40,
+          "ref": 40,
+          "sav": 40,
+          "som": 40,
+          "wil": 40
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 0,
+          "ref": 0,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 20,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/16 Walker",
+        "implants": "360-Degree Vision, Chameleon Skin, Electrical Sense, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Laser Link, Lidar, Radar",
+        "advantages": "Small Size (−10 to hit)",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 0,
+        "creditCost": "",
+        "active": true,
+        "description": ""
+      },
+      "_id": "c98d190bd01f8d51",
+      "_key": "!actors.items!6c3466be2c29773a.c98d190bd01f8d51",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Demolitions",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "demolitions",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1123922431803897",
+      "_key": "!actors.items!6c3466be2c29773a.1123922431803897",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Free Fall",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freeFall",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "0d92da627084d334",
+      "_key": "!actors.items!6c3466be2c29773a.0d92da627084d334",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Freerunning",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "freerunning",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "359c6c2ec3555111",
+      "_key": "!actors.items!6c3466be2c29773a.359c6c2ec3555111",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infiltration",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "infiltration",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "55258d8f7ee7345f",
+      "_key": "!actors.items!6c3466be2c29773a.55258d8f7ee7345f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "1f0b0a087ca6fcee",
+      "_key": "!actors.items!6c3466be2c29773a.1f0b0a087ca6fcee",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmed Combat",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "unarmedCombat",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "Suicide Strike",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "058286746f2dc99f",
+      "_key": "!actors.items!6c3466be2c29773a.058286746f2dc99f",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "14e7e75dde3ae246",
+      "_key": "!actors.items!6c3466be2c29773a.14e7e75dde3ae246",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 35,
+        "mod": 0,
+        "specialization": "Hearing/Smell/Vision",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e8eb2b03314dbad3",
+      "_key": "!actors.items!6c3466be2c29773a.e8eb2b03314dbad3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "a6b0042caea33a98",
+  "sort": 51000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "TITAN Smart Mine",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

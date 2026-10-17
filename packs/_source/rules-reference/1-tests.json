@@ -1,0 +1,33 @@
+{
+  "_id": "71835c5f4d6fda26",
+  "_key": "!journal!71835c5f4d6fda26",
+  "name": "1. Tests",
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "pages": [
+    {
+      "_id": "2068ae5a94d7536d",
+      "_key": "!journal.pages!71835c5f4d6fda26.2068ae5a94d7536d",
+      "name": "Tests",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>On lance 1d100 (00 à 99) contre un score cible : la compétence (ou l'aptitude par défaut) avec ses modificateurs. Un jet inférieur ou égal à la cible réussit. 00 réussit toujours, 99 échoue toujours.</p><ul><li><strong>Critique</strong> : un double (00, 11, 22…) ; succès critique s'il réussit, échec critique sinon.</li><li><strong>Marge de réussite (MR)</strong> : cible − jet ; <strong>marge d'échec (ME)</strong> : jet − cible.</li><li><strong>Réussite excellente</strong> : MR ≥ 30 ; <strong>échec grave</strong> : ME ≥ 30.</li><li>Les modificateurs cumulés ne dépassent pas ±60.</li><li><strong>Par défaut</strong> : sans la compétence, on teste l'aptitude liée.</li><li><strong>Travail d'équipe</strong> : +10 par aide, +30 au plus.</li><li><strong>Nouvel essai</strong> : −10 cumulatif par essai après un échec, −60 au plus.</li><li><strong>Prendre son temps</strong> : +10 par minute en plus (pour une tâche, par tranche de 50 % de sa durée). <strong>Se presser</strong> : −10 par tranche de 10 % gagnée, 60 % au plus.</li><li><strong>Tâches</strong> : la MR réduit la durée de 10 % par 10 points ; un échec fait perdre 10 % de la durée par 10 points de ME.</li><li><strong>Tests opposés</strong> : les deux réussissent, le jet le plus haut l'emporte ; égalité : impasse.</li></ul><h2>Difficulté</h2><table><thead><tr><th>Difficulté</th><th>Modificateur</th></tr></thead><tbody><tr><td>Sans effort</td><td>+30</td></tr><tr><td>Simple</td><td>+20</td></tr><tr><td>Facile</td><td>+10</td></tr><tr><td>Moyen</td><td>0</td></tr><tr><td>Difficile</td><td>−10</td></tr><tr><td>Ardu</td><td>−20</td></tr><tr><td>Très difficile</td><td>−30</td></tr></tbody></table><h2>Moxie</h2><p>Un point par jet, au plus :</p><ul><li>Dépense 1 point de Moxie avant le jet pour ignorer tous les modificateurs.</li><li>Dépenser 1 point de Moxie pour inverser les chiffres du jet.</li><li>Dépenser 1 point de Moxie pour transformer ce succès en succès critique.</li><li>Dépenser 1 point de Moxie pour transformer l'échec critique en échec simple.</li><li>Agir en premier dans une phase d'action.</li></ul><p><em>Source : Eclipse Phase Core Rulebook, p. 115-122.</em></p>",
+        "format": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "system": {}
+    }
+  ]
+}

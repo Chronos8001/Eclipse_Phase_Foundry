@@ -1,0 +1,52 @@
+{
+  "_id": "1deae4040c131a10",
+  "_key": "!items!1deae4040c131a10",
+  "name": "Scumborn",
+  "type": "background",
+  "img": "icons/svg/village.svg",
+  "system": {
+    "description": "<p>You were raised in the nomadic and chaotic lifestyle common to Scum barges.</p><p>Advantages: +10 Persuasion or Deception skill, +10 Scrounging skill, +20 Networking: Autonomists skill Disadvantages: None Common Morphs: All, especially Bouncers</p><p><em>Source: Eclipse Phase Core Rulebook, p. 132.</em></p>",
+    "kind": "background",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Autonomists",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 Persuasion or Deception skill",
+    "restrictions": "",
+    "morphs": "All, especially Bouncers",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5d1fd729a9c1db00",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  }
+}

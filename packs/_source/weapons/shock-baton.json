@@ -18,7 +18,20 @@
     },
     "range": "",
     "equipped": false,
-    "description": "<p>+ choc (p. 204).</p><p><em>Source: Eclipse Phase Core Rulebook.</em></p>"
+    "shock": true,
+    "area": {
+      "shape": "none",
+      "radius": 0
+    },
+    "twoHanded": false,
+    "cost": "Low",
+    "quantity": 1,
+    "munition": {
+      "kind": "none",
+      "size": "standard"
+    },
+    "launcher": "",
+    "description": "<p>Shock batons are standard clubs used for policing duties, but when activated they also deliver an electric shock to struck targets (see Shock Attacks, p. 204).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 335.</em></p>"
   },
   "effects": [],
   "flags": {},

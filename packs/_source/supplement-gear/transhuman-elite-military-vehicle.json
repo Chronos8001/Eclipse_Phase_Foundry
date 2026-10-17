@@ -1,0 +1,67 @@
+{
+  "_id": "4f0a62faaec03bc1",
+  "_key": "!items!4f0a62faaec03bc1",
+  "name": "Elite Military Vehicle",
+  "type": "gear",
+  "img": "icons/svg/hanging-sign.svg",
+  "system": {
+    "key": "eliteMilitaryVehicle",
+    "cost": "High to Expensive (rental per account per month)",
+    "description": "<p>The finest cutting-edge military fighter spacecraft and other small high-speed military vehicles that are piloted by infomorphs frequently have these upgrades. The absolute best of these vehicles use enhanced specialized servers. Advantages: +10 Pilot: [Vehicle Type], +10 Gunnery, Enhanced Server</p><p><em>Source: Eclipse Phase Transhuman, p. 145.</em></p>",
+    "category": "server",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "230f7cd939857010",
+      "_key": "!items.effects!4f0a62faaec03bc1.230f7cd939857010",
+      "name": "Elite Military Vehicle (on the server)",
+      "img": "icons/svg/upgrade.svg",
+      "changes": [
+        {
+          "key": "system.skillMods.pilot",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.skillMods.gunnery",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.mods.init",
+          "mode": 2,
+          "type": "add",
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "transfer": true,
+      "duration": {},
+      "flags": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff"
+    }
+  ],
+  "flags": {},
+  "folder": "e3874996d616c88d",
+  "sort": 45000,
+  "ownership": {
+    "default": 0
+  }
+}

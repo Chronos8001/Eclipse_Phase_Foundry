@@ -1,0 +1,29 @@
+{
+  "_id": "3f8d907e5a279206",
+  "_key": "!items!3f8d907e5a279206",
+  "name": "Morph Brokerage",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "morphBrokerage",
+    "category": "service",
+    "quantity": 1,
+    "cost": "Moderate per month",
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    },
+    "description": "<p>Acquiring a new morph is not always easy and is affected by factors such as the type of morph, sought-after enhancements/customizations, and local availability. Numerous brokerage services exist to find you what you need, or close to it. With enough lead-time, it may be possible to grow a pod that closely imitates your morph of choice. A willingness to accept used/traded-in morphs helps to reduce costs. For more details, see Morph Brokerage, p. 276. Psychosurgery: A character can purchase time in an immersive high-fidelity simulspace with expert care from psychosurgeons and AIs in order to cope with derangements and disorders that build up as a result of existing in a transhuman universe. For an additional price the procedure can be time shifted to speed up the relative time within the simulspace. For more details, see Mental Healing and Psychotherapy, p. 215, and Psychosurgery, p. 229.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 331.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 86000,
+  "ownership": {
+    "default": 0
+  }
+}

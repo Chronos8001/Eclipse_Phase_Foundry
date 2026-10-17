@@ -1,0 +1,105 @@
+{
+  "_id": "7c4acca4545fa569",
+  "_key": "!items!7c4acca4545fa569",
+  "name": "Re-Instantiated: Military Casualty (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You were killed during the Fall. You may have fallen during a sneak attack, died fighting the TITAN machines on the front lines, or even been murdered by fellow humans as you tried to keep order in transhumanity’s darkest hours. At least your sacrifice was rewarded by a quick resleeving.</p><p><strong>Suggested Motivations:</strong> +Reclaiming Earth, +Survival, –TITANs</p><p><strong>5 PP:</strong> +2 Moxie · +5 INT, +50 Rep (Your Choice) · (Choose Any Two Combat Skills) 50,Academics: (Choose One) 30, Climbing 30, Fray 25, Freerunning 35, Gunnery 30, Interest: (Choose One) 50, Language: (Choose One) 30, Pilot: Groundcraft 15, Profession: (Choose One) 40, Unarmed Combat 40 · Traits: Edited Memories</p><p><em>Source: Eclipse Phase Transhuman, p. 21.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "gunnery",
+        "name": "Gunnery",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Groundcraft",
+        "value": 15
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 2,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Edited Memories",
+        "level": 1
+      }
+    ],
+    "choices": "(Choose Any Two Combat Skills) 50",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Reclaiming Earth, +Survival, –TITANs"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 72000,
+  "ownership": {
+    "default": 0
+  }
+}

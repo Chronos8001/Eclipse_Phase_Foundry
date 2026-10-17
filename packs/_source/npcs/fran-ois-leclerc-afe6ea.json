@@ -1,0 +1,683 @@
+{
+  "_id": "afe6eacb3764173e",
+  "_key": "!actors!afe6eacb3764173e",
+  "name": "François Leclerc",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aptitudes": {
+      "cog": {
+        "base": 20,
+        "mod": 0
+      },
+      "coo": {
+        "base": 15,
+        "mod": 0
+      },
+      "int": {
+        "base": 10,
+        "mod": 0
+      },
+      "ref": {
+        "base": 10,
+        "mod": 0
+      },
+      "sav": {
+        "base": 25,
+        "mod": 0
+      },
+      "som": {
+        "base": 15,
+        "mod": 0
+      },
+      "wil": {
+        "base": 15,
+        "mod": 0
+      }
+    },
+    "moxie": {
+      "value": 2,
+      "max": 2
+    },
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "stress": {
+      "value": 0
+    },
+    "trauma": {
+      "value": 0
+    },
+    "mods": {},
+    "biography": "<p>Éminence Grise Leclerc was one of the first generation of successful avian uplifts and the first to become a commercial success as a fashion designer. After the Fall, Leclerc obtained a measure of success as an art critic in Elysium for several years. Eventually, however, he grew fed up with the casual dismissal of his criticism due to his uplift status and decided to move to a location where he’d be appreciated. His attempts to secure a travel visa and egocast to Titan were repeatedly rejected, however, so with careful deliberation he undertook a course of action that he was sure would get him kicked out of the Consortium. In a live broadcast, he unleashed a savage, scathing, and personal critique of the the sixteen most reputable fashion designers on Mars. Instead of being booted to the outer system, he was stripped of citizenship and told he could go into cold storage until another polity accepted his asylum claim or he could go into exile on the scum shuttle that was leaving to return to the Stars that afternoon. He chose exile to the swarm. To his surprise, Leclerc found that he enjoys the riot of creativity among the scum. Even more importantly, he sees actual appreciation for the critical feedback he offers. Joining up with the Nature’s Rejects collective, he spends most of his time aboard Dayuejin, typically working with numerous artistically-minded peers to shape the creative output of the flotilla. Among the swarm’s uplifts, he is seen as a grandfatherly figure, always ready with a quip and sordid tale to illustrate his life’s lessons.</p><p><strong>Morph:</strong> Neo-Avian</p><p><strong>Motivation:</strong> +Art Criticism +Flock (Collective) Loyalty –Martian Fashionistas</p><p><strong>Active Skills:</strong> Deception 70, Flight 35, Fray 60, Interfacing 50, Intimidation 65, Investigation 55, Kinetic Weapons 40, Networking: Hypercorp 50, Networking: Media 85, Networking: Socialite 70, Perception 65, Persuasion 75, Protocol 70, Research 50</p><p><strong>Knowledge Skills:</strong> Academics: Art History 60, Art: Criticism 90, Art: Fashion Design 70, Language: French (Native) 85, Profession: Appraisal 65, Profession: Critic 85, Profession: Tailor 70</p><p><strong>Rep:</strong> @-rep 30, f-rep 55</p><p><strong>Implants:</strong> Basic Biomods, Basic Mesh Inserts, Cortical Stack</p><p><strong>Gear:</strong> Light Vacsuit</p><p><strong>Armor:</strong> 5/5 (Light Vacsuit)</p><p><strong>Roleplaying:</strong> Despite his reputation as a fierce critic, in person Leclerc comes off as warm and almost grandfatherly, offering gentle suggestions and always coming off as an attentive listener.</p><p><strong>Appearance:</strong> Anywhere else Leclerc might have come off as a bit ridiculous, but in the flotilla he’s just one more weird sight among many. His morph is a standard African Grey uplift, adorned with a black beret and a red scarf he tosses over one wing.</p><p><em>Printed: INIT 6, SPD 1, LUC 30, TT 6, IR 60, DUR 20, WT 4, DR 30.</em></p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 14.</em></p>",
+    "notes": "",
+    "details": {
+      "motivations": "+Art Criticism +Flock (Collective) Loyalty –Martian Fashionistas"
+    }
+  },
+  "items": [
+    {
+      "_id": "fc54b5daf8715e33",
+      "name": "Neo-Avian",
+      "type": "morph",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "morphType": "biomorph",
+        "aptitudeMax": {
+          "cog": 25,
+          "coo": 25,
+          "int": 25,
+          "ref": 25,
+          "sav": 25,
+          "som": 20,
+          "wil": 25
+        },
+        "aptitudeBonus": {
+          "cog": 0,
+          "coo": 0,
+          "int": 5,
+          "ref": 10,
+          "sav": 0,
+          "som": 0,
+          "wil": 0
+        },
+        "durability": 20,
+        "speedMod": 0,
+        "initMod": 0,
+        "armor": {
+          "energy": 0,
+          "kinetic": 0
+        },
+        "movement": "4/20, Winged 8/40",
+        "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Ultraviolet Vision, Wings",
+        "advantages": "Beak/Claw Attack (1d10 DV, AP –1, use Unarmed Combat skill), +5 INT, +10 REF, +5 to one other aptitude of the player’s choice",
+        "disadvantages": "",
+        "skillBonuses": [],
+        "cpCost": 25,
+        "creditCost": "Expensive",
+        "active": true,
+        "description": "<p>Neo-avians include ravens, crows, and gray parrots uplifted to human-level intelligence. Their physical sizes are much larger than their non-uplifted cousins (to the size of a human child), with larger heads for their increased brain size. Numerous transgenic modifications have been made to their wings, allowing them to retain limited flight capabilities at 1 g, but giving them a more bat-like physiology so they can bend and fold better and adding primitive digits for basic tool manipulation. Their toes are also more articulated and now accompanied with an opposable thumb. Neo-avians have adapted well to microgravity environments, and are favored for their small size and reduced resource use.</p><p><strong>Notes:</strong> Non-Mammalian Biochemistry trait, Small Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 59.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!afe6eacb3764173e.fc54b5daf8715e33"
+    },
+    {
+      "name": "Deception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "deception",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "44f1575663d4f927",
+      "_key": "!actors.items!afe6eacb3764173e.44f1575663d4f927",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "flight",
+        "aptitude": "som",
+        "category": "active",
+        "field": "",
+        "ranks": 20,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "7049ac5cf8930455",
+      "_key": "!actors.items!afe6eacb3764173e.7049ac5cf8930455",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fray",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "fray",
+        "aptitude": "ref",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "580eb47ec367e3f3",
+      "_key": "!actors.items!afe6eacb3764173e.580eb47ec367e3f3",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Interfacing",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "interfacing",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "144370d25b2aa06e",
+      "_key": "!actors.items!afe6eacb3764173e.144370d25b2aa06e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "intimidation",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "f9d75e74febfd75b",
+      "_key": "!actors.items!afe6eacb3764173e.f9d75e74febfd75b",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 6000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "investigation",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "e749622e94f4361d",
+      "_key": "!actors.items!afe6eacb3764173e.e749622e94f4361d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 7000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Kinetic Weapons",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "kineticWeapons",
+        "aptitude": "coo",
+        "category": "active",
+        "field": "",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "bc09a47f660001bd",
+      "_key": "!actors.items!afe6eacb3764173e.bc09a47f660001bd",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Hypercorp",
+        "ranks": 25,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "310d4f488068e71d",
+      "_key": "!actors.items!afe6eacb3764173e.310d4f488068e71d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Media",
+        "ranks": 60,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "050f075e4a10f83d",
+      "_key": "!actors.items!afe6eacb3764173e.050f075e4a10f83d",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Networking",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "networking",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "Socialite",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "059719e8c4f93d19",
+      "_key": "!actors.items!afe6eacb3764173e.059719e8c4f93d19",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 11000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "perception",
+        "aptitude": "int",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "d414a651de482f2e",
+      "_key": "!actors.items!afe6eacb3764173e.d414a651de482f2e",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 12000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "persuasion",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "562b5acfc712f291",
+      "_key": "!actors.items!afe6eacb3764173e.562b5acfc712f291",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 13000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Protocol",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "protocol",
+        "aptitude": "sav",
+        "category": "active",
+        "field": "",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ec9df92ce09b1d35",
+      "_key": "!actors.items!afe6eacb3764173e.ec9df92ce09b1d35",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 14000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "icons/svg/d20-black.svg",
+      "system": {
+        "key": "research",
+        "aptitude": "cog",
+        "category": "active",
+        "field": "",
+        "ranks": 30,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "ca4e70f7d59743dc",
+      "_key": "!actors.items!afe6eacb3764173e.ca4e70f7d59743dc",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 15000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "academics",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Art History",
+        "ranks": 40,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "5fbe5963723ca98a",
+      "_key": "!actors.items!afe6eacb3764173e.5fbe5963723ca98a",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 16000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Art",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "art",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Criticism",
+        "ranks": 75,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "530380d2918c5ee4",
+      "_key": "!actors.items!afe6eacb3764173e.530380d2918c5ee4",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 17000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Art",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "art",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "Fashion Design",
+        "ranks": 55,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "9db25b1ad6c0d112",
+      "_key": "!actors.items!afe6eacb3764173e.9db25b1ad6c0d112",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 18000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Language",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "language",
+        "aptitude": "int",
+        "category": "knowledge",
+        "field": "French",
+        "ranks": 70,
+        "mod": 0,
+        "specialization": "Native",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4dfc4a198a1deac7",
+      "_key": "!actors.items!afe6eacb3764173e.4dfc4a198a1deac7",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 19000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Appraisal",
+        "ranks": 45,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "4242308168158c24",
+      "_key": "!actors.items!afe6eacb3764173e.4242308168158c24",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 20000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Critic",
+        "ranks": 65,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "3b426ab63733f456",
+      "_key": "!actors.items!afe6eacb3764173e.3b426ab63733f456",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 21000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Profession",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "key": "profession",
+        "aptitude": "cog",
+        "category": "knowledge",
+        "field": "Tailor",
+        "ranks": 50,
+        "mod": 0,
+        "specialization": "",
+        "noDefault": false,
+        "description": ""
+      },
+      "_id": "733e42d22c48e3ba",
+      "_key": "!actors.items!afe6eacb3764173e.733e42d22c48e3ba",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 22000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "11ea1f58c75eb79c",
+      "name": "Light Vacsuit",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "energy": 5,
+        "kinetic": 5,
+        "equipped": true,
+        "accessory": false,
+        "cost": "Low",
+        "description": "<p>Everyone living in a sealed habitat owns at least one of these suits. They come in a variety of forms. Inexpensive versions are typically lightweight jumpsuits made of simple smart fabric that adjusts to fit and folds up small enough to fit into a coat pocket. The best models include suits of high-end smart clothing that can transform into a vacsuit and an advanced nanotech generator the size of a large orange that deploy nanobots that cover the user and fit together into a vacuum suit. Both can transform into a vacsuit in 2 full Action Turns and do so either on command or if their sensors reveal that life support is needed. All models include a lightweight belt or torc containing a miniature oxygen tank and advanced rebreather unit that provides 3 hours of air. However, the suits contain no food or water recycling. All models include an ecto (p. 325) and a headlight, but typically little else beyond atmosphere sensors to let the wearer know when it is safe to take off the suit. They protect the wearer from temperatures from –75 to 100 C. These vacuum suits also provide an Armor rating of 5/5 and instantly self-seal breaches unless more than 20 points of damage are inflicted at once.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 333.</em></p>"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 23000,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_key": "!actors.items!afe6eacb3764173e.11ea1f58c75eb79c"
+    }
+  ],
+  "effects": [],
+  "folder": "0345dc02520ce0d4",
+  "sort": 35000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "François Leclerc",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": "stress"
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

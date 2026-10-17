@@ -1,0 +1,29 @@
+{
+  "_id": "1c5b0d382307b05b",
+  "_key": "!items!1c5b0d382307b05b",
+  "name": "Emergency Rations",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "emergencyRations",
+    "cost": "Trivial",
+    "description": "<p>Sometimes all technology fails. Even the best makers and life support systems can break down or be disabled by hostile actions. Since alien plants and animals are almost universally inedible, some gatecrashers carry along a supply of compressed emergency rations. The most common form of emergency food is a mini-sized package of 9 small bars that supply complete calories and nutrition for a total of 3 full days. Most people consider food created by even the cheapest maker to be gourmet cuisine when compared to these rations.</p><p><em>Source: Eclipse Phase Gatecrashing, p. 158.</em></p>",
+    "category": "survival",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "d310cf51e06cb2b7",
+  "sort": 25000,
+  "ownership": {
+    "default": 0
+  }
+}

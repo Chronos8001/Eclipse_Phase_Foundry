@@ -1,0 +1,77 @@
+{
+  "_id": "ced12bb439d8b463",
+  "_key": "!items!ced12bb439d8b463",
+  "name": "Infolife: Emergent Uplift (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You were a smart program on the verge of emergence when the programmers reshaped you, encoded you with transhuman values and modes of thinking, and uplifted you to machine sapience. You possess a number of quirks that make you stand out from traditionally programmed AGIs.</p><p><strong>Suggested Motivations:</strong> +AGI Rights, +Mercurial Cause</p><p><strong>1 PP:</strong> +1 Moxie · Interest: (Choose One) 30, Infosec 25, Interfacing 40, Programming 30 · Traits:Anomalous Mind trait, Real World Naiveté, Social Stigma (AGI)</p><p><em>Source: Eclipse Phase Transhuman, p. 18.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "programming",
+        "name": "Programming",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Anomalous Mind",
+        "level": 1
+      },
+      {
+        "name": "Real World Naiveté",
+        "level": 1
+      },
+      {
+        "name": "Social Stigma",
+        "level": 1
+      }
+    ],
+    "choices": "Social Stigma: AGI",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+AGI Rights, +Mercurial Cause"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 37000,
+  "ownership": {
+    "default": 0
+  }
+}

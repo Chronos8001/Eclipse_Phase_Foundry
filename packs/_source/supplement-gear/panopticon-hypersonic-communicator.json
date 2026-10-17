@@ -1,0 +1,29 @@
+{
+  "_id": "ac7144ae74ac8e4e",
+  "_key": "!items!ac7144ae74ac8e4e",
+  "name": "Hypersonic Communicator",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "hypersonicCommunicator",
+    "cost": "Low",
+    "description": "<p>This device allows the user to transmit audio in a beam, so that the directed sound is only audible at the targeted position. When pointed at a person, the target will hear the transmission as if the sound were in their own head. Used commonly for advertising, museum displays, art galleries, and similar purposes, portable hypersonic beam devices also enable people to communicate without fear of eavesdropping and without having to rely on insecure mesh transmissions. The drawback to hypersonic beams is that they are line of sight and will be disrupted by anyone or anything passing through them, so they are ideal for close quarters or non-busy environments. Hypersonic communicators are small devices. They do not work in vacuum, but in atmosphere the beam is unaffected by nearby loud noises.</p><p><em>Source: Eclipse Phase Panopticon, p. 150.</em></p>",
+    "category": "comms",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

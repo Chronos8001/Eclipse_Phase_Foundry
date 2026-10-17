@@ -1,0 +1,20 @@
+{
+  "_id": "09f8522c53ead85f",
+  "_key": "!items!09f8522c53ead85f",
+  "name": "Ionic",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "ionic",
+    "augType": "robotic",
+    "cost": "High",
+    "description": "<p>The shell uses principles of magnetohydrodynamics to levitate and fly, by ionizing surrounding air into plasma to create lift and momentum. The shell is also spun for stability. This system does not work in vacuum, but an underwater version uses the same mechanics for propulsion in liquid environments.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 310.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 81000,
+  "ownership": {
+    "default": 0
+  }
+}

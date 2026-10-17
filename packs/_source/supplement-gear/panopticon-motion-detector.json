@@ -1,0 +1,29 @@
+{
+  "_id": "286444c2b17e6c6a",
+  "_key": "!items!286444c2b17e6c6a",
+  "name": "Motion Detector",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "key": "motionDetector",
+    "cost": "Low",
+    "description": "<p>Modern motion detectors use a combination of sensor technologies to maximize accuracy and reduce false alarms. They can operate in passive and active modes. In passive mode, the detector relies on infrared sensors to detect body heat, without sending out any signals that might betray its presence. In active mode, it sends out ultrasonic pulses and/or microwaves, measuring the reflections that bounce off a moving target to measure speed, position, and direction. Often strategically mounted as a perimeter security system, motion detectors are typically set in passive mode first, which then triggers active mode when it gets a reading. These devices are small.</p><p><em>Source: Eclipse Phase Panopticon, p. 153.</em></p>",
+    "category": "surveillance",
+    "quantity": 1,
+    "ammo": {
+      "ap": 0,
+      "dv": "",
+      "half": false,
+      "noDamage": false,
+      "armorDoubled": false,
+      "shock": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "c730b040e2e58062",
+  "sort": 41000,
+  "ownership": {
+    "default": 0
+  }
+}

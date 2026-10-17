@@ -1,0 +1,20 @@
+{
+  "_id": "71b01aa78cb03151",
+  "_key": "!items!71b01aa78cb03151",
+  "name": "Ghostrider Module",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "ghostriderModule",
+    "augType": "cyberware",
+    "cost": "Low",
+    "description": "<p>This implant allows the character to carry another infomorph inside their head. This infomorph could be another muse, an AI, a backed-up ego, or a fork. The module is linked to the character’s mesh inserts, so the ghost-rider can access the mesh. The character may limit the ghostrider’s access, or may allow them direct access to their sensory information, thoughts, communications, and other implants.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 307.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 48000,
+  "ownership": {
+    "default": 0
+  }
+}

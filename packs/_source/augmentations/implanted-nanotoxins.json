@@ -1,0 +1,20 @@
+{
+  "_id": "00ca9462f3eaaaed",
+  "_key": "!items!00ca9462f3eaaaed",
+  "name": "Implanted Nanotoxins",
+  "type": "augmentation",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "implantedNanotoxins",
+    "augType": "nanoware",
+    "cost": "Moderate",
+    "description": "<p>The morph has an implanted nanobot hive that produces nanotoxins (p. 324). This implant is designed so that the character can deploy these nanobots instantly via a scratch with claws, spraying with saliva, or simply making continuous bare-skin contact. Characters can choose whether or not to deploy these nanobots. Each nanotoxin generator only produces a single variety of nanobots, with the most common types being ones designed to kill or incapacitate almost any living target or ones designed to destroy delicate machinery. Characters are immune to their own nanotoxins. Nanotoxins are highly restricted and many habitats will not allow anyone with this implant on board.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 308.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 59000,
+  "ownership": {
+    "default": 0
+  }
+}

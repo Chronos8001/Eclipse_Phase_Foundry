@@ -1,0 +1,58 @@
+{
+  "_id": "41029b7ecf0ee043",
+  "_key": "!items!41029b7ecf0ee043",
+  "name": "Extropian",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>You are an anarchistic supporter of the free market and private property. You oppose government and favor a system where security and legal matters are handled by private competitors. Whether you consider yourself an anarcho-capitalist or a mutualist (a difference only other Extropians can figure out), you occupy a middle-ground between the hypercorps and autonomists, dealing with both and yet trusted by neither.</p><p>Advantages: +10 Persuasion skill, +20 Networking: Autonomists skill, +10 Networking: Hypercorps skill Disadvantages: None Common Morphs: All</p><p><em>Source: Eclipse Phase Core Rulebook, p. 133.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Autonomists",
+        "value": 20
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Hypercorps",
+        "value": 10
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "All",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}
