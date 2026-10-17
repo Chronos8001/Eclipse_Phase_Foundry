@@ -515,3 +515,25 @@
 .ep1e.vehicle .stat-grid .stat { display: flex; flex-direction: column; font-size: 0.85em; }
 .ep1e.vehicle .stat-grid input { width: 100%; }
 .ep1e.vehicle .enhancements textarea { width: 100%; }
+
+/* -------------------------------------------- */
+/*  Header tracks, item summaries, skill filter */
+/* -------------------------------------------- */
+
+.ep1e .header-tracks { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.ep1e .header-track { display: flex; align-items: center; gap: 6px; min-width: 220px; flex: 1; }
+.ep1e .header-track label { width: 60px; color: var(--ep-muted); font-size: 0.85em; text-transform: uppercase; }
+.ep1e .header-track .bar { flex: 1; height: 8px; background: var(--ep-input); border: 1px solid var(--ep-border); border-radius: var(--ep-radius); overflow: hidden; }
+.ep1e .header-track .bar > span { display: block; height: 100%; background: var(--ep-success); }
+.ep1e .header-track.stress .bar > span { background: var(--ep-accent); }
+.ep1e .header-track.over .bar > span { background: var(--ep-danger); }
+.ep1e .header-track .value { min-width: 44px; text-align: right; font-variant-numeric: tabular-nums; }
+.ep1e .header-track .count { color: var(--ep-warning); min-width: 32px; }
+
+.ep1e .item-controls .summary-toggle i { transition: transform 0.15s; }
+.ep1e .expanded .summary-toggle i { transform: rotate(180deg); }
+.ep1e .item-summary { padding: 4px 8px 8px 44px; background: var(--ep-panel-2); border-bottom: 1px solid var(--ep-border); font-size: 0.9em; list-style: none; }
+.ep1e tr.item-summary td { padding: 4px 8px 8px; text-align: left; }
+.ep1e .item-summary p { margin: 0 0 4px; }
+
+.ep1e .skill-filter { width: 100%; margin: 0 0 8px; }

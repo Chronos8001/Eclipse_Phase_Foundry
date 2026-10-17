@@ -7,6 +7,7 @@ import { createAIActor, hackSystem, removeIntrusion, scorch, subvertSystem, upda
 import { ALERTS, statusModifier } from "../rules/mesh.mjs";
 import { creationSummary, promptRez } from "../dice/advancement.mjs";
 import * as mentalDice from "../dice/mental.mjs";
+import { ItemSummaries } from "../helpers/summaries.mjs";
 import { endIntegration, favorStatus, mergeFork, promptFavor, promptFork, promptResleeve, rollBackupTest } from "../dice/ego.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
@@ -62,9 +63,16 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       createEffect: EPActorSheet.#onCreateEffect,
       editEffect: EPActorSheet.#onEditEffect,
       deleteEffect: EPActorSheet.#onDeleteEffect,
-      toggleEffect: EPActorSheet.#onToggleEffect
+      toggleEffect: EPActorSheet.#onToggleEffect,
+      toggleSummary: EPActorSheet.#onToggleSummary
     }
   };
+
+  /** Item descriptions shown under their row. */
+  #summaries = new ItemSummaries(this);
+
+  /** Text of the skill filter, kept across renders. */
+  #skillFilter = "";
 
   static PARTS = {
     header: { template: T("header") },
@@ -157,6 +165,13 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       intrusionStatuses: Object.fromEntries(["hidden", "covert", "spotted", "locked"].map(k => [k, `EP1E.Mesh.status.${k}`])),
       sleights: byType("sleight").sort((a, b) => PSI_ORDER.indexOf(a.system.psiType) - PSI_ORDER.indexOf(b.system.psiType)),
       effects: Array.from(actor.allApplicableEffects?.() ?? actor.effects),
+      tracks: [
+        { key: "damage", label: "EP1E.Stat.damage", hint: "EP1E.Track.damageHint", value: system.damage.value, max: system.stats.dur,
+          count: system.wounds.value, countLabel: "EP1E.Stat.wounds", icon: "fa-heart-crack" },
+        { key: "stress", label: "EP1E.Stat.stress", hint: "EP1E.Track.stressHint", value: system.stress.value, max: system.stats.luc,
+          count: system.trauma.value, countLabel: "EP1E.Stat.trauma", icon: "fa-brain" }
+      ].map(track => ({ ...track, over: (track.max > 0) && (track.value >= track.max),
+        pct: (track.max > 0) ? Math.min(100, Math.round((100 * track.value) / track.max)) : 0 })),
       fray: { melee: fray + system.mods.defense, ranged: Math.floor(fray / 2) + system.mods.defense },
       woundSlots: Array.from({ length: Math.max(system.wounds.value, 0) }),
       enriched: {
@@ -188,6 +203,28 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     });
     this.element.querySelectorAll("[data-intrusion-field]").forEach(input => {
       input.addEventListener("change", this.#onIntrusionFieldChange.bind(this));
+    });
+    // Skill filter: hides the rows whose name does not match, without submitting the form
+    const filter = this.element.querySelector(".skill-filter");
+    if ( filter ) {
+      filter.value = this.#skillFilter;
+      filter.addEventListener("input", event => {
+        this.#skillFilter = event.currentTarget.value;
+        this.#filterSkills();
+      });
+      filter.addEventListener("change", event => event.stopPropagation());
+      this.#filterSkills();
+    }
+    await this.#summaries.restore();
+  }
+
+  #filterSkills() {
+    const words = this.#skillFilter.trim().toLowerCase().split(/\s+/).filter(w => w);
+    this.element.querySelectorAll(".skill-table tbody tr[data-item-id]").forEach(row => {
+      const item = this.document.items.get(row.dataset.itemId);
+      const text = `${item?.name ?? ""} ${item?.system.field ?? ""} ${item?.system.specialization ?? ""}`.toLowerCase();
+      row.hidden = !words.every(w => text.includes(w));
+      if ( row.nextElementSibling?.classList.contains("item-summary") ) row.nextElementSibling.hidden = row.hidden;
     });
   }
 
@@ -228,6 +265,10 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   /* -------------------------------------------- */
   /*  Actions                                     */
   /* -------------------------------------------- */
+
+  static #onToggleSummary(event, target) {
+    return this.#summaries.toggle(target);
+  }
 
   static #onRollAptitude(event, target) {
     return rollAptitudeTest(this.document, target.dataset.aptitude, { fastForward: event.shiftKey });

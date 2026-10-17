@@ -1,6 +1,7 @@
 import { SYSTEM_ID } from "../config.mjs";
 import { rollSkillTest } from "../dice/tests.mjs";
 import { reloadWeapon } from "../dice/attack.mjs";
+import { ItemSummaries } from "../helpers/summaries.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -21,9 +22,17 @@ export class EPVehicleSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       deleteItem: EPVehicleSheet.#onDeleteItem,
       toggleEquipped: EPVehicleSheet.#onToggleEquipped,
       itemToChat: EPVehicleSheet.#onItemToChat,
-      reload: EPVehicleSheet.#onReload
+      reload: EPVehicleSheet.#onReload,
+      toggleSummary: EPVehicleSheet.#onToggleSummary
     }
   };
+
+  /** Item descriptions shown under their row. */
+  #summaries = new ItemSummaries(this);
+
+  static #onToggleSummary(event, target) {
+    return this.#summaries.toggle(target);
+  }
 
   static PARTS = {
     sheet: { template: `systems/${SYSTEM_ID}/templates/actor/vehicle.hbs`, scrollable: [""] }
@@ -59,6 +68,7 @@ export class EPVehicleSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         if ( item ) await item.update({ [input.dataset.itemField]: Number(input.value) || 0 });
       });
     });
+    await this.#summaries.restore();
   }
 
   _getItem(target) {

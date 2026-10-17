@@ -184,6 +184,10 @@
         "major": "majeure"
       }
     },
+    "Track": {
+      "damageHint": "Dommages / Durabilité, et blessures",
+      "stressHint": "Stress / Lucidité, et traumatismes"
+    },
     "Migration": {
       "start": "Migration du monde vers Eclipse Phase {version} : ne fermez pas le monde avant la fin.",
       "done": "Migration vers Eclipse Phase {version} terminée.",
@@ -550,6 +554,7 @@
     },
     "SkillCategory": { "active": "Compétences actives", "knowledge": "Compétences de savoir" },
     "Skill": {
+      "filter": "Filtrer les compétences…",
       "free": "Rangs gratuits",
       "freeHint": "Rangs donnés par l’historique, la faction ou la langue maternelle : ils ne coûtent pas de PC",
       "label": "Compétence",
@@ -840,6 +845,8 @@
     "PsiType": { "chi": "Psi-chi", "gamma": "Psi-gamma", "epsilon": "Psi-epsilon" },
     "Action": { "automatic": "Automatique", "quick": "Rapide", "complex": "Complexe", "task": "Tâche" },
     "Item": {
+      "summary": "Afficher / masquer la description",
+      "noDescription": "Pas de description.",
       "name": "Nom",
       "create": "Créer",
       "edit": "Modifier",

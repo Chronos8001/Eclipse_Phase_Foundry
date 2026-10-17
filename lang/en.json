@@ -184,6 +184,10 @@
         "major": "major"
       }
     },
+    "Track": {
+      "damageHint": "Damage / Durability, and wounds",
+      "stressHint": "Stress / Lucidity, and traumas"
+    },
     "Migration": {
       "start": "Migrating the world to Eclipse Phase {version}: do not close the world until it is done.",
       "done": "Migration to Eclipse Phase {version} complete.",
@@ -550,6 +554,7 @@
     },
     "SkillCategory": { "active": "Active Skills", "knowledge": "Knowledge Skills" },
     "Skill": {
+      "filter": "Filter skills…",
       "free": "Free ranks",
       "freeHint": "Ranks given by the background, faction or native tongue: they cost no CP",
       "label": "Skill",
@@ -840,6 +845,8 @@
     "PsiType": { "chi": "Psi-chi", "gamma": "Psi-gamma", "epsilon": "Psi-epsilon" },
     "Action": { "automatic": "Automatic", "quick": "Quick", "complex": "Complex", "task": "Task" },
     "Item": {
+      "summary": "Show / hide the description",
+      "noDescription": "No description.",
       "name": "Name",
       "create": "Create",
       "edit": "Edit",
