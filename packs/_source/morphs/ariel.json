@@ -33,7 +33,7 @@
     },
     "movement": "4/20, Winged 8/40",
     "implants": "Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Claws, Cortical Stack, Direction Sense, Enhanced Vision, Long-Term Life Support, Low Pressure Tolerance, Oxygen Reserve, Prehensile Feet, Radiation Sense, T-Ray Emitter, Temperature Tolerance (Cryonic), Wings",
-    "advantages": "+5 COG, +5 REF, +5 to two other aptitudes of the player's choice",
+    "advantages": "+5 COG, +5 REF, +5 to two other aptitudes of the player’s choice",
     "disadvantages": "Temperature Intolerance (Warm) trait",
     "skillBonuses": [],
     "cpCost": 50,

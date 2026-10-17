@@ -33,13 +33,13 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Digestive Symbiotes, Enhanced Pheromones, Enhanced Respiration, Enhanced Smell, Hibernation, Mnemonic Augmentation, Possum Cache, Prehensile Tail, Puppet Sock, Temperature Tolerance, Toxin Filters",
-    "advantages": "+5 INT, +5 REF, +5 SOM, Bite Attack (1d10 + 1 DV, AP -1)",
+    "advantages": "+5 INT, +5 REF, +5 SOM, Bite Attack (1d10 + 1 DV, AP –1)",
     "disadvantages": "Social Stigma (Pod) trait, Unattractive (Level 2) trait",
     "skillBonuses": [],
     "cpCost": 20,
     "creditCost": "High",
     "active": false,
-    "description": "<p>The handiwork of scum genehacker Neville Orsonglass, the jenkin is a byproduct of desperate measures taken during the Fall. The original model was simply the designer's attempt to keep him and his crewmates alive on a ship with failing life support and recycling systems. From there, it has evolved into the ultimate survivor's morph, though the definition of \"survivor\" has now been extended to \"can take all of the drugs and still function sexually.\" This seems to be a selling point with the scum. Despite the morph's stooped posture, rat-like features, and pungent personal aroma, the implausibly sized secondary sexual characteristics make it the life of certain kinds of parties.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 52.</em></p>"
+    "description": "<p>The handiwork of scum genehacker Neville Orsonglass, the jenkin is a byproduct of desperate measures taken during the Fall. The original model was simply the designer’s attempt to keep him and his crewmates alive on a ship with failing life support and recycling systems. From there, it has evolved into the ultimate survivor’s morph, though the definition of “survivor” has now been extended to “can take all of the drugs and still function sexually.” This seems to be a selling point with the scum. Despite the morph’s stooped posture, rat-like features, and pungent personal aroma, the implausibly sized secondary sexual characteristics make it the life of certain kinds of parties.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 52.</em></p>"
   },
   "effects": [],
   "flags": {},

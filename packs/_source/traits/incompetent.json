@@ -11,7 +11,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 CP",
-    "description": "<p>The character is completely incapable of performing a particular chosen active skill, no matter any training they may receive. They may not buy this skill during character creation or later advancement, and the modifier for defaulting to the linked aptitude of this particular skill is -10. This may not be used for exotic weapon skills, and should be used for a skill that could be of use to the character.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
+    "description": "<p>The character is completely incapable of performing a particular chosen active skill, no matter any training they may receive. They may not buy this skill during character creation or later advancement, and the modifier for defaulting to the linked aptitude of this particular skill is –10. This may not be used for exotic weapon skills, and should be used for a skill that could be of use to the character.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 150.</em></p>"
   },
   "effects": [],
   "flags": {},

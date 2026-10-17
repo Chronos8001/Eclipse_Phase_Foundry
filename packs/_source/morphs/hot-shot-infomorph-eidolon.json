@@ -33,13 +33,13 @@
     },
     "movement": "",
     "implants": "Increased Speed, Mnemonic Augmentation",
-    "advantages": "+5 REF, +5 to one other aptitude of the player's choice",
+    "advantages": "+5 REF, +5 to one other aptitude of the player’s choice",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 35,
     "creditCost": "Expensive (minimum 35,000)",
     "active": false,
-    "description": "<p>When you really want to pilot a high-speed spacecraft, you don't want to have to worry how your squishy biomorph is going to hold up under high-g maneuvers. This eidolon is quite popular among fightercraft pilots as well as among infomorphs who specialize in controlling and directing robots.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 51.</em></p>"
+    "description": "<p>When you really want to pilot a high-speed spacecraft, you don’t want to have to worry how your squishy biomorph is going to hold up under high-g maneuvers. This eidolon is quite popular among fightercraft pilots as well as among infomorphs who specialize in controlling and directing robots.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 51.</em></p>"
   },
   "effects": [],
   "flags": {},

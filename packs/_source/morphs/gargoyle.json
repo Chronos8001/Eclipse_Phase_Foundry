@@ -33,7 +33,7 @@
     },
     "movement": "Walker 4/20",
     "implants": "360-Degree Vision, Access Jacks, Anti-Glare, Basic Mesh Inserts, Chemical Sniffer, Cortical Stack, Cyberbrain, Enhanced Hearing, Enhanced Smell, Enhanced Vision, Lidar, Mnemonic Augmentation, Nanoscopic Vision, Oracles, Radar, T-Ray Emitter",
-    "advantages": "+5 INT, +5 to one other aptitude of the player's choice, Armor 6/6",
+    "advantages": "+5 INT, +5 to one other aptitude of the player’s choice, Armor 6/6",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 40,

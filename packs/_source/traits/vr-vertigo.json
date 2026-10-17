@@ -11,7 +11,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 CP",
-    "description": "<p>The character experiences intense vertigo and nausea when interfacing with any type of virtual reality, XP, or simulspace. Augmented reality has no effect, but VR inflicts a -30 modifier to all of the character's actions. Prolonged use of VR (gamemaster's discretion) may actually incapacitate the character should they fail a WIL x 2 Test.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 152.</em></p>"
+    "description": "<p>The character experiences intense vertigo and nausea when interfacing with any type of virtual reality, XP, or simulspace. Augmented reality has no effect, but VR inflicts a –30 modifier to all of the character’s actions. Prolonged use of VR (gamemaster’s discretion) may actually incapacitate the character should they fail a WIL x 2 Test.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 152.</em></p>"
   },
   "effects": [],
   "flags": {},

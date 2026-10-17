@@ -11,7 +11,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 CP",
-    "description": "<p>The morph is physically aged, and has not been rejuvenated. Old morphs are increasingly uncommon, though some people adopt them hoping to gain an air of seniority and respectability. Reduce the character's aptitude maximums by 5, and apply a -10 modifier on all physical actions. This trait may only be applied to flat and splicer morphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 148.</em></p>"
+    "description": "<p>The morph is physically aged, and has not been rejuvenated. Old morphs are increasingly uncommon, though some people adopt them hoping to gain an air of seniority and respectability. Reduce the character’s aptitude maximums by 5, and apply a –10 modifier on all physical actions. This trait may only be applied to flat and splicer morphs.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 148.</em></p>"
   },
   "effects": [],
   "flags": {},

@@ -32,8 +32,8 @@
       "kinetic": 4
     },
     "movement": "Walker 4/16, Hover 8/16",
-    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Medichines, Mnemonic Augmentation, Modular Design, Nanophages, Skinlink — Modularized Gear: 4 Specialized Hives of the player's choice",
-    "advantages": "Armor 4/4, +5 COG, +5 INT, +5 to one other aptitude of the player's choice",
+    "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Medichines, Mnemonic Augmentation, Modular Design, Nanophages, Skinlink — Modularized Gear: 4 Specialized Hives of the player’s choice",
+    "advantages": "Armor 4/4, +5 COG, +5 INT, +5 to one other aptitude of the player’s choice",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 55,

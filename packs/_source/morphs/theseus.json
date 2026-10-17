@@ -33,7 +33,7 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Direction Sense, Emergency Farcaster, Enhanced Vision, Low Pressure Tolerance, Medichines, Nanophages, Oxygen Reserve, Radiation Sense, T-Ray Emitter, Temperature Tolerance (Cold), Toxin Filters",
-    "advantages": "+5 SOM, +5 WIL, +5 to one other aptitude of the player's choice",
+    "advantages": "+5 SOM, +5 WIL, +5 to one other aptitude of the player’s choice",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 30,

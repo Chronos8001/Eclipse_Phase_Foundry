@@ -33,13 +33,13 @@
     },
     "movement": "Walker 4/20",
     "implants": "Access Jacks, Basic Mesh Inserts, Brain Box, Cortical Stack, Eidetic Memory",
-    "advantages": "+5 SOM, +5 to two other aptitudes of the player's choice, Armor 6/6",
+    "advantages": "+5 SOM, +5 to two other aptitudes of the player’s choice, Armor 6/6",
     "disadvantages": "Social Stigma (Clanking Masses) trait",
     "skillBonuses": [],
     "cpCost": 50,
     "creditCost": "Expensive (minimum 60,000+)",
     "active": false,
-    "description": "<p>The biocore is a synthmorph with a biological brain. This design is favored by those who wish to enjoy the advantages of sleeving in a synthmorph without the risk of brainhacking or who simply dislike the idea of using a cyberbrain (including some asyncs). Most models feature a stylized but transparent braincase, to show off the biocore's main feature, but others appear to be ordinary synthmorphs from the outside; only a detailed physical examination can determine that it actually contains a living brain.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 11.</em></p>"
+    "description": "<p>The biocore is a synthmorph with a biological brain. This design is favored by those who wish to enjoy the advantages of sleeving in a synthmorph without the risk of brainhacking or who simply dislike the idea of using a cyberbrain (including some asyncs). Most models feature a stylized but transparent braincase, to show off the biocore’s main feature, but others appear to be ordinary synthmorphs from the outside; only a detailed physical examination can determine that it actually contains a living brain.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 11.</em></p>"
   },
   "effects": [],
   "flags": {},

@@ -33,7 +33,7 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Circadian Regulation, Clean Metabolism, Cortical Stack, Direction Sense, Eidetic Memory, Enhanced Respiration, Enhanced Vision, Grip Pads, Hibernation, Medichines, Oxygen Reserve, Toxin Filters, Vacuum Sealing",
-    "advantages": "Bioweave Armor (Light) (2/3), +5 COG, +10 SOM, +5 to three other aptitudes of the player's choice",
+    "advantages": "Bioweave Armor (Light) (2/3), +5 COG, +10 SOM, +5 to three other aptitudes of the player’s choice",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 70,

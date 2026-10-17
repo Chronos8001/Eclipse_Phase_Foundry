@@ -33,13 +33,13 @@
     },
     "movement": "4/20, Winged 8/40",
     "implants": "Basic Biomods, Basic Mesh Inserts, Clean Metabolism, Cortical Stack, Enhanced Vision, Wings",
-    "advantages": "+5 COG, +5 COO, +5 to two other aptitudes--player's choice",
+    "advantages": "+5 COG, +5 COO, +5 to two other aptitudes—player’s choice",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 35,
     "creditCost": "Expensive",
     "active": false,
-    "description": "<p>This morph is a version of the exalt morph that has been adapted to fly in Earth normal air pressure as long as the gravity is 0.2 g or less. Though this morph is available on other low-g worlds and habitats, it was developed for and is primarily found on Luna. This morph resembles a typical exalt morph, except that it is lightly built, has larger lungs, and has feathered wings with a wingspan of 3 meters. The wings come out of the back torso and leave the morph's hands and wrists unhindered. The wings may also be folded behind the body.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 54.</em></p>"
+    "description": "<p>This morph is a version of the exalt morph that has been adapted to fly in Earth normal air pressure as long as the gravity is 0.2 g or less. Though this morph is available on other low-g worlds and habitats, it was developed for and is primarily found on Luna. This morph resembles a typical exalt morph, except that it is lightly built, has larger lungs, and has feathered wings with a wingspan of 3 meters. The wings come out of the back torso and leave the morph’s hands and wrists unhindered. The wings may also be folded behind the body.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 54.</em></p>"
   },
   "effects": [],
   "flags": {},

@@ -33,13 +33,13 @@
     },
     "movement": "4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack, Hibernation",
-    "advantages": "+5 INT, +5 to one other aptitude of the player's choice",
+    "advantages": "+5 INT, +5 to one other aptitude of the player’s choice",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 25,
     "creditCost": "Expensive",
     "active": false,
-    "description": "<p>Hibernoids are transgenic-modified humans with heavily altered sleep patterns and metabolic processes. Hibernoids have a decreased need for sleep, requiring only 1-2 hours a day on average. They also have the ability to trigger a form of voluntary hibernation, effectively stopping their metabolism and need for oxygen. Hibernoids make excellent long-duration space travelers and habtechs, but these morphs are also favored by personal aides and hypercapitalists with non-stop lifestyles.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 46.</em></p>"
+    "description": "<p>Hibernoids are transgenic-modified humans with heavily altered sleep patterns and metabolic processes. Hibernoids have a decreased need for sleep, requiring only 1–2 hours a day on average. They also have the ability to trigger a form of voluntary hibernation, effectively stopping their metabolism and need for oxygen. Hibernoids make excellent long-duration space travelers and habtechs, but these morphs are also favored by personal aides and hypercapitalists with non-stop lifestyles.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 46.</em></p>"
   },
   "effects": [],
   "flags": {},

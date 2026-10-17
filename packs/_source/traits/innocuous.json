@@ -11,7 +11,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Cost: 10 CP",
-    "description": "<p>In an age when exotic appearances and good looks are commonplace, the morph's look is surprisingly bland and undistinguished, in that cookie cutter sort of way. The character's physical looks are so mundane that others have a hard time picking them out of a crowd, describing their appearance, or otherwise remembering physical details. Apply a -10 modifier to all tests made to spot, describe, or remember the character. This modifier does not apply to psi or mesh searches.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
+    "description": "<p>In an age when exotic appearances and good looks are commonplace, the morph’s look is surprisingly bland and undistinguished, in that cookie cutter sort of way. The character’s physical looks are so mundane that others have a hard time picking them out of a crowd, describing their appearance, or otherwise remembering physical details. Apply a –10 modifier to all tests made to spot, describe, or remember the character. This modifier does not apply to psi or mesh searches.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 146.</em></p>"
   },
   "effects": [],
   "flags": {},

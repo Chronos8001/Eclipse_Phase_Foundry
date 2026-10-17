@@ -33,7 +33,7 @@
     },
     "movement": "4/20",
     "implants": "Adrenal Boost, Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Claws, Cortical Stack, Cyberbrain, Eelware, Enhanced Vision, Grip Pads, Mnemonic Augmentation, Puppet Sock, T-Ray Emitter",
-    "advantages": "+10 SOM, +5 to one other aptitude of the player's choice",
+    "advantages": "+10 SOM, +5 to one other aptitude of the player’s choice",
     "disadvantages": "Social Stigma (Pod) trait",
     "skillBonuses": [],
     "cpCost": 30,

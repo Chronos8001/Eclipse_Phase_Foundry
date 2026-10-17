@@ -33,13 +33,13 @@
     },
     "movement": "Walker 8/40",
     "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Grip Pads, Hardened Skeleton, Industrial Armor, Mnemonic Augmentation, Pneumatic Limbs (Arms), Puppet Sock, Radar, 4 Weapon Mounts (Disassembly Tools; 2 fixed, 2 articulated), Wrist-Mounted Tools",
-    "advantages": "+15 SOM (includes Hardened Skeleton bonus), +5 to one other aptitude of the player's choice, Armor 10/10 (20/20 with Industrial Armor)",
+    "advantages": "+15 SOM (includes Hardened Skeleton bonus), +5 to one other aptitude of the player’s choice, Armor 10/10 (20/20 with Industrial Armor)",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 80,
     "creditCost": "Expensive (minimum 80,000+)",
     "active": false,
-    "description": "<p>This huge, vaguely anthropomorphic synthmorph is designed for large construction projects and similar heavy industrial uses, such as moving giant objects. At just under three-meters tall and with a mass of almost one ton, the daitya is essentially an industrial mech. Modified versions have occasionally been deployed for combat purposes.</p><p><strong>Notes:</strong> Large Size trait, melee attacks with the large-size frame or disassembly tools inflict 3d10 + (SOM - 10) DV at AP -5</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 23.</em></p>"
+    "description": "<p>This huge, vaguely anthropomorphic synthmorph is designed for large construction projects and similar heavy industrial uses, such as moving giant objects. At just under three-meters tall and with a mass of almost one ton, the daitya is essentially an industrial mech. Modified versions have occasionally been deployed for combat purposes.</p><p><strong>Notes:</strong> Large Size trait, melee attacks with the large-size frame or disassembly tools inflict 3d10 + (SOM ÷ 10) DV at AP −5</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 23.</em></p>"
   },
   "effects": [],
   "flags": {},

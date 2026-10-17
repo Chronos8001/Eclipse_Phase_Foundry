@@ -33,7 +33,7 @@
     },
     "movement": "Ionic 12/40, Thrust Vector 8/40, Walker 2/8, Winged 8/32",
     "implants": "Access Jacks, Anti-Glare, Basic Mesh Inserts, Chameleon Skin, Chemical Sniffer, Cortical Stack, Cyberbrain, Enhanced Vision, Mnemonic Augmentation, Neurachem (Level 1), Radar, Radar Absorbent, Shape Adjusting, T-Ray Emitter, Weapon Mount (Internal, Articulated, Laser Pulser), Wings",
-    "advantages": "+5 to two aptitudes of the player's choice, Armor (4/4)",
+    "advantages": "+5 to two aptitudes of the player’s choice, Armor (4/4)",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 35,

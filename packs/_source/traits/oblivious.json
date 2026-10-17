@@ -11,7 +11,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 CP",
-    "description": "<p>The character is particularly oblivious to events around them or anything other than what their attention is focused on. They suffer a -10 modifier to Surprise Tests and their modifier for being Distracted is -30 rather than the usual -20 (see Basic Perception, p. 190).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
+    "description": "<p>The character is particularly oblivious to events around them or anything other than what their attention is focused on. They suffer a –10 modifier to Surprise Tests and their modifier for being Distracted is –30 rather than the usual –20 (see Basic Perception, p. 190).</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
   },
   "effects": [],
   "flags": {},

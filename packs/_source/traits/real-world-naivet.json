@@ -1,7 +1,7 @@
 {
   "_id": "0acf4a7b484c77b6",
   "_key": "!items!0acf4a7b484c77b6",
-  "name": "Real World Naivet-",
+  "name": "Real World Naiveté",
   "type": "trait",
   "img": "icons/svg/downgrade.svg",
   "system": {
@@ -11,7 +11,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 CP",
-    "description": "<p>Due to their background, the character has very limited personal experience with the real (physical) world—or they have spent so much time in simulspace that their functioning in real life is impaired. They lack an understanding of many physical properties, social cues, and other factors that people with standard human upbringings take for granted. This lack of common sense may lead the character to misunderstand how a device works or to misinterpret someone's body language. Once per game session, the gamemaster may intentionally mislead the character when giving them a description about some thing or some social interaction. This falsehood represents the character's misunderstanding of the situation, and should be roleplayed appropriately, even if the player realizes the character's mistake. This trait should only be available to characters with the infolife or re-instantiated backgrounds, though the gamemaster may allow it for characters who have extensive virtual reality/XP use in their personal histories.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
+    "description": "<p>Due to their background, the character has very limited personal experience with the real (physical) world—or they have spent so much time in simulspace that their functioning in real life is impaired. They lack an understanding of many physical properties, social cues, and other factors that people with standard human upbringings take for granted. This lack of common sense may lead the character to misunderstand how a device works or to misinterpret someone’s body language. Once per game session, the gamemaster may intentionally mislead the character when giving them a description about some thing or some social interaction. This falsehood represents the character’s misunderstanding of the situation, and should be roleplayed appropriately, even if the player realizes the character’s mistake. This trait should only be available to characters with the infolife or re-instantiated backgrounds, though the gamemaster may allow it for characters who have extensive virtual reality/XP use in their personal histories.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 151.</em></p>"
   },
   "effects": [],
   "flags": {},

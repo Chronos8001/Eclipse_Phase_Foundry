@@ -33,7 +33,7 @@
     },
     "movement": "Walker 4/20",
     "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Eidetic Memory, HyperLinguist, Math Boost, Mnemonic Augmentation",
-    "advantages": "+10 COG, +5 INT, +5 SAV, +5 SOM, +5 to one other aptitude of the player's choice, Armor 8/8",
+    "advantages": "+10 COG, +5 INT, +5 SAV, +5 SOM, +5 to one other aptitude of the player’s choice, Armor 8/8",
     "disadvantages": "Social Stigma (Clanking Masses) trait",
     "skillBonuses": [],
     "cpCost": 65,

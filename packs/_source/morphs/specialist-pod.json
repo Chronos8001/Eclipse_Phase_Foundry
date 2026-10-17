@@ -33,7 +33,7 @@
     },
     "movement": "4/20",
     "implants": "Access Jacks, Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Puppet Sock",
-    "advantages": "+10 to one aptitude of the player's choice, +5 to one other aptitude of the player's choice",
+    "advantages": "+10 to one aptitude of the player’s choice, +5 to one other aptitude of the player’s choice",
     "disadvantages": "Social Stigma (Pod) trait",
     "skillBonuses": [],
     "cpCost": 25,

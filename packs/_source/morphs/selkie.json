@@ -33,7 +33,7 @@
     },
     "movement": "1/4, Swim 4/20",
     "implants": "Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced Hearing, Enhanced Vision, Enhanced Respiration, Gills, Hydrostatic Pressure Adaptation, Swim Bladder, Temperature Tolerance (Improved Cold), Toxin Filters",
-    "advantages": "+5 COO, +10 SOM, +5 to one other aptitude of the player's choice, +10 Swimming skill",
+    "advantages": "+5 COO, +10 SOM, +5 to one other aptitude of the player’s choice, +10 Swimming skill",
     "disadvantages": "",
     "skillBonuses": [
       {

@@ -11,7 +11,7 @@
     "level": 1,
     "cost": 10,
     "costText": "Bonus: 10 CP",
-    "description": "<p>This morph suffers from space sickness and does not fair well in zero-gravity. The character suffers a -10 modifier in any microgravity climate. Additionally, whenever the character is first getting acclimated or anytime they must endure excessive movement in microgravity, they must make a WIL Test or spend 1 hour incapacitated by nausea per 10 points of MoF.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 152.</em></p>"
+    "description": "<p>This morph suffers from space sickness and does not fair well in zero-gravity. The character suffers a –10 modifier in any microgravity climate. Additionally, whenever the character is first getting acclimated or anytime they must endure excessive movement in microgravity, they must make a WIL Test or spend 1 hour incapacitated by nausea per 10 points of MoF.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 152.</em></p>"
   },
   "effects": [],
   "flags": {},

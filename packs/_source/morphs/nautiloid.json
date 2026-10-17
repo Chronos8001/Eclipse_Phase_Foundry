@@ -33,13 +33,13 @@
     },
     "movement": "",
     "implants": "Basic Mesh Inserts, Cortical Stack, Cyberbrain, Echolocation, Extra Limbs (8 Arms, 2 Tentacles), Hydrostatic Pressure Adaptation, Industrial Armor, Internal Rocket, Mnemonic Augmentation, Pneumatic Limbs (2 of the Arms), Puppet Sock, Radar, Radiation Sense, Swim Bladder, Telescoping Limbs (2 of the Arms), T-Ray Emitter Mobility Systems: Internal Rocket 8/40, Submarine 8/40",
-    "advantages": "+5 SOM, +5 to two other aptitudes of the player's choice, Armor 10/10 (20/20 with Industrial Armor)",
+    "advantages": "+5 SOM, +5 to two other aptitudes of the player’s choice, Armor 10/10 (20/20 with Industrial Armor)",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 155,
     "creditCost": "Expensive (150,000)",
     "active": false,
-    "description": "<p>Nautiloids are a hybrid of short-range spacecraft and submersible capable of holding up to six passengers and their gear. The morph is shaped like a van-sized nautilus, with crew space in the head and shell. A cluster of tentacular limbs mounted under the observation ports in the head provide both fine and brute force manipulation. Originally created for comet and asteroid mining, the design also proved useful for oceanic exploration by gatecrashing teams and Europans. The morph's interior includes a desktop cornucopia machine and a maker. It can deploy a pair of retractable pontoons for stability when floating on a liquid surface. A nautiloid's life support system can support its occupants for up to three months before replenishing--indefinitely if it has a source of hydrogen and oxygen. Nautiloids include radiation shielding, a small airlock, and a healing vat. The nautiloid is also available as a bot with no cyberbrain for the same cost. The bot version has no aptitude bonuses.</p><p><strong>Notes:</strong> Very Large Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 58.</em></p>"
+    "description": "<p>Nautiloids are a hybrid of short-range spacecraft and submersible capable of holding up to six passengers and their gear. The morph is shaped like a van-sized nautilus, with crew space in the head and shell. A cluster of tentacular limbs mounted under the observation ports in the head provide both fine and brute force manipulation. Originally created for comet and asteroid mining, the design also proved useful for oceanic exploration by gatecrashing teams and Europans. The morph’s interior includes a desktop cornucopia machine and a maker. It can deploy a pair of retractable pontoons for stability when floating on a liquid surface. A nautiloid’s life support system can support its occupants for up to three months before replenishing—indefinitely if it has a source of hydrogen and oxygen. Nautiloids include radiation shielding, a small airlock, and a healing vat. The nautiloid is also available as a bot with no cyberbrain for the same cost. The bot version has no aptitude bonuses.</p><p><strong>Notes:</strong> Very Large Size trait</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 58.</em></p>"
   },
   "effects": [],
   "flags": {},

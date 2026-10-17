@@ -33,13 +33,13 @@
     },
     "movement": "Ionic 12/40, Thrust Vector 8/40",
     "implants": "Access Jacks, Basic Mesh Inserts, Chemical Sniffer, Cortical Stack, Cryonic Protection, Cyberbrain, Direction Sense, Enhanced Vision, Extra Limbs (4), Grip Pads, Headlights, Hidden Compartment, Internal Rocket, Lidar, Magnetic System, Mnemonic Augmentation, Plasma Sail Implant, Radar, Retracting/Telescoping Limbs, T-ray Emitter.",
-    "advantages": "4 Limbs, +5 COO, +5 INT, +5 REF, +5 to one other aptitude of the player's choice, Armor 6/6",
+    "advantages": "4 Limbs, +5 COO, +5 INT, +5 REF, +5 to one other aptitude of the player’s choice, Armor 6/6",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 70,
     "creditCost": "Expensive (minimum 40,000+)",
     "active": false,
-    "description": "<p>This synthmorph was specifically designed to fly between the many moons and habitats in the Saturnian system--carrying goods throughout the outer system. This morph appears to be a roughly humanoid head and torso set on a conical base, with a total height of 1.5 meters, that makes it look rather like a four-armed chess piece. This base contains both the morph's ionic propulsion system, which doubles as a plasma sail in space, and an internal rocket. This miniature metallic-hydrogen rocket is specifically designed for low thrust. It provides an acceleration of up to 0.25 g, allowing the morph to take off and land on all moons and other small bodies in the solar system. This engine can operate for a total of one and a half hours before it requires refueling. The morph's four slender arms fold flat against its torso when it is in flight. Its extensive sensor suit is useful for both navigation and various covert purposes.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 20.</em></p>"
+    "description": "<p>This synthmorph was specifically designed to fly between the many moons and habitats in the Saturnian system—carrying goods throughout the outer system. This morph appears to be a roughly humanoid head and torso set on a conical base, with a total height of 1.5 meters, that makes it look rather like a four-armed chess piece. This base contains both the morph’s ionic propulsion system, which doubles as a plasma sail in space, and an internal rocket. This miniature metallic-hydrogen rocket is specifically designed for low thrust. It provides an acceleration of up to 0.25 g, allowing the morph to take off and land on all moons and other small bodies in the solar system. This engine can operate for a total of one and a half hours before it requires refueling. The morph’s four slender arms fold flat against its torso when it is in flight. Its extensive sensor suit is useful for both navigation and various covert purposes.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 20.</em></p>"
   },
   "effects": [],
   "flags": {},

@@ -17,7 +17,7 @@ def clean_lines():
     """Text lines of the Traits section, each with the printed page it comes from."""
     out = []
     for p in range(FIRST_PAGE, LAST_PAGE + 1):
-        text = subprocess.run(["pdftotext", "-f", str(p), "-l", str(p), PDF, "-"], capture_output=True).stdout
+        text = subprocess.run(["pdftotext", "-enc", "UTF-8", "-f", str(p), "-l", str(p), PDF, "-"], capture_output=True).stdout
         for line in text.decode("utf-8", errors="replace").split("\n"):
             line = line.strip()
             if line and not JUNK.search(line):
@@ -29,12 +29,18 @@ def join(lines):
     for l in lines:
         if text.endswith("-") and not text.endswith(" -"):
             text = text[:-1] + l
+        elif text.endswith("—"):
+            text += l
         else:
             text = (text + " " + l).strip()
     return text.replace("�", "-").replace("--", "—")
 
+# Names first read without UTF-8 output: their ids are kept so that links to them still work
+ID_NAMES = {"Real World Naiveté": "Real World Naivet-"}
+
+
 def make_id(name, salt):
-    return hashlib.sha1(f"{salt}:{name}".encode()).hexdigest()[:16]
+    return hashlib.sha1(f"{salt}:{ID_NAMES.get(name, name)}".encode()).hexdigest()[:16]
 
 def doc(name, type_, img, system, pack, sort):
     _id = make_id(name, pack)

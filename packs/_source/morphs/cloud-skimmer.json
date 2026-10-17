@@ -33,13 +33,13 @@
     },
     "movement": "Thrust Vector 8/40",
     "implants": "Access Jacks, Basic Mesh Inserts, Cortical Stack, Cryonic Protection, Cyberbrain, Direction Sense, Enhanced Vision, Extra Limbs (4 Arms), Hydrostatic Pressure Adaptation, Internal Rocket, Mnemonic Augmentation, Puppet Sock, Radar, Swim Bladder, Telescoping Limbs",
-    "advantages": "4 arms, +10 SOM, +5 REF, +5 to one other aptitude of the player's choice, Armor 10/10",
+    "advantages": "4 arms, +10 SOM, +5 REF, +5 to one other aptitude of the player’s choice, Armor 10/10",
     "disadvantages": "",
     "skillBonuses": [],
     "cpCost": 65,
     "creditCost": "Expensive (minimum 70,000+)",
     "active": false,
-    "description": "<p>This streamlined synthmorph is designed for exploring the atmospheres of gas giants, but its internal rocket also allows it to operate in vacuum. It can travel to and from a ship in orbit around a gas giant into the planet's atmosphere on its own. The morph is a flattened oval that can extend up to four flexible arms. The swim bladder acts much like a high-pressure balloon to help keep the morph aloft in a gas giant's dense atmosphere.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 19.</em></p>"
+    "description": "<p>This streamlined synthmorph is designed for exploring the atmospheres of gas giants, but its internal rocket also allows it to operate in vacuum. It can travel to and from a ship in orbit around a gas giant into the planet’s atmosphere on its own. The morph is a flattened oval that can extend up to four flexible arms. The swim bladder acts much like a high-pressure balloon to help keep the morph aloft in a gas giant’s dense atmosphere.</p><p><em>Source: Eclipse Phase Morph Recognition Guide, p. 19.</em></p>"
   },
   "effects": [],
   "flags": {},
