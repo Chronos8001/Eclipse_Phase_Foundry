@@ -1,0 +1,33 @@
+{
+  "_id": "10fc382b8e524b54",
+  "_key": "!journal!10fc382b8e524b54",
+  "name": "8. Création et progression",
+  "folder": null,
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "pages": [
+    {
+      "_id": "4055263968e44629",
+      "_key": "!journal.pages!10fc382b8e524b54.4055263968e44629",
+      "name": "Création et progression",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li>Gratuit : 105 points d'aptitude, 1 Moxie, 5000 crédits, 50 points de rep.</li><li>1000 points de création (le MJ peut en fixer de 700 à 1 200) ; 1 point de package vaut 100 PC (Transhuman).</li><li>Aptitudes : 5 à 30 (avant le morphe) ; Moxie 10 au plus.</li><li>Compétences : 1 point par point jusqu'à 60, 2 au-delà ; 80 au plus à la création, 99 ensuite.</li><li>Minimums : 400 PC en compétences actives, 300 en connaissances.</li><li>Plafonds : 35 PC en rep (80 par réseau), 100 PC en crédits, 50 PC de traits positifs, 50 de traits négatifs (25 de traits de morphe), 5 sleights chi et 5 gamma.</li></ul><table><thead><tr><th>Achat</th><th>Coût (PC ou points de rez)</th></tr></thead><tbody><tr><td>1 point de Moxie</td><td>15</td></tr><tr><td>1 point d'aptitude</td><td>10</td></tr><tr><td>1 sleight</td><td>5</td></tr><tr><td>1 spécialisation</td><td>5</td></tr><tr><td>10 points de rep</td><td>1</td></tr><tr><td>1000 crédits</td><td>1</td></tr></tbody></table><p>Progression : les points de rez s'achètent aux mêmes tarifs ; une aptitude coûte en plus 1 point par compétence liée qui passe au-delà de 60.</p><p><em>Source : Eclipse Phase Core Rulebook, p. 134-136, 152-153 ; Eclipse Phase Transhuman, p. 14.</em></p>",
+        "format": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "system": {}
+    }
+  ]
+}

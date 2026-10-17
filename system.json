@@ -117,6 +117,13 @@
       "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
     },
     {
+      "name": "rules-reference",
+      "label": "Aide-mémoire des règles (FR)",
+      "path": "packs/rules-reference",
+      "type": "JournalEntry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
       "name": "supplement-traits",
       "label": "Traits (Transhuman, Sunward, Rimward, Gatecrashing, Panopticon, Firewall)",
       "path": "packs/supplement-traits",
@@ -153,7 +160,7 @@
     {
       "name": "Eclipse Phase",
       "sorting": "m",
-      "packs": ["morphs", "traits", "supplement-traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights", "vehicles", "threats", "npcs", "backgrounds", "mental-health"]
+      "packs": ["rules-reference", "morphs", "traits", "supplement-traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights", "vehicles", "threats", "npcs", "backgrounds", "mental-health"]
     }
   ],
   "documentTypes": {

@@ -8,7 +8,8 @@
     "build:packs": "node tools/build-packs.mjs pack",
     "unpack": "node tools/build-packs.mjs unpack",
     "check": "node tools/check.mjs",
-    "build": "npm run check && npm run build:packs"
+    "journals": "node tools/build-journals.mjs",
+    "build": "npm run journals && npm run check && npm run build:packs"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^1.0.4"
