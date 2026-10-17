@@ -1,0 +1,23 @@
+{
+  "_id": "1fb7cf99fab1472a",
+  "_key": "!items!1fb7cf99fab1472a",
+  "name": "Derangement: Chills (Moderate)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>Your body temperature rises, making you feel cold, and shivering sets in. You just can’t get warm.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 2,
+    "cost": 0,
+    "costText": "Derangement (Moderate), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "52146e3c86297752",
+  "_key": "!items!52146e3c86297752",
+  "name": "Mental Disorder (Depression)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>Clinical depression is characterized by intense feelings of hopelessness and worthlessness. Subjects usually report feeling as though nothing they do matters and no one would care anyway, so they are disinclined to attempt much in the way of anything. The character is depressed and finds it difficult to be motivated to do much of anything. Even simple acts such as eating and bathing can seem to be monumental tasks.</p><p>Suggested Game Effect: Depressives often lack the will to take any sort of action, often to the point of requiring a WIL x 3 Test to engage in sustained activity.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 212.</em></p>",
+    "key": "mentalDisorder",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e020f92043509ff9",
+  "sort": 32000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "9c4999b813ec97cd",
+  "_key": "!items!9c4999b813ec97cd",
+  "name": "Mental Disorder (Bipolar Disorder)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>Bipolar disorder is also called manic depression. It is similar to depression except for the fact that the periods of depression are interrupted by brief (a matter of days at most) periods of mania where the subject feels inexplicably “up” about everything with heightened energy and a general disregard for consequences. The depressive stages are similar in all ways to depression. The manic stages are dangerous since the subject will take risks, spend wildly, and generally engage in behavior without much in the way of forethought or potential long term consequences.</p><p>Suggested Game Effects: Similar to depression, but when manic the character must make a WIL x 3 Test to not do some action that may be potentially risky. They will also try to convince others to go along with the idea.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 212.</em></p>",
+    "key": "mentalDisorder",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e020f92043509ff9",
+  "sort": 29000,
+  "ownership": {
+    "default": 0
+  }
+}

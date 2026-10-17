@@ -1,0 +1,23 @@
+{
+  "_id": "c177dcd2ece8d769",
+  "_key": "!items!c177dcd2ece8d769",
+  "name": "Derangement: Mute (Moderate)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>The trauma shocks you into speechlessness and a complete inability to effectively communicate.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 2,
+    "cost": 0,
+    "costText": "Derangement (Moderate), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

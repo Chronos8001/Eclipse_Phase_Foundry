@@ -1,0 +1,23 @@
+{
+  "_id": "996991cad35975d9",
+  "_key": "!items!996991cad35975d9",
+  "name": "Derangement: Logorrhoea (Minor)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>Your response to the trauma is to engage in excessive talking and babbling. You don’t shut up.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 0,
+    "costText": "Derangement (Minor), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

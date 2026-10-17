@@ -1,0 +1,23 @@
+{
+  "_id": "f63160be932539a4",
+  "_key": "!items!f63160be932539a4",
+  "name": "Derangement: Hysteria (Major)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>You lose control, panicking over the source of the stress. This typically results in an emotional outburst of crying, laughing, or irrational fear.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 3,
+    "cost": 0,
+    "costText": "Derangement (Major), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 21000,
+  "ownership": {
+    "default": 0
+  }
+}

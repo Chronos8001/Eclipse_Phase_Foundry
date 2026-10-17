@@ -1,0 +1,23 @@
+{
+  "_id": "d7da61939d5ba578",
+  "_key": "!items!d7da61939d5ba578",
+  "name": "Mental Disorder (Obsessive Compulsive Disorder (OCD))",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>Subjects with OCD are marked by intrusive or inappropriate thoughts or impulses that cause acute anxiety if a particular obsession or compulsion is not engaged in to alleviate them. These obsessions and compulsions can be nearly any sort of behavior that must be immediately engaged in to keep the rising anxiety at bay. Players and gamemasters are encouraged to come up with a behavior that is suitable. Examples of common behaviors include repetitive tics (touching every finger of each hand to another part of the body, tapping the right foot twenty times), pathological behaviors such as gambling or eating, or a mental ritual that must be completed (reciting a book passage).</p><p>Suggested Game Effects: If the character doesn’t engage in the behavior they will grow increasingly disturbed and suffer penalties to all actions until they are able to engage in the compulsion that alleviates their anxiety.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 214.</em></p>",
+    "key": "mentalDisorder",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e020f92043509ff9",
+  "sort": 40000,
+  "ownership": {
+    "default": 0
+  }
+}

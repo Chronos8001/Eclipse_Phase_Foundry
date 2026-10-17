@@ -1,0 +1,23 @@
+{
+  "_id": "a9cb999d13e3994c",
+  "_key": "!items!a9cb999d13e3994c",
+  "name": "Mental Disorder (Atavism)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>Atavism is a disorder that mainly affects uplifts. It results in them regressing to an earlier un- or partially-uplifted state. They may exhibit behaviors more closely in line with their more animalistic forbears, or they may lose some of their uplift benefits such as the ability for abstract reasoning or speech.</p><p>Suggested Game Effects: The player and gamemaster should discuss how much of the uplift’s nature is lost and adjust game penalties accordingly. It is important to note that other uplifts view atavistic uplifts with something akin to horror and will usually have nothing to do with them.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 212.</em></p>",
+    "key": "mentalDisorder",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 10,
+    "costText": "Bonus: 10 CP"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "e020f92043509ff9",
+  "sort": 26000,
+  "ownership": {
+    "default": 0
+  }
+}

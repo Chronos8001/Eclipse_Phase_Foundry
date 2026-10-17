@@ -1,0 +1,23 @@
+{
+  "_id": "d2124a2f091169a4",
+  "_key": "!items!d2124a2f091169a4",
+  "name": "Derangement: Echopraxia (Moderate)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>You involuntarily repeat and mimic the actions of others around you.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 2,
+    "cost": 0,
+    "costText": "Derangement (Moderate), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "ed0c08a6c91a7498",
+  "_key": "!items!ed0c08a6c91a7498",
+  "name": "Derangement: Blackout (Major)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>You operate on auto-pilot in a temporary fugue state. Later, you will be incapable of recalling what happened during this period. (Synthetic shells and infomorphs may call up memory records from storage.)</p><p><em>Source: Eclipse Phase Core Rulebook, p. 211.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 3,
+    "cost": 0,
+    "costText": "Derangement (Major), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  }
+}

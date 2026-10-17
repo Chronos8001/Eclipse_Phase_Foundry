@@ -1,0 +1,23 @@
+{
+  "_id": "e6253ca450b90818",
+  "_key": "!items!e6253ca450b90818",
+  "name": "Derangement: Avoidance (Minor)",
+  "type": "trait",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "description": "<p>You are psychologically incapable with dealing with the source of the stress, or some circumstance related to it, so you avoid it—even covering your ears, curling up in a ball, or shutting off your sensors if you have to.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 210.</em></p>",
+    "key": "derangement",
+    "traitType": "negative",
+    "scope": "ego",
+    "level": 1,
+    "cost": 0,
+    "costText": "Derangement (Minor), lasts 1d10 ÷ 2 hours"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "49f6550103daf66f",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}
