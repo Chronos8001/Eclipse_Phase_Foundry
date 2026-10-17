@@ -1,0 +1,121 @@
+{
+  "_id": "e4f43eff1847b11e",
+  "_key": "!items!e4f43eff1847b11e",
+  "name": "Combat Async (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your psi abilities have been honed to a killing edge.</p><p><strong>Suggested Motivations:</strong> +Neurodiversity, +Self Control, +Survival, –Bloodlust</p><p><strong>5 PP:</strong> +50 Rep (Your Choice) · Academics: (Choose One) 30, Control 30, Fray 30, Infiltration 40, Interest: (Choose One) 40, Language: (Choose One) 30, Perception 30, Profession: Squad Tactics 50, Psi Assault 50, Sense 30, Spray Weapons 40, Unarmed Combat 30 · Traits: Psi (Level 2), Mental Disorder (Choose Two) · +8 Sleights (Your Choice)</p><p><em>Source: Eclipse Phase Transhuman, p. 30.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "control",
+        "name": "Control",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Squad Tactics",
+        "value": 50
+      },
+      {
+        "key": "psiAssault",
+        "name": "Psi Assault",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "sense",
+        "name": "Sense",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "sprayWeapons",
+        "name": "Spray Weapons",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Psi",
+        "level": 2
+      },
+      {
+        "name": "Mental Disorder",
+        "level": 1
+      }
+    ],
+    "choices": "Mental Disorder: Choose Two; +8 Sleights (Your Choice)",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Neurodiversity, +Self Control, +Survival, –Bloodlust"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 166000,
+  "ownership": {
+    "default": 0
+  }
+}

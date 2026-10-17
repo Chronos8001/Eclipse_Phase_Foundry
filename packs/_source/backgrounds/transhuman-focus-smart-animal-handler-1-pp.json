@@ -1,0 +1,58 @@
+{
+  "_id": "4d288ed62501c7d0",
+  "_key": "!items!4d288ed62501c7d0",
+  "name": "Smart Animal Handler (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You raise and care for the smart animals that are a vital part of many transhuman settlements.</p><p><strong>Suggested Motivations:</strong> +Nano-ecology, +Research, +Uplift Rights</p><p><strong>1 PP:</strong> Animal Handling 40, Medicine: Veterinary 30, Profession: Smart Animal Training 30</p><p><em>Source: Eclipse Phase Transhuman, p. 35.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "animalHandling",
+        "name": "Animal Handling",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Veterinary",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Smart Animal Training",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Nano-ecology, +Research, +Uplift Rights"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 227000,
+  "ownership": {
+    "default": 0
+  }
+}

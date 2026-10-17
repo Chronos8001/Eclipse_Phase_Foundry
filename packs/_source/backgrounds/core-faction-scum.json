@@ -1,0 +1,52 @@
+{
+  "_id": "5fec4d8306ca5287",
+  "_key": "!items!5fec4d8306ca5287",
+  "name": "Scum",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>This is the future we’ve all been waiting for, and you’re going to enjoy it to the max. A paradigm shift has occurred, and while everyone else is catching up, your faction embraces and revels in it. There is no more want, no more death, no more limits on what you can be. The scum have immersed themselves in a new way of life, changing themselves as they see fit, trying out new experiences, and pushing the boundaries wherever they can ... and fuck anyone who can’t deal with that.</p><p>Advantages: +10 Freefall skill, +10 to a skill of your choice, +20 Networking: Autonomists skill Disadvantages: None Common Morphs: All</p><p><em>Source: Eclipse Phase Core Rulebook, p. 134.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "freeFall",
+        "name": "Freefall",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Autonomists",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to a skill of your choice",
+    "restrictions": "",
+    "morphs": "All",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  }
+}

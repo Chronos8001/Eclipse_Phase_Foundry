@@ -1,0 +1,88 @@
+{
+  "_id": "dbe16476ddb2600c",
+  "_key": "!items!dbe16476ddb2600c",
+  "name": "Re-Instantiated: Military Casualty (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You were killed during the Fall. You may have fallen during a sneak attack, died fighting the TITAN machines on the front lines, or even been murdered by fellow humans as you tried to keep order in transhumanity’s darkest hours. At least your sacrifice was rewarded by a quick resleeving.</p><p><strong>Suggested Motivations:</strong> +Reclaiming Earth, +Survival, –TITANs</p><p><strong>3 PP:</strong> +1 Moxie · (Choose Any Combat Skill) 50,Academics: (Choose One) 20, Fray 20, Freerunning 35, Gunnery 30, Interest: (Choose One) 30, Pilot: Groundcraft 30, Profession: (Choose One) 40, Unarmed Combat 30</p><p><em>Source: Eclipse Phase Transhuman, p. 21.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "gunnery",
+        "name": "Gunnery",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Groundcraft",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "(Choose Any Combat Skill) 50",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Reclaiming Earth, +Survival, –TITANs"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 71000,
+  "ownership": {
+    "default": 0
+  }
+}

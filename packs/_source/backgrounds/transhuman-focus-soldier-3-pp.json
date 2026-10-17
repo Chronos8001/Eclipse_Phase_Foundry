@@ -1,0 +1,94 @@
+{
+  "_id": "a851ff1dda21e247",
+  "_key": "!items!a851ff1dda21e247",
+  "name": "Soldier (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You served as a soldier for a pre-Fall nation-state, hypercorp, or habitat polity, or you worked as a mercenary-for-hire—or you simply were forced to take up arms as a conflict erupted around you.</p><p><strong>Suggested Motivations:</strong> +Duty, +Personal Development, +Survival, +Victory, –Peace</p><p><strong>3 PP:</strong> +50 Rep (Your Choice) · Climbing 25, Fray 20, Freerunning 20, Interest: (Choose One) 40, Kinetic Weapons 50, Perception 20, Profession: Squad Tactics 50,Throwing Weapons 30, Unarmed Combat 40</p><p><em>Source: Eclipse Phase Transhuman, p. 36.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Squad Tactics",
+        "value": 50
+      },
+      {
+        "key": "throwingWeapons",
+        "name": "Throwing Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Duty, +Personal Development, +Survival, +Victory, –Peace"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 234000,
+  "ownership": {
+    "default": 0
+  }
+}

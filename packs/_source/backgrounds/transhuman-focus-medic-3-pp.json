@@ -1,0 +1,88 @@
+{
+  "_id": "57da6540b9a6b06b",
+  "_key": "!items!57da6540b9a6b06b",
+  "name": "Medic (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are a biotech specialist.</p><p><strong>Suggested Motivations:</strong> +Helping Others, –Violence</p><p><strong>3 PP:</strong> +1 Moxie · +50 Rep (Your Choice) · Academics: (Choose One) 40, Hardware: Implants 25, Medicine: (Paramedic) 50, Medicine: (Choose One) 40, Networking: (Choose One) 20, Perception 35, Persuasion 20, Profession: Medical Care 50</p><p><em>Source: Eclipse Phase Transhuman, p. 33.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "Implants",
+        "value": 25
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Paramedic",
+        "value": 50
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Medical Care",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Helping Others, –Violence"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 207000,
+  "ownership": {
+    "default": 0
+  }
+}

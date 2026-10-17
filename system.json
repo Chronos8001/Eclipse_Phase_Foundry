@@ -117,6 +117,14 @@
       "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
     },
     {
+      "name": "backgrounds",
+      "label": "Backgrounds, Factions and Packages (Core, Transhuman)",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "ep1e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
       "name": "sleights",
       "label": "Psi Sleights (Core, Transhuman, X-Risks)",
       "path": "packs/sleights",
@@ -129,7 +137,7 @@
     {
       "name": "Eclipse Phase",
       "sorting": "m",
-      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights", "vehicles", "threats", "npcs"]
+      "packs": ["morphs", "traits", "weapons", "armor", "augmentations", "gear", "substances", "software", "supplement-gear", "sleights", "vehicles", "threats", "npcs", "backgrounds"]
     }
   ],
   "documentTypes": {
@@ -148,7 +156,8 @@
       "augmentation": { "htmlFields": ["description"] },
       "sleight": { "htmlFields": ["description"] },
       "software": { "htmlFields": ["description"] },
-      "substance": { "htmlFields": ["description"] }
+      "substance": { "htmlFields": ["description"] },
+      "background": { "htmlFields": ["description"] }
     }
   },
   "socket": true,

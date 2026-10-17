@@ -1,0 +1,109 @@
+{
+  "_id": "83b81827cf92dc0a",
+  "_key": "!items!83b81827cf92dc0a",
+  "name": "Scanner Async (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your mind is altered in a way that provides you with preternatural senses.</p><p><strong>Suggested Motivations:</strong> +Exploration, +Neurodiversity, +Personal Development, +Self Control</p><p><strong>5 PP:</strong> +1 Moxie · +5 INT, +50 Rep (Your Choice) · Academics: (Choose One) 40, Impersonation 35, Interest: (Choose One) 40, Investigation 30, Kinesics 35, Language: (Choose One) 40, Perception 50, Persuasion 25, Profession: (Choose One) 30, Sense 50 · Traits: Psi (Level 2), Mental Disorder (Choose Two) · +6 Sleights (Your Choice)</p><p><em>Source: Eclipse Phase Transhuman, p. 34.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "impersonation",
+        "name": "Impersonation",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "sense",
+        "name": "Sense",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Psi",
+        "level": 2
+      },
+      {
+        "name": "Mental Disorder",
+        "level": 1
+      }
+    ],
+    "choices": "Mental Disorder: Choose Two; +6 Sleights (Your Choice)",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exploration, +Neurodiversity, +Personal Development, +Self Control"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 220000,
+  "ownership": {
+    "default": 0
+  }
+}

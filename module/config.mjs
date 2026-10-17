@@ -95,6 +95,7 @@ export const EP1E = {
   },
   traitTypes: { positive: "EP1E.TraitType.positive", negative: "EP1E.TraitType.negative" },
   traitScopes: { ego: "EP1E.TraitScope.ego", morph: "EP1E.TraitScope.morph", both: "EP1E.TraitScope.both" },
+  backgroundKinds: { background: "EP1E.Background.kind.background", faction: "EP1E.Background.kind.faction", package: "EP1E.Background.kind.package" },
   weaponTypes: { melee: "EP1E.WeaponType.melee", ranged: "EP1E.WeaponType.ranged" },
   areaShapes: {
     none: "EP1E.AreaShape.none",

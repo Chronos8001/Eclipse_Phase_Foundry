@@ -1,0 +1,88 @@
+{
+  "_id": "e3f563a7f777f510",
+  "_key": "!items!e3f563a7f777f510",
+  "name": "Sifter (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You worked the mobile mining operations on Mercury’s scorched surface.</p><p><strong>Suggested Motivations:</strong> +Hard Work, +Mercurian Independence, –Hypercapitalism</p><p><strong>3 PP:</strong> +1 Moxie · +50 Rep (Your Choice) · Climbing 25, Interest: (Choose One) 40, Navigation 40, Networking: (Choose One) 30, Palming 25, Pilot: (Groundcraft) 50, Profession: (Mining) 50, Unarmed Combat 20</p><p><em>Source: Eclipse Phase Transhuman, p. 27.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "navigation",
+        "name": "Navigation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "palming",
+        "name": "Palming",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Groundcraft",
+        "value": 50
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Mining",
+        "value": 50
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Hard Work, +Mercurian Independence, –Hypercapitalism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 134000,
+  "ownership": {
+    "default": 0
+  }
+}

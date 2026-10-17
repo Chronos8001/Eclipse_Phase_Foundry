@@ -1,0 +1,106 @@
+{
+  "_id": "f21072a7a0f99c70",
+  "_key": "!items!f21072a7a0f99c70",
+  "name": "Soldier (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You served as a soldier for a pre-Fall nation-state, hypercorp, or habitat polity, or you worked as a mercenary-for-hire—or you simply were forced to take up arms as a conflict erupted around you.</p><p><strong>Suggested Motivations:</strong> +Duty, +Personal Development, +Survival, +Victory, –Peace</p><p><strong>5 PP:</strong> +1 Moxie · +5 SOM, +50 Rep (Your Choice) · Blades 30, Climbing 40, Fray 30, Freerunning 30, Interest: (Choose Two) 30, Kinetic Weapons 50, Language: (Choose One) 40, Perception 30, Profession: Squad Tactics 50,Throwing Weapons 30, Unarmed Combat 40</p><p><em>Source: Eclipse Phase Transhuman, p. 36.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "blades",
+        "name": "Blades",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose Two)",
+        "value": 30
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Squad Tactics",
+        "value": 50
+      },
+      {
+        "key": "throwingWeapons",
+        "name": "Throwing Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Duty, +Personal Development, +Survival, +Victory, –Peace"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 235000,
+  "ownership": {
+    "default": 0
+  }
+}

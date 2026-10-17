@@ -1,0 +1,39 @@
+{
+  "_id": "9c133d197abdd3b9",
+  "_key": "!items!9c133d197abdd3b9",
+  "name": "Original Space Colonist",
+  "type": "background",
+  "img": "icons/svg/village.svg",
+  "system": {
+    "description": "<p>You, or your parents, were part of the first “generations” of colonists/workers sent out from Earth to stake a claim in space, so you are familiar with the cramped confines of spaceflight and life aboard older stations and habitats. As a “zero-one G” (zero-gravity, first-gen), you were never part of the elite. People from your background typically have some sort of specialized tech training as vacworkers or habtechs.</p><p>Advantages: +10 Pilot: Spacecraft or Freefall skill, +10 to a Technical, Academic: [Field], or Profession: [Field] skill of your choice, +20 to a Networking: [Field] skill of your choice Disadvantages: None Common Morphs: All. Use of exotic morphs is common.</p><p><em>Source: Eclipse Phase Core Rulebook, p. 132.</em></p>",
+    "kind": "background",
+    "group": "",
+    "pp": 0,
+    "skills": [],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 Pilot: Spacecraft or Freefall skill; +10 to a Technical; Academic: [Field]; or Profession: [Field] skill of your choice; +20 to a Networking: [Field] skill of your choice",
+    "restrictions": "",
+    "morphs": "All. Use of exotic morphs is common.",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5d1fd729a9c1db00",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  }
+}

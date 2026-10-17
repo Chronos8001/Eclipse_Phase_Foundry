@@ -1,0 +1,129 @@
+{
+  "_id": "9c6cfdddd47bfda6",
+  "_key": "!items!9c6cfdddd47bfda6",
+  "name": "Lost: Disturbed Child (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The Lost project unwittingly created a generation of monsters. You are among the odd, deranged, twisted, psychotic, and powerful examples that escaped.</p><p><strong>Suggested Motivations:</strong> +Neurodiversity, +Sadism, +Vengeance, –Research</p><p><strong>5 PP:</strong> +1 Moxie · +5 WIL, +50 Rep (Your Choice) · Academics: (Choose One) 40, Blades 20, Control 50, Deception 40, Fray 20, Free Fall 30, Infiltration 30, Interest: (Choose One) 40, Language: (Choose One) 30, Profession: (Choose One) 40, Psi Assault 40, Unarmed Combat 20 · Traits: Psi (Level 2), Mental Disorder (Choose Three), On the Run, Real World Naiveté · +7 Sleights: Choose 2 psi-chi, 5 psi-gamma</p><p><em>Source: Eclipse Phase Transhuman, p. 20.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "blades",
+        "name": "Blades",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "control",
+        "name": "Control",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "psiAssault",
+        "name": "Psi Assault",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 5
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Psi",
+        "level": 2
+      },
+      {
+        "name": "Mental Disorder",
+        "level": 1
+      },
+      {
+        "name": "On the Run",
+        "level": 1
+      },
+      {
+        "name": "Real World Naiveté",
+        "level": 1
+      }
+    ],
+    "choices": "Mental Disorder: Choose Three; +7 Sleights: Choose 2 psi-chi; 5 psi-gamma",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Neurodiversity, +Sadism, +Vengeance, –Research"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 57000,
+  "ownership": {
+    "default": 0
+  }
+}

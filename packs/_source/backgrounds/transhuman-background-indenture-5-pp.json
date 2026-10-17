@@ -1,0 +1,112 @@
+{
+  "_id": "599aca43121df4a6",
+  "_key": "!items!599aca43121df4a6",
+  "name": "Indenture (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You either won a lottery for the poor, where the prize was to go off-world, or you died during the Fall. Either way, you found yourself working away in virtual slavery to a hypercorp. You worked hard constructing habitats, mining asteroids, or terraforming Mars.</p><p><strong>Suggested Motivations:</strong> +Hard Work, +Survival, –Hypercorps, –Indentured Service</p><p><strong>5 PP:</strong> +2 Moxie · +5 SOM, +50 Rep (Your Choice) · Blades 30, Demolitions 30, Fray 20, Free Fall 40, Hardware: (Choose One) 50, Interest: (Choose One) 30, Interfacing 30, Language: (Choose One) 40, Networking: Criminal 20, Profession: (Choose One) 40, Profession: (Choose One) 40, Scrounging 45</p><p><em>Source: Eclipse Phase Transhuman, p. 18.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "blades",
+        "name": "Blades",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "demolitions",
+        "name": "Demolitions",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Criminal",
+        "value": 20
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 45
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 5,
+      "wil": 0
+    },
+    "moxie": 2,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Hard Work, +Survival, –Hypercorps, –Indentured Service"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 36000,
+  "ownership": {
+    "default": 0
+  }
+}

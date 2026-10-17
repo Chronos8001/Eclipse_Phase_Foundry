@@ -1,0 +1,52 @@
+{
+  "_id": "99f4bf5072c2190f",
+  "_key": "!items!99f4bf5072c2190f",
+  "name": "Criminal",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>You are involved with the crime-oriented underworld. You may work with one of the Sol system’s major criminal factions—triads, the Night Cartel, the ID Crew, Nine Lives, Pax Familae—or one of the smaller, local operators with a big stake in a specific habitat. You might be a vetted memberfor-life, a reluctant recruit, or just a freelancer looking for the next gig.</p><p>Advantages: +10 Intimidation skill, +30 Networking: Criminal skill Disadvantages: None Common Morphs: All</p><p><em>Source: Eclipse Phase Core Rulebook, p. 133.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Criminal",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "All",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

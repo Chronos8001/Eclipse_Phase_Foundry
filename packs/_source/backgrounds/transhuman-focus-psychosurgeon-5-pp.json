@@ -1,0 +1,112 @@
+{
+  "_id": "502f1499ab91248b",
+  "_key": "!items!502f1499ab91248b",
+  "name": "Psychosurgeon (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You help people stay sane and/or be whatever they want to be in their mind.</p><p><strong>Suggested Motivations:</strong> +Helping Others, +Neurodiversity, –Madness</p><p><strong>5 PP:</strong> +1 Moxie · +5 COG, +50 Rep (Your Choice) · Academics: Psychology 50,Academics: (Choose One) 30, Deception 20, Interest: (Choose One) 30, Investigation 25, Kinesics 40, Medicine: (Psychiatry) 40, Networking: (Choose One) 35, Perception 30, Persuasion 30, Profession: Psychotherapy 50, Psychosurgery 50</p><p><em>Source: Eclipse Phase Transhuman, p. 34.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Psychology",
+        "value": 50
+      },
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Psychiatry",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 35
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Psychotherapy",
+        "value": 50
+      },
+      {
+        "key": "psychosurgery",
+        "name": "Psychosurgery",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Helping Others, +Neurodiversity, –Madness"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 214000,
+  "ownership": {
+    "default": 0
+  }
+}

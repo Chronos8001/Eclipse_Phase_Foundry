@@ -1,0 +1,58 @@
+{
+  "_id": "6436b7a1a39f4de2",
+  "_key": "!items!6436b7a1a39f4de2",
+  "name": "Thief (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You survive by stealing from others, whether by picking pockets or breaking and entering.</p><p><strong>Suggested Motivations:</strong> +Wealth</p><p><strong>1 PP:</strong> Infiltration 30, Palming 40, Profession:Thieving 30</p><p><em>Source: Eclipse Phase Transhuman, p. 36.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "palming",
+        "name": "Palming",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Thieving",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Wealth"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 242000,
+  "ownership": {
+    "default": 0
+  }
+}

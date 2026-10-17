@@ -1,0 +1,52 @@
+{
+  "_id": "de35c7d9db1e44cb",
+  "_key": "!items!de35c7d9db1e44cb",
+  "name": "Martian",
+  "type": "background",
+  "img": "icons/svg/village.svg",
+  "system": {
+    "description": "<p>You were raised in one of the stations on or above Mars, now the most populated planet in the system. Your home town may or may not have survived the Fall.</p><p>Advantages: +10 Pilot: Groundcraft skill, +10 to one Technical, Academic: [Field], or Profession: [Field] skill of your choice, +20 Networking: Hypercorps skill Disadvantages: None Common Morphs: Flats, Splicers, and Rusters</p><p><em>Source: Eclipse Phase Core Rulebook, p. 132.</em></p>",
+    "kind": "background",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Groundcraft",
+        "value": 10
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Hypercorps",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to one Technical; Academic: [Field]; or Profession: [Field] skill of your choice",
+    "restrictions": "",
+    "morphs": "Flats, Splicers, and Rusters",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5d1fd729a9c1db00",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

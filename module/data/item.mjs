@@ -295,3 +295,35 @@ export class SubstanceData extends BaseItemData {
     };
   }
 }
+
+/* -------------------------------------------- */
+
+/**
+ * Backgrounds and factions (Core pp. 131-134) and packages (Transhuman pp. 13-41): dropped on a character, their
+ * fixed bonuses are applied (dice/backgrounds.mjs); choices ("+10 to two skills of your choice") stay as text.
+ */
+export class BackgroundData extends BaseItemData {
+  static defineSchema() {
+    return {
+      ...super.defineSchema(),
+      kind: choice(["background", "faction", "package"], "background"),
+      // Packages: their group (background, faction, focus, customization) and Package Points (1, 3 or 5)
+      group: text(),
+      pp: int(0, { min: 0 }),
+      // Skill ranks given; key "" for a skill outside the Complete Skill List
+      skills: new ArrayField(new SchemaField({ key: text(), name: text(), field: text(), value: int(0) })),
+      aptitudes: new SchemaField(Object.fromEntries(APTITUDES.map(k => [k, int(0)]))),
+      moxie: int(0),
+      credit: int(0),
+      rep: int(0),
+      // The network of that Rep ("at", "c"...), or "" when the player chooses
+      repNetwork: text(),
+      traits: new ArrayField(new SchemaField({ name: text(), level: int(1, { min: 0 }) })),
+      // What the player chooses, the restrictions, the common morphs and motivations, as printed
+      choices: text(),
+      restrictions: text(),
+      morphs: text(),
+      motivations: text()
+    };
+  }
+}

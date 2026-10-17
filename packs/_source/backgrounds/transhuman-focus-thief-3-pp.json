@@ -1,0 +1,94 @@
+{
+  "_id": "58bdba9ade50b430",
+  "_key": "!items!58bdba9ade50b430",
+  "name": "Thief (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You survive by stealing from others, whether by picking pockets or breaking and entering.</p><p><strong>Suggested Motivations:</strong> +Wealth</p><p><strong>3 PP:</strong> +50 g-rep · Climbing 25, Fray 20, Infiltration 40, Infosec 20, Interest: (Choose One) 40, Networking: Criminals 30, Palming 50, Perception 20, Profession:Thieving 50</p><p><em>Source: Eclipse Phase Transhuman, p. 36.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Criminals",
+        "value": 30
+      },
+      {
+        "key": "palming",
+        "name": "Palming",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Thieving",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "g",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Wealth"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 243000,
+  "ownership": {
+    "default": 0
+  }
+}

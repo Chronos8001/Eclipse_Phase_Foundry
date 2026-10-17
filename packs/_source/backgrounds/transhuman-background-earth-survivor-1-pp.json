@@ -1,0 +1,58 @@
+{
+  "_id": "fa81d6b84c640cf7",
+  "_key": "!items!fa81d6b84c640cf7",
+  "name": "Earth Survivor (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Unlike a small percentage of transhumanity, you did not escape off-world during the Fall, nor were you lucky enough to be killed. You survived for years, eking out an existence in the post-apocalyptic desolation of Earth while hiding from, and even fighting, the machines and twisted transhuman puppets that still lurked there. Only recently was your body rescued by scrappers or reclaimers or your egocast unwisely accepted by a trusting receiver.</p><p><strong>Suggested Motivations:</strong> +Survival, +/–Reclaiming Earth, –TITANs</p><p><strong>1 PP:</strong> +1 Moxie · Freerunning 15, Profession: (Post-Apocalyptic Survival) 30, Scrounging 40</p><p><em>Source: Eclipse Phase Transhuman, p. 17.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 15
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Post-Apocalyptic Survival",
+        "value": 30
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Survival, +/–Reclaiming Earth, –TITANs"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  }
+}

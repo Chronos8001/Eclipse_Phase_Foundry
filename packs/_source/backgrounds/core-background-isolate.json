@@ -1,0 +1,39 @@
+{
+  "_id": "9cc02fc6b410b066",
+  "_key": "!items!9cc02fc6b410b066",
+  "name": "Isolate",
+  "type": "background",
+  "img": "icons/svg/village.svg",
+  "system": {
+    "description": "<p>You were raised as part of a self-exiled grouping on the fringes of the system. Whether raised as part of a religious group, cult, social experiment, anti-tech cell, or a group that just wanted to be isolated, you spent most if not all of your upbringing isolated from other factions.</p><p>Advantages: +20 to two skills of your choice Disadvantages: –10 starting Rep Common Morphs: All</p><p><em>Source: Eclipse Phase Core Rulebook, p. 131.</em></p>",
+    "kind": "background",
+    "group": "",
+    "pp": 0,
+    "skills": [],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": -10,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+20 to two skills of your choice",
+    "restrictions": "",
+    "morphs": "All",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5d1fd729a9c1db00",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

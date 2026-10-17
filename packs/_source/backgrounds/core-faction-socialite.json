@@ -1,0 +1,58 @@
+{
+  "_id": "cae5b1ebe29cda60",
+  "_key": "!items!cae5b1ebe29cda60",
+  "name": "Socialite",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>You are a member of the inner system glitterati, the media-saturated social cliques that set trends, spread memes, and make or break lives with whispers, innuendo, and backroom deals. You are simultaneously an icon and a devout follower. Culture isn’t just your life, it’s your weapon of choice.</p><p>Advantages: +10 Persuasion skill, +10 Protocol skill, +20 Networking: Media skill Disadvantages: May not start with flat, pod, uplift, or synthetic morphs Common Morphs: Exalts, Olympians, Sylphs</p><p><em>Source: Eclipse Phase Core Rulebook, p. 134.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "protocol",
+        "name": "Protocol",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Media",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "May not start with flat; pod; uplift; or synthetic morphs",
+    "morphs": "Exalts, Olympians, Sylphs",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  }
+}

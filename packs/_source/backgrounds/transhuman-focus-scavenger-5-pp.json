@@ -1,0 +1,106 @@
+{
+  "_id": "031e9653d5d6a4c7",
+  "_key": "!items!031e9653d5d6a4c7",
+  "name": "Scavenger (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The universe can be a hard place for those who are too different. This means that many traditional jobs are denied to these kinds of people and they must find other ways of getting by, such as scavenging and taking odd jobs for meager amounts of credit or the promise of a favor later on.</p><p><strong>Suggested Motivations:</strong> +Survival, +Wealth, –Authority</p><p><strong>5 PP:</strong> +2 Moxie · +5 COG, +50 Rep (Your Choice) · Academics: (Choose One) 25,Art: Sculpture 40, Fray 20, Hardware: (Choose One) 40, Hardware: (Choose One) 30, Interest: (Choose One) 30, Networking: (Choose Two) 30, Perception 40, Pilot: (Choose One) 40, Profession: Scavenging 40, Scrounging 50</p><p><em>Source: Eclipse Phase Transhuman, p. 35.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 25
+      },
+      {
+        "key": "art",
+        "name": "Art",
+        "field": "Sculpture",
+        "value": 40
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose Two)",
+        "value": 30
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Scavenging",
+        "value": 40
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 2,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Survival, +Wealth, –Authority"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 223000,
+  "ownership": {
+    "default": 0
+  }
+}

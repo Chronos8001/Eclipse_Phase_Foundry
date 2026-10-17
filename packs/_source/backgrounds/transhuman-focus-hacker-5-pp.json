@@ -1,0 +1,118 @@
+{
+  "_id": "5bca9fabaca5f893",
+  "_key": "!items!5bca9fabaca5f893",
+  "name": "Hacker (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Processes on the mesh heed your beck and call, whether you seek to penetrate systems or protect them.</p><p><strong>Suggested Motivations:</strong> +Fame, +Open Source, +Owning Systems, +Thrill Seeking, –Hackers</p><p><strong>5 PP:</strong> +5 COG, +50 g-rep · Academics: (Computer Science) 40,Academics (Cryptography) 40, Fray 10, Hardware: Electronics 25, Infiltration 20, Infosec 50, Interfacing 50, Networking: Criminal 30, Perception 20, Profession: Mesh Security Ops 40, Profession: Social Engineering 30, Programming 50, Research 40</p><p><em>Source: Eclipse Phase Transhuman, p. 32.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Computer Science",
+        "value": 40
+      },
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Cryptography",
+        "value": 40
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "Electronics",
+        "value": 25
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Criminal",
+        "value": 30
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Mesh Security Ops",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Social Engineering",
+        "value": 30
+      },
+      {
+        "key": "programming",
+        "name": "Programming",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 5,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "g",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Fame, +Open Source, +Owning Systems, +Thrill Seeking, –Hackers"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 196000,
+  "ownership": {
+    "default": 0
+  }
+}

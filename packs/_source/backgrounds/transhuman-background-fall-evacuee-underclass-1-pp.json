@@ -1,0 +1,58 @@
+{
+  "_id": "190cd61dc1d7c60d",
+  "_key": "!items!190cd61dc1d7c60d",
+  "name": "Fall Evacuee: Underclass (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Most of those who survived made it off-planet either by virtue of their birth or earning their way into one of the enclaves. You were either lucky enough to be in the small percentage of non-elites to be evacuated or you managed to bribe, scam, or sneak your way past security during the Fall and secure a position on a shuttle or beanstalk car.</p><p><strong>Suggested Motivations:</strong> +Personal Development, +Survival, –Hypercapitalism</p><p><strong>1 PP:</strong> +1 Moxie · Networking: (Choose One) 40, Profession: (Choose One) 30, Unarmed Combat 15</p><p><em>Source: Eclipse Phase Transhuman, p. 17.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 15
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Personal Development, +Survival, –Hypercapitalism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 25000,
+  "ownership": {
+    "default": 0
+  }
+}

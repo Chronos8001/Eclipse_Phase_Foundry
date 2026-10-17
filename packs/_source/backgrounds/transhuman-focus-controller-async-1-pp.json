@@ -1,0 +1,61 @@
+{
+  "_id": "0dd87eb9e3f97905",
+  "_key": "!items!0dd87eb9e3f97905",
+  "name": "Controller Async (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your infection enables you to invade and influence the minds of others.</p><p><strong>Suggested Motivations:</strong> +Exploration, +Neurodiversity, +Self Control</p><p><strong>1 PP:</strong> Academics: Psychology 30, Control 30 · Traits: Psi (Level 2), Mental Disorder (Choose Two) · +3 Sleights (Your Choice)</p><p><em>Source: Eclipse Phase Transhuman, p. 31.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Psychology",
+        "value": 30
+      },
+      {
+        "key": "control",
+        "name": "Control",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Psi",
+        "level": 2
+      },
+      {
+        "name": "Mental Disorder",
+        "level": 1
+      }
+    ],
+    "choices": "Mental Disorder: Choose Two; +3 Sleights (Your Choice)",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exploration, +Neurodiversity, +Self Control"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 170000,
+  "ownership": {
+    "default": 0
+  }
+}

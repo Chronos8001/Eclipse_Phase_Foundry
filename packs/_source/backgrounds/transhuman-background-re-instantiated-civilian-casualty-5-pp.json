@@ -1,0 +1,117 @@
+{
+  "_id": "341ac453aa145baa",
+  "_key": "!items!341ac453aa145baa",
+  "name": "Re-Instantiated: Civilian Casualty (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You died during the Fall. Either the TITAN machines overwhelmed your area or you fell victim to transhumanity’s own use of WMDs or savage infighting. You might not even know how you died, as you were recovered from a backup transmitted off-world. However it went down, it wasn’t an experience you’d care to repeat. Luckily, you were resleeved quickly.</p><p><strong>Suggested Motivations:</strong> +Reclaiming Earth, +Survival, –TITAN Tech</p><p><strong>5 PP:</strong> +2 Moxie · +5 INT, +50 Rep (Your Choice) · (Choose Any Non-Psi Skill) 50,Academics: (Choose One) 40, Fray 20, Freerunning 20, Interest: (Choose One) 40, Interest: (Choose One) 20, Interfacing 45, Kinesics 20, Language: (Choose One) 30, Networking: (Choose One) 40, Pilot: Groundcraft 30, Profession: (Choose One) 40, Research 30 · Traits: Edited Memories</p><p><em>Source: Eclipse Phase Transhuman, p. 20.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 45
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Groundcraft",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 2,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Edited Memories",
+        "level": 1
+      }
+    ],
+    "choices": "(Choose Any Non-Psi Skill) 50",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Reclaiming Earth, +Survival, –TITAN Tech"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 66000,
+  "ownership": {
+    "default": 0
+  }
+}

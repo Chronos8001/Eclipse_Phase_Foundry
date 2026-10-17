@@ -1,0 +1,58 @@
+{
+  "_id": "8ed685efbe4b54b3",
+  "_key": "!items!8ed685efbe4b54b3",
+  "name": "Survival Training (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><strong>1 PP:</strong> Kinetic Weapons 30, Medicine: Paramedic 30, Scrounging 40</p><p><em>Source: Eclipse Phase Transhuman, p. 37.</em></p>",
+    "kind": "package",
+    "group": "customization",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Paramedic",
+        "value": 30
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "f9eeb169f0911366",
+  "sort": 268000,
+  "ownership": {
+    "default": 0
+  }
+}

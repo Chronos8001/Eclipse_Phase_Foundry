@@ -1,0 +1,124 @@
+{
+  "_id": "6ecc872e790ee56a",
+  "_key": "!items!6ecc872e790ee56a",
+  "name": "Investigator (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your sleuthing skills include old-school detective work and modern data retrieval. You might be a private investigator, a police detective, or an insurance claim agent.</p><p><strong>Suggested Motivations:</strong> +Self Reliance, +The Hunt</p><p><strong>5 PP:</strong> +5 INT, +50 Rep (Your Choice) · Fray 20, Infosec 30, Interest; (Choose One) 30, Intimidation 30, Investigation 50, Kinesics 30, Kinetic Weapons 30, Language: (Choose One) 30, Networking: (Choose One) 20, Perception 20, Profession: Forensics 50, Profession: Police Procedures 40, Research 40, Unarmed Combat 25</p><p><em>Source: Eclipse Phase Transhuman, p. 33.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Forensics",
+        "value": 50
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Police Procedures",
+        "value": 40
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 25
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 5,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Self Reliance, +The Hunt"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 202000,
+  "ownership": {
+    "default": 0
+  }
+}

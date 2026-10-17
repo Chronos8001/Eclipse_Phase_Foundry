@@ -1,0 +1,82 @@
+{
+  "_id": "e7273a1642ae2685",
+  "_key": "!items!e7273a1642ae2685",
+  "name": "Mercurial: Uplift (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You oppose the assimilation of uplifts into transhumanity, believing that each intelligence should forge their own path and culture.</p><p><strong>Suggested Motivations:</strong> +Mercurial Cause, +Uplift Rights, –Assimilation, –Bioconservatism, –Sapient Cause</p><p><strong>3 PP:</strong> +1 Moxie · +50 Rep (Your Choice) · (Choose Any Skill) 50, Interest: Uplift Clades 50, Interest: (Choose One) 40, Intimidation 20, Medicine: Uplifts 30, Networking: (Choose One) 30, Persuasion 30, Unarmed Combat 30</p><p><em>Source: Eclipse Phase Transhuman, p. 25.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "Uplift Clades",
+        "value": 50
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Uplifts",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "(Choose Any Skill) 50",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Mercurial Cause, +Uplift Rights, –Assimilation, –Bioconservatism, –Sapient Cause"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 114000,
+  "ownership": {
+    "default": 0
+  }
+}

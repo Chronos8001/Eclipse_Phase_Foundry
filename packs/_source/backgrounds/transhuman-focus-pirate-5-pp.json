@@ -1,0 +1,124 @@
+{
+  "_id": "91101a7c7edbb0ce",
+  "_key": "!items!91101a7c7edbb0ce",
+  "name": "Pirate (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Traveling wasn’t something you did because you wanted to see new places and people. More often than not, you needed to skip out of a habitat to avoid arrest. Soon enough, your talent at evading authorities was parlayed into a more profitable career “liberating” cargo from automated haulers and finding the best place to sell the goods.</p><p><strong>Suggested Motivations:</strong> +Survival, +Thrill Seeking, +Wealth, –Authority</p><p><strong>5 PP:</strong> +1 Moxie · +5 COO, +50 g-rep · Art (Choose One ) 30, Fray 20, Gunnery 30, Infiltration 30, Interest: (Choose One) 40, Intimidation 20, Language (Choose One) 30, Kinetic Weapons 30, Networking: Criminals 30, Perception 20, Pilot: Spacecraft 50, Profession: Piracy 50, Scrounging 30, Unarmed Combat 20</p><p><em>Source: Eclipse Phase Transhuman, p. 34.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "art",
+        "name": "Art",
+        "field": "(Choose One )",
+        "value": 30
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "gunnery",
+        "name": "Gunnery",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Criminals",
+        "value": 30
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Spacecraft",
+        "value": 50
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Piracy",
+        "value": 50
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "g",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Survival, +Thrill Seeking, +Wealth, –Authority"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 211000,
+  "ownership": {
+    "default": 0
+  }
+}

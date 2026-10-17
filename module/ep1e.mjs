@@ -14,8 +14,9 @@ import { statusEffects } from "./helpers/effects.mjs";
 import { refreshAttackCard } from "./dice/opposed.mjs";
 import { onCombatRound } from "./dice/conditions.mjs";
 import { expireEffects } from "./dice/ego.mjs";
+import { applyBackground } from "./dice/backgrounds.mjs";
 
-const ITEM_TYPES = ["skill", "morph", "trait", "weapon", "armor", "gear", "augmentation", "sleight", "software", "substance"];
+const ITEM_TYPES = ["skill", "morph", "trait", "weapon", "armor", "gear", "augmentation", "sleight", "software", "substance", "background"];
 
 Hooks.once("init", () => {
   console.log(`${SYSTEM_ID} | Initializing Eclipse Phase (1st Edition)`);
@@ -36,7 +37,8 @@ Hooks.once("init", () => {
     augmentation: itemModels.AugmentationData,
     sleight: itemModels.SleightData,
     software: itemModels.SoftwareData,
-    substance: itemModels.SubstanceData
+    substance: itemModels.SubstanceData,
+    background: itemModels.BackgroundData
   };
 
   // Token bars: damage (vs. Durability) and stress (vs. Lucidity)
@@ -83,6 +85,11 @@ Hooks.on("updateChatMessage", message => refreshAttackCard(message));
 
 // Each new Action Turn: timed conditions, bleeding and fire
 Hooks.on("updateCombat", onCombatRound);
+
+// A background, faction or package dropped on a character applies its bonuses (by the user who dropped it)
+Hooks.on("createItem", (item, options, userId) => {
+  if ( (userId === game.user.id) && (item.type === "background") && item.parent ) applyBackground(item);
+});
 
 // Effects lasting days of world time (integration penalties) end when the time passes
 Hooks.on("updateWorldTime", worldTime => expireEffects(worldTime));

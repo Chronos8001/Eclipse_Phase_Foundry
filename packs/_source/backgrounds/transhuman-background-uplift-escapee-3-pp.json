@@ -1,0 +1,97 @@
+{
+  "_id": "7d0078b3ac33174a",
+  "_key": "!items!7d0078b3ac33174a",
+  "name": "Uplift: Escapee (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Though you are as intelligent as a human, you were born and raised as a second-class citizen, corporate property, or worse: a test subject. Somehow you escaped or were liberated, and now you try to find yourself in a galaxy that often seems out to get you. *Replace Climbing skill with any skill more appropriate to the uplift type (Flight for neo-avians, Swimming for neo-octopi, Freerunning for neanderthals, etc).</p><p><strong>Suggested Motivations:</strong> +Privacy, +Survival, +Uplift Rights, –Hypercorps, –Uplift Slavery</p><p><strong>3 PP:</strong> +1 Moxie · Climbing* 45, Deception 40, Infiltration 50, Impersonation 40, Interest: (Choose One) 40, Language: (Choose One) 20, Networking: (Choose One) 40, Profession: (Choose One) 30 · Traits: On the Run, Social Stigma (Uplift)</p><p><em>Source: Eclipse Phase Transhuman, p. 21.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 45
+      },
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "impersonation",
+        "name": "Impersonation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "On the Run",
+        "level": 1
+      },
+      {
+        "name": "Social Stigma",
+        "level": 1
+      }
+    ],
+    "choices": "Social Stigma: Uplift",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Privacy, +Survival, +Uplift Rights, –Hypercorps, –Uplift Slavery"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 77000,
+  "ownership": {
+    "default": 0
+  }
+}

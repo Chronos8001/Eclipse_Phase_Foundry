@@ -1,0 +1,94 @@
+{
+  "_id": "44a85fad298e978f",
+  "_key": "!items!44a85fad298e978f",
+  "name": "Reclaimer (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are dedicated to rescuing your species’ homeworld from the ruin engulfing it.</p><p><strong>Suggested Motivations:</strong> +Bioconservatism, +Reclaiming Earth, –AGI Rights</p><p><strong>3 PP:</strong> +50 Rep (Your Choice) · Demolitions 20, Freerunning 30, Hardware: (Choose One) 50, Infosec 30, Language: (Choose One) 50, Language: (Choose One) 40, Networking: (Choose One) 20, Pilot: (Choose One) 25, Seeker Weapons 30</p><p><em>Source: Eclipse Phase Transhuman, p. 26.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "demolitions",
+        "name": "Demolitions",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "(Choose One)",
+        "value": 25
+      },
+      {
+        "key": "seekerWeapons",
+        "name": "Seeker Weapons",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Bioconservatism, +Reclaiming Earth, –AGI Rights"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 126000,
+  "ownership": {
+    "default": 0
+  }
+}

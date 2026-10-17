@@ -1,0 +1,52 @@
+{
+  "_id": "591a2c4d175e531a",
+  "_key": "!items!591a2c4d175e531a",
+  "name": "Jovian",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>Your faction is noted for its authoritarian regime, bioconservative ideologies, and militaristic tendencies. Where you come from, technology is not to be trusted to everyone and humans need to be protected from themselves. To ensure its survival, humanity must be able to defend itself, and unfettered growth must be checked.</p><p>Advantages: +10 to two weapon skills of your choice, +10 Fray, +20 Networking: Hypercorps skill Disadvantages: Must start with a Flat or Splicer morph, may not start with any nanoware or advanced nanotech Common Morphs: Flats and Splicers</p><p><em>Source: Eclipse Phase Core Rulebook, p. 134.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Hypercorps",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to two weapon skills of your choice",
+    "restrictions": "Must start with a Flat or Splicer morph; may not start with any nanoware or advanced nanotech",
+    "morphs": "Flats and Splicers",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  }
+}

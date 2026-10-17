@@ -1,0 +1,39 @@
+{
+  "_id": "eab1eda6f90dbd58",
+  "_key": "!items!eab1eda6f90dbd58",
+  "name": "Ultimate",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>Your faction sees the potential in transhumanity’s future and looks back upon the rest of transhumanity as weak and hedonistic. Transhumanity is set to take the next evolutionary step and it’s time for transhumans to be redesigned to the best of our capabilities.</p><p>Advantages: +10 to two skills of your choice, +20 to a Networking: [Field] skill of your choice Disadvantages: May not start with Flat, Splicer, uplift, or pod morphs Common Morphs: Exalts, Remades</p><p><em>Source: Eclipse Phase Core Rulebook, p. 134.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to two skills of your choice; +20 to a Networking: [Field] skill of your choice",
+    "restrictions": "May not start with Flat; Splicer; uplift; or pod morphs",
+    "morphs": "Exalts, Remades",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 26000,
+  "ownership": {
+    "default": 0
+  }
+}

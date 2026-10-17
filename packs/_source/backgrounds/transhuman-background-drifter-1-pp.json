@@ -1,0 +1,58 @@
+{
+  "_id": "ff7536502bf5eb62",
+  "_key": "!items!ff7536502bf5eb62",
+  "name": "Drifter (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You may be a Martian nomad, an original scum swarm pioneer, a free trader, or just a wanderer. Your people have always gone where the work was, first on Earth and then into space, where hands or your kind of skills were needed. You may not be as highly specialized as some people, but you know a little about a lot of things and have picked up what you need to get by. *Martian nomads may exchange Free Fall for Climbing or Freerunning skill.</p><p><strong>Suggested Motivations:</strong> +Exploration, +Hard Work, +Pragmatism, +Survival</p><p><strong>1 PP:</strong> +1 Moxie · Free Fall* 15, Profession: (Choose One) 30, Scrounging 40</p><p><em>Source: Eclipse Phase Transhuman, p. 16.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 15
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exploration, +Hard Work, +Pragmatism, +Survival"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

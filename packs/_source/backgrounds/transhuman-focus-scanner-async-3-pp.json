@@ -1,0 +1,85 @@
+{
+  "_id": "934704c507762f48",
+  "_key": "!items!934704c507762f48",
+  "name": "Scanner Async (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your mind is altered in a way that provides you with preternatural senses.</p><p><strong>Suggested Motivations:</strong> +Exploration, +Neurodiversity, +Personal Development, +Self Control</p><p><strong>3 PP:</strong> +50 Rep (Your Choice) · Academics: (Choose One) 30, Impersonation 35, Interest: (Choose Two) 30, Kinesics 35, Perception 40, Sense 50 · Traits: Psi (Level 2), Mental Disorder (Choose Two) · +4 Sleights (Your Choice)</p><p><em>Source: Eclipse Phase Transhuman, p. 34.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "impersonation",
+        "name": "Impersonation",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose Two)",
+        "value": 30
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "sense",
+        "name": "Sense",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Psi",
+        "level": 2
+      },
+      {
+        "name": "Mental Disorder",
+        "level": 1
+      }
+    ],
+    "choices": "Mental Disorder: Choose Two; +4 Sleights (Your Choice)",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exploration, +Neurodiversity, +Personal Development, +Self Control"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 219000,
+  "ownership": {
+    "default": 0
+  }
+}

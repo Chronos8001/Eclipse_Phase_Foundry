@@ -1,0 +1,112 @@
+{
+  "_id": "3bcfb5a701ff20b6",
+  "_key": "!items!3bcfb5a701ff20b6",
+  "name": "Fall Evacuee: Underclass (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Most of those who survived made it off-planet either by virtue of their birth or earning their way into one of the enclaves. You were either lucky enough to be in the small percentage of non-elites to be evacuated or you managed to bribe, scam, or sneak your way past security during the Fall and secure a position on a shuttle or beanstalk car.</p><p><strong>Suggested Motivations:</strong> +Personal Development, +Survival, –Hypercapitalism</p><p><strong>5 PP:</strong> +2 Moxie · +5 WIL, +50 Rep (Your Choice) · Academics: (Choose One) 30, Blades 30, Fray 20, Infiltration 30, Interest: (Choose One) 40, Deception 30, Language: (Choose One) 40, Networking: (Choose One) 50, Persuasion 40, Pilot: Groundcraft 30, Profession: (Choose One) 40, Unarmed Combat 35</p><p><em>Source: Eclipse Phase Transhuman, p. 17.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "blades",
+        "name": "Blades",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Groundcraft",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 35
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 5
+    },
+    "moxie": 2,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Personal Development, +Survival, –Hypercapitalism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 27000,
+  "ownership": {
+    "default": 0
+  }
+}

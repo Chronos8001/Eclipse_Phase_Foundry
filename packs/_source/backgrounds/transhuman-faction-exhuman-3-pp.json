@@ -1,0 +1,88 @@
+{
+  "_id": "1c76c6d6b6e120dc",
+  "_key": "!items!1c76c6d6b6e120dc",
+  "name": "Exhuman (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are a supporter of discarding humanity’s genetic shackles and elevating yourself to a newer, improved physical form.</p><p><strong>Suggested Motivations:</strong> +Exhumanism, +Morphological Freedom, +Personal Development, +Research</p><p><strong>3 PP:</strong> +1 Moxie · Academics: Genetics 40, Disguise 15, Interest: Exhumans 50, Intimidation 30, Medicine: Biosculpting 50, Medicine: (Choose One) 30, Psychosurgery 30, Unarmed Combat 40</p><p><em>Source: Eclipse Phase Transhuman, p. 24.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Genetics",
+        "value": 40
+      },
+      {
+        "key": "disguise",
+        "name": "Disguise",
+        "field": "",
+        "value": 15
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "Exhumans",
+        "value": 50
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Biosculpting",
+        "value": 50
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "psychosurgery",
+        "name": "Psychosurgery",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exhumanism, +Morphological Freedom, +Personal Development, +Research"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 102000,
+  "ownership": {
+    "default": 0
+  }
+}

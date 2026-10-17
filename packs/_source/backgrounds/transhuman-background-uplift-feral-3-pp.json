@@ -1,0 +1,89 @@
+{
+  "_id": "f3760fdd69047329",
+  "_key": "!items!f3760fdd69047329",
+  "name": "Uplift: Feral (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The uplift process did not “humanize” you as much as other uplifts. Your natural instincts dominate your behavior far more than any attempts to socialize you to human norms.</p><p><strong>Suggested Motivations:</strong> +Mercurial Cause, +Survival, +Uplift Rights, –Hypercorps, –Uplift Slavery</p><p><strong>3 PP:</strong> +2 Moxie · Climbing* 50, Fray 40, Infiltration 20, Interest: (Choose Two) 45, Intimidation 40, Unarmed Combat 50 · Traits:Anomalous Mind, Heightened Instinct, Social Stigma (Uplift)</p><p><em>Source: Eclipse Phase Transhuman, p. 22.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose Two)",
+        "value": 45
+      },
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 2,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Anomalous Mind",
+        "level": 1
+      },
+      {
+        "name": "Heightened Instinct",
+        "level": 1
+      },
+      {
+        "name": "Social Stigma",
+        "level": 1
+      }
+    ],
+    "choices": "Social Stigma: Uplift",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Mercurial Cause, +Survival, +Uplift Rights, –Hypercorps, –Uplift Slavery"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 80000,
+  "ownership": {
+    "default": 0
+  }
+}

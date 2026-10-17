@@ -9,6 +9,8 @@ export const FREE = { aptitudes: 105, moxie: 1, credit: 5000, rep: 50 };
 export const DEFAULT_CP = 1000;
 
 export const COST = { moxie: 15, aptitude: 10, sleight: 5, specialization: 5, rep: 1, credit: 1 };
+/** A Package Point is worth 100 CP (Transhuman p. 14). */
+export const CP_PER_PP = 100;
 /** Every 10 points of Rep, every 1,000 credit cost 1 point. */
 export const REP_PER_POINT = 10;
 export const CREDIT_PER_POINT = 1000;
@@ -55,10 +57,11 @@ export function aptitudeRezCost(points, linkedTotals = []) {
  * @param {{cost: number, negative: boolean, morph: boolean}[]} c.traits  CP cost (or bonus) of each trait bought
  * @param {number} c.morph         CP cost of the starting morph
  * @param {number} c.sleights      Sleights bought
+ * @param {number} [c.packages=0]  Package Points of the packages taken (their skills are free ranks)
  * @param {number} [c.other=0]     Other CP (credit...) noted by the player
  * @returns {{lines: object, spent: number, gained: number, warnings: string[]}}  warnings: i18n keys with data
  */
-export function creationCost({ aptitudes, moxie, skills, rep, traits, morph, sleights, other = 0 }) {
+export function creationCost({ aptitudes, moxie, skills, rep, traits, morph, sleights, packages = 0, other = 0 }) {
   const warnings = [];
   const aptitudePoints = aptitudes.reduce((a, b) => a + b, 0) - FREE.aptitudes;
   if ( aptitudes.some(a => a < LIMITS.aptitudeMin) ) warnings.push({ key: "aptitudeMin" });
@@ -96,6 +99,7 @@ export function creationCost({ aptitudes, moxie, skills, rep, traits, morph, sle
     positiveTraits: positive,
     morph,
     sleights: sleights * COST.sleight,
+    packages: packages * CP_PER_PP,
     other
   };
   const spent = Object.values(lines).reduce((a, b) => a + b, 0);

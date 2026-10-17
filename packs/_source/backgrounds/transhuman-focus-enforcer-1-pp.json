@@ -1,0 +1,58 @@
+{
+  "_id": "7681d37aec872f66",
+  "_key": "!items!7681d37aec872f66",
+  "name": "Enforcer (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>In basic terms, you’re a thug, no matter if you work for a hypercorp, cartel head, or habitat overseer.</p><p><strong>Suggested Motivations:</strong> +Cartel Growth, +Fascism, +Self Reliance, +Stability</p><p><strong>1 PP:</strong> Intimidation 40, Profession: Enforcement 30, Unarmed Combat 30</p><p><em>Source: Eclipse Phase Transhuman, p. 31.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "intimidation",
+        "name": "Intimidation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Enforcement",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Cartel Growth, +Fascism, +Self Reliance, +Stability"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 182000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "_id": "7e2f964a849d4e18",
+  "_key": "!items!7e2f964a849d4e18",
+  "name": "Preservationist (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You believe that alien worlds must be protected from contamination and that transhumanity is recklessly despoiling thousands of exoplanets as it expands through the gates.</p><p><strong>Suggested Motivations:</strong> +Environmentalism, +Preservationism, +Research, –Gatecrashing, –Nano-ecology</p><p><strong>3 PP:</strong> +50 e-rep · Academics: (Ecology) 50,Art: (Choose One) 30, Freerunning 40, Interest: (Choose One) 30, Investigation 40, Medicine: (Choose One) 30, Navigation 35, Networking: (Ecologists) 40</p><p><em>Source: Eclipse Phase Transhuman, p. 26.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Ecology",
+        "value": 50
+      },
+      {
+        "key": "art",
+        "name": "Art",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "navigation",
+        "name": "Navigation",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Ecologists",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "e",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Environmentalism, +Preservationism, +Research, –Gatecrashing, –Nano-ecology"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 124000,
+  "ownership": {
+    "default": 0
+  }
+}

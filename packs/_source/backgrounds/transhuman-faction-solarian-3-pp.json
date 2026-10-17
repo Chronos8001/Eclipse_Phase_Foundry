@@ -1,0 +1,82 @@
+{
+  "_id": "d50868fbdc2378a7",
+  "_key": "!items!d50868fbdc2378a7",
+  "name": "Solarian (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You have skated the magnetic fields in the sun’s corona with your pack of surya.</p><p><strong>Suggested Motivations:</strong> +Exploration, +Morphological Freedom, +Personal Development, +Research</p><p><strong>3 PP:</strong> +2 Moxie · +50 Rep (Your Choice) · Flight 50, Interest: (Choose One) 50, Interest: (Choose One) 40, Medicine: Nanomedicine 40, Navigation 30, Networking: (Choose One) 30, Pilot: Spacecraft 25</p><p><em>Source: Eclipse Phase Transhuman, p. 28.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "flight",
+        "name": "Flight",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "medicine",
+        "name": "Medicine",
+        "field": "Nanomedicine",
+        "value": 40
+      },
+      {
+        "key": "navigation",
+        "name": "Navigation",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Spacecraft",
+        "value": 25
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 2,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exploration, +Morphological Freedom, +Personal Development, +Research"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 142000,
+  "ownership": {
+    "default": 0
+  }
+}

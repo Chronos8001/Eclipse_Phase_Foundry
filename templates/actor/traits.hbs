@@ -20,6 +20,24 @@
     </ol>
   </section>
 
+  <section class="panel backgrounds">
+    <header class="list-header">
+      <h3>{{localize "EP1E.Section.backgrounds"}}</h3>
+    </header>
+    <ol class="item-list">
+      {{#each backgrounds as |item|}}
+      <li class="item-row draggable" data-item-id="{{item.id}}">
+        <img src="{{item.img}}" alt="">
+        <span class="name"><a data-action="itemToChat">{{item.name}}</a>
+          <small>{{localize (concat "EP1E.Background.kind." item.system.kind)}}{{#if item.system.pp}} · {{item.system.pp}} PP{{/if}}</small></span>
+        {{> "systems/ep1e/templates/actor/parts/item-controls.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "EP1E.Background.none"}}</li>
+      {{/each}}
+    </ol>
+  </section>
+
   <section class="panel sleights">
     <header class="list-header">
       <h3>{{localize "EP1E.Section.sleights"}}</h3>

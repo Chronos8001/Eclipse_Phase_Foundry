@@ -1,0 +1,58 @@
+{
+  "_id": "95cf8027e4519f74",
+  "_key": "!items!95cf8027e4519f74",
+  "name": "Extropian (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are an Extropian because you believe in the unfettered potential of transhumanity. Too many saw the Fall as a cautionary tale to slow down or even stop entirely, but you believe that the only way for transhumanity to survive is forwards and upwards to greater things.</p><p><strong>Suggested Motivations:</strong> +Extropianism, +Morphological Freedom, Personal Development, –Bioconservativism</p><p><strong>1 PP:</strong> Interest: Cutting-Edge Technology 30, Networking:Autonomists 30, Persuasion 40</p><p><em>Source: Eclipse Phase Transhuman, p. 24.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "Cutting-Edge Technology",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Autonomists",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Extropianism, +Morphological Freedom, Personal Development, –Bioconservativism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 103000,
+  "ownership": {
+    "default": 0
+  }
+}

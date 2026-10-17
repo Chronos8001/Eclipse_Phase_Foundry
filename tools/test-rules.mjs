@@ -318,6 +318,8 @@ assert.equal(tai.spent, 60 + 20 + 45 + 5 + 10 + 5 + 40);
 assert.ok(tai.warnings.some(w => w.key === "activeMinimum"));
 assert.ok(tai.warnings.some(w => w.key === "aptitudeMax") === false);
 assert.equal(adv.creationCost({ aptitudes: [25, 25, 15, 15, 15, 15, 15], moxie: 1, skills: [], rep: [50], traits: [], morph: 0, sleights: 0 }).lines.aptitudes, 200);
+// Packages: 100 CP per Package Point (Transhuman p. 14)
+assert.equal(adv.creationCost({ aptitudes: [15, 15, 15, 15, 15, 15, 15], moxie: 1, skills: [], rep: [50], traits: [], morph: 0, sleights: 0, packages: 10 }).spent, 1000);
 // Rez Points: limits of the rules
 assert.deepEqual(adv.rezCost("moxie", { from: 9, points: 1 }), { cost: 15 });
 assert.deepEqual(adv.rezCost("moxie", { from: 10, points: 1 }), { error: "moxieMax" });

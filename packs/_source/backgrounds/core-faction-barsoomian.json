@@ -1,0 +1,52 @@
+{
+  "_id": "cd430616d57c1f85",
+  "_key": "!items!cd430616d57c1f85",
+  "name": "Barsoomian",
+  "type": "background",
+  "img": "icons/svg/banner.svg",
+  "system": {
+    "description": "<p>You call the Martian outback and wilds your home. You are a “redneck,” a lower-class Martian from the rural areas that often find themselves in conflict with the policies and goals of the hypercorp domes and Tharsis League.</p><p>Advantages: +10 Freerunning, +10 to one skill of your choice, +20 Networking: Autonomists skill Disadvantages: None Common Morphs: Cases, Flats, Rusters, Splicers, Synths</p><p><em>Source: Eclipse Phase Core Rulebook, p. 132.</em></p>",
+    "kind": "faction",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "freerunning",
+        "name": "Freerunning",
+        "field": "",
+        "value": 10
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Autonomists",
+        "value": 20
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "+10 to one skill of your choice",
+    "restrictions": "",
+    "morphs": "Cases, Flats, Rusters, Splicers, Synths",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "09a34ff029e2cb38",
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  }
+}

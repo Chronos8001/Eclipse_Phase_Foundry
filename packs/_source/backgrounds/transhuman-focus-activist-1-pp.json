@@ -1,0 +1,58 @@
+{
+  "_id": "7f37110bd065f539",
+  "_key": "!items!7f37110bd065f539",
+  "name": "Activist (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You fight for a cause that you fervently believe in. You are an active member of a group like the anti-assimilationist mercurials, anti-technology bioconservatives, pro-privacy Datacide, Luna’s Steel Liberators, Venus’s VTP, Mars’s Barsoomians, or Titan’s Oligarchs.</p><p><strong>Suggested Motivations:</strong> +Bioconservatism, +Mercurial Cause, +Privacy, +Terraforming, +Venusian Sovereignty</p><p><strong>1 PP:</strong> Interest: (Choose One) 30, Persuasion 40, Research 30</p><p><em>Source: Eclipse Phase Transhuman, p. 29.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "research",
+        "name": "Research",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Bioconservatism, +Mercurial Cause, +Privacy, +Terraforming, +Venusian Sovereignty"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 152000,
+  "ownership": {
+    "default": 0
+  }
+}

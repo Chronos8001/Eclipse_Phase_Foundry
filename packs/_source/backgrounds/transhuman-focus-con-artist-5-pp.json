@@ -1,0 +1,112 @@
+{
+  "_id": "9c3fa7a0250632db",
+  "_key": "!items!9c3fa7a0250632db",
+  "name": "Con Artist (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You excel at working your way into people’s confidence and turning that against them.</p><p><strong>Suggested Motivations:</strong> +Privacy, +Survival, +Vice</p><p><strong>5 PP:</strong> +5 SAV · +50 Rep (Your Choice) · Academics: Psychology 40, Deception 50, Disguise 40, Impersonation 40, Infosec 30, Interest: (Choose One) 30, Kinesics 25, Language: (Choose One) 30, Perception 20, Palming 40, Profession: Con Schemes 50, Persuasion 50</p><p><em>Source: Eclipse Phase Transhuman, p. 30.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Psychology",
+        "value": 40
+      },
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "disguise",
+        "name": "Disguise",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "impersonation",
+        "name": "Impersonation",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "kinesics",
+        "name": "Kinesics",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "palming",
+        "name": "Palming",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Con Schemes",
+        "value": 50
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 5,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Privacy, +Survival, +Vice"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 169000,
+  "ownership": {
+    "default": 0
+  }
+}

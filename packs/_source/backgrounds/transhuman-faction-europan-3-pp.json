@@ -1,0 +1,88 @@
+{
+  "_id": "a7a942b911eaf159",
+  "_key": "!items!a7a942b911eaf159",
+  "name": "Europan (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You hail from the aquatic depths and under-ice habitats of Europa.</p><p><strong>Suggested Motivations:</strong> +Exploration, +Morphological Freedom, +Uplift Rights, –Bioconservatism</p><p><strong>3 PP:</strong> +1 Moxie · +50 Rep (Your Choice) · Academics: (Choose One) 40,Academics: (Choose One) 20, Interfacing 30, Navigation 35, Networking: (Choose One) 30, Pilot: Submarine 40, Profession: (Choose One) 35, Swimming 50</p><p><em>Source: Eclipse Phase Transhuman, p. 24.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 20
+      },
+      {
+        "key": "interfacing",
+        "name": "Interfacing",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "navigation",
+        "name": "Navigation",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Submarine",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 35
+      },
+      {
+        "key": "swimming",
+        "name": "Swimming",
+        "field": "",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exploration, +Morphological Freedom, +Uplift Rights, –Bioconservatism"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  }
+}

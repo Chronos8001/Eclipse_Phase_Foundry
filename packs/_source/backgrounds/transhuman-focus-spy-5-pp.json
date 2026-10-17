@@ -1,0 +1,106 @@
+{
+  "_id": "c85433fd055ecc6b",
+  "_key": "!items!c85433fd055ecc6b",
+  "name": "Spy (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are a covert agent, skilled at infiltrating the opposition to ferret out secrets or further your own agenda.</p><p><strong>Suggested Motivations:</strong> +Secret Identity, –Secrets</p><p><strong>5 PP:</strong> +1 Moxie · +5 SAV, +50 Rep (Your Choice) · Academics: Cryptography 40, Deception 50, Fray 30, Impersonation 25, Infiltration 40, Infosec 40, Investigation 25, Languages: (Choose Two) 30, Palming 30, Perception 40, Profession: Spycraft 50</p><p><em>Source: Eclipse Phase Transhuman, p. 36.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Cryptography",
+        "value": 40
+      },
+      {
+        "key": "deception",
+        "name": "Deception",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "impersonation",
+        "name": "Impersonation",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "investigation",
+        "name": "Investigation",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "language",
+        "name": "Languages",
+        "field": "(Choose Two)",
+        "value": 30
+      },
+      {
+        "key": "palming",
+        "name": "Palming",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Spycraft",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 5,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Secret Identity, –Secrets"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 238000,
+  "ownership": {
+    "default": 0
+  }
+}

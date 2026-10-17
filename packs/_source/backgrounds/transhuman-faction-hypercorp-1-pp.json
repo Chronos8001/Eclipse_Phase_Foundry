@@ -1,0 +1,58 @@
+{
+  "_id": "a51aeb063f4d97eb",
+  "_key": "!items!a51aeb063f4d97eb",
+  "name": "Hypercorp (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The Fall upset the natural ebb and flow of trade and innovation in such a way that transhumanity is just starting to recover. Some fools believe that the Fall was a sign that old systems and practices needed to be changed, but people like a sense of continuity. They like having their consumer goods and regular mesh programming, and that’s what the hypercorps give them, a link to a shared human experience.</p><p><strong>Suggested Motivations:</strong> +Hypercapitalism, +Stability, +Wealth, –Anarchism, –AGI Rights, –Uplift Rights</p><p><strong>1 PP:</strong> Academics: Economics 30, Persuasion 30, Protocol 40</p><p><em>Source: Eclipse Phase Transhuman, p. 25.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "Economics",
+        "value": 30
+      },
+      {
+        "key": "persuasion",
+        "name": "Persuasion",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "protocol",
+        "name": "Protocol",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Hypercapitalism, +Stability, +Wealth, –Anarchism, –AGI Rights, –Uplift Rights"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 105000,
+  "ownership": {
+    "default": 0
+  }
+}

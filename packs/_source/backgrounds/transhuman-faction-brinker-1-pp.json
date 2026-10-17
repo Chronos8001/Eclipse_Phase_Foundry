@@ -1,0 +1,58 @@
+{
+  "_id": "4af93f33e6060292",
+  "_key": "!items!4af93f33e6060292",
+  "name": "Brinker (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Some folk just aren’t all that fond of too many other folk. Being in space and having to live cheek-to-jowl with others makes it kinda hard. Your fellow brinkers understand you need a little “me space” to go along with “me time.”</p><p><strong>Suggested Motivations:</strong> +Bioconservatism, +Exhumanism, +Privacy, +Religion, +Solitude, +Self Reliance</p><p><strong>1 PP:</strong> Pilot: (Spacecraft) 40, Profession: (Choose One) 30, Scrounging 30</p><p><em>Source: Eclipse Phase Transhuman, p. 24.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Spacecraft",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Bioconservatism, +Exhumanism, +Privacy, +Religion, +Solitude, +Self Reliance"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 95000,
+  "ownership": {
+    "default": 0
+  }
+}

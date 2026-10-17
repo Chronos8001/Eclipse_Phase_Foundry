@@ -6,6 +6,7 @@
       "vehicle": "Robot / véhicule"
     },
     "Item": {
+      "background": "Historique / faction / package",
       "skill": "Compétence",
       "morph": "Morphe",
       "trait": "Trait",
@@ -19,6 +20,32 @@
     }
   },
   "EP1E": {
+    "Background": {
+      "kind": {
+        "background": "Historique",
+        "faction": "Faction",
+        "package": "Package"
+      },
+      "kindLabel": "Type",
+      "pp": "Points de package",
+      "moxie": "Moxie",
+      "credit": "Crédits",
+      "rep": "Rep (à répartir)",
+      "skills": "Rangs de compétence",
+      "traits": "Traits",
+      "choices": "Choix",
+      "restrictions": "Restrictions",
+      "morphs": "Morphes courants",
+      "none": "Ni historique, ni faction, ni package.",
+      "dropHint": "Déposé sur un personnage, il donne ses rangs de compétence (rangs gratuits), ses traits (sans coût), ses bonus d’aptitude, de Moxie et de crédits ; les choix se font à la main. Supprimer l’objet ne les retire pas.",
+      "applied": "{item} appliqué à {name}.",
+      "todo": "À faire à la main :",
+      "repTodo": "{rep} de rep à répartir",
+      "duplicate": "{skill} était déjà monté par un autre package : échangez ou cumulez les points (Transhuman p. 38).",
+      "unknownSkill": "{skill} : compétence hors liste, créée en compétence de connaissance.",
+      "unknownTrait": "Trait {trait} introuvable dans le compendium : ajoutez-le à la main.",
+      "notReverted": "Supprimer cet objet ne retire pas ce qu’il a donné."
+    },
     "Advance": {
       "title": "Dépenser des points de rez : {name}",
       "spend": "Dépenser des points de rez",
@@ -63,6 +90,7 @@
       "gained": "Les traits négatifs donnent {cp} PC de plus.",
       "creationHint": "Points de création que représente la fiche (p. 134-136) : aptitudes au-delà des 105 points gratuits, Moxie au-delà de 1, points de compétence au-dessus de l’aptitude liée hors points gratuits (fiche de la compétence), rep au-delà des 50 points gratuits, traits, morphe actif, sleights. Traits gratuits de l’historique ou de la faction : mettez leur coût à 0.",
       "line": {
+        "packages": "Packages",
         "aptitudes": "Aptitudes",
         "moxie": "Moxie",
         "active": "Compétences actives",
@@ -228,6 +256,7 @@
       "mesh": "Mesh"
     },
     "Section": {
+      "backgrounds": "Historique, faction et packages",
       "aptitudes": "Aptitudes",
       "stats": "Caractéristiques",
       "mods": "Modificateurs permanents",

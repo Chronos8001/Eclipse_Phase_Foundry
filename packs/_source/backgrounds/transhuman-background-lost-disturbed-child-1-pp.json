@@ -1,0 +1,75 @@
+{
+  "_id": "2ff737e636eff683",
+  "_key": "!items!2ff737e636eff683",
+  "name": "Lost: Disturbed Child (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The Lost project unwittingly created a generation of monsters. You are among the odd, deranged, twisted, psychotic, and powerful examples that escaped.</p><p><strong>Suggested Motivations:</strong> +Neurodiversity, +Sadism, +Vengeance, –Research</p><p><strong>1 PP:</strong> +1 Moxie · Academics: (Choose One) 30, Control 35, Free Fall 15 · Traits: Psi (Level 2), Mental Disorder (Choose Three), On the Run, Real World Naiveté · +2 psi-gamma sleights</p><p><em>Source: Eclipse Phase Transhuman, p. 20.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "control",
+        "name": "Control",
+        "field": "",
+        "value": 35
+      },
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 15
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Psi",
+        "level": 2
+      },
+      {
+        "name": "Mental Disorder",
+        "level": 1
+      },
+      {
+        "name": "On the Run",
+        "level": 1
+      },
+      {
+        "name": "Real World Naiveté",
+        "level": 1
+      }
+    ],
+    "choices": "Mental Disorder: Choose Three; +2 psi-gamma sleights",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Neurodiversity, +Sadism, +Vengeance, –Research"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 55000,
+  "ownership": {
+    "default": 0
+  }
+}

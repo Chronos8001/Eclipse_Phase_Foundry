@@ -1,0 +1,118 @@
+{
+  "_id": "dd75dbb6564702a1",
+  "_key": "!items!dd75dbb6564702a1",
+  "name": "Thief (5 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You survive by stealing from others, whether by picking pockets or breaking and entering.</p><p><strong>Suggested Motivations:</strong> +Wealth</p><p><strong>5 PP:</strong> +1 Moxie · +5 COO, +50 g-rep · Art: (Choose One) 30, Blades 20, Climbing 40, Fray 30, Hardware: Electronics 15, Infiltration 40, Infosec 25, Interest: (Choose One) 40, Language: (Choose One) 30, Networking: Criminals 30, Palming 50, Perception 30, Profession:Thieving 50</p><p><em>Source: Eclipse Phase Transhuman, p. 36.</em></p>",
+    "kind": "package",
+    "group": "focus",
+    "pp": 5,
+    "skills": [
+      {
+        "key": "art",
+        "name": "Art",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "blades",
+        "name": "Blades",
+        "field": "",
+        "value": 20
+      },
+      {
+        "key": "climbing",
+        "name": "Climbing",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "fray",
+        "name": "Fray",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "Electronics",
+        "value": 15
+      },
+      {
+        "key": "infiltration",
+        "name": "Infiltration",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "infosec",
+        "name": "Infosec",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Criminals",
+        "value": 30
+      },
+      {
+        "key": "palming",
+        "name": "Palming",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "perception",
+        "name": "Perception",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "Thieving",
+        "value": 50
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 5,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "g",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Wealth"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "968430225da8b1b7",
+  "sort": 244000,
+  "ownership": {
+    "default": 0
+  }
+}

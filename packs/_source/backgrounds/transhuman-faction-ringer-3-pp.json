@@ -1,0 +1,88 @@
+{
+  "_id": "749ae081aeeb2d10",
+  "_key": "!items!749ae081aeeb2d10",
+  "name": "Ringer (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You have soared on the solar wind through Saturn’s rings and called its many moons your home.</p><p><strong>Suggested Motivations:</strong> +Exploration, +Morphological Freedom, +Personal Development, +Research</p><p><strong>3 PP:</strong> +50 Rep (Your Choice) · Academics: (Choose One) 50, Beam Weapons 25, Flight 50, Free Fall 40, Interest: (Choose One) 40, Networking: (Choose One) 30, Pilot: Spacecraft 30, Scrounging 30</p><p><em>Source: Eclipse Phase Transhuman, p. 27.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "academics",
+        "name": "Academics",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "beamWeapons",
+        "name": "Beam Weapons",
+        "field": "",
+        "value": 25
+      },
+      {
+        "key": "flight",
+        "name": "Flight",
+        "field": "",
+        "value": 50
+      },
+      {
+        "key": "freeFall",
+        "name": "Free Fall",
+        "field": "",
+        "value": 40
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Spacecraft",
+        "value": 30
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Exploration, +Morphological Freedom, +Personal Development, +Research"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 128000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -137,6 +137,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       gear: byType("gear"),
       augmentations: byType("augmentation"),
       traits: byType("trait"),
+      backgrounds: byType("background"),
       software: byType("software"),
       substances: byType("substance"),
       intrusions: system.intrusions.map(i => ({

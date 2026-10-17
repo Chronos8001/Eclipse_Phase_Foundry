@@ -1,0 +1,88 @@
+{
+  "_id": "689348f7493fbaad",
+  "_key": "!items!689348f7493fbaad",
+  "name": "Barsoomian (3 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your times among the rural folk and nomads of Mars convinced you that Mars needs to be liberated from the hypercorps.</p><p><strong>Suggested Motivations:</strong> +Anarchism, +Barsoomian Movement, +Community, +Technoprogressivism, –Hypercorps</p><p><strong>3 PP:</strong> +50 @-rep · Hardware: (Choose one) 35, Interest: (Choose One) 40, Kinetic Weapons 30, Navigation 30, Networking: Autonomists 40, Pilot: (Choose One) 40, Profession: (Choose One) 50, Scrounging 30</p><p><em>Source: Eclipse Phase Transhuman, p. 23.</em></p>",
+    "kind": "package",
+    "group": "faction",
+    "pp": 3,
+    "skills": [
+      {
+        "key": "hardware",
+        "name": "Hardware",
+        "field": "(Choose one)",
+        "value": 35
+      },
+      {
+        "key": "interest",
+        "name": "Interest",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "kineticWeapons",
+        "name": "Kinetic Weapons",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "navigation",
+        "name": "Navigation",
+        "field": "",
+        "value": 30
+      },
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Autonomists",
+        "value": 40
+      },
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "(Choose One)",
+        "value": 40
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 50
+      },
+      {
+        "key": "scrounging",
+        "name": "Scrounging",
+        "field": "",
+        "value": 30
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 0,
+    "credit": 0,
+    "rep": 50,
+    "repNetwork": "at",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Anarchism, +Barsoomian Movement, +Community, +Technoprogressivism, –Hypercorps"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "455c98bad39d4f02",
+  "sort": 90000,
+  "ownership": {
+    "default": 0
+  }
+}

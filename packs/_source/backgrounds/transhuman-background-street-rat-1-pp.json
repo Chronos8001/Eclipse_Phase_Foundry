@@ -1,0 +1,58 @@
+{
+  "_id": "49d3f8e6b7e56ef3",
+  "_key": "!items!49d3f8e6b7e56ef3",
+  "name": "Street Rat (1 PP)",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You were raised in a gang, syndicate family, or cartel workforce. You are used to the ways of violence and routing around the law.</p><p><strong>Suggested Motivations:</strong> +Black Markets, +Cartel/Gang/Family, +Survival, +Wealth, –Law and Order, –Police</p><p><strong>1 PP:</strong> +1 Moxie · Networking: Criminals 15, Profession: (Choose One) 30, Unarmed Combat 40</p><p><em>Source: Eclipse Phase Transhuman, p. 21.</em></p>",
+    "kind": "package",
+    "group": "background",
+    "pp": 1,
+    "skills": [
+      {
+        "key": "networking",
+        "name": "Networking",
+        "field": "Criminals",
+        "value": 15
+      },
+      {
+        "key": "profession",
+        "name": "Profession",
+        "field": "(Choose One)",
+        "value": 30
+      },
+      {
+        "key": "unarmedCombat",
+        "name": "Unarmed Combat",
+        "field": "",
+        "value": 40
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 1,
+    "credit": 0,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [],
+    "choices": "",
+    "restrictions": "",
+    "morphs": "",
+    "motivations": "+Black Markets, +Cartel/Gang/Family, +Survival, +Wealth, –Law and Order, –Police"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "439aeeed7ae75ac5",
+  "sort": 73000,
+  "ownership": {
+    "default": 0
+  }
+}

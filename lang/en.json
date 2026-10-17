@@ -6,6 +6,7 @@
       "vehicle": "Robot / vehicle"
     },
     "Item": {
+      "background": "Background / faction / package",
       "skill": "Skill",
       "morph": "Morph",
       "trait": "Trait",
@@ -19,6 +20,32 @@
     }
   },
   "EP1E": {
+    "Background": {
+      "kind": {
+        "background": "Background",
+        "faction": "Faction",
+        "package": "Package"
+      },
+      "kindLabel": "Kind",
+      "pp": "Package Points",
+      "moxie": "Moxie",
+      "credit": "Credit",
+      "rep": "Rep (to share out)",
+      "skills": "Skill ranks",
+      "traits": "Traits",
+      "choices": "Choices",
+      "restrictions": "Restrictions",
+      "morphs": "Common morphs",
+      "none": "No background, faction or package.",
+      "dropHint": "Dropped on a character, the skill ranks (as free ranks), traits (at no cost), aptitude, Moxie and credit bonuses apply; choices are done by hand. Deleting the item does not undo them.",
+      "applied": "{item} applied to {name}.",
+      "todo": "To do by hand:",
+      "repTodo": "{rep} Rep to share out",
+      "duplicate": "{skill} was already raised by another package: exchange or combine the points (Transhuman p. 38).",
+      "unknownSkill": "{skill}: a skill outside the list, created as a knowledge skill.",
+      "unknownTrait": "Trait {trait} not found in the compendium: add it by hand.",
+      "notReverted": "Deleting this item does not undo what it gave."
+    },
     "Advance": {
       "title": "Spending Rez Points: {name}",
       "spend": "Spend Rez Points",
@@ -63,6 +90,7 @@
       "gained": "Negative traits give {cp} CP more.",
       "creationHint": "Customization Points the sheet stands for (pp. 134-136): aptitudes above the 105 free points, Moxie above 1, skill points above the linked aptitude except the free ones (skill sheet), Rep above the 50 free points, traits, the active morph, sleights. Free traits from the background or faction: set their cost to 0.",
       "line": {
+        "packages": "Packages",
         "aptitudes": "Aptitudes",
         "moxie": "Moxie",
         "active": "Active skills",
@@ -228,6 +256,7 @@
       "mesh": "Mesh"
     },
     "Section": {
+      "backgrounds": "Background, faction and packages",
       "aptitudes": "Aptitudes",
       "stats": "Stats",
       "mods": "Permanent Modifiers",

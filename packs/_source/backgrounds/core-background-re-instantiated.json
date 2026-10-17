@@ -1,0 +1,51 @@
+{
+  "_id": "6a134dd90c645fe1",
+  "_key": "!items!6a134dd90c645fe1",
+  "name": "Re-instantiated",
+  "type": "background",
+  "img": "icons/svg/village.svg",
+  "system": {
+    "description": "<p>You were born and raised on Earth, but you did not survive the Fall. All that you know is that your body died there, but your backup was transmitted off-world, and you were one of the lucky few to be re-instantiated with a new morph. You may have spent years in dead storage, simulspace, or as an infomorph slave.</p><p>Advantages: +10 Pilot: Groundcraft skill, +10 to a Networking: [Field] skill of your choice, +2 Moxie Disadvantages: Edited Memories trait, 0 Starting Credit (can still buy credit with CP) Common Morphs: Cases, Infomorphs, Synths</p><p><em>Source: Eclipse Phase Core Rulebook, p. 132.</em></p>",
+    "kind": "background",
+    "group": "",
+    "pp": 0,
+    "skills": [
+      {
+        "key": "pilot",
+        "name": "Pilot",
+        "field": "Groundcraft",
+        "value": 10
+      }
+    ],
+    "aptitudes": {
+      "cog": 0,
+      "coo": 0,
+      "int": 0,
+      "ref": 0,
+      "sav": 0,
+      "som": 0,
+      "wil": 0
+    },
+    "moxie": 2,
+    "credit": -5000,
+    "rep": 0,
+    "repNetwork": "",
+    "traits": [
+      {
+        "name": "Edited Memories",
+        "level": 1
+      }
+    ],
+    "choices": "+10 to a Networking: [Field] skill of your choice",
+    "restrictions": "0 Starting Credit (can still buy credit with CP)",
+    "morphs": "Cases, Infomorphs, Synths",
+    "motivations": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "5d1fd729a9c1db00",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  }
+}
