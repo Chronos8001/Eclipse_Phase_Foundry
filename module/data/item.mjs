@@ -25,6 +25,8 @@ export class SkillData extends BaseItemData {
       category: choice(["active", "knowledge"], "active"),
       field: text(),
       ranks: int(0, { min: 0 }),
+      // Ranks given for free by the background, faction or native tongue: they cost no CP (Core p. 135)
+      free: int(0, { min: 0 }),
       mod: int(0),
       specialization: text(),
       noDefault: new BooleanField({ initial: false })

@@ -6,6 +6,7 @@ import * as psi from "../module/rules/psi.mjs";
 import * as mesh from "../module/rules/mesh.mjs";
 import * as gear from "../module/rules/gear.mjs";
 import * as ego from "../module/rules/ego.mjs";
+import * as adv from "../module/rules/advancement.mjs";
 
 const t = (value, target, moxie = null) => evaluateTest({ value, target, moxie });
 
@@ -285,5 +286,48 @@ assert.equal(ego.FAVORS[4].burn, 10);
 assert.equal(ego.favorRefreshed(4, 0, 3 * 3600), false);
 assert.equal(ego.favorRefreshed(4, 0, 30 * 86400), true);
 assert.equal(ego.favorRefreshed(5, null, 0), true);
+
+// --- Creation and advancement (Core pp. 134-136, 152-153) ---
+// A skill whose aptitude is 20 raised to 70 costs 60 CP (p. 135); Tai: Pilot 50 -> 65 is 20 CP, Scrounging 60 -> 70 is 20
+assert.equal(adv.skillCost(20, 70), 60);
+assert.equal(adv.skillCost(50, 65), 20);
+assert.equal(adv.skillCost(60, 70), 20);
+assert.equal(adv.skillCost(40, 40), 0);
+// Raising an aptitude: 10 RP a point, +1 RP per linked skill each point raises over 60 (p. 152)
+assert.equal(adv.aptitudeRezCost(1, [60, 65, 40]), 12);
+assert.equal(adv.aptitudeRezCost(2, [59]), 21);
+// Tai (pp. 135-136): Moxie 1 -> 5 is 60 CP; Rep: 50 free (25/25), +30 on each and g-rep 40 is 10 CP; a bouncer is 40 CP
+const tai = adv.creationCost({
+  aptitudes: [15, 15, 20, 15, 10, 15, 15], moxie: 5,
+  skills: [
+    { category: "active", aptitude: 20, ranks: 30, free: 10, specialized: false },  // Pilot: Spacecraft 50 with +10 free
+    { category: "knowledge", aptitude: 15, ranks: 45, free: 0, specialized: true }
+  ],
+  rep: [55, 55, 40], traits: [{ cost: 10, negative: true, morph: false }, { cost: 5, negative: false, morph: false }],
+  morph: 40, sleights: 0
+});
+assert.equal(tai.lines.moxie, 60);
+assert.equal(tai.lines.aptitudes, 0);   // 105 points in all: the INT raise was paid from the free points
+assert.equal(tai.lines.active, 20);
+assert.equal(tai.lines.knowledge, 45);
+assert.equal(tai.lines.specializations, 5);
+assert.equal(tai.lines.rep, 10);
+assert.equal(tai.lines.positiveTraits, 5);
+assert.equal(tai.gained, 10);
+assert.equal(tai.spent, 60 + 20 + 45 + 5 + 10 + 5 + 40);
+assert.ok(tai.warnings.some(w => w.key === "activeMinimum"));
+assert.ok(tai.warnings.some(w => w.key === "aptitudeMax") === false);
+assert.equal(adv.creationCost({ aptitudes: [25, 25, 15, 15, 15, 15, 15], moxie: 1, skills: [], rep: [50], traits: [], morph: 0, sleights: 0 }).lines.aptitudes, 200);
+// Rez Points: limits of the rules
+assert.deepEqual(adv.rezCost("moxie", { from: 9, points: 1 }), { cost: 15 });
+assert.deepEqual(adv.rezCost("moxie", { from: 10, points: 1 }), { error: "moxieMax" });
+assert.deepEqual(adv.rezCost("aptitude", { from: 30, points: 1 }), { error: "aptitudeMax" });
+assert.deepEqual(adv.rezCost("skill", { total: 58, points: 4 }), { cost: 6 });
+assert.deepEqual(adv.rezCost("skill", { total: 98, points: 2 }), { error: "skillMax" });
+assert.deepEqual(adv.rezCost("specialization", { total: 25 }), { error: "specializationMinimum" });
+assert.deepEqual(adv.rezCost("specialization", { total: 40, specialized: true }), { error: "oneSpecialization" });
+assert.deepEqual(adv.rezCost("specialization", { total: 40 }), { cost: 5 });
+assert.deepEqual(adv.rezCost("sleight", { psi: false }), { error: "noPsi" });
+assert.deepEqual(adv.rezCost("rep", { points: 2 }), { cost: 2 });
 
 console.log("Rules checks passed.");

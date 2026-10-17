@@ -19,6 +19,75 @@
     }
   },
   "EP1E": {
+    "Advance": {
+      "title": "Dépenser des points de rez : {name}",
+      "spend": "Dépenser des points de rez",
+      "buy": "Acheter",
+      "available": "{points} points de rez disponibles.",
+      "kindLabel": "Achat",
+      "points": "Points",
+      "cost": "Coût : {cost} PR",
+      "notEnough": "Cela coûte {cost} PR : seulement {available} disponibles.",
+      "hint": "Coûts de la p. 152. Les limites laissées au MJ ne sont pas appliquées : une compétence monte d’au plus 5 points par mois (1 à partir de 80), rep +10 une fois par mois par réseau, un sleight par mois.",
+      "spentLog": "{name} dépense {cost} PR : {what}.",
+      "monthly": "Temps d’apprentissage et limites mensuelles : livre de base p. 152-153.",
+      "boughtAptitude": "{aptitude} +{points}",
+      "boughtSkill": "{skill} +{points}",
+      "boughtSpecialization": "spécialisation {specialization} en {skill}",
+      "boughtMoxie": "Moxie +{points}",
+      "boughtRep": "{rep} +{value}",
+      "boughtCredit": "{credit} crédits",
+      "boughtSleight": "{points} sleight(s), à ajouter depuis le compendium",
+      "kind": {
+        "aptitude": "Aptitude (10 PR le point)",
+        "skill": "Compétence (1 PR le point, 2 au-delà de 60)",
+        "specialization": "Spécialisation (5 PR)",
+        "moxie": "Moxie (15 PR le point)",
+        "rep": "Rep (+10 par PR)",
+        "credit": "Crédits (1 000 par PR)",
+        "sleight": "Sleight psi (5 PR)"
+      },
+      "error": {
+        "nothing": "Rien à acheter.",
+        "aptitudeMax": "Une aptitude ne peut dépasser 30 (hors bonus).",
+        "skillMax": "Aucune compétence ne peut dépasser 99.",
+        "oneSpecialization": "Cette compétence a déjà une spécialisation : une par compétence.",
+        "specializationMinimum": "Une spécialisation demande une compétence d’au moins 30.",
+        "moxieMax": "La Moxie ne peut dépasser 10.",
+        "noPsi": "Les sleights demandent le trait Psi.",
+        "specializationName": "Nommez la spécialisation."
+      },
+      "creation": "Points de création",
+      "spent": "Dépensés",
+      "left": "Restants",
+      "gained": "Les traits négatifs donnent {cp} PC de plus.",
+      "creationHint": "Points de création que représente la fiche (p. 134-136) : aptitudes au-delà des 105 points gratuits, Moxie au-delà de 1, points de compétence au-dessus de l’aptitude liée hors points gratuits (fiche de la compétence), rep au-delà des 50 points gratuits, traits, morphe actif, sleights. Traits gratuits de l’historique ou de la faction : mettez leur coût à 0.",
+      "line": {
+        "aptitudes": "Aptitudes",
+        "moxie": "Moxie",
+        "active": "Compétences actives",
+        "knowledge": "Compétences de connaissance",
+        "specializations": "Spécialisations",
+        "rep": "Rep",
+        "positiveTraits": "Traits positifs",
+        "morph": "Morphe",
+        "sleights": "Sleights",
+        "other": "Autres"
+      },
+      "warning": {
+        "aptitudeMin": "Chaque aptitude doit valoir au moins 5 (sauf Feeble).",
+        "aptitudeMax": "Aucune aptitude au-delà de 30 (sauf Exceptional Aptitude).",
+        "aptitudesUnspent": "Il reste {points} points d’aptitude gratuits.",
+        "activeMinimum": "Au moins 400 PC de compétences actives ({cp} pour l’instant).",
+        "knowledgeMinimum": "Au moins 300 PC de compétences de connaissance ({cp} pour l’instant).",
+        "skillMax": "Aucune compétence au-delà de 80 à la création.",
+        "repCp": "Au plus 35 PC dépensés en rep.",
+        "repMax": "Aucun score de rep au-delà de 80 à la création.",
+        "positiveTraits": "Au plus 50 PC de traits positifs.",
+        "negativeTraits": "Au plus 50 PC de traits négatifs.",
+        "negativeMorphTraits": "Au plus 25 PC de traits de morphe négatifs."
+      }
+    },
     "Ego": {
       "actions": "Ego",
       "resleeveTests": "Tests de resleeving",
@@ -263,6 +332,8 @@
       "r": "Research Network Associates (scientifiques)"
     },
     "Details": {
+      "cpOther": "Autres PC (crédits…)",
+      "cpHint": "Budget de points de création (1 000 s’il est laissé à 0)",
       "background": "Historique",
       "faction": "Faction",
       "gender": "Identité de genre",
@@ -277,6 +348,8 @@
     },
     "SkillCategory": { "active": "Compétences actives", "knowledge": "Compétences de savoir" },
     "Skill": {
+      "free": "Rangs gratuits",
+      "freeHint": "Rangs donnés par l’historique, la faction ou la langue maternelle : ils ne coûtent pas de PC",
       "label": "Compétence",
       "key": "Compétence de référence",
       "keyHint": "Sert aux armes, aux bonus de morphe et au défaut d'aptitude.",

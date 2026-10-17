@@ -19,6 +19,75 @@
     }
   },
   "EP1E": {
+    "Advance": {
+      "title": "Spending Rez Points: {name}",
+      "spend": "Spend Rez Points",
+      "buy": "Buy",
+      "available": "{points} Rez Points available.",
+      "kindLabel": "Purchase",
+      "points": "Points",
+      "cost": "Cost: {cost} RP",
+      "notEnough": "This costs {cost} RP: only {available} available.",
+      "hint": "Costs of p. 152. The gamemaster's limits are not enforced: a skill rises at most 5 points a month (1 at 80+), Rep +10 once a month per network, one sleight a month.",
+      "spentLog": "{name} spends {cost} RP: {what}.",
+      "monthly": "Training time and monthly limits: Core pp. 152-153.",
+      "boughtAptitude": "{aptitude} +{points}",
+      "boughtSkill": "{skill} +{points}",
+      "boughtSpecialization": "specialization {specialization} in {skill}",
+      "boughtMoxie": "Moxie +{points}",
+      "boughtRep": "{rep} +{value}",
+      "boughtCredit": "{credit} credit",
+      "boughtSleight": "{points} sleight(s), to add from the compendium",
+      "kind": {
+        "aptitude": "Aptitude (10 RP a point)",
+        "skill": "Skill (1 RP a point, 2 above 60)",
+        "specialization": "Specialization (5 RP)",
+        "moxie": "Moxie (15 RP a point)",
+        "rep": "Rep (+10 per RP)",
+        "credit": "Credit (1,000 per RP)",
+        "sleight": "Psi sleight (5 RP)"
+      },
+      "error": {
+        "nothing": "Nothing to buy.",
+        "aptitudeMax": "An aptitude cannot be raised above 30 (bonuses aside).",
+        "skillMax": "No skill may be raised over 99.",
+        "oneSpecialization": "This skill already has a specialization: one per skill.",
+        "specializationMinimum": "A specialization needs a skill of 30 or more.",
+        "moxieMax": "Moxie cannot be raised above 10.",
+        "noPsi": "Sleights need the Psi trait.",
+        "specializationName": "Name the specialization."
+      },
+      "creation": "Creation points",
+      "spent": "Spent",
+      "left": "Left",
+      "gained": "Negative traits give {cp} CP more.",
+      "creationHint": "Customization Points the sheet stands for (pp. 134-136): aptitudes above the 105 free points, Moxie above 1, skill points above the linked aptitude except the free ones (skill sheet), Rep above the 50 free points, traits, the active morph, sleights. Free traits from the background or faction: set their cost to 0.",
+      "line": {
+        "aptitudes": "Aptitudes",
+        "moxie": "Moxie",
+        "active": "Active skills",
+        "knowledge": "Knowledge skills",
+        "specializations": "Specializations",
+        "rep": "Rep",
+        "positiveTraits": "Positive traits",
+        "morph": "Morph",
+        "sleights": "Sleights",
+        "other": "Other"
+      },
+      "warning": {
+        "aptitudeMin": "Each aptitude needs at least 5 (unless Feeble).",
+        "aptitudeMax": "No aptitude may be above 30 (unless Exceptional Aptitude).",
+        "aptitudesUnspent": "{points} free aptitude points left.",
+        "activeMinimum": "At least 400 CP of active skills ({cp} so far).",
+        "knowledgeMinimum": "At least 300 CP of knowledge skills ({cp} so far).",
+        "skillMax": "No skill may start above 80.",
+        "repCp": "At most 35 CP may be spent on Rep.",
+        "repMax": "No Rep score may start above 80.",
+        "positiveTraits": "At most 50 CP of positive traits.",
+        "negativeTraits": "At most 50 CP of negative traits.",
+        "negativeMorphTraits": "At most 25 CP of negative morph traits."
+      }
+    },
     "Ego": {
       "actions": "Ego",
       "resleeveTests": "Resleeving tests",
@@ -263,6 +332,8 @@
       "r": "Research Network Associates (scientists)"
     },
     "Details": {
+      "cpOther": "Other CP (credit…)",
+      "cpHint": "Customization Points budget (1,000 if left at 0)",
       "background": "Background",
       "faction": "Faction",
       "gender": "Gender Identity",
@@ -277,6 +348,8 @@
     },
     "SkillCategory": { "active": "Active Skills", "knowledge": "Knowledge Skills" },
     "Skill": {
+      "free": "Free ranks",
+      "freeHint": "Ranks given by the background, faction or native tongue: they cost no CP",
       "label": "Skill",
       "key": "Reference skill",
       "keyHint": "Used by weapons, morph bonuses and aptitude defaulting.",

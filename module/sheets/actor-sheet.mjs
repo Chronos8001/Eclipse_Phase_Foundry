@@ -5,6 +5,7 @@ import { fallingDamage, shockTarget } from "../rules/combat.mjs";
 import { reloadWeapon } from "../dice/attack.mjs";
 import { createAIActor, hackSystem, removeIntrusion, scorch, subvertSystem, updateIntrusion } from "../dice/mesh.mjs";
 import { ALERTS, statusModifier } from "../rules/mesh.mjs";
+import { creationSummary, promptRez } from "../dice/advancement.mjs";
 import { endIntegration, favorStatus, mergeFork, promptFavor, promptFork, promptResleeve, rollBackupTest } from "../dice/ego.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
@@ -43,6 +44,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       fork: EPActorSheet.#onFork,
       merge: EPActorSheet.#onMerge,
       favor: EPActorSheet.#onFavor,
+      spendRez: EPActorSheet.#onSpendRez,
       itemToChat: EPActorSheet.#onItemToChat,
       applyHarm: EPActorSheet.#onApplyHarm,
       fall: EPActorSheet.#onFall,
@@ -152,6 +154,7 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       },
       systemFields: system.schema.fields,
       favorStatus: favorStatus(actor),
+      creation: creationSummary(actor),
       isFork: !!system.fork.kind,
       forkKind: system.fork.kind ? `EP1E.Ego.forkKind.${system.fork.kind}` : ""
     });
@@ -368,6 +371,10 @@ export class EPActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
 
   static #onMerge() {
     return mergeFork(this.document);
+  }
+
+  static #onSpendRez() {
+    return promptRez(this.document);
   }
 
   static #onFavor(event, target) {

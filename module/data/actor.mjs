@@ -74,7 +74,9 @@ export class EgoData extends foundry.abstract.TypeDataModel {
         muse: text(),
         credits: int(0),
         rez: new SchemaField({ value: int(0, { min: 0 }), total: int(0, { min: 0 }) }),
-        cp: int(0)
+        cp: int(0),
+        // CP spent on what the sheet does not show (credit...), for the creation summary
+        cpOther: int(0, { min: 0 })
       }),
       biography: new HTMLField({ required: true, blank: true }),
       notes: new HTMLField({ required: true, blank: true })

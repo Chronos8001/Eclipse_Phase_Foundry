@@ -12,11 +12,33 @@
       <label>{{localize "EP1E.Details.rez"}}
         <span class="pair"><input type="number" name="system.details.rez.value" value="{{system.details.rez.value}}" min="0" data-tooltip="EP1E.Details.rezCurrent">
         / <input type="number" name="system.details.rez.total" value="{{system.details.rez.total}}" min="0" data-tooltip="EP1E.Details.rezTotal"></span></label>
-      <label>{{localize "EP1E.Details.cp"}}<input type="number" name="system.details.cp" value="{{system.details.cp}}"></label>
+      <label>{{localize "EP1E.Details.cp"}}<input type="number" name="system.details.cp" value="{{system.details.cp}}" data-tooltip="EP1E.Details.cpHint"></label>
+    </div>
+    <div class="button-row">
+      <button type="button" data-action="spendRez"><i class="fa-solid fa-arrow-trend-up"></i> {{localize "EP1E.Advance.spend"}}</button>
     </div>
     <label class="wide">{{localize "EP1E.Details.motivations"}}
       <input type="text" name="system.details.motivations" value="{{system.details.motivations}}" placeholder="+Exploration, −Hypercapitalism, +Open Source">
     </label>
+  </section>
+
+  <section class="panel creation">
+    <h3>{{localize "EP1E.Advance.creation"}}</h3>
+    <table class="creation-cp">
+      <tbody>
+        {{#each creation.lines as |l|}}
+        <tr><td>{{localize l.label}}</td><td class="number">{{l.cp}}</td></tr>
+        {{/each}}
+        <tr><td>{{localize "EP1E.Details.cpOther"}}</td><td class="number"><input type="number" name="system.details.cpOther" value="{{system.details.cpOther}}" min="0"></td></tr>
+      </tbody>
+      <tfoot>
+        <tr><th>{{localize "EP1E.Advance.spent"}}</th><th class="number">{{creation.spent}} / {{creation.budget}}</th></tr>
+        <tr><td>{{localize "EP1E.Advance.left"}}</td><td class="number">{{creation.left}}</td></tr>
+      </tfoot>
+    </table>
+    {{#if creation.gained}}<p class="hint">{{localize "EP1E.Advance.gained" cp=creation.gained}}</p>{{/if}}
+    {{#each creation.warnings as |w|}}<p class="warning">{{w}}</p>{{/each}}
+    <p class="hint">{{localize "EP1E.Advance.creationHint"}}</p>
   </section>
 
   <section class="panel ego-actions">
