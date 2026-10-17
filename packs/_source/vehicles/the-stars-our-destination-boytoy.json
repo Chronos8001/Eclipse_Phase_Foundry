@@ -1,0 +1,67 @@
+{
+  "_id": "064ac7759f0c8652",
+  "_key": "!actors!064ac7759f0c8652",
+  "name": "Boytoy",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "Crew 17, capacity 20",
+    "handling": 0,
+    "movement": "",
+    "maxVelocity": "",
+    "mobility": "",
+    "av": {
+      "energy": 35,
+      "kinetic": 35
+    },
+    "durability": 750,
+    "woundThreshold": 150,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Drive: Fusion Rockets",
+    "cost": "",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p><strong>Salvage Ship.</strong></p><p>Boytoy’s crew is composed entirely of former Thai drag queens. Now radical gender liberationists, they all have modified sex switch biomods that allow for a finer degree of control over the various biological aspects of their sex. When they aren’t tearing apart wrecks or responding to distress calls, they’re usually busy throwing some of the best parties the swarm has to offer and blowing apart the remaining quaint notions of binary gender.</p><p>As the swarm travels through the solar system, they often encounter derelict habitats or spacecraft or are called upon to enact a rescue. This is where their salvage vessels shine. Each of the salvage craft has a wide variety of manipulator arms and probes used to pick through wreckage and space debris. They also have the most advanced sensors in the fleet outside of Stars and are often used for scanning of unidentified objects.</p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 11.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "f02f6bd6727f6953",
+  "sort": 71000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Boytoy",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "40cd9a9c4d299ff8",
+  "_key": "!actors!40cd9a9c4d299ff8",
+  "name": "EVA Rider",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "Crew 0, capacity 4",
+    "handling": 0,
+    "movement": "",
+    "maxVelocity": "",
+    "mobility": "",
+    "av": {
+      "energy": 5,
+      "kinetic": 5
+    },
+    "durability": 40,
+    "woundThreshold": 8,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Drive: Metallic-Hydrogen Rocket",
+    "cost": "",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p><strong>EVA sled.</strong></p><p>As the swarm is relatively spread out, travel between the ships is usually accomplished by way of EVA riders: small, unarmed, four-person craft that use metallic hydrogen propulsion and magnetic grapples to ferry crew between craft. These are improved versions of standard EVA sleds (p. 345, Eclipse Phase) and are specifically designed for passengers. The riders are little more than a seat and small cargo containers (each capable of holding up to 50 kg of material) on top of a metallic-hydrogen engine. The fleet maintains at least twenty riders and the Thoughtcrime can make additional riders in under a day. Rider operation falls under the Pilot: Spacecraft skill.</p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 10.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "f02f6bd6727f6953",
+  "sort": 74000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "EVA Rider",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

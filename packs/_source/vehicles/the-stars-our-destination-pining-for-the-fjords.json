@@ -1,0 +1,67 @@
+{
+  "_id": "4a87f62d75dc8d81",
+  "_key": "!actors!4a87f62d75dc8d81",
+  "name": "Pining for the Fjords",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "Crew 0, capacity 15",
+    "handling": -20,
+    "movement": "",
+    "maxVelocity": "",
+    "mobility": "",
+    "av": {
+      "energy": 20,
+      "kinetic": 20
+    },
+    "durability": 350,
+    "woundThreshold": 70,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Drive: Fusion Rockets",
+    "cost": "",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p><strong>Cargo Hauler.</strong></p><p>This hauler carries 23 cargo modules. Several have been converted into private living modules and research labs.</p><p>There are four aging cargo haulers that are part of the swarm. Each follows a standard design of a command module in front and propulsion module in the back, connected by a long spine along which are attached cargo containers of varying sizes. The haulers themselves are very bare bones, lacking all but the most rudimentary of systems, and are usually navigated by beta forks. These craft lack any sort of atmosphere or gravity, although pressure and air can be enabled if needed. The flotilla’s cargo haulers carry all manner of goods. Sometimes they actually haul bulk goods as they were originally intended, but usually their holds are full of assorted junk and bric-à-brac collected from hundreds of habitats. Many cargo containers have been converted over for use as impromptu saloons, gambling houses, or dens of iniquity. Each cargo container tends to be handled by a separate collective, with decisions regarding use decided on a collective-by-collective basis. Like the main hauler, most of the cargo pods lack breathable atmosphere and pressure, nor are they spun for gravity. Those that run services will often install basic life support, though given the design of the cargo pods gravity is not possible.</p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 9.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "f02f6bd6727f6953",
+  "sort": 63000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Pining for the Fjords",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

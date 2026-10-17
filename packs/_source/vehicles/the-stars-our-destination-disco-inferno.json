@@ -1,0 +1,67 @@
+{
+  "_id": "97c9aa3d46ee0ed0",
+  "_key": "!actors!97c9aa3d46ee0ed0",
+  "name": "Disco Inferno",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "Crew 8, capacity 20",
+    "handling": -20,
+    "movement": "",
+    "maxVelocity": "",
+    "mobility": "",
+    "av": {
+      "energy": 25,
+      "kinetic": 25
+    },
+    "durability": 600,
+    "woundThreshold": 120,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Drive: Fusion Rockets",
+    "cost": "",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p><strong>Mining Tug.</strong></p><p>The Disco may be crewed by the most unusual members of the swarm, The Tenorios (p. 7). Individual Zannis and the occasional spouse rotate out for duty on the Disco Inferno, which needs only a nominal crew. This tug is currently assigned to tow Dayuejin.</p><p>There are three mining tugs in the swarm. Each is capable of maintaining a fully automated mining operation on any sort of asteroid or iceteroid encountered to assist in the resupply of the flotilla’s raw materials. Tug crews tend to be as close as scum get to loners, since they will often be sent on resource gathering away from the rest of the swarm. They maintain a good reputation, however, due to the valuable services they provide the fleet. The mining tugs are regularly tethered to either of the barges to provide them with necessary acceleration, deceleration, or course alterations. They can also provide this service to any other craft in the swarm that lose propulsion capabilities.</p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 10.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "f02f6bd6727f6953",
+  "sort": 68000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Disco Inferno",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

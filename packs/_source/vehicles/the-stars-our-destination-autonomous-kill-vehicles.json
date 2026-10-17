@@ -1,0 +1,67 @@
+{
+  "_id": "cdf25f0266d35c5d",
+  "_key": "!actors!cdf25f0266d35c5d",
+  "name": "Autonomous Kill Vehicles",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "Crew 0, capacity 0",
+    "handling": 30,
+    "movement": "",
+    "maxVelocity": "",
+    "mobility": "",
+    "av": {
+      "energy": 30,
+      "kinetic": 30
+    },
+    "durability": 200,
+    "woundThreshold": 40,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 50,
+    "enhancements": "360-degree Vision, Enhanced Vision, Lidar, Heavy Combat Armor, Neurachem (Level 2), Radar, Radar Absorbent (p. 149, Panopticon), Reduced Signature (p. 149, Panopticon), T-Ray Emitter; Drive: Fusion Rockets",
+    "cost": "",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p><strong>AKV.</strong></p><p>The main defense for the swarm is nearly three dozen autonomous kill vehicles: heavily armed and armored drones that spend most of their time latched on to other ships in the fleet or drifting on the edges of the flotilla looking for threats. Most of the AKVs are piloted by beta forks of various scum personnel that are regularly swapped out to reduce the amount of stress any AKV’s ego accumulates. The AKVs look like pitted and scarred three and a half meter-long splinters of black metal. They are all sharp angles and armor plates, extruding weapon spars only when engaging an enemy. Unlike the rest of the fleet, the AKVs are not given distinctive markings or splashes of color. Unless a viewer knows what they are looking for, they are very hard to spot among the fleet. If any ship in the fleet detects a threat, the AKVs will usually investigate in a group of at least six with all weapon systems powered up. In the event of an attack, the AKVs defend the swarm with maximum force, even going so far as to turn themselves into impromptu fusion warheads as a final strike measure. Enhancements: 360-degree Vision, Enhanced Vision, Lidar, Heavy Combat Armor, Neurachem (Level 2), Radar, Radar Absorbent (p. 149, Panopticon), Reduced Signature (p. 149, Panopticon), T-Ray Emitter Weapons: 2 seeker launchers with 8 HEAP missiles, 1 seeker launcher with 2 EMP missiles, 2 automatic rifle railguns with 1,000 AP rounds Skills: Kinetic Weapons 50, Perception 60, Pilot: Spacecraft 50, Seeker Weapons 40 Notes: A suicide attack using the fusion reactors inflicts AP –40, DV 15d10 + 100, no blast radius DV reduction for the first 100 meters, and radiation.</p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 9.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "f02f6bd6727f6953",
+  "sort": 66000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Autonomous Kill Vehicles",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}

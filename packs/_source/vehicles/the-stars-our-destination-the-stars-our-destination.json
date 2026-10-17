@@ -1,0 +1,67 @@
+{
+  "_id": "ac92000c422ba458",
+  "_key": "!actors!ac92000c422ba458",
+  "name": "The Stars Our Destination",
+  "type": "vehicle",
+  "img": "icons/svg/wheel.svg",
+  "system": {
+    "category": "spacecraft",
+    "passengers": "Crew 93, capacity 250",
+    "handling": 0,
+    "movement": "",
+    "maxVelocity": "",
+    "mobility": "",
+    "av": {
+      "energy": 25,
+      "kinetic": 25
+    },
+    "durability": 600,
+    "woundThreshold": 120,
+    "deathRating": 0,
+    "damage": {
+      "value": 0
+    },
+    "wounds": {
+      "value": 0
+    },
+    "pilot": 40,
+    "enhancements": "Drive: Fusion Rockets",
+    "cost": "",
+    "mods": {
+      "dur": 0,
+      "wt": 0,
+      "energyArmor": 0,
+      "kineticArmor": 0,
+      "woundsIgnored": 0,
+      "actions": 0,
+      "defense": 0,
+      "spd": 0,
+      "init": 0
+    },
+    "biography": "<p><strong>Research Ship.</strong></p><p>The crown jewel of the flotilla is The Stars Our Destination, named after the swarm itself. Originally a deep-space scientific analysis craft, her crew was all killed during the Fall when their life support malfunctioned. She was rediscovered six years ago by members of the Eat-Drink-Fuck collective when they found her drifting among the Martian Trojans. This is the third ship to bear the name The Stars Our Destination as the swarm is in the habit of taking the most impressive ship that they can find—and repair—and making it their flagship. In comparison to the rest of the flotilla, the Stars is by far the most luxurious of the craft, mostly due to the work her crew has put into making it so. The Eat-Drink-Fuck collective is responsible for keeping Stars running, but all members of the swarm are welcome there.</p><p><em>Source: Eclipse Phase The Stars Our Destination, p. 8.</em></p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "f02f6bd6727f6953",
+  "sort": 58000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "The Stars Our Destination",
+    "actorLink": false,
+    "bar1": {
+      "attribute": "damage"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 0,
+    "displayBars": 20,
+    "texture": {
+      "src": "icons/svg/wheel.svg"
+    }
+  }
+}
